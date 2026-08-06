@@ -1,0 +1,346 @@
+.CascadeSelectDialog {
+    // height: 450px;
+    // width: 800px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: #ffffff;
+    font-size: 12px;
+    color: #595959;
+    position: relative;
+
+    .CascadeSelectCont {
+        height: 500px;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-y: auto;
+        .cascadeSelect {
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .cascadeSelect * {
+            font-size: 12px;
+            color: #262626;
+            box-sizing: border-box;
+        }
+
+        /* 滚动条宽度 */
+        .cascadeSelect *::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* 滑块颜色 */
+        .cascadeSelect *::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: #c2c2c2;
+        }
+
+        /* 滚动条轨道颜色 */
+        .cascadeSelect *::-webkit-scrollbar-track {
+            background-color: #fafafa;
+        }
+
+        .cascadeSelect .selectCont {
+            width: 100%;
+            min-height: 32px;
+            background-color: rgba(208, 214, 217, 0.3);
+            border-radius: 2px;
+            padding: 0 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            position: relative;
+        }
+
+        /* 全局搜索框容器 */
+        .cascadeSelect .globalSearchContainer {
+            width: 170px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .cascadeSelect .globalSearchContainer .ant-input {
+            font-size: 12px;
+            height: 32px;
+        }
+
+        .cascadeSelect .selectCont > label {
+            width: 50px;
+            font-weight: 600;
+            padding-top: 6px;
+        }
+
+        .cascadeSelect .selectCont .selectedItemsContainer {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            // gap: 8px;
+            // padding: 8px 0;
+            min-height: 30px;
+        }
+
+        .cascadeSelect .selectCont .selectedItem {
+            display: inline-flex;
+            align-items: center;
+            // background-color: #e6f7ff;
+            // border: 1px solid #91d5ff;
+            border-radius: 2px;
+            padding: 4px 8px;
+            font-size: 12px;
+            gap: 6px;
+            transition: all 0.3s;
+        }
+
+        .cascadeSelect .selectCont .selectedItem:hover {
+            background-color: #bae7ff;
+            border-color: #69c0ff;
+        }
+
+        .cascadeSelect .selectCont .selectedItem span {
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .cascadeSelect .selectCont .selectedItem .closeIcon {
+            cursor: pointer;
+            color: #8c8c8c;
+            font-size: 10px;
+            padding: 2px;
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        .cascadeSelect .selectCont .selectedItem .closeIcon:hover {
+            color: #ff4d4f;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+
+        .cascadeSelect .selectCont .clearAllIcon {
+            cursor: pointer;
+            color: #8c8c8c;
+            font-size: 14px;
+            padding: 2px;
+            border-radius: 2px;
+            transition: all 0.3s;
+            position: absolute;
+            top: 15px;
+            right: 5px;
+            transform: translateY(-50%);
+        }
+
+        .cascadeSelect .selectCont .clearAllIcon:hover {
+            color: #ff4d4f;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+
+        .cascadeSelect .selectArea {
+            width: 100%;
+            height: calc(100% - 84px);
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes {
+            width: 170px;
+            height: 100%;
+            padding-left: 5px;
+            background-color: #f2f9ff;
+            border-radius: 2px;
+            overflow-y: auto;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes::-webkit-scrollbar {
+            width: 2px;
+        }
+
+        .cascadeSelect .selectArea .levelNode {
+            width: 100%;
+            height: 36px;
+            display: inline-flex;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+            padding-left: 5px;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode {
+            margin: 8px 0;
+            padding-right: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: 5px;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode.selectNode {
+            background-color: #fff;
+            border-radius: 18px 0 0 18px;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .levelNode {
+            padding: 0 5px 0 10px;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .levelNode.selectNode {
+            background-color: #cbe7f6;
+        }
+
+        .cascadeSelect .selectArea .levelNode > p {
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode > p {
+            font-size: 14px;
+            // padding-left: 10px;
+            position: relative;
+        }
+
+        // .cascadeSelect .selectArea .firstLevelNodes .levelNode > p::before {
+        //     content: '';
+        //     width: 18px;
+        //     height: 16px;
+        //     background-color: #fff;
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     background-image: url('../imgs/busiTypeIcon.png');
+        //     position: absolute;
+        //     left: 8px;
+        //     top: 1px;
+        //     z-index: 1;
+        // }
+
+        .cascadeSelect .selectArea .levelNode > span {
+            width: 12px;
+            height: 12px;
+            margin-left: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../imgs/down.png');
+            transform: rotate(-90deg);
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes {
+            width: calc(100% - 188px);
+            height: 100%;
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes {
+            width: 100%;
+            max-height: 80px;
+            padding: 4px 0;
+            font-size: 0;
+            overflow-y: auto;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode {
+            display: inline-flex;
+            align-items: center;
+            font-size: 12px;
+            padding: 0 12px;
+            height: 28px;
+            line-height: 28px;
+            margin: 4px 8px 4px 0;
+            background-color: #e6eef4;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode.selectNode {
+            color: #0085d0;
+            background-color: #cce7f6;
+            position: relative;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode.selectNode::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #cce7f6;
+            position: absolute;
+            right: 50%;
+            bottom: -6px;
+            transform: rotate(45deg) translate(50%, -50%);
+            z-index: 1;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .searchNode {
+            width: 25%;
+            height: 30px;
+            margin: 8px 0;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .searchNode .sn-input {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .remainLevelNodes {
+            position: absolute;
+            top: 90px;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #e9e9e9;
+            border-left: 1px solid #e9e9e9;
+            border-bottom: 1px solid #e9e9e9;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .remainLevelNodes > div {
+            width: 25%;
+            height: 100%;
+            border-right: 1px solid #e9e9e9;
+            overflow-y: auto;
+        }
+    }
+
+    .busiButton {
+        height: 60px;
+        line-height: 60px;
+        background: #ebf1f5;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.CascadeSelectDialog::-webkit-scrollbar {
+    width: 5px;
+}
+
+.CascadeSelectDialog::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #999;
+}
+
+.loadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    border-radius: 4px;
+}
+
+.loadingContent {
+    font-size: 16px;
+    color: #1890ff;
+    font-weight: 500;
+}

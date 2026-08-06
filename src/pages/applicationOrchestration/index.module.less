@@ -1,0 +1,374 @@
+.applicationOrchestration {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .appArrange_page {
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appCategory {
+        width: 100%;
+        height: 70px;
+        // padding: 0 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .appName {
+            width: 48%;
+            height: 100%;
+            border: 1px solid #dae1e6;
+            background: #fcfcfd;
+            background: linear-gradient(to bottom, #eff3fe, #fcfcfd);
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .appName.active {
+            border: 1px solid #0085d0;
+            box-shadow: 0 2px 8px #0085d061;
+            position: relative;
+        }
+
+        .appName.active::after {
+            content: '';
+            /* 伪元素必须有content */
+            position: absolute;
+            /* 绝对定位 */
+            bottom: -7px;
+            /* 箭头向下，超出气泡底部10px */
+            left: 50%;
+            /* 水平居中 */
+            transform: translateX(-50%);
+            /* 修正居中（三角宽20px，左移10px） */
+            width: 0;
+            height: 0;
+            /* 利用边框绘制三角：透明边框+白色上边框（匹配气泡背景） */
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-top: 7px solid #fff;
+            /* 三角主体颜色（气泡背景） */
+            /* 关键：给三角加红色阴影，模拟红色边框效果 */
+            filter: drop-shadow(0 1px 0 #064b71);
+            /* 阴影方向匹配箭头，颜色匹配红色边框 */
+        }
+
+        .title {
+            width: calc(100% - 122px);
+            height: 100%;
+            padding-left: 22px;
+
+            > label {
+                font-size: 20px;
+                font-weight: 600;
+                color: #1d2129;
+                line-height: 48px;
+            }
+
+            > p {
+                font-size: 13px;
+                color: #86909c;
+                line-height: 12px;
+            }
+        }
+
+        .imgIcon {
+            width: 80px;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .productApp {
+            .imgIcon {
+                background-image: url('./imgs/ProductionCom.png');
+            }
+        }
+
+        .operateApp {
+            .imgIcon {
+                background-image: url('./imgs/OperatingCom.png');
+            }
+        }
+    }
+
+    .appLabel {
+        width: 100%;
+        padding: 0 25px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        > label {
+            width: 95px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            position: relative;
+            color: #262626;
+        }
+
+        > div {
+            font-size: 13px;
+            color: #595959;
+            display: inline-flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .appFormat {
+            width: calc(100% - 95px);
+
+            .appFormatI {
+                padding: 0 3px;
+                color: #f00;
+                position: absolute;
+                left: -12px;
+            }
+
+            .appFormatItem {
+                padding: 0 12px;
+                height: 32px;
+                line-height: 32px;
+                border-radius: 3px;
+                cursor: pointer;
+                background: #f0f6fb;
+                border: 2px solid #f0f6fb;
+                margin-bottom: 5px;
+                box-sizing: content-box;
+            }
+
+            .active {
+                background-color: #fff;
+            }
+        }
+
+        .appTemplate {
+            width: calc(100% - 260px);
+
+            .appTypeItem {
+                padding: 0 12px;
+                height: 32px;
+                line-height: 32px;
+                border-radius: 3px;
+                cursor: pointer;
+                background: #f0f6fb;
+                border: 2px solid #f0f6fb;
+                margin-bottom: 5px;
+            }
+
+            .appTypeItemActive {
+                background-color: #fff;
+            }
+        }
+
+        .addTemplateDiv {
+            width: 165px;
+            justify-content: flex-end;
+
+            .addAppBtn {
+                padding: 0 10px;
+                height: 30px;
+                margin-left: 10px;
+                border: 1px solid #9dc93c;
+                color: #9dc93c;
+                background-color: #fff;
+                outline: none;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .appTemplateList {
+        margin-top: 15px;
+        padding: 0 25px;
+        flex: 1;
+        overflow-y: auto;
+
+        .searchResultVoid {
+            width: 100%;
+            height: 100%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .searchResultList {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            overflow-y: auto;
+            &::-webkit-scrollbar {
+                width: 0;
+            }
+            .appTemplateCard {
+                width: 32%;
+                height: 232px;
+                background-color: #fff;
+                margin-bottom: 32px;
+
+                .appCardCont {
+                    width: 100%;
+                    height: 208px;
+                    background-color: #f5f5f5;
+                    border: 1px solid #d5dce6;
+                    border-radius: 5px;
+                    background-repeat: no-repeat;
+                    background-position: 50% 26px;
+                    background-image: url('../templateManagement/imgs/card-back.png');
+                    background-size: 88%;
+                    position: relative;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    &:hover {
+                        .operateBtns {
+                            display: flex;
+                        }
+                    }
+                    .appCardDot {
+                        position: absolute;
+                        top: 8px;
+                        left: 12px;
+                        width: 38px;
+                        height: 8px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-image: url('../templateManagement/imgs/card-back-dot.png');
+                    }
+
+                    .operateBtns {
+                        width: 100%;
+                        height: 40px;
+                        background-color: #fff;
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+
+                        > span {
+                            width: 100px;
+                            height: 30px;
+                            margin: 0 6px;
+                            color: #0085d0;
+                            background-color: #c8e7f9;
+                            text-align: center;
+                            line-height: 30px;
+                            border-radius: 3px;
+                            cursor: pointer;
+                        }
+
+                        .modifyBtn {
+                            background-color: #0085d0;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .appCardBottom {
+                    width: 100%;
+                    height: 32px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    > h1 {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .appTemplateCard:nth-of-type(3n - 1),
+            .appTemplateCard:nth-of-type(3n - 2) {
+                margin-right: 2%;
+            }
+        }
+
+        .searchResultVoid {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .nodataCont {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .nodataTitle {
+                    color: #666;
+                }
+
+                .nodataImg {
+                    width: 156px;
+                    height: 156px;
+                    background: url('./imgs/nodata.png');
+                }
+            }
+        }
+    }
+    :global {
+        .content {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            // top: -15px;
+            z-index: 20;
+            background: #fff;
+        }
+        .closeMenuContent {
+            position: absolute;
+            right: 0;
+            width: calc(100% - 15px);
+            height: 100%;
+        }
+        .editContent {
+            float: left;
+            width: 100%;
+            height: calc(100% - 50px);
+            position: absolute;
+            top: 50px;
+            .closeComponentSplitter {
+                overflow: visible;
+            }
+            .configPanelBox {
+                overflow: visible;
+                position: relative;
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 100%;
+                &.hide {
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+.cancel {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,424 @@
+.appBoardIndexBox {
+    height: 100%;
+}
+
+.appBoardIndex {
+    width: 100%;
+    height: 100%;
+    background-color: #eaf0f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.appBoardIndex * {
+    box-sizing: border-box;
+}
+
+.appBoardIndex .leftNode {
+    width: calc(100% - 334px);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.appBoardIndex .leftNode::-webkit-scrollbar {
+    width: 0;
+}
+
+.appBoardIndex .leftNode .first_center_level {
+    width: 100%;
+    height: 30%;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.appBoardIndex .leftNode .second_center_level {
+    width: 100%;
+    height: calc(70% - 8px);
+    margin-top: 8px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.appBoardIndex .first_center_level > div,
+.appBoardIndex .second_center_level > div {
+    height: 100%;
+}
+
+.appBoardIndex .rightNode {
+    width: 324px;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.appBoardIndex .top_row {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appBoardIndex .top_row > h1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.appBoardIndex .top_row > span {
+    color: #0085d0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.appBoardIndex .bottom_row {
+    width: 100%;
+    height: calc(100% - 30px);
+    /*padding: 10px 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.appBoardIndex .bottom_row .echartDom {
+    width: calc(100% - 156px);
+    height: 100%;
+    padding: 7px;
+}
+
+.appBoardIndex .bottom_row .appUseInfo {
+    width: 310px;
+    height: 100%;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first {
+    padding-left: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode {
+    width: 120px;
+    /* height: 60px; */
+    /* margin: 5px 0; */
+    /* border-radius: 2px; */
+    /* background-color: #f1f6fc; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode:nth-of-type(2n) {
+    margin-left: 10px;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeIcon {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .application_tree {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/application_tree.png');
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .usage {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/usage.png');
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .click_rate {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/click_rate.png');
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .coverage {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/coverage.png');
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeFont {
+    /*max-width: calc(100% - 80px);*/
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeFont > p {
+    line-height: 20px;
+    color: #333;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeFont .nodeValue {
+    line-height: 30px;
+    /*color: #333;*/
+    /*font-size: 16px;*/
+    /*font-weight: 600;*/
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeFont .nodeValue .num {
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.appBoardIndex .bottom_row .appUseInfo_first .countNode .nodeFont .nodeValue .unit {
+    line-height: 30px;
+    color: #333;
+    font-size: 13px;
+    /*font-weight: 600;*/
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul {
+    list-style: none;
+    height: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li {
+    width: 100%;
+    flex: 1;
+    /*border-bottom: 1px solid #ccc;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li:nth-of-type(1) {
+    /* background-color: #f2f3f5; */
+    border-radius: 2px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li > span:nth-of-type(1) {
+    width: 20%;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li > span:nth-of-type(2) {
+    width: 40%;
+    display: block;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li > span:nth-of-type(3) {
+    width: 40%;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > li:nth-of-type(n + 2) > span:nth-of-type(n + 2) {
+    color: #0085d0;
+    font-size: 12px;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > .table_cont .ordinal1 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/ordinal_1.png');
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > .table_cont .ordinal2 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/ordinal_2.png');
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .secondLevelApp .appUseInfo > ul > .table_cont .ordinal3 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/ordinal_3.png');
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .hotAppRank {
+    width: 100%;
+    height: 100%;
+}
+
+.appBoardIndex .hotAppRank .appTab {
+    width: 180px;
+    height: 30px;
+    margin: 15px 0;
+    background-color: #e7ebf6;
+    border-radius: 2px;
+    padding: 2px;
+    color: #666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.appBoardIndex .hotAppRank .appTab .tabName {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.appBoardIndex .hotAppRank .appTab .tabName.active {
+    background-color: #fff;
+    color: #0085d0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo {
+    width: 100%;
+    height: calc(100% - 90px);
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul {
+    width: 100%;
+    list-style: none;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li > div {
+    height: 100%;
+    padding: 0 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li > div:nth-of-type(1) {
+    width: 60px;
+    justify-content: center;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li > div:nth-of-type(2) {
+    width: 85px;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li > div:nth-of-type(3) {
+    width: 80px;
+    justify-content: center;
+}
+
+.appBoardIndex .hotAppRank .appListInfo > ul > li > div:nth-of-type(4) {
+    width: 72px;
+    justify-content: center;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .listTableHeader li {
+    line-height: 24px;
+    color: #999;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo {
+    height: calc(100% - 24px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li {
+    flex: 1;
+    margin: 1% 0;
+    overflow: hidden;
+    /*background-color: #f1f6fc;*/
+    font-size: 14px;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li:nth-of-type(1) {
+    background: linear-gradient(90deg, #fcfdf5, #fbefb8);
+    border-radius: 0 6px 16px 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li:nth-of-type(2) {
+    background: linear-gradient(90deg, #fefefe, #d7dee9);
+    border-radius: 0 6px 16px 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li:nth-of-type(3) {
+    background: linear-gradient(90deg, #fdfbf9, #f4ecda);
+    border-radius: 0 6px 16px 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > div:nth-of-type(1) {
+    font-weight: 600;
+    color: #868ea8;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > div:nth-of-type(2) {
+    color: #0085d0;
+    cursor: pointer;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > div:nth-of-type(3) {
+    font-weight: 600;
+    color: #333;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > div:nth-of-type(4) {
+    font-weight: 600;
+    color: #333;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > .hot_rank1 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/hot_rank_1.png');
+    width: 60px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > .hot_rank2 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/hot_rank_2.png');
+    width: 60px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo li > .hot_rank3 {
+    // background-image: url('../../../../../assets/imgs/components/appBoard/hot_rank_3.png');
+    width: 60px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo .appRankItem .nodeValue {
+    height: 30px;
+    line-height: 30px;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo .appRankItem .nodeValue .num {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.appBoardIndex .hotAppRank .appListInfo .appRankInfo .appRankItem .nodeValue .unit {
+    font-size: 12px;
+    font-weight: normal;
+}

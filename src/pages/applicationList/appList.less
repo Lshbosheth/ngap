@@ -1,0 +1,132 @@
+.app-list-container {
+    padding: 12px;
+    padding-top: 0;
+    overflow: auto;
+    .app-list-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .app-list-title {
+            font-weight: bold;
+            font-size: 14px;
+            span {
+                cursor: pointer;
+                margin-right: 10px;
+                position: relative;
+                padding-bottom: 5px;
+                
+                &:hover {
+                    color: #06A4F6;
+                }
+                
+                &.selected {
+                    color: #06A4F6;
+                    
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 2px;
+                        background-color: #06A4F6;
+                    }
+                }
+            }
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+
+    .app-list-filter {
+        // padding: 16px;
+        border-radius: 8px;
+    }
+
+    .filter-categories {
+        .category-level,
+        .filter-section-with-label {
+            // margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .category-label {
+            font-weight: 500;
+            margin-right: 11px;
+            min-width: 75px;
+            padding-top: 8px;
+            flex-shrink: 0;
+            font-size: 13px;
+            text-align: right;
+        }
+
+        .category-tags {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            min-width: 0;
+        }
+
+        // 类目标签按钮样式
+        .category-tag-button {
+            margin: 0 5px 5px 0;
+            font-size: 12px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        // 选中状态的类目标签按钮样式
+        .category-tag-button-selected {
+            color: #0085d0;
+            font-weight: bold;
+            background: rgb(223, 240, 248);
+            border-radius: 4px;
+            // padding: 4px 12px;
+        }
+
+        .filter-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+            align-items: flex-start;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .filter-section :global(.ant-form-item) {
+            margin-bottom: 16px;
+        }
+
+        .filter-actions {
+            margin-top: 16px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+
+    .app-list-table {
+        .table-container {
+        }
+    }
+}
+.creatBox {
+    // display: flex;
+    // justify-content: flex-end;
+    margin-right: 40px;
+    float: right;
+    position: relative;
+    z-index: 99;
+}

@@ -1,0 +1,88 @@
+.create-recent-wrap{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: white;
+    margin-bottom: 10px;
+    color: #333333;
+
+    .create-recent-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .create-recent-top-more{
+            cursor: pointer;
+            color: #0085d0;
+        }
+    }
+
+    .create-recent-data-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .create-recent-item-wrap{
+            width: 100%;
+            padding: 17px 23px;
+            height: 160px;
+            background-image: url("../img/recent-item-bg.png");
+            background-size: 100% 100%;
+
+            .create-recent-item-top{
+                display: flex;
+                align-items: center;
+
+                .create-recent-item-icon{
+                    width: 43px;
+                    height: 43px;
+                }
+
+                .create-recent-item-content{
+                    width: 0;
+                    flex: 1;
+                    margin-left: 10px;
+
+                    .create-recent-item-title{
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+
+                    .create-recent-item-desc{
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .create-recent-item-bottom{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+
+                .create-recent-item-value-wrap{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .create-recent-item-value-title{
+                        color: #516876;
+                        font-size: 14px;
+                    }
+
+                    .create-recent-item-value{
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+
+                .create-recent-item-value-divider{
+                    width: 1px;
+                    height: 30px;
+                    background: #CBDDE9;
+                    margin: 0 30px;
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}

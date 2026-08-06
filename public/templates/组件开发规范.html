@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>组件开发规范</title>
+  <style>
+    html {
+      width: 100%;
+    }
+
+    body {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .katex {
+      font-size: inherit !important;
+    }
+
+    .katex .stretchy,
+    .katex .vlist {
+      display: none;
+    }
+
+    .markdown-body .markdown-toc ul {
+      list-style: none;
+    }
+
+    .markdown-body h1 {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 8px;
+    }
+
+    img,
+    svg {
+      max-width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      display: block;
+      overflow: auto;
+      word-break: keep-all;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    table thead tr,
+    table thead tr {
+      background-color: #F8F8F8;
+    }
+
+    table th {
+      font-weight: bold;
+    }
+
+    table th,
+    table td {
+      padding: 6px 13px;
+      border: 1px solid #ddd;
+    }
+
+    .markdown-body a {
+      color: rgb(3, 102, 214);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    a:hover,
+    a:active {
+      text-decoration: underline;
+      outline: 0;
+    }
+
+    blockquote {
+      font-style: unset;
+      font-size: 1em;
+      text-align: justify;
+      color: #999;
+      border-left: 4px solid #ddd;
+      padding-left: 20px;
+      margin-left: 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 2em;
+    }
+
+    ol.linenums {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    ul li,
+    ol li {
+      line-height: 25px;
+    }
+
+    code,
+    pre code {
+      font-family: Consolas, Menlo, Monaco, SimSun, system-ui;
+      font-weight: normal;
+    }
+
+    code {
+      padding: 1px 4px;
+      margin: 0 2px;
+      font-size: 0.95em;
+      border-radius: 5px;
+      border: none;
+      background: #f6f6f6 !important;
+    }
+
+    pre code {
+      display: inline;
+      max-width: initial;
+      padding: 0;
+      margin: 0;
+      overflow: initial;
+      line-height: inherit;
+      word-wrap: normal;
+      background-color: transparent;
+      border: 0;
+      font-size: 1em;
+    }
+
+    pre ol,
+    code ol {
+      list-style: none;
+      padding: 0;
+      margin: 0 2px;
+    }
+
+    pre ol li,
+    code ol li {
+      line-height: 16px;
+    }
+
+    ol.linenums li code {
+      border: none;
+      background: none;
+      padding: 0;
+    }
+
+    .ms-preview-container pre,
+    .ms-html-preview pre {
+      padding: 15px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      border-radius: 5px;
+      background-color: rgb(246, 248, 250);
+    }
+
+    .markdown-body .task-list-item-checkbox {
+      width: 14px;
+      height: 14px;
+      margin-left: -18px;
+    }
+
+    .markdown-body .task-list-item-checkbox,
+    .markdown-body .task-list-item-content {
+      vertical-align: middle;
+    }
+
+    .str {
+      color: #080;
+    }
+
+    /* string content */
+    .kwd {
+      color: #008;
+    }
+
+    /* a keyword */
+    .com {
+      color: #800;
+    }
+
+    /* a comment */
+    .typ {
+      color: #606;
+    }
+
+    /* a type name */
+    .lit {
+      color: #066;
+    }
+
+    /* a literal value */
+    /* punctuation, lisp open bracket, lisp close bracket */
+    .pun,
+    .opn,
+    .clo {
+      color: rgb(106, 115, 125);
+    }
+
+    .tag {
+      color: #008;
+    }
+
+    /* a markup tag name */
+    .atn {
+      color: #606;
+    }
+
+    /* a markup attribute name */
+    .atv {
+      color: #080;
+    }
+
+    /* a markup attribute value */
+    .dec,
+    .var {
+      color: #606;
+    }
+
+    /* a declaration; a variable name */
+    .fun {
+      color: red;
+    }
+
+    .pln {
+      color: #000;
+    }
+
+    .mermaid>svg,
+    .mermaid .actor,
+    .mermaid .messageText,
+    .mermaid .noteText,
+    .mermaid .loopText,
+    .mermaid .labelText {
+      font-size: 13px;
+    }
+
+    .code-copy-btn {
+      display: none;
+    }
+
+    .markdown-body .highlight.linenums.hljs table {
+      border-collapse: collapse !important;
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right: none !important;
+    }
+
+    .markdown-body .highlight.linenums.hljs table tr,
+    .markdown-body .highlight.linenums.hljs table td {
+      border: none !important;
+      background-color: unset !important;
+    }
+
+    pre img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="markdown-body ms-preview-container ms-preview-active"
+    style="font-weight: normal; font-family: &quot;HarmonyOS Sans&quot; !important; font-size: 16px !important; padding: 20px;"
+    previewcontainer="true">
+    <h3 data-row="0"
+      id="%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3"><span
+        data-row="0">自定义组件开发规范文档</span></h3>
+    <h4 data-row="1" id="%E7%9B%AE%E5%BD%95"><span data-row="1">目录</span></h4>
+    <ol data-row="2">
+      <li data-row="2"><span data-row="2">组件性能优化原则</span></li>
+      <li data-row="3"><span data-row="3">组件文件结构与位置</span></li>
+      <li data-row="4"><span data-row="4">组件拖拽逻辑处理</span></li>
+      <li data-row="5"><span data-row="5">画布工具操作逻辑</span></li>
+      <li data-row="6"><span data-row="6">右侧设置界面 - 样式配置</span></li>
+      <li data-row="7"><span data-row="7">右侧设置界面 - 属性配置</span></li>
+      <li data-row="8"><span data-row="8">右侧设置界面 - 事件配置</span></li>
+      <li data-row="9"><span data-row="9">右侧设置界面 - 数据配置</span></li>
+      <li data-row="10"><span data-row="10">组件数据结构及示例</span></li>
+    </ol>
+    <hr data-row="12">
+    <h3 data-row="14" id="1.%20%E7%BB%84%E4%BB%B6%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%8E%9F%E5%88%99"><span
+        data-row="14">1. 组件性能优化原则</span></h3>
+    <p data-row="15"><span data-row="15">在开发自定义组件时，需重点避免不必要的组件刷新，核心要求如下：</span></p>
+    <ul data-row="16">
+      <li data-row="16"><span data-row="16">仅在属性真正需要更新时触发组件刷新，避免无意义的重渲染</span></li>
+      <li data-row="17"><span data-row="17">杜绝频繁刷新组件，防止页面响应速度下降</span></li>
+      <li data-row="18"><span data-row="18">所有属性更新逻辑需做精准判断，非必要更新操作一律屏蔽</span></li>
+    </ul>
+    <h3 data-row="20" id="2.%20%E7%BB%84%E4%BB%B6%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8E%E4%BD%8D%E7%BD%AE"><span
+        data-row="20">2. 组件文件结构与位置</span></h3>
+    <h4 data-row="21" id="2.1%20%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span data-row="21">2.1 文件目录</span></h4>
+    <p data-row="22"><span data-row="22">组件统一存放于 </span><code data-row-end="23" data-row="22">src/packages/</code><span
+        data-row="22"> 目录下</span></p>
+    <h4 data-row="24" id="2.2%20%E7%BB%84%E4%BB%B6%E6%96%87%E4%BB%B6%E5%A4%B9%E7%BB%93%E6%9E%84"><span data-row="24">2.2
+        组件文件夹结构</span></h4>
+    <p data-row="25"><span data-row="25">每个组件对应独立文件夹（示例名称：component），包含两个核心文件：</span></p>
+    <ul data-row="26">
+      <li data-row="26"><strong data-row="26"><span data-row="26">component.tsx</span></strong><span
+          data-row="26">：</span>
+        <ul data-row="27">
+          <li data-row="27"><span data-row="27">导出由 </span><code data-row-end="28" data-row="27">forwardRef</code><span
+              data-row="27"> 包裹的 React 组件</span></li>
+          <li data-row="28"><span data-row="28">返回组件实例化时展示的所有元素（含事件）</span></li>
+          <li data-row="29"><span data-row="29">通过 </span><code data-row-end="30"
+              data-row="29">useImperativeHandle</code><span data-row="29"> 暴露对外方法，基础方法包括 </span><code data-row-end="30"
+              data-row="29">show</code><span data-row="29">、</span><code data-row-end="30"
+              data-row="29">hide</code><span data-row="29">、</span><code data-row-end="30"
+              data-row="29">update</code><span data-row="29">（需实现自动刷新逻辑），可扩展组件特有方法</span></li>
+        </ul>
+      </li>
+      <li data-row="30"><strong data-row="30"><span data-row="30">Schema.tsx</span></strong><span data-row="30">：</span>
+        <ul data-row="31">
+          <li data-row="31"><span data-row="31">默认导出组件配置对象，包含属性、样式、事件、数据配置</span></li>
+          <li data-row="32"><span data-row="32">优先复用现有配置项，无适配项时自定义配置</span></li>
+          <li data-row="33"><code data-row-end="34" data-row="33">config</code><span data-row="33">
+              中配置组件所有属性并赋默认值，</span><code data-row-end="34" data-row="33">api</code><span data-row="33">
+              属性默认使用静态数据（可切换类型）</span></li>
+        </ul>
+      </li>
+    </ul>
+    <h3 data-row="35" id="3.%20%E7%BB%84%E4%BB%B6%E6%8B%96%E6%8B%BD%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86"><span
+        data-row="35">3. 组件拖拽逻辑处理</span></h3>
+    <p data-row="36"><span data-row="36">核心处理文件：</span><code data-row-end="37" data-row="36">editor.tsx</code></p>
+    <ul data-row="37">
+      <li data-row="37"><span data-row="37">新组件生成时的默认数据/方法需在此文件配置</span></li>
+      <li data-row="38"><span data-row="38">处理组件嵌套存储/单独存储逻辑</span></li>
+      <li data-row="39"><span data-row="39">示例场景：表单组件必须放入 Form 容器的校验逻辑</span></li>
+    </ul>
+    <h3 data-row="41" id="4.%20%E7%94%BB%E5%B8%83%E5%B7%A5%E5%85%B7%E6%93%8D%E4%BD%9C%E9%80%BB%E8%BE%91"><span
+        data-row="41">4. 画布工具操作逻辑</span></h3>
+    <p data-row="42"><span data-row="42">核心处理文件：</span><code data-row-end="43" data-row="42">TopBar.tsx</code></p>
+    <ul data-row="43">
+      <li data-row="43"><span data-row="43">支持组件上移、下移、复制、删除等操作的自定义逻辑扩展</span></li>
+      <li data-row="44"><span data-row="44">处理保存时的自定义逻辑（如数据格式转换）</span></li>
+      <li data-row="45"><span data-row="45">保存数据核心结构说明：</span>
+        <ul data-row="46">
+          <li data-row="46"><code data-row-end="47" data-row="46">atomMap</code><span data-row="46">：组件全量信息对象数组（key 为组件
+              ID，value 为组件完整信息）</span></li>
+          <li data-row="47"><code data-row-end="48" data-row="47">componentList</code><span data-row="47">：组件顺序数据（仅含
+              componentid、componentType、position）</span></li>
+          <li data-row="48"><code data-row-end="49" data-row="48">atomList</code><span
+              data-row="48">：组件列表数组（保存时转字符串，查询返回为 JSON 格式）</span></li>
+        </ul>
+      </li>
+    </ul>
+    <h3 data-row="50"
+      id="5.%20%E5%8F%B3%E4%BE%A7%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%20-%20%E6%A0%B7%E5%BC%8F%E9%85%8D%E7%BD%AE"><span
+        data-row="50">5. 右侧设置界面 - 样式配置</span></h3>
+    <p data-row="51"><span data-row="51">核心处理文件：</span><code data-row-end="52"
+        data-row="51">components/StyleConfig/StyleConfig</code></p>
+    <ul data-row="52">
+      <li data-row="52"><span data-row="52">通用样式直接复用现有组件</span></li>
+      <li data-row="53"><span data-row="53">自定义样式通过 </span><code data-row-end="54" data-row="53">pageStore</code><span
+          data-row="53"> 的更新方法修改组件样式信息</span></li>
+      <li data-row="54"><span data-row="54">特有样式需在 </span><code data-row-end="55" data-row="54">pageStore</code><span
+          data-row="54"> 新增更新方法，在 </span><code data-row-end="55" data-row="54">StyleConfig</code><span data-row="54">
+          中调用</span></li>
+    </ul>
+    <h3 data-row="56"
+      id="6.%20%E5%8F%B3%E4%BE%A7%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%20-%20%E5%B1%9E%E6%80%A7%E9%85%8D%E7%BD%AE"><span
+        data-row="56">6. 右侧设置界面 - 属性配置</span></h3>
+    <p data-row="57"><span data-row="57">核心处理文件：</span><code data-row-end="58"
+        data-row="57">components/SetterRender/SetterRender</code></p>
+    <ul data-row="58">
+      <li data-row="58"><span data-row="58">复用现有属性类型：直接设置组件 </span><code data-row-end="59"
+          data-row="58">type</code><span data-row="58">
+          为对应类型（Title、Input、InputPx、TextArea、InputSelect、Switch、Select、Radio、InputNumber、RadioGroup、ColorPicker、Slider、Variable、function、Icons）</span>
+      </li>
+      <li data-row="59"><span data-row="59">新增属性：在文件中扩展对应类型及配置信息</span></li>
+    </ul>
+    <h3 data-row="61"
+      id="7.%20%E5%8F%B3%E4%BE%A7%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%20-%20%E4%BA%8B%E4%BB%B6%E9%85%8D%E7%BD%AE"><span
+        data-row="61">7. 右侧设置界面 - 事件配置</span></h3>
+    <p data-row="62"><span data-row="62">核心处理文件：</span><code data-row-end="63"
+        data-row="62">component/EventConfig/EventConfig</code></p>
+    <ul data-row="63">
+      <li data-row="63"><span data-row="63">通用事件无需修改此文件逻辑</span></li>
+      <li data-row="64"><span data-row="64">自定义事件/方法：在组件 </span><code data-row-end="65"
+          data-row="64">Schema.ts</code><span data-row="64"> 的 </span><code data-row-end="65"
+          data-row="64">methods</code><span data-row="64"> 属性中新增，事件流可直接调用</span></li>
+    </ul>
+    <h3 data-row="66"
+      id="8.%20%E5%8F%B3%E4%BE%A7%E8%AE%BE%E7%BD%AE%E7%95%8C%E9%9D%A2%20-%20%E6%95%B0%E6%8D%AE%E9%85%8D%E7%BD%AE"><span
+        data-row="66">8. 右侧设置界面 - 数据配置</span></h3>
+    <p data-row="67"><span data-row="67">核心处理文件：</span><code data-row-end="68"
+        data-row="67">component/ApiConfig/ApiConfig</code></p>
+    <ul data-row="68">
+      <li data-row="68"><span data-row="68">支持数据类型：静态数据、接口请求、动态变量</span></li>
+      <li data-row="69"><span data-row="69">数据更新流程：通过 </span><code data-row-end="70" data-row="69">pageStore</code><span
+          data-row="69"> 更新数据 → 更新组件 → 组件内实现内容渲染（在 </span><code data-row-end="70"
+          data-row="69">component.tsx</code><span data-row="69"> 中完成，与通用逻辑一致）</span></li>
+    </ul>
+    <h3 data-row="71" id="9.%20%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%8F%8A%E7%A4%BA%E4%BE%8B"><span
+        data-row="71">9. 组件数据结构及示例</span></h3>
+    <h4 data-row="72" id="9.1%20%E6%A0%B8%E5%BF%83%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%88pageStore%EF%BC%89"><span
+        data-row="72">9.1 核心数据结构（pageStore）</span></h4>
+    <div class="code-block" data-row="73" data-row-end="124">
+      <div class="code-copy-btn">复制</div>
+      <pre class="highlight linenums"><code class="language-typescript hljs" data-highlighted="yes">{
+  <span class="hljs-attr">userInfo</span>: <span class="hljs-title class_">UserInfoStore</span>;
+  <span class="hljs-attr">mode</span>: <span class="hljs-string">'edit'</span> | <span class="hljs-string">'preview'</span>; <span class="hljs-comment">// 编辑/预览模式</span>
+  <span class="hljs-attr">theme</span>: <span class="hljs-string">'light'</span> | <span class="hljs-string">'dark'</span>; <span class="hljs-comment">// 主题</span>
+  <span class="hljs-attr">selectedElement</span>: { <span class="hljs-attr">type</span>: <span class="hljs-built_in">string</span>; <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span> } | <span class="hljs-literal">undefined</span>; <span class="hljs-comment">// 选中组件</span>
+  <span class="hljs-attr">isUpdateToolbar</span>: <span class="hljs-built_in">boolean</span>; <span class="hljs-comment">// 更新遮罩</span>
+  <span class="hljs-attr">isEdit</span>: <span class="hljs-built_in">boolean</span>; <span class="hljs-comment">// 页面是否编辑</span>
+  <span class="hljs-attr">page</span>: {
+    <span class="hljs-attr">id</span>: <span class="hljs-built_in">number</span>;
+    <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>;
+    <span class="hljs-attr">remark</span>: <span class="hljs-built_in">string</span>;
+    <span class="hljs-attr">projectId</span>: <span class="hljs-built_in">number</span>;
+    <span class="hljs-attr">isPublic</span>: <span class="hljs-number">1</span> | <span class="hljs-number">2</span>; <span class="hljs-comment">// 公开状态</span>
+    stgState/preState/<span class="hljs-attr">prdState</span>: <span class="hljs-number">1</span> | <span class="hljs-number">2</span> | <span class="hljs-number">3</span> | <span class="hljs-number">4</span>; <span class="hljs-comment">// 环境状态：1-未保存 2-已保存 3-已发布 4-已回滚</span>
+    stgPublishId/prePublishId/<span class="hljs-attr">prdPublishId</span>: <span class="hljs-built_in">number</span>;
+    previewImg?: <span class="hljs-built_in">string</span>;
+    <span class="hljs-attr">userId</span>: <span class="hljs-built_in">number</span>;
+    <span class="hljs-attr">userName</span>: <span class="hljs-built_in">string</span>;
+    <span class="hljs-attr">pageData</span>: {
+      <span class="hljs-attr">config</span>: { <span class="hljs-comment">// 页面配置</span>
+        <span class="hljs-attr">props</span>: <span class="hljs-built_in">any</span>;
+        <span class="hljs-attr">style</span>: <span class="hljs-title class_">React</span>.<span class="hljs-property">CSSProperties</span>; <span class="hljs-comment">// 页面样式</span>
+        <span class="hljs-attr">scopeCss</span>: <span class="hljs-built_in">string</span>; <span class="hljs-comment">// 作用域CSS</span>
+        <span class="hljs-attr">scopeStyle</span>: <span class="hljs-title class_">React</span>.<span class="hljs-property">CSSProperties</span>; <span class="hljs-comment">// 作用域样式</span>
+        <span class="hljs-attr">events</span>: <span class="hljs-title class_">EventType</span>[]; <span class="hljs-comment">// 事件</span>
+        <span class="hljs-attr">api</span>: { <span class="hljs-comment">// 数据接口</span>
+          <span class="hljs-attr">sourceType</span>: <span class="hljs-string">'json'</span> | <span class="hljs-string">'api'</span>;
+          <span class="hljs-attr">id</span>: <span class="hljs-built_in">string</span>;
+          <span class="hljs-attr">source</span>: <span class="hljs-built_in">any</span>;
+          <span class="hljs-attr">sourceField</span>: <span class="hljs-built_in">string</span> | { <span class="hljs-attr">type</span>: <span class="hljs-string">'variable'</span> | <span class="hljs-string">'static'</span>; <span class="hljs-attr">value</span>: <span class="hljs-built_in">string</span> };
+        };
+      };
+      <span class="hljs-attr">events</span>: <span class="hljs-title class_">Array</span>&lt;{ <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>; <span class="hljs-attr">value</span>: <span class="hljs-built_in">string</span> }&gt;; <span class="hljs-comment">// 页面事件</span>
+      <span class="hljs-attr">apis</span>: { [<span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>]: <span class="hljs-title class_">ApiType</span> }; <span class="hljs-comment">// 全局接口</span>
+      <span class="hljs-attr">elements</span>: <span class="hljs-title class_">ComponentType</span>[]; <span class="hljs-comment">// 组件列表</span>
+      <span class="hljs-attr">elementsMap</span>: { [<span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>]: <span class="hljs-title class_">ComponentType</span> }; <span class="hljs-comment">// 组件映射</span>
+      <span class="hljs-attr">variables</span>: <span class="hljs-title class_">PageVariable</span>[]; <span class="hljs-comment">// 页面变量</span>
+      <span class="hljs-attr">variableData</span>: { [<span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>]: <span class="hljs-built_in">any</span> }; <span class="hljs-comment">// 变量数据</span>
+      <span class="hljs-attr">formData</span>: { [<span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>]: <span class="hljs-built_in">any</span> }; <span class="hljs-comment">// 表单数据</span>
+      <span class="hljs-attr">interceptor</span>: { <span class="hljs-comment">// 全局拦截器</span>
+        headers?: { <span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>; <span class="hljs-attr">value</span>: <span class="hljs-built_in">string</span> }[];
+        <span class="hljs-attr">timeout</span>: <span class="hljs-built_in">number</span>;
+        <span class="hljs-attr">timeoutErrorMessage</span>: <span class="hljs-built_in">string</span>;
+        requestInterceptor?: <span class="hljs-built_in">string</span>;
+        responseInterceptor?: <span class="hljs-built_in">string</span>;
+      };
+    };
+  };
+}
+</code></pre>
+    </div>
+    <h4 data-row="125" id="9.2%20%E6%95%B0%E6%8D%AE%E7%A4%BA%E4%BE%8B"><span data-row="125">9.2 数据示例</span></h4>
+    <div class="code-block" data-row="126" data-row-end="135">
+      <div class="code-copy-btn">复制</div>
+      <pre
+        class="highlight linenums"><code class="language-json hljs" data-highlighted="yes"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">"id"</span><span class="hljs-punctuation">:</span> <span class="hljs-number">144</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"name"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"CRUD案例"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"userId"</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100000</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"userName"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"Ngapview"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"remark"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"验证增删改查"</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"isPublic"</span><span class="hljs-punctuation">:</span> <span class="hljs-number">2</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">"pageData"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"{\"config\":{\"props\":{\"theme\":\"#1677ff\"},\"style\":{\"color\":\"#000\",\"backgroundColor\":\"#fff\",\"padding\":\"20px\"},\"scopeCss\":\"\",\"scopeStyle\":{\"color\":\"#000\",\"backgroundColor\":\"#fff\",\"padding\":\"20px\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"id\":\"\",\"source\":{},\"sourceField\":\"\"}},\"events\":[],\"apis\":{\"6430591d-e956-4174-a7e5-946b072a7e50\":{\"method\":\"GET\",\"url\":\"\",\"sourceType\":\"json\",\"params\":[{\"key\":\"userId\",\"value\":{\"type\":\"variable\",\"value\":\"context.store.userId\"}},{\"key\":\"username\",\"value\":{\"type\":\"variable\",\"value\":\"context.store.userName\"}}],\"contentType\":\"application/json\",\"replaceData\":\"merge\",\"isCors\":true,\"result\":{\"code\":\"returnCode\",\"codeValue\":0,\"data\":\"bean\",\"msg\":\"returnMsg\"},\"tips\":{\"success\":\"请求成功\",\"fail\":\"请求失败\",\"isSuccess\":true,\"isError\":true},\"id\":\"6430591d-e956-4174-a7e5-946b072a7e50\",\"name\":\"获取客户洞察数据\",\"stgApi\":\"http://Ngap-api.Ngapview.com.cn/api\",\"preApi\":\"http://Ngap-api.Ngapview.com.cn/api\",\"prdApi\":\"http://Ngap-api.Ngapview.com.cn/api\",\"sourceField\":\"\"}},\"elements\":[{\"id\":\"Flex_66p7x21h7b\",\"type\":\"Flex\",\"name\":\"Flex容器\",\"elements\":[{\"id\":\"Div_19nsus5xyn\",\"parentId\":\"Flex_66p7x21h7b\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Text_1e6o2d7jg1\",\"parentId\":\"Div_19nsus5xyn\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Divider_6bavwd7lrb\",\"parentId\":\"Div_19nsus5xyn\",\"type\":\"Divider\",\"name\":\"分割线\",\"elements\":[]},{\"id\":\"Tabs_axlpmkvu1q\",\"parentId\":\"Div_19nsus5xyn\",\"type\":\"Tabs\",\"name\":\"标签页\",\"elements\":[{\"id\":\"Tab_ak9parg0lqo\",\"parentId\":\"Tabs_axlpmkvu1q\",\"type\":\"Tab\",\"name\":\"子标签\",\"elements\":[{\"id\":\"Image_2epp45sasw\",\"parentId\":\"Tab_ak9parg0lqo\",\"type\":\"Image\",\"name\":\"图片\",\"elements\":[]},{\"id\":\"Text_29mtmuh1ll\",\"parentId\":\"Tab_ak9parg0lqo\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Text_ddqbz34twm\",\"parentId\":\"Tab_ak9parg0lqo\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Div_b65nhwitfl\",\"parentId\":\"Tab_ak9parg0lqo\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Image_a27hmoe03n\",\"parentId\":\"Div_b65nhwitfl\",\"type\":\"Image\",\"name\":\"图片\",\"elements\":[]},{\"id\":\"Descriptions_30m2e44mqc\",\"parentId\":\"Div_b65nhwitfl\",\"type\":\"Descriptions\",\"name\":\"描述列表\",\"elements\":[]},{\"id\":\"Button_7zu9q50ajr\",\"parentId\":\"Div_b65nhwitfl\",\"type\":\"Button\",\"name\":\"按钮\",\"elements\":[]}]}]},{\"id\":\"Tab_a354vqnyp4\",\"parentId\":\"Tabs_axlpmkvu1q\",\"type\":\"Tab\",\"name\":\"子页签\",\"elements\":[]},{\"id\":\"Tab_5m0jjjecgf\",\"parentId\":\"Tabs_axlpmkvu1q\",\"type\":\"Tab\",\"name\":\"子标签\",\"elements\":[{\"id\":\"Image_b8tm8hxq17\",\"parentId\":\"Tab_5m0jjjecgf\",\"type\":\"Image\",\"name\":\"图片\",\"elements\":[]}]}]}]},{\"id\":\"Div_co92i4dxz7\",\"parentId\":\"Flex_66p7x21h7b\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Text_3mwypkpp96\",\"parentId\":\"Div_co92i4dxz7\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Divider_6qz1t3hwbf\",\"parentId\":\"Div_co92i4dxz7\",\"type\":\"Divider\",\"name\":\"分割线\",\"elements\":[]},{\"id\":\"Div_arkl352n2i\",\"parentId\":\"Div_co92i4dxz7\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Descriptions_237n6082v5\",\"parentId\":\"Div_arkl352n2i\",\"type\":\"Descriptions\",\"name\":\"描述列表\",\"elements\":[]},{\"id\":\"Descriptions_d4xj2oqhfg\",\"parentId\":\"Div_arkl352n2i\",\"type\":\"Descriptions\",\"name\":\"描述列表\",\"elements\":[]},{\"id\":\"Descriptions_157eerjfwi\",\"parentId\":\"Div_arkl352n2i\",\"type\":\"Descriptions\",\"name\":\"描述列表\",\"elements\":[]},{\"id\":\"Descriptions_fxrdxbctx5\",\"parentId\":\"Div_arkl352n2i\",\"type\":\"Descriptions\",\"name\":\"描述列表\",\"elements\":[]}]}]},{\"id\":\"Div_6l6pv2oas4\",\"parentId\":\"Flex_66p7x21h7b\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Text_705eahph2w\",\"parentId\":\"Div_6l6pv2oas4\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Divider_98izpl940l\",\"parentId\":\"Div_6l6pv2oas4\",\"type\":\"Divider\",\"name\":\"分割线\",\"elements\":[]},{\"id\":\"Form_bk3tq9b5pa\",\"parentId\":\"Div_6l6pv2oas4\",\"type\":\"Form\",\"name\":\"Form容器\",\"elements\":[{\"id\":\"Input_ajm25gmdas\",\"parentId\":\"Form_bk3tq9b5pa\",\"type\":\"Input\",\"name\":\"文本框\",\"elements\":[{\"id\":\"Select_1w620fp2go\",\"parentId\":\"Input_ajm25gmdas\",\"type\":\"Select\",\"name\":\"下拉框\",\"elements\":[]}]}]}]}]},{\"id\":\"Div_9edrpot5u7\",\"type\":\"Div\",\"name\":\"Div容器\",\"elements\":[{\"id\":\"Text_102y66arre\",\"parentId\":\"Div_9edrpot5u7\",\"type\":\"Text\",\"name\":\"文本\",\"elements\":[]},{\"id\":\"Divider_3xt5a6lbvh\",\"parentId\":\"Div_9edrpot5u7\",\"type\":\"Divider\",\"name\":\"分割线\",\"elements\":[]},{\"id\":\"Tabs_8c3s7id2wj\",\"parentId\":\"Div_9edrpot5u7\",\"type\":\"Tabs\",\"name\":\"标签页\",\"elements\":[{\"id\":\"Tab_4v254s0mm1s\",\"parentId\":\"Tabs_8c3s7id2wj\",\"type\":\"Tab\",\"name\":\"子标签\",\"elements\":[]},{\"id\":\"Tab_71mowxfehi\",\"parentId\":\"Tabs_8c3s7id2wj\",\"type\":\"Tab\",\"name\":\"子页签\",\"elements\":[]},{\"id\":\"Tab_259pk3l2nu\",\"parentId\":\"Tabs_8c3s7id2wj\",\"type\":\"Tab\",\"name\":\"子页签\",\"elements\":[]},{\"id\":\"Tab_8gxbf1rrm2\",\"parentId\":\"Tabs_8c3s7id2wj\",\"type\":\"Tab\",\"name\":\"子页签\",\"elements\":[]},{\"id\":\"Tab_9xisctaw1k\",\"parentId\":\"Tabs_8c3s7id2wj\",\"type\":\"Tab\",\"name\":\"子页签\",\"elements\":[]}]}]}],\"elementsMap\":{\"Flex_66p7x21h7b\":{\"type\":\"Flex\",\"name\":\"Flex容器\",\"id\":\"Flex_66p7x21h7b\",\"config\":{\"props\":{\"vertical\":false,\"wrap\":\"nowrap\",\"justify\":\"center\",\"align\":\"center\",\"gap\":10},\"style\":{},\"events\":[],\"api\":{},\"source\":\"\"},\"events\":[],\"methods\":[]},\"Div_19nsus5xyn\":{\"type\":\"Div\",\"name\":\"Div容器\",\"parentId\":\"Flex_66p7x21h7b\",\"id\":\"Div_19nsus5xyn\",\"config\":{\"props\":{},\"style\":{\"width\":\"33%\",\"height\":\"500px\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"33%\",\"height\":\"500px\"}},\"events\":[],\"methods\":[]},\"Text_1e6o2d7jg1\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Div_19nsus5xyn\",\"id\":\"Text_1e6o2d7jg1\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"客户洞察\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Divider_6bavwd7lrb\":{\"type\":\"Divider\",\"name\":\"分割线\",\"parentId\":\"Div_19nsus5xyn\",\"id\":\"Divider_6bavwd7lrb\",\"config\":{\"props\":{\"text\":\"\"},\"style\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Tabs_axlpmkvu1q\":{\"type\":\"Tabs\",\"name\":\"标签页\",\"parentId\":\"Div_19nsus5xyn\",\"id\":\"Tabs_axlpmkvu1q\",\"config\":{\"props\":{\"items\":[{\"id\":\"Tab_ak9parg0lqo\",\"key\":\"active1\",\"label\":\"个人\"},{\"id\":\"Tab_a354vqnyp4\",\"key\":\"active2\",\"label\":\"家庭\"}],\"centered\":false,\"hideAdd\":true,\"size\":\"middle\",\"tabBarGutter\":null,\"tabPosition\":\"top\",\"destroyInactiveTabPane\":false,\"type\":\"line\"},\"style\":{\"height\":\"450px\",\"margin\":\"0\",\"padding\":\"10px\",\"position\":\"relative\",\"top\":\"-35px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"450px\",\"margin\":\"0\",\"padding\":\"10px\",\"position\":\"relative\",\"top\":\"-35px\"}},\"events\":[{\"value\":\"onTabClick\",\"name\":\"点击事件\"},{\"value\":\"onChange\",\"name\":\"切换事件\"}],\"methods\":[]},\"Tab_ak9parg0lqo\":{\"id\":\"Tab_ak9parg0lqo\",\"name\":\"子标签\",\"type\":\"Tab\",\"parentId\":\"Tabs_axlpmkvu1q\",\"config\":{\"props\":{\"key\":\"active1\",\"label\":\"个人\",\"icon\":\"\",\"closable\":false,\"forceRender\":false,\"disabled\":false,\"destroyInactiveTabPane\":false,\"id\":\"Tab_ak9parg0lqo\"},\"style\":{\"height\":\"300px\",\"position\":\"relative\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"300px\",\"position\":\"relative\"}},\"events\":[],\"methods\":[]},\"Tab_a354vqnyp4\":{\"type\":\"Tab\",\"name\":\"子页签\",\"parentId\":\"Tabs_axlpmkvu1q\",\"id\":\"Tab_a354vqnyp4\",\"config\":{\"props\":{\"key\":\"active2\",\"label\":\"家庭\",\"icon\":\"\",\"closable\":false,\"forceRender\":false,\"disabled\":false,\"destroyInactiveTabPane\":false,\"activeKey\":\"Tab2\",\"id\":\"Tab_a354vqnyp4\"},\"style\":{},\"events\":[]},\"events\":[],\"methods\":[]},\"Image_2epp45sasw\":{\"type\":\"Image\",\"name\":\"图片\",\"parentId\":\"Tab_ak9parg0lqo\",\"id\":\"Image_2epp45sasw\",\"config\":{\"props\":{\"src\":\"/ngap/src/layout/components/Menu/Imgs/closePageBtn.png\",\"width\":\"50px\",\"height\":\"50px\",\"preview\":false},\"style\":{\"width\":\"50px\",\"height\":\"50px\",\"overflow\":\"hidden\",\"borderRadius\":\"25px\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"50px\",\"height\":\"50px\",\"overflow\":\"hidden\",\"borderRadius\":\"25px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Tab_5m0jjjecgf\":{\"id\":\"Tab_5m0jjjecgf\",\"name\":\"子标签\",\"type\":\"Tab\",\"parentId\":\"Tabs_axlpmkvu1q\",\"config\":{\"props\":{\"key\":\"active1\",\"label\":\"个人\",\"icon\":\"\",\"closable\":false,\"forceRender\":false,\"disabled\":false,\"destroyInactiveTabPane\":false,\"id\":\"Tab_ak9parg0lqo\"},\"style\":{\"height\":\"300px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"300px\"}},\"events\":[],\"methods\":[]},\"Image_b8tm8hxq17\":{\"type\":\"Image\",\"name\":\"图片\",\"parentId\":\"Tab_5m0jjjecgf\",\"id\":\"Image_b8tm8hxq17\",\"config\":{\"props\":{\"src\":\"/ngap/src/layout/components/Menu/Imgs/closePageBtn.png\",\"width\":\"50px\",\"height\":\"50px\",\"preview\":false},\"style\":{\"width\":\"50px\",\"height\":\"50px\",\"overflow\":\"hidden\",\"borderRadius\":\"25px\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"50px\",\"height\":\"50px\",\"overflow\":\"hidden\",\"borderRadius\":\"25px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Text_29mtmuh1ll\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Tab_ak9parg0lqo\",\"id\":\"Text_29mtmuh1ll\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"157***2583\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{\"fontSize\":\"16px\",\"fontWeight\":700,\"position\":\"relative\",\"top\":\"-15px\",\"left\":\"10px\"},\"events\":[],\"api\":{\"sourceType\":\"api\",\"sourceField\":\"\",\"id\":\"6430591d-e956-4174-a7e5-946b072a7e50\",\"source\":\"\"},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"fontSize\":\"16px\",\"fontWeight\":700,\"position\":\"relative\",\"top\":\"-15px\",\"left\":\"10px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Text_ddqbz34twm\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Tab_ak9parg0lqo\",\"id\":\"Text_ddqbz34twm\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"姚* | 全球通金卡 | 入网时间： 12年4个月\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{\"width\":\"calc(100% - 70px)\",\"display\":\"inline-block\",\"backgroundPosition\":\"top\",\"position\":\"relative\",\"overflow\":\"hidden\",\"top\":\"-21px\",\"left\":\"60px\",\"whiteSpace\":\"nowrap\",\"textOverflow\":\"ellipsis\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n    width: calc(100% - 70px);\\n    overflow: hidden;\\n    white-space: nowrap;\\n    text-overflow: ellipsis;\\n}\",\"scopeStyle\":{\"width\":\"auto\",\"display\":\"inline-block\",\"backgroundPosition\":\"top\",\"position\":\"relative\",\"overflow\":\"hidden\",\"top\":\"-21px\",\"left\":\"60px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Div_b65nhwitfl\":{\"type\":\"Div\",\"name\":\"Div容器\",\"parentId\":\"Tab_ak9parg0lqo\",\"id\":\"Div_b65nhwitfl\",\"config\":{\"props\":{},\"style\":{\"height\":\"300px\",\"padding\":\"20px 0\",\"position\":\"relative\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"300px\",\"padding\":\"20px 0\",\"position\":\"relative\"}},\"events\":[],\"methods\":[]},\"Image_a27hmoe03n\":{\"type\":\"Image\",\"name\":\"图片\",\"parentId\":\"Div_b65nhwitfl\",\"id\":\"Image_a27hmoe03n\",\"config\":{\"props\":{\"src\":\"/ngap/src/layout/components/Menu/Imgs/closePageBtn.png\",\"width\":\"50px\",\"height\":\"50px\",\"preview\":false},\"style\":{\"width\":\"50px\",\"height\":\"50px\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"50px\",\"height\":\"50px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Descriptions_30m2e44mqc\":{\"type\":\"Descriptions\",\"name\":\"描述列表\",\"parentId\":\"Div_b65nhwitfl\",\"id\":\"Descriptions_30m2e44mqc\",\"config\":{\"props\":{\"title\":\"客户洞察\",\"colon\":true,\"column\":3,\"layout\":\"horizontal\",\"size\":\"default\",\"empty\":\"-\",\"items\":[{\"label\":\"基社通像\",\"name\":\"name\",\"span\":3,\"type\":\"text\",\"openTooltip\":false,\"clickable\":false,\"eventName\":\"\",\"render\":\"function render(text,record) {\\n    return text;\\n}\"},{\"label\":\"套餐使用\",\"name\":\"type\",\"span\":3,\"type\":\"text\",\"eventName\":\"\",\"render\":\"function render(text,record) {\\n    return text;\\n}\"},{\"label\":\"兴趣偏好\",\"name\":\"a\",\"span\":3,\"type\":\"text\",\"eventName\":\"\",\"render\":\"function render(text,record) {\\n    return text;\\n}\"}]},\"style\":{\"width\":\"calc(100% - 60px)\",\"height\":\"250px\",\"display\":\"inline-flex\",\"position\":\"relative\",\"overflow\":\"auto\",\"top\":\"-16px\",\"flexDirection\":\"column\",\"marginLeft\":\"10px\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"source\":[{\"id\":1001,\"name\":\"该用户是一位女性，拥有全球通金卡用户身份，但已开启免打扰功能。\",\"type\":\"用户党委爱上对方答复阿斯蒂芬收到发放水电费阿斯蒂芬阿斯蒂芬水电费阿斯蒂芬\",\"avatar\":\"/imgs/Ngap-logo.png\",\"time\":10,\"a\":\"阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿萨德阿斯蒂芬阿斯蒂芬收到收到收到阿斯蒂芬as收到\",\"skill\":[\"飞\",\"发光\",\"御敌\"],\"sales\":9.9,\"createdAt\":1768992968911,\"area\":\"热带、亚热带和温带地区\"}],\"sourceField\":\"data.list\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n    width: calc(100% - 60px);\\n    margin-left: 10px;\\n    overflow: auto;\\n}\",\"scopeStyle\":{\"width\":\"auto\",\"height\":\"250px\",\"display\":\"inline-flex\",\"position\":\"relative\",\"top\":\"-16px\",\"flexDirection\":\"column\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Button_7zu9q50ajr\":{\"type\":\"Button\",\"name\":\"按钮\",\"parentId\":\"Div_b65nhwitfl\",\"id\":\"Button_7zu9q50ajr\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"开始洞察\"},\"type\":\"primary\",\"shape\":\"default\"},\"style\":{\"width\":\"120px\",\"padding\":\"0 30px 0 0\",\"opacity\":1,\"fontSize\":\"14px\",\"textAlign\":\"left\",\"backgroundColor\":\"rgb(49, 143, 226)\",\"backgroundImage\":\"url(http://127.0.0.1:8080/ngap/src/layout/components/Menu/Imgs/closePageBtn.png)\",\"backgroundSize\":\"20px 20px\",\"backgroundRepeat\":\"no-repeat\",\"backgroundPosition\":\"90px center\",\"position\":\"absolute\",\"borderRadius\":\"5px\",\"border\":\"none\",\"right\":\"0px\",\"bottom\":\"0px\",\"paddingRight\":\"30px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n    text-align: left;\\n    background-color: rgb(49, 143, 226);\\n    background-size: 20px 20px;\\n    background-repeat: no-repeat;\\n    background-position: 90px center;\\n    padding-right: 30px;\\n}\",\"scopeStyle\":{\"width\":\"120px\",\"padding\":\"0 30px 0 0\",\"opacity\":1,\"fontSize\":\"14px\",\"textAlign\":\"right\",\"backgroundColor\":\"#cf1212\",\"backgroundImage\":\"url(http://127.0.0.1:8080/ngap/src/layout/components/Menu/Imgs/closePageBtn.png)\",\"position\":\"absolute\",\"borderRadius\":\"5px\",\"border\":\"none\",\"right\":\"0px\",\"bottom\":\"0px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Div_co92i4dxz7\":{\"type\":\"Div\",\"name\":\"Div容器\",\"parentId\":\"Flex_66p7x21h7b\",\"id\":\"Div_co92i4dxz7\",\"config\":{\"props\":{},\"style\":{\"width\":\"33%\",\"height\":\"500px\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"33%\",\"height\":\"500px\"}},\"events\":[],\"methods\":[]},\"Text_3mwypkpp96\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Div_co92i4dxz7\",\"id\":\"Text_3mwypkpp96\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"客户基本信息\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Divider_6qz1t3hwbf\":{\"type\":\"Divider\",\"name\":\"分割线\",\"parentId\":\"Div_co92i4dxz7\",\"id\":\"Divider_6qz1t3hwbf\",\"config\":{\"props\":{\"text\":\"\"},\"style\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Div_6l6pv2oas4\":{\"type\":\"Div\",\"name\":\"Div容器\",\"parentId\":\"Flex_66p7x21h7b\",\"id\":\"Div_6l6pv2oas4\",\"config\":{\"props\":{},\"style\":{\"width\":\"33%\",\"height\":\"500px\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"33%\",\"height\":\"500px\"}},\"events\":[],\"methods\":[]},\"Text_705eahph2w\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Div_6l6pv2oas4\",\"id\":\"Text_705eahph2w\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"业务主推\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"100%\",\"height\":\"30px\",\"margin\":\"10px\",\"fontSize\":\"16px\",\"lineHeight\":\"30px\",\"fontWeight\":700}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Divider_98izpl940l\":{\"type\":\"Divider\",\"name\":\"分割线\",\"parentId\":\"Div_6l6pv2oas4\",\"id\":\"Divider_98izpl940l\",\"config\":{\"props\":{\"text\":\"\"},\"style\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"},\"events\":[],\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"backgroundColor\":\"#120101\",\"position\":\"relative\",\"top\":\"-9px\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Div_arkl352n2i\":{\"type\":\"Div\",\"name\":\"Div容器\",\"parentId\":\"Div_co92i4dxz7\",\"id\":\"Div_arkl352n2i\",\"config\":{\"props\":{},\"style\":{\"width\":\"100%\",\"height\":\"calc(100% - 85px)\",\"padding\":\"10px\",\"display\":\"flex\",\"position\":\"relative\",\"flexDirection\":\"column\",\"top\":\"-30px\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n    height: calc(100% - 85px);\\n}\",\"scopeStyle\":{\"width\":\"100%\",\"padding\":\"10px\",\"display\":\"flex\",\"position\":\"relative\",\"flexDirection\":\"column\",\"top\":\"-30px\"}},\"events\":[],\"methods\":[]},\"Descriptions_237n6082v5\":{\"type\":\"Descriptions\",\"name\":\"描述列表\",\"parentId\":\"Div_arkl352n2i\",\"id\":\"Descriptions_237n6082v5\",\"config\":{\"props\":{\"title\":\"基本信息\",\"bordered\":false,\"colon\":true,\"column\":2,\"layout\":\"horizontal\",\"size\":\"default\",\"empty\":\"-\",\"items\":[{\"label\":\"套餐档次\",\"name\":\"type\",\"type\":\"text\",\"span\":1},{\"label\":\"消费金额\",\"name\":\"money\",\"type\":\"text\",\"span\":1}]},\"style\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"source\":[{\"id\":1001,\"name\":\"萤火虫\",\"type\":\"198\",\"avatar\":\"/imgs/Ngap-logo.png\",\"time\":10,\"money\":\"1980\",\"skill\":[\"飞\",\"发光\",\"御敌\"],\"sales\":9.9,\"createdAt\":1769048457920,\"area\":\"热带、亚热带和温带地区\"}],\"sourceField\":\"data.list\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Descriptions_d4xj2oqhfg\":{\"type\":\"Descriptions\",\"name\":\"描述列表\",\"parentId\":\"Div_arkl352n2i\",\"id\":\"Descriptions_d4xj2oqhfg\",\"config\":{\"props\":{\"title\":\"终端特征\",\"bordered\":false,\"colon\":true,\"column\":2,\"layout\":\"horizontal\",\"size\":\"default\",\"empty\":\"-\",\"items\":[{\"label\":\"套餐档次\",\"name\":\"type\",\"type\":\"text\",\"span\":1},{\"label\":\"消费金额\",\"name\":\"money\",\"type\":\"text\",\"span\":1}]},\"style\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"source\":[{\"id\":1001,\"name\":\"萤火虫\",\"type\":\"198\",\"avatar\":\"/imgs/Ngap-logo.png\",\"time\":10,\"money\":\"1980\",\"skill\":[\"飞\",\"发光\",\"御敌\"],\"sales\":9.9,\"createdAt\":1769048457920,\"area\":\"热带、亚热带和温带地区\"}],\"sourceField\":\"data.list\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Descriptions_157eerjfwi\":{\"type\":\"Descriptions\",\"name\":\"描述列表\",\"parentId\":\"Div_arkl352n2i\",\"id\":\"Descriptions_157eerjfwi\",\"config\":{\"props\":{\"title\":\"热线渠道拨打记录\",\"bordered\":false,\"colon\":true,\"column\":2,\"layout\":\"horizontal\",\"size\":\"default\",\"empty\":\"-\",\"items\":[{\"label\":\"套餐档次\",\"name\":\"type\",\"type\":\"text\",\"span\":1},{\"label\":\"消费金额\",\"name\":\"money\",\"type\":\"text\",\"span\":1}]},\"style\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"source\":[{\"id\":1001,\"name\":\"萤火虫\",\"type\":\"198\",\"avatar\":\"/imgs/Ngap-logo.png\",\"time\":10,\"money\":\"1980\",\"skill\":[\"飞\",\"发光\",\"御敌\"],\"sales\":9.9,\"createdAt\":1769048457920,\"area\":\"热带、亚热带和温带地区\"}],\"sourceField\":\"data.list\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Descriptions_fxrdxbctx5\":{\"type\":\"Descriptions\",\"name\":\"描述列表\",\"parentId\":\"Div_arkl352n2i\",\"id\":\"Descriptions_fxrdxbctx5\",\"config\":{\"props\":{\"title\":\"IVR渠道自助查询或办理业务记录\",\"bordered\":false,\"colon\":true,\"column\":2,\"layout\":\"horizontal\",\"size\":\"default\",\"empty\":\"-\",\"items\":[{\"label\":\"套餐档次\",\"name\":\"type\",\"type\":\"text\",\"span\":1},{\"label\":\"消费金额\",\"name\":\"money\",\"type\":\"text\",\"span\":1}]},\"style\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"},\"events\":[],\"api\":{\"sourceType\":\"json\",\"source\":[{\"id\":1001,\"name\":\"萤火虫\",\"type\":\"198\",\"avatar\":\"/imgs/Ngap-logo.png\",\"time\":10,\"money\":\"1980\",\"skill\":[\"飞\",\"发光\",\"御敌\"],\"sales\":9.9,\"createdAt\":1769048457920,\"area\":\"热带、亚热带和温带地区\"}],\"sourceField\":\"data.list\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"height\":\"25%\",\"display\":\"flex\",\"flexDirection\":\"column\",\"flexWrap\":\"nowrap\"}},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[{\"name\":\"startLoading\",\"title\":\"开始loading\"},{\"name\":\"endLoading\",\"title\":\"结束loading\"}]},\"Form_bk3tq9b5pa\":{\"type\":\"Form\",\"name\":\"Form容器\",\"parentId\":\"Div_6l6pv2oas4\",\"id\":\"Form_bk3tq9b5pa\",\"config\":{\"props\":{\"colon\":true,\"labelAlign\":\"right\",\"layout\":\"horizontal\",\"labelCol\":{\"span\":6},\"wrapperCol\":{\"span\":18}},\"style\":{\"width\":\"100%\",\"height\":\"450px\",\"padding\":\"20px 10px\",\"display\":\"block\",\"backgroundColor\":\"#fff\",\"position\":\"relative\",\"top\":\"-30px\"},\"events\":[],\"api\":{},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n    \\n}\",\"scopeStyle\":{\"width\":\"100%\",\"height\":\"450px\",\"padding\":\"20px 10px\",\"display\":\"block\",\"backgroundColor\":\"#fff\",\"position\":\"relative\",\"top\":\"-30px\"}},\"events\":[{\"value\":\"onReset\",\"name\":\"重置事件\"},{\"value\":\"onChange\",\"name\":\"表单变化事件\"},{\"value\":\"onFinish\",\"name\":\"表单提交事件\"}],\"methods\":[{\"name\":\"reset\",\"title\":\"表单重置\"},{\"name\":\"submit\",\"title\":\"表单提交\"},{\"name\":\"validate\",\"title\":\"表单校验\"},{\"name\":\"init\",\"title\":\"表单赋值\"},{\"name\":\"getFormData\",\"title\":\"获取表单数据\"}]},\"Input_ajm25gmdas\":{\"type\":\"Input\",\"name\":\"文本框\",\"parentId\":\"Form_bk3tq9b5pa\",\"id\":\"Input_ajm25gmdas\",\"config\":{\"props\":{\"formItem\":{\"label\":\"\",\"name\":\"\",\"hidden\":false,\"labelCol\":{},\"wrapperCol\":{}},\"defaultValue\":\"\",\"formWrap\":{\"placeholder\":\"输入关键词搜索\",\"allowClear\":true,\"addonAfter\":\"\"}},\"style\":{\"width\":\"100%\"},\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"100%\"}},\"events\":[{\"value\":\"onChange\",\"name\":\"输入事件\"},{\"value\":\"onBlur\",\"name\":\"失焦事件\"},{\"value\":\"onPressEnter\",\"name\":\"回车事件\"}],\"methods\":[]},\"Select_1w620fp2go\":{\"type\":\"Select\",\"name\":\"下拉框\",\"parentId\":\"Input_ajm25gmdas\",\"id\":\"Select_1w620fp2go\",\"config\":{\"props\":{\"formItem\":{\"label\":\"下拉框\",\"name\":\"Select_fgsx2d\"},\"formWrap\":{\"placeholder\":\"请选择数据\",\"allowClear\":true,\"mode\":\"\"},\"field\":{\"label\":\"label\",\"value\":\"value\"}},\"style\":{\"minWidth\":120},\"api\":{\"sourceType\":\"json\",\"source\":[{\"label\":\"选项1\",\"value\":1},{\"label\":\"选项2\",\"value\":2}]}},\"events\":[{\"value\":\"onChange\",\"name\":\"onChange事件\"}],\"methods\":[{\"name\":\"update\",\"title\":\"更新数据\"}]},\"Div_9edrpot5u7\":{\"type\":\"Div\",\"name\":\"Div容器\",\"id\":\"Div_9edrpot5u7\",\"config\":{\"props\":{},\"style\":{\"width\":\"100%\",\"height\":\"500px\",\"padding\":\"10px\",\"border\":\"1x  solid black\"},\"events\":[],\"api\":{},\"source\":\"\",\"scopeCss\":\"/* 请在此处添加样式*/\\n.Ngapview{\\n\\n}\",\"scopeStyle\":{\"width\":\"100%\",\"height\":\"500px\",\"padding\":\"10px\",\"border\":\"1x  solid black\"}},\"events\":[],\"methods\":[]},\"Text_102y66arre\":{\"type\":\"Text\",\"name\":\"文本\",\"parentId\":\"Div_9edrpot5u7\",\"id\":\"Text_102y66arre\",\"config\":{\"props\":{\"text\":{\"type\":\"static\",\"value\":\"话术指引\"},\"type\":\"\",\"script\":\"function render(value){\\n    return value;\\n}\"},\"style\":{},\"events\":[],\"api\":{},\"source\":\"\"},\"events\":[{\"value\":\"onClick\",\"name\":\"点击事件\"}],\"methods\":[]},\"Divider_3xt5a6lbvh\":{\"type\":\"Divider\",\"name\":\"分割线\",\"parentId\":\"Div_9edrpot5u7\",\"id\":\"Divider_3xt5a6lbvh\",\"config\":{\"props\":{\"text</span></code></pre>
+    </div>
+  </div>
+</body>
+
+</html>

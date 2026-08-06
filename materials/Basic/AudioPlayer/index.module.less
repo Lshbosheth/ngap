@@ -1,0 +1,861 @@
+.jpAudio *:focus,
+.jpAudioStream *:focus,
+.jpVideo *:focus {
+    /* Disable the browser focus highlighting. */
+    outline: none;
+}
+
+.jpAudio button::-moz-focus-inner,
+.jpAudioStream button::-moz-focus-inner,
+.jpVideo button::-moz-focus-inner {
+    /* Disable the browser CSS3 focus highlighting. */
+    border: 0;
+}
+
+.jpAudio,
+.jpAudioStream,
+.jpVideo {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    border-radius: 8px;
+    border: 1px solid #d8d8d8;
+    background-color: #f7f7f7;
+}
+
+.jpAudio {
+    //  width: 460px;
+    //  min-width: 460px !important;
+    min-width: 362px !important;
+    box-shadow: 0 3px 2px rgb(216, 216, 216, 12);
+}
+
+.jpAudioStream {
+    width: 182px;
+}
+
+.jpVideo-270p {
+    width: 480px;
+}
+
+.jpVideo-360p {
+    width: 640px;
+}
+
+.jpVideoFull {
+    /* Rules for IE6 (full-screen) */
+    width: 480px;
+    height: 270px;
+    /* Rules for IE7 (full-screen) - Otherwise the relative container causes other page items that are not position:static (default) to appear over the video/gui. */
+    position: static !important;
+    position: relative;
+}
+
+/* The z-index rule is defined in this manner to enable Popcorn plugins that add overlays to video area. EG. Subtitles. */
+.jpVideoFull div div {
+    z-index: 1000;
+}
+
+.jpVideoFull .jpJplayer {
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    position: relative;
+    /* Rules for IE6 (full-screen) */
+    overflow: hidden;
+}
+
+.jpVideoFull .jpGui {
+    position: fixed !important;
+    position: static;
+    /* Rules for IE6 (full-screen) */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    /* 1 layer above the others. */
+}
+
+.jpVideoFull .jpInterface {
+    position: absolute !important;
+    position: relative;
+    /* Rules for IE6 (full-screen) */
+    bottom: 0;
+    left: 0;
+}
+
+.jpInterface {
+    position: relative;
+    top: 1px;
+    width: 100%;
+}
+
+.jpAudio .jpInterface {
+    height: 40px;
+}
+
+.jpAudioStream .jpInterface {
+    height: 80px;
+}
+
+.jpVideo .jpInterface {
+    border-top: 1px solid #009be3;
+}
+
+/* @group CONTROLS */
+.jpControlsHolder {
+    clear: both;
+    /* width: 460px; */
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    /* This negative value depends on the size of the text in jpCurrentTime and jpDuration */
+}
+
+.jpInterface .jpControls {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.jpAudio .jpControls {
+    width: 64px;
+    height: 24px;
+    position: absolute;
+    left: 4px;
+    top: 6px;
+}
+
+.jpAudioStream .jpControls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 142px;
+}
+
+.jpVideo .jpTypeSingle .jpControls {
+    width: 78px;
+    margin-left: 200px;
+}
+
+.jpVideo .jpTypePlaylist .jpControls {
+    width: 134px;
+    margin-left: 172px;
+}
+
+.jpVideo .jpControls {
+    float: left;
+}
+
+.jpControls button {
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+
+.jpPlay {
+    width: 24px;
+    height: 24px;
+}
+
+.jpPlay {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.jpPlay:focus {
+    background-position: -24px 0;
+    background-repeat: no-repeat;
+}
+.jpPlay:hover {
+    background-position: -24px 0;
+    background-repeat: no-repeat;
+}
+
+.jpStatePlaying .jpPlay {
+    background-position: 0 -23px;
+    background-repeat: no-repeat;
+}
+
+.jpStatePlaying .jpPlay:focus {
+    background-position: -24px -23px;
+    background-repeat: no-repeat;
+}
+.jpStatePlaying .jpPlay:hover {
+    background-position: -24px -23px;
+    background-repeat: no-repeat;
+}
+
+.jpStop,
+.jpPrevious,
+.jpNext {
+    width: 24px;
+    height: 24px;
+}
+
+.jpStop {
+    background-position: 0 -47px;
+    background-repeat: no-repeat;
+}
+
+.jpStop:focus {
+    background-position: -24px -47px;
+    background-repeat: no-repeat;
+}
+.jpStop:hover {
+    background-position: -24px -47px;
+    background-repeat: no-repeat;
+}
+
+.jpPrevious {
+    background-position: 0 -74px;
+    background-repeat: no-repeat;
+}
+
+.jpPrevious:focus {
+    background-position: -24px -74px;
+    background-repeat: no-repeat;
+}
+
+.jpNext {
+    background-position: 0 -98px;
+    background-repeat: no-repeat;
+}
+
+.jpNext:focus {
+    background-position: -24px -98px;
+    background-repeat: no-repeat;
+}
+
+/* @end */
+/* @group progress bar */
+.jpProgress {
+    overflow: hidden;
+    background-position: 0 -198px;
+    background-repeat: repeat-x;
+}
+
+.jpAudio .jpProgress {
+    position: absolute;
+    top: 12px;
+    height: 14px;
+}
+
+.jpAudio .jpTypeSingle .jpProgress {
+    left: 60px;
+    width: 186px;
+}
+
+.jpAudio .jpTypePlaylist .jpProgress {
+    left: 166px;
+    width: 130px;
+}
+
+.jpVideo .jpProgress {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10px;
+}
+
+.jpSeekBar {
+    background-position: 0 -222px;
+    background-repeat: repeat-x;
+    width: 0px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.jpPlayBar {
+    background-position: 0 -246px;
+    background-repeat: repeat-x;
+    width: 0px;
+    height: 100%;
+}
+
+/* The seeking class is added/removed inside jPlayer */
+.jpSeekingBg {
+    background-position: 0 -226px;
+    background-repeat: repeat-x;
+}
+
+/* @end */
+/* @group volume controls */
+.jpStateNoVolume .jpVolumeControls {
+    display: none;
+}
+
+.jpVolumeControls {
+    position: absolute;
+    top: 11px;
+    left: 255px;
+    width: 94px;
+    height: 24px;
+}
+
+.jpAudioStream .jpVolumeControls {
+    left: 70px;
+}
+
+.jpVideo .jpVolumeControls {
+    top: 12px;
+    left: 50px;
+}
+
+.jpVolumeControls button {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+
+.jpMute,
+.jpVolumeMax {
+    width: 18px;
+    height: 18px;
+}
+
+.jpVolumeMax {
+    left: 74px;
+}
+
+.jpMute {
+    background-position: -4px -124px;
+    background-repeat: no-repeat;
+}
+
+.jpMute:focus {
+    background-position: -28px -124px;
+    background-repeat: no-repeat;
+}
+
+.jpStateMuted .jpMute {
+    background-position: -4px -148px;
+    background-repeat: no-repeat;
+}
+
+.jpStateMuted .jpMute:focus {
+    background-position: -28px -148px;
+    background-repeat: no-repeat;
+}
+
+.jpVolumeMax {
+    background-position: -2px -172px;
+    background-repeat: no-repeat;
+}
+
+.jpVolumeMax:focus {
+    background-position: -26px -172px;
+    background-repeat: no-repeat;
+}
+
+.jpVolumeBar {
+    position: absolute;
+    overflow: hidden;
+    background-position: 0 -270px;
+    background-repeat: repeat-x;
+    top: 2px;
+    left: 22px;
+    width: 46px;
+    height: 11px;
+    cursor: pointer;
+}
+
+.jpVolumeBarValue {
+    background-position: 0 -294px;
+    background-repeat: repeat-x;
+    width: 0px;
+    height: 11px;
+}
+
+/* @end */
+/* @group current time and duration */
+.jpAudio .jpTimeHolder {
+    position: absolute;
+    top: 50px;
+}
+
+.jpAudio .jpTypeSingle .jpTimeHolder {
+    left: 110px;
+    width: 186px;
+}
+
+.jpAudio .jpTypePlaylist .jpTimeHolder {
+    left: 166px;
+    width: 130px;
+}
+
+.jpTimeBox {
+    position: absolute;
+    font-size: 0;
+    top: 22px;
+    left: 60px;
+    line-height: 14px !important;
+}
+
+.jpCurrentTime,
+.jpDuration,
+.jpTimeSpace {
+    font-size: 10px !important;
+    line-height: 16px;
+    color: #999;
+    text-shadow: 1px 1px 2px #fff;
+    cursor: default;
+    display: inline-block;
+}
+
+.jpTimeSpace {
+    padding: 0 3px;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+/* @end */
+/* @group playlist */
+.jpDetails {
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+}
+
+.jpDetails,
+.jpPlaylist {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 0 0 6px 6px;
+}
+
+.jpTypeSingle .jpDetails,
+.jpTypePlaylist .jpDetails {
+    border-top: 1px solid #eee;
+}
+
+.jpDetails .jpTitle {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #555;
+}
+
+.jpPlaylist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 0.72em;
+}
+
+.jpPlaylist li {
+    padding: 5px 0 4px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.jpPlaylist li div {
+    display: inline;
+}
+
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+div.jpTypePlaylist div.jpPlaylist li:last-child {
+    padding: 5px 0 5px 20px;
+    border-bottom: none;
+}
+
+div.jpTypePlaylist div.jpPlaylist li.jpPlaylistCurrent {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 7px;
+}
+
+div.jpTypePlaylist div.jpPlaylist a {
+    color: #333;
+    text-decoration: none;
+}
+
+div.jpTypePlaylist div.jpPlaylist a:hover {
+    color: #0d88c1;
+}
+
+div.jpTypePlaylist div.jpPlaylist a.jpPlaylistCurrent {
+    color: #0d88c1;
+}
+
+div.jpTypePlaylist div.jpPlaylist a.jpPlaylistItemRemove {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+div.jpTypePlaylist div.jpPlaylist a.jpPlaylistItemRemove:hover {
+    color: #0d88c1;
+}
+
+div.jpTypePlaylist div.jpPlaylist span.jpFreeMedia {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-right: 10px;
+}
+
+div.jpTypePlaylist div.jpPlaylist span.jpFreeMedia a {
+    color: #666;
+}
+
+div.jpTypePlaylist div.jpPlaylist span.jpFreeMedia a:hover {
+    color: #0d88c1;
+}
+
+span.jpArtist {
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* @end */
+.jpVideoPlay {
+    width: 100%;
+    overflow: hidden;
+    /* Important for nested negative margins to work in modern browsers */
+    cursor: pointer;
+    background-color: transparent;
+    /* Makes IE9 work with the active area over the whole video area. IE6/7/8 only have the button as active area. */
+}
+
+.jpVideo-270p .jpVideoPlay {
+    margin-top: -270px;
+    height: 270px;
+}
+
+.jpVideo-360p .jpVideoPlay {
+    margin-top: -360px;
+    height: 360px;
+}
+
+.jpVideoFull .jpVideoPlay {
+    height: 100%;
+}
+
+.jpVideoPlayIcon {
+    position: relative;
+    display: block;
+    width: 112px;
+    height: 100px;
+    margin-left: -56px;
+    margin-top: -50px;
+    left: 50%;
+    top: 50%;
+    background: url('data:image/png;base64,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')
+        0 0 no-repeat;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+
+.jpVideoPlayIcon:focus {
+    background: url('data:image/png;base64,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')
+        0 -100px no-repeat;
+}
+
+.jpJplayer audio,
+.jpJplayer {
+    width: 0px;
+    height: 0px;
+}
+
+.jpJplayer {
+    background-color: #000000;
+}
+
+/* @group TOGGLES */
+/* The audio toggles are nested inside jpTimeHolder */
+.jpToggles {
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.jpAudio .jpTypeSingle .jpToggles {
+    width: 25px;
+}
+
+.jpAudio .jpTypePlaylist .jpToggles {
+    width: 55px;
+    margin: 0;
+    position: absolute;
+    left: 325px;
+    top: 50px;
+}
+
+.jpVideo .jpToggles {
+    position: absolute;
+    right: 16px;
+    margin: 0;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.jpToggles button {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 18px;
+    text-indent: -9999px;
+    line-height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+/* @group NO SOLUTION error feedback */
+.jpNoSolution {
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: #f7f7f7;
+    border: 2px solid #009be3;
+    color: #000;
+    display: none;
+}
+
+.jpNoSolution a {
+    color: #000;
+}
+
+.jpNoSolution span {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* @end */
+
+/* add */
+.jpSpace {
+    width: 4px;
+    height: 24px;
+    font-size: 0;
+    float: left;
+    background-position: -59px top;
+    background-repeat: no-repeat;
+}
+
+/* 倍率样式start */
+.jpPlaybackRateBar {
+    background-color: #cfd1d2;
+}
+
+.jpPlaybackRateBarValue {
+    height: 20px;
+    background-color: red;
+}
+
+.jpRateBox {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+    height: 28px;
+    width: 82px;
+}
+
+.jpNowRate {
+    font-size: 10px;
+    text-indent: 2px;
+    text-align: center;
+    line-height: 26px;
+    color: #89d52c;
+}
+
+.jpRateBoxSpace {
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 18px;
+    right: 91px;
+    background-color: #babdbe;
+}
+
+.jpNowRateSml {
+    line-height: 24px;
+    vertical-align: bottom;
+}
+
+.jpRateAdd,
+.jpRateSub {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    display: block;
+    top: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jpRateAdd {
+    right: 0;
+    background-position: -84px 0;
+}
+
+.jpRateSub {
+    left: 0;
+    background-position: -28px 0;
+}
+
+.jpRateAdd[disabled] {
+    background-position: -56px 0;
+    cursor: not-allowed;
+}
+
+.jpRateSub[disabled] {
+    background-position: 0 0;
+    cursor: not-allowed;
+}
+
+.jpRateBg {
+    background-repeat: no-repeat;
+    background-image: url('data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAAAcCAYAAAC51jtqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkE4NkFCNjFFMzMzMjExRThCRkIwRDQ0NDYxMDZENDUyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkE4NkFCNjFGMzMzMjExRThCRkIwRDQ0NDYxMDZENDUyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTg2QUI2MUMzMzMyMTFFOEJGQjBENDQ0NjEwNkQ0NTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTg2QUI2MUQzMzMyMTFFOEJGQjBENDQ0NjEwNkQ0NTIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6bBLdoAAACLklEQVR42uyYTU8aURSG3xntzokggkaj/ou60kRNTIWVFhfqTov/qTSwqy6k0YWgaaImumr/gwmxBuVj+Oi4U5nec/0IYSWD9yL1vMkwK+7w5Ln3HOYYruuC070xWCAL5LBADgtkgRwWyGGBHI0Cbdt+/nIgEDBe+8dVnRuYhglDrGyID3G52wcnCE99xEjw9Z+nmqc5uaLtZs5+Y2VhBsKDdEE66m4dPqvvRWuY7cA6joNsNqtrs7nffmRw/icHglYV4iGuRpmqQhzEQ1zE52UNsx154k47VZu8vF3BaGgQa5FZZQ8iHuLSIZE4iIe44ilvEs125VmWpbrcuHEhr1CuYmw4iC9LC7L0K5JnPPLokmgQz/hwCMVKFXEPJ9F88/JSaZQqNUyMDGFjUZ28TkpcX/wk+Yjza2q/JYleTqC8a5CHnZ+nsGt/8aG3R5SbOeXymiU28qr+M0l8xFmuOZJbmcCnnqejRyzPT2Og38Lt3T220keeG73XNtHIq7rHEx9xEi9xKxHYifKyGY1g0N+PbC6P5O6hcomdaBPJvUPJR5zE20qlMb2WF60SP4cR9PtwcV1AYvdAmcROyEuITXlxVZB8McHZapvw9BrRLFFHj9iMhhEa8OEyX8L39LHKE6hLnuS4zBclVyzauryumMTQBMZ8mMLIScxW5hiR6cn/ZhKTPv2F1fAs6s+TmIfrpZMYnoV2eVggC+SwQA4LZIEcFshhgRwW+L7yT4ABABMFiDpJM/EyAAAAAElFTkSuQmCC');
+}
+
+/* 倍率样式end */
+
+/* 歌词样式 */
+
+.jpTextContent {
+    overflow: hidden;
+    border-top: 1px solid #cfd1d2;
+    position: relative;
+    box-sizing: border-box;
+    font-size: inherit;
+    text-align: inherit;
+}
+
+.jpTextContent li,
+.jpTextContent ol,
+.jpTextContent ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.jpJplayerTextList {
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+}
+
+.jpJplayerTextItem {
+    padding: 0 50px;
+}
+
+.jpTextHover {
+    /* background-color: #FCE9E9; */
+    color: #89d52c;
+}
+
+.jpTextContentShade {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: center;
+    z-index: 999;
+}
+
+.jpTextContentShadeTop {
+    background-image: url('data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAdCAYAAABrAQZpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNpi+P79+38mBgaG3yDiF5z4CSJ+wInvIOIbKvEVlYWNQFOHIL6jGv8TYTlAgAEAd4AfI6tqs7gAAAAASUVORK5CYII=');
+    top: -1px;
+}
+
+.jpTextContentShadeBottom {
+    background-image: url('data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAYAAADtlXTHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNJREFUeNpi+P79OwMTAwMDK4hggxPsIIIDTnCCCC5UghuVhY1AU4cgOFGNZ0e1nBUgwAAEzwQfppXQCwAAAABJRU5ErkJggg==');
+    bottom: 0;
+}
+
+.snVoice {
+    .FlatTonyBackgroundForJplayer {
+        background-image: url('data:image/png;base64,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');
+    }
+}
+
+/* 歌词样式 end */
+
+/* 波形图样式 */
+
+.jpWaveBox {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #cfd1d2;
+    position: relative;
+}
+
+.jpWavePlayBar,
+.jpWavePlayBarPoint,
+.jpWaveBar,
+.jpWavePlayCover {
+    position: absolute;
+    height: 100%;
+    font-size: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.jpWavePlayBar {
+    z-index: 2;
+    border-right: 1px solid #89d52c;
+    width: 0;
+    transition: all 0.25s;
+}
+
+.jpWaveBar {
+    width: 100%;
+    z-index: 1;
+}
+
+.jpWavePlayCover {
+    width: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background: #000;
+    /* 为了兼容IE8，添加background属性，不然不能点击 */
+    z-index: 30;
+}
+
+.jpWavePlayBarPoint {
+    background-color: transparent;
+}
+
+.jpWavePlayBarPoint .jpWavePl {
+    background-color: #89d52c;
+}
+
+.jpWaveBar .jpWavePl {
+    background-color: #cfd1d2;
+}
+
+.jpWavePl {
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 1px;
+}
+
+.jpWavePlOne {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    max-width: 1px;
+    height: 100%;
+}
+
+/* 波形图样式 end */

@@ -1,0 +1,24 @@
+# .gitattributes - 项目级换行符配置
+# 所有文件默认使用 LF 换行符
+* text=auto eol=lf
+
+# 二进制文件（图片/字体）不转换换行符
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.woff binary
+*.woff2 binary
+
+# 脚本/代码文件强制 LF
+*.js eol=lf
+*.ts eol=lf
+*.tsx eol=lf
+*.less eol=lf
+*.css eol=lf
+*.html eol=lf
+*.json eol=lf
+
+# Windows 批处理文件强制 CRLF（可选）
+*.bat eol=crlf
+*.cmd eol=crlf

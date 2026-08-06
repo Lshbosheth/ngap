@@ -1,0 +1,16 @@
+.boxHover {
+    border: 1px dashed #d5dce6;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -10px;
+        width: 100%;
+        height: calc(100% + 20px);
+        border: 1px solid #0085d0;
+    }
+}
+.box {
+    border: 1px dashed #d5dce6;
+}

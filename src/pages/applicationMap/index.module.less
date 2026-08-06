@@ -1,0 +1,747 @@
+.applicationMapBox {
+    height: 100%;
+    overflow: auto;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+}
+
+.ready {
+    opacity: 1 !important;
+}
+
+.applicationMap {
+    height: 100%;
+    line-height: 1.3;
+    overflow: hidden;
+}
+.applicationMap .applyBg {
+    width: 100%;
+    height: 125px;
+    background: #f5f5f5 /* 图片加载失败时的备用色 */ // url("../../appPlatform/img/applyBg.png") /* 示例图片路径 */
+        no-repeat /* 取消重复 */ center /* 定位居中 */ / 100% 100%; /* 拉伸至div宽高，关键！ */
+    .searchBox {
+        position: absolute;
+        width: 570px;
+        left: calc(50% - 285px);
+        .searchInput {
+            width: 570px;
+            height: 26px;
+            border-radius: 4px;
+            background: #ffffff !important;
+            font-size: 12px !important;
+            margin: 12px 0 8px 0;
+        }
+        .levelsBox {
+            // margin-left: 58px;
+            display: flex;
+            align-items: center;
+            
+            .label {
+                color: #fff;
+                font-size: 12px;
+                margin-left: 10px;
+                margin-right: 8px;
+                white-space: nowrap;
+            }
+            
+            .customSelect {
+                :global {
+                    .ant-select-selector {
+                        background-color: #2A82E8 !important;
+                        min-height: 20px !important;
+                        padding: 0px 8px !important;
+                        height: 24px;
+                        border: none;
+                    }
+                    
+                    .ant-select-selection-item {
+                        background-color: transparent !important;
+                        color: #fff !important;
+                        font-size: 12px !important;
+                        height: 16px !important;
+                        line-height: 16px !important;
+                        margin-top: -3px !important;
+                        padding-left: 0px;
+                        
+                        .ant-select-selection-item-content {
+                            color: #fff !important;
+                            font-size: 12px !important;
+                            line-height: 14px !important;
+                        }
+                        
+                        .ant-select-selection-item-remove {
+                            color: #fff !important;
+                            font-size: 12px;
+                            
+                            &:hover {
+                                color: #fff !important;
+                            }
+                        }
+                    }
+                    
+                    .ant-select-selection-placeholder {
+                        color: #ffffff !important;
+                        font-size: 12px !important;
+                    }
+                    
+                    .ant-select-arrow {
+                        color: #fff !important;
+                    }
+                }
+            }
+
+            .tagInput {
+                :global {
+                    .ant-input {
+                        background-color: #2A82E8 !important;
+                        border: none !important;
+                        color: #fff !important;
+                        font-size: 12px !important;
+                    }
+                }
+            }
+            .tagInput::placeholder {
+                color: #fff !important;
+                font-size: 12px !important;
+            }
+
+            :global {
+                .ant-input-css-var {
+                    background-color: #2A82E8 !important;
+                    border: none;
+                    border-radius: 5px;
+                    height: 24px;
+                    .ant-input {
+                        color: #fff;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        
+        .tagBox {
+            width: 200px;
+            
+            .tagsWrapper {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                background-color: #2A82E8;
+                height: 24px;
+                border-radius: 6px;
+                position: relative;
+                white-space: nowrap;
+                
+                .tagItemBox {
+                    width: 160px;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    flex-shrink: 0;
+                    position: relative;
+                    // padding-left: 6px;
+                }
+                
+                .tagItem {
+                    display: inline-flex;
+                    align-items: center;
+                    padding: 4px 4px;
+                    font-size: 12px;
+                    color: #fff;
+                    gap: 6px;
+                    transition: all 0.3s;
+                    flex-shrink: 0;
+                    max-width: 100%;
+
+                    span {
+                        max-width: 100px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: inline-block;
+                    }
+
+                    .tagCloseIcon {
+                        cursor: pointer;
+                        color: #fff;
+                        font-size: 12px;
+                        padding: 2px;
+                        border-radius: 2px;
+                        transition: all 0.3s;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        &:hover {
+                            color: #ff4d4f;
+                            background-color: rgba(255, 77, 79, 0.1);
+                        }
+                    }
+                }
+
+                .tagSelector {
+                    cursor: pointer;
+                    height: 24px;
+                    line-height: 24px;
+                    color: #fff;
+                    width: 24px;
+                    font-size: 12px;
+                    position: absolute;
+                    right: 10px;
+                    background-color: transparent;
+                    transition: all 0.3s;
+                    user-select: none;
+                    flex-shrink: 0;
+
+                    &:active {
+                        background-color: #bae7ff;
+                    }
+                }
+
+                .emptyTip {
+                    color: #fff;
+                    padding-left: 10px;
+                    font-size: 12px;
+                }
+
+                .overflowEllipsis {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-width: 20px;
+                    padding: 0 4px;
+                    cursor: pointer;
+                    color: #8c8c8c;
+                    font-weight: bold;
+                    height: 16px;
+                    font-size: 14px;
+                    flex-shrink: 0;
+                    background-color: #e6f7ff;
+                    border-radius: 2px;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: #0085d0;
+                        background-color: #bae7ff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.applicationMap .applyBg .topIcon4 {
+    position: absolute;
+    left: 13.16%;
+    z-index: 0;
+}
+.applicationMap .applyBg .topIcon3 {
+    position: absolute;
+    left: 35.21%;
+    z-index: 0;
+}
+.applicationMap .applyBg .topIcon2 {
+    position: absolute;
+    left: 64.71%;
+    z-index: 0;
+}
+.applicationMap .applyBg .elePng {
+    position: absolute;
+    left: 73.43%;
+    top: 9px;
+    z-index: 0;
+}
+.applicationMap .applyBg .topIcon1 {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.applicationMap .applyMapLeft,
+.applicationMap .applyMapRight {
+    display: inline-block;
+    height: calc(100% - 76px);
+    float: left;
+    box-sizing: border-box;
+    margin-top: -50px;
+    position: relative;
+}
+.applicationMap .applyMapLeft {
+    width: 16%;
+    background-color: #f2f9ff;
+    padding: 10px 15px;
+    margin-left: 8px;
+}
+.applicationMap .applyMapRight {
+    width: 83%;
+    background-color: #fff;
+    padding: 10px 0 15px 10px;
+    overflow: auto;
+}
+.applicationMap .applyMapLeft .applyMapLeftScroll {
+    height: calc(100% - 39px);
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.applicationMap .applyMapLeft .first_level {
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.applicationMap .applyMapLeft .first_level_business {
+    border-bottom: 1px solid #d5dce6;
+}
+.first_level_business,
+.operation {
+    .first_number {
+        float: right;
+        position: relative;
+        display: inline-block;
+        width: 17px;
+        height: 16px;
+        line-height: 11px;
+        text-align: center;
+        margin-top: 10px;
+        span {
+            position: relative;
+            z-index: 1;
+            font-size: 11px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+    }
+    .first_number::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 17px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #90c31f;
+    }
+}
+.applicationMap .applyMapLeft .first_level_title {
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 7px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.applicationMap .applyMapLeft .first_active {
+    background: #ffffff;
+    border-radius: 18px 0px 0px 18px;
+}
+.applicationMap .applyMapLeft .first_level_title img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.applicationMap .applyMapRight .second_level_title {
+    line-height: 44px;
+}
+.applicationMap .applyMapLeft .operation .first_level {
+    margin-top: 15px;
+}
+.applicationMap .applyMapRight .secLine {
+    width: 3px;
+    height: 14px;
+    background: #0085d0;
+    display: inline-block;
+    margin-right: 7px;
+}
+.applicationMap .applyMapRight .second_title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+.applicationMap .applyMapRight .Third_title {
+    display: inline-block;
+    // width: 70%;
+    font-weight: bold;
+    font-size: 13px;
+    color: #222222;
+}
+.applicationMap .applyMapRight .Third_number {
+    font-weight: bold;
+    margin-left: 5px;
+}
+.applicationMap .applyMapRight .Third_more {
+    cursor: pointer;
+    display: inline-block;
+    // width: 30%;
+    text-align: right;
+    font-size: 12px;
+    color: #222222;
+    opacity: 0.7;
+    float: right;
+}
+.applicationMap .applyMapRight .Third_more img {
+    vertical-align: sub;
+}
+.applicationMap .applyMapLeft .config_tab_top {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #e0ecf7;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px;
+    color: #333333;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.applicationMap .applyMapLeft .config_tab_top .business_title {
+    width: 33%;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.applicationMap .applyMapLeft .config_tab_top .business_title.title_active {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.applicationMap .applyMapRight .Third_level_business {
+    width: 32%;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #f2f9ff;
+    padding: 15px 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    height: 137px;
+    overflow: hidden;
+    .four_level_title {
+        height: calc(100% - 18px);
+    }
+}
+
+// 二级分类卡片特殊样式（当只有两级分类时）
+.applicationMap .applyMapRight .Third_level_business.twoLevelLayout {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+.searchResultVoid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nodataCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .nodataTitle {
+            color: #666;
+        }
+        .nodataImg {
+            width: 156px;
+            height: 156px;
+            background: url('../applicationOrchestration/imgs/nodata.png');
+        }
+        .nodataTitle3 {
+            color: #666;
+            font-size: 12px;
+        }
+        .nodataImg3 {
+            width: 50px;
+            height: 50px;
+            background: url('../applicationOrchestration/imgs/nodata.png') no-repeat 0 0 / 50px 50px;
+        }
+    }
+}
+.applicationMap .applyMapRight .Third_level_business.appTypeCategoryDiv {
+    height: 105px;
+}
+.applicationMap .applyMapRight .four_title {
+    width: 33%;
+    display: inline-block;
+    white-space: nowrap; /* 防止文本换行 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    text-overflow: ellipsis; /* 显示省略号来表示溢出的内容 */
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333333;
+    // padding-left: 10px;
+    box-sizing: border-box;
+}
+.applicationMap .applyMapRight .four_title:hover {
+    color: #0085d0;
+    cursor: pointer;
+}
+.applicationMap .applyMapRight .operationType {
+    width: 49%;
+}
+.applicationMap .applyMapRight .four_title.moreApplycation {
+    color: #0085d0;
+    cursor: pointer;
+    width: 23%;
+}
+.applicationMap .applyMapRight .operationType.moreApplycation {
+    color: #0085d0;
+    cursor: pointer;
+    width: 39%;
+}
+.applicationMap .applyMapRight .countNum {
+    color: #0085d0;
+    width: 10%;
+    display: inline-block;
+    overflow: hidden; /* 隐藏溢出的内容 */
+    margin-top: 10px;
+    font-size: 12px;
+}
+.custom_popover :global(.moreCont .moreContTitle) {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+}
+.custom_popover :global(.moreCont span) {
+    display: inline-block;
+    width: 33%;
+    font-size: 12px;
+    color: #0085d0;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom_modal :global(.modalBox) {
+    width: 550px;
+    height: 350px;
+    overflow: auto;
+}
+
+.custom_modal :global(.modalBox .four_title) {
+    font-size: 12px;
+    color: #333333;
+    display: inline-block;
+    width: 24.3%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+}
+
+// 隐藏标签Tooltip覆盖层样式
+.hiddenTagsTooltipOverlay {
+    :global(.ant-tooltip-inner) {
+        width: 400px !important;
+        padding: 8px 12px !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
+        border: 1px solid #d9d9d9;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        white-space: normal !important;
+        overflow: visible !important;
+    }
+    
+    :global(.ant-tooltip-inner > div) {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 400px !important;
+        overflow-y: auto;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    :global(.ant-tooltip-inner > div > div) {
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 4px 4px !important;
+        font-size: 14px !important;
+        color: rgba(0, 0, 0, 0.88) !important;
+        border-radius: 4px !important;
+        gap: 6px !important;
+        transition: all 0.3s !important;
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+
+        &:hover {
+            background-color: #bae7ff !important;
+        }
+
+        span {
+            max-width: 120px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        svg {
+            cursor: pointer !important;
+            color: #8c8c8c !important;
+            font-size: 14px !important;
+            padding: 2px !important;
+            border-radius: 2px !important;
+            transition: all 0.3s !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            &:hover {
+                color: #ff4d4f !important;
+                background-color: rgba(255, 77, 79, 0.1) !important;
+            }
+        }
+    }
+    
+    :global(.ant-tooltip-arrow) {
+        &::before {
+            background-color: #ffffff !important;
+            border: 1px solid #d9d9d9;
+        }
+        
+        &::after {
+            background-color: #ffffff !important;
+        }
+    }
+}
+.custom_modal :global(.modalBox .four_title):hover {
+    color: #0085d0;
+    cursor: pointer;
+}
+.custom_modal :global(.modalBox .four_title.moreApplycation) {
+    color: #0085d0;
+    cursor: pointer;
+    width: 14.3%;
+}
+
+.custom_modal :global(.modalBox .countNum) {
+    color: #0085d0;
+    width: 10%;
+    display: inline-block;
+    overflow: hidden; /* 隐藏溢出的内容 */
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+// 复制按钮样式：默认隐藏，悬浮显示
+.applyMapRight {
+    // 应用名称容器中的复制按钮
+    .four_title {
+        // 复制图标默认隐藏
+        :global(.anticon-copy) {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+            margin-left: 4px;
+            
+            &:hover {
+                color: #0085d0;
+            }
+        }
+        
+        // 鼠标悬浮在应用名称上时显示复制图标
+        &:hover :global(.anticon-copy) {
+            opacity: 1;
+        }
+    }
+}
+
+// 弹窗中的应用名称复制按钮
+.custom_modal :global(.modalBox .four_title) {
+    // 复制图标默认隐藏
+    :global(.anticon-copy) {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+        margin-left: 4px;
+        
+        &:hover {
+            color: #0085d0;
+        }
+    }
+    
+    // 鼠标悬浮在应用名称上时显示复制图标
+    &:hover :global(.anticon-copy) {
+        opacity: 1;
+    }
+}
+
+// 隐藏标签Tooltip覆盖层样式
+.hiddenTagsTooltipOverlay {
+    :global(.ant-tooltip-inner) {
+        width: 400px !important;
+        padding: 8px 12px !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
+        border: 1px solid #d9d9d9;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        white-space: normal !important;
+        overflow: visible !important;
+    }
+    
+    :global(.ant-tooltip-inner > div) {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        width: 400px !important;
+        overflow-y: auto;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    :global(.ant-tooltip-inner > div > div) {
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 4px 4px !important;
+        font-size: 14px !important;
+        color: rgba(0, 0, 0, 0.88) !important;
+        border-radius: 4px !important;
+        gap: 6px !important;
+        transition: all 0.3s !important;
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+
+        &:hover {
+            background-color: #bae7ff !important;
+        }
+
+        span {
+            max-width: 120px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        svg {
+            cursor: pointer !important;
+            color: #8c8c8c !important;
+            font-size: 14px !important;
+            padding: 2px !important;
+            border-radius: 2px !important;
+            transition: all 0.3s !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            &:hover {
+                color: #ff4d4f !important;
+                background-color: rgba(255, 77, 79, 0.1) !important;
+            }
+        }
+    }
+    
+    :global(.ant-tooltip-arrow) {
+        &::before {
+            background-color: #ffffff !important;
+            border: 1px solid #d9d9d9;
+        }
+        
+        &::after {
+            background-color: #ffffff !important;
+        }
+    }
+}

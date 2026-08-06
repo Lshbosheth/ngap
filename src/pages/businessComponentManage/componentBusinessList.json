@@ -1,0 +1,134 @@
+{
+    "returnCode": "0",
+    "beans": [
+        {
+            "createStaffId": "",
+            "createTime": "2026-01-09 15:13:42",
+            "businessId": "26010915134200004",
+            "businessName": "查询类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:13:42"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2026-01-09 15:13:37",
+            "businessId": "26010915133600003",
+            "businessName": "信息提醒类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:13:37"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2026-01-09 15:13:27",
+            "businessId": "26010915132600002",
+            "businessName": "监控看板类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:13:27"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-11-28 11:35:44",
+            "businessId": "2511281135420100004",
+            "businessName": "配置类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:13:14"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-11-28 17:44:24",
+            "businessId": "2511281743540100007",
+            "businessName": "页面布局类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:13:05"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-12-04 16:04:31",
+            "businessId": "25120416043100011",
+            "businessName": "其他类",
+            "businessCategory": "2",
+            "updateStaffId": "",
+            "updateTime": "2026-01-09 15:12:54"
+        },
+        {
+            "createStaffId": "HAT5069",
+            "createTime": "2025-10-20 16:46:55",
+            "businessId": "2510201646420100014",
+            "businessName": "查询类",
+            "businessCategory": "1",
+            "updateStaffId": "JST6100",
+            "updateTime": "2025-12-23 18:42:22"
+        },
+        {
+            "createStaffId": "HAT5069",
+            "createTime": "2025-10-20 16:46:29",
+            "businessId": "2510201646160100012",
+            "businessName": "办理类",
+            "businessCategory": "1",
+            "updateStaffId": "HAT5069",
+            "updateTime": "2025-12-23 18:42:09"
+        },
+        {
+            "createStaffId": "HAT5069",
+            "createTime": "2025-10-20 16:46:37",
+            "businessId": "2510201646240100013",
+            "businessName": "诊断类",
+            "businessCategory": "1",
+            "updateStaffId": "HAT5069",
+            "updateTime": "2025-12-23 18:41:57"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-11-21 10:21:42",
+            "businessId": "25112110214100002",
+            "businessName": "话术类",
+            "businessCategory": "1",
+            "updateStaffId": "",
+            "updateTime": "2025-12-23 18:41:42"
+        },
+        {
+            "createStaffId": "HAT5069",
+            "createTime": "2025-10-20 16:46:11",
+            "businessId": "2510201645580100011",
+            "businessName": "媒体交互类",
+            "businessCategory": "1",
+            "updateStaffId": "HAT5069",
+            "updateTime": "2025-12-23 18:41:32"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-11-28 15:41:47",
+            "businessId": "25112815414600006",
+            "businessName": "知识类",
+            "businessCategory": "1",
+            "updateStaffId": "",
+            "updateTime": "2025-12-23 18:41:13"
+        },
+        {
+            "createStaffId": "",
+            "createTime": "2025-12-05 11:02:33",
+            "businessId": "25120511023200012",
+            "businessName": "坐席提醒类",
+            "businessCategory": "1",
+            "updateStaffId": "",
+            "updateTime": "2025-12-23 18:41:05"
+        },
+        {
+            "createStaffId": "HAT5069",
+            "createTime": "2025-10-20 14:58:17",
+            "businessId": "2510201458040100010",
+            "businessName": "其他类",
+            "businessCategory": "1",
+            "updateStaffId": "HAT5069",
+            "updateTime": "2025-12-23 18:40:45"
+        }
+    ],
+    "returnMessage": "成功!",
+    "bean": {},
+    "object": {}
+}

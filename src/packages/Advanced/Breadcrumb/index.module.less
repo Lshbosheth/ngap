@@ -1,0 +1,43 @@
+.breadcrumbItem {
+    font-size: 14px;
+    color: #666;
+    :global {
+        // a {
+        //     // /* 关键1：设置宽度（需适配8个字符的宽度，中文每个字符约14px，8个≈112px，可根据字体调整） */
+        //     // max-width: 112px;
+        //     // /* 关键2：强制文字单行显示 */
+        //     // white-space: nowrap;
+        //     // /* 关键3：溢出内容隐藏 */
+        //     // overflow: hidden;
+        //     // /* 关键4：溢出文字显示省略号 */
+        //     // text-overflow: ellipsis;
+        //     // /* 可选：防止宽度被撑开 */
+        //     display: inline-block;
+        //     /* 或 block，根据布局选择 */
+        //     vertical-align: middle;
+        //     /* 对齐方式 */
+        //     font-size: 14px;
+        //     /* 统一字体大小，保证字符宽度一致 */
+        //     color: #666666;
+        // }
+
+        a:hover {
+            color: #0085d0 !important;
+            background-color: white;
+        }
+
+        a:active {
+            color: #333 !important;
+            background-color: white;
+        }
+
+        .ant-breadcrumb-separator {
+            color: #999;
+        }
+
+        .breadcrumbActive {
+            color: #333 !important;
+            font-weight: 600;
+        }
+    }
+}

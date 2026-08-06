@@ -1,0 +1,53 @@
+.fre-use-wrap{
+    background: white;
+    padding: 10px 15px;
+    color: #333333;
+    border-radius: 4px;
+
+    .fre-use-data-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 20px;
+
+        .fre-use-item-wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .fre-use-item-icon{
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.fix-pop-arrow {
+    .ant.popover{
+        background: transparent!important;
+        box-shadow: none!important;
+    }
+    .ant-popover-inner {
+        padding: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+
+    .ant-popover-inner-content{
+        padding: 0!important;
+    }
+}
+
+.fix-pop-arrow .ant-popover-arrow::before,
+.fix-pop-arrow .ant-popover-arrow::after {
+    box-sizing: content-box!important;
+    background: transparent!important;
+}
+
+.fre-use-pop-content{
+    //width: 200px;
+}

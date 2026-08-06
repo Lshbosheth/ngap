@@ -1,0 +1,128 @@
+.app-detail-container {
+    width: 100%;
+    background: #eaeef7;
+    padding: 6px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 10px;
+
+    h2 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .header-buttons {
+        display: flex;
+        gap: 12px;
+
+        button {
+            margin-right: 0;
+        }
+    }
+}
+
+.detail-content {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    min-height: 0;
+
+    .preview-section {
+        padding: 8px;
+        flex: 1;
+        background: #e3e7f2;
+
+        .preview-card {
+            height: fit-content;
+            min-height: 400px;
+        }
+    }
+
+    .info-section {
+        width: 400px;
+        background: #fff;
+        padding: 8px;
+    }
+
+    .section-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 18px;
+        height: 16px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.85);
+        padding-left: 8px;
+        border-left: 4px solid #0085d0;
+    }
+
+    .section-divider {
+        height: 1px;
+        background-color: #ccc;
+        margin-bottom: 10px;
+    }
+}
+
+.preview-card {
+    border-radius: 4px;
+}
+
+.preview-content {
+    padding: 16px 0;
+
+    h3 {
+        margin: 0 0 16px 0;
+        font-size: 18px;
+    }
+
+    p {
+        margin: 8px 0;
+    }
+
+    .status {
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 500;
+
+        &.online {
+            background: #e6f7ff;
+            color: #1890ff;
+        }
+
+        &.pending {
+            background: #fff2e8;
+            color: #fa8c16;
+        }
+    }
+
+    .preview-desc {
+        margin-top: 16px;
+
+        h4 {
+            margin: 8px 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        p {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+    }
+}
+
+.info-card,
+.audit-card {
+    margin-bottom: 24px;
+    padding-left: 20px;
+}

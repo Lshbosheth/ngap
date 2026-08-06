@@ -1,0 +1,19 @@
+.componentBox{
+    display: contents;
+}
+.ngap-scroll-highlight {
+    outline: 2px solid #1890ff !important;
+    outline-offset: 2px;
+    box-shadow: 0 0 12px rgba(24, 144, 255, 0.4) !important;
+    transition: all 0.3s ease;
+    animation: ngap-pulse 1s ease-in-out 2;
+}
+
+@keyframes ngap-pulse {
+    0%, 100% {
+        box-shadow: 0 0 12px rgba(24, 144, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 24px rgba(24, 144, 255, 0.8);
+    }
+}

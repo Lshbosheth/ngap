@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>应用集成平台</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    .loading {
+      animation: rotate linear 1.5s infinite;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #root {
+      width: 100%;
+      height: 100%;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    .chromeVersionLow{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: #FFF;
+    }
+    .CVLContent{
+      width: 80%;
+      height: 360px;
+      position: absolute;
+      left: 10%;
+      top: calc(50% - 200px);
+      background: #1677FF;
+      color: #FFF;
+      font-size: 24px;
+      text-align: center;
+      border-radius: 50px;
+    }
+    & > div{
+        height: 33%;
+        line-height: 5;
+    }
+    .closeChromeVersionLow{
+        font-size: 20px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div class="chromeVersionLow" style="display: none">
+      <div class="closeChromeVersionLow">×</div>
+      <div class="CVLContent">
+          <div>系统检测到您使用的浏览器版本过低，建议您下载最新版浏览器体验！</div>
+          <div class="currentVersion">当前浏览器版本：（）</div>
+          <div>建议浏览器版本：Chrome80以上</div>
+      </div>
+  </div>
+  <div id="loading" style="display: none">
+    <p>Loading....</p>
+  </div>
+  <script>
+    var getChromeVersion = () => {
+      var _navigator = navigator;
+      // 获取完整的 userAgent 字符串
+      var ua = _navigator.userAgent;
+
+      // 方法1：通过 Chrome/ 标识获取（主流方法）
+      var chromeMatch = ua.match(/Chrome\/(\d+\.\d+\.\d+\.\d+)/);
+
+      if (chromeMatch && chromeMatch[1]) {
+        // 检查是否为 Edge 或其他基于 Chromium 的浏览器
+        // Edge 也包含 Chrome/ 标识，需要排除
+        var isEdge = ua.indexOf('Edg/') > -1 || ua.indexOf('Edge/') > -1;
+        var isOpera = ua.indexOf('OPR/') > -1;
+        var isBrave = _navigator.brave !== undefined;
+
+        if (!isEdge && !isOpera && !isBrave) {
+          return chromeMatch[1];
+        }
+      }
+
+      // 方法2：通过 Google Chrome 标识（旧版本兼容）
+      chromeMatch = ua.match(/Google Chrome\/(\d+\.\d+\.\d+\.\d+)/);
+      if (chromeMatch && chromeMatch[1]) {
+        return chromeMatch[1];
+      }
+
+      // 方法3：通过 CrMo 标识（Chrome Mobile 兼容）
+      chromeMatch = ua.match(/CrMo\/(\d+\.\d+\.\d+\.\d+)/);
+      if (chromeMatch && chromeMatch[1]) {
+        return chromeMatch[1];
+      }
+
+      // 方法4：通过 CriOS 标识（iOS Chrome）
+      chromeMatch = ua.match(/CriOS\/(\d+\.\d+\.\d+\.\d+)/);
+      if (chromeMatch && chromeMatch[1]) {
+        return chromeMatch[1];
+      }
+
+      // 如果都不是，返回 null
+      return null;
+    }
+    var version = getChromeVersion() || "";
+    if(version.split(".").length > 0 && version.split(".")[0] < 80){
+      document.getElementById("root").style.visibility = "hidden";
+      document.getElementsByClassName("chromeVersionLow")[0].style.display = "inline-block";
+      document.getElementsByClassName("currentVersion")[0].innerText = "当前浏览器版本：（" + version + "）"
+      document.getElementsByClassName("closeChromeVersionLow")[0].addEventListener("click", function(){
+        document.getElementsByClassName("chromeVersionLow")[0].style.display = "none";
+        document.getElementById("root").style.visibility = "visible";
+      })
+    }
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    var initDevTools = function () {
+      // 定时检测开发者工具
+      setInterval(function () {
+        var open = false;
+        // debugger 检测
+        try {
+          // 大部分浏览器
+          if (window.performance && window.performance.now) {
+            var start = window.performance.now();// 开始时间
+            debugger;
+            // 结束时间对比
+            if (window.performance.now() - start > 100) {
+              open = true;
+            }
+          } else {
+            // IE8浏览器
+            var start = +new Date(); // 开始时间
+            // 执行耗时打印清理工作
+            window.console.profile && window.console.profile();
+            window.console.profileEnd && window.console.profileEnd();
+            window.console.clear && window.console.clear();
+            open = (+new Date() - start > 10);  // 结束时间
+          }
+          if (open) {
+            // 执行自定义逻辑
+          }
+        } catch (error) {
+        }
+      }, 300);
+    }
+    initDevTools();
+  </script>
+</body>
+
+</html>

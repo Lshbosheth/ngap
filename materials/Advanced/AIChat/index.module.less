@@ -1,0 +1,402 @@
+.AIChat {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    .chatContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+
+        // 顶部标题栏
+        .header {
+            height: 36px;
+            line-height: 34px;
+            padding: 0 0 0 13px;
+            border-bottom: 1px solid #D0D6D9;
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        // 中间内容区域
+        .contentArea {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+
+            // 欢迎区域 - 固定在左上角
+            .welcomeArea {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 20px;
+                width: 100%;
+                box-sizing: border-box;
+
+                .welcomeLeft {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 12px;
+                    flex-shrink: 0;
+                    width: 48px;
+                    height: 48px;
+
+                            // object-fit: contain;
+                }
+
+                .welcomeRight {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .welcomeTitle {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #000;
+                        margin-bottom: 9px;
+                        line-height: 1;
+                    }
+
+                    .welcomeDesc {
+                        font-size: 14px;
+                        color: #666;
+                        line-height: 1;
+                        max-width: 280px;
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            // 会话区域
+            .messagesList {
+                flex: 1;
+                padding: 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .message {
+                    display: flex;
+                    gap: 12px;
+                    max-width: 85%;
+
+                    // 位置样式 - 控制对齐方向
+                    &.messageLeft {
+                        align-self: flex-start;
+                    }
+
+                    &.messageRight {
+                        align-self: flex-end;
+                        flex-direction: row-reverse;
+                    }
+
+                    // 角色样式 - 控制背景色和文字颜色
+                    &.userMessage {
+                        .messageContent {
+                            .messageText {
+                                background: #E9F2F9;
+                                color: #000000;
+                            }
+                        }
+                    }
+
+                    &.assistantMessage {
+                        .messageContent {
+                            .messageText {
+                                background: #F1F5EF;
+                                color: #222222;
+                            }
+                        }
+                    }
+
+                    // 兼容旧版本样式（当只有角色样式没有位置样式时）
+                    &.userMessage:not(.messageRight):not(.messageLeft) {
+                        align-self: flex-end;
+                        flex-direction: row-reverse;
+
+                        .messageContent {
+                            align-items: flex-end;
+                        }
+                    }
+
+                    &.assistantMessage:not(.messageRight):not(.messageLeft) {
+                        align-self: flex-start;
+
+                        .messageContent {
+                            align-items: flex-start;
+                        }
+                    }
+
+                    .avatarWrapper {
+                        flex-shrink: 0;
+                    }
+
+                    .messageContent {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4px;
+                        max-width: 100%;
+
+                        .messageTextWrapper {
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 8px;
+                        }
+
+                        .messageText {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px 14px;
+                            border-radius: 12px;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            word-break: break-word;
+                            white-space: pre-wrap;
+
+                            .messageContentText {
+                                display: block;
+                                width: 100%;
+                            }
+
+                            .actionButtons {
+                                display: flex;
+                                justify-content: flex-end;
+                                gap: 4px;
+                                margin-top: 8px;
+                                width: 100%;
+                                .likeIcon{
+                                    font-size: 17px;
+                                    cursor: pointer;
+                                    &:hover {
+                                        color: #1890ff;
+                                    }
+                                }
+                            }
+                        }
+
+                        // AI加载中样式
+                        .loadingIndicator {
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            padding: 8px 12px;
+                            background: #F1F5EF;
+                            border-radius: 12px;
+                            font-size: 14px;
+                            color: #999;
+                        }
+                        .messageTime {
+                            font-size: 12px;
+                            color: #7E7E7E;
+                            padding: 0 4px;
+                            white-space: nowrap;
+                            margin-top: 10px
+                        }
+
+                        .messageFooter {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            gap: 8px;
+
+                            .actionButtons {
+                                display: flex;
+                                justify-content: flex-end;
+                                gap: 4px;
+                                margin-top: 4px;
+                                transition: opacity 0.2s;
+
+                                .actionBtn {
+                                    color: #999;
+                                    padding: 2px 6px;
+
+                                    &:hover {
+                                        color: #1890ff;
+                                        background: #e6f7ff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                // AI思考过程外层包装 - 与messageContent同级，最大宽度一致
+                .thinkingWrapper {
+                    margin-bottom: 8px;
+                    max-width: calc(85% - 48px);
+                }
+                
+                // AI思考过程折叠面板
+                .thinkingCollapse {
+                    
+                    :global {
+                        .ant-collapse-item {
+                            display: inline-block;
+                            .ant-collapse-content{
+                                padding-left: 12px;
+                            }
+                        }
+                        .ant-collapse-header {
+                            padding: 8px 12px 4px;
+                            font-size: 13px;
+                            color: #666;
+                            align-items: center;
+                            .ant-collapse-header-text{
+                                flex: none;
+                            }
+                        }
+                        
+                        .ant-collapse-content-box {
+                            padding: 2px 12px 12px;
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 1.6;
+                            white-space: pre-wrap;
+                            word-break: break-word;
+                            background: aliceblue;
+                            border-radius: 0 0 6px 6px;
+                        }
+                        
+                        .ant-collapse-expand-icon {
+                            color: #666;
+                        }
+                    }
+                }
+                
+                .thinkingHeader {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    color: #666;
+                }
+                
+                .thinkingContent {
+                    color: #666;
+                    line-height: 1.6;
+                    white-space: pre-wrap;
+                    word-break: break-word;
+                }
+            }
+        }
+
+        // 消息发送区域
+        .inputArea {
+            border-top: 1px solid #D9D9D9;
+            flex-shrink: 0;
+
+            .inputWrapper {
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+
+                .input {
+                    flex: 1;
+                    resize: none;
+                    border: none;
+                    padding: 10px 14px;
+                    box-shadow: none;
+                    background: #fff;
+
+                    &:focus {
+                        box-shadow: none !important;
+                    }
+                }
+
+                .inputActions {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 8px;
+                    padding: 6px 19px 16px;
+
+                    .quickReplyBtn {
+                        border-radius: 16px;
+                        padding: 4px 12px;
+                        height: 28px;
+                        font-size: 12px;
+                    }
+
+                    .sendButton {
+                        width: 28px;
+                        height: 28px;
+                        padding: 0;
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    :global {
+        .spin-loading {
+            width: 100%;
+            height: 100%;
+
+            .ant-spin-container {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// 快捷语下拉菜单
+.quickReplyDropdown {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    min-width: 160px;
+
+    .quickReplyItem {
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333;
+
+        &:hover {
+            background: #f5f5f5;
+        }
+    }
+
+    .quickReplyEmpty {
+        padding: 8px 12px;
+        color: #999;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+// 文件上传下拉菜单
+.fileDropdown {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    min-width: 120px;
+
+    .fileItem {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333;
+
+        &:hover {
+            background: #f5f5f5;
+        }
+    }
+}

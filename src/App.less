@@ -1,0 +1,79 @@
+html[data-theme='dark'] {
+    // 系统风格
+    --ngap-primary-color: #0085d0;
+    --ngap-border-color: #e8e9eb;
+    --ngap-theme-color: #000; // 暗黑主题
+    --ngap-theme-text-color: #fff; // 暗黑主题文字颜色
+    --ngap-theme-text-secondary-color: #b4b4b4; // 暗黑主题次级文字颜色
+    --ngap-theme-border-color: transparent; // 卡片边框颜色
+    --ngap-theme-card-border-color: #303030; // 卡片文字颜色
+    --ngap-theme-card-text-color: rgba(255, 255, 255, 0.85);
+    --ngap-theme-bg-color: #1e2430; // 暗黑背景颜色
+    --ngap-cross-bg: url('/imgs/cross-bg-dark.png');
+    --ngap-theme-light-bg: #141414;
+    background-color: #141414;
+}
+html {
+    --ngap-primary-color: #0085d0;
+    --ngap-border-color: #e8e9eb;
+    --ngap-theme-color: #fff;
+    --ngap-theme-text-color: #000;
+    --ngap-theme-text-secondary-color: #00000073;
+    --ngap-theme-border-color: #e8e9eb;
+    --ngap-theme-card-border-color: #f0f0f0;
+    --ngap-theme-card-text-color: #000000bd;
+    --ngap-theme-bg-color: #f9f9f9;
+    --ngap-cross-bg: url('/imgs/cross-bg.png');
+    --ngap-theme-light-bg: '#fff';
+}
+.menuClose {
+    width: 22px;
+    position: absolute;
+    top:50%;
+    z-index: 9999;
+    div {
+        position: absolute;
+        left: calc(50% - 8px);
+        top: calc(50% - 15px);
+        width: 12px;
+        height: 31px;
+        background-image: url(./assets/icons/expendImg.png);
+        background-position: center center;
+        background-size: 12px 31px;
+        cursor: pointer;
+    }
+}
+.ant-app{
+    height: 100%;
+}
+.chromeVersionLow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #FFF;
+    .CVLContent{
+        width: 80%;
+        height: 360px;
+        position: absolute;
+        left: 10%;
+        top: calc(50% - 200px);
+        background: #1677FF;
+        color: #FFF;
+        font-size: 24px;
+        text-align: center;
+        border-radius: 50px;
+        & > div{
+            height: 33%;
+            line-height: 5;
+        }
+    }
+    .closeChromeVersionLow{
+        font-size: 20px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}

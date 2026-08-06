@@ -1,0 +1,21 @@
+
+> ngap@1.0.0 start
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v5.0.8[39m  [2mready in [0m[1m4055[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m8892[22m/ngap/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m15:58:07[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mcore-js/modules/es.array.reduce-right.js, core-js/modules/es.regexp.flags.js, core-js/modules/web.immediate.js[32m[39m
+[2m15:58:07[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:03:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/applicationOrchestration/pageCanvas/index.tsx[22m
+[2m16:09:09[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/utils/request.ts[22m
+[2m16:11:35[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx[22m
+[2m16:16:35[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mcore-js/modules/esnext.string.replace-all.js[32m[39m
+[2m16:16:35[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m16:32:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/applicationOrchestration/index.tsx, /src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx, /src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx, /src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx, /src/pages/applicationOrchestration/pageCanvas/index.tsx[22m
+[2m16:32:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/applicationOrchestration/index.tsx[22m
+[2m16:32:33[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/utils/request.ts[22m
+[2m16:35:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/applicationOrchestration/index.tsx[22m
+[2m16:39:24[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/mock/guidedProcessMock.ts[22m

@@ -1,0 +1,128 @@
+.robot {
+    // position: fixed;
+    // top: 10px;
+    // right: 10px;
+    // z-index: 100;
+}
+// 智能背景1
+.bg1 {
+    :global {
+        .windowBox {
+            background: linear-gradient(to bottom, #e0fdfe, #edfdf3, #ffffff 30%, #ffffff 100%);
+        }
+    }
+}
+
+// 智能背景2
+.bg2 {
+    :global {
+        .windowBox {
+            background: linear-gradient(to bottom, #d9f5ff, #e7fefa, #ffffff 30%, #ffffff 100%);
+        }
+    }
+}
+
+// 白色背景
+.bg3 {
+    :global {
+        .windowBox {
+            background: #fff;
+        }
+    }
+}
+
+.robotPop {
+    :global {
+        .ant-popover-content {
+            .ant-popover-inner {
+                padding: 0;
+                box-shadow: none;
+                background: transparent;
+
+                .ant-popover-inner-content {
+                    // max-width: 400px;
+                    // max-height: 500px;
+                    // overflow-y: auto;
+
+                    .ant-popconfirm-inner-content {
+                        .ant-popconfirm-message {
+                            // 左侧提示小图标
+                            .ant-popconfirm-message-icon {
+                                display: none;
+                            }
+
+                            // 内容区域
+                            .ant-popconfirm-message-text {
+                                .ant-popconfirm-title {
+                                    .windowBox {
+                                        width: 400px;
+                                        font-size: 20px;
+                                        padding: 8px 16px 8px 16px;
+                                        border-radius: 4px;
+                                        border: 1px solid #d5dce6;
+                                        box-shadow: 0px 2px 12px 6px rgba(0, 0, 0, 0.18);
+                                        overflow: auto;
+                                    }
+                                    // 标题示意
+                                    .title-header {
+                                        font-size: inherit;
+                                        font-weight: bolder;
+                                        margin-bottom: 8px;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+
+                                        .header-action {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                        }
+                                    }
+
+                                    .title-item {
+                                        padding-top: 8px;
+                                        padding-bottom: 16px;
+                                        border-bottom: 1px solid #d5dce6;
+
+                                        // 话术1
+                                        .title-text {
+                                            font-size: 16px;
+                                            font-weight: bolder;
+                                            margin-bottom: 8px;
+                                        }
+
+                                        // 客户查询示意文字
+                                        .title-desc {
+                                        }
+
+                                        // 点赞
+                                        .evaluation-wrap {
+                                            margin-top: 8px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: end;
+
+                                            .icon-divider {
+                                                height: 20px;
+                                                border-left-color: #dadada;
+                                            }
+                                        }
+
+                                        &:last-child {
+                                            border-bottom: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        // 底部确定取消按钮
+                        .ant-popconfirm-buttons {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

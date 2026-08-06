@@ -1,0 +1,37 @@
+.data-indicator-wrap{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: white;
+    color: #333333;
+
+    .data-indicator-data-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .data-indicator-item-wrap{
+            width: 100%;
+            background: #F5F5F5;
+            padding: 10px 15px;
+            border-radius: 6px;
+            position: relative;
+
+            .data-indicator-item-value{
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .high-line{
+                position: absolute;
+                left: 0;
+                top: 5px;
+                width: 3px;
+                height: 40%;
+                background: #1B76F4;
+            }
+        }
+    }
+
+}

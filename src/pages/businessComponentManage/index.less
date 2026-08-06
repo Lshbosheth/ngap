@@ -1,0 +1,496 @@
+/*业务组件管理主页面*/
+.businessComponentManagementBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.businessComponentMainPage {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    .titleModule {
+        width: 100%;
+        height: 38px;
+        line-height: 37px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+        border-bottom: 1px solid #d7e0e6;
+        box-sizing: border-box;
+    }
+    .listTitle {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 12px 0 12px;
+        box-sizing: border-box;
+        /* border-bottom: 1px solid #ccc;*/
+        .listName {
+            float: left;
+            font-size: 14px;
+            font-weight: 600;
+            color: #000;
+        }
+        .componentListTab {
+            float: left;
+            overflow: hidden;
+            margin-top: 10px;
+            padding: 3px;
+            background: #eff5ff;
+            margin-left: 13px;
+            border-radius: 3px;
+            .listType {
+                float: left;
+                padding: 4px 8px;
+                cursor: pointer;
+                color: #666;
+                line-height: 12px;
+                border-radius: 3px;
+                font-size: 12px;
+                &.tabActive {
+                    color: #333;
+                    background: #fff;
+                }
+            }
+        }
+        .sceneBtn {
+            float: right;
+            width: 110px;
+            height: 30px;
+            margin-top: 6px;
+            border-radius: 4px;
+            background-color: #90c31f;
+            color: #fff;
+            line-height: 28px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 12px;
+            border: none;
+            outline: none;
+            margin-right: 5px;
+            padding-left: 12px;
+            box-sizing: border-box;
+            background-image: url('../templateManagement/imgs/addIcon.png');
+            background-repeat: no-repeat;
+            background-position: 10px 8px;
+        }
+    }
+
+    .searchCont {
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 12px;
+        .searchItem {
+            height: 48px;
+            /* margin-bottom: 12px; */
+            padding-left: 94px;
+            /* padding-right: 16px; */
+            padding-top: 8px;
+            position: relative;
+            box-sizing: border-box;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .searchTitle {
+                width: 102px;
+                height: 32px;
+                line-height: 32px;
+                font-size: 13px;
+                /* font-weight: bold; */
+                color: #262626;
+                text-align: left;
+                padding-right: 10px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                box-sizing: border-box;
+                .searchContent {
+                    width: 100%;
+                    height: 32px;
+                    line-height: 32px;
+                    .searchItemName {
+                        height: 22px;
+                        line-height: 22px;
+                        float: left;
+                        margin-right: 16px;
+                        margin-top: 5px;
+                        padding: 0 8px;
+                        color: #595959;
+                        border-radius: 4px;
+                    }
+                    .itemCategoryActive,
+                    .businessNameActive {
+                        background-color: rgb(224, 240, 249);
+                        color: #0085d0;
+                    }
+                }
+            }
+            .otherSearchModule {
+                .configItem {
+                    float: left;
+                    width: 33.3%;
+                    height: 32px;
+                    padding-left: 94px;
+                    /*padding-right: 32px;*/
+                    position: relative;
+                    box-sizing: border-box;
+                    margin-bottom: 14px;
+                    > label {
+                        width: 99px;
+                        height: 32px;
+                        line-height: 32px;
+                        font-size: 13px;
+                        text-align: right;
+                        padding-right: 10px;
+                        position: absolute;
+                        left: 0;
+                        box-sizing: border-box;
+                        color: #595959;
+                        white-space: nowrap;
+                    }
+                    .inputItem {
+                        width: 100%;
+                        height: 32px;
+
+                        .ant-select {
+                            width: 100%;
+                        }
+                    }
+                    .searchReset,
+                    .searchQuery {
+                        width: 60px;
+                        height: 30px;
+                        line-height: 28px;
+                        text-align: center;
+                        /*margin-top: 4px;*/
+                        border-radius: 3px;
+                        border: 1px solid #d9d9d9;
+                        color: #595959;
+                        background-color: #fff;
+                        float: right;
+                        cursor: pointer;
+                        box-sizing: border-box;
+                    }
+                    .searchQuery {
+                        margin-right: 8px;
+                        background-color: #0085d0;
+                        border: 1px solid #0085d0;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .otherFiltersCont {
+            height: 96px;
+        }
+
+        .componentLevelCont {
+            border-bottom: 1px dashed #e9e9e9;
+        }
+        .businessCategoryCont {
+            height: auto;
+            min-height: 48px;
+            border-bottom: 1px dashed #e9e9e9;
+            padding-right: 100px;
+        }
+    }
+
+    .businessComponentList {
+        width: 100%;
+        flex: 1;
+        overflow-y: auto;
+        .searchResultModuleCard {
+            width: 100%;
+            height: 100%;
+            // height: auto;
+            // margin-top: 6px;
+        }
+
+        .searchResultModuleList {
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            padding: 0 12px;
+            box-sizing: border-box;
+            // display: none;
+        }
+    }
+}
+
+.businessComponentMainPage .searchCont .searchItem .searchContent .searchItemName {
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 5px;
+    padding: 0 8px;
+    color: #595959;
+    border-radius: 4px;
+}
+
+.businessComponentMainPage .searchCont .searchItem .searchContent .itemCategoryActive,
+.businessComponentMainPage .searchCont .searchItem .searchContent .businessNameActive {
+    background-color: rgb(224, 240, 249);
+    color: #0085d0;
+}
+
+// .businessComponentMainPage .searchCont .otherFiltersCont {}
+
+.businessComponentMainPage .searchCont .searchItem .businessCategoryItem {
+    height: auto;
+    overflow: hidden;
+}
+
+/* 整个滚动条 */
+.businessComponentMainPage .searchResultModuleList::-webkit-scrollbar {
+    width: 0px;
+    /* 滚动条宽度 */
+}
+
+.businessComponentMainPage .searchResultModuleList .sn-list table th {
+    height: 36px !important;
+    line-height: 36px !important;
+}
+
+.businessComponentMainPage .searchResultModuleList .sn-list-content table td,
+.businessComponentMainPage .searchResultModuleList .sn-list-content-locker table td {
+    height: 36px !important;
+    line-height: 36px !important;
+    border: 0px solid #eaedf1 !important;
+    padding: 0 11px;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList {
+    overflow-y: scroll;
+    padding: 0 12px 16px;
+    box-sizing: border-box;
+    height: 100%;
+
+    .searchResultVoid {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nodataCont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .nodataTitle {
+                color: #666;
+            }
+
+            .nodataImg {
+                width: 156px;
+                height: 156px;
+                background: url('../applicationOrchestration/imgs/nodata.png');
+            }
+        }
+    }
+}
+
+/* 整个滚动条 */
+.businessComponentMainPage .searchResultModuleCard .searchList::-webkit-scrollbar {
+    width: 0px;
+    /* 滚动条宽度 */
+}
+
+/* 滚动条轨道 */
+.businessComponentMainPage .searchResultModuleCard .searchList::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* 轨道颜色 */
+}
+
+/* 滚动条滑块 */
+.businessComponentMainPage .searchResultModuleCard .searchList::-webkit-scrollbar-thumb {
+    background: #888;
+    /* 滑块颜色 */
+    border-radius: 10px;
+    /* 滑块圆角 */
+}
+
+/* 滑块悬停 */
+.businessComponentMainPage .searchResultModuleCard .searchList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* 滑块悬停颜色 */
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListNoData {
+    display: none;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv {
+    float: left;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    /*background: rgb(223, 240, 248);*/
+    background: #fff;
+    position: relative;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv:nth-child(2n) .componentContRemark {
+    background: #5f95ef;
+    opacity: 0.1;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv:nth-child(2n + 1) .componentContRemark {
+    background: #30bbb2;
+    opacity: 0.1;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListThreeColumn .searchComponentDiv {
+    width: 32%;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListThreeColumn .searchComponentDiv:nth-child(3n + 2) {
+    margin: 0 2%;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListFourColumn .searchComponentDiv {
+    width: 23.5%;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListFourColumn .searchComponentDiv:nth-child(4n + 1) {
+    margin: 0 1% 16px 0;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListFourColumn .searchComponentDiv:nth-child(4n + 2) {
+    margin: 0 1% 16px;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListFourColumn .searchComponentDiv:nth-child(4n + 3) {
+    margin: 0 1% 16px;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchListFourColumn .searchComponentDiv:nth-child(4n) {
+    margin: 0 0 16px 1%;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle {
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    width: 100%;
+    /*padding-right: 32px;*/
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 8px;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .titleName {
+    box-sizing: border-box;
+    float: left;
+    max-width: 144px;
+    font-size: 16px;
+    /* padding-left: 12px; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+    color: #262626;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .componentProv {
+    box-sizing: border-box;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 8px;
+    margin-top: 4px;
+    padding: 0 4px;
+    font-size: 12px;
+    background: #defff7;
+    border-radius: 2px 2px 2px 2px;
+    color: #25beb5;
+    font-weight: normal;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .componentProvCenter {
+    background: #f3f0ff;
+    color: #845ddc;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .operateComponent {
+    box-sizing: border-box;
+    float: right;
+    height: 32px;
+    /*padding: 0 8px;*/
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .operateComponent .operateBtn {
+    float: left;
+    color: #0085d0;
+    font-size: 13px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .operateComponent .operateBtn:nth-child(3n + 2) {
+    margin: 0 12px;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentTitle .viewIcon {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    // background-image: url("../../img/viewEyes.png");
+    cursor: pointer;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentCont {
+    height: 168px;
+    /*background: #fff;*/
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid rgb(226, 231, 241);
+    border-radius: 6px;
+    position: relative;
+    transform: translateZ(0);
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentContRemark {
+    height: 168px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    z-index: 18;
+    /*cursor: pointer;*/
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentOperate {
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    text-align: right;
+    /*border-top: 1px solid #ccc;*/
+    border-radius: 3px;
+    display: none;
+}
+
+.businessComponentMainPage .searchResultModuleCard .searchList .searchComponentDiv .componentOperate button {
+    padding: 4px 16px;
+    margin-right: 16px;
+}

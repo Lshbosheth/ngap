@@ -1,0 +1,236 @@
+.Tree {
+    line-height: 19px;
+
+    :global {
+        .ant-tree {
+            color: #222;
+
+            .ant-tree-indent {
+                height: 17px;
+            }
+
+            .ant-tree-indent-unit {
+                width: 12px;
+                height: 17px;
+            }
+            .nodeEndIcon {
+                width: 16px;
+                height: 16px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: -3px;
+                margin-left: 5px;
+            }
+
+            // .ant-tree-indent[aria-hidden="true"]+.ant-tree-switcher_open {
+
+            // }
+            .ant-tree-node-content-wrapper {
+                padding: 0 3px 0 0;
+                border-radius: 0;
+                line-height: inherit;
+                min-height: 19px;
+
+                .ant-tree-iconEle {
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 1px;
+                    vertical-align: top;
+                    background-image: url('./treeBg.png');
+                    background-color: transparent;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+
+                    // margin-right: 5px;
+                    span {
+                        display: none;
+                    }
+                }
+            }
+
+            .ant-tree-node-content-wrapper:hover {
+                background-color: #e5f2fa;
+            }
+
+            .ant-tree-node-content-wrapper.ant-tree-node-selected {
+                background-color: #c4e4f5;
+            }
+
+            .ant-tree-node-content-wrapper-close {
+                .ant-tree-iconEle {
+                    width: 20px;
+                    margin-right: 2px;
+                    background-position: -130px 1px;
+                }
+            }
+
+            .ant-tree-node-content-wrapper-open {
+                .ant-tree-iconEle {
+                    width: 20px;
+                    margin-right: 2px;
+                    background-position: -130px -15px;
+                }
+            }
+
+            .ant-tree-node-content-wrapper-normal {
+                .ant-tree-iconEle {
+                    margin-right: 5px;
+                    background-position: -128px -32px;
+                }
+            }
+
+            .ant-tree-treenode {
+                height: 22px;
+                padding: 0;
+                white-space: nowrap;
+
+                .ant-tree-switcher {
+                    width: 18px;
+                    height: 18px;
+                    margin-top: 2px;
+                    background-image: url('./treeBg.png');
+                    background-color: transparent;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    transition: none;
+
+                    // margin-right: 5px;
+                    span {
+                        display: none;
+                    }
+                }
+
+                .ant-tree-switcher:before {
+                    width: 0;
+                    height: 0;
+                }
+
+                .ant-tree-switcher_close {
+                    background-position: -92px -80px;
+                }
+
+                .ant-tree-switcher_open {
+                    background-position: -108px -80px;
+                }
+
+                .ant-tree-switcher-noop {
+                    background-image: none;
+                }
+
+                // 复选框
+                .ant-tree-checkbox {
+                    margin-top: 2px;
+                }
+
+                .ant-tree-checkbox .ant-tree-checkbox-inner {
+                    border: 0;
+                    border-radius: 0;
+                    background-image: url('./treeBg.png');
+                    background-color: transparent;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-position: 0 0;
+                    transition: none;
+                }
+
+                .ant-tree-checkbox .ant-tree-checkbox-inner:after {
+                    width: 0;
+                    height: 0;
+                    display: none;
+                }
+
+                .ant-tree-checkbox:hover .ant-tree-checkbox-inner {
+                    background-position: 0 -17px;
+                }
+
+                .ant-tree-checkbox.ant-tree-checkbox-indeterminate:hover .ant-tree-checkbox-inner,
+                .ant-tree-checkbox.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner {
+                    background-position: -17px -34px;
+                }
+
+                .ant-tree-checkbox.ant-tree-checkbox-checked:hover .ant-tree-checkbox-inner,
+                .ant-tree-checkbox.ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+                    background-color: #fff;
+                    border: 0;
+                    background-position: -17px 0;
+                }
+            }
+        }
+
+        .ant-tree-show-line {
+            // .ant-tree-indent-unit:last-child:not(.ant-tree-indent-unit-start):not(.ant-tree-indent-unit-end) {
+            //     background: url("./line.gif") 0 0 repeat-y;
+            // }
+            .ant-tree-indent-unit:before {
+                border: 0;
+                width: 12px;
+                height: 22px;
+                left: 0;
+                background: url('./line.gif') 0 0 repeat-y;
+            }
+
+            .ant-tree-treenode {
+                .ant-tree-switcher_close {
+                    background-position: -90px -20px;
+                }
+
+                .ant-tree-switcher_open {
+                    background-position: -106px -20px;
+                }
+
+                .ant-tree-indent:empty ~ .ant-tree-switcher_close {
+                    background-position: -88px -60px;
+                }
+
+                .ant-tree-indent:empty ~ .ant-tree-switcher_open {
+                    background-position: -106px -60px;
+                }
+
+                .ant-tree-switcher-noop {
+                    background-image: url('./treeBg.png');
+                    background-position: -68px -18px;
+                }
+            }
+
+            .ant-tree-treenode-leaf-last {
+                .ant-tree-switcher-noop {
+                    background-position: -68px -38px;
+                }
+            }
+        }
+
+        .ant-tree-treenode-disabled {
+            .ant-tree-node-content-wrapper {
+                color: #999;
+            }
+
+            .ant-tree-node-content-wrapper:hover {
+                background-color: #fff;
+                background-position: 0 -34px;
+            }
+
+            .ant-tree-checkbox.ant-tree-checkbox-disabled .ant-tree-checkbox-inner {
+                background-position: 0 -34px;
+            }
+
+            // .ant-tree-checkbox.ant-tree-checkbox-disabled .ant-tree-checkbox-inner:after {
+            //     di
+            // }
+
+            .ant-tree-checkbox.ant-tree-checkbox-disabled.ant-tree-checkbox-indeterminate:hover .ant-tree-checkbox-inner,
+            .ant-tree-checkbox.ant-tree-checkbox-disabled.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner {
+                background-position: -17px -51px;
+            }
+
+            .ant-tree-checkbox.ant-tree-checkbox-disabled.ant-tree-checkbox-checked:hover .ant-tree-checkbox-inner,
+            .ant-tree-checkbox.ant-tree-checkbox-disabled.ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+                background-color: #fff;
+                border: 0;
+                background-position: -17px -17px;
+            }
+        }
+        .ant-tree-treenode-draggable .ant-tree-draggable-icon {
+            display: none;
+        }
+    }
+}

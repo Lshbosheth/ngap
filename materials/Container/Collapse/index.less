@@ -1,0 +1,24 @@
+.mCollapse{
+    .ant-collapse-header-text{
+        display: flex;
+        justify-content: start;
+    }
+    .collapseTitle{
+        flex: 1;
+    }
+    .collapseContent{
+        flex: 4;
+    }
+
+    /* 折叠面板 图标不缩放*/
+    .ant-collapse-expand-icon {
+        flex-shrink: 0;
+    }
+    /* 折叠面板 标题 连续字符换行问题 */
+    .ant-collapse-header-text {
+        word-break: break-all;
+    }
+    .ant-collapse .ant-collapse-content>.ant-collapse-content-box{
+        padding: 8px;
+    }
+}

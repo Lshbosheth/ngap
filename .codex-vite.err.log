@@ -1,0 +1,701 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+ WARN  获取 Git 分支失败，使用默认值：unknown-branch
+
+
+ WARN  [2m15:54:52[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m88 |        const blob = new Blob([compiledCode], { type: "application/javascript" });
+89 |        const url = URL.createObjectURL(blob);
+90 |        const module = await import(url);
+   |                                    ^^^
+91 |        const jsData2 = module.default;
+92 |        window.MyComponentJsData = jsData2;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m15:54:52[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m146|        const blob = new Blob([compiledCode], { type: "application/javascript" });
+147|        const url = URL.createObjectURL(blob);
+148|        const module = await import(url);
+   |                                    ^^^
+149|        const Component = module.default;
+150|        window.MyComponent = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m15:54:54[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m15:54:54[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@ant-design_plots.js?v=f94c1309 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-FPKF5GRW.js?v=89e7e114 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-ZILQ7QWE.js?v=89e7e114 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\antd.js?v=ba52af74 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@babel_standalone.js?v=e116d259 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-FPKF5GRW.js?v=06a94c11 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-ZILQ7QWE.js?v=06a94c11 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\antd.js?v=06a94c11 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@ant-design_plots.js?v=06a94c11 as it exceeds the max of 500KB.
+
+
+ WARN  [2m15:58:56[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m15:58:56[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@babel_standalone.js?v=06a94c11 as it exceeds the max of 500KB.
+
+
+ ERROR  (node:25704) [DEP0060] DeprecationWarning: The util._extend API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+
+ ERROR  [2m15:59:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:34[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ WARN  [2m15:59:34[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m88 |        const blob = new Blob([compiledCode], { type: "application/javascript" });
+89 |        const url = URL.createObjectURL(blob);
+90 |        const module = await import(url);
+   |                                    ^^^
+91 |        const jsData2 = module.default;
+92 |        window.MyComponentJsData = jsData2;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m15:59:34[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m146|        const blob = new Blob([compiledCode], { type: "application/javascript" });
+147|        const url = URL.createObjectURL(blob);
+148|        const module = await import(url);
+   |                                    ^^^
+149|        const Component = module.default;
+150|        window.MyComponent = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ ERROR  [2m15:59:34[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m15:59:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+
+
+ ERROR  [2m16:00:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+
+
+ ERROR  [2m16:00:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+
+
+ ERROR  [2m16:00:00[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:00:02[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:33[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:35[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementTypeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/element/queryElementList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:44[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/queryAppList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:48[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/csf/appInterface/abilityArrangeList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ ERROR  [2m16:04:50[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /ngapcontrol/app/querySeatTenantList:[39m
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+
+ WARN  [2m16:15:54[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/layout/components/ConfigPanel/ConfigPanel.tsx[33m
+[0m71 |          const remoteConfigUrl = ((_elementsMap$selected2 = elementsMap[selectedElement.id]) === null || _elementsMap$selected2 === void 0 ? void 0 : _elementsMap$selected2.remoteConfigUrl) || "";
+72 |          if (remoteConfigUrl) {
+73 |            import(remoteConfigUrl).then((res = {}) => {
+   |                   ^^^^^^^^^^^^^^^
+74 |              var _elementsMap$selected3;
+75 |              setComponentConfig(res.default);[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/layout/components/ConfigPanel/ConfigPanel.tsx[39m
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-FPKF5GRW.js?v=b82a4822 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\chunk-ZILQ7QWE.js?v=b82a4822 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\antd.js?v=b82a4822 as it exceeds the max of 500KB.
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@ant-design_plots.js?v=b82a4822 as it exceeds the max of 500KB.
+
+
+ WARN  [2m16:17:00[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:17:00[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ ERROR  [BABEL] Note: The code generator has deoptimised the styling of C:\Users\EDY\Desktop\ngap\.vite\deps\@babel_standalone.js?v=b82a4822 as it exceeds the max of 500KB.
+
+
+ WARN  [2m16:17:14[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m88 |        const blob = new Blob([compiledCode], { type: "application/javascript" });
+89 |        const url = URL.createObjectURL(blob);
+90 |        const module = await import(url);
+   |                                    ^^^
+91 |        const jsData2 = module.default;
+92 |        window.MyComponentJsData = jsData2;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m16:17:14[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m146|        const blob = new Blob([compiledCode], { type: "application/javascript" });
+147|        const url = URL.createObjectURL(blob);
+148|        const module = await import(url);
+   |                                    ^^^
+149|        const Component = module.default;
+150|        window.MyComponent = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m16:32:36[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:32:36[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:32:36[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:32:36[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:32:38[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m88 |        const blob = new Blob([compiledCode], { type: "application/javascript" });
+89 |        const url = URL.createObjectURL(blob);
+90 |        const module = await import(url);
+   |                                    ^^^
+91 |        const jsData2 = module.default;
+92 |        window.MyComponentJsData = jsData2;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m16:32:38[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m146|        const blob = new Blob([compiledCode], { type: "application/javascript" });
+147|        const url = URL.createObjectURL(blob);
+148|        const module = await import(url);
+   |                                    ^^^
+149|        const Component = module.default;
+150|        window.MyComponent = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m16:39:27[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:39:27[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:39:27[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m55 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+56 |      const url = URL.createObjectURL(blob);
+57 |      const module = await import(url);
+   |                                  ^^^
+58 |      const Component = module.default;
+59 |      componentMap[elementId] = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:39:27[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[33m
+[0m78 |      const blob = new Blob([compiledCode], { type: "application/javascript" });
+79 |      const url = URL.createObjectURL(blob);
+80 |      const module = await import(url);
+   |                                  ^^^
+81 |      const jsData = module.default;
+82 |      componentMap[elementId + "Config"] = module;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/packages/index.tsx[39m
+
+
+ WARN  [2m16:39:29[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m88 |        const blob = new Blob([compiledCode], { type: "application/javascript" });
+89 |        const url = URL.createObjectURL(blob);
+90 |        const module = await import(url);
+   |                                    ^^^
+91 |        const jsData2 = module.default;
+92 |        window.MyComponentJsData = jsData2;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+
+
+ WARN  [2m16:39:29[22m [33m[1m[vite][22m[39m [33mwarning: 
+[36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[33m
+[0m146|        const blob = new Blob([compiledCode], { type: "application/javascript" });
+147|        const url = URL.createObjectURL(blob);
+148|        const module = await import(url);
+   |                                    ^^^
+149|        const Component = module.default;
+150|        window.MyComponent = Component;[0m[33m
+The above dynamic import cannot be analyzed by Vite.
+See [34mhttps://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations[33m for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
+[33m[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/EDY/Desktop/ngap/src/pages/elementManagement/previewElementModal.tsx[39m
+

@@ -1,0 +1,137 @@
+.content {
+    position: fixed;
+    right: 0;
+    width: calc(100% - 180px);
+    height: 100%;
+}
+.closeMenuContent {
+    position: fixed;
+    right: 0;
+    width: calc(100% - 15px);
+    height: 100%;
+}
+.topbar {
+    height: 51px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    padding: 0 20px;
+    border-bottom: 1px solid #e0e7ee;
+}
+
+.editContent {
+    float: left;
+    width: 100%;
+    height: calc(100% - 51px);
+    position: absolute;
+    top: 51px;
+    :global {
+        .closeComponentSplitter {
+            overflow: visible;
+        }
+        .configPanelBox {
+            overflow: visible;
+            position: relative;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            &.hide {
+                overflow: hidden;
+            }
+        }
+        .designerBox {
+            position: relative;
+            overflow-x: hidden;
+        }
+    }
+}
+
+// 页面编辑器样式
+.designer {
+    position: relative;
+    overflow: auto;
+    background: #e0e7ee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &::-webkit-scrollbar {
+        /* 滚动条宽度 */
+        width: 0px;
+    }
+    :global {
+        .ant-modal-root {
+            position: absolute;
+            top: 0;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: 888;
+            min-height: 100%;
+
+            .ant-modal-mask,
+            .ant-modal-wrap {
+                position: absolute;
+            }
+        }
+        .exitPreview {
+            width: calc(100% - 20px);
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: #fff;
+            .exitPreviewButton {
+                width: 80px;
+                height: 40px;
+                line-height: 40px;
+                color: #0085d0;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+    // 编辑器画布
+    .designer-editor {
+        position: relative;
+        overflow: auto;
+
+        // background-color: var(--ngap-theme-bg-color);
+        /* 设置背景图像为重复的径向渐变，每个渐变代表一个点 */
+        // background-image: radial-gradient(circle, rgba(185, 185, 185, 0.5) 1px, transparent 1px),
+        //     radial-gradient(circle, rgba(0, 0, 0, 0.5) 1px, transparent 1px);
+        /* 设置背景大小，确保点之间有足够的间距 */
+        // background-size: 20px 20px; /* 根据需要调整间距 */
+        /* 让背景图像在水平和垂直方向上重复 */
+        // background-repeat: repeat;
+        /* 滚动条宽度 */
+        &::-webkit-scrollbar {
+            width: 8px;
+            height: 120px;
+        }
+
+        /* 滑块颜色 */
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: #c2c2c2;
+        }
+
+        /* 滚动条轨道颜色 */
+        &::-webkit-scrollbar-track {
+            background-color: #fafafa;
+        }
+
+        transform-origin: 0 0;
+        transform: matrix(1, 0, 0, 1, 0, 40);
+        background: #fff;
+    }
+
+    // 当前页面样式
+    .pageWrapper {
+        position: relative;
+        margin: 0 auto;
+        // padding: 20px!important;
+    }
+}

@@ -1,0 +1,62 @@
+/* 步骤条节点实心绿色样式 */
+.custom-drawer-root {
+  .upchecktys{
+      /* 缩小步骤条圆圈尺寸 */
+  .ant-steps-item-icon {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    margin-left: 10px!important;
+  }
+
+  .ant-steps-item-process .ant-steps-item-icon,
+  .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #97d60c;
+    border-color: #97d60c;
+  }
+
+  /* 进行中状态的步骤图标 */
+  .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
+    color: #ffffff;
+  }
+
+  /* 完成状态的步骤图标 - 隐藏对号 */
+  .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    display: none;
+  }
+
+  /* 等待状态的步骤图标 */
+  .ant-steps-item-wait .ant-steps-item-icon {
+    background-color: #ffffff;
+    border-color: #97d60c;
+  }
+
+  .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+    color: #97d60c;
+  }
+
+  /* 进度连接线颜色 */
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #97d60c;
+    top: -15px!important;;
+  }
+  .ant-form-item .ant-form-item-label{
+    overflow: visible;
+    white-space: normal;
+  }
+
+  // 是否生成菜单表单容器样式
+  .menuFormContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 17px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    display: inline-block;
+    .ant-form-item {
+      margin: 0;
+    }
+  }
+  }
+}

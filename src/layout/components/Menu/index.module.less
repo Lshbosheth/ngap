@@ -1,0 +1,592 @@
+// 修改系统组件：antd的样式
+.leftTool {
+    :global {
+        .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-tab {
+            padding: 8px;
+            justify-content: center;
+        }
+        .ant-tabs-tab .anticon:not(:last-child) {
+            margin-right: 0;
+        }
+    }
+}
+.leftTool1 {
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    color: #3a3f4f;
+    border-right: 1px solid #d5dce6;
+    :global {
+        .ant-menu-title-content {
+            color: #fff;
+        }
+        .ant-menu-submenu-arrow {
+            color: #999;
+            right: 15px;
+        }
+        .ant-menu-inline {
+            background-color: #fff !important;
+        }
+        .ant-menu > .ant-menu-submenu {
+            padding: 0 8px;
+        }
+
+        .ant-menu-submenu > .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+            padding: 5px 8px 5px 13px !important;
+        }
+        .ant-menu-submenu-title,
+        .ant-menu-item {
+            outline: none !important;
+            background: none !important;
+            margin: 0;
+            width: 100%;
+            border-radius: 0;
+            height: auto !important;
+            line-height: 1.58 !important;
+            padding: 8px 8px 8px 13px !important;
+            cursor: pointer;
+            color: #757a8c;
+            font-size: 13px;
+        }
+        .ant-menu-submenu-title {
+            padding: 5px 8px 5px 0 !important;
+            position: relative;
+        }
+        .ant-menu-title-content {
+            color: #757a8c;
+            font-size: 13px;
+            margin-left: 8px !important;
+        }
+
+        .ant-menu-item-only-child {
+            padding: 8px 8px 8px 33px !important;
+        }
+        .ant-menu-item-selected {
+            font-weight: 700;
+            background: rgba(0, 133, 208, 0.2) !important;
+            border-radius: 4px 4px 4px 4px;
+            .ant-menu-title-content {
+                color: #0085d0;
+            }
+        }
+        .ant-menu-submenu-selected {
+            & > div {
+                &:first-child {
+                    //.ant-menu-title-content{
+                    //  background: none;
+                    //  color: #0084D0;
+                    //}
+                    .applicationOrchestration {
+                        background-image: url(./Imgs/applyCenterActive.png);
+                    }
+                    .auditManagement {
+                        background-image: url(./Imgs/auditConfigActive.png);
+                    }
+                    &.serviceOrchestration {
+                        background-image: url(./Imgs/serviceCenterActive.png);
+                    }
+                }
+            }
+        }
+        .ant-menu-item-icon {
+            width: 20px;
+            height: 20px;
+            background-size: 20px 20px;
+            &.applicationConstruction {
+                position: absolute;
+                left: 75px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 10px;
+                height: 8px;
+                background-size: 10px 8px;
+                background-repeat: no-repeat;
+                background-image: url(./Imgs/arrowDown.png);
+                & + .ant-menu-title-content {
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #3a3f4f;
+                    & + .ant-menu-submenu-arrow {
+                        display: none;
+                    }
+                }
+            }
+            &.applicationOperations {
+                position: absolute;
+                left: 75px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 10px;
+                height: 8px;
+                background-size: 10px 8px;
+                background-repeat: no-repeat;
+                background-image: url(./Imgs/arrowDown.png);
+                & + .ant-menu-title-content {
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #3a3f4f;
+                    margin: 5px 0;
+                    & + .ant-menu-submenu-arrow {
+                        display: none;
+                    }
+                }
+            }
+            &.assetManagement {
+                background-image: url(./Imgs/appCenter.png);
+                & + .ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.applicationOrchestration {
+                background-image: url(./Imgs/applyCenter.png);
+                & + .ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.applicationManagement {
+                background-image: url(./Imgs/applyConfig.png);
+                & + .ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.auditManagement {
+                background-image: url(./Imgs/auditConfig.png);
+                & + .ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.serviceOrchestration {
+                background-image: url(./Imgs/serviceCenter.png);
+                & + .ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.applicationMonitoring {
+                background-image: url(./Imgs/applicationMonitoring.png);
+                background-size: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                &+.ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+
+            &.applicationLog {
+                background-image: url(./Imgs/applicationLog.png);
+                background-size: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                &+.ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+
+            &.applicationAlert {
+                background-image: url(./Imgs/applicationAlert.png);
+                background-size: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                &+.ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+            &.rateLimitingRuleConfiguration {
+                background-image: url(./Imgs/rateLimitingRuleConfiguration.png);
+                background-size: 75%;
+                background-repeat: no-repeat;
+                background-position: center;
+                &+.ant-menu-title-content {
+                    color: #3a3f4f;
+                }
+            }
+        }
+    }
+}
+.leftMenu {
+    float: left;
+    width: 180px;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    /* 滚动条宽度 */
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+
+    :global {
+        .closeIcon {
+            width: 12px;
+            height: 31px;
+            position: absolute;
+            right: 0;
+            z-index: 99;
+            top: calc(50% - 15px);
+            background-image: url(./Imgs/foldImg.png);
+            background-position: center center;
+            background-size: 12px 31px;
+            cursor: pointer;
+        }
+    }
+}
+.leftToolTitle {
+    background: #fff;
+    color: #3a3f4f;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 28px;
+    .tooltipIcon {
+        width: 10px;
+        height: 8px;
+        margin-left: 8px;
+    }
+}
+// 组件大纲
+.outlinePanel {
+    height: 100%;
+    overflow-y: auto;
+
+    :global {
+        .ant-tree{
+            font-size: 12px;
+            color: #333333;
+        }
+        .ant-tree .ant-tree-node-selected {
+            background-color: #cde7f8;
+            color: #333333;
+            border-radius: 2px;
+        }
+        .ant-tree .ant-tree-node-content-wrapper {
+            min-height: 24px !important;
+            line-height: 24px !important;
+        }
+        .ant-tree .ant-tree-treenode {
+            padding: 0 0 2px 0;
+        }
+        .ant-tree .ant-tree-list .ant-tree-treenode-draggable .ant-tree-draggable-icon,
+        .ant-tree .ant-tree-list .ant-tree-switcher,
+        .ant-tree .ant-tree-list .ant-tree-switcher::before,
+        .ant-tree .ant-tree-list .ant-tree-indent-unit {
+            width: 12px;
+        }
+    }
+
+    /* 滚动条宽度 */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* 滑块颜色 */
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #c2c2c2;
+    }
+
+    /* 滚动条轨道颜色 */
+    &::-webkit-scrollbar-track {
+        background-color: #fafafa;
+    }
+}
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    cursor: move;
+    border-radius: 8px;
+    padding: 4px 2px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+
+    &:hover {
+        // border: 1px dashed #9d5cff;
+        transform: scale(1.05);
+    }
+
+    .iconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: #fff;
+        border: 1px solid #f0f0f1;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 8px;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        transition: all 0.3s;
+        img {
+            width: 50px;
+            height: 50px;
+            display: block;
+        }
+    }
+    .itemName {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-top: 8px;
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+.bcItemContainer {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    cursor: move;
+    border-radius: 8px;
+    padding: 0 2px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    position: relative;
+    top: -6px;
+
+    &:hover {
+        // border: 1px dashed #9d5cff;
+        transform: scale(1.05);
+    }
+
+    .iconContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: #fff;
+        border: 1px solid #f0f0f1;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 8px;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        transition: all 0.3s;
+        img {
+            width: 50px;
+            height: 50px;
+            display: block;
+        }
+    }
+    .itemName {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin-top: 8px;
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+
+.customComponent {
+    float: left;
+    width: 200px;
+}
+.tabs {
+    height: 100%;
+    // padding: 0 10px;
+    :global {
+        .ant-tabs-content-holder {
+            padding-top: 16px;
+        }
+        .ant-tabs-ink-bar-animated {
+            display: none;
+        }
+        .ant-tabs-nav::before {
+            display: none;
+        }
+        .ant-divider-horizontal {
+            display: none;
+        }
+        .ant-tabs-tab {
+            // flex: 1;
+            margin-left: 0 !important;
+            padding: 12px 8px !important;
+            // writing-mode: vertical-rl;
+            text-orientation: mixed;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .anticon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto !important;
+            }
+        }
+
+        .ant-tabs-nav {
+            width: 60px;
+            height: 100%;
+            .ant-tabs-nav-list {
+                .ant-tabs-tab {
+                    margin-top: 0px !important;
+                }
+            }
+            .ant-tabs-tab-active {
+                border-right: 2px solid #0085d0;
+            }
+        }
+        // .ant-tabs-content-holder {
+        //     // margin-left: 60px;
+        // }
+    }
+}
+.componentPanel {
+    position: relative;
+    height: 100%;
+    :global {
+        .closeComponent {
+            position: absolute;
+            right: 10px;
+            top: 0px;
+            width: 16px;
+            height: 16px;
+            background: url(./Imgs/closePageBtn.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 12px 12px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .openComponent {
+            position: absolute;
+            right: -32px;
+            top: 0px;
+            width: 30px;
+            height: 30px;
+            background: #fff url(./Imgs/openPageBtn.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 12px 12px;
+            border: 1px solid #d5dce6;
+            border-radius: 4px;
+            cursor: pointer;
+            z-index: 999;
+        }
+    }
+}
+
+.menuTabsBox {
+    margin-top: 5px;
+    padding: 0 2px;
+    height: 100%;
+    box-sizing: border-box;
+
+    :global {
+        .ant-tabs-nav {
+            .ant-tabs-tab {
+                padding: 4px 16px !important;
+            }
+        }
+
+        .ant-tabs-content {
+            height: 100%;
+        }
+
+        .ant-tabs-tabpane {
+            height: 100%;
+            padding: 0 !important;
+        }
+
+        .ant-badge .ant-badge-count {
+            right: 0;
+        }
+
+        .ant-select .ant-select-arrow {
+            left: auto;
+            right: calc(var(--ant-padding-sm) - 1px);
+        }
+
+        .ant-input-number .ant-input-number-handler-wrap {
+            left: auto;
+            right: 0;
+            border-radius: 0 var(--ant-border-radius) var(--ant-border-radius) 0;
+        }
+
+        .elementCont {
+            /* 滚动条宽度 */
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            /* 滑块颜色 */
+            &::-webkit-scrollbar-thumb {
+                border-radius: 8px;
+                background-color: #c2c2c2;
+            }
+
+            /* 滚动条轨道颜色 */
+            &::-webkit-scrollbar-track {
+                background-color: #fafafa;
+            }
+        }
+    }
+}
+
+// 变量样式
+.variableListCont{
+    // height: calc(50% - 70px);
+    height: calc(100% - 40px);
+    overflow-y: auto;
+
+    /* 滚动条宽度 */
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* 滑块颜色 */
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #c2c2c2;
+    }
+
+    /* 滚动条轨道颜色 */
+    &::-webkit-scrollbar-track {
+        background-color: #fafafa;
+    }
+
+    :global{
+       .ant-list-item{
+            display: flex;
+
+           :global{
+               .ant-list-item-meta{
+                   white-space: normal;
+                   overflow-wrap: break-word;
+                   word-wrap: break-word;
+                   padding-left: 5px;
+               }
+
+               .ant-list-item-action{
+                   margin-left: 0;
+               }
+           }
+       }
+    }
+}
+// Tooltip
+.customLightTooltip :global(.ant-tooltip-inner) {
+    background-color: #f9f9f9 !important;
+    color: #333333 !important;
+}
+
+// /* 底部/侧边的小三角颜色 */
+.customLightTooltip :global(.ant-tooltip-arrow) {
+    --antd-arrow-background-color: #f9f9f9 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-bottom: 8px solid #f9f9f9 !important;
+}

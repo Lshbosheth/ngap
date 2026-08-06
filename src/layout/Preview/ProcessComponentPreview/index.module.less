@@ -1,0 +1,46 @@
+.previewContent {
+    display: flex;
+
+    .componentPanel {
+        display: none;
+        max-height: 500px;
+    }
+
+    .componentPage {
+        width: 100%;
+        max-height: 500px;
+
+        .pageWrapper {
+            position: relative;
+            margin: 0 auto;
+        }
+    }
+}
+
+.editContent {
+    display: flex;
+
+    .componentPanel {
+        width: 280px;
+        max-height: 500px;
+    }
+
+    .componentPage {
+        width: calc(100% - 280px);
+        overflow: hidden;
+        position: relative;
+        max-height: 500px;
+
+        .pageWrapper {
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .configPanel {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+        }
+    }
+}

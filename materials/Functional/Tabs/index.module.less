@@ -1,0 +1,61 @@
+.ngapTabs {
+    :global {
+        .ant-tabs-nav {
+            &::before {
+                display: none;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: #e6e6e6;
+            }
+
+            .ant-tabs-ink-bar {
+                background: #0085d0;
+                height: 3px;
+            }
+
+            .ant-tabs-nav-list {
+                .ant-tabs-tab {
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #666666;
+                    padding: 0 !important;
+                    margin: 0 14px;
+
+                    &:first-child {
+                        margin-left: 12px;
+                    }
+
+                    &:hover {
+                        color: #0085d0;
+                    }
+                }
+
+                .ant-tabs-tab-active {
+                    .ant-tabs-tab-btn {
+                        color: #0085d0 !important;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+// 左侧和右侧时第一个页签的margin-left为14px
+.ngapTabs[data-tabs-position="left"],
+.ngapTabs[data-tabs-position="right"] {
+    :global {
+        .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab:first-child {
+            margin-left: 14px;
+        }
+    }
+}

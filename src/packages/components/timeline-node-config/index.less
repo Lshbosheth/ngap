@@ -1,0 +1,59 @@
+.timeline-config-wrap {
+    display: flex;
+    flex-direction: column;
+
+    .timeline-config-item-wrap {
+
+        padding: 5px 10px;
+
+        .timeline-config-item-title{
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+
+            .title-point{
+                width: 4px;
+                height: 4px;
+                display: inline-block;
+                border-radius: 50%;
+                margin-right: 5px;
+                background: #333333;
+            }
+
+            .title-delete{
+                margin-left: auto;
+                cursor: pointer;
+            }
+        }
+
+        .timeline-config-item-content{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .timeline-config-item-label{
+                width: 50px;
+                margin-right: 20px;
+            }
+
+            .timeline-config-item-value{
+                flex: 1;
+            }
+        }
+
+    }
+
+    .timeline-add-btn{
+        align-self: flex-end;
+        color: white;
+        background: #31C846;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 6px;
+        border-radius: 6px;
+    }
+}

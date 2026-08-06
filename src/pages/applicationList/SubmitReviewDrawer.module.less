@@ -1,0 +1,260 @@
+:global(.custom-drawer-root){
+    position: absolute !important;
+    height: calc(100% - 52px);
+}
+
+.submitReviewDrawer {
+    :global {
+        .ant-drawer-body {
+            padding: 20px;
+        }
+        
+        .ant-drawer-footer {
+            text-align: center;
+            padding-bottom: 16px;
+        }
+        
+        // 自定义点状步骤条样式 - 完整颜色设置
+        .ant-steps-dot {
+            // 实际显示的圆点元素
+            .ant-steps-icon-dot {
+                background-color: #90C31F !important;
+                border-color: #90C31F !important;
+            }
+            
+            // 处理状态的圆点
+            .ant-steps-item-process {
+                .ant-steps-icon-dot {
+                    background-color: #90C31F !important;
+                    border-color: #90C31F !important;
+                }
+            }
+            
+            // 完成状态的圆点
+            .ant-steps-item-finish {
+                .ant-steps-icon-dot {
+                    background-color: #90C31F !important;
+                    border-color: #90C31F !important;
+                }
+                
+                // 完成状态的连接线
+                > .ant-steps-item-container > .ant-steps-item-tail::after {
+                    background-color: #90C31F !important;
+                }
+            }
+            
+            // 等待状态的圆点
+            .ant-steps-item-wait {
+                .ant-steps-icon-dot {
+                    background-color: #90C31F !important;
+                    border-color: #90C31F !important;
+                }
+            }
+            
+            // 处理状态的连接线
+            .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-tail::after {
+                background-color: #90C31F !important;
+            }
+            
+            // 圆点容器基础样式
+            .ant-steps-item-icon {
+                width: 10px !important;
+                height: 10px !important;
+                background-color: transparent !important;
+                border-color: transparent !important;
+            }
+            
+            // 标题样式：12号加粗字体
+            .ant-steps-item-title {
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// 自定义Radio样式 - 是否涉及数据安全
+.customRadioGroup {
+    :global {
+        .ant-radio-wrapper {
+            font-size: 13px;
+        }
+    }
+}
+
+// LESS 变量定义
+@query-bg-color: #F2F7FD;
+@query-text-color: #999;
+@query-font-size: 13px;
+@border-radius: 3px;
+@border-radius-tag: 3px;
+
+// 文件上传组件容器样式
+.fileUploadContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fileUploadActions {
+    display: flex;
+    gap: 8px;
+}
+
+// 上传进度样式
+.uploadProgress {
+    text-align: center;
+
+    .uploadText {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+}
+
+// 上传按钮样式
+.uploadButton {
+    width: 96px;
+    height: 30px;
+    border-radius: @border-radius;
+    border: 1px solid #21A2DE;
+    color: #21A2DE;
+    font-size: 12px;
+}
+
+// 模板下载链接样式
+.templateLink {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    left: 108px;
+    top: 5px;
+}
+
+// 已上传文件展示样式
+.uploadedFiles {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 13px;
+
+    .fileDownloadLink {
+        font-size: 12px;
+        color: #21A2DE;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+// 文件上传提示文本
+.hintText {
+    color: #969696;
+    font-size: 12px;
+}
+
+// 检索按钮样式
+.searchButton {
+    color: #0085D0;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+}
+
+// 查询结果容器样式
+.queryResultContainer {
+    background-color: @query-bg-color;
+    padding: 8px;
+    border-radius: @border-radius;
+    color: @query-text-color;
+    font-size: @query-font-size;
+    text-align: center;
+
+    .searchHint {
+        color: #0085D0;
+        font-size: @query-font-size;
+    }
+}
+
+.queryResultDetail {
+    background-color: @query-bg-color;
+    padding: 12px;
+    border-radius: @border-radius;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 32px;
+    font-size: @query-font-size;
+
+    .resultRow {
+        display: flex;
+        gap: 8px;
+
+        .resultLabel {
+            font-weight: bold;
+            color: #333;
+            text-align: right;
+            white-space: nowrap; // 保持不换行，实现上下对齐靠右
+        }
+
+        .resultLabelWide {
+            min-width: 80px;
+        }
+
+        .resultLabelMedium {
+            min-width: 70px; // 调整为70px，与提交人对齐
+            margin-left: -70px; // 相应调整左移距离
+        }
+
+        .resultLabelShort {
+            min-width: 70px; // 调整为70px，与需求名称对齐
+            margin-left: -70px; // 相应调整左移距离
+        }
+
+        .resultValue {
+            color: #666;
+            flex: 1; // 让值部分占据剩余空间
+        }
+
+        .resultValueBreak {
+            word-break: break-all;
+            white-space: normal;
+            overflow-wrap: break-word;
+            flex: 1; // 让换行的值部分占据剩余空间
+        }
+    }
+}
+
+.queryResultGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+
+    .staffTag {
+        background-color: #fff;
+        padding: 8px 10px;
+        border-radius: @border-radius-tag;
+        color: #666;
+        border: 1px solid #e8e8e8;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+    .staffTagSelected {
+        background-color: #e6f7ff;
+        color: #1890ff;
+        border: 1px solid #1890ff;
+    }
+}
+
+// Form.Item 定位样式
+.formItemRelative {
+    position: relative;
+
+    .inputWithRightPadding {
+        padding-right: 15px;
+    }
+}

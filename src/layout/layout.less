@@ -1,0 +1,46 @@
+// 修改Allotment插件的默认样式
+:root {
+    --focus-border: var(--ngap-primary-color);
+    --separator-border: var(--ngap-border-color);
+}
+.editContent {
+    float: left;
+    width: 100%;
+    height: 100%;
+    .closeComponentSplitter {
+        overflow: visible;
+    }
+    .configPanelBox {
+        overflow: visible;
+        position: relative;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        &.hide {
+            overflow: hidden;
+        }
+    }
+}
+.content {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 20;
+    background: #fff;
+}
+.closeMenuContent {
+    position: fixed;
+    right: 0;
+    width: calc(100% - 15px);
+    height: 100%;
+}
+.w100 {
+    width: 100%;
+}
+// 全屏状态下隐藏上tab
+.app-layout-fullscreen>div>[role="tablist"].ant-tabs-nav {
+    display: none !important;
+}

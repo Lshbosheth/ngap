@@ -1,0 +1,331 @@
+.canvasBox {
+    width: 100%;
+    height: 100%;
+
+    .nodeCanvas {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        font-size: 0;
+        cursor: move;
+        transform-origin: 0 0;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        background: url('../../../../imgs/point.png');
+        // SVG连线容器
+        .canvas-svg {
+            pointer-events: none;
+        }
+
+        /* 流程节点样式 */
+
+        .canvasNodeBlock {
+            position: absolute;
+            min-width: 88px;
+            box-sizing: border-box;
+            background: #ffffff;
+            /*min-height: 60px;*/
+            /*padding-bottom: 8px;*/
+            cursor: pointer;
+            font-size: 12px;
+            border: 1px solid #dae1e6;
+            border-radius: 4px;
+            .errorTipDiv {
+                display: none;
+                font-size: 12px;
+                color: #f65a56;
+                position: absolute;
+                top: -26px;
+                & > img {
+                    height: 14px;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                }
+            }
+            .nodeEnd {
+                border-radius: 50%;
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                top: calc(50% - 4px);
+                right: -4px;
+                box-sizing: border-box;
+                background: #0085d0;
+                transition: width 300ms, height 300ms, top 300ms, right 300ms;
+                display: inline;
+                &:hover {
+                    width: 16px;
+                    height: 16px;
+                    top: calc(50% - 8px);
+                    right: -8px;
+                    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAGZJREFUOE/tk8EVgDAIQ2EMmM4OoUPUIXQ6GCN9+OqxfdZeyxWSQz5hmhzu6d09x15EjtZd18DMEEJVbd4tA6InA3e/AGwjRJn5FpH0GmQA+6DBGXgXhUqhFd70KwfeWqb0q0xfsBZhJUARNbhPIAAAAABJRU5ErkJggg==');
+                    background-repeat: no-repeat;
+                    background-size: 70%;
+                    background-position: center;
+                }
+            }
+            .topBtnDiv {
+                display: none;
+                position: absolute;
+                top: 30px;
+                right: 8px;
+                border: 1px solid #e2e2e2;
+                border-radius: 4px;
+                box-sizing: border-box;
+                cursor: pointer;
+                background: #ffffff;
+                padding: 4px;
+                z-index: 1;
+                & > div {
+                    padding: 8px;
+                    font-size: 14px;
+                    width: 108px;
+                    color: #666666;
+                    border-radius: 4px;
+                    line-height: 20px;
+                    &:hover {
+                        background: #f1f1f1;
+                    }
+                }
+                img {
+                    height: 14px;
+                    width: 14px;
+                    margin: 2px 4px;
+                }
+            }
+            .addBranchBtn {
+                display: none;
+                position: absolute;
+                background: #fff;
+                left: 0;
+                bottom: -28px;
+                color: #90c31f;
+                border: 1px solid #e2e2e2;
+                border-radius: 4px;
+                box-sizing: border-box;
+                cursor: pointer;
+                padding: 4px;
+                z-index: 1;
+                // pointer-events: none;
+            }
+            .nodePage {
+                height: 36px;
+                line-height: 36px;
+                box-sizing: border-box;
+                padding: 0px 12px;
+                .nodePageDiv {
+                    display: inline-block;
+                    padding-bottom: 28px;
+                }
+                .operateBtnDiv {
+                    float: right;
+                    display: none;
+                    & > div {
+                        display: inline-block;
+                    }
+                    img {
+                        vertical-align: middle;
+                        width: 16px;
+                        margin-left: 8px;
+                    }
+                }
+                .nodeTypeImg {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 0px;
+                    margin-right: 2px;
+                    vertical-align: middle;
+                }
+                .nodeTitle {
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: bold;
+                    vertical-align: middle;
+                    max-width: 240px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+            .optionsBlock {
+                box-sizing: border-box;
+                border: 1px solid #999999;
+                border-radius: 3px;
+                margin: 4px 8px;
+                display: block;
+                .optionDiv {
+                    box-sizing: border-box;
+                    padding: 4px 8px;
+                    border-bottom: 1px solid #999999;
+                    position: relative;
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                }
+            }
+            .activeOptions {
+                border: 1px solid #0085d0;
+            }
+            &:hover{
+                .addBranchBtn{
+                    display: inline-block;
+                }
+            }
+            .moreOperateBtn:hover{
+                .topBtnDiv{
+                    display: inline-block;
+                }
+            }
+        }
+
+        .errorTipNode {
+            border: 1px solid #f65a56;
+        }
+
+        .errorTipNode .errorTipDiv {
+            display: block;
+        }
+
+        .businessNode .nodePage .operateBtnDiv {
+            display: block;
+        }
+
+        .businessNodeBlock {
+            width: 230px;
+        }
+
+        .businessNodeBlock .nodePage .nodeTitle {
+            width: 126px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        /* 连线样式 */
+        .connectionLine div {
+            position: absolute;
+            background: #0085d0;
+            width: 2px;
+            height: 2px;
+            border: none;
+        }
+
+        .connectionLine .endLineAfter {
+            right: 9px;
+        }
+
+        .connectionLine .endLineAfter::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: -3px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #0085d0;
+            transform: rotate(-90deg);
+        }
+
+        .connectionLine .leftAfter::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: -3px;
+            left: -6px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid #0085d0;
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.editBox,
+.previewBox {
+    height: calc(100% - 60px);
+    overflow: hidden !important;
+    width: 100%;
+    > div {
+        height: 100%;
+        > div {
+            height: 100%;
+        }
+    }
+    .ant-modal-content {
+        height: 100%;
+    }
+    .ant-modal-body {
+        position: relative;
+        height: calc(100% - 125px);
+        max-height: 100000px !important;
+    }
+    .ant-tabs-tabpane {
+        padding-left: 0 !important;
+        height: 100%;
+    }
+    .ant-tabs-content {
+        height: 100%;
+    }
+    .ant-collapse {
+        height: calc(100% - 32px) !important;
+    }
+}
+.previewBox{
+    #editor{
+        height: 100%!important;
+    }
+}
+.app_modules {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    > label {
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        text-align: right;
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+    > div {
+        width: calc(100% - 170px);
+        .belongModuleSelect {
+            width: 100%;
+        }
+    }
+}
+.icon-config {
+    padding: 0 3px;
+    color: #f00;
+}
+.busiButton {
+    height: 60px;
+    line-height: 60px;
+    background: #ebf1f5;
+    width: 100%;
+    text-align: center;
+}
+.editNodeName{
+    margin-top: 15%!important;
+}
+.ant-tooltip{
+    pointer-events: none;
+}
+.refreshPageItem {
+    border: 1px solid #e0e7ee;
+    padding: 5px;
+    margin-bottom: 5px;
+    :global {
+        .ant-form-item-label {
+            label {
+                margin-right: 0;
+            }
+        }
+        .apiOperate {
+            margin-right: 10px;
+        }
+    }
+}

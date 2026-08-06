@@ -1,0 +1,71 @@
+.slots {
+    flex: 1;
+    background-color: #f0f0f0;
+    border: 1px dotted;
+    color: #a7b1bd;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+// 继承父元素高度
+.spin-loading {
+    height: inherit;
+    .ant-spin-container {
+        height: inherit;
+    }
+}
+
+.cascaderPopup {
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.18);
+    &.ant-cascader-dropdown .ant-cascader-menu {
+        padding: 0 !important;
+        &::-webkit-scrollbar {
+            width: 7px;
+            margin-right: 2px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+            border-radius: 3px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #b7b7b7;
+            border-radius: 4px;
+            &:hover {
+                background: #b8b8b8;
+            }
+        }
+
+        &::-webkit-scrollbar-corner {
+            background: transparent;
+        }
+    }
+    &.ant-cascader-dropdown.ant-select-dropdown {
+        border-radius: 0;
+    }
+    &.ant-cascader-dropdown .ant-cascader-menu-item {
+        color: #333333;
+        font-size: 12px;
+        line-height: 36px;
+        padding: 0 8px;
+        border-radius: 0;
+        width: auto;
+        max-width: 188px;
+    }
+    &.ant-cascader-dropdown .ant-cascader-menu-item:hover {
+        background: #f0f5f7;
+    }
+    &.ant-cascader-dropdown .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled) {
+        background: #cbe7f6;
+    }
+    &.ant-cascader-dropdown .ant-cascader-menu-item-disabled {
+        color: #999999;
+    }
+    &.ant-cascader-dropdown .ant-cascader-menu-item-content {
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

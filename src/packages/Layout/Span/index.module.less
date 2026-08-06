@@ -1,0 +1,44 @@
+.Span {
+    :global {
+        // .listItem {
+        //     width: 100%;
+        //     // :last-child {
+        //     //     padding-right: 0px !important;
+        //     // }
+        //     // :first-child {
+        //     //     padding-left: 0px !important;
+        //     // }
+        // }
+        .listItem:first-child {
+            padding-left: 0px !important;
+        }
+        .listItem:last-child {
+            padding-right: 0px !important;
+        }
+        .spaceItem {
+            width: 100%;
+            // height: 40px;
+            line-height: 40px;
+            // text-align: center;
+            margin: 8px 0px;
+            border: 1px dashed transparent;
+        }
+    }
+}
+
+.boxHover {
+    border: 1px dashed #d5dce6;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #0085d0;
+    }
+}
+.box {
+    border: 1px dashed transfer;
+}

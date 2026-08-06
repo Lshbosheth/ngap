@@ -1,0 +1,255 @@
+.conditionalBranchConfig {
+    background: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.custom-modal-wrap {
+    position: fixed !important;
+    top: 50% !important;
+    right: 0 !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
+    left: auto !important;
+    display: block !important;
+    z-index: 1001 !important;
+    /* 确保弹窗层级正确 */
+}
+
+.interface-modal-wrap {
+    position: fixed !important;
+    top: 20% !important;
+    right: 0 !important;
+    margin: 0 !important;
+    left: auto !important;
+    display: block !important;
+    z-index: 1001 !important;
+    /* 确保弹窗层级正确 */
+}
+
+.interface-modal-wrap > div {
+    height: 100%;
+}
+
+.interface-modal-wrap .ant-modal-content {
+    height: 100%;
+}
+
+.DeleteOutlined {
+    font-size: 16px;
+    color: #f38900;
+}
+
+.brachTitle {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.labelTaxt {
+    padding-left: 20%;
+}
+
+.brachTitleCont {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.closeConditionalBtn {
+    float: right;
+    width: 14px;
+    cursor: pointer;
+}
+
+.conditionalBranchConfig .branch-config {
+    padding: 8px;
+    height: calc(100% - 80px);
+}
+
+.conditionalBranchConfig .branch-config .atom-config-title {
+    font-weight: 700;
+    font-size: 12px;
+    border-left: 3px solid #0085d0;
+    padding-left: 5px;
+    margin: 8px 0;
+}
+
+.conditionalBranchConfig .branch-config .input-block {
+    padding: 0 6px 6px 0;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.conditionalBranchConfig .branch-config .input-block .input-label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+    line-height: 14px;
+    text-align: left;
+    color: #222;
+    font-size: 12px;
+    font-weight: 400;
+    width: 78px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.conditionalBranchConfig .branch-config .input-block .input-div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: 86px;
+}
+
+.conditionalBranchConfig .branch-config .input-block .branchType {
+    display: block;
+}
+
+.branch-cont{
+    height: calc(100% - 65px);
+    overflow: auto;
+}
+
+.branch-cont-at{
+    height: calc(100% - 127px);
+}
+
+.branch-cont .mt-config-block {
+    height: auto;
+    box-sizing: border-box;
+    margin: 8px 8px 8px 0;
+    position: relative;
+}
+
+.branch-cont .mt-config-block .sn-input-wrapper .sn-input .sn-icons .sn-icon {
+    display: none;
+}
+
+.branch-cont .branchNameCont {
+    margin-right: 32px;
+    position: relative;
+}
+
+.branch-cont .mt-config-block .config-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /*background: red;*/
+}
+
+.branch-config-item .branchNameCont .branchConfig {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    top: 4px;
+    position: absolute;
+    right: 4px;
+}
+
+.branch-cont .branch-delete-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 7px;
+    right: -20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.mt-config-block .mt-config-label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+    line-height: 14px;
+    text-align: left;
+    color: #222;
+    font-size: 12px;
+    font-weight: 400;
+    width: 78px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.mt-config-block .mt-config-div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: 86px;
+}
+
+.mt-config-block .mt-config-div .sn-input,
+.mt-config-block .mt-config-div .sn-select-container {
+    width: 100%;
+    margin-left: 0;
+}
+
+.mt-config-block .mt-config-label .branch-tip {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.branchDescriptionCont .branchDescription {
+    height: auto;
+    font-size: 12px;
+    color: #666;
+}
+
+.branch-config .add-branch {
+    box-sizing: border-box;
+    padding-left: 86px;
+    margin-top: 8px;
+    overflow: hidden;
+    /*padding-bottom: 8px;*/
+}
+
+.branch-config .add-branch .add-branch-btn {
+    line-height: 22px;
+    height: 22px;
+    /*padding: 0 12px;*/
+    color: #90c31f;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+
+.branch-config .branch-config-item {
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    /*margin-right: 21px;*/
+}
+
+.branch-config .branch-config-item:nth-last-of-type(1) {
+    border-bottom: 0px solid #d9d9d9;
+}
+
+.selectVariable{
+    float: right;
+}

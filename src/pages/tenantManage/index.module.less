@@ -1,0 +1,128 @@
+.tenantBox {
+    height: 100%;
+    padding: 0 12px 12px;
+    background: #eaf0f6;
+    .tenantTop {
+        height: 52px;
+        line-height: 52px;
+        position: relative;
+        padding-left: 18px;
+        .tenantTitle {
+            font-size: 16px;
+            color: #333333;
+        }
+        .backBtn {
+            position: absolute;
+            right: 6px;
+            top: 0;
+            color: #0085d0;
+            cursor: pointer;
+        }
+        .backArrow {
+            margin-right: 7px;
+        }
+    }
+}
+
+.tenantSearch,
+.tenantContent {
+    position: relative;
+    background-color: #fff;
+}
+.tenantSearch {
+    margin-bottom: 13px;
+    padding: 14px 16px 0;
+    .searchCon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .searchItem {
+            width: 30%;
+            margin-bottom: 14px;
+            > label {
+                display: inline-block;
+                width: 62px;
+                text-align: right;
+            }
+            .inputItem {
+                display: inline-block;
+                width: calc(100% - 62px);
+                :global {
+                    .ant-select {
+                        width: 100%;
+                    }
+                    .ant-input-outlined,
+                    .ant-select-selector {
+                        background: #ffffff;
+                    }
+                }
+            }
+            &.searchBtnItem {
+                text-align: right;
+                .searchQuery {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.tenantContent {
+    padding: 0 12px;
+    .tenantListTitle {
+        height: 45px;
+        line-height: 45px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #262626;
+    }
+    .addBtn {
+        position: absolute;
+        right: 12px;
+        top: 9px;
+    }
+    :global {
+        .ant-table-wrapper{
+            padding-bottom: 29px;
+            .ant-table-pagination.ant-pagination{
+                margin: 0;
+                padding: 16px 10px 16px 0;
+                border: 1px solid #DCDFE6;
+                border-top: 0;
+            }
+        }
+        .ant-checkbox .ant-checkbox-inner {
+            border-radius: 2px;
+        }
+        .ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected:nth-child(even) > .ant-table-cell,
+        .ant-table-tbody > tr.ant-table-row:nth-child(even):hover > td {
+            background-color: #ecf1f4;
+        }
+        .ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected:nth-child(odd) > .ant-table-cell,
+        .ant-table-tbody > tr.ant-table-row:nth-child(odd):hover > td {
+            background-color: #fff;
+        }
+    }
+    .leftBottomBox {
+        position: absolute;
+        left: 22px;
+        bottom: 45px;
+
+        &.noDataBottomBox {
+            display: none;
+        }
+        > span,
+        .enableBtn {
+            margin-right: 8px;
+        }
+        .multiBtn {
+            border-color: #0085d0;
+            background: #fff;
+            color: #0085d0;
+            border-radius: 2px;
+        }
+    }
+}
+
+:global(.custom-tooltip) {
+  max-width: 600px!important;
+}

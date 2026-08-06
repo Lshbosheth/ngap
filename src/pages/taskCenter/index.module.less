@@ -1,0 +1,587 @@
+.tenantBox {
+    height: 100%;
+    padding: 0 6px;
+    background: #eaf0f6;
+    .tenantTop {
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        padding-left: 10px;
+        .tenantTitle {
+            font-size: 16px;
+            color: #333333;
+        }
+        .backBtn {
+            font-size: 16px;
+            position: absolute;
+            right: 6px;
+            top: 0;
+            color: #0085d0;
+            cursor: pointer;
+        }
+        .backArrow {
+            margin-right: 7px;
+        }
+        .ant-tabs-nav{
+            margin-bottom: 0px;
+        }
+    }
+}
+.actionBtn {
+    color: #0085d0;
+}
+.tenantSearch,
+.tenantContent {
+    position: relative;
+    background-color: #fff;
+    .tenantTitle {
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        text-indent: 8px;
+        font-weight: bold;
+        color: #262626;
+    }
+}
+.mainTabs {
+    height: 100%;
+    :global{
+        .ant-tabs {
+            height: 100%;
+            .ant-tabs-content {
+                height: 100%;
+                .ant-tabs-tabpane {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.tenantSearch {
+    margin-bottom: 10px;
+    .backBtn {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        color: #0085d0;
+    }
+    .searchItemBox {
+        width: 40%;
+        margin: auto;
+    }
+    .searchCon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        .searchfloa {
+            margin-left: auto;
+        }
+        .searchItem {
+            width: 30%;
+            margin-bottom: 12px;
+            > label {
+                display: inline-block;
+                padding-right: 10px;
+                width: 99px;
+                text-align: right;
+            }
+            .inputItem {
+                display: inline-block;
+                width: calc(100% - 100px);
+                :global(.ant-select) {
+                    width: 100%;
+                }
+            }
+            &.searchBtnItem {
+                text-align: right;
+                .searchQuery {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .searchItemAll {
+            width: 100%;
+            margin-bottom: 12px;
+            > label {
+                display: inline-block;
+                padding-right: 10px;
+                width: 99px;
+                text-align: right;
+            }
+            .inputItem {
+                display: inline-block;
+                width: calc(100% - 100px);
+                :global(.ant-select) {
+                    width: 100%;
+                }
+            }
+            &.searchBtnItem {
+                text-align: right;
+                .searchQuery {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.tenantContent {
+    height: calc(100% - 167px);
+    .addBtn {
+        position: absolute;
+        right: 5px;
+        top: 3px;
+    }
+}
+.leftBottomBox {
+    position: absolute;
+    left: 22px;
+    bottom: 16px;
+
+    &.noDataBottomBox {
+        position: relative;
+        left: 10px;
+        bottom: 0;
+        height: 48px;
+        line-height: 48px;
+    }
+    > span,
+    .enableBtn {
+        margin-right: 8px;
+    }
+    .multiBtn {
+        border-color: #0085d0;
+        background: #fff;
+        color: #0085d0;
+        border-radius: 2px;
+    }
+}
+.reviewConfigDrawer {
+    :global {
+        .ant-drawer-header {
+            height: 52px;
+            .ant-drawer-title {
+                font-weight: bold;
+                font-size: 16px;
+                color: #262626;
+            }
+        }
+        .ant-drawer-body {
+            padding: 0;
+            .ant-steps-item-finish .ant-steps-item-icon,
+            .ant-steps-item-process .ant-steps-item-icon {
+                width: 9px;
+                height: 9px;
+            }
+            .ant-steps-item-finish .ant-steps-icon-dot,
+            .ant-steps-item-process .ant-steps-icon-dot,
+            .ant-steps-item-wait .ant-steps-icon-dot,
+            .ant-steps-item-finish .ant-steps-item-tail::after,
+            .ant-steps-item-process .ant-steps-item-tail::after,
+            .ant-steps-item-wait .ant-steps-item-tail::after {
+                background-color: #90c31f !important;
+            }
+        }
+        .ant-drawer-footer {
+            border-top: 1px solid #d5dce6;
+            padding: 0 0 0 22px;
+            button {
+                width: 80px;
+                height: 30px;
+            }
+        }
+    }
+    .tip {
+        position: relative;
+        line-height: 36px;
+        background: #f2faff;
+        font-size: 12px;
+        color: #595959;
+        border-top: 1px solid #d5dce6;
+        border-bottom: 1px solid #d5dce6;
+        &.tipClose {
+            display: none;
+        }
+    }
+    .contentBox {
+        display: flex;
+        height: calc(100% - 38px);
+        &.contentBoxNoTip {
+            height: 100%;
+        }
+        .contentTop {
+            height: 50px;
+            line-height: 50px;
+            padding-left: 15px;
+            font-size: 14px;
+            color: #262626;
+            border-right: 1px solid #d5dce6;
+            border-bottom: 1px solid #d5dce6;
+            span {
+                margin-left: 16px;
+                font-size: 12px;
+                color: #969696;
+            }
+        }
+        .contentLeft {
+            width: 15%;
+            min-width: 168px;
+            .reviewType {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+        .contentCenter {
+            width: 20%;
+        }
+        .contentRight {
+            flex: 1;
+            .contentTop {
+                border-right: 0;
+            }
+        }
+    }
+    .scrollbarDis::-webkit-scrollbar{
+        display: none;
+    }
+}
+:global(.custom-drawer-root){
+    position: absolute !important;
+}
+.reviewDrawer{
+    :global {
+        .ant-drawer-header {
+            height: 52px;
+            .ant-drawer-title {
+                font-weight: bold;
+                font-size: 16px;
+                color: #262626;
+            }
+        }
+        .ant-drawer-body {
+            padding: 16px 34px 10px 30px;
+            .ant-steps.ant-steps-dot .ant-steps-item-icon{
+                width: 11px;
+                height: 11px;
+            }
+            .ant-steps-item-process .ant-steps-item-icon >.ant-steps-icon .ant-steps-icon-dot{
+                box-shadow: 0 0 6px rgb(11 133 234);
+            }
+            .ant-steps-item-finish .ant-steps-icon-dot,
+            .ant-steps-item-finish .ant-steps-item-tail::after{
+                background-color: #90c31f !important;
+            }
+            .ant-steps-item-finish:last-child .ant-steps-item-tail::after,
+            .ant-steps-item-finish:not(:has(~ .ant-steps-item-finish)) .ant-steps-item-tail::after,
+            .ant-steps-item-finish:last-of-type .ant-steps-item-tail::after{
+                background-color: #0085d0 !important;
+            }
+            
+            .ant-steps.ant-steps-dot .ant-steps-item-tail{
+                top: 3px;
+                margin-inline: 64px;
+                width: calc(100% + 14px);
+            }
+            td.ant-descriptions-item {
+                border: 1px solid #EBECEE;
+                border-top: 0;
+                height: 49px;
+                padding: 0;
+                padding-left: 20px;
+                line-height: 49px;
+            }
+            .ant-descriptions .ant-descriptions-item-container .ant-descriptions-item-label{
+                line-height: 49px;
+            }
+            .ant-descriptions .ant-descriptions-item-container .ant-descriptions-item-content {
+                line-height: 49px;
+                align-items: center;
+            }
+            .ant-input-data-count{
+                bottom: -3px;
+                right: 10px;
+                font-size: 14px;
+                color: #969696;
+            }
+            label.ant-checkbox-wrapper.ant-checkbox-group-item.css-var-r1.ant-checkbox-css-var {
+                width: 86px;
+                line-height: 32px;
+            }
+            .ant-select{
+                width: 262px;
+                margin-left: 25px;
+                margin-top: 8px;
+                .ant-select-selector{
+                    background: #fff;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+    .infocard {
+        margin-bottom: 16px;
+        .cardheader {
+            display: flex;
+            justify-content: space-between;
+            background: #F4FAFF;
+            align-items: center;
+            padding: 12px 16px;
+            border: 1px solid #EBECEE;
+            border-left: 3px solid #1890ff;
+        }
+        .titlea {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .recodeContent{
+            display: flex;
+            align-items: center;
+            padding-left: 18px;
+            height: 48px;
+            background: #FAFAFA;
+            border: 1px solid #EBECEE;
+            border-top: 0;
+        }
+        .recodeItem{
+            display: flex;
+            padding: 16px 18px;
+            font-size: 14px;
+            color: #646464;
+            border: 1px solid #EBECEE;
+            border-top: 0;
+        }
+        // 新增应用名称文本样式
+        .appNameText {
+            max-width: 245px;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+        .comment{
+            display: flex;
+            border: 1px solid #EBECEE;
+            border-top: 0;
+            .commentLeft{
+                width: 137px;
+                padding-left: 24px;
+                padding-top: 14px;
+                >span{
+                    position: relative;
+                    &::after{
+                        content: '*';
+                        position: absolute;
+                        left: -6px;
+                        color: #F65A56;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 应用标签样式
+.tagContainer {
+    width: 400px;
+    height: 40px;
+    .tagsWrapper {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        background-color: #f5fdff !important;
+        border: 1px solid #d5dce6 !important;
+        height: 32px !important;
+        border-radius: 6px !important;
+        position: relative !important;
+        white-space: nowrap !important;
+        margin-top: 9px;
+        .tagItemBox {
+            width: calc(100% - 60px) !important;
+            overflow: hidden !important;
+            display: flex !important;
+            align-items: center !important;
+            flex-shrink: 0 !important;
+            position: relative !important;
+            padding-left: 6px !important;
+        }
+        
+        .tagItem {
+            display: inline-flex !important;
+            align-items: center !important;
+            padding: 4px 4px !important;
+            font-size: 14px !important;
+            color: rgba(0, 0, 0, 0.88) !important;
+            gap: 6px !important;
+            transition: all 0.3s !important;
+            flex-shrink: 0 !important;
+            max-width: 100% !important;
+            background-color: transparent !important;
+
+            &:hover {
+                background-color: #bae7ff !important;
+            }
+
+            span {
+                max-width: 100px !important;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                display: inline-block !important;
+            }
+
+            .tagCloseIcon {
+                cursor: pointer !important;
+                color: #8c8c8c !important;
+                font-size: 10px !important;
+                padding: 2px !important;
+                border-radius: 2px !important;
+                transition: all 0.3s !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+
+                &:hover {
+                    color: #ff4d4f !important;
+                    background-color: rgba(255, 77, 79, 0.1) !important;
+                }
+            }
+        }
+
+        .tagSelector {
+            cursor: pointer !important;
+            height: 24px !important;
+            line-height: 24px !important;
+            color: #0085d0 !important;
+            width: 24px !important;
+            position: absolute !important;
+            right: 10px !important;
+            background-color: transparent !important;
+            transition: all 0.3s !important;
+            user-select: none !important;
+            flex-shrink: 0 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            &:hover {
+                background-color: #e6f7ff !important;
+                border-color: #40a9ff !important;
+                color: #096dd9 !important;
+            }
+
+            &:active {
+                background-color: #bae7ff !important;
+            }
+        }
+
+        .emptyTip {
+            color: #bfbfbf !important;
+            padding-left: 10px !important;
+            font-size: 14px !important;
+        }
+
+        // 省略号样式
+        .overflowEllipsis {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            min-width: 20px !important;
+            padding: 0 4px !important;
+            cursor: pointer !important;
+            color: #8c8c8c !important;
+            font-weight: bold !important;
+            font-size: 16px !important;
+            flex-shrink: 0 !important;
+            background-color: #e6f7ff !important;
+            border-radius: 2px !important;
+            transition: all 0.3s !important;
+
+            &:hover {
+                color: #0085d0 !important;
+                background-color: #bae7ff !important;
+            }
+        }
+    }
+}
+
+// Tooltip覆盖层样式（全局样式，因为Tooltip挂载在body下）
+.hiddenTagsTooltipOverlay {
+    :global(.ant-tooltip-inner) {
+        width: 400px !important;
+        padding: 8px 12px !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
+        border: 1px solid #d9d9d9;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        white-space: normal !important;
+        overflow: visible !important;
+    }
+    
+    // 隐藏标签容器样式（使用全局选择器确保能应用到挂载到body的Tooltip内容）
+    :global(.ant-tooltip-inner > div) {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 6px !important;
+        width: 400px !important;
+        overflow-y: auto;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    // 隐藏标签项样式
+    :global(.ant-tooltip-inner > div > div) {
+        display: inline-flex !important;
+        align-items: center !important;
+        padding: 4px 4px !important;
+        font-size: 14px !important;
+        color: rgba(0, 0, 0, 0.88) !important;
+        border-radius: 4px !important;
+        gap: 6px !important;
+        transition: all 0.3s !important;
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+
+        &:hover {
+            background-color: #bae7ff !important;
+        }
+
+        span {
+            max-width: 100px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+        }
+
+        svg {
+            cursor: pointer !important;
+            color: #8c8c8c !important;
+            font-size: 14px !important;
+            padding: 2px !important;
+            border-radius: 2px !important;
+            transition: all 0.3s !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+            &:hover {
+                color: #ff4d4f !important;
+                background-color: rgba(255, 77, 79, 0.1) !important;
+            }
+        }
+    }
+    
+    :global(.ant-tooltip-arrow) {
+        &::before {
+            background-color: #ffffff !important;
+            border: 1px solid #d9d9d9;
+        }
+        
+        &::after {
+            background-color: #ffffff !important;
+        }
+    }
+}

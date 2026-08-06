@@ -1,0 +1,248 @@
+.CascadeSelectDialog {
+    // height: 450px;
+    // width: 800px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: #ffffff;
+    font-size: 12px;
+    color: #595959;
+
+    .CascadeSelectCont {
+        height: 500px;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-y: auto;
+        .cascadeSelect {
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .cascadeSelect * {
+            font-size: 12px;
+            color: #262626;
+            box-sizing: border-box;
+        }
+
+        /* 滚动条宽度 */
+        .cascadeSelect *::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* 滑块颜色 */
+        .cascadeSelect *::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: #c2c2c2;
+        }
+
+        /* 滚动条轨道颜色 */
+        .cascadeSelect *::-webkit-scrollbar-track {
+            background-color: #fafafa;
+        }
+
+        .cascadeSelect .selectCont {
+            width: 100%;
+            height: 32px;
+            background-color: rgba(208, 214, 217, 0.3);
+            border-radius: 2px;
+            padding: 0 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .cascadeSelect .selectCont > label {
+            width: 50px;
+            font-weight: 600;
+        }
+
+        .cascadeSelect .selectCont .selectNodeName {
+            width: calc(100% - 50px);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .cascadeSelect .selectArea {
+            width: 100%;
+            height: calc(100% - 42px);
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes {
+            width: 170px;
+            height: 100%;
+            padding-left: 5px;
+            background-color: #f2f9ff;
+            border-radius: 2px;
+            overflow-y: auto;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes::-webkit-scrollbar {
+            width: 2px;
+        }
+
+        .cascadeSelect .selectArea .levelNode {
+            width: 100%;
+            height: 36px;
+            display: inline-flex;
+            justify-content: flex-start;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode {
+            margin: 8px 0;
+            padding-right: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode.selectNode {
+            background-color: #fff;
+            border-radius: 18px 0 0 18px;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .levelNode {
+            padding: 0 10px;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .levelNode.selectNode {
+            background-color: #cbe7f6;
+        }
+
+        .cascadeSelect .selectArea .levelNode > p {
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode > p {
+            font-size: 14px;
+            padding-left: 36px;
+            position: relative;
+        }
+
+        .cascadeSelect .selectArea .firstLevelNodes .levelNode > p::before {
+            content: '';
+            width: 18px;
+            height: 16px;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../imgs/busiTypeIcon.png');
+            position: absolute;
+            left: 8px;
+            top: 1px;
+            z-index: 1;
+        }
+
+        .cascadeSelect .selectArea .levelNode > span {
+            width: 12px;
+            height: 12px;
+            margin-left: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../imgs/down.png');
+            transform: rotate(-90deg);
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes {
+            width: calc(100% - 188px);
+            height: 100%;
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes {
+            width: 100%;
+            max-height: 80px;
+            padding: 4px 0;
+            font-size: 0;
+            overflow-y: auto;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode {
+            display: inline-block;
+            font-size: 12px;
+            padding: 0 12px;
+            height: 28px;
+            line-height: 28px;
+            margin: 4px 8px 4px 0;
+            background-color: #e6eef4;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode.selectNode {
+            color: #0085d0;
+            background-color: #cce7f6;
+            position: relative;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .secondLevelNodes .uniqueNode.selectNode::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #cce7f6;
+            position: absolute;
+            right: 50%;
+            bottom: -6px;
+            transform: rotate(45deg) translate(50%, -50%);
+            z-index: 1;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .searchNode {
+            width: 25%;
+            height: 30px;
+            margin: 8px 0;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .searchNode .sn-input {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .remainLevelNodes {
+            position: absolute;
+            top: 90px;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #e9e9e9;
+            border-left: 1px solid #e9e9e9;
+            border-bottom: 1px solid #e9e9e9;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .cascadeSelect .selectArea .otherLevelNodes .remainLevelNodes > div {
+            width: 25%;
+            height: 100%;
+            border-right: 1px solid #e9e9e9;
+            overflow-y: auto;
+        }
+    }
+
+    .busiButton {
+        height: 60px;
+        line-height: 60px;
+        background: #ebf1f5;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.CascadeSelectDialog::-webkit-scrollbar {
+    width: 5px;
+}
+
+.CascadeSelectDialog::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #999;
+}

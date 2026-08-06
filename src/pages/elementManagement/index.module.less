@@ -1,0 +1,474 @@
+// 元素管理主页s
+.container {
+    display: flex;
+    height: 100%;
+    font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f7fa;
+    button:focus,
+    button:hover,
+    button:active {
+        outline: none;
+        border-color: transparent;
+    }
+}
+.editorContainer{
+    height: 100%;
+}
+.sidebar {
+    width: 148px;
+    background-color: #f2f9ff;
+    // border-right: 1px solid #e9e9e9;
+}
+.mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.addCategoryBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    color: #90c31f;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    background-color: #f2f9ff;
+}
+.categoryBox {
+    overflow-y: auto;
+    height: calc(100% - 46px);
+    padding-top: 4px;
+}
+.categoryItem {
+    display: flex;
+    align-items: center;
+    padding: 7px 11px 7px 5px;
+    margin: 8px 0 8px 7px;
+    border-radius: 18px 0px 0px 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.categoryIcon {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categoryName {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+.categoryActions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.actionButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px 9px 2px 16px;
+    // border-bottom: 1px solid #e9e9e9;
+}
+.addBlockBtn {
+    position: absolute;
+    right: 80px;
+    background-color: #90c31f;
+    color: white;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.queryBlockBtn {
+    position: absolute;
+    right: 20px;
+    background-color: #0085d0;
+    color: white;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    .loader {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        border: 2px solid #f3f3f3;
+        border-top: 2px solid #3498db;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-right: 8px;
+        visibility: hidden;
+    }
+    .loader.visible {
+        visibility: visible;
+    }
+}
+.blocksContainer {
+    padding: 0 5px;
+    overflow-y: auto;
+    height: calc(100% - 96px);
+    .searchResultVoid {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nodataCont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .nodataTitle {
+                color: #666;
+            }
+
+            .nodataImg {
+                width: 156px;
+                height: 156px;
+                background: url('../applicationOrchestration/imgs/nodata.png');
+            }
+        }
+    }
+}
+.blockCard {
+    // padding: 20px 16px;
+    padding-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #eaeaec;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+    .yuansheng {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &.blockCardStatus6 {
+        background: #F6FAFC;
+    }
+}
+.blockIcon {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+.blockName {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #262626;
+    padding: 0 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blockInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: #999;
+}
+
+.dropdown1 {
+    width: 120px;
+    height: 30px;
+    margin-right: 8px;
+    :global {
+        .ant-select-selector {
+            border-radius: 4px !important;
+            background: #ffffff !important;
+            font-size: 12px !important;
+        }
+    }
+}
+
+.dropdown {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    :global {
+        .ant-select-selector {
+            border-radius: 4px !important;
+            background: #ffffff !important;
+            font-size: 12px !important;
+        }
+    }
+}
+
+.searchInput {
+    width: 238px;
+    height: 30px;
+    border-radius: 4px;
+    background: #ffffff !important;
+    font-size: 12px !important;
+}
+
+.element-page {
+    .page-content {
+        min-height: 400px;
+        padding: 24px;
+    }
+}
+// 元素管理主页e
+
+// 元素管理弹窗s
+.form_modal {
+    :global {
+        .element_form_classify {
+            padding-top: 30px;
+            .ant-form-item-row {
+                .ant-form-item-label {
+                    width: 113px !important;
+                }
+                .ant-form-item-control {
+                    width: calc(100% - 113px) !important;
+                }
+            }
+        }
+        .element_form {
+            .ant-form-item-row {
+                display: inline-block;
+                width: calc(100% - 23px);
+                .ant-form-item-label {
+                    display: inline-block;
+                    width: 100px;
+                    text-align: right;
+                    vertical-align: top;
+                }
+                .ant-form-item-control {
+                    width: calc(100% - 100px);
+                    display: inline-block;
+                    vertical-align: top;
+                    .ant-upload-select {
+                        width: 50px;
+                        height: 50px;
+                        font-size: 12px;
+                    }
+                    .upload_image .delete_btn {
+                        cursor: pointer;
+                        position: relative;
+                        top: -23px;
+                        right: 5px;
+                    }
+                    .upload_source {
+                        span,
+                        img {
+                            vertical-align: middle;
+                        }
+                        span {
+                            margin: 12px;
+                            font-size: 13px;
+                        }
+                        .delete_btn {
+                            cursor: pointer;
+                            vertical-align: text-bottom;
+                        }
+                    }
+                    .source_upload {
+                        .ant-upload-select {
+                            background-color: var(--ant-color-fill-alter);
+                            border: var(--ant-line-width) dashed var(--ant-color-border);
+                            border-radius: var(--ant-border-radius-lg);
+                            cursor: pointer;
+                            .ant-upload {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100%;
+                                text-align: center;
+                                .upload_button {
+                                }
+                            }
+                        }
+                        .ant-upload-select:hover {
+                            border-color: var(--ant-color-primary);
+                        }
+                    }
+                    .upload_remarks {
+                        font-size: 12px;
+                        span {
+                            position: absolute;
+                            top: 15px;
+                            left: 60px;
+                            color: #f65a56;
+                        }
+                        div {
+                            position: absolute;
+                            left: 250px;
+                            top: 12px;
+                            color: #36a8ff;
+                            padding: 3px 5px;
+                            border: 1px solid #36a8ff;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 元素管理弹窗e
+
+// 元素管理详情s
+.detailBox {
+    padding: 12px;
+    .backBox {
+        padding-left: 14px;
+        width: 65px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        span {
+            margin-left: 10px;
+            font-size: 14px;
+            color: #595959;
+            vertical-align: text-bottom;
+        }
+    }
+    .iconBox {
+        display: inline-block;
+        width: 168px;
+        height: 168px;
+        background: #f7f8fa;
+        border-radius: 2px;
+        margin-right: 24px;
+        img {
+            width: 64px;
+            height: 64px;
+            margin: 52px;
+        }
+    }
+    .infoBox {
+        display: inline-block;
+        width: calc(100% - 192px);
+        height: 168px;
+        vertical-align: top;
+        .infoItem {
+            margin-bottom: 13px;
+            :global {
+                .ant-descriptions-item-label {
+                    font-size: 12px;
+                    color: #787878;
+                }
+                .ant-descriptions-item-content {
+                    font-size: 12px;
+                    color: #262626;
+                }
+            }
+        }
+        .nameBox {
+            display: flex;
+            align-items: center;
+            .name {
+                font-size: 16px;
+                color: #262626;
+                font-weight: bold;
+                max-width: calc(100% - 150px);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .version {
+                font-size: 14px;
+                margin: 0px 11px;
+                color: #999999;
+            }
+        }
+        .buttonBox {
+            margin: 21px 0 0 0;
+            button {
+                border-radius: 4px;
+                margin-right: 8px;
+                height: 24px;
+                font-size: 12px;
+            }
+        }
+    }
+    .tableTitle {
+        margin: 20px 0 19px 0;
+        height: 30px;
+        border-bottom: 1px solid #e9e9e9;
+        .title {
+            font-size: 13px;
+            color: #0085d0;
+            font-weight: 700;
+            margin-left: 13px;
+        }
+        .bottom {
+            width: 48px;
+            height: 3px;
+            background: #0085d0;
+            margin-left: 14px;
+            margin-top: 6px;
+        }
+    }
+    .table_container {
+        padding: 0px;
+        :global {
+            .ant-table-content {
+                overflow: hidden !important;
+            }
+            .ant-table-thead {
+                .ant-table-cell {
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #023156;
+                    background: #daecf5;
+                    border-radius: 0 !important;
+                }
+            }
+            .ant-table-tbody {
+                .ant-table-cell {
+                    font-size: 13px;
+                    color: #595959;
+                    height: 36px !important;
+                    a {
+                        margin-right: 10px;
+                    }
+                }
+                .custom-odd-row {
+                    background: #eaf0f6;
+                }
+            }
+        }
+    }
+}
+// 元素管理详情e

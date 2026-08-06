@@ -1,0 +1,22 @@
+.radio-override {
+    font-size: inherit;
+    display: flex;
+
+    .ant-radio-wrapper {
+        line-height: inherit !important;
+        text-align: inherit;
+        color: inherit;
+        font-size: inherit;
+        margin-right: 28px;
+    }
+
+    // 放大选中状态的中间圆点
+    .ant-radio-checked .ant-radio-inner {
+        &::after {
+            width: 24px !important;
+            height: 24px !important;
+            margin-top: -12px !important;
+            margin-left: -12px !important;
+        }
+    }
+}

@@ -1,0 +1,432 @@
+.tagSetting {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+
+    .tip {
+        color: #ff9800;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+}
+
+.colLeft {
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.sectionHeader {
+    background: #f5f5f5;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    .sectionTitle {
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
+.caseItem {
+    margin-bottom: 12px;
+
+    .caseHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+
+        .caseTitle {
+            font-weight: 500;
+            font-size: 13px;
+        }
+    }
+
+    .caseBranches {
+        padding-left: 12px;
+    }
+
+    .branchesAndResults {
+
+        > .caseBranches,
+        > .triggerResultsSummary {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        > .caseBranches {
+            padding-left: 0;
+        }
+    }
+}
+
+.branchContainer {
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.branchRow {
+    display: flex;
+    align-items: flex-start;
+
+    > :first-child {
+        flex: 1;
+    }
+}
+
+.branchBlock {
+    border: 1px solid #E0B315;
+    background: #F4F1EA ;
+    padding: 6px 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .branchHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .branchText {
+            color: #fa8c16;
+            font-weight: bold;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        .branchCondition {
+            color: #fa8c16;
+            font-weight: bold;
+            font-size: 12px;
+            flex: 1;
+            margin-left: 4px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            min-width: 0;
+            max-width: 180px;
+        }
+    }
+
+    .branchAction {
+        padding-left: 12px;
+        margin-top: 6px;
+
+        .actionBlock {
+            border: 1px solid #1890ff;
+            background: #e6f7ff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            box-sizing: border-box;
+
+            .actionTitle {
+                color: #1890ff;
+                font-weight: 500;
+                font-size: 12px;
+            }
+
+            .actionValue {
+                color: #ff4d4f;
+                font-size: 11px;
+                margin-top: 2px;
+                word-break: break-all;
+            }
+        }
+    }
+}
+
+.branchSelected {
+    border-color: #E0B315 !important;
+    background: #E0B315 !important;
+    box-shadow: 0 0 0 2px rgba(224, 179, 21, 0.3);
+
+    .branchText {
+        color: #fff !important;
+    }
+
+    .branchCondition {
+        color: #fff !important;
+    }
+
+    .actionBlock {
+        border-color: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.2);
+
+        .actionTitle {
+            color: #fff;
+        }
+
+        .actionValue {
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
+}
+
+.elseBlock {
+    border-color: #d9d9d9;
+    background: #fafafa;
+
+    .branchText {
+        color: #595959;
+        font-weight: bold;
+    }
+
+    .branchCondition {
+        color: #595959;
+        font-weight: bold;
+    }
+}
+
+.colRight {
+    flex: 1;
+    min-width: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.rightSectionHeader {
+    background: #f5f5f5;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    .sectionTitle {
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
+.conditionArea {
+    margin-bottom: 20px;
+    padding-left: 12px;
+
+    .conditionRow {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        flex-wrap: wrap;
+    }
+
+    .conditionLabel {
+        font-size: 11px;
+        color: #595959;
+        margin-bottom: 3px;
+    }
+
+    .nestedCondition {
+        padding-left: 20px;
+
+        :global(.ant-row) {
+            width: 100%;
+        }
+    }
+
+    .conditionHeader {
+        margin-bottom: 8px;
+    }
+
+    .conditionHeaderLabel {
+        font-size: 11px;
+        color: #595959;
+    }
+}
+
+.eventArea {
+    padding-left: 12px;
+}
+
+.eventItem {
+    background: #f5f5f5;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.eventHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.iconConfigRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.eventLabel {
+    min-width: 60px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.eventLabelSmall {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.configItem {
+    margin-bottom: 10px;
+}
+
+.eventSelect {
+    flex: 1;
+}
+
+.iconUpload {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.iconPreview {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.iconPreviewImg {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px;
+    background: #fff;
+}
+
+.iconDeleteBtn {
+    color: #ff4d4f !important;
+    padding: 0 4px !important;
+
+    &:hover {
+        color: #ff7875 !important;
+    }
+}
+
+.iconUploadLabel {
+    font-size: 11px;
+    color: #333;
+    width: 60px;
+}
+
+.iconUploadBtn {
+    color: #0085d0 !important;
+    border: none !important;
+    padding: 0 !important;
+    height: auto !important;
+    line-height: normal !important;
+    background-color: transparent;
+
+    &:hover {
+        color: #009af2 !important;
+    }
+}
+
+.tooltipConfig {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tooltipLabel {
+    min-width: 56px;
+}
+
+.tooltipSelect {
+    width: 80px;
+}
+
+.colorSelect {
+    flex: 1;
+}
+
+.columnSelect {
+    flex: 1;
+}
+
+.positionSelect {
+    flex: 1;
+}
+
+.sizeSelect {
+    flex: 1;
+}
+
+.deleteBtn {
+    color: #ff4d4f !important;
+    padding: 0 4px !important;
+
+    &:hover {
+        color: #ff7875 !important;
+        background: rgba(255, 77, 79, 0.1) !important;
+    }
+}
+
+.flexRow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.eventResultBlock {
+    border: 1px solid #706EE7;
+    background: #EEEEF4;
+    padding: 6px 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    width: 87%;
+    max-width: 87%;
+    overflow: hidden;
+
+    .eventResultTitle {
+        color: #706EE7;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .eventResultContent {
+        color: #0085d0;
+        font-size: 11px;
+        margin-top: 2px;
+        word-break: break-all;
+    }
+}
+
+.triggerResultsSummary {
+    padding-left: 12px;
+    box-sizing: border-box;
+    width: 100%;
+
+    .summaryTitle {
+        font-weight: 500;
+        font-size: 13px;
+        color: #333;
+        margin-bottom: 8px;
+    }
+}
+
+:global(.ant-tooltip-inner) {
+    background-color: #fff !important;
+    color: #333 !important;
+    border: 1px solid #d9d9d9;
+}
+
+:global(.ant-tooltip-arrow::before) {
+    background-color: #fff !important;
+}

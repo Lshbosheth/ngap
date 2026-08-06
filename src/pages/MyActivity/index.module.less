@@ -1,0 +1,143 @@
+.tenantBox {
+    height: 100%;
+    padding: 0 12px;
+    background: #eaf0f6;
+    .tenantTop {
+        height: 40px;
+        line-height: 40px;
+        position: relative;
+        padding-left: 10px;
+        .tenantTitle {
+            font-size: 16px;
+            color: #333333;
+        }
+        .backBtn {
+            position: absolute;
+            font-size: 16px;
+            right: 6px;
+            top: 0;
+            color: #0085d0;
+            cursor: pointer;
+        }
+        .backArrow {
+            margin-right: 7px;
+        }
+    }
+}
+.actionBtn {
+    color: #0085d0;
+}
+.tenantSearch,
+.tenantContent {
+    position: relative;
+    background-color: #fff;
+    .tenantTitle {
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+        text-indent: 8px;
+        font-weight: bold;
+        color: #262626;
+    }
+}
+.tenantSearch {
+    margin-bottom: 10px;
+    .backBtn {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        color: #0085d0;
+    }
+    .searchItemBox {
+        width: 40%;
+        margin: auto;
+    }
+    .searchCon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        .searchfloa {
+            margin-left: auto;
+        }
+        .searchItem {
+            width: 30%;
+            margin-bottom: 12px;
+            > label {
+                display: inline-block;
+                padding-right: 10px;
+                width: 99px;
+                text-align: right;
+            }
+            .inputItem {
+                display: inline-block;
+                width: calc(100% - 100px);
+                :global(.ant-select) {
+                    width: 100%;
+                }
+            }
+            &.searchBtnItem {
+                text-align: right;
+                .searchQuery {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .searchItemAll {
+            width: 100%;
+            margin-bottom: 12px;
+            > label {
+                display: inline-block;
+                padding-right: 10px;
+                width: 99px;
+                text-align: right;
+            }
+            .inputItem {
+                display: inline-block;
+                width: calc(100% - 100px);
+                :global(.ant-select) {
+                    width: 100%;
+                }
+            }
+            &.searchBtnItem {
+                text-align: right;
+                .searchQuery {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.tenantContent {
+    .addBtn {
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+        position: absolute;
+        right: 5px;
+        top: 3px;
+    }
+}
+.leftBottomBox {
+    position: absolute;
+    left: 22px;
+    bottom: 16px;
+
+    &.noDataBottomBox {
+        position: relative;
+        left: 10px;
+        bottom: 0;
+        height: 48px;
+        line-height: 48px;
+    }
+    > span,
+    .enableBtn {
+        margin-right: 8px;
+    }
+    .multiBtn {
+        border-color: #0085d0;
+        background: #fff;
+        color: #0085d0;
+        border-radius: 2px;
+    }
+}

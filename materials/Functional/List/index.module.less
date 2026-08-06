@@ -1,0 +1,16 @@
+.listBox {
+    &:global(.ant-list-split .ant-list-header){
+        background-color: #D4E9F5;
+        font-weight: bold;
+    }
+    &:global(.ant-list-split .ant-list-header),
+    &:global(.ant-list-bordered .ant-list-item) {
+        border-bottom-color: #cfd7e2;
+    }
+    &:global(.ant-list-bordered .ant-list-item:nth-child(even)) {
+        background-color: #e9eff2;
+    }
+    &:global(.ant-list-bordered .ant-list-item:nth-child(odd)) {
+        background-color: #ffffff;
+    }
+}

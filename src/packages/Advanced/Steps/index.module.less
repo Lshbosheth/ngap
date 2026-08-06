@@ -1,0 +1,366 @@
+.Steps {
+    color: #333;
+    font-size: 16px;
+    --steps-gap: 0px;
+
+    :global {
+        .ant-steps {
+            color: inherit;
+            font-size: inherit !important;
+        }
+        .ant-steps .ant-steps-width-progress .ant-steps-item-icon .ant-progress-inner{
+          display: none!important;
+        }
+        .ant-steps-item-icon {
+            overflow: hidden;
+        }
+        .ant-steps-item-process .ant-steps-item-icon,
+        .ant-steps-item-error .ant-steps-item-icon,
+        .ant-steps-item-wait .ant-steps-item-icon,
+        .ant-steps-item-finish .ant-steps-item-icon {
+            overflow: visible !important;
+        }
+        .ant-steps-item {
+            position: relative;
+        }
+        .ant-steps-item-title,
+        .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+        .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+        .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+            color: inherit;
+            font-size: inherit !important;
+        }
+        .ant-steps-item-title::after {
+            height: 2px !important;
+        }
+
+        .ant-steps-item-description,
+        .ant-steps-item-subtitle,
+        .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description,
+        .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+        .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+            color: #999;
+            font-size: inherit !important;
+        }
+
+        .ant-steps-item-finish .ant-steps-item-icon {
+            background-color: transparent !important;
+            border: none !important;
+        }
+        .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon {
+            display: none;
+        }
+        .ant-steps-item-finish .ant-steps-item-icon > .step-circle-icon {
+            display: flex !important;
+        }
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: #52c41a;
+}
+        .ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot,
+        .ant-steps-small.ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot {
+            background: #52c41a !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        .Steps .ant-steps-dot .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon-dot,
+        .Steps .ant-steps-dot.ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon-dot {
+            background: #0085d0 !important;
+            border: none !important;
+            box-shadow: none !important;
+            transform: scale(1) !important;
+        }
+        .Steps .ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot,
+        .Steps .ant-steps-small.ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot {
+            display: none !important;
+        }
+        .Steps .ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .step-circle-icon,
+        .Steps .ant-steps-small.ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .step-circle-icon {
+            display: flex !important;
+        }
+        .ant-steps-dot .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon-dot {
+            background: #D7D7D7 !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        .ant-steps-dot .ant-steps-item-error .ant-steps-item-icon > .ant-steps-icon-dot {
+            background: #ff4d4f !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        .ant-steps-item-process .ant-steps-item-icon,
+        .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot,
+        .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot,
+        .ant-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after {
+            background-color: #0085d0;
+        }
+        .ant-steps-item-process .ant-steps-item-icon:not(.step-circle-icon),
+        .ant-steps-item-error .ant-steps-item-icon:not(.step-circle-icon),
+        .ant-steps-item-wait .ant-steps-item-icon:not(.step-circle-icon) {
+            background-color: transparent !important;
+            border: none !important;
+        }
+        .ant-steps-item-process .ant-steps-item-icon:not(.step-circle-icon) .anticon,
+        .ant-steps-item-error .ant-steps-item-icon:not(.step-circle-icon) .anticon,
+        .ant-steps-item-wait .ant-steps-item-icon:not(.step-circle-icon) .anticon {
+            display: none;
+        }
+        .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after,
+        .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after,
+        .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-tail::after {
+            background-color: #e0e0e0;
+        }
+        .ant-steps-item-wait .ant-steps-item-icon {
+            background-color: #f5f5f5;
+            border-color: #f5f5f5;
+        }
+
+        .ant-steps .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot {
+            background: #D7D7D7;
+        }
+
+        .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+            color: #666;
+        }
+
+        .ant-steps-small .ant-steps-item-description {
+            font-size: 12px;
+        }
+        .ant-steps-item-subtitle {
+            color: inherit !important;
+        }
+        .ant-steps-item-tail {
+            display: none;
+        }
+        .ant-steps-dot .ant-steps-item-tail {
+            display: none;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail {
+            display: block;
+            top: -11px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail > .ant-steps-item-tail::after {
+            height: 2px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail::after {
+            height: 2px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-finish .ant-steps-item-tail::after {
+            background-color: #52c41a !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-process .ant-steps-item-tail::after {
+            background-color: #0085d0 !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-wait .ant-steps-item-tail::after {
+            background-color: #e0e0e0 !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-error .ant-steps-item-tail::after {
+            background-color: #ff4d4f !important;
+        }
+        .ant-steps-dot .ant-steps-item-icon {
+            background: transparent !important;
+            border: none !important;
+            overflow: visible !important;
+        }
+        .ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot,
+        .ant-steps-small.ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon-dot {
+            display: none !important;
+        }
+        .ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .step-circle-icon,
+        .ant-steps-small.ant-steps-dot .ant-steps-item-finish .ant-steps-item-icon > .step-circle-icon {
+            display: flex !important;
+        }
+        .ant-steps-item-finish .step-circle-icon {
+            display: flex !important;
+        }
+        .ant-steps-vertical {
+            .ant-steps-item:not(:last-child) {
+                padding-bottom: var(--steps-gap);
+            }
+            .ant-steps-item:not(:last-child)::before {
+                top: auto;
+                bottom: calc(-1 * var(--steps-gap) + 16px);
+                left: 50%;
+                width: 0px;
+                height: calc(var(--steps-gap) - 32px);
+                transform: translateX(-50%);
+            }
+            .ant-steps-item > .ant-steps-item-container > .ant-steps-item-tail::after {
+                width: 2px !important;
+            }
+        }
+        .ant-steps-vertical.ant-steps-dot {
+            .ant-steps-item-icon {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+            .ant-steps-item-tail {
+                left: 0% !important;
+                display: block !important;
+            }
+            .ant-steps-item-finish .ant-steps-item-tail::after {
+                background-color: #52c41a !important;
+            }
+            .ant-steps-item-process .ant-steps-item-tail::after {
+                background-color: #0085d0 !important;
+            }
+            .ant-steps-item-wait .ant-steps-item-tail::after {
+                background-color: #e0e0e0 !important;
+            }
+            .ant-steps-item-error .ant-steps-item-tail::after {
+                background-color: #ff4d4f !important;
+            }
+            .ant-steps-item:last-child .ant-steps-item-tail {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.Steps-small {
+    :global {
+        .ant-steps-item-icon {
+            margin-right: 8px !important;
+            margin-top: 2px;
+        }
+        .ant-steps:not(.ant-steps-dot) .ant-steps-item-tail {
+            left: 9px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-icon {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail {
+            left: 38% !important;
+            top: 0% !important;
+            transform: translateX(-50%);
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-content {
+            left: 35.5% !important;
+            transform: translateX(-45%);
+        }
+        .ant-steps-item-tail {
+            left: 0px !important;
+        }
+.ant-steps:not(.ant-steps-dot) .ant-steps-item-tail {
+            left: 9px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-icon {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail {
+            transform: translate(-50%, -50%);
+        }
+        .ant-steps-item-tail {
+            left: 0px !important;
+        }
+        .ant-steps:not(.ant-steps-vertical) .ant-steps-item-custom .ant-steps-item-icon {
+            margin-top:5px;
+        }
+        .ant-steps.ant-steps-vertical > .ant-steps-item .ant-steps-item-icon {
+            margin-top: 5px;
+        }
+        .ant-steps-dot .ant-steps-item-icon > .ant-steps-icon-dot {
+            width: 8px !important;
+            height: 8px !important;
+            }
+        }
+        }
+
+.Steps-default{
+    :global {
+        .ant-steps-item-finish .ant-steps-item-icon {
+            margin-right: 12px !important;
+            margin-top: 2px;
+        }
+        .ant-steps-item-process .ant-steps-item-icon {
+            margin-right: 12px !important;
+            margin-top: 2px;
+        }
+        .ant-steps-item-wait .ant-steps-item-icon {
+            margin-right: 12px !important;
+            margin-top: 2px;
+        }
+        .ant-steps-item-error .ant-steps-item-icon {
+            margin-right: 12px !important;
+            margin-top: 2px;
+        }
+.ant-steps:not(.ant-steps-dot) .ant-steps-item-tail {
+            left: 10px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-icon {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+    }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail {
+            left: 38% !important;
+            top: -20% !important;
+            transform: translateX(-50%);
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-content {
+            left: 35.5% !important;
+            transform: translateX(-45%);
+}
+        .ant-steps:not(.ant-steps-vertical) .ant-steps-item-custom .ant-steps-item-icon {
+            margin-top:5px;
+        }
+        .ant-steps.ant-steps-vertical > .ant-steps-item .ant-steps-item-icon {
+            margin-top: 5px;
+        }
+        .ant-steps-dot .ant-steps-item-icon > .ant-steps-icon-dot {
+            width: 10px !important;
+            height: 10px !important;
+        }
+    }
+}
+.Steps-large {
+    :global {
+        .ant-steps-item-icon {
+            width: 24px !important;
+            height: 24px !important;
+            line-height: 24px !important;
+            font-size: 14px !important;
+            overflow: visible !important;
+            margin-top: 3px;
+        }
+        .ant-steps-item-title {
+            font-size: 18px !important;
+        }
+        .ant-steps-item-description {
+            font-size: 14px !important;
+        }
+        .ant-steps-item-finish .ant-steps-item-icon,
+        .ant-steps-item-process .ant-steps-item-icon,
+        .ant-steps-item-wait .ant-steps-item-icon,
+        .ant-steps-item-error .ant-steps-item-icon {
+            margin-right: 12px !important;
+            margin-top: 2px;
+        }
+        .ant-steps:not(.ant-steps-dot) .ant-steps-item-tail {
+            left: 10px !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-icon {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-tail {
+            left: 37% !important;
+            top: -10% !important;
+            transform: translateX(-50%);
+        }
+        .ant-steps-dot:not(.ant-steps-vertical) .ant-steps-item-content {
+            left: 37% !important;
+            transform: translateX(-45%);
+        }
+        .ant-steps-dot .ant-steps-item-icon > .ant-steps-icon-dot {
+            width: 14px !important;
+            height: 14px !important;
+        }
+        .ant-steps:not(.ant-steps-vertical) .ant-steps-item-custom .ant-steps-item-icon {
+            margin-top: 4px;
+        }
+        .ant-steps.ant-steps-vertical > .ant-steps-item .ant-steps-item-icon {
+            margin-top: 3px;
+        }
+    }
+}

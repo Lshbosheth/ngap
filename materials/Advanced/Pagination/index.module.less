@@ -1,0 +1,147 @@
+.Pagination {
+    min-width: 16px;
+    min-height: 16px;
+    color: #666;
+    font-size: 13px;
+    :global {
+        .ant-pagination {
+            color: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            display: block;
+        }
+        .ant-pagination.ant-pagination-disabled {
+            color: #ccc;
+        }
+
+        .ant-pagination .ant-pagination-item {
+            border: 1px solid #d5dce6;
+            border-radius: 0;
+            margin-right: 6px;
+
+            color: inherit;
+            font-size: inherit;
+
+            a {
+                color: inherit;
+                font-size: inherit;
+            }
+        }
+        .ant-pagination.ant-pagination-mini:not(.ant-pagination-disabled) .ant-pagination-item:not(.ant-pagination-item-active) {
+            border: 1px solid #d5dce6;
+            background-color: #fff;
+        }
+
+        .ant-pagination .ant-pagination-item:not(.ant-pagination-item-active):hover {
+            background-color: #fff;
+
+            a {
+                color: #1a91d4;
+            }
+        }
+
+        .ant-pagination .ant-pagination-item.ant-pagination-item-active {
+            border: 1px solid #0085d0;
+
+            a {
+                color: #0085d0;
+            }
+        }
+
+        .ant-pagination.ant-pagination-disabled .ant-pagination-item,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-item:hover,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-item.ant-pagination-item-active,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-item.ant-pagination-item-active:hover,
+        .ant-pagination .ant-pagination-item.ant-pagination-item-disabled,
+        .ant-pagination .ant-pagination-item.ant-pagination-item-disabled:hover {
+            border: 1px solid #eee;
+            background-color: #fafbfc;
+
+            a {
+                color: #ccc;
+            }
+        }
+
+        .ant-pagination .ant-pagination-prev,
+        .ant-pagination .ant-pagination-next {
+            border: 1px solid #d5dce6;
+            border-radius: 0;
+            margin-right: 6px;
+        }
+        .ant-pagination:not(.ant-pagination-disabled) .ant-pagination-prev:not(.ant-pagination-disabled) button,
+        .ant-pagination:not(.ant-pagination-disabled) .ant-pagination-next:not(.ant-pagination-disabled) button {
+            color: #78909c;
+        }
+
+        .ant-pagination:not(.ant-pagination-disabled) .ant-pagination-prev:not(.ant-pagination-disabled):hover .ant-pagination-item-link,
+        .ant-pagination:not(.ant-pagination-disabled) .ant-pagination-next:not(.ant-pagination-disabled):hover .ant-pagination-item-link {
+            background-color: #fff;
+            color: #1a91d4;
+        }
+        .ant-pagination.ant-pagination-mini:not(.ant-pagination-disabled)
+            .ant-pagination-prev:not(.ant-pagination-disabled):hover
+            .ant-pagination-item-link,
+        .ant-pagination.ant-pagination-mini:not(.ant-pagination-disabled)
+            .ant-pagination-next:not(.ant-pagination-disabled):hover
+            .ant-pagination-item-link {
+            background-color: #fff;
+            color: #1a91d4;
+        }
+
+        .ant-pagination.ant-pagination-disabled .ant-pagination-prev,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-next,
+        .ant-pagination .ant-pagination-disabled,
+        .ant-pagination .ant-pagination-disabled:hover {
+            border: 1px solid #eee;
+
+            .ant-pagination-item-link {
+                color: #ccc;
+                background-color: #fafbfc;
+            }
+        }
+
+        .ant-pagination .ant-pagination-options-quick-jumper {
+            font-weight: 700;
+        }
+
+        .ant-pagination .ant-pagination-options-quick-jumper input {
+            border: 1px solid #d5dce6;
+            background-color: #f5fdff;
+            border-radius: 0;
+            box-shadow: 0;
+        }
+
+        .ant-pagination .ant-pagination-options-quick-jumper input:focus,
+        .ant-pagination .ant-pagination-options-quick-jumper input:hover {
+            background-color: #f5fdff;
+            border: 1px solid #0085d0;
+        }
+        .ant-pagination.ant-pagination-disabled .ant-pagination-options-quick-jumper input,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-options-quick-jumper input:focus,
+        .ant-pagination.ant-pagination-disabled .ant-pagination-options-quick-jumper input:hover {
+            background-color: #fafbfc;
+            border: 1px solid #eee;
+            color: #ccc;
+        }
+
+        .ant-pagination.ant-pagination-disabled .ant-select-outlined.ant-select-disabled:not(.ant-select-customize-input) .ant-select-selector {
+            background: #fafbfc;
+            border: 1px solid #eee;
+            color: #ccc;
+        }
+
+        .ant-select {
+            color: inherit;
+            font-size: inherit;
+
+            .ant-select-selector {
+                color: inherit;
+                font-size: inherit;
+
+                .ant-select-selection-item {
+                    font-weight: inherit;
+                }
+            }
+        }
+    }
+}

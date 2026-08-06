@@ -1,0 +1,182 @@
+/*****行为弹框********/
+.actionBox {
+    display: flex;
+    border: 1px solid var(--ngap-theme-card-border-color);
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+    .menuAction {
+        width: 200px;
+        height: 500px;
+        overflow: auto;
+        border-right: 1px solid var(--ngap-theme-card-border-color);
+        background-color: var(--ngap-theme-color);
+        ul,
+        li {
+            list-style: none;
+        }
+        .category {
+            line-height: 32px;
+            font-size: 14px;
+            font-weight: 500;
+            background-color: var(--ngap-theme-bg-color);
+            .navTitle {
+                padding-left: 10px;
+            }
+            .subItem {
+                line-height: 32px;
+                background-color: var(--ngap-theme-color);
+                padding-left: 30px;
+                font-weight: normal;
+                cursor: pointer;
+                &:hover {
+                    color: var(--ngap-primary-color);
+                }
+            }
+            .checked {
+                color: var(--ngap-primary-color);
+            }
+        }
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+        height: 500px;
+        overflow-y: auto;
+        .desc {
+            .descTitle {
+                font-size: 14px;
+            }
+            .descInfo {
+                font-size: 12px;
+                color: #5c5f66;
+            }
+        }
+    }
+
+.serviceOrchestrationPage {
+    height: 550px;
+    width: 100%;
+    font-size: 0px;
+
+    .dataSourceManage {
+        height: 100%;
+        width: 100%;
+        font-size: 0px;
+
+        .dataSourcePage {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.containerbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 600px;
+    .labelwrapperbox {
+        width: 15%;
+        margin-left: 10%;
+    }
+
+    .leftwrapperbox {
+        position: relative;
+        width: 63%;
+    }
+
+    .leftselectbox {
+        width: 23%;
+        height: 35px;
+        padding: 0 2px;
+        border: 1px solid #d9d9d9;
+        border-right: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: #fff;
+        font-size: 12px;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 12px;
+        cursor: pointer;
+    }
+
+    .rightwrapperbox {
+        flex: 1;
+    }
+
+    .rightselectbox {
+        width: 76%;
+        height: 35px;
+        padding: 0 2px;
+        border: 1px solid #d9d9d9;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color: #fff;
+        font-size: 12px;
+        color: #000;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 12px;
+        cursor: pointer;
+    }
+
+    .rightinputbox {
+        width: 77%;
+        height: 35px;
+        padding: 0 2px;
+        border: 1px solid #d9d9d9;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        font-size: 12px;
+        box-sizing: border-box;
+    }
+    .rightVBbox {
+        width: 77%;
+        height: 35px;
+        padding: 0;
+        border: 1px solid #d9d9d9;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        font-size: 12px;
+        box-sizing: border-box;
+
+        :global {
+            .ant-input-group-wrapper,
+            .ant-input-group,
+            .ant-input-affix-wrapper{
+                height: 35px !important;
+            }
+        }
+        
+    }
+    
+    .rightinput2box {
+        position: absolute;
+        right: 2px;
+        color: rgb(35, 160, 222);
+        cursor: pointer;
+        top: 2px;
+        height: 32px;
+        width: 30px;
+        text-align: center;
+        line-height: 32px;
+        background-color: #fff;
+    }
+
+    /* 聚焦样式 */
+    .leftselectbox:focus,
+    .rightselectbox:focus,
+    .rightinputbox:focus {
+        outline: none;
+        border-color: #40a9ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+}
