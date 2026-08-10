@@ -3,12 +3,12 @@
 ## 改造目标
 
 1. 优化并升级引导式流程编排：拆分流程数据模型、编辑器与运行引擎，改善节点、连线、条件分支、校验、回退、预览和版本管理。
-2. 升级自定义元素：从上传 TSX、配置 TS、Less 三份文件，改成上传一个默认导出的 React 函数组件；平台从组件元数据生成默认属性、属性面板和事件，并完成注册、画布预览及运行时渲染。
+2. 升级自定义元素：从上传 TSX、配置 TS、Less 三份文件，改成上传一个受约束的 React 组件 ZIP 包；平台读取 `ngap.json`、分析入口和模块图，生成默认属性、属性面板和事件，并完成服务端构建、注册、画布预览及运行时渲染。
 
 ## 本地模拟实现状态（2026-08-05）
 
 - 保留原 `AppBuild → EditLayout → applicationOrchestration → PageCanvas → ProcessCanvasPage` 页面链路；本地模式只注入 Mock 数据。
-- 保留原 `elementManagement → previewElementModal → CanvasEditingComponent → NgapRender` 链路；单文件上传按钮嵌入原元素管理顶部操作栏。
+- 保留原 `elementManagement → previewElementModal → CanvasEditingComponent → NgapRender` 链路；当前模拟的单 TSX 上传按钮嵌入原元素管理顶部操作栏，正式实现需要替换为 ZIP 包上传向导。
 - 引导式 Mock URL：`#/build?mock=guided`。
 - 函数组件 Mock URL：`#/build?mock=element`。
 - 节点配置已支持 `header/content/footer/control`、导航显示开关和导航标题。
@@ -18,6 +18,17 @@
 - 引导式 Mock 的创建/编辑基础信息已补齐应用分类、应用标签、归属项目默认值，并提供对应分类树、标签树和项目候选；创建表单的 6 个必填项均有值。
 - 本地请求会按 `/appType/queryAppTypeList` 的 `categoryType` 区分分类与标签，并为 `/app/querySeatTenantList`、`/app/saveAppInfo` 返回可操作的模拟响应。
 - 已在原页面实际验证：分类与标签弹窗可回显候选，基础信息“确定”无校验提示，“保存草稿”显示成功；归属模块不是必填项，但 Mock 使用原下拉已有值“业务受理”。
+
+## 自定义元素 v2 设计状态（2026-08-10）
+
+- 已新增 `CUSTOM_ELEMENT_REDESIGN.md`，完成 React 组件 ZIP 包的详细重写设计。
+- 已确定使用“标准 ZIP 目录 + 根目录 `ngap.json` + `src/index.tsx` 默认导出组件”的协议方向；可拆分本地 TSX/TS 模块、样式和静态资源。
+- 已确定以标准 manifest 为核心，再转换成现有 `attrs/config/events/methods` Schema 以降低首期编辑器改造面。
+- 已确定 v2 运行时使用扁平业务 Props + 稳定 `context`，同时保留旧 `config/id/type/elements/loopVariable` 兼容 Props。
+- 已确定页面变量、接口、事件、消息、上传、跳转、用户和 CrossAPI 等能力必须由项目通过版本化 SDK 显式暴露，并按 `ngap.json` 权限裁剪；组件不能直接依赖项目 Store、内部 request 或原始 CrossAPI。
+- 已确定主 `src` 与独立 `page/materials` 必须共用 analyzer、manifest、registry 和 Props adapter。
+- 浏览器只做 ZIP 安全预检；本地开发可使用 Vite/esbuild-wasm。正式预览和生产必须服务端构建、扫描并产出不可变 ESM/CSS/assets、runtime manifest、hash 和签名，不能仅用 Babel 转入口文件。
+- 首期仍需确认后端是否支持 `elementProtocolVersion`、manifest/bundle URL 以及运行版本锁定。
 
 ## 第一批需要采集的接口响应
 

@@ -85,7 +85,7 @@ interface GuidedProcessConfig {
 - `control`：参与流程判断和流转，但不渲染 UI、不进入导航；
 - 展示配置属于当前流程中的节点实例，不属于业务组件模板。
 
-### 目标 B：升级自定义元素为“上传一个函数组件”
+### 目标 B：升级自定义元素为“上传一个组件 ZIP 包”
 
 当前系统已经支持：
 
@@ -96,13 +96,15 @@ interface GuidedProcessConfig {
 - 注册到组件表；
 - 使用 `NgapRender` 在画布和预览中渲染。
 
-目标是把三文件、强平台规范的使用方式，改成用户上传一个默认导出的 React 函数组件，平台自动生成或读取：
+目标是把三文件、强平台规范的使用方式，改成用户上传一个受约束的 React 组件 ZIP 包。ZIP 内允许拆分 TSX/TS 模块、Less/CSS 和静态资源，由 `ngap.json` 声明入口、元数据、SDK 版本和权限；平台自动生成或读取：
 
 - 默认属性；
 - 属性面板配置；
 - 事件定义；
 - 组件名称和描述；
 - 画布预览和运行时注册。
+
+组件使用页面变量、接口、事件、上传、消息、跳转、CrossAPI 等项目能力时，必须通过项目显式注入的版本化 SDK `context`；不能 import 项目 Store、内部 `request`、Token、环境地址或原始 CrossAPI 对象。
 
 正式实施前需要设计安全边界。当前 Blob 动态执行相当于运行任意 JavaScript，生产环境至少需要可信上传者和审核；更严格方案是沙箱 iframe 或服务端构建、扫描和签名。
 
@@ -118,12 +120,13 @@ interface GuidedProcessConfig {
 - 已分析引导式流程编辑、保存、预览和运行链路；
 - 已分析自定义元素上传、源码获取、动态编译、注册和渲染链路；
 - 已编写详细引导式流程重构设计文档。
+- 已编写详细自定义元素 v2 React 组件 ZIP 包重写设计文档，包含 ZIP/ngap.json 协议、AST 推导、平台 SDK 与权限、manifest、服务端构建、注册、安全、双运行时兼容、迁移、测试和分阶段实施方案。
 - 已增加保留原页面结构的本地模拟模式，不再采用独立“实验台”页面：
   - `#/build?mock=guided` 自动打开原应用编排画布；
-  - `#/build?mock=element` 自动打开原元素管理并弹出单文件函数组件上传；
+  - `#/build?mock=element` 当前仍自动打开原元素管理并弹出现有“单 TSX 函数组件”模拟上传；它只是旧的链路验证样例，正式目标已改为 ZIP 包上传；
   - 缺失二进制图片由 Vite 开发插件提供 SVG 占位，不改变原组件结构。
 - 原流程节点菜单已增加“展示设置”，原顶部工具栏已增加“页面布局”；预览仍复用 `ProcessPage`。
-- 原元素管理顶部操作栏已增加“上传函数组件”，预览仍复用 `previewElementModal` 和 `NgapRender`。
+- 原元素管理顶部操作栏当前已增加“上传函数组件”模拟入口，预览仍复用 `previewElementModal` 和 `NgapRender`；正式改造应替换为组件 ZIP 包向导。
 - 引导式 Mock 基础信息已补齐应用分类、应用标签、归属项目及对应候选数据；基础信息“确定”和“保存草稿”已通过实际页面验证。
 
 ## 4. 必读文档
@@ -147,6 +150,25 @@ C:\Users\EDY\Desktop\ngap\GUIDED_PROCESS_REDESIGN.md
 - 具体文件修改清单；
 - 测试方案；
 - 分阶段实施计划。
+
+### 自定义元素 v2 详细设计
+
+```text
+C:\Users\EDY\Desktop\ngap\CUSTOM_ELEMENT_REDESIGN.md
+```
+
+包含：
+
+- 三文件旧链路、现有单 TSX 模拟与已有简易 JSZip 解包代码的问题分析；
+- 标准 ZIP 目录、`ngap.json`、多模块、样式和资源协议；
+- Props、默认值、事件、方法、名称和描述的 AST 推导规则；
+- 扁平 Props、版本化平台 SDK、权限、错误模型和现有项目能力映射；
+- 标准 manifest 及到现有 Schema 的兼容转换；
+- 依赖白名单、浏览器预检/开发构建和生产服务端异步构建方案；
+- registry、NgapRender Props adapter、样式和资源生命周期；
+- 元素管理、预览、保存、审核、发布和版本锁定；
+- `src` 与 `page/materials` 双运行时统一；
+- 安全边界、旧元素迁移、测试矩阵和分阶段实施计划。
 
 ### 接口和改造记录
 
@@ -447,7 +469,7 @@ pwsh -NoProfile -Command "npm run start"
 http://127.0.0.1:8892/ngap/#/build?mock=guided
 ```
 
-原布局函数组件上传模拟：
+原布局单 TSX 函数组件上传模拟（旧链路验证，不是正式 ZIP 方案）：
 
 ```text
 http://127.0.0.1:8892/ngap/#/build?mock=element
@@ -455,7 +477,7 @@ http://127.0.0.1:8892/ngap/#/build?mock=element
 
 引导式操作：原流程节点右上角更多菜单选择“展示设置”；原顶部工具栏选择“页面布局”；点击原预览按钮查看四区布局。
 
-函数组件操作：在原元素管理顶部点击“上传函数组件”，上传或编辑单个 TSX/JSX 文件，再点击“编译并预览”。本地模拟源码不能带 `import`，直接使用全局 `React`、`antd`、`antdIcons`。
+当前模拟操作：在原元素管理顶部点击“上传函数组件”，上传或编辑单个 TSX/JSX 文件，再点击“编译并预览”。该模拟源码不能带 `import`，直接使用全局 `React`、`antd`、`antdIcons`；正式 ZIP 包方案不沿用这一限制，也不把该模拟编译器用于生产。
 
 ## 10. 下一步建议
 
@@ -468,14 +490,16 @@ http://127.0.0.1:8892/ngap/#/build?mock=element
 5. 然后实现四区页面壳和导航升级；
 6. 最后处理 BottomBanner 和 `page` 子项目同步。
 
-如果用户要求开始实现函数组件上传：
+如果用户要求开始实现组件 ZIP 包上传：
 
-1. 先明确允许上传的是 TSX 源码、已构建 ESM 文件还是 ZIP 包；
-2. 定义单文件组件协议和静态元数据格式；
-3. 复用现有 `onPreviewTsx()` 和 `getComponent()`；
-4. 自动生成默认 Schema；
-5. 增加编译错误、导出校验、依赖白名单、版本和安全策略；
-6. 确保 `NgapRender` 的 props 协议一致。
+1. 先完整阅读 `CUSTOM_ELEMENT_REDESIGN.md`；
+2. 先冻结 ZIP 目录、`ngap.json`、runtime manifest、SDK 版本与权限字典；
+3. 优先实施共享 package reader、contract、analyzer、manifest、manifest-to-schema 和 SDK types/mock；
+4. 并行准备服务端异步构建/扫描接口；正式 ZIP 多模块预览不能只依赖浏览器 Babel；
+5. 再实现 Preview Registry、host adapter、依赖白名单和 Props adapter；
+6. 然后接入元素管理 ZIP 向导、ConfigPanel、拖拽和主 `NgapRender`；
+7. 同步改造 `materials/page` 独立运行时并跑 SDK contract tests；
+8. 生产开放前完成不可变产物、runtime manifest、版本锁定、hash、签名和回滚策略。
 
 ## 11. 新对话注意事项
 
