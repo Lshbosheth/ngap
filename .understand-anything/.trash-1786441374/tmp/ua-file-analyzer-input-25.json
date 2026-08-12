@@ -1,0 +1,45 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/Steps.tsx",
+      "language": "typescript",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Advanced/Steps/StepCircleIcon.tsx": [
+      "src/packages/Advanced/Steps/index.module.less"
+    ],
+    "src/packages/Advanced/Steps/StepFinishIcon.tsx": [
+      "src/packages/Advanced/Steps/index.module.less"
+    ],
+    "src/packages/Advanced/Steps/StepLoadingIcon.tsx": [],
+    "src/packages/Advanced/Steps/Steps.tsx": [
+      "src/packages/Advanced/Steps/index.module.less",
+      "src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "src/packages/types/index.ts"
+    ]
+  }
+}

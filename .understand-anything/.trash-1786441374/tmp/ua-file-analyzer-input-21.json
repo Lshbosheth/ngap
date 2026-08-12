@@ -1,0 +1,201 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "language": "typescript",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "language": "typescript",
+      "sizeLines": 412,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "language": "typescript",
+      "sizeLines": 1123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "language": "typescript",
+      "sizeLines": 172,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "language": "typescript",
+      "sizeLines": 330,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "language": "typescript",
+      "sizeLines": 1720,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "language": "typescript",
+      "sizeLines": 659,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "language": "typescript",
+      "sizeLines": 215,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "language": "typescript",
+      "sizeLines": 406,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "language": "typescript",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/dataToCanvas.ts",
+      "language": "typescript",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "src/stores/apiListStore.ts",
+      "src/utils/dealApiGlobal.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/index.tsx": [
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "src/stores/apiListStore.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx": [
+      "src/packages/utils/util.ts",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "src/utils/crossAPI.js"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "src/stores/apiListStore.ts",
+      "src/utils/dataToCanvas.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts": [],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts": [],
+    "src/utils/dataToCanvas.ts": [
+      "src/utils/util.ts"
+    ]
+  }
+}

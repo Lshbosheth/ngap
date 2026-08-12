@@ -1,0 +1,525 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/FormItems/Slider/Slider.tsx",
+      "type": "file",
+      "name": "Slider.tsx",
+      "filePath": "src/packages/FormItems/Slider/Slider.tsx",
+      "summary": "实现滑块表单物料，处理范围、步长、标记、受控值和表单事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Switch/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/FormItems/Switch/Schema.ts",
+      "summary": "声明开关物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FormItems/Transfer/index.module.less",
+      "summary": "定义穿梭框相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/ShowNumberSetting.tsx",
+      "type": "file",
+      "name": "ShowNumberSetting.tsx",
+      "filePath": "src/packages/FormItems/Transfer/ShowNumberSetting.tsx",
+      "summary": "提供ShowNumberSetting属性的表单设置器，供组件 Schema 嵌入配置面板。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/TreeSelect/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FormItems/TreeSelect/index.module.less",
+      "summary": "定义树选择相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Functional/Button/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Functional/Button/Schema.ts",
+      "summary": "声明按钮物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Functional/Descriptions/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Functional/Descriptions/index.module.less",
+      "summary": "定义描述列表相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Functional/List/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Functional/List/index.module.less",
+      "summary": "定义列表相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Functional/List/List.tsx",
+      "type": "file",
+      "name": "List.tsx",
+      "filePath": "src/packages/Functional/List/List.tsx",
+      "summary": "实现列表物料，绑定接口或变量数据源并按配置渲染列表项、空状态和交互事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "type": "file",
+      "name": "useRenderItem.tsx",
+      "filePath": "src/packages/Functional/List/useRenderItem.tsx",
+      "summary": "封装列表项的记忆化渲染逻辑，减少无关状态变化导致的重复渲染。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Tabs/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Functional/Tabs/index.module.less",
+      "summary": "定义页签相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Layout/BottomBanner/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Layout/BottomBanner/index.module.less",
+      "summary": "定义底部横幅相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Layout/BottomBanner/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Layout/BottomBanner/Schema.ts",
+      "summary": "声明底部横幅物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Layout/Col/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Layout/Col/Schema.ts",
+      "summary": "声明列布局物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Layout/Divider/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Layout/Divider/Schema.ts",
+      "summary": "声明分割线物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Layout/Row/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Layout/Row/Schema.ts",
+      "summary": "声明行布局物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Layout/Span/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Layout/Span/index.module.less",
+      "summary": "定义行内容器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Layout/Span/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Layout/Span/Schema.ts",
+      "summary": "声明行内容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/NgapRender/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/NgapRender/index.less",
+      "summary": "定义物料渲染器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/iFramecss.css",
+      "type": "file",
+      "name": "iFramecss.css",
+      "filePath": "src/packages/Other/IFrame/iFramecss.css",
+      "summary": "定义内嵌页面相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "css",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Page/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Page/index.module.less",
+      "summary": "定义页面容器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Page/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Page/Schema.ts",
+      "summary": "声明页面容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/utils/useWatchVariable.ts",
+      "type": "file",
+      "name": "useWatchVariable.ts",
+      "filePath": "src/packages/utils/useWatchVariable.ts",
+      "summary": "提供变量监听 Hook，在指定页面变量变化时触发依赖组件更新。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/bar-chart/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/appEffectBoard/bar-chart/index.less",
+      "summary": "定义bar-chart相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:src/pages/appEffectBoard/china-map/china.json",
+      "type": "config",
+      "name": "china.json",
+      "filePath": "src/pages/appEffectBoard/china-map/china.json",
+      "summary": "保存应用成效看板中国地图使用的高精度 GeoJSON 行政区域边界与属性数据。",
+      "tags": [
+        "configuration",
+        "geojson",
+        "map-data",
+        "static-data"
+      ],
+      "complexity": "complex",
+      "languageNotes": "采用 GeoJSON FeatureCollection 保存大规模 Polygon/MultiPolygon 坐标，不包含执行逻辑。"
+    },
+    {
+      "id": "function:src/packages/FormItems/Slider/Slider.tsx:MInput",
+      "type": "function",
+      "name": "MInput",
+      "filePath": "src/packages/FormItems/Slider/Slider.tsx",
+      "lineRange": [
+        21,
+        80
+      ],
+      "summary": "渲染滑块表单物料并同步受控值。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/List/List.tsx:MList",
+      "type": "function",
+      "name": "MList",
+      "filePath": "src/packages/Functional/List/List.tsx",
+      "lineRange": [
+        54,
+        166
+      ],
+      "summary": "渲染数据驱动列表并协调列表项事件。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/List/useRenderItem.tsx:MemoizedListItem",
+      "type": "function",
+      "name": "MemoizedListItem",
+      "filePath": "src/packages/Functional/List/useRenderItem.tsx",
+      "lineRange": [
+        21,
+        91
+      ],
+      "summary": "记忆化渲染单个列表项以减少重复更新。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/List/useRenderItem.tsx:useRenderItem",
+      "type": "function",
+      "name": "useRenderItem",
+      "filePath": "src/packages/Functional/List/useRenderItem.tsx",
+      "lineRange": [
+        93,
+        95
+      ],
+      "summary": "返回列表项渲染函数。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "function",
+      "name": "useWatchVariable",
+      "filePath": "src/packages/utils/useWatchVariable.ts",
+      "lineRange": [
+        12,
+        36
+      ],
+      "summary": "订阅指定页面变量并触发 React 更新。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/FormItems/Slider/Slider.tsx",
+      "target": "file:src/packages/FormItems/Slider/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Slider/Slider.tsx",
+      "target": "function:src/packages/FormItems/Slider/Slider.tsx:MInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Slider/Slider.tsx",
+      "target": "function:src/packages/FormItems/Slider/Slider.tsx:MInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Functional/List/List.tsx",
+      "target": "file:src/packages/Functional/List/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/List/List.tsx",
+      "target": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/List/List.tsx",
+      "target": "function:src/packages/Functional/List/List.tsx:MList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/List/List.tsx",
+      "target": "function:src/packages/Functional/List/List.tsx:MList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "target": "file:src/packages/Functional/List/List.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "target": "function:src/packages/Functional/List/useRenderItem.tsx:MemoizedListItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "target": "function:src/packages/Functional/List/useRenderItem.tsx:useRenderItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/List/useRenderItem.tsx",
+      "target": "function:src/packages/Functional/List/useRenderItem.tsx:useRenderItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useWatchVariable.ts",
+      "target": "function:src/packages/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useWatchVariable.ts",
+      "target": "function:src/packages/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

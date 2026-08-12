@@ -1,0 +1,468 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 11,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/utils/storage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 40,
+      "callGraph": [
+        {
+          "caller": "set",
+          "callee": "localStorage.setItem",
+          "lineNumber": 12
+        },
+        {
+          "caller": "set",
+          "callee": "JSON.stringify",
+          "lineNumber": 12
+        },
+        {
+          "caller": "get",
+          "callee": "localStorage.getItem",
+          "lineNumber": 20
+        },
+        {
+          "caller": "get",
+          "callee": "JSON.parse",
+          "lineNumber": 23
+        },
+        {
+          "caller": "remove",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 33
+        },
+        {
+          "caller": "clear",
+          "callee": "localStorage.clear",
+          "lineNumber": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/utils/useClickLogger.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 56,
+      "functions": [
+        {
+          "name": "useClickLogger",
+          "startLine": 12,
+          "endLine": 66,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sendLogToServer",
+          "callee": "console.log",
+          "lineNumber": 16
+        },
+        {
+          "caller": "sendLogToServer",
+          "callee": "trackClk",
+          "lineNumber": 18
+        },
+        {
+          "caller": "hasClickHandler",
+          "callee": "element.hasAttribute",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleClick",
+          "callee": "hasClickHandler",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleClick",
+          "callee": "sendLogToServer",
+          "lineNumber": 53
+        },
+        {
+          "caller": "useClickLogger",
+          "callee": "useEffect",
+          "lineNumber": 58
+        },
+        {
+          "caller": "useClickLogger",
+          "callee": "document.addEventListener",
+          "lineNumber": 59
+        },
+        {
+          "caller": "useClickLogger",
+          "callee": "document.removeEventListener",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/widget/commonEmpty/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/widget/commonEmpty/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "CommonEmpty",
+          "startLine": 8,
+          "endLine": 16,
+          "params": [
+            "{height = '100%'}"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/widget/commonList/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 23,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    },
+    {
+      "path": "src/widget/commonList/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 222,
+      "nonEmptyLines": 189,
+      "callGraph": [
+        {
+          "caller": "onSearch",
+          "callee": "setPageNum",
+          "lineNumber": 40
+        },
+        {
+          "caller": "onSearch",
+          "callee": "doFetch",
+          "lineNumber": 40
+        },
+        {
+          "caller": "onChange",
+          "callee": "setPageNum",
+          "lineNumber": 48
+        },
+        {
+          "caller": "onChange",
+          "callee": "setPageSize",
+          "lineNumber": 49
+        },
+        {
+          "caller": "onShowSizeChange",
+          "callee": "setPageNum",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onShowSizeChange",
+          "callee": "setPageSize",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onReset",
+          "callee": "form.resetFields",
+          "lineNumber": 62
+        },
+        {
+          "caller": "onReset",
+          "callee": "setPageNum",
+          "lineNumber": 63
+        },
+        {
+          "caller": "onReset",
+          "callee": "doFetch",
+          "lineNumber": 63
+        },
+        {
+          "caller": "getParams",
+          "callee": "getFieldsParams",
+          "lineNumber": 76
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 81
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "filterOpts.forEach",
+          "lineNumber": 83
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "getDateFormat",
+          "lineNumber": 84
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "fields[opt.key][0].format",
+          "lineNumber": 86
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "fields[opt.key][1].format",
+          "lineNumber": 87
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "fields[opt.key].format",
+          "lineNumber": 89
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "isEmpty",
+          "lineNumber": 91
+        },
+        {
+          "caller": "getFieldsParams",
+          "callee": "fields[opt.key].join",
+          "lineNumber": 92
+        },
+        {
+          "caller": "doFetch",
+          "callee": "setLoading",
+          "lineNumber": 105
+        },
+        {
+          "caller": "doFetch",
+          "callee": "getFieldsParams",
+          "lineNumber": 106
+        },
+        {
+          "caller": "doFetch",
+          "callee": "request[type]",
+          "lineNumber": 108
+        },
+        {
+          "caller": "doFetch",
+          "callee": "setDataSource",
+          "lineNumber": 109
+        },
+        {
+          "caller": "doFetch",
+          "callee": "setTotal",
+          "lineNumber": 110
+        },
+        {
+          "caller": "doFetch",
+          "callee": "setLoading",
+          "lineNumber": 113
+        },
+        {
+          "caller": "getOuterRestSpan",
+          "callee": "getOuterColSpan",
+          "lineNumber": 118
+        },
+        {
+          "caller": "renderNode",
+          "callee": "menus.map",
+          "lineNumber": 122
+        },
+        {
+          "caller": "renderNode",
+          "callee": "renderNode",
+          "lineNumber": 126
+        },
+        {
+          "caller": "getSpan",
+          "callee": "opt.opts?.map",
+          "lineNumber": 149
+        },
+        {
+          "caller": "getSpan",
+          "callee": "renderNode",
+          "lineNumber": 162
+        },
+        {
+          "caller": "getSpan",
+          "callee": "getDateFormat",
+          "lineNumber": 169
+        },
+        {
+          "caller": "getSpan",
+          "callee": "getDateFormat",
+          "lineNumber": 176
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/widget/commonModal/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "src/widget/commonModal/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 48,
+      "callGraph": [
+        {
+          "caller": "handleOk",
+          "callee": "setShow",
+          "lineNumber": 20
+        },
+        {
+          "caller": "handleOk",
+          "callee": "onOk",
+          "lineNumber": 21
+        },
+        {
+          "caller": "showModal",
+          "callee": "setShow",
+          "lineNumber": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/widget/confirmModal/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 67,
+      "nonEmptyLines": 60,
+      "callGraph": [
+        {
+          "caller": "showModal",
+          "callee": "setPointOut",
+          "lineNumber": 20
+        },
+        {
+          "caller": "showModal",
+          "callee": "setVisible",
+          "lineNumber": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "vite.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 179,
+      "nonEmptyLines": 178,
+      "functions": [
+        {
+          "name": "missingBinaryPlaceholder",
+          "startLine": 12,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveId",
+          "callee": "/\\.(png|jpe?g|gif|webp|ico|woff2?|ttf|eot)$/i.test",
+          "lineNumber": 16
+        },
+        {
+          "caller": "resolveId",
+          "callee": "path.resolve",
+          "lineNumber": 17
+        },
+        {
+          "caller": "resolveId",
+          "callee": "path.dirname",
+          "lineNumber": 17
+        },
+        {
+          "caller": "resolveId",
+          "callee": "fs.existsSync",
+          "lineNumber": 18
+        },
+        {
+          "caller": "load",
+          "callee": "id.startsWith",
+          "lineNumber": 22
+        },
+        {
+          "caller": "load",
+          "callee": "path.basename",
+          "lineNumber": 23
+        },
+        {
+          "caller": "load",
+          "callee": "id.slice",
+          "lineNumber": 23
+        },
+        {
+          "caller": "load",
+          "callee": "JSON.stringify",
+          "lineNumber": 25
+        },
+        {
+          "caller": "load",
+          "callee": "encodeURIComponent",
+          "lineNumber": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

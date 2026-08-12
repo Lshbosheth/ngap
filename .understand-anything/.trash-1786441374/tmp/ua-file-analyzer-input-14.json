@@ -1,0 +1,271 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "materials/Scene/SearchForm/SearchForm.tsx",
+      "language": "typescript",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/index.tsx",
+      "language": "typescript",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/stores/pageStore.ts",
+      "language": "typescript",
+      "sizeLines": 472,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/types/index.ts",
+      "language": "typescript",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/AntdGlobal.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/ProvinceIdCon.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/action.ts",
+      "language": "typescript",
+      "sizeLines": 900,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/apiUtilForInterface.ts",
+      "language": "typescript",
+      "sizeLines": 432,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/columns.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/context.ts",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/crossAPI.js",
+      "language": "javascript",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/crossAPIAction.ts",
+      "language": "typescript",
+      "sizeLines": 631,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/crossAPIUtil.ts",
+      "language": "typescript",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/dealApiData.ts",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/dictionary.ts",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/filter.tsx",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/goldBankCheckfn.ts",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/goldbank.ts",
+      "language": "typescript",
+      "sizeLines": 395,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/handleApi.ts",
+      "language": "typescript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/request.ts",
+      "language": "typescript",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/sort.tsx",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/storage.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/textfilter.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/useComponentRefs.ts",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/useWatchVariable.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/util.ts",
+      "language": "typescript",
+      "sizeLines": 818,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/windowSort.tsx",
+      "language": "typescript",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/useMessageListener.tsx",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/Scene/SearchForm/SearchForm.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/Scene/SearchForm/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/index.tsx": [
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/handleApi.ts",
+      "materials/utils/request.ts",
+      "src/utils/objectToFormData.ts"
+    ],
+    "materials/stores/pageStore.ts": [
+      "materials/types/index.ts"
+    ],
+    "materials/types/index.ts": [],
+    "materials/utils/AntdGlobal.tsx": [],
+    "materials/utils/ProvinceIdCon.ts": [],
+    "materials/utils/action.ts": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/crossAPI.js",
+      "materials/utils/crossAPIAction.ts",
+      "materials/utils/goldBankCheckfn.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useComponentRefs.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/apiUtilForInterface.ts": [
+      "materials/stores/pageStore.ts",
+      "materials/utils/crossAPIUtil.ts",
+      "materials/utils/request.ts"
+    ],
+    "materials/utils/columns.tsx": [
+      "materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/context.ts": [
+      "materials/utils/AntdGlobal.tsx"
+    ],
+    "materials/utils/crossAPI.js": [],
+    "materials/utils/crossAPIAction.ts": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/ProvinceIdCon.ts",
+      "materials/utils/request.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/crossAPIUtil.ts": [
+      "materials/utils/crossAPI.js"
+    ],
+    "materials/utils/dealApiData.ts": [],
+    "materials/utils/dictionary.ts": [
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/request.ts"
+    ],
+    "materials/utils/filter.tsx": [],
+    "materials/utils/goldBankCheckfn.ts": [
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/goldbank.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/goldbank.ts": [
+      "materials/utils/request.ts"
+    ],
+    "materials/utils/handleApi.ts": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/apiUtilForInterface.ts",
+      "materials/utils/request.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/request.ts": [
+      "materials/utils/util.ts"
+    ],
+    "materials/utils/sort.tsx": [
+      "materials/utils/windowSort.tsx"
+    ],
+    "materials/utils/storage.ts": [],
+    "materials/utils/textfilter.ts": [],
+    "materials/utils/useComponentRefs.ts": [],
+    "materials/utils/useWatchVariable.ts": [],
+    "materials/utils/util.ts": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/storage.ts"
+    ],
+    "materials/utils/windowSort.tsx": [],
+    "src/utils/useMessageListener.tsx": []
+  }
+}

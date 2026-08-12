@@ -1,0 +1,1369 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/stores/canvasPageStore.ts",
+      "type": "file",
+      "name": "canvasPageStore.ts",
+      "filePath": "src/stores/canvasPageStore.ts",
+      "summary": "创建编辑器画布的核心 Zustand Store，统一管理页面元素、变量、表单、接口、选中态、历史记录和流程节点数据。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 Zustand 集中维护可变页面运行时状态，并暴露大量细粒度更新方法。"
+    },
+    {
+      "id": "function:src/stores/canvasPageStore.ts:createCanvasPageStore",
+      "type": "function",
+      "name": "createCanvasPageStore",
+      "filePath": "src/stores/canvasPageStore.ts",
+      "lineRange": [
+        308,
+        2009
+      ],
+      "summary": "实现 createCanvasPageStore 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/stores/crossAPIStaticDataStore.ts",
+      "type": "file",
+      "name": "crossAPIStaticDataStore.ts",
+      "filePath": "src/stores/crossAPIStaticDataStore.ts",
+      "summary": "维护 CrossAPI 静态字典与能力元数据，为动作配置面板提供方法和参数选项。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/stores/crossapiStore.ts",
+      "type": "file",
+      "name": "crossapiStore.ts",
+      "filePath": "src/stores/crossapiStore.ts",
+      "summary": "维护当前 CrossAPI 用户、坐席及宿主上下文信息，供编辑器和运行时能力调用共享。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/utils/AntdGlobal.tsx",
+      "type": "file",
+      "name": "AntdGlobal.tsx",
+      "filePath": "src/utils/AntdGlobal.tsx",
+      "summary": "从 Ant Design App 上下文导出全局反馈实例，供 Store 与工具代码调用 message、notification 和 Modal。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/AppProvider.tsx",
+      "type": "file",
+      "name": "AppProvider.tsx",
+      "filePath": "src/utils/AppProvider.tsx",
+      "summary": "提供应用级 React Context，集中暴露用户、环境及平台公共状态，并提供安全访问 Hook。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/AppProvider.tsx:AppProvider",
+      "type": "function",
+      "name": "AppProvider",
+      "filePath": "src/utils/AppProvider.tsx",
+      "lineRange": [
+        14,
+        42
+      ],
+      "summary": "渲染 AppProvider 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "function",
+      "name": "useAppContext",
+      "filePath": "src/utils/AppProvider.tsx",
+      "lineRange": [
+        44,
+        50
+      ],
+      "summary": "实现 useAppContext 对应的运行时处理逻辑。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/apiUtilForInterface.ts",
+      "type": "file",
+      "name": "apiUtilForInterface.ts",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "summary": "解析主编辑器接口编排的输入、输出和 CrossAPI 字段，执行接口并映射返回结果。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getFieldFromCrossAPI",
+      "type": "function",
+      "name": "getFieldFromCrossAPI",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        19,
+        90
+      ],
+      "summary": "从 CrossAPI 返回结构中递归提取配置字段。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getCrossAPIValue",
+      "type": "function",
+      "name": "getCrossAPIValue",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        98,
+        119
+      ],
+      "summary": "调用 CrossAPI 并取得指定路径的值。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getParams",
+      "type": "function",
+      "name": "getParams",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        126,
+        179
+      ],
+      "summary": "解析接口入参定义并从运行时上下文取值。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getOutParams",
+      "type": "function",
+      "name": "getOutParams",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        180,
+        222
+      ],
+      "summary": "按接口出参映射提取响应字段。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:countNodes",
+      "type": "function",
+      "name": "countNodes",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        223,
+        232
+      ],
+      "summary": "实现 countNodes 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "function",
+      "name": "getFieldFromAPI",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        240,
+        335
+      ],
+      "summary": "从接口响应中递归解析字段路径和数组结构。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:getFormatFlag",
+      "type": "function",
+      "name": "getFormatFlag",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        336,
+        351
+      ],
+      "summary": "判断接口字段是否需要格式化处理。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/apiUtilForInterface.ts:execInterface",
+      "type": "function",
+      "name": "execInterface",
+      "filePath": "src/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        371,
+        405
+      ],
+      "summary": "解析接口配置、发起请求并处理成功或失败回调。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/crossAPI.js",
+      "type": "file",
+      "name": "crossAPI.js",
+      "filePath": "src/utils/crossAPI.js",
+      "summary": "承载主应用使用的压缩 CrossAPI 浏览器桥接脚本。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件为压缩后的 JavaScript 桥接代码，函数名高度缩写，语义主要由其宿主集成角色确定。"
+    },
+    {
+      "id": "function:src/utils/crossAPI.js:t",
+      "type": "function",
+      "name": "t",
+      "filePath": "src/utils/crossAPI.js",
+      "lineRange": [
+        2,
+        28
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 t 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPI.js:n",
+      "type": "function",
+      "name": "n",
+      "filePath": "src/utils/crossAPI.js",
+      "lineRange": [
+        29,
+        41
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 n 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPI.js:i",
+      "type": "function",
+      "name": "i",
+      "filePath": "src/utils/crossAPI.js",
+      "lineRange": [
+        50,
+        64
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 i 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPI.js:s",
+      "type": "function",
+      "name": "s",
+      "filePath": "src/utils/crossAPI.js",
+      "lineRange": [
+        65,
+        87
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 s 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPI.js:o",
+      "type": "function",
+      "name": "o",
+      "filePath": "src/utils/crossAPI.js",
+      "lineRange": [
+        88,
+        100
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 o 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/crossAPIUtil.ts",
+      "type": "file",
+      "name": "crossAPIUtil.ts",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "summary": "封装主应用常用 CrossAPI 客户端方法，统一坐席、通话、鉴权和消息调用接口。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "function",
+      "name": "getIndexInfo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        84,
+        106
+      ],
+      "summary": "封装 CrossAPI 的 getIndexInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "function",
+      "name": "getCallingInfo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        111,
+        126
+      ],
+      "summary": "封装 CrossAPI 的 getCallingInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "function",
+      "name": "getClientBusiInfo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        132,
+        143
+      ],
+      "summary": "封装 CrossAPI 的 getClientBusiInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getAgentState",
+      "type": "function",
+      "name": "getAgentState",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        148,
+        157
+      ],
+      "summary": "封装 CrossAPI 的 getAgentState 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "function",
+      "name": "showTransferOpen",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        161,
+        163
+      ],
+      "summary": "封装 CrossAPI 的 showTransferOpen 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "function",
+      "name": "unifiedProcess",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        169,
+        175
+      ],
+      "summary": "封装 CrossAPI 的 unifiedProcess 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "function",
+      "name": "getPropProvInfo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        180,
+        184
+      ],
+      "summary": "封装 CrossAPI 的 getPropProvInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "function",
+      "name": "getSerialNo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        189,
+        194
+      ],
+      "summary": "封装 CrossAPI 的 getSerialNo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "function",
+      "name": "getAgentCurSignInSkills",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        199,
+        203
+      ],
+      "summary": "封装 CrossAPI 的 getAgentCurSignInSkills 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:callOut",
+      "type": "function",
+      "name": "callOut",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        208,
+        212
+      ],
+      "summary": "封装 CrossAPI 的 callOut 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "function",
+      "name": "getSystermOldStaffIdList",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        217,
+        221
+      ],
+      "summary": "封装 CrossAPI 的 getSystermOldStaffIdList 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "function",
+      "name": "sendIMLinkto",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        226,
+        232
+      ],
+      "summary": "封装 CrossAPI 的 sendIMLinkto 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "function",
+      "name": "sendCardMessage",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        236,
+        240
+      ],
+      "summary": "封装 CrossAPI 的 sendCardMessage 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "function",
+      "name": "getCenterCode",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        241,
+        245
+      ],
+      "summary": "封装 CrossAPI 的 getCenterCode 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "function",
+      "name": "faceCheckPrevalidation",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        249,
+        253
+      ],
+      "summary": "封装 CrossAPI 的 faceCheckPrevalidation 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "function",
+      "name": "cipherCheckWithMsisdn",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        263,
+        270
+      ],
+      "summary": "封装 CrossAPI 的 cipherCheckWithMsisdn 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "function",
+      "name": "cipherCheckPlus",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        280,
+        285
+      ],
+      "summary": "封装 CrossAPI 的 cipherCheckPlus 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "function",
+      "name": "unifiedProcess1",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        295,
+        299
+      ],
+      "summary": "封装 CrossAPI 的 unifiedProcess1 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "function",
+      "name": "initiateAuxiliaryVideo",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        303,
+        309
+      ],
+      "summary": "封装 CrossAPI 的 initiateAuxiliaryVideo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "function",
+      "name": "startVoice2TextListerner",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        318,
+        322
+      ],
+      "summary": "封装 CrossAPI 的 startVoice2TextListerner 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "function",
+      "name": "stopVoice2TextListerner",
+      "filePath": "src/utils/crossAPIUtil.ts",
+      "lineRange": [
+        324,
+        328
+      ],
+      "summary": "封装 CrossAPI 的 stopVoice2TextListerner 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/dealApiGlobal.ts",
+      "type": "file",
+      "name": "dealApiGlobal.ts",
+      "filePath": "src/utils/dealApiGlobal.ts",
+      "summary": "合并组件与页面接口定义，并按接口标识更新全局 API 配置及其引用。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/dealApiGlobal.ts:mergeApis",
+      "type": "function",
+      "name": "mergeApis",
+      "filePath": "src/utils/dealApiGlobal.ts",
+      "lineRange": [
+        3,
+        13
+      ],
+      "summary": "按接口标识合并多组 API 配置。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "function",
+      "name": "updateApiConfig",
+      "filePath": "src/utils/dealApiGlobal.ts",
+      "lineRange": [
+        14,
+        79
+      ],
+      "summary": "更新全局 API 配置并同步相关引用。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "function:src/stores/canvasPageStore.ts:createCanvasPageStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/stores/canvasPageStore.ts",
+      "target": "function:src/stores/canvasPageStore.ts:createCanvasPageStore",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/stores/crossapiStore.ts",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/AppProvider.tsx",
+      "target": "file:src/stores/canvasPageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/AppProvider.tsx",
+      "target": "function:src/utils/AppProvider.tsx:AppProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/AppProvider.tsx",
+      "target": "function:src/utils/AppProvider.tsx:AppProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/AppProvider.tsx",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/AppProvider.tsx",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "file:src/utils/crossAPIUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getFieldFromCrossAPI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getCrossAPIValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getOutParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:countNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:getFormatFlag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:execInterface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/apiUtilForInterface.ts",
+      "target": "function:src/utils/apiUtilForInterface.ts:execInterface",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPI.js",
+      "target": "function:src/utils/crossAPI.js:t",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPI.js",
+      "target": "function:src/utils/crossAPI.js:n",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPI.js",
+      "target": "function:src/utils/crossAPI.js:i",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPI.js",
+      "target": "function:src/utils/crossAPI.js:s",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPI.js",
+      "target": "function:src/utils/crossAPI.js:o",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "file:src/stores/crossAPIStaticDataStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getAgentState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getAgentState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:callOut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:callOut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIUtil.ts",
+      "target": "function:src/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "function:src/utils/dealApiGlobal.ts:mergeApis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "function:src/utils/dealApiGlobal.ts:mergeApis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "function:src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dealApiGlobal.ts",
+      "target": "function:src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

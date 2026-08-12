@@ -1,0 +1,69 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/component.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 71,
+      "nonEmptyLines": 67,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/readme.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 41,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "组件说明文档",
+          "level": 2,
+          "line": 1
+        },
+        {
+          "heading": "为什么每个组件都要使用forwardRef进行包裹？",
+          "level": 3,
+          "line": 3
+        },
+        {
+          "heading": "组件schema目前的完整结构是什么？",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "组件如何渲染的？",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "组件的事件、接口如何调用的？",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "组件的所有类型从哪儿看？",
+          "level": 3,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    }
+  ]
+}

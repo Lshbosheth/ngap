@@ -1,0 +1,953 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "type": "file",
+      "name": "AIChat.tsx",
+      "filePath": "materials/Advanced/AIChat/AIChat.tsx",
+      "summary": "实现可配置的 AI 对话物料，管理消息列表、用户输入、接口请求与会话展示，并接入平台属性和样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Advanced/AIChat/AIChat.tsx:AIChat",
+      "type": "function",
+      "name": "AIChat",
+      "filePath": "materials/Advanced/AIChat/AIChat.tsx",
+      "lineRange": [
+        32,
+        518
+      ],
+      "summary": "实现AI 对话的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "type": "file",
+      "name": "Breadcrumb.tsx",
+      "filePath": "materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "summary": "实现面包屑导航物料，通过接口或变量生成导航项，并把选择变化同步到页面运行时。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "type": "function",
+      "name": "WBreadcrumb",
+      "filePath": "materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "lineRange": [
+        24,
+        178
+      ],
+      "summary": "实现Breadcrumb的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "type": "file",
+      "name": "FloatingWindow.tsx",
+      "filePath": "materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "summary": "实现浮动窗口容器，在可定位、可显隐的浮层中调用 NgapRender 渲染嵌套低代码元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/FloatingWindow/FloatingWindow.tsx:MFloatingWindow",
+      "type": "function",
+      "name": "MFloatingWindow",
+      "filePath": "materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "lineRange": [
+        24,
+        203
+      ],
+      "summary": "实现浮动窗口的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Menu/Menu.tsx",
+      "type": "file",
+      "name": "Menu.tsx",
+      "filePath": "materials/Advanced/Menu/Menu.tsx",
+      "summary": "实现动态菜单物料，负责菜单树数据、选中状态、样式配置和菜单项交互事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Menu/Menu.tsx:MMenu",
+      "type": "function",
+      "name": "MMenu",
+      "filePath": "materials/Advanced/Menu/Menu.tsx",
+      "lineRange": [
+        34,
+        168
+      ],
+      "summary": "实现菜单的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Pagination/Pagination.tsx",
+      "type": "file",
+      "name": "Pagination.tsx",
+      "filePath": "materials/Advanced/Pagination/Pagination.tsx",
+      "summary": "封装分页物料，将页码、每页数量和总数等低代码属性映射为分页交互。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Pagination/Pagination.tsx:MPagination",
+      "type": "function",
+      "name": "MPagination",
+      "filePath": "materials/Advanced/Pagination/Pagination.tsx",
+      "lineRange": [
+        18,
+        85
+      ],
+      "summary": "实现分页器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Progress/Progress.tsx",
+      "type": "file",
+      "name": "Progress.tsx",
+      "filePath": "materials/Advanced/Progress/Progress.tsx",
+      "summary": "封装进度展示物料，支持数值、状态、颜色及格式化等可配置展示能力。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Progress/Progress.tsx:MProgress",
+      "type": "function",
+      "name": "MProgress",
+      "filePath": "materials/Advanced/Progress/Progress.tsx",
+      "lineRange": [
+        25,
+        110
+      ],
+      "summary": "实现进度条的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Timeline/Timeline.tsx",
+      "type": "file",
+      "name": "Timeline.tsx",
+      "filePath": "materials/Advanced/Timeline/Timeline.tsx",
+      "summary": "实现时间轴物料，可从配置或接口数据生成时间节点并呈现业务过程。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "type": "function",
+      "name": "TimelineCus",
+      "filePath": "materials/Advanced/Timeline/Timeline.tsx",
+      "lineRange": [
+        20,
+        98
+      ],
+      "summary": "实现时间轴的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Tree/Tree.tsx",
+      "type": "file",
+      "name": "Tree.tsx",
+      "filePath": "materials/Advanced/Tree/Tree.tsx",
+      "summary": "实现复杂树形物料，处理异步数据、选择与勾选、展开状态、节点事件及低代码数据绑定。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Advanced/Tree/Tree.tsx:MTree",
+      "type": "function",
+      "name": "MTree",
+      "filePath": "materials/Advanced/Tree/Tree.tsx",
+      "lineRange": [
+        43,
+        540
+      ],
+      "summary": "实现树形控件的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "type": "file",
+      "name": "AudioPlayer.tsx",
+      "filePath": "materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "summary": "实现音频播放器物料，管理播放进度、音量、倍速、循环和控制栏状态，并暴露可配置交互。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Basic/AudioPlayer/AudioPlayer.tsx:AudioPlayer",
+      "type": "function",
+      "name": "AudioPlayer",
+      "filePath": "materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "lineRange": [
+        20,
+        652
+      ],
+      "summary": "实现音频播放器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/Avatar/Avatar.tsx",
+      "type": "file",
+      "name": "Avatar.tsx",
+      "filePath": "materials/Basic/Avatar/Avatar.tsx",
+      "summary": "封装头像展示物料，将图片、图标、文字及尺寸样式配置映射到头像组件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Avatar/Avatar.tsx:MAvatar",
+      "type": "function",
+      "name": "MAvatar",
+      "filePath": "materials/Basic/Avatar/Avatar.tsx",
+      "lineRange": [
+        31,
+        70
+      ],
+      "summary": "实现头像的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Badge/Badge.tsx",
+      "type": "file",
+      "name": "Badge.tsx",
+      "filePath": "materials/Basic/Badge/Badge.tsx",
+      "summary": "封装徽标物料，并通过 NgapRender 支持徽标包裹的嵌套低代码内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Badge/Badge.tsx:MBadge",
+      "type": "function",
+      "name": "MBadge",
+      "filePath": "materials/Basic/Badge/Badge.tsx",
+      "lineRange": [
+        16,
+        78
+      ],
+      "summary": "实现徽标的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "type": "file",
+      "name": "BownloadButton.tsx",
+      "filePath": "materials/Basic/BownloadButton/BownloadButton.tsx",
+      "summary": "实现下载按钮物料，根据接口配置构造下载请求并处理文件获取、按钮状态和运行时参数。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Basic/BownloadButton/BownloadButton.tsx:BownloadButton",
+      "type": "function",
+      "name": "BownloadButton",
+      "filePath": "materials/Basic/BownloadButton/BownloadButton.tsx",
+      "lineRange": [
+        28,
+        265
+      ],
+      "summary": "实现下载按钮的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/Carousel/Carousel.tsx",
+      "type": "file",
+      "name": "Carousel.tsx",
+      "filePath": "materials/Basic/Carousel/Carousel.tsx",
+      "summary": "实现轮播展示物料，支持接口或变量驱动的轮播项、当前项状态和切换事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Carousel/Carousel.tsx:MCarousel",
+      "type": "function",
+      "name": "MCarousel",
+      "filePath": "materials/Basic/Carousel/Carousel.tsx",
+      "lineRange": [
+        23,
+        107
+      ],
+      "summary": "实现轮播图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "type": "file",
+      "name": "CheckableTagGroup.tsx",
+      "filePath": "materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "summary": "实现可勾选标签组物料，维护选中集合并支持动态选项与事件回调。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "type": "function",
+      "name": "MCheckableTagGroup",
+      "filePath": "materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "lineRange": [
+        22,
+        148
+      ],
+      "summary": "实现可选标签组的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "type": "file",
+      "name": "CollapseBtn.tsx",
+      "filePath": "materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "summary": "实现折叠控制按钮，通过 NgapRender 管理目标内容的展开收起与图标状态。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/CollapseBtn/CollapseBtn.tsx:CollapseBtn",
+      "type": "function",
+      "name": "CollapseBtn",
+      "filePath": "materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "lineRange": [
+        16,
+        92
+      ],
+      "summary": "实现折叠按钮的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "function:materials/Advanced/AIChat/AIChat.tsx:AIChat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "function:materials/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "function:materials/Advanced/FloatingWindow/FloatingWindow.tsx:MFloatingWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Menu/Menu.tsx",
+      "target": "function:materials/Advanced/Menu/Menu.tsx:MMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Pagination/Pagination.tsx",
+      "target": "function:materials/Advanced/Pagination/Pagination.tsx:MPagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Progress/Progress.tsx",
+      "target": "function:materials/Advanced/Progress/Progress.tsx:MProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Timeline/Timeline.tsx",
+      "target": "function:materials/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Tree/Tree.tsx",
+      "target": "function:materials/Advanced/Tree/Tree.tsx:MTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "function:materials/Basic/AudioPlayer/AudioPlayer.tsx:AudioPlayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Avatar/Avatar.tsx",
+      "target": "function:materials/Basic/Avatar/Avatar.tsx:MAvatar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Badge/Badge.tsx",
+      "target": "function:materials/Basic/Badge/Badge.tsx:MBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "function:materials/Basic/BownloadButton/BownloadButton.tsx:BownloadButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "function:materials/Basic/Carousel/Carousel.tsx:MCarousel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "target": "function:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "function:materials/Basic/CollapseBtn/CollapseBtn.tsx:CollapseBtn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "file:materials/Advanced/AIChat/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/AIChat/AIChat.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:materials/Advanced/Breadcrumb/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:materials/Advanced/FloatingWindow/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Menu/Menu.tsx",
+      "target": "file:materials/Advanced/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Menu/Menu.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Menu/Menu.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Pagination/Pagination.tsx",
+      "target": "file:materials/Advanced/Pagination/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Pagination/Pagination.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Progress/Progress.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Progress/Progress.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Timeline/Timeline.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Tree/Tree.tsx",
+      "target": "file:materials/Advanced/Tree/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Tree/Tree.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Tree/Tree.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Tree/Tree.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "file:materials/Basic/AudioPlayer/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Avatar/Avatar.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Badge/Badge.tsx",
+      "target": "file:materials/Basic/Badge/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Badge/Badge.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Badge/Badge.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:materials/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "file:materials/Basic/Carousel/carousel.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Carousel/Carousel.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:materials/Advanced/AIChat/AIChat.tsx:AIChat",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Progress/Progress.tsx:MProgress",
+      "target": "function:src/packages/utils/util.ts:handleFormatter",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Tree/Tree.tsx:MTree",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Advanced/Tree/Tree.tsx:MTree",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Carousel/Carousel.tsx:MCarousel",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Carousel/Carousel.tsx:MCarousel",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Carousel/Carousel.tsx:MCarousel",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

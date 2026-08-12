@@ -1,0 +1,905 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "file",
+      "name": "businessComponentMangeTypes.ts",
+      "filePath": "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "summary": "声明业务组件模板、分类、筛选和列表展示所需的数据类型，为相关模块提供统一的静态约束。",
+      "tags": [
+        "type-definition",
+        "business-component",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "summary": "该文件在弹窗中预览业务组件的页面结构和运行效果。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/businessComponentPreview/index.tsx:BusinessComponentPreview",
+      "type": "function",
+      "name": "BusinessComponentPreview",
+      "filePath": "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "lineRange": [
+        13,
+        135
+      ],
+      "summary": "BusinessComponentPreview 是该文件的核心 React 组件，负责在弹窗中预览业务组件的页面结构和运行效果。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "type": "file",
+      "name": "addBusponentTemp.tsx",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "summary": "该文件实现业务组件模板的新增与编辑表单及提交处理。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx:AddComponentTemp",
+      "type": "function",
+      "name": "AddComponentTemp",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "lineRange": [
+        47,
+        424
+      ],
+      "summary": "AddComponentTemp 是该文件的核心 React 组件，负责实现业务组件模板的新增与编辑表单及提交处理。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "summary": "该文件实现业务组件分类的新增和编辑弹窗。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx:EditCategoryDialog",
+      "type": "function",
+      "name": "EditCategoryDialog",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "lineRange": [
+        34,
+        186
+      ],
+      "summary": "EditCategoryDialog 是该文件的核心 React 组件，负责实现业务组件分类的新增和编辑弹窗。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "summary": "该文件管理业务组件分类列表及其增删改操作。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx:BusinessCategoryConfig",
+      "type": "function",
+      "name": "BusinessCategoryConfig",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "lineRange": [
+        48,
+        441
+      ],
+      "summary": "BusinessCategoryConfig 是该文件的核心 React 组件，负责管理业务组件分类列表及其增删改操作。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "summary": "该文件组织业务组件模板选择、创建、编辑和数据提交。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "type": "file",
+      "name": "tempCont.tsx",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "summary": "该文件展示业务组件模板卡片并提供预览与编辑入口。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx:TempCont",
+      "type": "function",
+      "name": "TempCont",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "lineRange": [
+        18,
+        121
+      ],
+      "summary": "TempCont 是该文件的核心 React 组件，负责展示业务组件模板卡片并提供预览与编辑入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/index.tsx",
+      "summary": "该文件组合业务组件的搜索条件、卡片或列表结果及模板管理入口。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/index.tsx:BusinessComponentManage",
+      "type": "function",
+      "name": "BusinessComponentManage",
+      "filePath": "src/pages/businessComponentManage/index.tsx",
+      "lineRange": [
+        23,
+        199
+      ],
+      "summary": "BusinessComponentManage 是该文件的核心 React 组件，负责组合业务组件的搜索条件、卡片或列表结果及模板管理入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/searchCont/index.tsx",
+      "summary": "该文件维护业务组件搜索条件并驱动结果列表刷新。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:src/pages/businessComponentManage/searchCont/index.tsx:SearchCont",
+      "type": "class",
+      "name": "SearchCont",
+      "filePath": "src/pages/businessComponentManage/searchCont/index.tsx",
+      "lineRange": [
+        24,
+        327
+      ],
+      "summary": "SearchCont 类负责维护业务组件搜索条件并驱动结果列表刷新，并封装相关状态与事件处理方法。",
+      "tags": [
+        "react-component",
+        "class-component",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "type": "file",
+      "name": "otherFiltersCont.tsx",
+      "filePath": "src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "summary": "该文件提供业务组件的更多筛选条件和远程选项加载。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx:OtherFiltersCont",
+      "type": "class",
+      "name": "OtherFiltersCont",
+      "filePath": "src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "lineRange": [
+        27,
+        370
+      ],
+      "summary": "OtherFiltersCont 类负责提供业务组件的更多筛选条件和远程选项加载，并封装相关状态与事件处理方法。",
+      "tags": [
+        "react-component",
+        "class-component",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "type": "file",
+      "name": "componentCard.tsx",
+      "filePath": "src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "summary": "该文件渲染业务组件结果卡片并处理预览、收藏或选用等交互。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx:CommponentCard",
+      "type": "function",
+      "name": "CommponentCard",
+      "filePath": "src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "lineRange": [
+        39,
+        265
+      ],
+      "summary": "CommponentCard 是该文件的核心 React 组件，负责渲染业务组件结果卡片并处理预览、收藏或选用等交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "business-component",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "summary": "该文件以卡片形式组织业务组件搜索结果和分页操作。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "summary": "该文件以表格列表形式组织业务组件搜索结果及管理操作。",
+      "tags": [
+        "react-component",
+        "business-component",
+        "management-page",
+        "template"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/canvasEditingComponent/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/canvasEditingComponent/index.tsx",
+      "summary": "该文件在独立页面中承载业务组件配置和画布编辑入口。",
+      "tags": [
+        "react-component",
+        "canvas",
+        "business-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/canvasEditingComponent/index.tsx:BusinessComponentConfig",
+      "type": "function",
+      "name": "BusinessComponentConfig",
+      "filePath": "src/pages/canvasEditingComponent/index.tsx",
+      "lineRange": [
+        23,
+        92
+      ],
+      "summary": "BusinessComponentConfig 是该文件的核心 React 组件，负责在独立页面中承载业务组件配置和画布编辑入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "canvas",
+        "business-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/editor/topbar/TopBar.tsx",
+      "type": "file",
+      "name": "TopBar.tsx",
+      "filePath": "src/pages/editor/topbar/TopBar.tsx",
+      "summary": "该文件实现页面编辑器顶部工具栏，协调保存、预览、模板与发布操作。",
+      "tags": [
+        "react-component",
+        "page-editor",
+        "toolbar",
+        "workflow"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "target": "function:src/pages/businessComponentManage/businessComponentPreview/index.tsx:BusinessComponentPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "target": "function:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx:AddComponentTemp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "target": "function:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx:EditCategoryDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "target": "function:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx:BusinessCategoryConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "target": "function:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx:TempCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "function:src/pages/businessComponentManage/index.tsx:BusinessComponentManage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "target": "class:src/pages/businessComponentManage/searchCont/index.tsx:SearchCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "target": "class:src/pages/businessComponentManage/searchCont/index.tsx:SearchCont",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "class:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx:OtherFiltersCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "class:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx:OtherFiltersCont",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "target": "function:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx:CommponentCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/canvasEditingComponent/index.tsx",
+      "target": "function:src/pages/canvasEditingComponent/index.tsx:BusinessComponentConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentPreview/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/index.tsx",
+      "target": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/index.tsx",
+      "target": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/pages/businessComponentManage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/canvasEditingComponent/index.tsx",
+      "target": "file:src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/pages/editor/topbar/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/topbar/TopBar.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/FeedBack/Spin/Spin.tsx",
+      "type": "file",
+      "name": "Spin.tsx",
+      "filePath": "materials/FeedBack/Spin/Spin.tsx",
+      "summary": "封装加载状态物料，提供尺寸、提示文字、遮罩和旋转指示样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FeedBack/Spin/Spin.tsx:MSpin",
+      "type": "function",
+      "name": "MSpin",
+      "filePath": "materials/FeedBack/Spin/Spin.tsx",
+      "lineRange": [
+        19,
+        83
+      ],
+      "summary": "实现加载状态的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "type": "file",
+      "name": "Cascader.tsx",
+      "filePath": "materials/FormItems/Cascader/Cascader.tsx",
+      "summary": "实现级联选择表单物料，连接表单上下文、动态选项、变量监听和接口数据。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "type": "function",
+      "name": "MCascader",
+      "filePath": "materials/FormItems/Cascader/Cascader.tsx",
+      "lineRange": [
+        38,
+        186
+      ],
+      "summary": "实现级联选择器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "type": "file",
+      "name": "CheckBox.tsx",
+      "filePath": "materials/FormItems/CheckBox/CheckBox.tsx",
+      "summary": "实现复选框组物料，处理字典或接口选项、表单值同步、变量监听和选择事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "type": "function",
+      "name": "MCheckBox",
+      "filePath": "materials/FormItems/CheckBox/CheckBox.tsx",
+      "lineRange": [
+        43,
+        269
+      ],
+      "summary": "实现复选框组的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "type": "file",
+      "name": "ColorPicker.tsx",
+      "filePath": "materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "summary": "封装颜色选择表单物料，将选色结果和格式配置同步到表单上下文。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/ColorPicker/ColorPicker.tsx:MColorPicker",
+      "type": "function",
+      "name": "MColorPicker",
+      "filePath": "materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "lineRange": [
+        18,
+        91
+      ],
+      "summary": "实现颜色选择器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Counter/Counter.tsx",
+      "type": "file",
+      "name": "Counter.tsx",
+      "filePath": "materials/FormItems/Counter/Counter.tsx",
+      "summary": "实现计数器表单物料，管理增减、步长、边界、格式化和表单值同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/FormItems/Counter/Counter.tsx:MCounter",
+      "type": "function",
+      "name": "MCounter",
+      "filePath": "materials/FormItems/Counter/Counter.tsx",
+      "lineRange": [
+        38,
+        445
+      ],
+      "summary": "实现计数器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FormItems/CustomCalendarIcon.tsx",
+      "type": "file",
+      "name": "CustomCalendarIcon.tsx",
+      "filePath": "materials/FormItems/CustomCalendarIcon.tsx",
+      "summary": "定义日期时间类表单控件复用的日历与下拉 SVG 图标组件。",
+      "tags": [
+        "react-component",
+        "icon",
+        "svg",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "type": "file",
+      "name": "DatePicker.tsx",
+      "filePath": "materials/FormItems/DatePicker/DatePicker.tsx",
+      "summary": "封装日期选择表单物料，处理日期格式、禁用状态、默认值转换和表单同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "type": "function",
+      "name": "MDatePicker",
+      "filePath": "materials/FormItems/DatePicker/DatePicker.tsx",
+      "lineRange": [
+        33,
+        119
+      ],
+      "summary": "实现日期选择器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "type": "file",
+      "name": "DatePickerRange.tsx",
+      "filePath": "materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "summary": "封装日期范围选择物料，处理起止值格式转换、快捷范围与表单同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "type": "function",
+      "name": "MDatePickerRange",
+      "filePath": "materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "lineRange": [
+        24,
+        158
+      ],
+      "summary": "实现日期范围选择器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/FormItem/FormItem.tsx",
+      "type": "file",
+      "name": "FormItem.tsx",
+      "filePath": "materials/FormItems/FormItem/FormItem.tsx",
+      "summary": "实现表单项布局容器，将标签、校验提示和字段布局包裹到嵌套低代码控件外层。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/FormItems/FormItem/FormItem.tsx:MFormItem",
+      "type": "function",
+      "name": "MFormItem",
+      "filePath": "materials/FormItems/FormItem/FormItem.tsx",
+      "lineRange": [
+        19,
+        45
+      ],
+      "summary": "实现表单项的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/Input/Input.tsx",
+      "type": "file",
+      "name": "Input.tsx",
+      "filePath": "materials/FormItems/Input/Input.tsx",
+      "summary": "封装单行输入框物料，处理值格式化、占位提示、状态配置和表单数据同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/Input/Input.tsx:MInput",
+      "type": "function",
+      "name": "MInput",
+      "filePath": "materials/FormItems/Input/Input.tsx",
+      "lineRange": [
+        21,
+        101
+      ],
+      "summary": "实现输入/滑块控件的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "type": "file",
+      "name": "InputNumber.tsx",
+      "filePath": "materials/FormItems/InputNumber/InputNumber.tsx",
+      "summary": "封装数字输入物料，处理精度、范围、步长、格式化与表单值同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/InputNumber/InputNumber.tsx:MInputNumber",
+      "type": "function",
+      "name": "MInputNumber",
+      "filePath": "materials/FormItems/InputNumber/InputNumber.tsx",
+      "lineRange": [
+        20,
+        110
+      ],
+      "summary": "实现数字输入框的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/InputPassword/InputPassword.tsx",
+      "type": "file",
+      "name": "InputPassword.tsx",
+      "filePath": "materials/FormItems/InputPassword/InputPassword.tsx",
+      "summary": "封装密码输入物料，管理可见性、输入状态、格式处理和表单值同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/InputPassword/InputPassword.tsx:MInputPassword",
+      "type": "function",
+      "name": "MInputPassword",
+      "filePath": "materials/FormItems/InputPassword/InputPassword.tsx",
+      "lineRange": [
+        19,
+        83
+      ],
+      "summary": "实现密码输入框的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Json/Json.tsx",
+      "type": "file",
+      "name": "Json.tsx",
+      "filePath": "materials/FormItems/Json/Json.tsx",
+      "summary": "实现 JSON 编辑与查看表单物料，在结构化展示和文本值之间转换并同步表单数据。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/Json/Json.tsx:JsonView",
+      "type": "function",
+      "name": "JsonView",
+      "filePath": "materials/FormItems/Json/Json.tsx",
+      "lineRange": [
+        25,
+        47
+      ],
+      "summary": "递归呈现 JSON 数据的对象、数组和基础值结构。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/FormItems/Json/Json.tsx:MJson",
+      "type": "function",
+      "name": "MJson",
+      "filePath": "materials/FormItems/Json/Json.tsx",
+      "lineRange": [
+        55,
+        137
+      ],
+      "summary": "实现JSON 表单控件的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Radio/Radio.tsx",
+      "type": "file",
+      "name": "Radio.tsx",
+      "filePath": "materials/FormItems/Radio/Radio.tsx",
+      "summary": "实现单选组物料，处理字典或接口选项、变量监听、表单值同步和选择事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "type": "function",
+      "name": "MRadio",
+      "filePath": "materials/FormItems/Radio/Radio.tsx",
+      "lineRange": [
+        43,
+        282
+      ],
+      "summary": "实现单选组的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FormItems/Rate/Rate.tsx",
+      "type": "file",
+      "name": "Rate.tsx",
+      "filePath": "materials/FormItems/Rate/Rate.tsx",
+      "summary": "封装评分表单物料，支持数量、半选、字符样式、提示文案和表单值同步。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/FeedBack/Spin/Spin.tsx",
+      "target": "function:materials/FeedBack/Spin/Spin.tsx:MSpin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "function:materials/FormItems/ColorPicker/ColorPicker.tsx:MColorPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Counter/Counter.tsx",
+      "target": "function:materials/FormItems/Counter/Counter.tsx:MCounter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "target": "function:materials/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "function:materials/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/FormItem/FormItem.tsx",
+      "target": "function:materials/FormItems/FormItem/FormItem.tsx:MFormItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Input/Input.tsx",
+      "target": "function:materials/FormItems/Input/Input.tsx:MInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "target": "function:materials/FormItems/InputNumber/InputNumber.tsx:MInputNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/InputPassword/InputPassword.tsx",
+      "target": "function:materials/FormItems/InputPassword/InputPassword.tsx:MInputPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Json/Json.tsx",
+      "target": "function:materials/FormItems/Json/Json.tsx:JsonView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Json/Json.tsx",
+      "target": "function:materials/FormItems/Json/Json.tsx:MJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FeedBack/Spin/Spin.tsx",
+      "target": "file:materials/FeedBack/Spin/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Spin/Spin.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Cascader/Cascader.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/FormItems/CheckBox/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Counter/Counter.tsx",
+      "target": "file:materials/FormItems/Counter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Counter/Counter.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Counter/Counter.tsx",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Counter/Counter.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:materials/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:materials/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/FormItem/FormItem.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/FormItem/FormItem.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Input/Input.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Input/Input.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Input/Input.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:materials/FormItems/InputNumber/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Json/Json.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Json/Json.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Json/Json.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/FormItems/Radio/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Radio/Radio.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Rate/Rate.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Rate/Rate.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Cascader/Cascader.tsx:MCascader",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/ColorPicker/ColorPicker.tsx:MColorPicker",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Counter/Counter.tsx:MCounter",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Input/Input.tsx:MInput",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/InputNumber/InputNumber.tsx:MInputNumber",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/InputPassword/InputPassword.tsx:MInputPassword",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Json/Json.tsx:MJson",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Json/Json.tsx:MJson",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/FormItems/Radio/Radio.tsx:MRadio",
+      "target": "function:materials/utils/util.ts:renderAsyncFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

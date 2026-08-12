@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "type": "file",
+      "name": "StepCircleIcon.tsx",
+      "filePath": "src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "summary": "渲染步骤条未完成节点的圆形状态图标，并通过模块化样式保持尺寸和颜色一致。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/Steps/StepCircleIcon.tsx:StepCircleIcon",
+      "type": "function",
+      "name": "StepCircleIcon",
+      "filePath": "src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "lineRange": [
+        10,
+        40
+      ],
+      "summary": "渲染步骤条待处理节点的圆形状态图标。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "type": "file",
+      "name": "StepFinishIcon.tsx",
+      "filePath": "src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "summary": "渲染步骤条已完成节点图标，支持完成态视觉和主题样式。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Steps/StepFinishIcon.tsx:StepFinishIcon",
+      "type": "function",
+      "name": "StepFinishIcon",
+      "filePath": "src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "lineRange": [
+        14,
+        63
+      ],
+      "summary": "渲染步骤条已完成节点的完成态图标。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "type": "file",
+      "name": "StepLoadingIcon.tsx",
+      "filePath": "src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "summary": "渲染步骤条进行中节点的加载动画图标，提供旋转层级和状态色展示。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Steps/StepLoadingIcon.tsx:StepLoadingIcon",
+      "type": "function",
+      "name": "StepLoadingIcon",
+      "filePath": "src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "lineRange": [
+        19,
+        90
+      ],
+      "summary": "渲染步骤条进行中节点的加载动画图标。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "type": "file",
+      "name": "Steps.tsx",
+      "filePath": "src/packages/Advanced/Steps/Steps.tsx",
+      "summary": "实现高级步骤条物料，根据配置的步骤数据、当前节点和状态渲染自定义图标，并向事件系统暴露步骤切换交互。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Steps/Steps.tsx:MSteps",
+      "type": "function",
+      "name": "MSteps",
+      "filePath": "src/packages/Advanced/Steps/Steps.tsx",
+      "lineRange": [
+        18,
+        193
+      ],
+      "summary": "渲染可配置步骤条，选择对应状态图标并处理步骤切换事件。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "target": "file:src/packages/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepCircleIcon.tsx:StepCircleIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepCircleIcon.tsx:StepCircleIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "target": "file:src/packages/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepFinishIcon.tsx:StepFinishIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepFinishIcon.tsx:StepFinishIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepLoadingIcon.tsx:StepLoadingIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "target": "function:src/packages/Advanced/Steps/StepLoadingIcon.tsx:StepLoadingIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "file:src/packages/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "file:src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "file:src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "file:src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/Steps.tsx",
+      "target": "function:src/packages/Advanced/Steps/Steps.tsx:MSteps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

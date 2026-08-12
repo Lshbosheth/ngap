@@ -1,0 +1,130 @@
+[
+  {
+    "order": 1,
+    "title": "平台定位与目标",
+    "description": "先从根 README 了解 NGAP 的 React、TypeScript、Vite 技术底座和基本启动方式，再用需求入门文档建立业务视角：这是一个支持可视化配置、逻辑编排、事件交互与数据源配置的应用集成低代码平台。入门文档还把引导式流程和自定义元素列为当前两项核心优化，并明确先完成引导式改造、再推进自定义元素。",
+    "nodeIds": [
+      "document:README.md",
+      "document:NGAP_REQUIREMENTS_ONBOARDING.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "架构记忆与蓝图",
+    "description": "在平台定位基础上，长期开发记忆补全主 src、独立 materials 与 page 渲染壳并存的双运行时架构，以及需要长期保持的兼容约束。两份重构设计分别展开引导式流程与自定义元素的目标模型、迁移边界和验收方式，是理解后续代码与优化优先级的设计基线。",
+    "nodeIds": [
+      "document:CODEX_CONTEXT.md",
+      "document:GUIDED_PROCESS_REDESIGN.md",
+      "document:CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "应用启动与上下文",
+    "description": "主浏览器入口先加载兼容层、日志与全局样式，然后挂载 App。App 负责初始化跨窗口通信、用户和平台环境，并把路由、错误边界与 AppProvider 串起来；AppProvider 则成为业务页面读取用户和环境公共状态的统一入口。",
+    "nodeIds": [
+      "file:src/main.tsx",
+      "file:src/App.tsx",
+      "file:src/utils/AppProvider.tsx"
+    ],
+    "languageLesson": "React 的 Provider 模式把应用级依赖放入 Context，页面通过 Hook 消费，避免把用户与环境参数逐层透传。"
+  },
+  {
+    "order": 4,
+    "title": "应用编排与画布",
+    "description": "进入主应用后，应用编排入口负责模板选择、基础表单、保存与提交流程，画布总入口再根据业务类型切换不同编辑模式。普通业务组件由基础画布承载并同步页面数据，这一条链路说明配置数据如何从应用级编排逐步落到可视化页面元素树。",
+    "nodeIds": [
+      "file:src/pages/applicationOrchestration/index.tsx",
+      "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "引导式流程设计",
+    "description": "引导式编辑页在普通画布之上协调流程加载、预览与保存，ProcessCanvas 具体管理节点、连线、人工或自动分支及组件节点配置。类型文件定义流程节点、分支和展示区域契约，转换工具负责在后端流程数据与画布结构之间稳定映射 ID，因此这里是调整人工、自动、服务节点模型的首要设计入口。",
+    "nodeIds": [
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts"
+    ],
+    "languageLesson": "TypeScript 的联合类型和可辨识字段适合表达不同节点类别；让执行类型、展示区域和数据作用域成为独立维度，可避免一个字段承担多种语义。"
+  },
+  {
+    "order": 6,
+    "title": "流程运行与展示",
+    "description": "设计数据进入运行态后，ProcessPage 按节点推进业务组件、执行人工或自动分支并维护运行轨迹。processPresentation 负责默认展示参数和 header、content、footer、control 区域归一化，说明展示位置只是渲染职责；服务或控制节点是否渲染、如何分支，应由独立的执行语义决定。",
+    "nodeIds": [
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "状态与变量中枢",
+    "description": "canvasPageStore 是设计态核心状态中心，统一保存元素、变量、表单、接口、历史和流程节点数据；独立 materials 的 pageStore 在运行态保存相似的元素树、变量、表单、接口输出与组件引用。两边当前共享平铺变量模型，因此引导式优化应在这组对应 Store 中引入按 nodeId 隔离的环节数据域，并只把显式发布的数据投影到流程共享域；apiListStore 则提供接口配置所需的可选数据源。",
+    "nodeIds": [
+      "file:src/stores/canvasPageStore.ts",
+      "file:materials/stores/pageStore.ts",
+      "file:src/stores/apiListStore.ts"
+    ],
+    "languageLesson": "Zustand Store 易于集中状态，但作用域仍需在数据模型中明确表达；流程级共享状态与节点实例状态应分层，而不是依靠变量名后缀模拟隔离。"
+  },
+  {
+    "order": 8,
+    "title": "主运行时物料",
+    "description": "主 src 运行时通过 components 配置建立内置物料分类和菜单，同时把已发布自定义元素接入同一入口。packages 注册模块负责下载、编译和缓存动态物料，NgapRender 再根据元素类型解析属性、变量、事件和子元素，把设计配置转换成真正的 React 组件树。",
+    "nodeIds": [
+      "file:src/config/components.tsx",
+      "file:src/packages/index.tsx",
+      "file:src/packages/NgapRender/NgapRender.tsx"
+    ]
+  },
+  {
+    "order": 9,
+    "title": "独立物料运行时",
+    "description": "与主 src 物料并行，独立 materials 维护自己的类型、工具和 NgapRender，供 page 渲染壳在脱离编辑器时使用。它的渲染器负责动态加载组件并注入页面状态，公共 util 和类型文件又被大量物料依赖，所以任何变量作用域、平台 API 或自定义元素协议改造都必须同步这一侧。",
+    "nodeIds": [
+      "file:materials/NgapRender/NgapRender.tsx",
+      "file:materials/types/index.ts",
+      "file:materials/utils/util.ts"
+    ]
+  },
+  {
+    "order": 10,
+    "title": "page 渲染壳",
+    "description": "page 的 main 入口把 React、ReactDOM 和 Ant Design 等公共库挂到运行环境后启动独立应用，核心 page 入口随后加载页面详情、注册变量与接口并调度物料渲染。dataToCanvas 负责把发布态数据递归转换为画布结构，TemplateNav 提供页面模板导航，因此这条链路是验证发布态、预览态和引导式运行兼容性的关键出口。",
+    "nodeIds": [
+      "file:page/src/main.tsx",
+      "file:page/src/page/index.tsx",
+      "file:page/src/utils/dataToCanvas.ts",
+      "file:page/src/page/TemplateNav.tsx"
+    ]
+  },
+  {
+    "order": 11,
+    "title": "接口与事件编排",
+    "description": "事件配置面板先定义元素触发条件和动作列表，ActionModal 再按动作类型分派编辑器并统一校验保存。运行时由动作解释器按顺序执行接口、弹窗、跳转、变量和组件状态变更，主 src 与独立 materials 各自的 handleApi 都会解析上下文并把响应映射回变量、表单或组件数据，因此接口输出也是节点数据域改造必须覆盖的写入通道。",
+    "nodeIds": [
+      "file:src/components/EventConfig/EventConfig.tsx",
+      "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "file:src/packages/utils/action.ts",
+      "file:src/packages/utils/handleApi.ts",
+      "file:materials/utils/handleApi.ts"
+    ]
+  },
+  {
+    "order": 12,
+    "title": "构建与配置边界",
+    "description": "最后用主 package.json、materials/package.json 和 page/package.json 对照三个工程边界：它们分别声明平台、独立物料与轻量渲染壳的依赖和构建职责。根 Vite 配置控制代理、别名、构建输出与静态资源处理，主 tsconfig 则约束 JSX、模块解析和路径别名；完成跨运行时改造后，应在这些边界上分别执行类型检查与构建验证。",
+    "nodeIds": [
+      "config:package.json",
+      "config:materials/package.json",
+      "config:page/package.json",
+      "file:vite.config.ts",
+      "config:tsconfig.json"
+    ],
+    "languageLesson": "Vite 与 TypeScript 的路径别名需要同时配置，且独立子运行时应拥有自己的依赖清单和编译边界，才能避免开发态可用而独立构建失败。"
+  }
+]

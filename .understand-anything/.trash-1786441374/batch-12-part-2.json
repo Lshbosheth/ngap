@@ -1,0 +1,1145 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "type": "file",
+      "name": "TimePicker.tsx",
+      "filePath": "src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "summary": "该文件封装 TimePicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/TimePicker/TimePicker.tsx:MTimePicker",
+      "type": "function",
+      "name": "MTimePicker",
+      "filePath": "src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "lineRange": [
+        23,
+        96
+      ],
+      "summary": "MTimePicker 是该文件的核心 React 组件，负责封装 TimePicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "type": "file",
+      "name": "TimePickerRange.tsx",
+      "filePath": "src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "summary": "该文件封装 TimePickerRange 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx:MTimePickerRange",
+      "type": "function",
+      "name": "MTimePickerRange",
+      "filePath": "src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "lineRange": [
+        25,
+        120
+      ],
+      "summary": "MTimePickerRange 是该文件的核心 React 组件，负责封装 TimePickerRange 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "type": "file",
+      "name": "Transfer.tsx",
+      "filePath": "src/packages/FormItems/Transfer/Transfer.tsx",
+      "summary": "该文件封装 Transfer 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Transfer/Transfer.tsx:MTransfer",
+      "type": "function",
+      "name": "MTransfer",
+      "filePath": "src/packages/FormItems/Transfer/Transfer.tsx",
+      "lineRange": [
+        27,
+        150
+      ],
+      "summary": "MTransfer 是该文件的核心 React 组件，负责封装 Transfer 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "type": "file",
+      "name": "TreeSelect.tsx",
+      "filePath": "src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "summary": "该文件封装 TreeSelect 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/FormItems/TreeSelect/TreeSelect.tsx:WTreeSelect",
+      "type": "function",
+      "name": "WTreeSelect",
+      "filePath": "src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "lineRange": [
+        30,
+        319
+      ],
+      "summary": "WTreeSelect 是该文件的核心 React 组件，负责封装 TreeSelect 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "type": "file",
+      "name": "Upload.tsx",
+      "filePath": "src/packages/FormItems/Upload/Upload.tsx",
+      "summary": "该文件封装 Upload 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/FormItems/Upload/Upload.tsx:MUpload",
+      "type": "function",
+      "name": "MUpload",
+      "filePath": "src/packages/FormItems/Upload/Upload.tsx",
+      "lineRange": [
+        28,
+        506
+      ],
+      "summary": "MUpload 是该文件的核心 React 组件，负责封装 Upload 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Functional/Button/Button.tsx",
+      "type": "file",
+      "name": "Button.tsx",
+      "filePath": "src/packages/Functional/Button/Button.tsx",
+      "summary": "该文件提供 Button 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/Button/Button.tsx:MButton",
+      "type": "function",
+      "name": "MButton",
+      "filePath": "src/packages/Functional/Button/Button.tsx",
+      "lineRange": [
+        21,
+        90
+      ],
+      "summary": "MButton 是该文件的核心 React 组件，负责提供 Button 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "type": "file",
+      "name": "Descriptions.tsx",
+      "filePath": "src/packages/Functional/Descriptions/Descriptions.tsx",
+      "summary": "该文件提供 Descriptions 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Functional/Descriptions/Descriptions.tsx:MButton",
+      "type": "function",
+      "name": "MButton",
+      "filePath": "src/packages/Functional/Descriptions/Descriptions.tsx",
+      "lineRange": [
+        48,
+        359
+      ],
+      "summary": "MButton 是该文件的核心 React 组件，负责提供 Descriptions 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "type": "file",
+      "name": "ItemEdit.tsx",
+      "filePath": "src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "summary": "该文件提供 ItemEdit 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Functional/Tab/Tab.tsx",
+      "type": "file",
+      "name": "Tab.tsx",
+      "filePath": "src/packages/Functional/Tab/Tab.tsx",
+      "summary": "该文件提供 Tab 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/Tab/Tab.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "src/packages/Functional/Tab/Tab.tsx",
+      "lineRange": [
+        16,
+        94
+      ],
+      "summary": "MTabs 是该文件的核心 React 组件，负责提供 Tab 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "type": "file",
+      "name": "Tabs.tsx",
+      "filePath": "src/packages/Functional/Tabs/Tabs.tsx",
+      "summary": "该文件提供 Tabs 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Functional/Tabs/Tabs.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "src/packages/Functional/Tabs/Tabs.tsx",
+      "lineRange": [
+        19,
+        240
+      ],
+      "summary": "MTabs 是该文件的核心 React 组件，负责提供 Tabs 功能组件，并接入平台数据、样式和事件配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "type": "file",
+      "name": "BottomBanner.tsx",
+      "filePath": "src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "summary": "该文件提供 BottomBanner 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/BottomBanner/BottomBanner.tsx:MBottomBanner",
+      "type": "function",
+      "name": "MBottomBanner",
+      "filePath": "src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "lineRange": [
+        20,
+        117
+      ],
+      "summary": "MBottomBanner 是该文件的核心 React 组件，负责提供 BottomBanner 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Layout/Col/Col.tsx",
+      "type": "file",
+      "name": "Col.tsx",
+      "filePath": "src/packages/Layout/Col/Col.tsx",
+      "summary": "该文件提供 Col 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/Col/Col.tsx:MCol",
+      "type": "function",
+      "name": "MCol",
+      "filePath": "src/packages/Layout/Col/Col.tsx",
+      "lineRange": [
+        21,
+        99
+      ],
+      "summary": "MCol 是该文件的核心 React 组件，负责提供 Col 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Layout/Divider/Divider.tsx",
+      "type": "file",
+      "name": "Divider.tsx",
+      "filePath": "src/packages/Layout/Divider/Divider.tsx",
+      "summary": "该文件提供 Divider 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/Divider/Divider.tsx:MDevider",
+      "type": "function",
+      "name": "MDevider",
+      "filePath": "src/packages/Layout/Divider/Divider.tsx",
+      "lineRange": [
+        18,
+        64
+      ],
+      "summary": "MDevider 是该文件的核心 React 组件，负责提供 Divider 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Layout/Row/Row.tsx",
+      "type": "file",
+      "name": "Row.tsx",
+      "filePath": "src/packages/Layout/Row/Row.tsx",
+      "summary": "该文件提供 Row 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/Row/Row.tsx:MRow",
+      "type": "function",
+      "name": "MRow",
+      "filePath": "src/packages/Layout/Row/Row.tsx",
+      "lineRange": [
+        21,
+        101
+      ],
+      "summary": "MRow 是该文件的核心 React 组件，负责提供 Row 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Layout/Span/Col.tsx",
+      "type": "file",
+      "name": "Col.tsx",
+      "filePath": "src/packages/Layout/Span/Col.tsx",
+      "summary": "该文件提供 Col 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/Span/Col.tsx:SpanCol",
+      "type": "function",
+      "name": "SpanCol",
+      "filePath": "src/packages/Layout/Span/Col.tsx",
+      "lineRange": [
+        21,
+        76
+      ],
+      "summary": "SpanCol 是该文件的核心 React 组件，负责提供 Col 布局组件，控制子元素排布、尺寸和样式透传。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "low-code-component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "function:src/packages/FormItems/TimePicker/TimePicker.tsx:MTimePicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "function:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx:MTimePickerRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "function:src/packages/FormItems/Transfer/Transfer.tsx:MTransfer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "function:src/packages/FormItems/TreeSelect/TreeSelect.tsx:WTreeSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "function:src/packages/FormItems/Upload/Upload.tsx:MUpload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/Button/Button.tsx",
+      "target": "function:src/packages/Functional/Button/Button.tsx:MButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "function:src/packages/Functional/Descriptions/Descriptions.tsx:MButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "function:src/packages/Functional/Tab/Tab.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "function:src/packages/Functional/Tabs/Tabs.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "function:src/packages/Layout/BottomBanner/BottomBanner.tsx:MBottomBanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "function:src/packages/Layout/Col/Col.tsx:MCol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Layout/Divider/Divider.tsx",
+      "target": "function:src/packages/Layout/Divider/Divider.tsx:MDevider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "function:src/packages/Layout/Row/Row.tsx:MRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "function:src/packages/Layout/Span/Col.tsx:SpanCol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/Advanced/Pagination/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/FormItems/Transfer/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Transfer.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "file:src/packages/FormItems/TreeSelect/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Upload.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Button/Button.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Button/Button.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/packages/Functional/Descriptions/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Descriptions.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tab/Tab.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/packages/Functional/Tab/Schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/packages/Functional/Tabs/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Tabs.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/packages/Layout/BottomBanner/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Col/Col.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Divider/Divider.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Divider/Divider.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Row/Row.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/packages/Layout/Span/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Col.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "materials/vite-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/App.less",
+      "language": "css",
+      "sizeLines": 57,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/src/App.tsx",
+      "language": "typescript",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/index.less",
+      "language": "css",
+      "sizeLines": 7,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/page/index.module.less",
+      "language": "css",
+      "sizeLines": 182,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/src/styles/global-vars.less",
+      "language": "css",
+      "sizeLines": 11,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/src/typings.d.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/utils/AntdGlobal.tsx",
+      "language": "typescript",
+      "sizeLines": 2,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/utils/dataToCanvas.worker.ts",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/utils/loading/index.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/utils/loading/loading.less",
+      "language": "css",
+      "sizeLines": 12,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/src/utils/storage.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/src/vite-env.d.ts",
+      "language": "typescript",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "page/vite.config.ts",
+      "language": "typescript",
+      "sizeLines": 282,
+      "fileCategory": "code"
+    },
+    {
+      "path": "postcss.config.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/index.browser.js",
+      "language": "javascript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/base/worker/workerMain.js",
+      "language": "javascript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/abap/abap.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/apex/apex.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/azcli/azcli.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/bat/bat.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/bicep/bicep.js",
+      "language": "javascript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/cameligo/cameligo.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/clojure/clojure.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/vite-env.d.ts": [],
+    "page/src/App.less": [],
+    "page/src/App.tsx": [
+      "page/src/App.less",
+      "page/src/index.less"
+    ],
+    "page/src/index.less": [],
+    "page/src/main.tsx": [
+      "page/src/App.tsx"
+    ],
+    "page/src/page/index.module.less": [],
+    "page/src/styles/global-vars.less": [],
+    "page/src/typings.d.ts": [],
+    "page/src/utils/AntdGlobal.tsx": [],
+    "page/src/utils/dataToCanvas.worker.ts": [],
+    "page/src/utils/loading/index.tsx": [
+      "page/src/utils/loading/loading.less"
+    ],
+    "page/src/utils/loading/loading.less": [],
+    "page/src/utils/storage.ts": [],
+    "page/src/vite-env.d.ts": [],
+    "page/vite.config.ts": [],
+    "postcss.config.js": [],
+    "public/static/index.browser.js": [],
+    "public/static/monaco-editor/vs/base/worker/workerMain.js": [],
+    "public/static/monaco-editor/vs/basic-languages/abap/abap.js": [],
+    "public/static/monaco-editor/vs/basic-languages/apex/apex.js": [],
+    "public/static/monaco-editor/vs/basic-languages/azcli/azcli.js": [],
+    "public/static/monaco-editor/vs/basic-languages/bat/bat.js": [],
+    "public/static/monaco-editor/vs/basic-languages/bicep/bicep.js": [],
+    "public/static/monaco-editor/vs/basic-languages/cameligo/cameligo.js": [],
+    "public/static/monaco-editor/vs/basic-languages/clojure/clojure.js": []
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/config/icons/IconGridFormB.tsx",
+      "type": "file",
+      "name": "IconGridFormB.tsx",
+      "filePath": "src/config/icons/IconGridFormB.tsx",
+      "summary": "为编辑器物料菜单中的GridFormB入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconModal.tsx",
+      "type": "file",
+      "name": "IconModal.tsx",
+      "filePath": "src/config/icons/IconModal.tsx",
+      "summary": "为编辑器物料菜单中的Modal入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/config/icons/IconRibon.tsx",
+      "type": "file",
+      "name": "IconRibon.tsx",
+      "filePath": "src/config/icons/IconRibon.tsx",
+      "summary": "为编辑器物料菜单中的Ribon入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconSearchFormB.tsx",
+      "type": "file",
+      "name": "IconSearchFormB.tsx",
+      "filePath": "src/config/icons/IconSearchFormB.tsx",
+      "summary": "为编辑器物料菜单中的SearchFormB入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconTableEdit.tsx",
+      "type": "file",
+      "name": "IconTableEdit.tsx",
+      "filePath": "src/config/icons/IconTableEdit.tsx",
+      "summary": "为编辑器物料菜单中的TableEdit入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/config/icons/IconTagGroup.tsx",
+      "type": "file",
+      "name": "IconTagGroup.tsx",
+      "filePath": "src/config/icons/IconTagGroup.tsx",
+      "summary": "为编辑器物料菜单中的TagGroup入口提供 React 图标。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/components/ApiList/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/components/ApiList/index.module.less",
+      "summary": "定义接口列表相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/ConfigPanel/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/components/ConfigPanel/index.module.less",
+      "summary": "定义配置面板相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/CrossApiList/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/components/CrossApiList/index.module.less",
+      "summary": "定义CrossAPI 列表相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/components/Header/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/components/Header/index.module.less",
+      "summary": "定义顶部栏相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Header/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/layout/components/Header/index.tsx",
+      "summary": "实现低代码编辑器顶部栏，组织返回、页面信息、保存、预览、发布和其他全局操作。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/components/Header/PublishPopover.tsx",
+      "type": "file",
+      "name": "PublishPopover.tsx",
+      "filePath": "src/layout/components/Header/PublishPopover.tsx",
+      "summary": "实现编辑器发布弹层，收集发布信息并触发应用或页面发布流程。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Menu/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/components/Menu/index.module.less",
+      "summary": "定义菜单相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/components/Menu/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/layout/components/Menu/index.tsx",
+      "summary": "实现编辑器侧边功能菜单，在物料、页面、变量、接口和配置等工作区之间切换。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Notice.tsx",
+      "type": "file",
+      "name": "Notice.tsx",
+      "filePath": "src/layout/components/Notice.tsx",
+      "summary": "展示编辑器内的通知、警告和操作反馈内容。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/components/Variable/VariableList.tsx",
+      "type": "file",
+      "name": "VariableList.tsx",
+      "filePath": "src/layout/components/Variable/VariableList.tsx",
+      "summary": "展示页面变量列表并提供新增、编辑、删除和选中变量的入口。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Variable/VariableSetting.tsx",
+      "type": "file",
+      "name": "VariableSetting.tsx",
+      "filePath": "src/layout/components/Variable/VariableSetting.tsx",
+      "summary": "实现变量新增与编辑表单，维护名称、类型、默认值和作用域等配置。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/layout.less",
+      "type": "file",
+      "name": "layout.less",
+      "filePath": "src/layout/layout.less",
+      "summary": "定义layout相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "summary": "定义BaseCanvasPreview相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/Preview/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/Preview/index.module.less",
+      "summary": "定义Preview相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/Preview/ProcessComponentPreview/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/layout/Preview/ProcessComponentPreview/index.module.less",
+      "summary": "定义流程组件预览相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/Preview/ProcessComponentPreview/ProcessComponentPreview.tsx",
+      "type": "file",
+      "name": "ProcessComponentPreview.tsx",
+      "filePath": "src/layout/Preview/ProcessComponentPreview/ProcessComponentPreview.tsx",
+      "summary": "实现引导式流程组件预览容器，按流程组件数据渲染页面区域和节点内容。",
+      "tags": [
+        "component",
+        "editor-layout",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/mock/guidedProcessMock.ts",
+      "type": "file",
+      "name": "guidedProcessMock.ts",
+      "filePath": "src/mock/guidedProcessMock.ts",
+      "summary": "提供引导式流程页面的示例元素工厂和组件数据，覆盖标题、按钮、底栏及组合组件结构。",
+      "tags": [
+        "mock-data",
+        "guided-process",
+        "factory"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/AIChat/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/AIChat/index.module.less",
+      "summary": "定义AI 对话相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/AIChat/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/AIChat/Schema.tsx",
+      "summary": "声明AI 对话物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "function:src/config/icons/IconGridFormB.tsx:IconGridForm",
+      "type": "function",
+      "name": "IconGridForm",
+      "filePath": "src/config/icons/IconGridFormB.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染栅格表单物料在菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconModal.tsx:IconModal",
+      "type": "function",
+      "name": "IconModal",
+      "filePath": "src/config/icons/IconModal.tsx",
+      "lineRange": [
+        1,
+        58
+      ],
+      "summary": "渲染模态框物料的菜单图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/config/icons/IconRibon.tsx:IconRibon",
+      "type": "function",
+      "name": "IconRibon",
+      "filePath": "src/config/icons/IconRibon.tsx",
+      "lineRange": [
+        1,
+        12
+      ],
+      "summary": "渲染飘带物料的菜单图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconSearchFormB.tsx:IconSearchForm",
+      "type": "function",
+      "name": "IconSearchForm",
+      "filePath": "src/config/icons/IconSearchFormB.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染搜索表单物料的菜单图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconTableEdit.tsx:IconTableEdit",
+      "type": "function",
+      "name": "IconTableEdit",
+      "filePath": "src/config/icons/IconTableEdit.tsx",
+      "lineRange": [
+        1,
+        75
+      ],
+      "summary": "渲染可编辑表格物料的菜单图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/config/icons/IconTagGroup.tsx:IconTagGroup",
+      "type": "function",
+      "name": "IconTagGroup",
+      "filePath": "src/config/icons/IconTagGroup.tsx",
+      "lineRange": [
+        1,
+        12
+      ],
+      "summary": "渲染标签组物料的菜单图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/layout/components/Header/PublishPopover.tsx:Publish",
+      "type": "function",
+      "name": "Publish",
+      "filePath": "src/layout/components/Header/PublishPopover.tsx",
+      "lineRange": [
+        9,
+        76
+      ],
+      "summary": "渲染发布弹层并提交发布配置。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/components/Menu/index.tsx:Menu",
+      "type": "function",
+      "name": "Menu",
+      "filePath": "src/layout/components/Menu/index.tsx",
+      "lineRange": [
+        83,
+        143
+      ],
+      "summary": "渲染编辑器侧边菜单并处理工作区切换。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/components/Variable/VariableSetting.tsx:VariableSetting",
+      "type": "function",
+      "name": "VariableSetting",
+      "filePath": "src/layout/components/Variable/VariableSetting.tsx",
+      "lineRange": [
+        12,
+        137
+      ],
+      "summary": "渲染变量配置表单并提交变量定义。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/mock/guidedProcessMock.ts:title",
+      "type": "function",
+      "name": "title",
+      "filePath": "src/mock/guidedProcessMock.ts",
+      "lineRange": [
+        10,
+        23
+      ],
+      "summary": "生成引导式流程示例标题元素。",
+      "tags": [
+        "factory",
+        "mock-data",
+        "guided-process"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/mock/guidedProcessMock.ts:bottomBanner",
+      "type": "function",
+      "name": "bottomBanner",
+      "filePath": "src/mock/guidedProcessMock.ts",
+      "lineRange": [
+        33,
+        46
+      ],
+      "summary": "生成引导式流程示例底部操作栏元素。",
+      "tags": [
+        "factory",
+        "mock-data",
+        "guided-process"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/mock/guidedProcessMock.ts:component",
+      "type": "function",
+      "name": "component",
+      "filePath": "src/mock/guidedProcessMock.ts",
+      "lineRange": [
+        48,
+        77
+      ],
+      "summary": "组合生成引导式流程示例组件及其子元素。",
+      "tags": [
+        "factory",
+        "mock-data",
+        "guided-process"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/config/icons/IconGridFormB.tsx",
+      "target": "function:src/config/icons/IconGridFormB.tsx:IconGridForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconGridFormB.tsx",
+      "target": "function:src/config/icons/IconGridFormB.tsx:IconGridForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconModal.tsx",
+      "target": "function:src/config/icons/IconModal.tsx:IconModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconModal.tsx",
+      "target": "function:src/config/icons/IconModal.tsx:IconModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconRibon.tsx",
+      "target": "function:src/config/icons/IconRibon.tsx:IconRibon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconRibon.tsx",
+      "target": "function:src/config/icons/IconRibon.tsx:IconRibon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconSearchFormB.tsx",
+      "target": "function:src/config/icons/IconSearchFormB.tsx:IconSearchForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconSearchFormB.tsx",
+      "target": "function:src/config/icons/IconSearchFormB.tsx:IconSearchForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconTableEdit.tsx",
+      "target": "function:src/config/icons/IconTableEdit.tsx:IconTableEdit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconTableEdit.tsx",
+      "target": "function:src/config/icons/IconTableEdit.tsx:IconTableEdit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconTagGroup.tsx",
+      "target": "function:src/config/icons/IconTagGroup.tsx:IconTagGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconTagGroup.tsx",
+      "target": "function:src/config/icons/IconTagGroup.tsx:IconTagGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/layout/components/Header/index.tsx",
+      "target": "file:src/layout/components/Header/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Header/index.tsx",
+      "target": "file:src/layout/components/Header/PublishPopover.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Header/PublishPopover.tsx",
+      "target": "file:src/layout/components/Header/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Header/PublishPopover.tsx",
+      "target": "function:src/layout/components/Header/PublishPopover.tsx:Publish",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/Header/PublishPopover.tsx",
+      "target": "function:src/layout/components/Header/PublishPopover.tsx:Publish",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/layout/components/Menu/index.tsx",
+      "target": "file:src/layout/components/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/index.tsx",
+      "target": "function:src/layout/components/Menu/index.tsx:Menu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/Menu/index.tsx",
+      "target": "function:src/layout/components/Menu/index.tsx:Menu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/layout/components/Variable/VariableList.tsx",
+      "target": "file:src/layout/components/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Variable/VariableList.tsx",
+      "target": "file:src/layout/components/Variable/VariableSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Variable/VariableSetting.tsx",
+      "target": "function:src/layout/components/Variable/VariableSetting.tsx:VariableSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/Variable/VariableSetting.tsx",
+      "target": "function:src/layout/components/Variable/VariableSetting.tsx:VariableSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/mock/guidedProcessMock.ts",
+      "target": "function:src/mock/guidedProcessMock.ts:title",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/mock/guidedProcessMock.ts",
+      "target": "function:src/mock/guidedProcessMock.ts:bottomBanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/mock/guidedProcessMock.ts",
+      "target": "function:src/mock/guidedProcessMock.ts:component",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

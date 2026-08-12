@@ -1,0 +1,323 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/taskCenter/index.tsx",
+      "language": "typescript",
+      "sizeLines": 1180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/taskCenter/review.tsx",
+      "language": "typescript",
+      "sizeLines": 1104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/taskCenter/reviewConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 703,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/taskCenter/reviewConfigCon.ts",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationModuleList/index.tsx",
+      "language": "typescript",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "language": "typescript",
+      "sizeLines": 351,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "language": "typescript",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationTemp/index.tsx",
+      "language": "typescript",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "language": "typescript",
+      "sizeLines": 313,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "language": "typescript",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/componentTemp/index.tsx",
+      "language": "typescript",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/index.tsx",
+      "language": "typescript",
+      "sizeLines": 172,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/tempModuleList/index.tsx",
+      "language": "typescript",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "language": "typescript",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/templateManagement/templateManageTypes.ts",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/tenantManage/index.tsx",
+      "language": "typescript",
+      "sizeLines": 497,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/tenantManage/tenantModal.tsx",
+      "language": "typescript",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/polyfills.ts",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/router/index.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/menuStore.ts",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/Logout.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/appMenuData.ts",
+      "language": "typescript",
+      "sizeLines": 514,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/crossAPIDistributeMessages.ts",
+      "language": "typescript",
+      "sizeLines": 417,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/goldbank.ts",
+      "language": "typescript",
+      "sizeLines": 398,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/logCapture.ts",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/objectToFormData.ts",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/operLog.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/request.ts",
+      "language": "typescript",
+      "sizeLines": 418,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/taskCenter/index.tsx": [
+      "src/pages/applicationList/versionHost.tsx",
+      "src/pages/taskCenter/index.module.less",
+      "src/pages/taskCenter/review.tsx",
+      "src/pages/taskCenter/reviewConfig.tsx"
+    ],
+    "src/pages/taskCenter/review.tsx": [
+      "src/layout/Preview/Preview.tsx",
+      "src/pages/applicationList/upcheckty.tsx",
+      "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "src/pages/taskCenter/index.module.less",
+      "src/stores/menuStore.ts",
+      "src/utils/appMenuData.ts",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ],
+    "src/pages/taskCenter/reviewConfig.tsx": [
+      "src/pages/taskCenter/index.module.less",
+      "src/pages/taskCenter/reviewConfigCon.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/taskCenter/reviewConfigCon.ts": [],
+    "src/pages/templateManagement/applicationModuleList/applicationCard.tsx": [
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts"
+    ],
+    "src/pages/templateManagement/applicationModuleList/index.tsx": [
+      "src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/utils/objectToFormData.ts",
+      "src/utils/operLog.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx": [
+      "src/pages/applicationOrchestration/appCategory/index.tsx",
+      "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "src/pages/templateManagement/applicationTemp/index.module.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx": [
+      "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/templateManagement/applicationTemp/index.tsx": [
+      "src/pages/templateManagement/applicationModuleList/index.tsx",
+      "src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts"
+    ],
+    "src/pages/templateManagement/businessTemplatePreview/index.tsx": [
+      "src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/templateManagement/componentTemp/addComponentTemp.tsx": [
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx": [
+      "src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/utils/appMenuData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/templateManagement/componentTemp/index.tsx": [
+      "src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/pages/templateManagement/tempModuleList/index.tsx"
+    ],
+    "src/pages/templateManagement/index.tsx": [
+      "src/pages/templateManagement/applicationTemp/index.tsx",
+      "src/pages/templateManagement/componentTemp/index.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts"
+    ],
+    "src/pages/templateManagement/tempModuleList/index.tsx": [
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts",
+      "src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "src/utils/objectToFormData.ts",
+      "src/utils/operLog.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/templateManagement/tempModuleList/templateCard.tsx": [
+      "src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "src/pages/templateManagement/index.module.less",
+      "src/pages/templateManagement/templateManageTypes.ts"
+    ],
+    "src/pages/templateManagement/templateManageTypes.ts": [],
+    "src/pages/tenantManage/index.tsx": [
+      "src/pages/tenantManage/index.module.less",
+      "src/pages/tenantManage/tenantModal.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/tenantManage/tenantModal.tsx": [],
+    "src/polyfills.ts": [],
+    "src/router/index.tsx": [
+      "src/layout/MainLayout.tsx",
+      "src/pages/AppBuild/AppBuild.tsx",
+      "src/pages/AppRun/AppRun.tsx",
+      "src/pages/MyActivity/index.tsx",
+      "src/pages/taskCenter/index.tsx",
+      "src/pages/tenantManage/index.tsx",
+      "src/pages/Workbench/Workbench.tsx",
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/stores/menuStore.ts": [],
+    "src/utils/Logout.ts": [
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/utils/appMenuData.ts": [],
+    "src/utils/crossAPIDistributeMessages.ts": [
+      "src/stores/crossAPIStaticDataStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/stores/menuStore.ts"
+    ],
+    "src/utils/goldbank.ts": [
+      "src/utils/request.ts"
+    ],
+    "src/utils/logCapture.ts": [],
+    "src/utils/objectToFormData.ts": [],
+    "src/utils/operLog.ts": [
+      "src/utils/request.ts"
+    ],
+    "src/utils/request.ts": [
+      "src/utils/util.ts"
+    ]
+  }
+}

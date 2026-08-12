@@ -1,0 +1,1120 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/tempModuleList/index.tsx",
+      "summary": "以类组件实现模板模块搜索结果列表，处理查询结果、消息订阅、分页和模块卡片操作。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:src/pages/templateManagement/tempModuleList/index.tsx:SearchResultModuleCard",
+      "type": "class",
+      "name": "SearchResultModuleCard",
+      "filePath": "src/pages/templateManagement/tempModuleList/index.tsx",
+      "lineRange": [
+        80,
+        312
+      ],
+      "summary": "以 React 类组件组织 tempModuleList 列表或页面的加载、渲染和生命周期。",
+      "tags": [
+        "component",
+        "react",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "type": "file",
+      "name": "templateCard.tsx",
+      "filePath": "src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "summary": "渲染模板模块卡片，展示模板信息并提供预览、编辑、复制、删除等快捷操作。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/templateManagement/tempModuleList/templateCard.tsx:CommponentCard",
+      "type": "function",
+      "name": "CommponentCard",
+      "filePath": "src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "lineRange": [
+        16,
+        179
+      ],
+      "summary": "渲染 templateCard 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/tenantManage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/tenantManage/index.tsx",
+      "summary": "实现租户管理主页面，提供租户查询、分页、新增、编辑、状态变更及授权等管理能力。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/tenantManage/index.tsx:TenantManagePage",
+      "type": "function",
+      "name": "TenantManagePage",
+      "filePath": "src/pages/tenantManage/index.tsx",
+      "lineRange": [
+        33,
+        495
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/tenantManage/tenantModal.tsx",
+      "type": "file",
+      "name": "tenantModal.tsx",
+      "filePath": "src/pages/tenantManage/tenantModal.tsx",
+      "summary": "实现租户新增与编辑弹窗，收集并校验租户基础资料后提交保存。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/tenantManage/tenantModal.tsx:tenantModal",
+      "type": "function",
+      "name": "tenantModal",
+      "filePath": "src/pages/tenantManage/tenantModal.tsx",
+      "lineRange": [
+        27,
+        187
+      ],
+      "summary": "实现 tenantModal 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/polyfills.ts",
+      "type": "file",
+      "name": "polyfills.ts",
+      "filePath": "src/polyfills.ts",
+      "summary": "集中加载浏览器兼容补丁，为运行环境补齐项目依赖的标准 API 和旧浏览器行为。",
+      "tags": [
+        "compatibility",
+        "bootstrap",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/router/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/router/index.tsx",
+      "summary": "定义应用路由入口，根据菜单状态动态生成路由并挂载主要管理页面。",
+      "tags": [
+        "routing",
+        "entry-point",
+        "navigation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/router/index.tsx:DynamicRouter",
+      "type": "function",
+      "name": "DynamicRouter",
+      "filePath": "src/router/index.tsx",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/router/index.tsx:Router",
+      "type": "function",
+      "name": "Router",
+      "filePath": "src/router/index.tsx",
+      "lineRange": [
+        25,
+        50
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/menuStore.ts",
+      "type": "file",
+      "name": "menuStore.ts",
+      "filePath": "src/stores/menuStore.ts",
+      "summary": "使用状态模型维护菜单树、当前组件模型和相关导航状态，供路由及页面框架共享。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/utils/Logout.ts",
+      "type": "file",
+      "name": "Logout.ts",
+      "filePath": "src/utils/Logout.ts",
+      "summary": "封装退出登录流程，清理登录态并跳转到统一认证或登录入口。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/Logout.ts:LogoutFun",
+      "type": "function",
+      "name": "LogoutFun",
+      "filePath": "src/utils/Logout.ts",
+      "lineRange": [
+        4,
+        33
+      ],
+      "summary": "清理登录状态并执行平台退出跳转。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/appMenuData.ts",
+      "type": "file",
+      "name": "appMenuData.ts",
+      "filePath": "src/utils/appMenuData.ts",
+      "summary": "提供平台内置应用菜单树和页面路由元数据，是菜单初始化与权限展示的静态数据源。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/utils/crossAPIDistributeMessages.ts",
+      "type": "file",
+      "name": "crossAPIDistributeMessages.ts",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "summary": "分发来自 CrossAPI 的异步消息，串行处理用户信息、标签页、弹窗及页面销毁等跨容器指令。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:sendUserInfoEvent",
+      "type": "function",
+      "name": "sendUserInfoEvent",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        16,
+        59
+      ],
+      "summary": "把宿主返回的用户信息转换为页面事件并向相关窗口分发。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:processNextMessage",
+      "type": "function",
+      "name": "processNextMessage",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        71,
+        90
+      ],
+      "summary": "从消息队列取出下一条 CrossAPI 指令并保证串行处理。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:handleIframeDialog",
+      "type": "function",
+      "name": "handleIframeDialog",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        96,
+        198
+      ],
+      "summary": "处理宿主要求打开 IFrame 弹窗的消息并维护其生命周期。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:handleCreateTab",
+      "type": "function",
+      "name": "handleCreateTab",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        204,
+        227
+      ],
+      "summary": "处理创建宿主标签页的消息。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:handleDestroyTab",
+      "type": "function",
+      "name": "handleDestroyTab",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        233,
+        249
+      ],
+      "summary": "处理销毁宿主标签页的消息。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:handleCloseDialog",
+      "type": "function",
+      "name": "handleCloseDialog",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        255,
+        321
+      ],
+      "summary": "处理关闭弹窗消息并清理关联页面状态。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:processSingleMessage",
+      "type": "function",
+      "name": "processSingleMessage",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        326,
+        404
+      ],
+      "summary": "识别并分派单条 CrossAPI 消息。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/crossAPIDistributeMessages.ts:crossAPIDistributeMessages",
+      "type": "function",
+      "name": "crossAPIDistributeMessages",
+      "filePath": "src/utils/crossAPIDistributeMessages.ts",
+      "lineRange": [
+        407,
+        415
+      ],
+      "summary": "接收 CrossAPI 消息集合并启动有序分发。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/goldbank.ts",
+      "type": "file",
+      "name": "goldbank.ts",
+      "filePath": "src/utils/goldbank.ts",
+      "summary": "封装 GoldBank 安全能力的初始化与打开流程，管理外部脚本、参数和回调交互。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:src/utils/goldbank.ts:GoldBank",
+      "type": "class",
+      "name": "GoldBank",
+      "filePath": "src/utils/goldbank.ts",
+      "lineRange": [
+        29,
+        396
+      ],
+      "summary": "管理 GoldBank 外部安全组件的脚本加载、实例状态和打开调用。",
+      "tags": [
+        "service",
+        "security",
+        "external-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/utils/logCapture.ts",
+      "type": "file",
+      "name": "logCapture.ts",
+      "filePath": "src/utils/logCapture.ts",
+      "summary": "拦截并缓存浏览器日志，提供时间戳、日志追加、读取与清空能力，便于问题诊断和上报。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/logCapture.ts:getTimestamp",
+      "type": "function",
+      "name": "getTimestamp",
+      "filePath": "src/utils/logCapture.ts",
+      "lineRange": [
+        35,
+        44
+      ],
+      "summary": "生成日志记录使用的格式化时间戳。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/logCapture.ts:addLog",
+      "type": "function",
+      "name": "addLog",
+      "filePath": "src/utils/logCapture.ts",
+      "lineRange": [
+        47,
+        66
+      ],
+      "summary": "把一条日志按级别和时间写入捕获缓冲区。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/logCapture.ts:getCapturedLogs",
+      "type": "function",
+      "name": "getCapturedLogs",
+      "filePath": "src/utils/logCapture.ts",
+      "lineRange": [
+        101,
+        106
+      ],
+      "summary": "返回当前已捕获的日志集合。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/logCapture.ts:clearCapturedLogs",
+      "type": "function",
+      "name": "clearCapturedLogs",
+      "filePath": "src/utils/logCapture.ts",
+      "lineRange": [
+        108,
+        113
+      ],
+      "summary": "清空已捕获日志。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/objectToFormData.ts",
+      "type": "file",
+      "name": "objectToFormData.ts",
+      "filePath": "src/utils/objectToFormData.ts",
+      "summary": "提供普通对象与 FormData 的双向转换及调试输出，兼容数组、嵌套对象和文件字段。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/objectToFormData.ts:objectToFormData",
+      "type": "function",
+      "name": "objectToFormData",
+      "filePath": "src/utils/objectToFormData.ts",
+      "lineRange": [
+        7,
+        55
+      ],
+      "summary": "递归把对象字段转换为 FormData。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/objectToFormData.ts:formDataToObject",
+      "type": "function",
+      "name": "formDataToObject",
+      "filePath": "src/utils/objectToFormData.ts",
+      "lineRange": [
+        61,
+        89
+      ],
+      "summary": "把 FormData 条目还原为普通对象。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/objectToFormData.ts:logFormData",
+      "type": "function",
+      "name": "logFormData",
+      "filePath": "src/utils/objectToFormData.ts",
+      "lineRange": [
+        94,
+        97
+      ],
+      "summary": "遍历并输出 FormData 内容用于诊断。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/operLog.ts",
+      "type": "file",
+      "name": "operLog.ts",
+      "filePath": "src/utils/operLog.ts",
+      "summary": "封装操作日志上报，收集当前用户、页面和业务操作信息并发送到日志接口。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/operLog.ts:recordLog",
+      "type": "function",
+      "name": "recordLog",
+      "filePath": "src/utils/operLog.ts",
+      "lineRange": [
+        15,
+        31
+      ],
+      "summary": "组装用户和业务上下文并上报操作日志。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/request.ts",
+      "type": "file",
+      "name": "request.ts",
+      "filePath": "src/utils/request.ts",
+      "summary": "配置平台 HTTP 请求客户端，统一鉴权、错误提示、本地 Mock、响应处理与请求缓存策略。",
+      "tags": [
+        "utility",
+        "http-client",
+        "cache",
+        "error-handling"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/request.ts:loadCache",
+      "type": "function",
+      "name": "loadCache",
+      "filePath": "src/utils/request.ts",
+      "lineRange": [
+        145,
+        203
+      ],
+      "summary": "读取请求缓存并判断有效期与复用条件。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/request.ts:getLocalMockResult",
+      "type": "function",
+      "name": "getLocalMockResult",
+      "filePath": "src/utils/request.ts",
+      "lineRange": [
+        213,
+        227
+      ],
+      "summary": "从本地 Mock 配置中解析匹配当前请求的返回值。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "class:src/pages/templateManagement/tempModuleList/index.tsx:SearchResultModuleCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "target": "class:src/pages/templateManagement/tempModuleList/index.tsx:SearchResultModuleCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "target": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "target": "function:src/pages/templateManagement/tempModuleList/templateCard.tsx:CommponentCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/tempModuleList/templateCard.tsx",
+      "target": "function:src/pages/templateManagement/tempModuleList/templateCard.tsx:CommponentCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "file:src/pages/tenantManage/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "file:src/pages/tenantManage/tenantModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "function:src/pages/tenantManage/index.tsx:TenantManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/tenantManage/index.tsx",
+      "target": "function:src/pages/tenantManage/index.tsx:TenantManagePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/tenantManage/tenantModal.tsx",
+      "target": "function:src/pages/tenantManage/tenantModal.tsx:tenantModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/tenantManage/tenantModal.tsx",
+      "target": "function:src/pages/tenantManage/tenantModal.tsx:tenantModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/layout/MainLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/AppBuild/AppBuild.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/AppRun/AppRun.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/MyActivity/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/taskCenter/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/tenantManage/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/pages/Workbench/Workbench.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "function:src/router/index.tsx:DynamicRouter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "function:src/router/index.tsx:Router",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/router/index.tsx",
+      "target": "function:src/router/index.tsx:Router",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/Logout.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/Logout.ts",
+      "target": "function:src/utils/Logout.ts:LogoutFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/Logout.ts",
+      "target": "function:src/utils/Logout.ts:LogoutFun",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "file:src/stores/crossAPIStaticDataStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "file:src/stores/menuStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:sendUserInfoEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:processNextMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:handleIframeDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:handleCreateTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:handleDestroyTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:handleCloseDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:processSingleMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:crossAPIDistributeMessages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/crossAPIDistributeMessages.ts",
+      "target": "function:src/utils/crossAPIDistributeMessages.ts:crossAPIDistributeMessages",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/goldbank.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/goldbank.ts",
+      "target": "class:src/utils/goldbank.ts:GoldBank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/goldbank.ts",
+      "target": "class:src/utils/goldbank.ts:GoldBank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:getTimestamp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:addLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:getCapturedLogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:getCapturedLogs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:clearCapturedLogs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/logCapture.ts",
+      "target": "function:src/utils/logCapture.ts:clearCapturedLogs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:objectToFormData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:objectToFormData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:formDataToObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:formDataToObject",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:logFormData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/objectToFormData.ts",
+      "target": "function:src/utils/objectToFormData.ts:logFormData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/operLog.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/operLog.ts",
+      "target": "function:src/utils/operLog.ts:recordLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/operLog.ts",
+      "target": "function:src/utils/operLog.ts:recordLog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/request.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/request.ts",
+      "target": "function:src/utils/request.ts:loadCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/request.ts",
+      "target": "function:src/utils/request.ts:getLocalMockResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

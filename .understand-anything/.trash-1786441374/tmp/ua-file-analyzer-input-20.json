@@ -1,0 +1,214 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/FormItems/Cascader/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/CheckBox/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Counter/CounterDouble.tsx",
+      "language": "typescript",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Counter/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/DatePicker/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/DatePickerRange/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 257,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Input/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/InputNumber/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/InputPassword/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Json/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Radio/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Rate/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Select/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Slider/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TextArea/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TimePicker/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 239,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TimePickerRange/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 271,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TreeSelect/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 275,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Upload/DataSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Upload/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/DynamicItemSetting/index.tsx",
+      "language": "typescript",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/IConSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/RulesSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/FormItems/Cascader/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/CheckBox/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Counter/CounterDouble.tsx": [
+      "src/packages/FormItems/Counter/index.module.less"
+    ],
+    "src/packages/FormItems/Counter/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx",
+      "src/packages/FormItems/Counter/CounterDouble.tsx"
+    ],
+    "src/packages/FormItems/DatePicker/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/DatePickerRange/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Input/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/InputNumber/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/InputPassword/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Json/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Radio/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Rate/Schema.tsx": [
+      "src/packages/components/IConSetting.tsx",
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Select/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Slider/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/TextArea/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/TimePicker/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/TimePickerRange/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/TreeSelect/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx"
+    ],
+    "src/packages/FormItems/Upload/DataSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/packages/FormItems/Upload/Schema.tsx": [
+      "src/packages/components/RulesSetting.tsx",
+      "src/packages/FormItems/Upload/DataSetting.tsx"
+    ],
+    "src/packages/components/DynamicItemSetting/index.tsx": [
+      "src/packages/components/DynamicItemSetting/index.module.less",
+      "src/packages/components/IConSetting.tsx"
+    ],
+    "src/packages/components/IConSetting.tsx": [],
+    "src/packages/components/RulesSetting.tsx": []
+  }
+}

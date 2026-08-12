@@ -1,0 +1,56 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "page/.env.development",
+      "language": "config",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "page/.env.production",
+      "language": "config",
+      "sizeLines": 4,
+      "fileCategory": "config"
+    },
+    {
+      "path": "page/README.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "page/index.html",
+      "language": "html",
+      "sizeLines": 183,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "page/package.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "page/tsconfig.json",
+      "language": "json",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": "page/tsconfig.node.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "page/.env.development": [],
+    "page/.env.production": [],
+    "page/README.md": [],
+    "page/index.html": [],
+    "page/package.json": [],
+    "page/tsconfig.json": [],
+    "page/tsconfig.node.json": []
+  }
+}

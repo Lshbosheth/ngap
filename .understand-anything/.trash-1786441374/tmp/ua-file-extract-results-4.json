@@ -1,0 +1,4777 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 33,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/config/icons/IconPieChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconPieChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconPopover.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconPopover",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconProgress.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconProgress",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconRate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconRate",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconRichText.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "IconRichText",
+          "startLine": 1,
+          "endLine": 12,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconRingProgress.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "IconRignProgress",
+          "startLine": 1,
+          "endLine": 32,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconRow.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconRow",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSearcFrom.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconSearchForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSpace.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 49,
+      "functions": [
+        {
+          "name": "IconSpace",
+          "startLine": 1,
+          "endLine": 48,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSpan.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconSpan",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSpin.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconSpin",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSteps.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconSteps",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTag.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTag",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconText.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconText",
+          "startLine": 1,
+          "endLine": 9,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTimeLine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTimeLine",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTimer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTimer",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTinyColumn.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 46,
+      "functions": [
+        {
+          "name": "IconTinyColumn",
+          "startLine": 1,
+          "endLine": 45,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTinyLine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "IconTinyLine",
+          "startLine": 1,
+          "endLine": 35,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTitle.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTitle",
+          "startLine": 1,
+          "endLine": 9,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTransfer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTransfer",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTree.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTree",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTreeSelect.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTreeSelect",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconVideo.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconVideo",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconWatermark.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconWatermark",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/auditManagement/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 8,
+          "endLine": 26,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Page",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "handleTabChange",
+          "callee": "setActiveKey",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditManagement.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1266,
+      "nonEmptyLines": 1214,
+      "functions": [
+        {
+          "name": "AuditManagement",
+          "startLine": 21,
+          "endLine": 1264,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 24
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "menu",
+          "lineNumber": 25
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "businessDataListInfo",
+          "lineNumber": 26
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useEffect",
+          "lineNumber": 29
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 45
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "Form.useForm",
+          "lineNumber": 46
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 60
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 71
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 80
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 81
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 83
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 84
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 86
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 88
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 89
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 90
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 96
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 99
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 100
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 101
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 104
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 105
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useState",
+          "lineNumber": 106
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleAuditClick",
+          "lineNumber": 117
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "request.post('/app/queryAppInfo', params).then",
+          "lineNumber": 149
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "request.post",
+          "lineNumber": 149
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "openPreview",
+          "lineNumber": 153
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "provinceOptions.find",
+          "lineNumber": 185
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(a.createTime).getTime",
+          "lineNumber": 202
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(b.createTime).getTime",
+          "lineNumber": 202
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleAuditClick",
+          "lineNumber": 215
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "request.post('/appComponent/queryAppComponentInfo', params).then",
+          "lineNumber": 244
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "request.post",
+          "lineNumber": 244
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "openPreview",
+          "lineNumber": 246
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "businessDataList.find",
+          "lineNumber": 268
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "provinceOptions.find",
+          "lineNumber": 277
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(a.createTime).getTime",
+          "lineNumber": 294
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(b.createTime).getTime",
+          "lineNumber": 294
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleAuditClick",
+          "lineNumber": 306
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "text.split",
+          "lineNumber": 342
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "text.split",
+          "lineNumber": 350
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "text.split",
+          "lineNumber": 358
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(a.submitTime).getTime",
+          "lineNumber": 375
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "new Date(b.submitTime).getTime",
+          "lineNumber": 375
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppLoading",
+          "lineNumber": 380
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "dateRange?.[0]?.format",
+          "lineNumber": 385
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "dateRange?.[1]?.format",
+          "lineNumber": 386
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then((res) => {\r\n                setAppLoading(false);\r\n                if (res.returnCode == '0') {\r\n                    setAppAuditData(res.beans);\r\n                    setAppTotal(res.bean.total || 0);\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 403
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then",
+          "lineNumber": 403
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "request\r\n            .post",
+          "lineNumber": 403
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "objectToFormData",
+          "lineNumber": 404
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppLoading",
+          "lineNumber": 406
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppAuditData",
+          "lineNumber": 408
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppTotal",
+          "lineNumber": 409
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppLoading",
+          "lineNumber": 413
+        },
+        {
+          "caller": "handleAppSearch",
+          "callee": "setAppAuditData",
+          "lineNumber": 415
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentLoading",
+          "lineNumber": 421
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "dateRange?.[0]?.format",
+          "lineNumber": 426
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "dateRange?.[1]?.format",
+          "lineNumber": 427
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then((res) => {\r\n                setComponentLoading(false);\r\n                if (res.returnCode == '0') {\r\n                    setComponentAuditData(res.beans);\r\n                    setComponentTotal(res.bean.total || 0);\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 445
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then",
+          "lineNumber": 445
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "request\r\n            .post",
+          "lineNumber": 445
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "objectToFormData",
+          "lineNumber": 446
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentLoading",
+          "lineNumber": 448
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentAuditData",
+          "lineNumber": 450
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentTotal",
+          "lineNumber": 451
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentLoading",
+          "lineNumber": 455
+        },
+        {
+          "caller": "handleComponentSearch",
+          "callee": "setComponentAuditData",
+          "lineNumber": 457
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementLoading",
+          "lineNumber": 462
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "dateRange?.[0]?.format",
+          "lineNumber": 467
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "dateRange?.[1]?.format",
+          "lineNumber": 468
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then((res) => {\r\n                setElementLoading(false);\r\n                if (res.returnCode == '0') {\r\n                    setElementAuditData(res.beans);\r\n                    setElementTotal(res.bean.total || 0);\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 482
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then",
+          "lineNumber": 482
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "request\r\n            .post",
+          "lineNumber": 482
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "objectToFormData",
+          "lineNumber": 483
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementLoading",
+          "lineNumber": 485
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementAuditData",
+          "lineNumber": 487
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementTotal",
+          "lineNumber": 488
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementLoading",
+          "lineNumber": 492
+        },
+        {
+          "caller": "handleElementSearch",
+          "callee": "setElementAuditData",
+          "lineNumber": 494
+        },
+        {
+          "caller": "handleAppTableChange",
+          "callee": "setAppCurrentPage",
+          "lineNumber": 500
+        },
+        {
+          "caller": "handleAppTableChange",
+          "callee": "setAppPageSize",
+          "lineNumber": 501
+        },
+        {
+          "caller": "handleAppTableChange",
+          "callee": "handleAppSearch",
+          "lineNumber": 502
+        },
+        {
+          "caller": "handleComponentTableChange",
+          "callee": "setComponentCurrentPage",
+          "lineNumber": 507
+        },
+        {
+          "caller": "handleComponentTableChange",
+          "callee": "setComponentPageSize",
+          "lineNumber": 508
+        },
+        {
+          "caller": "handleComponentTableChange",
+          "callee": "handleComponentSearch",
+          "lineNumber": 509
+        },
+        {
+          "caller": "handleElementTableChange",
+          "callee": "setElementCurrentPage",
+          "lineNumber": 513
+        },
+        {
+          "caller": "handleElementTableChange",
+          "callee": "setElementPageSize",
+          "lineNumber": 514
+        },
+        {
+          "caller": "handleElementTableChange",
+          "callee": "handleElementSearch",
+          "lineNumber": 515
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "request\r\n            .post('/appType/queryAppTypeList', {})\r\n            .then((res) => {\r\n                const arr = res.beans.filter((item: any) => item.typeLevel == '3');\r\n                arr.unshift({\r\n                    appTypeName: '全部',\r\n                    appTypeId: '',\r\n                });\r\n                const typeList = arr.map((item: any) => ({\r\n                    label: item.appTypeName,\r\n                    value: item.appTypeId,\r\n                }));\r\n\r\n                setAppTypeOptions(typeList);\r\n            })\r\n            .catch",
+          "lineNumber": 518
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "request\r\n            .post('/appType/queryAppTypeList', {})\r\n            .then",
+          "lineNumber": 518
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "request\r\n            .post",
+          "lineNumber": 518
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "res.beans.filter",
+          "lineNumber": 521
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "arr.unshift",
+          "lineNumber": 522
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "arr.map",
+          "lineNumber": 526
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "setAppTypeOptions",
+          "lineNumber": 531
+        },
+        {
+          "caller": "fetchAppTypeOptions",
+          "callee": "setAppTypeOptions",
+          "lineNumber": 534
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "request\r\n            .post('/appComponentBusiness/queryComponentBusinessList', {})\r\n            .then((res) => {\r\n                const arr = res.beans;\r\n                arr.unshift({\r\n                    businessName: '全部',\r\n                    businessId: '',\r\n                });\r\n                const typeList = arr.map((item: any) => ({\r\n                    label: item.businessName,\r\n                    value: item.businessId,\r\n                }));\r\n\r\n                setBusinessCategoryOptions(typeList);\r\n            })\r\n            .catch",
+          "lineNumber": 539
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "request\r\n            .post('/appComponentBusiness/queryComponentBusinessList', {})\r\n            .then",
+          "lineNumber": 539
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "request\r\n            .post",
+          "lineNumber": 539
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "arr.unshift",
+          "lineNumber": 543
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "arr.map",
+          "lineNumber": 547
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "setBusinessCategoryOptions",
+          "lineNumber": 552
+        },
+        {
+          "caller": "fetchBusinessCategoryOptions",
+          "callee": "setBusinessCategoryOptions",
+          "lineNumber": 555
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post('/element/queryElementTypeList', {\r\n                params: {},\r\n            })\r\n            .then((res) => {\r\n                const arr = res.beans;\r\n                arr.unshift({\r\n                    elementTypeName: '全部',\r\n                    elementTypeId: '',\r\n                });\r\n                const typeList = arr.map((item: any) => ({\r\n                    label: item.elementTypeName,\r\n                    value: item.elementTypeId,\r\n                }));\r\n                setElementCategoryOptions(typeList);\r\n            })\r\n            .catch",
+          "lineNumber": 569
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post('/element/queryElementTypeList', {\r\n                params: {},\r\n            })\r\n            .then",
+          "lineNumber": 569
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post",
+          "lineNumber": 569
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "arr.unshift",
+          "lineNumber": 575
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "arr.map",
+          "lineNumber": 579
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setElementCategoryOptions",
+          "lineNumber": 583
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setElementCategoryOptions",
+          "lineNumber": 586
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "useEffect",
+          "lineNumber": 591
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "fetchAppTypeOptions",
+          "lineNumber": 594
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "fetchBusinessCategoryOptions",
+          "lineNumber": 595
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleAppSearch",
+          "lineNumber": 597
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "queryElementTypeFun",
+          "lineNumber": 599
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleComponentSearch",
+          "lineNumber": 600
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "handleElementSearch",
+          "lineNumber": 601
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "console.log",
+          "lineNumber": 604
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "console.log",
+          "lineNumber": 605
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "console.log",
+          "lineNumber": 606
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "console.log",
+          "lineNumber": 607
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "console.log",
+          "lineNumber": 608
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "shareProvData.concat",
+          "lineNumber": 627
+        },
+        {
+          "caller": "handleAuditClick",
+          "callee": "setCurrentAuditRecord",
+          "lineNumber": 658
+        },
+        {
+          "caller": "handleAuditClick",
+          "callee": "auditForm.resetFields",
+          "lineNumber": 659
+        },
+        {
+          "caller": "handleAuditClick",
+          "callee": "setAuditModalVisible",
+          "lineNumber": 660
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "auditForm\r\n            .validateFields()\r\n            .then((values) => {\r\n                const params: any = {\r\n                    params: {\r\n                        ids: currentAuditRecord.id,\r\n                        auditResult: values.auditResult,\r\n                        auditIdea: values.auditComment,\r\n                        auditType: '1', // 1手动  2自动\r\n                        auditStaffId: userInfo.staffId,\r\n                        relationIds: currentAuditRecord.relationId, // 关联ID\r\n                        dataSource: currentAuditRecord.dataSource || '', // 审核来源类型}\r\n                    },\r\n                };\r\n\r\n                request\r\n                    .post('/solutionAudit/updateSolutionAudit', params)\r\n                    .then((res) => {\r\n                        if (res.returnCode == '0') {\r\n                            message.success('审核完成');\r\n                            setAuditModalVisible(false);\r\n                            // 根据当前标签页刷新对应列表数据\r\n                            if (subTab === '1') {\r\n                                handleAppSearch();\r\n                            } else if (subTab === '2') {\r\n                                handleComponentSearch();\r\n                            } else if (subTab === '3') {\r\n                                handleElementSearch();\r\n                                if (values.auditResult == '1') {\r\n                                    updateCustomElementMenu(currentAuditRecord.relationId); // 更新画布中全局自定义元素菜单\r\n                                    updateComponent(currentAuditRecord.relationId); // 更新画布中全局自定义元素\r\n                                }\r\n                            }\r\n                            const logParams = {\r\n                                provCode: userInfo.provinceId, // 8位省份编码\r\n                                modelName: '', // 所属模块  暂时为空\r\n                                pageName: '', // 所属菜单   暂时为空\r\n                                dataType:\r\n                                    currentAuditRecord.dataSource === '1' ? '应用' : currentAuditRecord.dataSource === '2' ? '业务组件' : '元素', // 数据类型（应用、元素、组件、接口）\r\n                                operType: '审核', // 操作类型（新增/编辑/删除/导入）\r\n                                dataId: currentAuditRecord.id, // 操作数据ID\r\n                                dataName: currentAuditRecord.dataName, // 操作数据名称\r\n                                editContent: `审核${\r\n                                    currentAuditRecord.dataName +\r\n                                    (currentAuditRecord.dataSource === '1' ? '应用' : currentAuditRecord.dataSource === '2' ? '业务组件' : '元素')\r\n                                }`, // 操作内容简述\r\n                                staffId: userInfo.staffId, // 操作人工号\r\n                            };\r\n                            recodeLog(logParams);\r\n                        }\r\n                    })\r\n                    .catch((err) => {});\r\n            })\r\n            .catch",
+          "lineNumber": 664
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "auditForm\r\n            .validateFields()\r\n            .then",
+          "lineNumber": 664
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "auditForm\r\n            .validateFields",
+          "lineNumber": 664
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "request\r\n                    .post('/solutionAudit/updateSolutionAudit', params)\r\n                    .then((res) => {\r\n                        if (res.returnCode == '0') {\r\n                            message.success('审核完成');\r\n                            setAuditModalVisible(false);\r\n                            // 根据当前标签页刷新对应列表数据\r\n                            if (subTab === '1') {\r\n                                handleAppSearch();\r\n                            } else if (subTab === '2') {\r\n                                handleComponentSearch();\r\n                            } else if (subTab === '3') {\r\n                                handleElementSearch();\r\n                                if (values.auditResult == '1') {\r\n                                    updateCustomElementMenu(currentAuditRecord.relationId); // 更新画布中全局自定义元素菜单\r\n                                    updateComponent(currentAuditRecord.relationId); // 更新画布中全局自定义元素\r\n                                }\r\n                            }\r\n                            const logParams = {\r\n                                provCode: userInfo.provinceId, // 8位省份编码\r\n                                modelName: '', // 所属模块  暂时为空\r\n                                pageName: '', // 所属菜单   暂时为空\r\n                                dataType:\r\n                                    currentAuditRecord.dataSource === '1' ? '应用' : currentAuditRecord.dataSource === '2' ? '业务组件' : '元素', // 数据类型（应用、元素、组件、接口）\r\n                                operType: '审核', // 操作类型（新增/编辑/删除/导入）\r\n                                dataId: currentAuditRecord.id, // 操作数据ID\r\n                                dataName: currentAuditRecord.dataName, // 操作数据名称\r\n                                editContent: `审核${\r\n                                    currentAuditRecord.dataName +\r\n                                    (currentAuditRecord.dataSource === '1' ? '应用' : currentAuditRecord.dataSource === '2' ? '业务组件' : '元素')\r\n                                }`, // 操作内容简述\r\n                                staffId: userInfo.staffId, // 操作人工号\r\n                            };\r\n                            recodeLog(logParams);\r\n                        }\r\n                    })\r\n                    .catch",
+          "lineNumber": 679
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "request\r\n                    .post('/solutionAudit/updateSolutionAudit', params)\r\n                    .then",
+          "lineNumber": 679
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "request\r\n                    .post",
+          "lineNumber": 679
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "message.success",
+          "lineNumber": 683
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "setAuditModalVisible",
+          "lineNumber": 684
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "handleAppSearch",
+          "lineNumber": 687
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "handleComponentSearch",
+          "lineNumber": 689
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "handleElementSearch",
+          "lineNumber": 691
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "updateCustomElementMenu",
+          "lineNumber": 693
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "updateComponent",
+          "lineNumber": 694
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "recodeLog",
+          "lineNumber": 712
+        },
+        {
+          "caller": "handleAuditSubmit",
+          "callee": "console.log",
+          "lineNumber": 718
+        },
+        {
+          "caller": "handleAuditModalClose",
+          "callee": "setAuditModalVisible",
+          "lineNumber": 724
+        },
+        {
+          "caller": "handleAuditModalClose",
+          "callee": "auditForm.resetFields",
+          "lineNumber": 725
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 743
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 758
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 769
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 784
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 807
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 826
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 843
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setAppFilter",
+          "lineNumber": 863
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 916
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 931
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 947
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 967
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 994
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 1013
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 1030
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setComponentFilter",
+          "lineNumber": 1050
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1103
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1114
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1126
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1142
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1154
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1167
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1182
+        },
+        {
+          "caller": "AuditManagement",
+          "callee": "setElementFilter",
+          "lineNumber": 1200
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditRecord.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 341,
+      "nonEmptyLines": 327,
+      "functions": [
+        {
+          "name": "AuditRecord",
+          "startLine": 18,
+          "endLine": 339,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AuditRecord",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 19
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "menu",
+          "lineNumber": 20
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "provinceOptions.find",
+          "lineNumber": 74
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 89
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 90
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useState",
+          "lineNumber": 103
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setLoading",
+          "lineNumber": 126
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "dateRange?.[0]?.format",
+          "lineNumber": 130
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "dateRange?.[1]?.format",
+          "lineNumber": 131
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "console.log",
+          "lineNumber": 142
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then((res) => {\r\n                setLoading(false);\r\n                if (res.returnCode == '0') {\r\n                    setAuditRecordData(res.beans);\r\n                    setTotal(res.bean.total || 0);\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 143
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "request\r\n            .post('/solutionAudit/querySolutionAudit', objectToFormData(params))\r\n            .then",
+          "lineNumber": 143
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "request\r\n            .post",
+          "lineNumber": 143
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "objectToFormData",
+          "lineNumber": 144
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setLoading",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setAuditRecordData",
+          "lineNumber": 148
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setTotal",
+          "lineNumber": 149
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setLoading",
+          "lineNumber": 153
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setAuditRecordData",
+          "lineNumber": 154
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setCurrentPage",
+          "lineNumber": 159
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setPageSize",
+          "lineNumber": 160
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "handleSearch",
+          "lineNumber": 161
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "useEffect",
+          "lineNumber": 164
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "handleSearch",
+          "lineNumber": 165
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setRecordFilter",
+          "lineNumber": 170
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 194
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 204
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 216
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 246
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 263
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 279
+        },
+        {
+          "caller": "AuditRecord",
+          "callee": "setRecordFilter",
+          "lineNumber": 292
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/AddElementModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 802,
+      "nonEmptyLines": 750,
+      "functions": [
+        {
+          "name": "AddElementModal",
+          "startLine": 70,
+          "endLine": 737,
+          "params": [
+            "{\r\n    visible,\r\n    isClassify,\r\n    isEdit,\r\n    appElementTypeEdit,\r\n    elementInfoEdit,\r\n    appElementType,\r\n    sourceFiles,\r\n    onSure,\r\n    onCreate,\r\n    onSaveDraft,\r\n    onCancel,\r\n}"
+          ]
+        },
+        {
+          "name": "generateUid",
+          "startLine": 743,
+          "endLine": 745,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "toRcFile",
+          "startLine": 750,
+          "endLine": 774,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "toUploadFile",
+          "startLine": 779,
+          "endLine": 793,
+          "params": [
+            "file",
+            "status"
+          ]
+        },
+        {
+          "name": "toUploadFileList",
+          "startLine": 800,
+          "endLine": 802,
+          "params": [
+            "files",
+            "status"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateUid",
+          "line": 743,
+          "isDefault": false
+        },
+        {
+          "name": "toRcFile",
+          "line": 750,
+          "isDefault": false
+        },
+        {
+          "name": "toUploadFile",
+          "line": 779,
+          "isDefault": false
+        },
+        {
+          "name": "toUploadFileList",
+          "line": 800,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AddElementModal",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 83
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "publictData.provinceSelectValue.find",
+          "lineNumber": 85
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "scopeOptions.push",
+          "lineNumber": 86
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "Form.useForm",
+          "lineNumber": 87
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useRef",
+          "lineNumber": 88
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 89
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 90
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 92
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 96
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 97
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 98
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 99
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 100
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 101
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 102
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useRef",
+          "lineNumber": 107
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useRef",
+          "lineNumber": 110
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 113
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "typeMapRef.current.clear",
+          "lineNumber": 115
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 120
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setFiles",
+          "lineNumber": 121
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "toUploadFileList",
+          "lineNumber": 124
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setFiles",
+          "lineNumber": 125
+        },
+        {
+          "caller": "checkFileType",
+          "callee": "requiredTypes.some",
+          "lineNumber": 132
+        },
+        {
+          "caller": "checkFileType",
+          "callee": "name.endsWith",
+          "lineNumber": 132
+        },
+        {
+          "caller": "getFileType",
+          "callee": "fileName.match",
+          "lineNumber": 137
+        },
+        {
+          "caller": "checkFileSize",
+          "callee": "message.error",
+          "lineNumber": 144
+        },
+        {
+          "caller": "handleChange",
+          "callee": "info.fileList.some",
+          "lineNumber": 152
+        },
+        {
+          "caller": "handleChange",
+          "callee": "clearTimeout",
+          "lineNumber": 155
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setTimeout",
+          "lineNumber": 157
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.filter",
+          "lineNumber": 160
+        },
+        {
+          "caller": "handleChange",
+          "callee": "checkFileType",
+          "lineNumber": 161
+        },
+        {
+          "caller": "handleChange",
+          "callee": "message.error",
+          "lineNumber": 162
+        },
+        {
+          "caller": "handleChange",
+          "callee": "checkFileSize",
+          "lineNumber": 166
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.some",
+          "lineNumber": 172
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 172
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.some",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleChange",
+          "callee": "message.error",
+          "lineNumber": 175
+        },
+        {
+          "caller": "handleChange",
+          "callee": "typeMapRef.current.clear",
+          "lineNumber": 179
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.filter",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handleChange",
+          "callee": "typeMapRef.current.has",
+          "lineNumber": 182
+        },
+        {
+          "caller": "handleChange",
+          "callee": "message.error",
+          "lineNumber": 183
+        },
+        {
+          "caller": "handleChange",
+          "callee": "typeMapRef.current.set",
+          "lineNumber": 186
+        },
+        {
+          "caller": "handleChange",
+          "callee": "message.error",
+          "lineNumber": 190
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.some",
+          "lineNumber": 195
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 195
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.some",
+          "lineNumber": 196
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 196
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList.some",
+          "lineNumber": 197
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 198
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getFileType",
+          "lineNumber": 198
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setFiles",
+          "lineNumber": 201
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList\r\n                    .filter((file) => file.originFileObj)\r\n                    .map",
+          "lineNumber": 203
+        },
+        {
+          "caller": "handleChange",
+          "callee": "fileList\r\n                    .filter",
+          "lineNumber": 203
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setPreviewFiles",
+          "lineNumber": 206
+        },
+        {
+          "caller": "handleChange",
+          "callee": "files.filter",
+          "lineNumber": 210
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setFiles",
+          "lineNumber": 211
+        },
+        {
+          "caller": "handleChange",
+          "callee": "newFileList\r\n                .filter((file) => file.originFileObj)\r\n                .map",
+          "lineNumber": 213
+        },
+        {
+          "caller": "handleChange",
+          "callee": "newFileList\r\n                .filter",
+          "lineNumber": 213
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setPreviewFiles",
+          "lineNumber": 216
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "files\r\n            .filter((file) => file.originFileObj) // 确保有原始文件对象\r\n            .map",
+          "lineNumber": 222
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "files\r\n            .filter",
+          "lineNumber": 222
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "file.some",
+          "lineNumber": 231
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "file.find",
+          "lineNumber": 233
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "message.error",
+          "lineNumber": 234
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setSourceLoading",
+          "lineNumber": 238
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "request.upload",
+          "lineNumber": 240
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "Math.round",
+          "lineNumber": 248
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setSourceProgress",
+          "lineNumber": 249
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "getPathByExtension",
+          "lineNumber": 254
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "getPathByExtension",
+          "lineNumber": 255
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "getPathByExtension",
+          "lineNumber": 256
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "getPathByExtension",
+          "lineNumber": 256
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setElementJsDemo",
+          "lineNumber": 259
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setElementCssDemo",
+          "lineNumber": 260
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setElementConfigDemo",
+          "lineNumber": 261
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setTimeout",
+          "lineNumber": 267
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setSourceLoading",
+          "lineNumber": 268
+        },
+        {
+          "caller": "uploadSourceFiles",
+          "callee": "setSourceProgress",
+          "lineNumber": 269
+        },
+        {
+          "caller": "getPathByExtension",
+          "callee": "Object.keys(data).find",
+          "lineNumber": 276
+        },
+        {
+          "caller": "getPathByExtension",
+          "callee": "Object.keys",
+          "lineNumber": 276
+        },
+        {
+          "caller": "getPathByExtension",
+          "callee": "name.endsWith",
+          "lineNumber": 276
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 281
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementId",
+          "lineNumber": 283
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementIcon",
+          "lineNumber": 284
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 285
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 292
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementInfo",
+          "lineNumber": 294
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementId",
+          "lineNumber": 295
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementIcon",
+          "lineNumber": 296
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementJsDemo",
+          "lineNumber": 297
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementCssDemo",
+          "lineNumber": 298
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setElementConfigDemo",
+          "lineNumber": 299
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 300
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageLoading",
+          "lineNumber": 313
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "request\r\n            .upload(\r\n                '/csf/call/importOssByFile',\r\n                'fileupload',\r\n                file,\r\n                { type: 'image' },\r\n                {\r\n                    showLoading: true,\r\n                    onUploadProgress: (e) => {\r\n                        const progress = e.lengthComputable ? Math.round((e.loaded / e.total) * 100) : 0;\r\n                        setImageProgress(progress);\r\n                    },\r\n                },\r\n            )\r\n            .then((res) => {\r\n                setTimeout(() => {\r\n                    // const url = URL.createObjectURL(file);\r\n                    setElementIcon(res.bean.url);\r\n                    setImageLoading(false);\r\n                    setImageProgress(0);\r\n                    message.success('图标上传成功');\r\n                }, 1000);\r\n            })\r\n            .catch((err) => { })\r\n            .finally",
+          "lineNumber": 315
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "request\r\n            .upload(\r\n                '/csf/call/importOssByFile',\r\n                'fileupload',\r\n                file,\r\n                { type: 'image' },\r\n                {\r\n                    showLoading: true,\r\n                    onUploadProgress: (e) => {\r\n                        const progress = e.lengthComputable ? Math.round((e.loaded / e.total) * 100) : 0;\r\n                        setImageProgress(progress);\r\n                    },\r\n                },\r\n            )\r\n            .then((res) => {\r\n                setTimeout(() => {\r\n                    // const url = URL.createObjectURL(file);\r\n                    setElementIcon(res.bean.url);\r\n                    setImageLoading(false);\r\n                    setImageProgress(0);\r\n                    message.success('图标上传成功');\r\n                }, 1000);\r\n            })\r\n            .catch",
+          "lineNumber": 315
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "request\r\n            .upload(\r\n                '/csf/call/importOssByFile',\r\n                'fileupload',\r\n                file,\r\n                { type: 'image' },\r\n                {\r\n                    showLoading: true,\r\n                    onUploadProgress: (e) => {\r\n                        const progress = e.lengthComputable ? Math.round((e.loaded / e.total) * 100) : 0;\r\n                        setImageProgress(progress);\r\n                    },\r\n                },\r\n            )\r\n            .then",
+          "lineNumber": 315
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "request\r\n            .upload",
+          "lineNumber": 315
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "Math.round",
+          "lineNumber": 324
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageProgress",
+          "lineNumber": 325
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setTimeout",
+          "lineNumber": 330
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setElementIcon",
+          "lineNumber": 332
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageLoading",
+          "lineNumber": 333
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageProgress",
+          "lineNumber": 334
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "message.success",
+          "lineNumber": 335
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setTimeout",
+          "lineNumber": 340
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageLoading",
+          "lineNumber": 341
+        },
+        {
+          "caller": "imageCustomRequest",
+          "callee": "setImageProgress",
+          "lineNumber": 342
+        },
+        {
+          "caller": "imageBeforeUpload",
+          "callee": "file.type.startsWith",
+          "lineNumber": 350
+        },
+        {
+          "caller": "imageBeforeUpload",
+          "callee": "message.error",
+          "lineNumber": 352
+        },
+        {
+          "caller": "imageBeforeUpload",
+          "callee": "message.error",
+          "lineNumber": 358
+        },
+        {
+          "caller": "imageHandleRemove",
+          "callee": "setElementIcon",
+          "lineNumber": 366
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "form.validateFields()\r\n            .then(async (values) => {\r\n                // 检查文件是否上传\r\n                if (!elementIcon) {\r\n                    message.error('请上传图标文件');\r\n                    return;\r\n                }\r\n                // 统一检查必需的文件类型\r\n                const hasTsx = files.some((file) => getFileType(file.name) === 'tsx');\r\n                const hasLess = files.some((file) => getFileType(file.name) === 'less');\r\n                const hasTsOrJs = files.some((file) =>\r\n                    getFileType(file.name) === 'ts' || getFileType(file.name) === 'js'\r\n                );\r\n                \r\n                if ((!hasTsx || !hasLess || !hasTsOrJs) && !isClassify) {\r\n                    message.error('必须上传tsx、less、ts、js三个文件');\r\n                    return;\r\n                }\r\n\r\n                // 存储上传后的文件路径\r\n                let uploadedJsDemo = elementJsDemo;\r\n                let uploadedCssDemo = elementCssDemo;\r\n                let uploadedConfigDemo = elementConfigDemo;\r\n\r\n                // 只有提交审核和保存草稿时才调用批量上传接口\r\n                if (actionType === 'create' || actionType === 'save') {\r\n                    const uploadResult = await uploadSourceFiles();\r\n                    if (!uploadResult.success) {\r\n                        message.error('源文件上传失败');\r\n                        return;\r\n                    }\r\n                    // 使用上传接口返回的文件路径\r\n                    uploadedJsDemo = uploadResult.jsDemo || '';\r\n                    uploadedCssDemo = uploadResult.cssDemo || '';\r\n                    uploadedConfigDemo = uploadResult.configDemo || '';\r\n                }\r\n\r\n                const formData: BlockElement = {\r\n                    ...values,\r\n                    elementId: elementId,\r\n                    elementIcon: elementIcon,\r\n                    elementJsDemo: uploadedJsDemo,\r\n                    elementCssDemo: uploadedCssDemo,\r\n                    elementConfigDemo: uploadedConfigDemo,\r\n                };\r\n\r\n                switch (actionType) {\r\n                    case 'sure':\r\n                        onSure && onSure(formData);\r\n                        break;\r\n                    case 'create':\r\n                        onCreate(formData);\r\n                        break;\r\n                    case 'save':\r\n                        onSaveDraft(formData);\r\n                        break;\r\n                    case 'preview':\r\n                        onPreview(formData);\r\n                        return;\r\n                }\r\n                if (!isEdit || isClassify) {\r\n                    form.resetFields();\r\n                    setElementId('');\r\n                    setElementIcon('');\r\n                    setFiles([]);\r\n                    setElementJsDemo('');\r\n                    setElementCssDemo('');\r\n                    setElementConfigDemo('');\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 409
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "form.validateFields()\r\n            .then",
+          "lineNumber": 409
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "form.validateFields",
+          "lineNumber": 409
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "message.error",
+          "lineNumber": 413
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "files.some",
+          "lineNumber": 417
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "getFileType",
+          "lineNumber": 417
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "files.some",
+          "lineNumber": 418
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "getFileType",
+          "lineNumber": 418
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "files.some",
+          "lineNumber": 419
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "getFileType",
+          "lineNumber": 420
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "getFileType",
+          "lineNumber": 420
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "message.error",
+          "lineNumber": 424
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "uploadSourceFiles",
+          "lineNumber": 435
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "message.error",
+          "lineNumber": 437
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onSure",
+          "lineNumber": 457
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onCreate",
+          "lineNumber": 460
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onSaveDraft",
+          "lineNumber": 463
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "onPreview",
+          "lineNumber": 466
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "form.resetFields",
+          "lineNumber": 470
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setElementId",
+          "lineNumber": 471
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setElementIcon",
+          "lineNumber": 472
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setFiles",
+          "lineNumber": 473
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setElementJsDemo",
+          "lineNumber": 474
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setElementCssDemo",
+          "lineNumber": 475
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setElementConfigDemo",
+          "lineNumber": 476
+        },
+        {
+          "caller": "onPreview",
+          "callee": "files\r\n            .filter((file) => file.originFileObj)\r\n            .map",
+          "lineNumber": 485
+        },
+        {
+          "caller": "onPreview",
+          "callee": "files\r\n            .filter",
+          "lineNumber": 485
+        },
+        {
+          "caller": "onPreview",
+          "callee": "fileObjects.some",
+          "lineNumber": 490
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split('.').pop",
+          "lineNumber": 491
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split",
+          "lineNumber": 491
+        },
+        {
+          "caller": "onPreview",
+          "callee": "fileObjects.some",
+          "lineNumber": 494
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split('.').pop",
+          "lineNumber": 495
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split",
+          "lineNumber": 495
+        },
+        {
+          "caller": "onPreview",
+          "callee": "fileObjects.some",
+          "lineNumber": 498
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split('.').pop",
+          "lineNumber": 499
+        },
+        {
+          "caller": "onPreview",
+          "callee": "file.name.split",
+          "lineNumber": 499
+        },
+        {
+          "caller": "onPreview",
+          "callee": "setIsSecondOpen",
+          "lineNumber": 504
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split('.').pop",
+          "lineNumber": 509
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split",
+          "lineNumber": 509
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.text",
+          "lineNumber": 510
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split('.').pop",
+          "lineNumber": 511
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split",
+          "lineNumber": 511
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.text",
+          "lineNumber": 512
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split('.').pop",
+          "lineNumber": 513
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split",
+          "lineNumber": 513
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split('.').pop",
+          "lineNumber": 513
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.name.split",
+          "lineNumber": 513
+        },
+        {
+          "caller": "onPreview",
+          "callee": "item.text",
+          "lineNumber": 514
+        },
+        {
+          "caller": "onPreview",
+          "callee": "setCodeData",
+          "lineNumber": 517
+        },
+        {
+          "caller": "onPreview",
+          "callee": "message.error",
+          "lineNumber": 523
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "onCancel",
+          "lineNumber": 529
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "form.resetFields",
+          "lineNumber": 531
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementId",
+          "lineNumber": 532
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementIcon",
+          "lineNumber": 533
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setFiles",
+          "lineNumber": 534
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementJsDemo",
+          "lineNumber": 535
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementCssDemo",
+          "lineNumber": 536
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementConfigDemo",
+          "lineNumber": 537
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementId",
+          "lineNumber": 539
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementIcon",
+          "lineNumber": 540
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementJsDemo",
+          "lineNumber": 542
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementCssDemo",
+          "lineNumber": 543
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setElementConfigDemo",
+          "lineNumber": 544
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 545
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "document.createElement",
+          "lineNumber": 559
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "baseApiConvert",
+          "lineNumber": 560
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "document.body.appendChild",
+          "lineNumber": 562
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "link.click",
+          "lineNumber": 563
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "document.body.removeChild",
+          "lineNumber": 564
+        },
+        {
+          "caller": "templateDownload",
+          "callee": "message.error",
+          "lineNumber": 566
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "appElementType?.map",
+          "lineNumber": 626
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setImageLoading",
+          "lineNumber": 643
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "imageResetUpload",
+          "lineNumber": 644
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "renderUploadButton",
+          "lineNumber": 649
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "e.stopPropagation",
+          "lineNumber": 659
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "imageHandleRemove",
+          "lineNumber": 660
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "imageResetUpload",
+          "lineNumber": 661
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "renderUploadButton",
+          "lineNumber": 677
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "handleSubmit",
+          "lineNumber": 707
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "handleSubmit",
+          "lineNumber": 714
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "handleSubmit",
+          "lineNumber": 717
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "handleSubmit",
+          "lineNumber": 720
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "setIsSecondOpen",
+          "lineNumber": 732
+        },
+        {
+          "caller": "generateUid",
+          "callee": "Date.now",
+          "lineNumber": 744
+        },
+        {
+          "caller": "generateUid",
+          "callee": "Math.random",
+          "lineNumber": 744
+        },
+        {
+          "caller": "toRcFile",
+          "callee": "Object.defineProperty",
+          "lineNumber": 755
+        },
+        {
+          "caller": "toRcFile",
+          "callee": "generateUid",
+          "lineNumber": 756
+        },
+        {
+          "caller": "toRcFile",
+          "callee": "Object.defineProperty",
+          "lineNumber": 765
+        },
+        {
+          "caller": "toUploadFile",
+          "callee": "toRcFile",
+          "lineNumber": 780
+        },
+        {
+          "caller": "toUploadFile",
+          "callee": "file.type?.startsWith",
+          "lineNumber": 781
+        },
+        {
+          "caller": "toUploadFile",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 791
+        },
+        {
+          "caller": "toUploadFileList",
+          "callee": "files.map",
+          "lineNumber": 801
+        },
+        {
+          "caller": "toUploadFileList",
+          "callee": "toUploadFile",
+          "lineNumber": 801
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 4,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 101,
+      "functions": [
+        {
+          "name": "SingleFunctionUploadModal",
+          "startLine": 54,
+          "endLine": 107,
+          "params": [
+            "{ open, onCancel }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "useState",
+          "lineNumber": 55
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "useState",
+          "lineNumber": 57
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "useMemo",
+          "lineNumber": 58
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "/export\\s+default/.test",
+          "lineNumber": 59
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "/(=>|function\\s+\\w+|forwardRef)/.test",
+          "lineNumber": 60
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "/^\\s*import\\s/m.test",
+          "lineNumber": 61
+        },
+        {
+          "caller": "readFile",
+          "callee": "/\\.(tsx|jsx|ts|js)$/i.test",
+          "lineNumber": 66
+        },
+        {
+          "caller": "readFile",
+          "callee": "message.error",
+          "lineNumber": 67
+        },
+        {
+          "caller": "readFile",
+          "callee": "setFileName",
+          "lineNumber": 70
+        },
+        {
+          "caller": "readFile",
+          "callee": "setSource",
+          "lineNumber": 71
+        },
+        {
+          "caller": "readFile",
+          "callee": "file.text",
+          "lineNumber": 71
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "Boolean",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "setPreview",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "setSource",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SingleFunctionUploadModal",
+          "callee": "setPreview",
+          "lineNumber": 104
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/elementDetail.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 641,
+      "nonEmptyLines": 605,
+      "functions": [
+        {
+          "name": "ElementDetailPage",
+          "startLine": 88,
+          "endLine": 639,
+          "params": [
+            "{ elementInfos, appElementType, onBack }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ElementDetailPage",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "Form.useForm",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 114
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 115
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 116
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 117
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 118
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 119
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 120
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 121
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 122
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 123
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 124
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 125
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 126
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 129
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setElementInfo",
+          "lineNumber": 130
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 134
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setDetailFiles",
+          "lineNumber": 135
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "fetchFileStream",
+          "lineNumber": 136
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "fetchFileStream",
+          "lineNumber": 137
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "fetchFileStream",
+          "lineNumber": 138
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 142
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "publictData.provinceSelectValue.find",
+          "lineNumber": 143
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setProvIdNmame",
+          "lineNumber": 144
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 147
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "detailFiles.forEach",
+          "lineNumber": 150
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "downloadFile",
+          "lineNumber": 151
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setSourceFiles",
+          "lineNumber": 153
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post('/csf/call/getFileFromOss', objectToFormData(params))\r\n                .then((res) => {\r\n                    const language = url.split('.').pop() || 'text';\r\n                    const name = url.split('/').pop() || '';\r\n                    const isDuplicate = detailFiles.some((item) => item.name === name);\r\n                    if (isDuplicate) {\r\n                        return; // 不进行添加\r\n                    }\r\n                    // 添加到文档列表\r\n                    setDetailFiles((prev) => [\r\n                        ...prev,\r\n                        {\r\n                            id: (Date.now() + Math.random()).toString(),\r\n                            name: name,\r\n                            content: res.bean.demo,\r\n                            language: getLanguageByExtension(language),\r\n                        },\r\n                    ]);\r\n                })\r\n                .catch",
+          "lineNumber": 167
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post('/csf/call/getFileFromOss', objectToFormData(params))\r\n                .then",
+          "lineNumber": 167
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post",
+          "lineNumber": 167
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "objectToFormData",
+          "lineNumber": 168
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "url.split('.').pop",
+          "lineNumber": 170
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "url.split",
+          "lineNumber": 170
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "url.split('/').pop",
+          "lineNumber": 171
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "url.split",
+          "lineNumber": 171
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "detailFiles.some",
+          "lineNumber": 172
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "setDetailFiles",
+          "lineNumber": 177
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "(Date.now() + Math.random()).toString",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "Date.now",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "Math.random",
+          "lineNumber": 180
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "getLanguageByExtension",
+          "lineNumber": 183
+        },
+        {
+          "caller": "handleCreate",
+          "callee": "elementPreservation",
+          "lineNumber": 211
+        },
+        {
+          "caller": "handleSaveDraft",
+          "callee": "elementPreservation",
+          "lineNumber": 216
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post('/element/saveElementInfo', {\r\n                    params: {\r\n                        elementId: isEdit ? values.elementId : '',\r\n                        elementName: values.elementName,\r\n                        elementStatus: elementStatus,\r\n                        elementIcon: values.elementIcon,\r\n                        elementJsDemo: values.elementJsDemo,\r\n                        elementCssDemo: values.elementCssDemo,\r\n                        elementConfigDemo: values.elementConfigDemo,\r\n                        elementTypeId: values.elementTypeId,\r\n                        provId: values.provId,\r\n                        elementPageType: values.elementPageType,\r\n                        elementDesc: values.elementDesc,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    setModalVisible(false);\r\n                    setSourceFiles([]); // 清空编辑保存的源文件\r\n                    queryElementFun(values.elementId);\r\n                    if (elementStatus == '3') {\r\n                        updateCustomElementMenu(values.elementId); // 更新画布中全局自定义元素菜单\r\n                        elementReview(values, values.elementId); // 同步数据到审核管理\r\n                    }\r\n                    message.success(`${elementStatus === '1' ? '保存草稿' : '提交审核'}成功`);\r\n                    const logParams = {\r\n                        provCode: userInfo.provinceId, // 8位省份编码\r\n                        modelName: '', // 所属模块  暂时为空\r\n                        pageName: '', // 所属菜单   暂时为空\r\n                        dataType: '元素', // 数据类型（应用、元素、组件、接口）\r\n                        operType: isEdit ? '编辑' : '新增', // 操作类型（新增/编辑/删除/导入）\r\n                        dataId: isEdit ? values.elementId : '', // 操作数据ID\r\n                        dataName: values.elementName, // 操作数据名称\r\n                        editContent: `${(isEdit ? '编辑' : '新增') + values.elementName}元素`, // 操作内容简述\r\n                        staffId: userInfo.staffId, // 操作人工号\r\n                    };\r\n                    recodeLog(logParams);\r\n                })\r\n                .catch",
+          "lineNumber": 222
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post('/element/saveElementInfo', {\r\n                    params: {\r\n                        elementId: isEdit ? values.elementId : '',\r\n                        elementName: values.elementName,\r\n                        elementStatus: elementStatus,\r\n                        elementIcon: values.elementIcon,\r\n                        elementJsDemo: values.elementJsDemo,\r\n                        elementCssDemo: values.elementCssDemo,\r\n                        elementConfigDemo: values.elementConfigDemo,\r\n                        elementTypeId: values.elementTypeId,\r\n                        provId: values.provId,\r\n                        elementPageType: values.elementPageType,\r\n                        elementDesc: values.elementDesc,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 222
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post",
+          "lineNumber": 222
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "setModalVisible",
+          "lineNumber": 240
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "setSourceFiles",
+          "lineNumber": 241
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "queryElementFun",
+          "lineNumber": 242
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "updateCustomElementMenu",
+          "lineNumber": 244
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "elementReview",
+          "lineNumber": 245
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "message.success",
+          "lineNumber": 247
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "recodeLog",
+          "lineNumber": 259
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "message.success",
+          "lineNumber": 263
+        },
+        {
+          "caller": "elementReview",
+          "callee": "publictData.provinceSelectValue.find",
+          "lineNumber": 271
+        },
+        {
+          "caller": "elementReview",
+          "callee": "appElementType?.find",
+          "lineNumber": 272
+        },
+        {
+          "caller": "elementReview",
+          "callee": "layoutTypeOptions.find",
+          "lineNumber": 273
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post('/solutionAudit/insertSolutionAudit', {\r\n                    params: {\r\n                        provId: values.provId,\r\n                        serviceTypeId: values.provId,\r\n                        createStaffId: userInfo.staffId,\r\n                        dataSource: '3',\r\n                        relationId: isEdit ? values.elementId : newElementId,\r\n                        dataName: values.elementName,\r\n                        dataType: '1', // 1 发布，2 下线，3 回滚版本\r\n                        dataDesc: dataDesc,\r\n                    },\r\n                })\r\n                .then((res) => {})\r\n                .catch",
+          "lineNumber": 275
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post('/solutionAudit/insertSolutionAudit', {\r\n                    params: {\r\n                        provId: values.provId,\r\n                        serviceTypeId: values.provId,\r\n                        createStaffId: userInfo.staffId,\r\n                        dataSource: '3',\r\n                        relationId: isEdit ? values.elementId : newElementId,\r\n                        dataName: values.elementName,\r\n                        dataType: '1', // 1 发布，2 下线，3 回滚版本\r\n                        dataDesc: dataDesc,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 275
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post",
+          "lineNumber": 275
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post('/element/queryElementList', {\r\n                    params: {\r\n                        elementId: elementId,\r\n                        provId: userInfo.provinceId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    setElementInfo(res.beans.find((item: any) => item.elementId === elementId));\r\n                })\r\n                .catch",
+          "lineNumber": 298
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post('/element/queryElementList', {\r\n                    params: {\r\n                        elementId: elementId,\r\n                        provId: userInfo.provinceId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 298
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post",
+          "lineNumber": 298
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setElementInfo",
+          "lineNumber": 306
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "res.beans.find",
+          "lineNumber": 306
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "message.error",
+          "lineNumber": 310
+        },
+        {
+          "caller": "handleAppTableChange",
+          "callee": "setCurrentPage",
+          "lineNumber": 356
+        },
+        {
+          "caller": "handleAppTableChange",
+          "callee": "setPageSize",
+          "lineNumber": 357
+        },
+        {
+          "caller": "logOffModal",
+          "callee": "offLineForm.resetFields",
+          "lineNumber": 377
+        },
+        {
+          "caller": "logOffModal",
+          "callee": "setLogOffElement",
+          "lineNumber": 378
+        },
+        {
+          "caller": "logOffModal",
+          "callee": "setLogOffVisible",
+          "lineNumber": 379
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "offLineForm\r\n            .validateFields()\r\n            .then((values) => {\r\n                console.log(values.offLineReason);\r\n                setLogOffVisible(false);\r\n                message.success('元素下线成功');\r\n                const logParams = {\r\n                    provCode: userInfo.provinceId, // 8位省份编码\r\n                    modelName: '', // 所属模块  暂时为空\r\n                    pageName: '', // 所属菜单   暂时为空\r\n                    dataType: '元素', // 数据类型（应用、元素、组件、接口）\r\n                    operType: '下线', // 操作类型（新增/编辑/删除/导入）\r\n                    dataId: logOffElement?.elementId, // 操作数据ID\r\n                    dataName: logOffElement?.elementName, // 操作数据名称\r\n                    editContent: `下线${logOffElement?.elementName}元素`, // 操作内容简述\r\n                    staffId: userInfo.staffId, // 操作人工号\r\n                };\r\n                recodeLog(logParams);\r\n            })\r\n            .catch",
+          "lineNumber": 385
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "offLineForm\r\n            .validateFields()\r\n            .then",
+          "lineNumber": 385
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "offLineForm\r\n            .validateFields",
+          "lineNumber": 385
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "console.log",
+          "lineNumber": 388
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "setLogOffVisible",
+          "lineNumber": 389
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "message.success",
+          "lineNumber": 390
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "recodeLog",
+          "lineNumber": 402
+        },
+        {
+          "caller": "logOffFun",
+          "callee": "console.log",
+          "lineNumber": 405
+        },
+        {
+          "caller": "cancelHandleBack",
+          "callee": "setShowOnline",
+          "lineNumber": 411
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "setSourceFiles",
+          "lineNumber": 416
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "values.forEach",
+          "lineNumber": 418
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "downloadFile",
+          "lineNumber": 419
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "setSourceFiles",
+          "lineNumber": 421
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "setShowOnline",
+          "lineNumber": 423
+        },
+        {
+          "caller": "saveCodeHandleBack",
+          "callee": "setModalVisible",
+          "lineNumber": 424
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "item.name?.split('.').pop()?.toLowerCase",
+          "lineNumber": 430
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "item.name?.split('.').pop",
+          "lineNumber": 430
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "item.name?.split",
+          "lineNumber": 430
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "extensionToMimeType",
+          "lineNumber": 431
+        },
+        {
+          "caller": "downloadFile",
+          "callee": "Date.now",
+          "lineNumber": 437
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "onBack",
+          "lineNumber": 487
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setDetailFiles",
+          "lineNumber": 488
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setSourceFiles",
+          "lineNumber": 489
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "statusStyles.statusBadge",
+          "lineNumber": 502
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setModalVisible",
+          "lineNumber": 547
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setShowOnline",
+          "lineNumber": 552
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setModalVisible",
+          "lineNumber": 602
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setLogOffVisible",
+          "lineNumber": 612
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "logOffFun",
+          "lineNumber": 625
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setLogOffVisible",
+          "lineNumber": 628
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1426,
+      "nonEmptyLines": 1396,
+      "functions": [
+        {
+          "name": "PageManagementSystem",
+          "startLine": 183,
+          "endLine": 1424,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PageManagementSystem",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 184
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "publictData.provinceSelectValue.find",
+          "lineNumber": 189
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "scopeOptions.push",
+          "lineNumber": 190
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 191
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 192
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 193
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 195
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 196
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 197
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 198
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 199
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 200
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 201
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 202
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 203
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 204
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 205
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 206
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 207
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useState",
+          "lineNumber": 208
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "isLocalMockMode",
+          "lineNumber": 208
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useEffect",
+          "lineNumber": 210
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "queryElementTypeFun",
+          "lineNumber": 211
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "queryElementFun",
+          "lineNumber": 212
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "isLocalMockMode",
+          "lineNumber": 217
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setAppElementType",
+          "lineNumber": 219
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setClassify",
+          "lineNumber": 220
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n                .post('/element/queryElementTypeList', {\r\n                    params: {},\r\n                })\r\n                .then((res) => {\r\n                    console.log(res.beans, 'res.beans');\r\n\r\n                    const beans = [{\r\n                        elementTypeId:'all',\r\n                        elementTypeName:'全部',\r\n                        elementTypeIcon: `./imgs/icon-all.png`\r\n                    },...res.beans]\r\n\r\n                    setAppElementType(beans);\r\n                    setClassify(beans[0]?.elementTypeId);\r\n                })\r\n                .catch",
+          "lineNumber": 224
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n                .post('/element/queryElementTypeList', {\r\n                    params: {},\r\n                })\r\n                .then",
+          "lineNumber": 224
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n                .post",
+          "lineNumber": 224
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "console.log",
+          "lineNumber": 229
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setAppElementType",
+          "lineNumber": 237
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "setClassify",
+          "lineNumber": 238
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "message.error",
+          "lineNumber": 242
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "isLocalMockMode",
+          "lineNumber": 250
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setBlocks",
+          "lineNumber": 251
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setLoading",
+          "lineNumber": 252
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setLoading",
+          "lineNumber": 255
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setBlocks",
+          "lineNumber": 256
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post('/element/queryElementList', {\r\n                    params: {\r\n                        provId: userInfo.provinceId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    const eleArr = [\r\n                        {\r\n                            elementName: '分栏',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconSpan,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '弹性布局',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFlex,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: 'Div容器',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconDiv,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '行内表单',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconSearchForm,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '行组件',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconRow,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '列组件',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconColumn,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '选项卡',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFunctionalTabs,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '表单容器',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconForm,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        // {\r\n                        //     elementName: '网格表单',\r\n                        //     elementStatus: '6',\r\n                        //     elementIcon: IconGridForm,\r\n                        //     elementTypeId: '2602111021580100004',\r\n                        //     static: true,\r\n                        //     elementPageType: '1',\r\n                        //     provId: '0000',\r\n                        // },\r\n                        {\r\n                            elementName: '卡片容器',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconCard,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '折叠面板',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconCollapse,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '分割线',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconDivider,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '底部通栏',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBottomBanner,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '循环',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBottomBanner,\r\n                            elementTypeId: '2602111021580100004',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '文本',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconText,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '图标',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBasicIcon,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '标题',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTitle,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '头像',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBasicAvatar,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '按钮',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconButton,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '超链接',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconLink,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '文件',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFile,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '内嵌页面',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconIframe,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '基础表格',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBaseTable,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '图片',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconImage,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '统计数值',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBasicStatistic,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '标签',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTag,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '音频',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconAudioPlayer,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '视频',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconVideo,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '水印',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconWatermark,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '自动计时器',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTimer,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '轮播',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconCarousel,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '徽标',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBadge,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '下载按钮',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconDownloadButton,\r\n                            elementTypeId: '2603131733520100008',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        //表单类元素\r\n                        {\r\n                            elementName: '单行输入',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormInput,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '多行输入',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormTextArea,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '下拉选择',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormSelect,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '单选',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormRadio,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '多选',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormCheckbox,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '日期',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormDate,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '日期范围',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormDatepicker,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '时间选择',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTime,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '时间范围框',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormTimepicker,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '弹出树',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTreeSelect,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '步进器',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconCounter,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '静态项',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormStatic,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '星级',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconRate,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        // {\r\n                        //     elementName: '上传',\r\n                        //     elementStatus: '6',\r\n                        //     elementIcon: IconFileUpload,\r\n                        //     elementTypeId: '2603131733130100007',\r\n                        //     static: true,\r\n                        //     elementPageType: '1',\r\n                        //     provId: '0000',\r\n                        // },\r\n                        {\r\n                            elementName: '穿梭框',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTransfer,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '滑动条',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormSlider,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '开关',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormSwitch,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '级联选择',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormCascader,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '数字输入',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormInputNumber,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '密码框',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFormInputPassword,\r\n                            elementTypeId: '2603131733130100007',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        //高级组件\r\n                        {\r\n                            elementName: '悬浮窗',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFloatingWindow,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: 'AI会话',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconAIChat,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '列表组件',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconList,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '描述列表',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconDescriptions,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '目录树',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTree,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '步骤条',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconSteps,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '分页',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconPagination,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '进度条',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconProgress,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '时间轴',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconTimeLine,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '面包屑',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBreadcrumb,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '导航',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconMenu,\r\n                            elementTypeId: '2603131734250100009',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        //图标类\r\n                        {\r\n                            elementName: '折线图',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconLineChart,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '柱状图',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconColumnChart,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '折柱混合图',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBarAndLine,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '饼状图·',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconPieChart,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '地图',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconMapChart,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '条形图',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconBarChart,\r\n                            elementTypeId: '2602111149490100006',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        //提示类\r\n                        {\r\n                            elementName: '弹窗',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFeedBackModal,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '结果页',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFeedBackResult,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '空状态',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFeedBackEmpty,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '抽屉',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconFeedBackDrawer,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '加载提示',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconSpin,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                        {\r\n                            elementName: '气泡弹窗',\r\n                            elementStatus: '6',\r\n                            elementIcon: IconPopover,\r\n                            elementTypeId: '2603131734550100010',\r\n                            static: true,\r\n                            elementPageType: '1',\r\n                            provId: '0000',\r\n                        },\r\n                    ];\r\n                    res.beans.push(...eleArr);\r\n                    setBlocks(res.beans);\r\n                })\r\n                .catch",
+          "lineNumber": 258
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post('/element/queryElementList', {\r\n                    params: {\r\n                        provId: userInfo.provinceId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 258
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n                .post",
+          "lineNumber": 258
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "res.beans.push",
+          "lineNumber": 955
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setBlocks",
+          "lineNumber": 956
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "message.error",
+          "lineNumber": 960
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "setLoading",
+          "lineNumber": 962
+        },
+        {
+          "caller": "handleSure",
+          "callee": "request\r\n                .post('/element/saveElementTypeInfo', {\r\n                    params: {\r\n                        elementTypeId: isEdit ? values.elementId : '',\r\n                        elementTypeName: values.elementName,\r\n                        elementTypeIcon: values.elementIcon,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    setModalVisible(false);\r\n                    message.success(`${isEdit ? '编辑' : '新增'}元素${isClassify ? '分类' : ''}成功`);\r\n                    queryElementTypeFun();\r\n                    const logParams = {\r\n                        provCode: userInfo.provinceId, // 8位省份编码\r\n                        modelName: '', // 所属模块  暂时为空\r\n                        pageName: '', // 所属菜单   暂时为空\r\n                        dataType: `元素${isClassify ? '分类' : ''}`, // 数据类型（应用、元素、组件、接口）\r\n                        operType: isEdit ? '编辑' : '新增', // 操作类型（新增/编辑/删除/导入）\r\n                        dataId: isEdit ? values.elementId : '', // 操作数据ID\r\n                        dataName: values.elementName, // 操作数据名称\r\n                        editContent: `${(isEdit ? '编辑' : '新增') + values.elementName + '元素' + (isClassify ? '分类' : '')}`, // 操作内容简述\r\n                        staffId: userInfo.staffId, // 操作人工号\r\n                    };\r\n                    recodeLog(logParams);\r\n                })\r\n                .catch",
+          "lineNumber": 969
+        },
+        {
+          "caller": "handleSure",
+          "callee": "request\r\n                .post('/element/saveElementTypeInfo', {\r\n                    params: {\r\n                        elementTypeId: isEdit ? values.elementId : '',\r\n                        elementTypeName: values.elementName,\r\n                        elementTypeIcon: values.elementIcon,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 969
+        },
+        {
+          "caller": "handleSure",
+          "callee": "request\r\n                .post",
+          "lineNumber": 969
+        },
+        {
+          "caller": "handleSure",
+          "callee": "setModalVisible",
+          "lineNumber": 979
+        },
+        {
+          "caller": "handleSure",
+          "callee": "message.success",
+          "lineNumber": 980
+        },
+        {
+          "caller": "handleSure",
+          "callee": "queryElementTypeFun",
+          "lineNumber": 981
+        },
+        {
+          "caller": "handleSure",
+          "callee": "recodeLog",
+          "lineNumber": 993
+        },
+        {
+          "caller": "handleSure",
+          "callee": "message.success",
+          "lineNumber": 997
+        },
+        {
+          "caller": "handleCreate",
+          "callee": "elementPreservation",
+          "lineNumber": 1004
+        },
+        {
+          "caller": "handleSaveDraft",
+          "callee": "elementPreservation",
+          "lineNumber": 1009
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post('/element/saveElementInfo', {\r\n                    params: {\r\n                        elementId: isEdit ? values.elementId : '',\r\n                        elementName: values.elementName,\r\n                        elementStatus: elementStatus,\r\n                        elementIcon: values.elementIcon,\r\n                        elementJsDemo: values.elementJsDemo,\r\n                        elementCssDemo: values.elementCssDemo,\r\n                        elementConfigDemo: values.elementConfigDemo,\r\n                        elementTypeId: values.elementTypeId,\r\n                        provId: values.provId,\r\n                        elementPageType: values.elementPageType,\r\n                        elementDesc: values.elementDesc,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    setModalVisible(false);\r\n                    message.success(`${elementStatus === '1' ? '保存草稿' : '提交审核'}成功`);\r\n                    queryElementFun();\r\n                    if (elementStatus == '3') {\r\n                        updateCustomElementMenu(res?.bean?.elementId); // 更新画布中全局自定义元素菜单\r\n                        updateComponent(res?.bean?.elementId); // 更新画布中全局自定义元素\r\n                        elementReview(values, res?.bean?.elementId); // 同步数据到审核管理\r\n                    }\r\n                    const logParams = {\r\n                        provCode: userInfo.provinceId, // 8位省份编码\r\n                        modelName: '', // 所属模块  暂时为空\r\n                        pageName: '', // 所属菜单   暂时为空\r\n                        dataType: '元素', // 数据类型（应用、元素、组件、接口）\r\n                        operType: isEdit ? '编辑' : '新增', // 操作类型（新增/编辑/删除/导入）\r\n                        dataId: isEdit ? values.elementId : '', // 操作数据ID\r\n                        dataName: values.elementName, // 操作数据名称\r\n                        editContent: `${(isEdit ? '编辑' : '新增') + values.elementName}元素`, // 操作内容简述\r\n                        staffId: userInfo.staffId, // 操作人工号\r\n                    };\r\n                    recodeLog(logParams);\r\n                })\r\n                .catch",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post('/element/saveElementInfo', {\r\n                    params: {\r\n                        elementId: isEdit ? values.elementId : '',\r\n                        elementName: values.elementName,\r\n                        elementStatus: elementStatus,\r\n                        elementIcon: values.elementIcon,\r\n                        elementJsDemo: values.elementJsDemo,\r\n                        elementCssDemo: values.elementCssDemo,\r\n                        elementConfigDemo: values.elementConfigDemo,\r\n                        elementTypeId: values.elementTypeId,\r\n                        provId: values.provId,\r\n                        elementPageType: values.elementPageType,\r\n                        elementDesc: values.elementDesc,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "request\r\n                .post",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "setModalVisible",
+          "lineNumber": 1033
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "message.success",
+          "lineNumber": 1034
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "queryElementFun",
+          "lineNumber": 1035
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "updateCustomElementMenu",
+          "lineNumber": 1037
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "updateComponent",
+          "lineNumber": 1038
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "elementReview",
+          "lineNumber": 1039
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "recodeLog",
+          "lineNumber": 1052
+        },
+        {
+          "caller": "elementPreservation",
+          "callee": "message.success",
+          "lineNumber": 1056
+        },
+        {
+          "caller": "elementReview",
+          "callee": "scopeOptions.find",
+          "lineNumber": 1064
+        },
+        {
+          "caller": "elementReview",
+          "callee": "appElementType.find",
+          "lineNumber": 1065
+        },
+        {
+          "caller": "elementReview",
+          "callee": "layoutTypeOptions.find",
+          "lineNumber": 1066
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post('/solutionAudit/insertSolutionAudit', {\r\n                    params: {\r\n                        provId: values.provId,\r\n                        serviceTypeId: values.provId,\r\n                        createStaffId: userInfo.staffId,\r\n                        dataSource: '3',\r\n                        relationId: isEdit ? values.elementId : newElementId,\r\n                        dataName: values.elementName,\r\n                        dataType: '1', // 1 发布，2 下线，3 回滚版本\r\n                        dataDesc: dataDesc,\r\n                    },\r\n                })\r\n                .then((res) => {})\r\n                .catch",
+          "lineNumber": 1068
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post('/solutionAudit/insertSolutionAudit', {\r\n                    params: {\r\n                        provId: values.provId,\r\n                        serviceTypeId: values.provId,\r\n                        createStaffId: userInfo.staffId,\r\n                        dataSource: '3',\r\n                        relationId: isEdit ? values.elementId : newElementId,\r\n                        dataName: values.elementName,\r\n                        dataType: '1', // 1 发布，2 下线，3 回滚版本\r\n                        dataDesc: dataDesc,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 1068
+        },
+        {
+          "caller": "elementReview",
+          "callee": "request\r\n                .post",
+          "lineNumber": 1068
+        },
+        {
+          "caller": "addCategory",
+          "callee": "setIsEdit",
+          "lineNumber": 1090
+        },
+        {
+          "caller": "addCategory",
+          "callee": "setIsClassify",
+          "lineNumber": 1091
+        },
+        {
+          "caller": "addCategory",
+          "callee": "setModalVisible",
+          "lineNumber": 1092
+        },
+        {
+          "caller": "editCategory",
+          "callee": "setIsEdit",
+          "lineNumber": 1097
+        },
+        {
+          "caller": "editCategory",
+          "callee": "setIsClassify",
+          "lineNumber": 1098
+        },
+        {
+          "caller": "editCategory",
+          "callee": "setModalVisible",
+          "lineNumber": 1099
+        },
+        {
+          "caller": "editCategory",
+          "callee": "setAppElementTypeEdit",
+          "lineNumber": 1100
+        },
+        {
+          "caller": "deleteCategory",
+          "callee": "blocks.some",
+          "lineNumber": 1105
+        },
+        {
+          "caller": "deleteCategory",
+          "callee": "message.warning",
+          "lineNumber": 1107
+        },
+        {
+          "caller": "deleteCategory",
+          "callee": "setActiveElementType",
+          "lineNumber": 1115
+        },
+        {
+          "caller": "deleteCategory",
+          "callee": "setDeleteVisible",
+          "lineNumber": 1116
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "request\r\n                .post('/element/deleteElementType', {\r\n                    params: {\r\n                        elementTypeId: activeElementType?.elementTypeId,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then((res) => {\r\n                    setDeleteVisible(false);\r\n                    message.success(`删除元素${isClassify ? '分类' : ''}成功`);\r\n                    queryElementTypeFun();\r\n                    queryElementFun();\r\n                    const logParams = {\r\n                        provCode: userInfo.provinceId, // 8位省份编码\r\n                        modelName: '', // 所属模块  暂时为空\r\n                        pageName: '', // 所属菜单   暂时为空\r\n                        dataType: `元素${isClassify ? '分类' : ''}`, // 数据类型（应用、元素、组件、接口）\r\n                        operType: '删除', // 操作类型（新增/编辑/删除/导入）\r\n                        dataId: activeElementType?.elementTypeId, // 操作数据ID\r\n                        dataName: activeElementType?.elementTypeName, // 操作数据名称\r\n                        editContent: `${'删除' + activeElementType?.elementTypeName + '元素' + (isClassify ? '分类' : '')}`, // 操作内容简述\r\n                        staffId: userInfo.staffId, // 操作人工号\r\n                    };\r\n                    recodeLog(logParams);\r\n                })\r\n                .catch",
+          "lineNumber": 1122
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "request\r\n                .post('/element/deleteElementType', {\r\n                    params: {\r\n                        elementTypeId: activeElementType?.elementTypeId,\r\n                        staffId: userInfo.staffId,\r\n                    },\r\n                })\r\n                .then",
+          "lineNumber": 1122
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "request\r\n                .post",
+          "lineNumber": 1122
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "setDeleteVisible",
+          "lineNumber": 1130
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "message.success",
+          "lineNumber": 1131
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "queryElementTypeFun",
+          "lineNumber": 1132
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "queryElementFun",
+          "lineNumber": 1133
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "recodeLog",
+          "lineNumber": 1145
+        },
+        {
+          "caller": "deleteFun",
+          "callee": "message.success",
+          "lineNumber": 1149
+        },
+        {
+          "caller": "addBlock",
+          "callee": "setIsEdit",
+          "lineNumber": 1156
+        },
+        {
+          "caller": "addBlock",
+          "callee": "setIsClassify",
+          "lineNumber": 1157
+        },
+        {
+          "caller": "addBlock",
+          "callee": "setModalVisible",
+          "lineNumber": 1158
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "useMemo",
+          "lineNumber": 1162
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "blocks.filter",
+          "lineNumber": 1163
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "block.elementName.toLowerCase().includes",
+          "lineNumber": 1166
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "block.elementName.toLowerCase",
+          "lineNumber": 1166
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "searchValue.toLowerCase",
+          "lineNumber": 1166
+        },
+        {
+          "caller": "elementDetail",
+          "callee": "setElementInfo",
+          "lineNumber": 1178
+        },
+        {
+          "caller": "elementDetail",
+          "callee": "setShowDetail",
+          "lineNumber": 1179
+        },
+        {
+          "caller": "handleBack",
+          "callee": "setShowDetail",
+          "lineNumber": 1184
+        },
+        {
+          "caller": "handleBack",
+          "callee": "queryElementFun",
+          "lineNumber": 1186
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "appElementType.map",
+          "lineNumber": 1196
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "statusStyles.classifyBadge",
+          "lineNumber": 1200
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "console.log",
+          "lineNumber": 1202
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setClassify",
+          "lineNumber": 1204
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setSearchValue",
+          "lineNumber": 1205
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setStatus",
+          "lineNumber": 1206
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setPageLayout",
+          "lineNumber": 1207
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setScope",
+          "lineNumber": 1208
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "e.stopPropagation",
+          "lineNumber": 1223
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "editCategory",
+          "lineNumber": 1224
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "e.stopPropagation",
+          "lineNumber": 1235
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "deleteCategory",
+          "lineNumber": 1236
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "addCategory",
+          "lineNumber": 1248
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setPageLayout",
+          "lineNumber": 1265
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setScope",
+          "lineNumber": 1272
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setStatus",
+          "lineNumber": 1279
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setSearchValue",
+          "lineNumber": 1287
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setSingleUploadVisible",
+          "lineNumber": 1295
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "queryElementFun",
+          "lineNumber": 1301
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "filteredBlocks.map",
+          "lineNumber": 1313
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "elementDetail",
+          "lineNumber": 1317
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "statusStyles.statusBadge",
+          "lineNumber": 1333
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setModalVisible",
+          "lineNumber": 1371
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setAppElementTypeEdit",
+          "lineNumber": 1372
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setSingleUploadVisible",
+          "lineNumber": 1375
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setDeleteVisible",
+          "lineNumber": 1382
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "deleteFun",
+          "lineNumber": 1409
+        },
+        {
+          "caller": "PageManagementSystem",
+          "callee": "setDeleteVisible",
+          "lineNumber": 1412
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/onlineEditing.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 232,
+      "nonEmptyLines": 211,
+      "functions": [
+        {
+          "name": "ElementDetailPage",
+          "startLine": 25,
+          "endLine": 230,
+          "params": [
+            "{ elementInfos, detailFiles, cancel, saveCode }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useRef",
+          "lineNumber": 26
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setFiles",
+          "lineNumber": 33
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setActiveFileId",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "Array.from(uploadedFiles).forEach",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "Array.from",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "file.name.split('.').pop",
+          "lineNumber": 53
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "file.name.split",
+          "lineNumber": 53
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "fetchAndProcessRar",
+          "lineNumber": 55
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "setFiles",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "(Date.now() + Math.random()).toString",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "Date.now",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "Math.random",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "getLanguageByExtension",
+          "lineNumber": 64
+        },
+        {
+          "caller": "handleFileUpload",
+          "callee": "reader.readAsText",
+          "lineNumber": 69
+        },
+        {
+          "caller": "handleContentChange",
+          "callee": "setFiles",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleContentChange",
+          "callee": "prev.map",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "useEffect",
+          "lineNumber": 93
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setActiveFile",
+          "lineNumber": 94
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "files.find",
+          "lineNumber": 94
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post('/csf/call/getFileFromOss', objectToFormData(params))\r\n                .then((res) => {\r\n                    console.log(res);\r\n                    const language = elementInfos?.elementJsDemo.split('.').pop() || 'javascript';\r\n                    // 添加到文档列表\r\n                    setFiles((prev) => [\r\n                        ...prev,\r\n                        {\r\n                            id: (Date.now() + Math.random()).toString(),\r\n                            name: elementInfos?.elementJsDemo.split('/').pop() || '',\r\n                            content: res.bean.demo,\r\n                            language: getLanguageByExtension(language),\r\n                        },\r\n                    ]);\r\n                    // fetchAndProcessRar(res.bean);\r\n                })\r\n                .catch",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post('/csf/call/getFileFromOss', objectToFormData(params))\r\n                .then",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "request\r\n                .post",
+          "lineNumber": 103
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "objectToFormData",
+          "lineNumber": 104
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "console.log",
+          "lineNumber": 106
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "elementInfos?.elementJsDemo.split('.').pop",
+          "lineNumber": 107
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "elementInfos?.elementJsDemo.split",
+          "lineNumber": 107
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "setFiles",
+          "lineNumber": 109
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "(Date.now() + Math.random()).toString",
+          "lineNumber": 112
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "Date.now",
+          "lineNumber": 112
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "Math.random",
+          "lineNumber": 112
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "elementInfos?.elementJsDemo.split('/').pop",
+          "lineNumber": 113
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "elementInfos?.elementJsDemo.split",
+          "lineNumber": 113
+        },
+        {
+          "caller": "fetchFileStream",
+          "callee": "getLanguageByExtension",
+          "lineNumber": 115
+        },
+        {
+          "caller": "fetchAndCreateFile",
+          "callee": "fetch",
+          "lineNumber": 128
+        },
+        {
+          "caller": "fetchAndCreateFile",
+          "callee": "response.blob",
+          "lineNumber": 134
+        },
+        {
+          "caller": "fetchAndCreateFile",
+          "callee": "getFileNameFromUrl",
+          "lineNumber": 137
+        },
+        {
+          "caller": "fetchAndCreateFile",
+          "callee": "Date.now",
+          "lineNumber": 139
+        },
+        {
+          "caller": "fetchAndCreateFile",
+          "callee": "console.error",
+          "lineNumber": 144
+        },
+        {
+          "caller": "getFileNameFromUrl",
+          "callee": "pathname.substring",
+          "lineNumber": 151
+        },
+        {
+          "caller": "getFileNameFromUrl",
+          "callee": "pathname.lastIndexOf",
+          "lineNumber": 151
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "zip.loadAsync",
+          "lineNumber": 157
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "result.forEach",
+          "lineNumber": 160
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split('.').pop()?.toLowerCase",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split('.').pop",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split",
+          "lineNumber": 161
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "fileTypes.includes",
+          "lineNumber": 162
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "file.async('text').then",
+          "lineNumber": 163
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "file.async",
+          "lineNumber": 163
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.replace",
+          "lineNumber": 165
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split('/').pop",
+          "lineNumber": 166
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split",
+          "lineNumber": 166
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "setFiles",
+          "lineNumber": 171
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.replace",
+          "lineNumber": 173
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split('/').pop",
+          "lineNumber": 174
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "relativePath.split",
+          "lineNumber": 174
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "filePromises.push",
+          "lineNumber": 179
+        },
+        {
+          "caller": "fetchAndProcessRar",
+          "callee": "console.error",
+          "lineNumber": 186
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "cancel",
+          "lineNumber": 204
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "saveCode",
+          "lineNumber": 207
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "files.map",
+          "lineNumber": 211
+        },
+        {
+          "caller": "ElementDetailPage",
+          "callee": "setActiveFileId",
+          "lineNumber": 214
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/previewElementModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 308,
+      "nonEmptyLines": 283,
+      "functions": [
+        {
+          "name": "AddElementModal",
+          "startLine": 16,
+          "endLine": 307,
+          "params": [
+            "{ visible, codeData, onCancel1 }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AddElementModal",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 17
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useRef",
+          "lineNumber": 18
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useRef",
+          "lineNumber": 19
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 36
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "onPreviewJs",
+          "lineNumber": 39
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "onPreviewLess",
+          "lineNumber": 43
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "Babel.transform",
+          "lineNumber": 73
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 86
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "import",
+          "lineNumber": 89
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "setJsData",
+          "lineNumber": 94
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "onPreviewTsx",
+          "lineNumber": 97
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 100
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "onPreviewTsx",
+          "lineNumber": 103
+        },
+        {
+          "caller": "onPreviewJs",
+          "callee": "console.error",
+          "lineNumber": 105
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "Babel.transform",
+          "lineNumber": 141
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 154
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "import",
+          "lineNumber": 157
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "setTypeZDY",
+          "lineNumber": 162
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "React.createRef",
+          "lineNumber": 166
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "console.log",
+          "lineNumber": 171
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "ReactDOM.createRoot",
+          "lineNumber": 177
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "rootRef.current.render",
+          "lineNumber": 179
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "React.createElement",
+          "lineNumber": 179
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 190
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "console.error",
+          "lineNumber": 192
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "ReactDOM.createRoot",
+          "lineNumber": 195
+        },
+        {
+          "caller": "onPreviewTsx",
+          "callee": "rootRef.current.render",
+          "lineNumber": 197
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "less.render(lessCode, { compress: true })\r\n                .then((output) => {\r\n                    setCss(output.css);\r\n                })\r\n                .catch",
+          "lineNumber": 211
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "less.render(lessCode, { compress: true })\r\n                .then",
+          "lineNumber": 211
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "less.render",
+          "lineNumber": 211
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "setCss",
+          "lineNumber": 213
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "console.error",
+          "lineNumber": 216
+        },
+        {
+          "caller": "onPreviewLess",
+          "callee": "console.error",
+          "lineNumber": 219
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "useEffect",
+          "lineNumber": 224
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "document.createElement",
+          "lineNumber": 226
+        },
+        {
+          "caller": "AddElementModal",
+          "callee": "document.head.appendChild",
+          "lineNumber": 229
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "onCancel1",
+          "lineNumber": 233
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "setJsData",
+          "lineNumber": 235
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "rootRef.current.unmount",
+          "lineNumber": 251
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "setCss",
+          "lineNumber": 256
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "document.getElementById",
+          "lineNumber": 257
+        },
+        {
+          "caller": "closeSecond",
+          "callee": "existingStyle.remove",
+          "lineNumber": 258
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

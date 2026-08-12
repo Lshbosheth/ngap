@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/cpp/cpp.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/csharp/csharp.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/csp/csp.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/css/css.js",
+      "language": "javascript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/cypher/cypher.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/dart/dart.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/dockerfile/dockerfile.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/ecl/ecl.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/elixir/elixir.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/flow9/flow9.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/freemarker2/freemarker2.js",
+      "language": "javascript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/fsharp/fsharp.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/go/go.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/graphql/graphql.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/handlebars/handlebars.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/hcl/hcl.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/html/html.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/ini/ini.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/java/java.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/javascript/javascript.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/julia/julia.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/kotlin/kotlin.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/less/less.js",
+      "language": "javascript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/lexon/lexon.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/liquid/liquid.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "public/static/monaco-editor/vs1/basic-languages/cpp/cpp.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/csharp/csharp.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/csp/csp.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/css/css.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/cypher/cypher.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/dart/dart.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/dockerfile/dockerfile.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/ecl/ecl.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/elixir/elixir.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/flow9/flow9.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/freemarker2/freemarker2.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/fsharp/fsharp.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/go/go.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/graphql/graphql.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/handlebars/handlebars.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/hcl/hcl.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/html/html.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/ini/ini.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/java/java.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/javascript/javascript.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/julia/julia.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/kotlin/kotlin.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/less/less.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/lexon/lexon.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/liquid/liquid.js": []
+  }
+}

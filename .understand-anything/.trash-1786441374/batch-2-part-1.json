@@ -1,0 +1,1479 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/config/components.tsx",
+      "type": "file",
+      "name": "components.tsx",
+      "filePath": "src/config/components.tsx",
+      "summary": "定义低代码编辑器组件物料菜单及其分类、图标和说明，并通过接口加载已发布的自定义元素，使内置物料与动态物料共享同一菜单入口。",
+      "tags": [
+        "configuration",
+        "component-registry",
+        "custom-element",
+        "component-menu"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该 TSX 文件以大型对象字面量注册内置物料，同时通过异步接口直接修改模块级菜单数组以接入自定义元素。"
+    },
+    {
+      "id": "function:src/config/components.tsx:queryElementTypeFun",
+      "type": "function",
+      "name": "queryElementTypeFun",
+      "filePath": "src/config/components.tsx",
+      "lineRange": [
+        719,
+        733
+      ],
+      "summary": "查询自定义元素分类，并触发分类下已发布元素的菜单数据加载。",
+      "tags": [
+        "service",
+        "custom-element",
+        "data-loader"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/components.tsx:queryElementFun",
+      "type": "function",
+      "name": "queryElementFun",
+      "filePath": "src/config/components.tsx",
+      "lineRange": [
+        736,
+        784
+      ],
+      "summary": "查询已发布自定义元素，按分类增量更新或移除全局组件菜单项。",
+      "tags": [
+        "service",
+        "custom-element",
+        "data-loader"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/components.tsx:updateCustomElementMenu",
+      "type": "function",
+      "name": "updateCustomElementMenu",
+      "filePath": "src/config/components.tsx",
+      "lineRange": [
+        792,
+        794
+      ],
+      "summary": "按元素标识重新加载自定义元素菜单。",
+      "tags": [
+        "utility",
+        "component-registry",
+        "public-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/components.tsx:getComponentMenu",
+      "type": "function",
+      "name": "getComponentMenu",
+      "filePath": "src/config/components.tsx",
+      "lineRange": [
+        797,
+        799
+      ],
+      "summary": "返回当前内存中的组件菜单配置。",
+      "tags": [
+        "utility",
+        "component-registry",
+        "public-api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconAIChat.tsx",
+      "type": "file",
+      "name": "IconAIChat.tsx",
+      "filePath": "src/config/icons/IconAIChat.tsx",
+      "summary": "为低代码组件菜单中的 AIChat 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconAIChat.tsx:IconAIChat",
+      "type": "function",
+      "name": "IconAIChat",
+      "filePath": "src/config/icons/IconAIChat.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 AIChat 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconAudioPlayer.tsx",
+      "type": "file",
+      "name": "IconAudioPlayer.tsx",
+      "filePath": "src/config/icons/IconAudioPlayer.tsx",
+      "summary": "为低代码组件菜单中的 AudioPlayer 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconAudioPlayer.tsx:IconAudioPlayer",
+      "type": "function",
+      "name": "IconAudioPlayer",
+      "filePath": "src/config/icons/IconAudioPlayer.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 AudioPlayer 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBadge.tsx",
+      "type": "file",
+      "name": "IconBadge.tsx",
+      "filePath": "src/config/icons/IconBadge.tsx",
+      "summary": "为低代码组件菜单中的 Badge 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBadge.tsx:IconBadge",
+      "type": "function",
+      "name": "IconBadge",
+      "filePath": "src/config/icons/IconBadge.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Badge 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBarAndLine.tsx",
+      "type": "file",
+      "name": "IconBarAndLine.tsx",
+      "filePath": "src/config/icons/IconBarAndLine.tsx",
+      "summary": "为低代码组件菜单中的 BarAndLine 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBarAndLine.tsx:IconBarAndLine",
+      "type": "function",
+      "name": "IconBarAndLine",
+      "filePath": "src/config/icons/IconBarAndLine.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BarAndLine 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBarChart.tsx",
+      "type": "file",
+      "name": "IconBarChart.tsx",
+      "filePath": "src/config/icons/IconBarChart.tsx",
+      "summary": "为低代码组件菜单中的 BarChart 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBarChart.tsx:IconBarChart",
+      "type": "function",
+      "name": "IconBarChart",
+      "filePath": "src/config/icons/IconBarChart.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BarChart 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBaseTable.tsx",
+      "type": "file",
+      "name": "IconBaseTable.tsx",
+      "filePath": "src/config/icons/IconBaseTable.tsx",
+      "summary": "为低代码组件菜单中的 BaseTable 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBaseTable.tsx:IconBaseTable",
+      "type": "function",
+      "name": "IconBaseTable",
+      "filePath": "src/config/icons/IconBaseTable.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BaseTable 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBasicAvatar.tsx",
+      "type": "file",
+      "name": "IconBasicAvatar.tsx",
+      "filePath": "src/config/icons/IconBasicAvatar.tsx",
+      "summary": "为低代码组件菜单中的 BasicAvatar 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBasicAvatar.tsx:IconBasicAvatar",
+      "type": "function",
+      "name": "IconBasicAvatar",
+      "filePath": "src/config/icons/IconBasicAvatar.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BasicAvatar 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBasicIcon.tsx",
+      "type": "file",
+      "name": "IconBasicIcon.tsx",
+      "filePath": "src/config/icons/IconBasicIcon.tsx",
+      "summary": "为低代码组件菜单中的 BasicIcon 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBasicIcon.tsx:IconBasicIcon",
+      "type": "function",
+      "name": "IconBasicIcon",
+      "filePath": "src/config/icons/IconBasicIcon.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BasicIcon 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBasicStatistic.tsx",
+      "type": "file",
+      "name": "IconBasicStatistic.tsx",
+      "filePath": "src/config/icons/IconBasicStatistic.tsx",
+      "summary": "为低代码组件菜单中的 BasicStatistic 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBasicStatistic.tsx:IconBasicStatistic",
+      "type": "function",
+      "name": "IconBasicStatistic",
+      "filePath": "src/config/icons/IconBasicStatistic.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BasicStatistic 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBottomBanner.tsx",
+      "type": "file",
+      "name": "IconBottomBanner.tsx",
+      "filePath": "src/config/icons/IconBottomBanner.tsx",
+      "summary": "为低代码组件菜单中的 BottomBanner 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBottomBanner.tsx:IconBottomBanner",
+      "type": "function",
+      "name": "IconBottomBanner",
+      "filePath": "src/config/icons/IconBottomBanner.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BottomBanner 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBownloadButton.tsx",
+      "type": "file",
+      "name": "IconBownloadButton.tsx",
+      "filePath": "src/config/icons/IconBownloadButton.tsx",
+      "summary": "为低代码组件菜单中的 BownloadButton 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBownloadButton.tsx:IconBownloadButton",
+      "type": "function",
+      "name": "IconBownloadButton",
+      "filePath": "src/config/icons/IconBownloadButton.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 BownloadButton 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBreadcrumb.tsx",
+      "type": "file",
+      "name": "IconBreadcrumb.tsx",
+      "filePath": "src/config/icons/IconBreadcrumb.tsx",
+      "summary": "为低代码组件菜单中的 Breadcrumb 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBreadcrumb.tsx:IconBreadcrumb",
+      "type": "function",
+      "name": "IconBreadcrumb",
+      "filePath": "src/config/icons/IconBreadcrumb.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Breadcrumb 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconButton.tsx",
+      "type": "file",
+      "name": "IconButton.tsx",
+      "filePath": "src/config/icons/IconButton.tsx",
+      "summary": "为低代码组件菜单中的 Button 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconButton.tsx:IconButton",
+      "type": "function",
+      "name": "IconButton",
+      "filePath": "src/config/icons/IconButton.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Button 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconCard.tsx",
+      "type": "file",
+      "name": "IconCard.tsx",
+      "filePath": "src/config/icons/IconCard.tsx",
+      "summary": "为低代码组件菜单中的 Card 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconCard.tsx:IconCard",
+      "type": "function",
+      "name": "IconCard",
+      "filePath": "src/config/icons/IconCard.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Card 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconCarousel.tsx",
+      "type": "file",
+      "name": "IconCarousel.tsx",
+      "filePath": "src/config/icons/IconCarousel.tsx",
+      "summary": "为低代码组件菜单中的 Carousel 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconCarousel.tsx:IconCarousel",
+      "type": "function",
+      "name": "IconCarousel",
+      "filePath": "src/config/icons/IconCarousel.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Carousel 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconCheckableTagGroup.tsx",
+      "type": "file",
+      "name": "IconCheckableTagGroup.tsx",
+      "filePath": "src/config/icons/IconCheckableTagGroup.tsx",
+      "summary": "为低代码组件菜单中的 CheckableTagGroup 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconCheckableTagGroup.tsx:IconCheckableTagGroup",
+      "type": "function",
+      "name": "IconCheckableTagGroup",
+      "filePath": "src/config/icons/IconCheckableTagGroup.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 CheckableTagGroup 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconAIChat.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconAudioPlayer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBadge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBarAndLine.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBarChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBaseTable.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBasicAvatar.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBasicIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBasicStatistic.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBottomBanner.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBownloadButton.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconBreadcrumb.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconButton.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCarousel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCheckableTagGroup.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCollapse.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCollapseBtn.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconColumn.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconColumnChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCountDown.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconCounter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconDescriptions.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconDiv.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconDivider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconDropdown.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFeedBackDrawer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFeedBackEmpty.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFeedBackModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFeedBackResult.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFile.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFileUpload.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFlex.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFloatingWindow.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconForm.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormCascader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormCheckbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormDate.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormDatepicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormInput.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormInputPassword.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormRadio.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormSelect.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormSlider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormStatic.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormSwitch.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormTextArea.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormTime.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFormTimePicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFromInputNumber.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFunctionalTabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconFunnelChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconGridForm.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconIFrame.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconImage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconJson.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconLineChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconLink.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconMapChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconMenu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconPagination.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconPieChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconPopover.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconProgress.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconRate.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconRichText.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconRingProgress.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconRow.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconSearcFrom.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconSpace.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconSpan.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconSpin.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconSteps.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTag.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconText.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTimeLine.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTimer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTinyColumn.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTinyLine.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTitle.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTransfer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTree.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconTreeSelect.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconVideo.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/config/icons/IconWatermark.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:queryElementTypeFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:queryElementFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:updateCustomElementMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:updateCustomElementMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:getComponentMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/components.tsx",
+      "target": "function:src/config/components.tsx:getComponentMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconAIChat.tsx",
+      "target": "function:src/config/icons/IconAIChat.tsx:IconAIChat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconAIChat.tsx",
+      "target": "function:src/config/icons/IconAIChat.tsx:IconAIChat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconAudioPlayer.tsx",
+      "target": "function:src/config/icons/IconAudioPlayer.tsx:IconAudioPlayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconAudioPlayer.tsx",
+      "target": "function:src/config/icons/IconAudioPlayer.tsx:IconAudioPlayer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBadge.tsx",
+      "target": "function:src/config/icons/IconBadge.tsx:IconBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBadge.tsx",
+      "target": "function:src/config/icons/IconBadge.tsx:IconBadge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBarAndLine.tsx",
+      "target": "function:src/config/icons/IconBarAndLine.tsx:IconBarAndLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBarAndLine.tsx",
+      "target": "function:src/config/icons/IconBarAndLine.tsx:IconBarAndLine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBarChart.tsx",
+      "target": "function:src/config/icons/IconBarChart.tsx:IconBarChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBarChart.tsx",
+      "target": "function:src/config/icons/IconBarChart.tsx:IconBarChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBaseTable.tsx",
+      "target": "function:src/config/icons/IconBaseTable.tsx:IconBaseTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBaseTable.tsx",
+      "target": "function:src/config/icons/IconBaseTable.tsx:IconBaseTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBasicAvatar.tsx",
+      "target": "function:src/config/icons/IconBasicAvatar.tsx:IconBasicAvatar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBasicAvatar.tsx",
+      "target": "function:src/config/icons/IconBasicAvatar.tsx:IconBasicAvatar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBasicIcon.tsx",
+      "target": "function:src/config/icons/IconBasicIcon.tsx:IconBasicIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBasicIcon.tsx",
+      "target": "function:src/config/icons/IconBasicIcon.tsx:IconBasicIcon",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBasicStatistic.tsx",
+      "target": "function:src/config/icons/IconBasicStatistic.tsx:IconBasicStatistic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBasicStatistic.tsx",
+      "target": "function:src/config/icons/IconBasicStatistic.tsx:IconBasicStatistic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBottomBanner.tsx",
+      "target": "function:src/config/icons/IconBottomBanner.tsx:IconBottomBanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBottomBanner.tsx",
+      "target": "function:src/config/icons/IconBottomBanner.tsx:IconBottomBanner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBownloadButton.tsx",
+      "target": "function:src/config/icons/IconBownloadButton.tsx:IconBownloadButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBownloadButton.tsx",
+      "target": "function:src/config/icons/IconBownloadButton.tsx:IconBownloadButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBreadcrumb.tsx",
+      "target": "function:src/config/icons/IconBreadcrumb.tsx:IconBreadcrumb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconBreadcrumb.tsx",
+      "target": "function:src/config/icons/IconBreadcrumb.tsx:IconBreadcrumb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconButton.tsx",
+      "target": "function:src/config/icons/IconButton.tsx:IconButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconButton.tsx",
+      "target": "function:src/config/icons/IconButton.tsx:IconButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconCard.tsx",
+      "target": "function:src/config/icons/IconCard.tsx:IconCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconCard.tsx",
+      "target": "function:src/config/icons/IconCard.tsx:IconCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconCarousel.tsx",
+      "target": "function:src/config/icons/IconCarousel.tsx:IconCarousel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconCarousel.tsx",
+      "target": "function:src/config/icons/IconCarousel.tsx:IconCarousel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconCheckableTagGroup.tsx",
+      "target": "function:src/config/icons/IconCheckableTagGroup.tsx:IconCheckableTagGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconCheckableTagGroup.tsx",
+      "target": "function:src/config/icons/IconCheckableTagGroup.tsx:IconCheckableTagGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/config/components.tsx:queryElementTypeFun",
+      "target": "function:src/config/components.tsx:queryElementFun",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/config/components.tsx:updateCustomElementMenu",
+      "target": "function:src/config/components.tsx:queryElementTypeFun",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

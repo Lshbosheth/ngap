@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.it.js",
+      "type": "file",
+      "name": "editor.main.nls.it.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.it.js",
+      "summary": "提供 Monaco Editor 核心界面的意大利语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.ja.js",
+      "type": "file",
+      "name": "editor.main.nls.ja.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.ja.js",
+      "summary": "提供 Monaco Editor 核心界面的日语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.js",
+      "type": "file",
+      "name": "editor.main.nls.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.js",
+      "summary": "提供 Monaco Editor 核心界面的默认英文本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.ko.js",
+      "type": "file",
+      "name": "editor.main.nls.ko.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.ko.js",
+      "summary": "提供 Monaco Editor 核心界面的韩语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.ru.js",
+      "type": "file",
+      "name": "editor.main.nls.ru.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.ru.js",
+      "summary": "提供 Monaco Editor 核心界面的俄语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.zh-cn.js",
+      "type": "file",
+      "name": "editor.main.nls.zh-cn.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.zh-cn.js",
+      "summary": "提供 Monaco Editor 核心界面的简体中文本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.zh-tw.js",
+      "type": "file",
+      "name": "editor.main.nls.zh-tw.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.zh-tw.js",
+      "summary": "提供 Monaco Editor 核心界面的繁体中文本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/css/cssMode.js",
+      "type": "file",
+      "name": "cssMode.js",
+      "filePath": "public/static/monaco-editor/vs/language/css/cssMode.js",
+      "summary": "加载 Monaco 的 CSS 语言模式，注册 CSS、Less 和 SCSS 的补全、校验、格式化等语言能力。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/css/cssWorker.js",
+      "type": "file",
+      "name": "cssWorker.js",
+      "filePath": "public/static/monaco-editor/vs/language/css/cssWorker.js",
+      "summary": "提供 Monaco CSS 语言工作线程，实现 CSS、Less 和 SCSS 的解析、诊断、补全、悬停和格式化。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/html/htmlMode.js",
+      "type": "file",
+      "name": "htmlMode.js",
+      "filePath": "public/static/monaco-editor/vs/language/html/htmlMode.js",
+      "summary": "加载 Monaco 的 HTML 语言模式，注册 HTML、Handlebars 和 Razor 的语言服务适配器。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/html/htmlWorker.js",
+      "type": "file",
+      "name": "htmlWorker.js",
+      "filePath": "public/static/monaco-editor/vs/language/html/htmlWorker.js",
+      "summary": "提供 Monaco HTML 语言工作线程，实现标记解析、诊断、补全、链接、悬停和格式化。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/json/jsonMode.js",
+      "type": "file",
+      "name": "jsonMode.js",
+      "filePath": "public/static/monaco-editor/vs/language/json/jsonMode.js",
+      "summary": "加载 Monaco 的 JSON 语言模式，注册 JSON 诊断、补全、悬停、符号和格式化能力。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/json/jsonWorker.js",
+      "type": "file",
+      "name": "jsonWorker.js",
+      "filePath": "public/static/monaco-editor/vs/language/json/jsonWorker.js",
+      "summary": "提供 Monaco JSON 语言工作线程，基于 JSON Schema 执行校验、补全、悬停和格式化。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/typescript/tsMode.js",
+      "type": "file",
+      "name": "tsMode.js",
+      "filePath": "public/static/monaco-editor/vs/language/typescript/tsMode.js",
+      "summary": "加载 Monaco 的 JavaScript 与 TypeScript 语言模式，配置编译选项并注册语言服务适配器。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/language/typescript/tsWorker.js",
+      "type": "file",
+      "name": "tsWorker.js",
+      "filePath": "public/static/monaco-editor/vs/language/typescript/tsWorker.js",
+      "summary": "提供预构建的 TypeScript 语言服务工作线程，内含编译器与语言服务以支持诊断、补全、导航和格式化。",
+      "tags": [
+        "monaco-editor",
+        "language-service",
+        "web-worker"
+      ],
+      "complexity": "complex",
+      "languageNotes": "文件内嵌 TypeScript 编译器与语言服务的压缩构建，因此体积和算法复杂度显著高于普通业务模块。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/loader.js",
+      "type": "file",
+      "name": "loader.js",
+      "filePath": "public/static/monaco-editor/vs/loader.js",
+      "summary": "提供 Monaco Editor 使用的 AMD 模块加载器，负责静态模块解析、依赖加载和运行时初始化。",
+      "tags": [
+        "monaco-editor",
+        "editor-runtime",
+        "static-asset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/base/worker/workerMain.js",
+      "type": "file",
+      "name": "workerMain.js",
+      "filePath": "public/static/monaco-editor/vs1/base/worker/workerMain.js",
+      "summary": "提供备用 vs1 静态目录的 Monaco Web Worker 启动脚本，用于加载对应版本的语言工作模块。",
+      "tags": [
+        "monaco-editor",
+        "web-worker",
+        "static-asset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/abap/abap.js",
+      "type": "file",
+      "name": "abap.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/abap/abap.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor ABAP 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/apex/apex.js",
+      "type": "file",
+      "name": "apex.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/apex/apex.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor Apex 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/azcli/azcli.js",
+      "type": "file",
+      "name": "azcli.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/azcli/azcli.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor Azure CLI 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/bat/bat.js",
+      "type": "file",
+      "name": "bat.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/bat/bat.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor Windows Batch 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/bicep/bicep.js",
+      "type": "file",
+      "name": "bicep.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/bicep/bicep.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor Bicep 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/cameligo/cameligo.js",
+      "type": "file",
+      "name": "cameligo.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/cameligo/cameligo.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor CameLIGO 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/clojure/clojure.js",
+      "type": "file",
+      "name": "clojure.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/clojure/clojure.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor Clojure 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/coffee/coffee.js",
+      "type": "file",
+      "name": "coffee.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/coffee/coffee.js",
+      "summary": "备用 vs1 静态目录中预构建的 Monaco Editor CoffeeScript 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    }
+  ],
+  "edges": []
+}

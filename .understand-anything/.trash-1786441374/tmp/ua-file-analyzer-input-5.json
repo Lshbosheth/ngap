@@ -1,0 +1,324 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/App.tsx",
+      "language": "typescript",
+      "sizeLines": 500,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/ErrorBoundary.tsx",
+      "language": "typescript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/permissionConfig.ts",
+      "language": "typescript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/AppLayout.tsx",
+      "language": "typescript",
+      "sizeLines": 532,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/EditLayout.tsx",
+      "language": "typescript",
+      "sizeLines": 561,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/LazyLoadComponent.tsx",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/MainLayout.tsx",
+      "language": "typescript",
+      "sizeLines": 335,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/Preview/Preview.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "language": "typescript",
+      "sizeLines": 465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/menuTypes.ts",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/main.tsx",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mock/localMock.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/File/FileUpload.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/File/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "language": "typescript",
+      "sizeLines": 492,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Link/LinkSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Link/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/dictionary.ts",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/AppBuild/AppBuild.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/AppRun/AppRun.tsx",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/MyActivity/index.tsx",
+      "language": "typescript",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "language": "typescript",
+      "sizeLines": 881,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/Workbench/MyAcSm.tsx",
+      "language": "typescript",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/Workbench/Workbench.tsx",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/Workbench/taskCnSm.tsx",
+      "language": "typescript",
+      "sizeLines": 307,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/AppDetail.tsx",
+      "language": "typescript",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "language": "typescript",
+      "sizeLines": 804,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/OffshelfModal.tsx",
+      "language": "typescript",
+      "sizeLines": 451,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "language": "typescript",
+      "sizeLines": 1143,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/App.tsx": [
+      "src/App.less",
+      "src/ErrorBoundary.tsx",
+      "src/mock/localMock.ts",
+      "src/router/index.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/apiUtilForInterface.ts",
+      "src/utils/appMenuData.ts",
+      "src/utils/crossAPI.js",
+      "src/utils/crossAPIDistributeMessages.ts",
+      "src/utils/Logout.ts",
+      "src/utils/request.ts",
+      "src/utils/useMessageListener.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/ErrorBoundary.tsx": [],
+    "src/config/permissionConfig.ts": [
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/layout/AppLayout.tsx": [
+      "src/config/permissionConfig.ts",
+      "src/layout/layout.less",
+      "src/layout/LazyLoadComponent.tsx",
+      "src/layout/menuTypes.ts",
+      "src/layout/Preview/Preview.tsx",
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/layout/EditLayout.tsx": [
+      "src/layout/layout.less",
+      "src/layout/LazyLoadComponent.tsx",
+      "src/layout/menuTypes.ts",
+      "src/layout/Preview/Preview.tsx"
+    ],
+    "src/layout/LazyLoadComponent.tsx": [],
+    "src/layout/MainLayout.tsx": [
+      "src/config/permissionConfig.ts",
+      "src/stores/crossapiStore.ts",
+      "src/stores/menuStore.ts",
+      "src/utils/Logout.ts",
+      "src/utils/util.ts"
+    ],
+    "src/layout/Preview/Preview.tsx": [
+      "src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "src/layout/Preview/index.module.less"
+    ],
+    "src/layout/components/ConfigPanel/ConfigPanel.tsx": [
+      "src/layout/components/ConfigPanel/index.module.less",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/request.ts"
+    ],
+    "src/layout/menuTypes.ts": [],
+    "src/main.tsx": [
+      "src/App.tsx",
+      "src/polyfills.ts",
+      "src/styles/antd-compat-chrome8x.css",
+      "src/utils/logCapture.ts"
+    ],
+    "src/mock/localMock.ts": [],
+    "src/packages/Basic/File/FileUpload.tsx": [
+      "src/utils/request.ts"
+    ],
+    "src/packages/Basic/File/Schema.tsx": [
+      "src/packages/Basic/File/FileUpload.tsx"
+    ],
+    "src/packages/Basic/Link/CascadeSelect/index.tsx": [
+      "src/packages/Basic/Link/CascadeSelect/index.module.less"
+    ],
+    "src/packages/Basic/Link/LinkSetting.tsx": [
+      "src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "src/packages/Basic/Link/Linkcss.css",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Basic/Link/Schema.tsx": [
+      "src/packages/Basic/Link/LinkSetting.tsx"
+    ],
+    "src/packages/Functional/Descriptions/DescItemSetting.tsx": [
+      "src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Functional/Descriptions/Schema.tsx": [
+      "src/packages/Functional/Descriptions/DescItemSetting.tsx"
+    ],
+    "src/packages/utils/dictionary.ts": [
+      "src/utils/request.ts"
+    ],
+    "src/pages/AppBuild/AppBuild.tsx": [
+      "src/layout/EditLayout.tsx"
+    ],
+    "src/pages/AppRun/AppRun.tsx": [
+      "src/layout/AppLayout.tsx"
+    ],
+    "src/pages/MyActivity/index.tsx": [
+      "src/pages/MyActivity/index.module.less",
+      "src/pages/MyActivity/myActiviChild/activityAdd.tsx"
+    ],
+    "src/pages/MyActivity/myActiviChild/activityAdd.tsx": [
+      "src/pages/MyActivity/index.module.less"
+    ],
+    "src/pages/Workbench/MyAcSm.tsx": [
+      "src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "src/pages/Workbench/index.module.less"
+    ],
+    "src/pages/Workbench/Workbench.tsx": [
+      "src/pages/Workbench/index.less",
+      "src/pages/Workbench/index.module.less",
+      "src/pages/Workbench/MyAcSm.tsx",
+      "src/pages/Workbench/taskCnSm.tsx"
+    ],
+    "src/pages/Workbench/taskCnSm.tsx": [
+      "src/pages/taskCenter/review.tsx",
+      "src/pages/Workbench/index.module.less"
+    ],
+    "src/pages/applicationList/AppDetail.tsx": [
+      "src/pages/applicationList/appDetail.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx": [
+      "src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "src/pages/applicationList/index.tsx"
+    ],
+    "src/pages/applicationList/OffshelfModal.tsx": [
+      "src/stores/crossapiStore.ts",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ],
+    "src/pages/applicationList/SubmitReviewDrawer.tsx": [
+      "src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "src/stores/crossapiStore.ts",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ]
+  }
+}

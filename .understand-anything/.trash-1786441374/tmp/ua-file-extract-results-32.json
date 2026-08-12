@@ -1,0 +1,63 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 260,
+      "nonEmptyLines": 223,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/appDetail.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 107,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/appList.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 132,
+      "nonEmptyLines": 117,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/backrelation.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 53,
+      "nonEmptyLines": 46,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 276,
+      "nonEmptyLines": 247,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/upcheckty.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 62,
+      "nonEmptyLines": 55,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationList/versionHost.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "metrics": {}
+    }
+  ]
+}

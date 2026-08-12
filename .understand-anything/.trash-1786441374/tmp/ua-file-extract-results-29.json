@@ -1,0 +1,120 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "materials/package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 37,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "gitHooks",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "lint-staged",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "materials/readme.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 37,
+      "nonEmptyLines": 29,
+      "sections": [
+        {
+          "heading": "物料库说明文档",
+          "level": 2,
+          "line": 1
+        },
+        {
+          "heading": "组件schema目前的完整结构是什么？",
+          "level": 3,
+          "line": 3
+        },
+        {
+          "heading": "组件如何渲染的？",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "组件的事件、接口如何调用的？",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "组件的所有类型从哪儿看？",
+          "level": 3,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "materials/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 17,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

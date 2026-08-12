@@ -1,0 +1,1358 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/utils/ProvinceIdCon.ts",
+      "type": "file",
+      "name": "ProvinceIdCon.ts",
+      "filePath": "materials/utils/ProvinceIdCon.ts",
+      "summary": "提供省份编码从八位制式到三位制式的转换映射工具。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "function",
+      "name": "proid8to3",
+      "filePath": "materials/utils/ProvinceIdCon.ts",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "实现 proid8to3 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/crossAPIAction.ts",
+      "type": "file",
+      "name": "crossAPIAction.ts",
+      "filePath": "materials/utils/crossAPIAction.ts",
+      "summary": "将页面动作配置映射为 CrossAPI 客户端调用，覆盖开屏卡、通话、鉴权、消息和业务办理等宿主能力。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/utils/crossAPIAction.ts:getFormatTime",
+      "type": "function",
+      "name": "getFormatTime",
+      "filePath": "materials/utils/crossAPIAction.ts",
+      "lineRange": [
+        24,
+        34
+      ],
+      "summary": "实现 getFormatTime 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIAction.ts:openScreenCardParams",
+      "type": "function",
+      "name": "openScreenCardParams",
+      "filePath": "materials/utils/crossAPIAction.ts",
+      "lineRange": [
+        41,
+        64
+      ],
+      "summary": "实现 openScreenCardParams 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIAction.ts:getOneKeyHandleDialog",
+      "type": "function",
+      "name": "getOneKeyHandleDialog",
+      "filePath": "materials/utils/crossAPIAction.ts",
+      "lineRange": [
+        67,
+        93
+      ],
+      "summary": "实现 getOneKeyHandleDialog 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "function",
+      "name": "crossAPIAction",
+      "filePath": "materials/utils/crossAPIAction.ts",
+      "lineRange": [
+        120,
+        631
+      ],
+      "summary": "按动作名称和参数分派 CrossAPI 客户端能力调用。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/utils/crossAPIUtil.ts",
+      "type": "file",
+      "name": "crossAPIUtil.ts",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "summary": "提供对 CrossAPI 常用客户端能力的薄封装，统一调用格式并导出坐席、通话、鉴权和消息相关方法。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "function",
+      "name": "getIndexInfo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        76,
+        80
+      ],
+      "summary": "封装 CrossAPI 的 getIndexInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "function",
+      "name": "getCallingInfo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        85,
+        92
+      ],
+      "summary": "封装 CrossAPI 的 getCallingInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "function",
+      "name": "getClientBusiInfo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        98,
+        104
+      ],
+      "summary": "封装 CrossAPI 的 getClientBusiInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getAgentState",
+      "type": "function",
+      "name": "getAgentState",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        109,
+        113
+      ],
+      "summary": "封装 CrossAPI 的 getAgentState 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "function",
+      "name": "showTransferOpen",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        117,
+        119
+      ],
+      "summary": "封装 CrossAPI 的 showTransferOpen 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "function",
+      "name": "unifiedProcess",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        125,
+        131
+      ],
+      "summary": "封装 CrossAPI 的 unifiedProcess 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "function",
+      "name": "getPropProvInfo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        136,
+        140
+      ],
+      "summary": "封装 CrossAPI 的 getPropProvInfo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "function",
+      "name": "getSerialNo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        145,
+        149
+      ],
+      "summary": "封装 CrossAPI 的 getSerialNo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "function",
+      "name": "getAgentCurSignInSkills",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        154,
+        158
+      ],
+      "summary": "封装 CrossAPI 的 getAgentCurSignInSkills 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:callOut",
+      "type": "function",
+      "name": "callOut",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        163,
+        167
+      ],
+      "summary": "封装 CrossAPI 的 callOut 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "function",
+      "name": "getSystermOldStaffIdList",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        172,
+        176
+      ],
+      "summary": "封装 CrossAPI 的 getSystermOldStaffIdList 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "function",
+      "name": "sendIMLinkto",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        181,
+        187
+      ],
+      "summary": "封装 CrossAPI 的 sendIMLinkto 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "function",
+      "name": "sendCardMessage",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        191,
+        195
+      ],
+      "summary": "封装 CrossAPI 的 sendCardMessage 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "function",
+      "name": "getCenterCode",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        196,
+        200
+      ],
+      "summary": "封装 CrossAPI 的 getCenterCode 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "function",
+      "name": "faceCheckPrevalidation",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        204,
+        208
+      ],
+      "summary": "封装 CrossAPI 的 faceCheckPrevalidation 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "function",
+      "name": "cipherCheckWithMsisdn",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        218,
+        225
+      ],
+      "summary": "封装 CrossAPI 的 cipherCheckWithMsisdn 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "function",
+      "name": "cipherCheckPlus",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        235,
+        240
+      ],
+      "summary": "封装 CrossAPI 的 cipherCheckPlus 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "function",
+      "name": "unifiedProcess1",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        250,
+        254
+      ],
+      "summary": "封装 CrossAPI 的 unifiedProcess1 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "function",
+      "name": "initiateAuxiliaryVideo",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        258,
+        264
+      ],
+      "summary": "封装 CrossAPI 的 initiateAuxiliaryVideo 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "function",
+      "name": "startVoice2TextListerner",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        273,
+        277
+      ],
+      "summary": "封装 CrossAPI 的 startVoice2TextListerner 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "function",
+      "name": "stopVoice2TextListerner",
+      "filePath": "materials/utils/crossAPIUtil.ts",
+      "lineRange": [
+        279,
+        283
+      ],
+      "summary": "封装 CrossAPI 的 stopVoice2TextListerner 客户端能力调用并返回统一结果。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/dealApiData.ts",
+      "type": "file",
+      "name": "dealApiData.ts",
+      "filePath": "materials/utils/dealApiData.ts",
+      "summary": "递归整理接口返回的层级数据，为树形选项和组件数据源生成统一的 label/value 结构。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/dealApiData.ts:dealApiData",
+      "type": "function",
+      "name": "dealApiData",
+      "filePath": "materials/utils/dealApiData.ts",
+      "lineRange": [
+        4,
+        19
+      ],
+      "summary": "把接口层级数据转换为组件选项树。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/dealApiData.ts:dealChildren",
+      "type": "function",
+      "name": "dealChildren",
+      "filePath": "materials/utils/dealApiData.ts",
+      "lineRange": [
+        20,
+        37
+      ],
+      "summary": "递归处理接口数据的子节点。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/dictionary.ts",
+      "type": "file",
+      "name": "dictionary.ts",
+      "filePath": "materials/utils/dictionary.ts",
+      "summary": "通过运行时请求获取数据字典，并转换为组件可直接使用的选项集合。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "function",
+      "name": "getDictionary",
+      "filePath": "materials/utils/dictionary.ts",
+      "lineRange": [
+        7,
+        17
+      ],
+      "summary": "请求指定字典并转换为选项列表。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/filter.tsx",
+      "type": "file",
+      "name": "filter.tsx",
+      "filePath": "materials/utils/filter.tsx",
+      "summary": "提供表格文本筛选下拉面板和列筛选配置生成器。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/filter.tsx:TextFilterDropdown",
+      "type": "function",
+      "name": "TextFilterDropdown",
+      "filePath": "materials/utils/filter.tsx",
+      "lineRange": [
+        10,
+        65
+      ],
+      "summary": "渲染表格文本筛选输入和确认、重置操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/filter.tsx:filterConfig",
+      "type": "function",
+      "name": "filterConfig",
+      "filePath": "materials/utils/filter.tsx",
+      "lineRange": [
+        78,
+        79
+      ],
+      "summary": "返回预设的文本筛选配置。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/goldBankCheckfn.ts",
+      "type": "file",
+      "name": "goldBankCheckfn.ts",
+      "filePath": "materials/utils/goldBankCheckfn.ts",
+      "summary": "把页面动作参数转换为 GoldBank 安全校验调用，并统一处理成功、取消和异常回调。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "function",
+      "name": "GoldBankCheckAction",
+      "filePath": "materials/utils/goldBankCheckfn.ts",
+      "lineRange": [
+        7,
+        50
+      ],
+      "summary": "解析动作参数并调用 GoldBank 安全校验。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/goldbank.ts",
+      "type": "file",
+      "name": "goldbank.ts",
+      "filePath": "materials/utils/goldbank.ts",
+      "summary": "封装独立 materials 运行时使用的 GoldBank 安全能力加载与调用。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:materials/utils/goldbank.ts:GoldBank",
+      "type": "class",
+      "name": "GoldBank",
+      "filePath": "materials/utils/goldbank.ts",
+      "lineRange": [
+        30,
+        393
+      ],
+      "summary": "管理 GoldBank 外部安全组件的脚本加载、实例状态和打开调用。",
+      "tags": [
+        "service",
+        "security",
+        "external-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/utils/handleApi.ts",
+      "type": "file",
+      "name": "handleApi.ts",
+      "filePath": "materials/utils/handleApi.ts",
+      "summary": "执行页面配置的接口请求，合并上下文参数并将响应写入运行时变量、表单或组件数据。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "function",
+      "name": "handleApi",
+      "filePath": "materials/utils/handleApi.ts",
+      "lineRange": [
+        21,
+        122
+      ],
+      "summary": "执行配置接口并把结果写回页面运行时。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/handleApi.ts:mergeParams",
+      "type": "function",
+      "name": "mergeParams",
+      "filePath": "materials/utils/handleApi.ts",
+      "lineRange": [
+        132,
+        167
+      ],
+      "summary": "把静态配置、变量、表单和接口数据合并为调用参数。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/request.ts",
+      "type": "file",
+      "name": "request.ts",
+      "filePath": "materials/utils/request.ts",
+      "summary": "配置独立 materials 运行时的 HTTP 客户端，统一鉴权、错误提示、响应解析和缓存策略。",
+      "tags": [
+        "utility",
+        "http-client",
+        "cache",
+        "error-handling"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/utils/request.ts:loadCache",
+      "type": "function",
+      "name": "loadCache",
+      "filePath": "materials/utils/request.ts",
+      "lineRange": [
+        137,
+        195
+      ],
+      "summary": "读取请求缓存并判断有效期与复用条件。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/utils/ProvinceIdCon.ts",
+      "target": "function:materials/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/ProvinceIdCon.ts",
+      "target": "function:materials/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/utils/ProvinceIdCon.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "function:materials/utils/crossAPIAction.ts:getFormatTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "function:materials/utils/crossAPIAction.ts:openScreenCardParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "function:materials/utils/crossAPIAction.ts:getOneKeyHandleDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "function:materials/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIAction.ts",
+      "target": "function:materials/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "file:materials/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getIndexInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getCallingInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getClientBusiInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getAgentState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getAgentState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:showTransferOpen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:unifiedProcess",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getPropProvInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getSerialNo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getAgentCurSignInSkills",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:callOut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:callOut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getSystermOldStaffIdList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:sendIMLinkto",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:sendCardMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:getCenterCode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:faceCheckPrevalidation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:cipherCheckWithMsisdn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:cipherCheckPlus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:unifiedProcess1",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:initiateAuxiliaryVideo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:startVoice2TextListerner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPIUtil.ts",
+      "target": "function:materials/utils/crossAPIUtil.ts:stopVoice2TextListerner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/dealApiData.ts",
+      "target": "function:materials/utils/dealApiData.ts:dealApiData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/dealApiData.ts",
+      "target": "function:materials/utils/dealApiData.ts:dealApiData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/dealApiData.ts",
+      "target": "function:materials/utils/dealApiData.ts:dealChildren",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/dictionary.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/dictionary.ts",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/dictionary.ts",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/dictionary.ts",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/filter.tsx",
+      "target": "function:materials/utils/filter.tsx:TextFilterDropdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/filter.tsx",
+      "target": "function:materials/utils/filter.tsx:filterConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/filter.tsx",
+      "target": "function:materials/utils/filter.tsx:filterConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "file:materials/utils/goldbank.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "function:materials/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/goldBankCheckfn.ts",
+      "target": "function:materials/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/goldbank.ts",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/goldbank.ts",
+      "target": "class:materials/utils/goldbank.ts:GoldBank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/goldbank.ts",
+      "target": "class:materials/utils/goldbank.ts:GoldBank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "function:materials/utils/handleApi.ts:mergeParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/handleApi.ts",
+      "target": "function:materials/utils/handleApi.ts:mergeParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/request.ts",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/request.ts",
+      "target": "function:materials/utils/request.ts:loadCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/component.module.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/index.less",
+      "language": "css",
+      "sizeLines": 71,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/readme.md",
+      "language": "markdown",
+      "sizeLines": 41,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/component.module.less": [],
+    "src/packages/index.less": [],
+    "src/packages/readme.md": []
+  }
+}

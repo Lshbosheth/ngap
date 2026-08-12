@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "config:page/.env.development",
+      "type": "config",
+      "name": ".env.development",
+      "filePath": "page/.env.development",
+      "summary": "page 运行时开发环境变量，配置 NGAP 控制面接口基址和生产标识开关。",
+      "tags": [
+        "configuration",
+        "environment",
+        "api-endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:page/.env.production",
+      "type": "config",
+      "name": ".env.production",
+      "filePath": "page/.env.production",
+      "summary": "page 运行时生产环境变量，配置 NGAP 控制面接口基址和生产标识开关。",
+      "tags": [
+        "configuration",
+        "environment",
+        "api-endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:page/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "page/README.md",
+      "summary": "独立 page 运行时的开发说明，介绍环境准备、启动构建、目录结构、分支和 Ant Design 参考资料。",
+      "tags": [
+        "documentation",
+        "development",
+        "project-overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "page/index.html",
+      "summary": "独立 page 运行时的 HTML 启动页，声明页面元信息、兼容处理和 React 根挂载节点。",
+      "tags": [
+        "entry-point",
+        "html",
+        "application-shell"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:page/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "page/package.json",
+      "summary": "独立 page 运行时包清单，定义 TypeScript 与 Vite 构建脚本及其精简运行依赖。",
+      "tags": [
+        "configuration",
+        "package-manifest",
+        "build-system",
+        "dependencies"
+      ],
+      "complexity": "simple",
+      "languageNotes": "JSON 清单集中声明脚本、依赖、开发依赖和工具链约束。"
+    },
+    {
+      "id": "config:page/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "page/tsconfig.json",
+      "summary": "独立 page 运行时 TypeScript 编译配置，控制 JSX、模块解析、路径别名和源码范围。",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:page/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "page/tsconfig.node.json",
+      "summary": "page 运行时 Vite 配置所使用的 Node 侧 TypeScript 编译选项。",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "config:page/.env.development",
+      "target": "file:page/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:page/.env.production",
+      "target": "file:page/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:page/package.json",
+      "target": "file:page/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:page/tsconfig.json",
+      "target": "file:page/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

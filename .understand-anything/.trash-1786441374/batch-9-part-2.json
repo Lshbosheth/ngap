@@ -1,0 +1,1152 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Functional/Tab/Tab.tsx",
+      "type": "file",
+      "name": "Tab.tsx",
+      "filePath": "materials/Functional/Tab/Tab.tsx",
+      "summary": "实现单个页签内容容器，通过 NgapRender 渲染页签内部的低代码元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Functional/Tab/Tab.tsx:MTab",
+      "type": "function",
+      "name": "MTab",
+      "filePath": "materials/Functional/Tab/Tab.tsx",
+      "lineRange": [
+        11,
+        37
+      ],
+      "summary": "实现单页签的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Functional/Tabs/Tabs.tsx",
+      "type": "file",
+      "name": "Tabs.tsx",
+      "filePath": "materials/Functional/Tabs/Tabs.tsx",
+      "summary": "实现多页签容器，管理活动页签、动态标题和切换状态，并渲染各页签内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "functional-widget",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Functional/Tabs/Tabs.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "materials/Functional/Tabs/Tabs.tsx",
+      "lineRange": [
+        18,
+        174
+      ],
+      "summary": "实现页签/容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Layout/BottomBanner/BottomBanner.tsx",
+      "type": "file",
+      "name": "BottomBanner.tsx",
+      "filePath": "materials/Layout/BottomBanner/BottomBanner.tsx",
+      "summary": "实现底部横幅布局容器，固定组织底部内容并通过 NgapRender 渲染嵌套元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Layout/BottomBanner/BottomBanner.tsx:MBottomBanner",
+      "type": "function",
+      "name": "MBottomBanner",
+      "filePath": "materials/Layout/BottomBanner/BottomBanner.tsx",
+      "lineRange": [
+        16,
+        62
+      ],
+      "summary": "实现底部横幅的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Col/Col.tsx",
+      "type": "file",
+      "name": "Col.tsx",
+      "filePath": "materials/Layout/Col/Col.tsx",
+      "summary": "封装栅格列布局物料，将跨列、偏移和响应式属性应用到嵌套元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Layout/Col/Col.tsx:MCol",
+      "type": "function",
+      "name": "MCol",
+      "filePath": "materials/Layout/Col/Col.tsx",
+      "lineRange": [
+        16,
+        41
+      ],
+      "summary": "实现栅格列的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Divider/Divider.tsx",
+      "type": "file",
+      "name": "Divider.tsx",
+      "filePath": "materials/Layout/Divider/Divider.tsx",
+      "summary": "封装分割线布局物料，提供方向、文字位置、虚线和样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Layout/Divider/Divider.tsx:MDevider",
+      "type": "function",
+      "name": "MDevider",
+      "filePath": "materials/Layout/Divider/Divider.tsx",
+      "lineRange": [
+        17,
+        49
+      ],
+      "summary": "实现分割线的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Row/Row.tsx",
+      "type": "file",
+      "name": "Row.tsx",
+      "filePath": "materials/Layout/Row/Row.tsx",
+      "summary": "封装栅格行布局物料，将间距、对齐和换行配置应用到嵌套列元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Layout/Row/Row.tsx:MRow",
+      "type": "function",
+      "name": "MRow",
+      "filePath": "materials/Layout/Row/Row.tsx",
+      "lineRange": [
+        16,
+        42
+      ],
+      "summary": "实现布局容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Space/Space.tsx",
+      "type": "file",
+      "name": "Space.tsx",
+      "filePath": "materials/Layout/Space/Space.tsx",
+      "summary": "实现间距布局容器，统一管理方向、尺寸、换行和嵌套低代码内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Layout/Space/Space.tsx:MSpace",
+      "type": "function",
+      "name": "MSpace",
+      "filePath": "materials/Layout/Space/Space.tsx",
+      "lineRange": [
+        18,
+        43
+      ],
+      "summary": "实现间距容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Span/Col.tsx",
+      "type": "file",
+      "name": "Col.tsx",
+      "filePath": "materials/Layout/Span/Col.tsx",
+      "summary": "实现 Span 布局内部列节点，通过 NgapRender 承载实际嵌套内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Layout/Span/Col.tsx:SpanCol",
+      "type": "function",
+      "name": "SpanCol",
+      "filePath": "materials/Layout/Span/Col.tsx",
+      "lineRange": [
+        14,
+        33
+      ],
+      "summary": "实现Span 内部列的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Span/Span.tsx",
+      "type": "file",
+      "name": "Span.tsx",
+      "filePath": "materials/Layout/Span/Span.tsx",
+      "summary": "实现按比例分栏的 Span 容器，组合内部列节点并应用布局与样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "layout",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Layout/Span/Span.tsx:MSpan",
+      "type": "function",
+      "name": "MSpan",
+      "filePath": "materials/Layout/Span/Span.tsx",
+      "lineRange": [
+        16,
+        51
+      ],
+      "summary": "实现Span 分栏的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "file",
+      "name": "NgapRender.tsx",
+      "filePath": "materials/NgapRender/NgapRender.tsx",
+      "summary": "提供物料运行时核心渲染器，解析元素类型、动态加载组件、注入页面状态与引用，并优化 ECharts 预加载。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "runtime-renderer",
+        "component-registry"
+      ],
+      "complexity": "complex",
+      "languageNotes": "通过 React.lazy、Suspense 与组件映射实现运行时物料分派，并缓存图表预加载状态。"
+    },
+    {
+      "id": "function:materials/NgapRender/NgapRender.tsx:resetEchartsPreload",
+      "type": "function",
+      "name": "resetEchartsPreload",
+      "filePath": "materials/NgapRender/NgapRender.tsx",
+      "lineRange": [
+        24,
+        26
+      ],
+      "summary": "重置 ECharts 预加载缓存，使运行时可以重新发起加载。",
+      "tags": [
+        "utility",
+        "lazy-loading",
+        "echarts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Other/IFrame/IFrame.tsx",
+      "type": "file",
+      "name": "IFrame.tsx",
+      "filePath": "materials/Other/IFrame/IFrame.tsx",
+      "summary": "实现 IFrame 集成物料，拼装动态 URL 参数、监听跨窗口消息并连接页面动作流。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "iframe",
+        "integration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "type": "function",
+      "name": "buildUrlWithParams",
+      "filePath": "materials/Other/IFrame/IFrame.tsx",
+      "lineRange": [
+        24,
+        74
+      ],
+      "summary": "解析 IFrame 地址并合并静态参数、页面变量和运行时动态参数。",
+      "tags": [
+        "utility",
+        "url-builder",
+        "parameter-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Other/IFrame/IFrame.tsx:IFrame",
+      "type": "function",
+      "name": "IFrame",
+      "filePath": "materials/Other/IFrame/IFrame.tsx",
+      "lineRange": [
+        81,
+        216
+      ],
+      "summary": "实现IFrame的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Page/Page.tsx",
+      "type": "file",
+      "name": "Page.tsx",
+      "filePath": "materials/Page/Page.tsx",
+      "summary": "实现页面根容器，应用页面级样式与动作处理，并通过 NgapRender 渲染顶层元素树。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "page-container",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Page/Page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "materials/Page/Page.tsx",
+      "lineRange": [
+        6,
+        90
+      ],
+      "summary": "实现页面容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "type": "file",
+      "name": "BusinessTable.tsx",
+      "filePath": "materials/Scene/BusinessTable/BusinessTable.tsx",
+      "summary": "实现高能力业务表格场景物料，覆盖接口取数、列配置、筛选排序、分页选择、编辑操作、标签设置和动作流。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "scene-component",
+        "data-table"
+      ],
+      "complexity": "complex",
+      "languageNotes": "单个大型 React 函数组件集中编排大量 Hooks、派生配置和表格事件，复杂度较高。"
+    },
+    {
+      "id": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "type": "function",
+      "name": "BusinessTable",
+      "filePath": "materials/Scene/BusinessTable/BusinessTable.tsx",
+      "lineRange": [
+        114,
+        2396
+      ],
+      "summary": "实现业务表格的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "file",
+      "name": "TriggerEventItem.tsx",
+      "filePath": "materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "summary": "定义业务表格标签设置使用的触发事件项类型，约束事件标识、名称与处理配置。",
+      "tags": [
+        "type-definition",
+        "data-table",
+        "event-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "type": "file",
+      "name": "NgapTable.tsx",
+      "filePath": "materials/Scene/NgapTable/NgapTable.tsx",
+      "summary": "实现平台通用数据表格场景物料，整合接口数据、列渲染、筛选排序、分页选择和动作事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "scene-component",
+        "data-table"
+      ],
+      "complexity": "complex",
+      "languageNotes": "采用 React Hooks 汇聚表格数据请求、列状态和交互行为。"
+    },
+    {
+      "id": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "type": "function",
+      "name": "NgapTable",
+      "filePath": "materials/Scene/NgapTable/NgapTable.tsx",
+      "lineRange": [
+        82,
+        840
+      ],
+      "summary": "实现通用表格的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Functional/Tab/Tab.tsx",
+      "target": "function:materials/Functional/Tab/Tab.tsx:MTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "function:materials/Functional/Tabs/Tabs.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "function:materials/Layout/BottomBanner/BottomBanner.tsx:MBottomBanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Col/Col.tsx",
+      "target": "function:materials/Layout/Col/Col.tsx:MCol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Divider/Divider.tsx",
+      "target": "function:materials/Layout/Divider/Divider.tsx:MDevider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Row/Row.tsx",
+      "target": "function:materials/Layout/Row/Row.tsx:MRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Space/Space.tsx",
+      "target": "function:materials/Layout/Space/Space.tsx:MSpace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Span/Col.tsx",
+      "target": "function:materials/Layout/Span/Col.tsx:SpanCol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Layout/Span/Span.tsx",
+      "target": "function:materials/Layout/Span/Span.tsx:MSpan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "function:materials/NgapRender/NgapRender.tsx:resetEchartsPreload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "function:materials/NgapRender/NgapRender.tsx:resetEchartsPreload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "function:materials/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "function:materials/Other/IFrame/IFrame.tsx:IFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Page/Page.tsx",
+      "target": "function:materials/Page/Page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Functional/Tab/Tab.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tab/Tab.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "file:materials/Functional/Tabs/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Functional/Tabs/Tabs.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:materials/Layout/BottomBanner/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/BottomBanner/BottomBanner.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Col/Col.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Col/Col.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Divider/Divider.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Row/Row.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Row/Row.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Space/Space.tsx",
+      "target": "file:materials/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Space/Space.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Space/Space.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Space/Space.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Span/Col.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Span/Span.tsx",
+      "target": "file:materials/Layout/Span/Col.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Span/Span.tsx",
+      "target": "file:materials/Layout/Span/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Layout/Span/Span.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/NgapRender/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/utils/useComponentRefs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/NgapRender/NgapRender.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Other/IFrame/IFrame.tsx",
+      "target": "file:src/utils/useMessageListener.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Page/Page.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Page/Page.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Page/Page.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/Scene/BusinessTable/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/columns.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/dealApiData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/filter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/sort.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/textfilter.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/Scene/NgapTable/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/utils/dealApiData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/NgapTable/NgapTable.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:materials/Functional/Tabs/Tabs.tsx:MTabs",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Functional/Tabs/Tabs.tsx:MTabs",
+      "target": "function:materials/utils/util.ts:renderAsyncFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Other/IFrame/IFrame.tsx:IFrame",
+      "target": "function:materials/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Other/IFrame/IFrame.tsx:IFrame",
+      "target": "function:materials/utils/util.ts:baseApiConvert",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Other/IFrame/IFrame.tsx:IFrame",
+      "target": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Page/Page.tsx:Page",
+      "target": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:src/packages/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/dealApiData.ts:dealApiData",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/sort.tsx:sortConfig",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "target": "function:materials/utils/filter.tsx:filterConfig",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "target": "function:materials/utils/dealApiData.ts:dealApiData",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Scene/NgapTable/NgapTable.tsx:NgapTable",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

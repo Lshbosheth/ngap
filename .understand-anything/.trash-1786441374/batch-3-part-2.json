@@ -1,0 +1,710 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/config/icons/IconFormTextArea.tsx",
+      "type": "file",
+      "name": "IconFormTextArea.tsx",
+      "filePath": "src/config/icons/IconFormTextArea.tsx",
+      "summary": "为低代码组件菜单中的 FormTextArea 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFormTextArea.tsx:IconFormTextArea",
+      "type": "function",
+      "name": "IconFormTextArea",
+      "filePath": "src/config/icons/IconFormTextArea.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 FormTextArea 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFormTime.tsx",
+      "type": "file",
+      "name": "IconFormTime.tsx",
+      "filePath": "src/config/icons/IconFormTime.tsx",
+      "summary": "为低代码组件菜单中的 FormTime 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFormTime.tsx:IconTime",
+      "type": "function",
+      "name": "IconTime",
+      "filePath": "src/config/icons/IconFormTime.tsx",
+      "lineRange": [
+        1,
+        9
+      ],
+      "summary": "渲染 FormTime 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFormTimePicker.tsx",
+      "type": "file",
+      "name": "IconFormTimePicker.tsx",
+      "filePath": "src/config/icons/IconFormTimePicker.tsx",
+      "summary": "为低代码组件菜单中的 FormTimePicker 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFormTimePicker.tsx:IconFormTimepicker",
+      "type": "function",
+      "name": "IconFormTimepicker",
+      "filePath": "src/config/icons/IconFormTimePicker.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 FormTimePicker 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFromInputNumber.tsx",
+      "type": "file",
+      "name": "IconFromInputNumber.tsx",
+      "filePath": "src/config/icons/IconFromInputNumber.tsx",
+      "summary": "为低代码组件菜单中的 FromInputNumber 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFromInputNumber.tsx:IconFormInputNumber",
+      "type": "function",
+      "name": "IconFormInputNumber",
+      "filePath": "src/config/icons/IconFromInputNumber.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 FromInputNumber 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFunctionalTabs.tsx",
+      "type": "file",
+      "name": "IconFunctionalTabs.tsx",
+      "filePath": "src/config/icons/IconFunctionalTabs.tsx",
+      "summary": "为低代码组件菜单中的 FunctionalTabs 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFunctionalTabs.tsx:IconFunctionalTabs",
+      "type": "function",
+      "name": "IconFunctionalTabs",
+      "filePath": "src/config/icons/IconFunctionalTabs.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 FunctionalTabs 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFunnelChart.tsx",
+      "type": "file",
+      "name": "IconFunnelChart.tsx",
+      "filePath": "src/config/icons/IconFunnelChart.tsx",
+      "summary": "为低代码组件菜单中的 FunnelChart 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFunnelChart.tsx:IconFunnelChart",
+      "type": "function",
+      "name": "IconFunnelChart",
+      "filePath": "src/config/icons/IconFunnelChart.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 FunnelChart 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconGridForm.tsx",
+      "type": "file",
+      "name": "IconGridForm.tsx",
+      "filePath": "src/config/icons/IconGridForm.tsx",
+      "summary": "为低代码组件菜单中的 GridForm 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconGridForm.tsx:IconGridForm",
+      "type": "function",
+      "name": "IconGridForm",
+      "filePath": "src/config/icons/IconGridForm.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 GridForm 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconIFrame.tsx",
+      "type": "file",
+      "name": "IconIFrame.tsx",
+      "filePath": "src/config/icons/IconIFrame.tsx",
+      "summary": "为低代码组件菜单中的 IFrame 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconIFrame.tsx:IconIframe",
+      "type": "function",
+      "name": "IconIframe",
+      "filePath": "src/config/icons/IconIFrame.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 IFrame 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconImage.tsx",
+      "type": "file",
+      "name": "IconImage.tsx",
+      "filePath": "src/config/icons/IconImage.tsx",
+      "summary": "为低代码组件菜单中的 Image 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconImage.tsx:IconImage",
+      "type": "function",
+      "name": "IconImage",
+      "filePath": "src/config/icons/IconImage.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Image 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconJson.tsx",
+      "type": "file",
+      "name": "IconJson.tsx",
+      "filePath": "src/config/icons/IconJson.tsx",
+      "summary": "为低代码组件菜单中的 Json 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconJson.tsx:IconJson",
+      "type": "function",
+      "name": "IconJson",
+      "filePath": "src/config/icons/IconJson.tsx",
+      "lineRange": [
+        1,
+        12
+      ],
+      "summary": "渲染 Json 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconLineChart.tsx",
+      "type": "file",
+      "name": "IconLineChart.tsx",
+      "filePath": "src/config/icons/IconLineChart.tsx",
+      "summary": "为低代码组件菜单中的 LineChart 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconLineChart.tsx:IconLineChart",
+      "type": "function",
+      "name": "IconLineChart",
+      "filePath": "src/config/icons/IconLineChart.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 LineChart 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconLink.tsx",
+      "type": "file",
+      "name": "IconLink.tsx",
+      "filePath": "src/config/icons/IconLink.tsx",
+      "summary": "为低代码组件菜单中的 Link 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconLink.tsx:IconLink",
+      "type": "function",
+      "name": "IconLink",
+      "filePath": "src/config/icons/IconLink.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Link 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconList.tsx",
+      "type": "file",
+      "name": "IconList.tsx",
+      "filePath": "src/config/icons/IconList.tsx",
+      "summary": "为低代码组件菜单中的 List 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconList.tsx:IconList",
+      "type": "function",
+      "name": "IconList",
+      "filePath": "src/config/icons/IconList.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 List 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconMapChart.tsx",
+      "type": "file",
+      "name": "IconMapChart.tsx",
+      "filePath": "src/config/icons/IconMapChart.tsx",
+      "summary": "为低代码组件菜单中的 MapChart 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconMapChart.tsx:IconMapChart",
+      "type": "function",
+      "name": "IconMapChart",
+      "filePath": "src/config/icons/IconMapChart.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 MapChart 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconMenu.tsx",
+      "type": "file",
+      "name": "IconMenu.tsx",
+      "filePath": "src/config/icons/IconMenu.tsx",
+      "summary": "为低代码组件菜单中的 Menu 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconMenu.tsx:IconMenu",
+      "type": "function",
+      "name": "IconMenu",
+      "filePath": "src/config/icons/IconMenu.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Menu 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconPagination.tsx",
+      "type": "file",
+      "name": "IconPagination.tsx",
+      "filePath": "src/config/icons/IconPagination.tsx",
+      "summary": "为低代码组件菜单中的 Pagination 物料提供轻量 React 图标，作为组件分类和拖拽入口的视觉标识。",
+      "tags": [
+        "component",
+        "icon",
+        "component-menu"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconPagination.tsx:IconPagination",
+      "type": "function",
+      "name": "IconPagination",
+      "filePath": "src/config/icons/IconPagination.tsx",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "渲染 Pagination 物料在组件菜单中使用的图标。",
+      "tags": [
+        "component",
+        "icon",
+        "presentation"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/config/icons/IconFormTextArea.tsx",
+      "target": "function:src/config/icons/IconFormTextArea.tsx:IconFormTextArea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFormTextArea.tsx",
+      "target": "function:src/config/icons/IconFormTextArea.tsx:IconFormTextArea",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconFormTime.tsx",
+      "target": "function:src/config/icons/IconFormTime.tsx:IconTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFormTime.tsx",
+      "target": "function:src/config/icons/IconFormTime.tsx:IconTime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconFormTimePicker.tsx",
+      "target": "function:src/config/icons/IconFormTimePicker.tsx:IconFormTimepicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFormTimePicker.tsx",
+      "target": "function:src/config/icons/IconFormTimePicker.tsx:IconFormTimepicker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconFromInputNumber.tsx",
+      "target": "function:src/config/icons/IconFromInputNumber.tsx:IconFormInputNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFromInputNumber.tsx",
+      "target": "function:src/config/icons/IconFromInputNumber.tsx:IconFormInputNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconFunctionalTabs.tsx",
+      "target": "function:src/config/icons/IconFunctionalTabs.tsx:IconFunctionalTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFunctionalTabs.tsx",
+      "target": "function:src/config/icons/IconFunctionalTabs.tsx:IconFunctionalTabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconFunnelChart.tsx",
+      "target": "function:src/config/icons/IconFunnelChart.tsx:IconFunnelChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFunnelChart.tsx",
+      "target": "function:src/config/icons/IconFunnelChart.tsx:IconFunnelChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconGridForm.tsx",
+      "target": "function:src/config/icons/IconGridForm.tsx:IconGridForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconGridForm.tsx",
+      "target": "function:src/config/icons/IconGridForm.tsx:IconGridForm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconIFrame.tsx",
+      "target": "function:src/config/icons/IconIFrame.tsx:IconIframe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconIFrame.tsx",
+      "target": "function:src/config/icons/IconIFrame.tsx:IconIframe",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconImage.tsx",
+      "target": "function:src/config/icons/IconImage.tsx:IconImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconImage.tsx",
+      "target": "function:src/config/icons/IconImage.tsx:IconImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconJson.tsx",
+      "target": "function:src/config/icons/IconJson.tsx:IconJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconJson.tsx",
+      "target": "function:src/config/icons/IconJson.tsx:IconJson",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconLineChart.tsx",
+      "target": "function:src/config/icons/IconLineChart.tsx:IconLineChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconLineChart.tsx",
+      "target": "function:src/config/icons/IconLineChart.tsx:IconLineChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconLink.tsx",
+      "target": "function:src/config/icons/IconLink.tsx:IconLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconLink.tsx",
+      "target": "function:src/config/icons/IconLink.tsx:IconLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconList.tsx",
+      "target": "function:src/config/icons/IconList.tsx:IconList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconList.tsx",
+      "target": "function:src/config/icons/IconList.tsx:IconList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconMapChart.tsx",
+      "target": "function:src/config/icons/IconMapChart.tsx:IconMapChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconMapChart.tsx",
+      "target": "function:src/config/icons/IconMapChart.tsx:IconMapChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconMenu.tsx",
+      "target": "function:src/config/icons/IconMenu.tsx:IconMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconMenu.tsx",
+      "target": "function:src/config/icons/IconMenu.tsx:IconMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconPagination.tsx",
+      "target": "function:src/config/icons/IconPagination.tsx:IconPagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconPagination.tsx",
+      "target": "function:src/config/icons/IconPagination.tsx:IconPagination",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

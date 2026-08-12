@@ -1,0 +1,367 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "materials/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 26913,
+      "nonEmptyLines": 26913,
+      "sections": [
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "features",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "materials/EChart/MapChart/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 79,
+      "nonEmptyLines": 64,
+      "sections": [
+        {
+          "heading": "MapChart ECharts 按需加载说明",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "功能描述",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "实现原理",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "1. MapChart.tsx 改动",
+          "level": 3,
+          "line": 8
+        },
+        {
+          "heading": "2. NgapRender.tsx 改动",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "3. vite.config.ts 改动",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "验证步骤",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "1. 首屏加载测试",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "2. 按需加载测试",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "3. 性能对比",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "技术细节",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "动态导入实现",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "预加载触发条件",
+          "level": 3,
+          "line": 55
+        },
+        {
+          "heading": "打包配置",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "注意事项",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "扩展性",
+          "level": 2,
+          "line": 75
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "materials/FeedBack/Popover/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 154,
+      "nonEmptyLines": 136,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FeedBack/Spin/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/CheckBox/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 12,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/Counter/CounterDouble.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 54,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "CounterDouble",
+          "startLine": 9,
+          "endLine": 54,
+          "params": [
+            "{ labelSpan }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CounterDouble",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CounterDouble",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "change",
+          "callee": "setShow",
+          "lineNumber": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Counter/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 290,
+      "nonEmptyLines": 243,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/InputNumber/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/Radio/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/Slider/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 51,
+      "nonEmptyLines": 51,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/Transfer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 154,
+      "nonEmptyLines": 129,
+      "metrics": {}
+    },
+    {
+      "path": "materials/FormItems/Transfer/OperationsSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Transfer/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/TreeSelect/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 253,
+      "nonEmptyLines": 213,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Functional/Descriptions/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Functional/List/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Functional/Tabs/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 61,
+      "nonEmptyLines": 52,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Layout/BottomBanner/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 22,
+      "nonEmptyLines": 22,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Layout/Span/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 44,
+      "nonEmptyLines": 43,
+      "metrics": {}
+    },
+    {
+      "path": "materials/NgapRender/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 19,
+      "nonEmptyLines": 18,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Scene/BusinessTable/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 168,
+      "nonEmptyLines": 167,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Scene/NgapTable/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 126,
+      "nonEmptyLines": 126,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Scene/SearchForm/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "materials/typings.d.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/utils/crossAPI.d.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 59,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

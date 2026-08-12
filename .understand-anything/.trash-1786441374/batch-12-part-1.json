@@ -1,0 +1,1051 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "file",
+      "name": "CustomCalendarIcon.tsx",
+      "filePath": "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "summary": "该文件封装 CustomCalendarIcon 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "type": "file",
+      "name": "DatePicker.tsx",
+      "filePath": "src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "summary": "该文件封装 DatePicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "type": "function",
+      "name": "MDatePicker",
+      "filePath": "src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "lineRange": [
+        25,
+        117
+      ],
+      "summary": "MDatePicker 是该文件的核心 React 组件，负责封装 DatePicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "type": "file",
+      "name": "DatePickerRange.tsx",
+      "filePath": "src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "summary": "该文件封装 DatePickerRange 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "type": "function",
+      "name": "MDatePickerRange",
+      "filePath": "src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "lineRange": [
+        27,
+        159
+      ],
+      "summary": "MDatePickerRange 是该文件的核心 React 组件，负责封装 DatePickerRange 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "type": "file",
+      "name": "FormItem.tsx",
+      "filePath": "src/packages/FormItems/FormItem/FormItem.tsx",
+      "summary": "该文件封装 FormItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/FormItem/FormItem.tsx:MFormItem",
+      "type": "function",
+      "name": "MFormItem",
+      "filePath": "src/packages/FormItems/FormItem/FormItem.tsx",
+      "lineRange": [
+        25,
+        107
+      ],
+      "summary": "MFormItem 是该文件的核心 React 组件，负责封装 FormItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Input/Input.tsx",
+      "type": "file",
+      "name": "Input.tsx",
+      "filePath": "src/packages/FormItems/Input/Input.tsx",
+      "summary": "该文件封装 Input 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Input/Input.tsx:MInput",
+      "type": "function",
+      "name": "MInput",
+      "filePath": "src/packages/FormItems/Input/Input.tsx",
+      "lineRange": [
+        22,
+        104
+      ],
+      "summary": "MInput 是该文件的核心 React 组件，负责封装 Input 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "type": "file",
+      "name": "InputNumber.tsx",
+      "filePath": "src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "summary": "该文件封装 InputNumber 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/InputNumber/InputNumber.tsx:MInputNumber",
+      "type": "function",
+      "name": "MInputNumber",
+      "filePath": "src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "lineRange": [
+        31,
+        115
+      ],
+      "summary": "MInputNumber 是该文件的核心 React 组件，负责封装 InputNumber 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "type": "file",
+      "name": "InputPassword.tsx",
+      "filePath": "src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "summary": "该文件封装 InputPassword 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/InputPassword/InputPassword.tsx:MInputPassword",
+      "type": "function",
+      "name": "MInputPassword",
+      "filePath": "src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "lineRange": [
+        20,
+        88
+      ],
+      "summary": "MInputPassword 是该文件的核心 React 组件，负责封装 InputPassword 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Json/Json.tsx",
+      "type": "file",
+      "name": "Json.tsx",
+      "filePath": "src/packages/FormItems/Json/Json.tsx",
+      "summary": "该文件封装 Json 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Json/Json.tsx:JsonView",
+      "type": "function",
+      "name": "JsonView",
+      "filePath": "src/packages/FormItems/Json/Json.tsx",
+      "lineRange": [
+        25,
+        47
+      ],
+      "summary": "JsonView 将 JSON 数据转换为便于阅读的层级视图。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/FormItems/Json/Json.tsx:MJson",
+      "type": "function",
+      "name": "MJson",
+      "filePath": "src/packages/FormItems/Json/Json.tsx",
+      "lineRange": [
+        55,
+        137
+      ],
+      "summary": "MJson 是该文件的核心 React 组件，负责封装 Json 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "type": "file",
+      "name": "Radio.tsx",
+      "filePath": "src/packages/FormItems/Radio/Radio.tsx",
+      "summary": "该文件封装 Radio 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/FormItems/Radio/Radio.tsx:MRadio",
+      "type": "function",
+      "name": "MRadio",
+      "filePath": "src/packages/FormItems/Radio/Radio.tsx",
+      "lineRange": [
+        44,
+        288
+      ],
+      "summary": "MRadio 是该文件的核心 React 组件，负责封装 Radio 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Rate/Rate.tsx",
+      "type": "file",
+      "name": "Rate.tsx",
+      "filePath": "src/packages/FormItems/Rate/Rate.tsx",
+      "summary": "该文件封装 Rate 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Segmented/Segmented.tsx",
+      "type": "file",
+      "name": "Segmented.tsx",
+      "filePath": "src/packages/FormItems/Segmented/Segmented.tsx",
+      "summary": "该文件封装 Segmented 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Segmented/Segmented.tsx:MSegmented",
+      "type": "function",
+      "name": "MSegmented",
+      "filePath": "src/packages/FormItems/Segmented/Segmented.tsx",
+      "lineRange": [
+        19,
+        103
+      ],
+      "summary": "MSegmented 是该文件的核心 React 组件，负责封装 Segmented 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Select/Select.tsx",
+      "type": "file",
+      "name": "Select.tsx",
+      "filePath": "src/packages/FormItems/Select/Select.tsx",
+      "summary": "该文件封装 Select 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/FormItems/Select/Select.tsx:MSelect",
+      "type": "function",
+      "name": "MSelect",
+      "filePath": "src/packages/FormItems/Select/Select.tsx",
+      "lineRange": [
+        41,
+        210
+      ],
+      "summary": "MSelect 是该文件的核心 React 组件，负责封装 Select 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "type": "file",
+      "name": "StaticItem.tsx",
+      "filePath": "src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "summary": "该文件封装 StaticItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/StaticItem/StaticItem.tsx:StaticItem",
+      "type": "function",
+      "name": "StaticItem",
+      "filePath": "src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "lineRange": [
+        18,
+        60
+      ],
+      "summary": "StaticItem 是该文件的核心 React 组件，负责封装 StaticItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/FormItems/StaticItem/StaticItem.tsx:Label",
+      "type": "function",
+      "name": "Label",
+      "filePath": "src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "lineRange": [
+        63,
+        106
+      ],
+      "summary": "Label 渲染静态表单项的标签与提示信息。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "type": "file",
+      "name": "Switch.tsx",
+      "filePath": "src/packages/FormItems/Switch/Switch.tsx",
+      "summary": "该文件封装 Switch 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Switch/Switch.tsx:MSwitch",
+      "type": "function",
+      "name": "MSwitch",
+      "filePath": "src/packages/FormItems/Switch/Switch.tsx",
+      "lineRange": [
+        14,
+        76
+      ],
+      "summary": "MSwitch 是该文件的核心 React 组件，负责封装 Switch 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "type": "file",
+      "name": "TextArea.tsx",
+      "filePath": "src/packages/FormItems/TextArea/TextArea.tsx",
+      "summary": "该文件封装 TextArea 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/TextArea/TextArea.tsx:MTextArea",
+      "type": "function",
+      "name": "MTextArea",
+      "filePath": "src/packages/FormItems/TextArea/TextArea.tsx",
+      "lineRange": [
+        21,
+        87
+      ],
+      "summary": "MTextArea 是该文件的核心 React 组件，负责封装 TextArea 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "function:src/packages/FormItems/DatePicker/DatePicker.tsx:MDatePicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "function:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx:MDatePickerRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "function:src/packages/FormItems/FormItem/FormItem.tsx:MFormItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Input/Input.tsx",
+      "target": "function:src/packages/FormItems/Input/Input.tsx:MInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "function:src/packages/FormItems/InputNumber/InputNumber.tsx:MInputNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "target": "function:src/packages/FormItems/InputPassword/InputPassword.tsx:MInputPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Json.tsx",
+      "target": "function:src/packages/FormItems/Json/Json.tsx:JsonView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Json.tsx",
+      "target": "function:src/packages/FormItems/Json/Json.tsx:MJson",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "function:src/packages/FormItems/Radio/Radio.tsx:MRadio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/Segmented.tsx",
+      "target": "function:src/packages/FormItems/Segmented/Segmented.tsx:MSegmented",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "function:src/packages/FormItems/Select/Select.tsx:MSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "function:src/packages/FormItems/StaticItem/StaticItem.tsx:StaticItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "function:src/packages/FormItems/StaticItem/StaticItem.tsx:Label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "target": "function:src/packages/FormItems/Switch/Switch.tsx:MSwitch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "target": "function:src/packages/FormItems/TextArea/TextArea.tsx:MTextArea",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/FormItem/FormItem.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Input/Input.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Input/Input.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Input/Input.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:src/packages/FormItems/InputNumber/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Json.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Json.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Json.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/packages/FormItems/Radio/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/packages/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Radio.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Rate.tsx",
+      "target": "file:src/packages/components/IConSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Rate.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Rate.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Rate.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/Segmented.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/Segmented.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/Segmented.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/FormItems/CustomCalendarIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/FormItems/Select/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Select.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Switch/Switch.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/TextArea.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

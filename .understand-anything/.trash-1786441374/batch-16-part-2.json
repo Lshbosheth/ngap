@@ -1,0 +1,781 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "type": "file",
+      "name": "CrossAPIEventAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "summary": "实现跨应用 API 事件的复杂配置器，处理服务选择、参数映射、消息通信、接口试调和响应配置。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx:CrossAPIEventAction",
+      "type": "function",
+      "name": "CrossAPIEventAction",
+      "filePath": "src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "lineRange": [
+        31,
+        720
+      ],
+      "summary": "实现跨应用 API 事件的复杂配置器，处理服务选择、参数映射、消息通信、接口试调和响应配置；CrossAPIEventAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "type": "file",
+      "name": "DestroyPageAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "summary": "编辑销毁页面动作，配置运行时页面实例的关闭与清理行为。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/DestroyPageAction.tsx:DestroyPageAction",
+      "type": "function",
+      "name": "DestroyPageAction",
+      "filePath": "src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "lineRange": [
+        3,
+        16
+      ],
+      "summary": "编辑销毁页面动作，配置运行时页面实例的关闭与清理行为；DestroyPageAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "type": "file",
+      "name": "DisableAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "summary": "编辑组件禁用动作，选择目标组件并配置禁用或恢复状态。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/DisableAction.tsx:DisableAction",
+      "type": "function",
+      "name": "DisableAction",
+      "filePath": "src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "lineRange": [
+        11,
+        72
+      ],
+      "summary": "编辑组件禁用动作，选择目标组件并配置禁用或恢复状态；DisableAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/FormAction.tsx",
+      "type": "file",
+      "name": "FormAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/FormAction.tsx",
+      "summary": "编辑表单动作，配置目标表单及提交、重置或校验等操作。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/FormAction.tsx:FormAction",
+      "type": "function",
+      "name": "FormAction",
+      "filePath": "src/components/EventConfig/ActionModal/FormAction.tsx",
+      "lineRange": [
+        5,
+        44
+      ],
+      "summary": "编辑表单动作，配置目标表单及提交、重置或校验等操作；FormAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "type": "file",
+      "name": "GoldBankCheckAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "summary": "编辑金库校验动作，配置校验目标、接口来源及所需变量参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx:GoldBankCheckAction",
+      "type": "function",
+      "name": "GoldBankCheckAction",
+      "filePath": "src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "lineRange": [
+        13,
+        45
+      ],
+      "summary": "编辑金库校验动作，配置校验目标、接口来源及所需变量参数；GoldBankCheckAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "type": "file",
+      "name": "JumpLinkAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "summary": "编辑跳转链接动作，支持内部页面、外部地址、动态参数和打开方式配置。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/JumpLinkAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "lineRange": [
+        11,
+        327
+      ],
+      "summary": "编辑跳转链接动作，支持内部页面、外部地址、动态参数和打开方式配置；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "type": "file",
+      "name": "MessageAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "summary": "编辑消息提示动作，配置消息内容、类型和动态变量绑定。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/MessageAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "lineRange": [
+        4,
+        33
+      ],
+      "summary": "编辑消息提示动作，配置消息内容、类型和动态变量绑定；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "type": "file",
+      "name": "MessageChangeAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "summary": "编辑消息内容变更动作，配置目标消息组件及新的展示内容。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/MessageChangeAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "lineRange": [
+        6,
+        29
+      ],
+      "summary": "编辑消息内容变更动作，配置目标消息组件及新的展示内容；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "type": "file",
+      "name": "NotificationAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "summary": "编辑通知动作，配置通知标题、正文、状态类型和显示行为。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/NotificationAction.tsx:ShowConfirmModal",
+      "type": "function",
+      "name": "ShowConfirmModal",
+      "filePath": "src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "lineRange": [
+        7,
+        49
+      ],
+      "summary": "编辑通知动作，配置通知标题、正文、状态类型和显示行为；ShowConfirmModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "type": "file",
+      "name": "OpenDrawerAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "summary": "编辑打开抽屉动作，选择目标抽屉并配置打开时传递的参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx:OpenDrawerAction",
+      "type": "function",
+      "name": "OpenDrawerAction",
+      "filePath": "src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "lineRange": [
+        5,
+        46
+      ],
+      "summary": "编辑打开抽屉动作，选择目标抽屉并配置打开时传递的参数；OpenDrawerAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "type": "file",
+      "name": "OpenModalAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "summary": "编辑打开模态框动作，选择目标弹窗并配置打开时的参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/OpenModalAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "lineRange": [
+        5,
+        48
+      ],
+      "summary": "编辑打开模态框动作，选择目标弹窗并配置打开时的参数；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "type": "file",
+      "name": "OpenPopoverAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "summary": "编辑打开气泡卡片动作，选择目标组件并配置触发参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx:OpenPopoverAction",
+      "type": "function",
+      "name": "OpenPopoverAction",
+      "filePath": "src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "lineRange": [
+        5,
+        46
+      ],
+      "summary": "编辑打开气泡卡片动作，选择目标组件并配置触发参数；OpenPopoverAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "type": "file",
+      "name": "ReloadPageAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "summary": "编辑刷新页面动作，配置运行时重新加载当前页面的行为。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ReloadPageAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "lineRange": [
+        3,
+        13
+      ],
+      "summary": "编辑刷新页面动作，配置运行时重新加载当前页面的行为；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx:CrossAPIEventAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/DestroyPageAction.tsx:DestroyPageAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/DisableAction.tsx:DisableAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/FormAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/FormAction.tsx:FormAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx:GoldBankCheckAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/JumpLinkAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/MessageAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/MessageChangeAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/NotificationAction.tsx:ShowConfirmModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx:OpenDrawerAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/OpenModalAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx:OpenPopoverAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ReloadPageAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/utils/ProvinceIdCon.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/utils/useMessageListener.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/FormAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/FormAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx:CrossAPIEventAction",
+      "target": "function:src/stores/crossapiStore.ts:crossApiUserInfo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx:CrossAPIEventAction",
+      "target": "function:src/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx:CrossAPIEventAction",
+      "target": "function:src/utils/util.ts:baseApiConvert",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/DisableAction.tsx:DisableAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/FormAction.tsx:FormAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx:GoldBankCheckAction",
+      "target": "function:src/stores/crossapiStore.ts:crossApiUserInfo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/MessageChangeAction.tsx:OpenModalAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx:OpenDrawerAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/OpenModalAction.tsx:OpenModalAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx:OpenPopoverAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

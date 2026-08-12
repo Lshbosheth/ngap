@@ -1,0 +1,900 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "type": "file",
+      "name": "ColumnSetting.tsx",
+      "filePath": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "summary": "提供通用 NgapTable 列设置面板，编辑字段属性、显示格式、自定义渲染和汇总规则。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:AttrSetting",
+      "type": "function",
+      "name": "AttrSetting",
+      "filePath": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "lineRange": [
+        239,
+        310
+      ],
+      "summary": "提供通用 NgapTable 列设置面板，编辑字段属性、显示格式、自定义渲染和汇总规则；AttrSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:DisplaySetting",
+      "type": "function",
+      "name": "DisplaySetting",
+      "filePath": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "lineRange": [
+        313,
+        538
+      ],
+      "summary": "提供通用 NgapTable 列设置面板，编辑字段属性、显示格式、自定义渲染和汇总规则；DisplaySetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:CustomRender",
+      "type": "function",
+      "name": "CustomRender",
+      "filePath": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "lineRange": [
+        541,
+        735
+      ],
+      "summary": "提供通用 NgapTable 列设置面板，编辑字段属性、显示格式、自定义渲染和汇总规则；CustomRender 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:SummarySetting",
+      "type": "function",
+      "name": "SummarySetting",
+      "filePath": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "lineRange": [
+        738,
+        777
+      ],
+      "summary": "提供通用 NgapTable 列设置面板，编辑字段属性、显示格式、自定义渲染和汇总规则；SummarySetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "type": "file",
+      "name": "DragColumn.tsx",
+      "filePath": "src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "summary": "实现 NgapTable 列拖拽排序配置，并维护列项顺序和动态标题。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/NgapTable/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/NgapTable/Schema.tsx",
+      "summary": "定义 NgapTable 物料的设计态属性架构，组织数据源、列配置、批量操作和表格外观设置。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "type": "file",
+      "name": "TableSetting.tsx",
+      "filePath": "src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "summary": "提供 NgapTable 列管理入口，协调列设置、拖拽排序、远程字段加载与保存。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/SearchForm/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/SearchForm/Schema.tsx",
+      "summary": "定义搜索表单物料的设计态属性架构，配置表单布局、查询按钮、批量动作和展示行为。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "type": "file",
+      "name": "FunctionSetting.tsx",
+      "filePath": "src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "summary": "提供树组件函数脚本配置器，通过代码编辑器维护自定义节点处理逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/Tree/FunctionSetting.tsx:FunctionSetting",
+      "type": "function",
+      "name": "FunctionSetting",
+      "filePath": "src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "lineRange": [
+        7,
+        20
+      ],
+      "summary": "提供树组件函数脚本配置器，通过代码编辑器维护自定义节点处理逻辑；FunctionSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Tree/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Tree/Schema.tsx",
+      "summary": "定义树物料的设计态属性架构，组织数据源、字段映射、选择展开、事件和自定义函数配置。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Avatar/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Avatar/Schema.tsx",
+      "summary": "定义头像物料的设计态属性架构，配置图片、文字、尺寸、形状和交互动作。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "type": "file",
+      "name": "DataSetting.tsx",
+      "filePath": "src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "summary": "提供下载按钮请求数据配置器，编辑接口参数与变量绑定关系。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Basic/BownloadButton/DataSetting.tsx:DataSetting",
+      "type": "function",
+      "name": "DataSetting",
+      "filePath": "src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "lineRange": [
+        7,
+        35
+      ],
+      "summary": "提供下载按钮请求数据配置器，编辑接口参数与变量绑定关系；DataSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/BownloadButton/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/BownloadButton/Schema.tsx",
+      "summary": "定义下载按钮物料的设计态属性架构，组织接口数据、文件名、按钮外观和事件配置。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Drawer/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FeedBack/Drawer/Schema.tsx",
+      "summary": "定义抽屉物料的设计态属性架构，配置位置、尺寸、遮罩、标题、显隐和动作。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Modal/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FeedBack/Modal/Schema.tsx",
+      "summary": "定义模态框物料的设计态属性架构，配置标题、尺寸、按钮、遮罩、显隐和动作。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Result/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FeedBack/Result/Schema.tsx",
+      "summary": "定义结果反馈物料的设计态属性架构，配置状态、标题、说明、图标和操作区。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Spin/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FeedBack/Spin/Schema.tsx",
+      "summary": "定义加载状态物料的设计态属性架构，配置指示器、提示、尺寸和遮罩样式。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/StaticItem/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/StaticItem/Schema.tsx",
+      "summary": "定义静态表单项的设计态属性架构，配置字段来源、格式化、标签和只读展示样式。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "type": "file",
+      "name": "StaticSetting.tsx",
+      "filePath": "src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "summary": "提供静态表单项格式化脚本配置器，通过代码编辑器维护自定义展示逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/StaticItem/StaticSetting.tsx:StaticSetting",
+      "type": "function",
+      "name": "StaticSetting",
+      "filePath": "src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "lineRange": [
+        5,
+        55
+      ],
+      "summary": "提供静态表单项格式化脚本配置器，通过代码编辑器维护自定义展示逻辑；StaticSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/List/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Functional/List/Schema.tsx",
+      "summary": "定义列表物料的设计态属性架构，组织数据源、字段模板、分页、样式和项目事件。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "type": "file",
+      "name": "IFrameEventsSetting.tsx",
+      "filePath": "src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "summary": "提供 IFrame 消息事件配置器，管理接收消息条件、参数处理和对应动作流。",
+      "tags": [
+        "react-component",
+        "iframe",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "type": "file",
+      "name": "IframeParamsSetting.tsx",
+      "filePath": "src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "summary": "提供 IFrame 地址参数配置器，维护参数名、固定值和变量绑定映射。",
+      "tags": [
+        "react-component",
+        "iframe",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Other/IFrame/Schema.tsx",
+      "summary": "定义 IFrame 物料的设计态属性架构，组合地址、参数、跨窗口事件和展示样式设置。",
+      "tags": [
+        "component-schema",
+        "property-editor",
+        "low-code-designer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/iFrameSetting.tsx",
+      "type": "file",
+      "name": "iFrameSetting.tsx",
+      "filePath": "src/packages/Other/IFrame/iFrameSetting.tsx",
+      "summary": "提供 IFrame 地址与页面选择设置，支持远程页面查询、变量参数和嵌入方式配置。",
+      "tags": [
+        "react-component",
+        "iframe",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "summary": "提供引导式流程条件编辑弹窗，维护条件组、逻辑关系、字段运算符和值并回写分支配置。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx:ConditionModal",
+      "type": "function",
+      "name": "ConditionModal",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "lineRange": [
+        15,
+        324
+      ],
+      "summary": "提供引导式流程条件编辑弹窗，维护条件组、逻辑关系、字段运算符和值并回写分支配置；ConditionModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "summary": "实现引导式流程条件分支配置面板，管理自动、人工和变量分支的条件、接口及脚本规则。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 React 表单状态统一承载多种分支类型的条件配置，是引导式流程设计态的核心交互组件。"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "summary": "定义引导式流程条件配置的数据类型，包括条件项、条件组、运算关系和接口选项结构。",
+      "tags": [
+        "type-definition",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "summary": "提供条件分支接口树选择器，按接口分类展示可用服务并回传选中的接口节点。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx:InterfaceTreeSelect",
+      "type": "function",
+      "name": "InterfaceTreeSelect",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "lineRange": [
+        28,
+        123
+      ],
+      "summary": "提供条件分支接口树选择器，按接口分类展示可用服务并回传选中的接口节点；InterfaceTreeSelect 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "branch-config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/utils/ProvinceIdCon.ts",
+      "type": "file",
+      "name": "ProvinceIdCon.ts",
+      "filePath": "src/utils/ProvinceIdCon.ts",
+      "summary": "提供行政区划编码转换数据与工具，将八位地区编码映射为三位平台编码。",
+      "tags": [
+        "utility",
+        "code-conversion",
+        "region-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "function",
+      "name": "proid8to3",
+      "filePath": "src/utils/ProvinceIdCon.ts",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "把八位行政区划编码转换为平台使用的三位编码。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:AttrSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:DisplaySetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:CustomRender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:SummarySetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "target": "function:src/packages/Advanced/Tree/FunctionSetting.tsx:FunctionSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "target": "function:src/packages/Advanced/Tree/FunctionSetting.tsx:FunctionSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "target": "function:src/packages/Basic/BownloadButton/DataSetting.tsx:DataSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "target": "function:src/packages/FormItems/StaticItem/StaticSetting.tsx:StaticSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx:ConditionModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx:InterfaceTreeSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/ProvinceIdCon.ts",
+      "target": "function:src/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/ProvinceIdCon.ts",
+      "target": "function:src/utils/ProvinceIdCon.ts:proid8to3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/Schema.tsx",
+      "target": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "target": "file:src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "target": "file:src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Schema.tsx",
+      "target": "file:src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Avatar/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/Schema.tsx",
+      "target": "file:src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Result/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Spin/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/Schema.tsx",
+      "target": "file:src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/List/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/Schema.tsx",
+      "target": "file:src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/Schema.tsx",
+      "target": "file:src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/Schema.tsx",
+      "target": "file:src/packages/Other/IFrame/iFrameSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/iFrameSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/iFrameSetting.tsx",
+      "target": "file:src/packages/Other/IFrame/iFramecss.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/iFrameSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/packages/Advanced/NgapTable/ColumnSetting.tsx:DisplaySetting",
+      "target": "function:src/utils/util.ts:createId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

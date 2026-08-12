@@ -1,0 +1,554 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "type": "file",
+      "name": "CheckableTagGroup.tsx",
+      "filePath": "src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "summary": "实现可选标签组物料，维护单选或多选值、样式状态和选择事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/CheckableTagGroup/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/CheckableTagGroup/Schema.tsx",
+      "summary": "声明可选标签组物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/CollapseBtn/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/CollapseBtn/index.module.less",
+      "summary": "定义折叠按钮相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/CollapseBtn/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/CollapseBtn/Schema.ts",
+      "summary": "声明折叠按钮物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Icon/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Icon/Schema.tsx",
+      "summary": "声明图标物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Image/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/Image/Schema.ts",
+      "summary": "声明图片物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/CascadeSelect/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/Link/CascadeSelect/index.module.less",
+      "summary": "定义CascadeSelect相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/Linkcss.css",
+      "type": "file",
+      "name": "Linkcss.css",
+      "filePath": "src/packages/Basic/Link/Linkcss.css",
+      "summary": "定义链接相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "css",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Tag/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Tag/Schema.tsx",
+      "summary": "声明标签物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Text/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/Text/index.module.less",
+      "summary": "定义文本相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Timer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/Timer/index.module.less",
+      "summary": "定义计时器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Timer/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/Timer/Schema.ts",
+      "summary": "声明计时器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Video/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/Video/index.module.less",
+      "summary": "定义视频相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Video/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/Video/Schema.ts",
+      "summary": "声明视频物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Watermark/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Watermark/Schema.tsx",
+      "summary": "声明水印物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/components/ColorPicker/ColorPicker.tsx",
+      "type": "file",
+      "name": "ColorPicker.tsx",
+      "filePath": "src/packages/components/ColorPicker/ColorPicker.tsx",
+      "summary": "实现物料属性面板使用的颜色选择控件，支持受控值、预设、清空和颜色字符串转换。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "type": "file",
+      "name": "ColorPickerSetting.tsx",
+      "filePath": "src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "summary": "把通用颜色选择控件绑定到指定属性表单字段。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/ColorPicker/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/components/ColorPicker/index.less",
+      "summary": "定义颜色选择相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/DynamicItemSetting/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/components/DynamicItemSetting/index.module.less",
+      "summary": "定义DynamicItemSetting相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/icon-select/IconSelect.tsx",
+      "type": "file",
+      "name": "IconSelect.tsx",
+      "filePath": "src/packages/components/icon-select/IconSelect.tsx",
+      "summary": "实现图标选择器，以弹层网格展示候选图标并回传当前选择。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/components/icon-select/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/components/icon-select/index.less",
+      "summary": "定义icon-select相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/timeline-node-config/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/components/timeline-node-config/index.less",
+      "summary": "定义timeline-node-config相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "type": "file",
+      "name": "TimelineConfig.tsx",
+      "filePath": "src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "summary": "实现时间线节点集合编辑器，维护节点标题、内容、颜色、图标及增删排序。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "type": "file",
+      "name": "TimelineSetting.tsx",
+      "filePath": "src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "summary": "把时间线节点编辑器绑定到属性表单中的指定字段。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/Card/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/Container/Card/index.less",
+      "summary": "定义卡片容器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "type": "function",
+      "name": "MCheckableTagGroup",
+      "filePath": "src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "lineRange": [
+        24,
+        161
+      ],
+      "summary": "渲染可选标签集合并维护选择值。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/components/ColorPicker/ColorPicker.tsx:ColorPicker",
+      "type": "function",
+      "name": "ColorPicker",
+      "filePath": "src/packages/components/ColorPicker/ColorPicker.tsx",
+      "lineRange": [
+        14,
+        59
+      ],
+      "summary": "渲染颜色选择器并输出标准颜色字符串。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/components/ColorPicker/ColorPickerSetting.tsx:ColorPickerSetting",
+      "type": "function",
+      "name": "ColorPickerSetting",
+      "filePath": "src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "lineRange": [
+        5,
+        12
+      ],
+      "summary": "把颜色选择器绑定到属性表单字段。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/components/icon-select/IconSelect.tsx:IconSelect",
+      "type": "function",
+      "name": "IconSelect",
+      "filePath": "src/packages/components/icon-select/IconSelect.tsx",
+      "lineRange": [
+        13,
+        98
+      ],
+      "summary": "渲染图标选择弹层并回传选中图标。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/components/timeline-node-config/TimelineConfig.tsx:TimelineNodeConfig",
+      "type": "function",
+      "name": "TimelineNodeConfig",
+      "filePath": "src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "lineRange": [
+        14,
+        89
+      ],
+      "summary": "渲染时间线节点集合编辑器。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/components/timeline-node-config/TimelineSetting.tsx:TimelineSetting",
+      "type": "function",
+      "name": "TimelineSetting",
+      "filePath": "src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "lineRange": [
+        5,
+        12
+      ],
+      "summary": "把时间线节点配置绑定到属性表单。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "target": "function:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "target": "function:src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx:MCheckableTagGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/components/ColorPicker/ColorPicker.tsx",
+      "target": "file:src/packages/components/ColorPicker/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/ColorPicker/ColorPicker.tsx",
+      "target": "function:src/packages/components/ColorPicker/ColorPicker.tsx:ColorPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/ColorPicker/ColorPicker.tsx",
+      "target": "function:src/packages/components/ColorPicker/ColorPicker.tsx:ColorPicker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "target": "function:src/packages/components/ColorPicker/ColorPickerSetting.tsx:ColorPickerSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "target": "function:src/packages/components/ColorPicker/ColorPickerSetting.tsx:ColorPickerSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/components/icon-select/IconSelect.tsx",
+      "target": "file:src/packages/components/icon-select/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/icon-select/IconSelect.tsx",
+      "target": "function:src/packages/components/icon-select/IconSelect.tsx:IconSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/icon-select/IconSelect.tsx",
+      "target": "function:src/packages/components/icon-select/IconSelect.tsx:IconSelect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "target": "file:src/packages/components/timeline-node-config/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "target": "function:src/packages/components/timeline-node-config/TimelineConfig.tsx:TimelineNodeConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "target": "function:src/packages/components/timeline-node-config/TimelineConfig.tsx:TimelineNodeConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "target": "function:src/packages/components/timeline-node-config/TimelineSetting.tsx:TimelineSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "target": "function:src/packages/components/timeline-node-config/TimelineSetting.tsx:TimelineSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

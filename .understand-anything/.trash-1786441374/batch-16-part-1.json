@@ -1,0 +1,883 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "type": "file",
+      "name": "ApiConfig.tsx",
+      "filePath": "src/components/ApiConfig/ApiConfig.tsx",
+      "summary": "提供接口配置主编辑器，组织接口选择、请求参数、响应处理和高级设置，并与接口列表状态及变量绑定能力联动。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/ApiConfig/ApiConfig.tsx:ApiConfigComponent",
+      "type": "function",
+      "name": "ApiConfigComponent",
+      "filePath": "src/components/ApiConfig/ApiConfig.tsx",
+      "lineRange": [
+        12,
+        190
+      ],
+      "summary": "实现接口配置器主体，协调接口定义、参数编辑、高级设置和配置值回写。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ApiConfig/ApiConfig.tsx:ApiInput",
+      "type": "function",
+      "name": "ApiInput",
+      "filePath": "src/components/ApiConfig/ApiConfig.tsx",
+      "lineRange": [
+        195,
+        213
+      ],
+      "summary": "渲染接口选择输入区域并负责打开接口配置入口。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/BaseSetting.tsx",
+      "type": "file",
+      "name": "BaseSetting.tsx",
+      "filePath": "src/components/ApiConfig/components/BaseSetting.tsx",
+      "summary": "实现接口基础设置表单，编辑请求地址、方法、参数和认证等通用接口属性。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/BaseSetting.tsx:SettingForm",
+      "type": "function",
+      "name": "SettingForm",
+      "filePath": "src/components/ApiConfig/components/BaseSetting.tsx",
+      "lineRange": [
+        5,
+        133
+      ],
+      "summary": "实现接口基础设置表单，编辑请求地址、方法、参数和认证等通用接口属性；SettingForm 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/HttpSetting.tsx",
+      "type": "file",
+      "name": "HttpSetting.tsx",
+      "filePath": "src/components/ApiConfig/components/HttpSetting.tsx",
+      "summary": "实现 HTTP 请求高级设置，配置请求头、请求体及可脚本化的请求内容。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/HttpSetting.tsx:SettingForm",
+      "type": "function",
+      "name": "SettingForm",
+      "filePath": "src/components/ApiConfig/components/HttpSetting.tsx",
+      "lineRange": [
+        6,
+        49
+      ],
+      "summary": "实现 HTTP 请求高级设置，配置请求头、请求体及可脚本化的请求内容；SettingForm 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/InterceptorModal.tsx",
+      "type": "file",
+      "name": "InterceptorModal.tsx",
+      "filePath": "src/components/ApiConfig/components/InterceptorModal.tsx",
+      "summary": "提供接口拦截器配置弹窗，编辑请求前后处理设置并保存到接口定义。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/InterceptorModal.tsx:InterceptorModal",
+      "type": "function",
+      "name": "InterceptorModal",
+      "filePath": "src/components/ApiConfig/components/InterceptorModal.tsx",
+      "lineRange": [
+        11,
+        76
+      ],
+      "summary": "提供接口拦截器配置弹窗，编辑请求前后处理设置并保存到接口定义；InterceptorModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/ReturnStructure.tsx",
+      "type": "file",
+      "name": "ReturnStructure.tsx",
+      "filePath": "src/components/ApiConfig/components/ReturnStructure.tsx",
+      "summary": "展示接口返回结构的配置区域，帮助编辑器维护响应字段结构。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/ReturnStructure.tsx:ReturnStructure",
+      "type": "function",
+      "name": "ReturnStructure",
+      "filePath": "src/components/ApiConfig/components/ReturnStructure.tsx",
+      "lineRange": [
+        3,
+        24
+      ],
+      "summary": "展示接口返回结构的配置区域，帮助编辑器维护响应字段结构；ReturnStructure 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/ReturnTips.tsx",
+      "type": "file",
+      "name": "ReturnTips.tsx",
+      "filePath": "src/components/ApiConfig/components/ReturnTips.tsx",
+      "summary": "展示接口返回值配置提示，说明响应结构和字段绑定的使用方式。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/ReturnTips.tsx:ReturnTips",
+      "type": "function",
+      "name": "ReturnTips",
+      "filePath": "src/components/ApiConfig/components/ReturnTips.tsx",
+      "lineRange": [
+        2,
+        29
+      ],
+      "summary": "展示接口返回值配置提示，说明响应结构和字段绑定的使用方式；ReturnTips 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "type": "file",
+      "name": "SettingModal.tsx",
+      "filePath": "src/components/ApiConfig/components/SettingModal.tsx",
+      "summary": "提供接口详细设置弹窗，组合基础设置、返回结构和提示信息并完成配置校验与提交。",
+      "tags": [
+        "react-component",
+        "api-configuration",
+        "editor-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ApiConfig/components/SettingModal.tsx:SettingModal",
+      "type": "function",
+      "name": "SettingModal",
+      "filePath": "src/components/ApiConfig/components/SettingModal.tsx",
+      "lineRange": [
+        15,
+        114
+      ],
+      "summary": "提供接口详细设置弹窗，组合基础设置、返回结构和提示信息并完成配置校验与提交；SettingModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/BulkAction/ActionButtonModal.tsx",
+      "type": "file",
+      "name": "ActionButtonModal.tsx",
+      "filePath": "src/components/BulkAction/ActionButtonModal.tsx",
+      "summary": "实现批量操作按钮配置弹窗，编辑按钮文案、样式、权限与动作参数。",
+      "tags": [
+        "react-component",
+        "bulk-action",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "file",
+      "name": "ActionSetting.tsx",
+      "filePath": "src/components/BulkAction/ActionSetting.tsx",
+      "summary": "实现批量操作列表编辑器，管理多个操作按钮的新增、排序、修改和删除。",
+      "tags": [
+        "react-component",
+        "bulk-action",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "type": "file",
+      "name": "ActionModal.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "summary": "提供事件动作总配置弹窗，根据动作类型分派各类编辑器并统一管理动作数据、校验和保存。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ActionModal.tsx:ActionModal",
+      "type": "function",
+      "name": "ActionModal",
+      "filePath": "src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "lineRange": [
+        44,
+        510
+      ],
+      "summary": "提供事件动作总配置弹窗，根据动作类型分派各类编辑器并统一管理动作数据、校验和保存；ActionModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "type": "file",
+      "name": "ClosePopoverAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "summary": "编辑关闭气泡卡片动作，配置目标组件及关闭行为参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx:ClosePopoverAction",
+      "type": "function",
+      "name": "ClosePopoverAction",
+      "filePath": "src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "lineRange": [
+        5,
+        38
+      ],
+      "summary": "编辑关闭气泡卡片动作，配置目标组件及关闭行为参数；ClosePopoverAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "type": "file",
+      "name": "CopyAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "summary": "编辑复制动作，配置需要写入剪贴板的固定值或动态表达式。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/CopyAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "lineRange": [
+        3,
+        16
+      ],
+      "summary": "编辑复制动作，配置需要写入剪贴板的固定值或动态表达式；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "type": "file",
+      "name": "CreateNodeAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "summary": "编辑创建节点动作，配置节点来源及创建时使用的变量参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/CreateNodeAction.tsx:CreateNodeAction",
+      "type": "function",
+      "name": "CreateNodeAction",
+      "filePath": "src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "lineRange": [
+        5,
+        34
+      ],
+      "summary": "编辑创建节点动作，配置节点来源及创建时使用的变量参数；CreateNodeAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "function:src/components/ApiConfig/ApiConfig.tsx:ApiConfigComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "function:src/components/ApiConfig/ApiConfig.tsx:ApiInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/BaseSetting.tsx",
+      "target": "function:src/components/ApiConfig/components/BaseSetting.tsx:SettingForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/HttpSetting.tsx",
+      "target": "function:src/components/ApiConfig/components/HttpSetting.tsx:SettingForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/InterceptorModal.tsx",
+      "target": "function:src/components/ApiConfig/components/InterceptorModal.tsx:InterceptorModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/ReturnStructure.tsx",
+      "target": "function:src/components/ApiConfig/components/ReturnStructure.tsx:ReturnStructure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/ReturnTips.tsx",
+      "target": "function:src/components/ApiConfig/components/ReturnTips.tsx:ReturnTips",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "function:src/components/ApiConfig/components/SettingModal.tsx:SettingModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ActionModal.tsx:ActionModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx:ClosePopoverAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/CopyAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/CreateNodeAction.tsx:CreateNodeAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/components/ApiConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/ApiConfig.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/BaseSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/HttpSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/HttpSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/InterceptorModal.tsx",
+      "target": "file:src/components/ApiConfig/components/HttpSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/InterceptorModal.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "file:src/components/ApiConfig/components/BaseSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "file:src/components/ApiConfig/components/ReturnStructure.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "file:src/components/ApiConfig/components/ReturnTips.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionButtonModal.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionButtonModal.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionSetting.tsx",
+      "target": "file:src/components/BulkAction/ActionButtonModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionSetting.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/BulkAction/ActionSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/FormAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/SendParams.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/components/ApiConfig/ApiConfig.tsx:ApiConfigComponent",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/ApiConfig/ApiConfig.tsx:ApiInput",
+      "target": "function:src/stores/apiListStore.ts:apiListInfo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/ApiConfig/components/InterceptorModal.tsx:InterceptorModal",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/ApiConfig/components/SettingModal.tsx:SettingModal",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/ActionModal.tsx:ActionModal",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/ClosePopoverAction.tsx:ClosePopoverAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

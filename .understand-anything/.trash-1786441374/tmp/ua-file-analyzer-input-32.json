@@ -1,0 +1,56 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "language": "css",
+      "sizeLines": 260,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/appDetail.less",
+      "language": "css",
+      "sizeLines": 128,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/appList.less",
+      "language": "css",
+      "sizeLines": 132,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/backrelation.less",
+      "language": "css",
+      "sizeLines": 53,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/index.module.less",
+      "language": "css",
+      "sizeLines": 276,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/upcheckty.less",
+      "language": "css",
+      "sizeLines": 62,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationList/versionHost.less",
+      "language": "css",
+      "sizeLines": 35,
+      "fileCategory": "markup"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/applicationList/SubmitReviewDrawer.module.less": [],
+    "src/pages/applicationList/appDetail.less": [],
+    "src/pages/applicationList/appList.less": [],
+    "src/pages/applicationList/backrelation.less": [],
+    "src/pages/applicationList/index.module.less": [],
+    "src/pages/applicationList/upcheckty.less": [],
+    "src/pages/applicationList/versionHost.less": []
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/components/ColorPicker.tsx",
+      "language": "typescript",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/InputSelect/InputSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/SetterRender/SetterRender.tsx",
+      "language": "typescript",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/BackgroundImage.tsx",
+      "language": "typescript",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/BackgroundSize.tsx",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/DirectionInput.tsx",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/FlexStyle.tsx",
+      "language": "typescript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/InputPx.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/MarginInput.tsx",
+      "language": "typescript",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/PaddingInput.tsx",
+      "language": "typescript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/Shadow.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/StyleConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 495,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/TitleStyle.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Pagination/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 148,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Pagination/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Progress/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 212,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Statistic/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Text/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Text/TextEventsSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Title/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/BarAndLine/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 357,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/BarChart/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/ColumnChart/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/LineChart/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/MapChart/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/PieChart/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/components/ColorSet.tsx",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/components/RadiusSet.tsx",
+      "language": "typescript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/KeySetting.tsx",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/OperationStyleSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/OperationsSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/TextSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/components/ColorPicker.tsx": [],
+    "src/components/InputSelect/InputSelect.tsx": [],
+    "src/components/SetterRender/SetterRender.tsx": [
+      "src/components/ColorPicker.tsx",
+      "src/components/InputSelect/InputSelect.tsx",
+      "src/components/SetterRender/index.module.less",
+      "src/components/StyleConfig/InputPx.tsx",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/packages/types/index.ts"
+    ],
+    "src/components/StyleConfig/BackgroundImage.tsx": [],
+    "src/components/StyleConfig/BackgroundSize.tsx": [
+      "src/components/StyleConfig/InputPx.tsx"
+    ],
+    "src/components/StyleConfig/DirectionInput.tsx": [
+      "src/components/StyleConfig/index.module.less"
+    ],
+    "src/components/StyleConfig/FlexStyle.tsx": [],
+    "src/components/StyleConfig/InputPx.tsx": [],
+    "src/components/StyleConfig/MarginInput.tsx": [
+      "src/components/StyleConfig/InputPx.tsx"
+    ],
+    "src/components/StyleConfig/PaddingInput.tsx": [
+      "src/components/StyleConfig/InputPx.tsx"
+    ],
+    "src/components/StyleConfig/Shadow.tsx": [
+      "src/components/ColorPicker.tsx"
+    ],
+    "src/components/StyleConfig/StyleConfig.tsx": [
+      "src/components/ColorPicker.tsx",
+      "src/components/StyleConfig/BackgroundImage.tsx",
+      "src/components/StyleConfig/BackgroundSize.tsx",
+      "src/components/StyleConfig/DirectionInput.tsx",
+      "src/components/StyleConfig/FlexStyle.tsx",
+      "src/components/StyleConfig/index.module.less",
+      "src/components/StyleConfig/InputPx.tsx",
+      "src/components/StyleConfig/Shadow.tsx",
+      "src/components/StyleConfig/TitleStyle.tsx",
+      "src/components/VsEditor.tsx",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/components/StyleConfig/TitleStyle.tsx": [
+      "src/components/StyleConfig/index.module.less"
+    ],
+    "src/packages/Advanced/Pagination/Schema.tsx": [
+      "src/packages/Advanced/Pagination/ShowNumberSetting.tsx",
+      "src/packages/components/TextSetting.tsx"
+    ],
+    "src/packages/Advanced/Pagination/ShowNumberSetting.tsx": [],
+    "src/packages/Advanced/Progress/Schema.tsx": [
+      "src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "src/packages/components/TextSetting.tsx"
+    ],
+    "src/packages/Advanced/Progress/StrokeColorSetting.tsx": [
+      "src/components/ColorPicker.tsx"
+    ],
+    "src/packages/Basic/Statistic/Schema.tsx": [
+      "src/packages/components/TextSetting.tsx"
+    ],
+    "src/packages/Basic/Text/Schema.tsx": [
+      "src/packages/Basic/Text/TextEventsSetting.tsx",
+      "src/packages/components/TextSetting.tsx"
+    ],
+    "src/packages/Basic/Text/TextEventsSetting.tsx": [
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Title/Schema.tsx": [
+      "src/packages/components/TextSetting.tsx"
+    ],
+    "src/packages/EChart/BarAndLine/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx",
+      "src/packages/EChart/components/RadiusSet.tsx"
+    ],
+    "src/packages/EChart/BarChart/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx",
+      "src/packages/EChart/components/RadiusSet.tsx"
+    ],
+    "src/packages/EChart/ColumnChart/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx",
+      "src/packages/EChart/components/RadiusSet.tsx"
+    ],
+    "src/packages/EChart/LineChart/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx"
+    ],
+    "src/packages/EChart/MapChart/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx"
+    ],
+    "src/packages/EChart/PieChart/Schema.tsx": [
+      "src/packages/EChart/components/ColorSet.tsx"
+    ],
+    "src/packages/EChart/components/ColorSet.tsx": [
+      "src/components/ColorPicker.tsx"
+    ],
+    "src/packages/EChart/components/RadiusSet.tsx": [],
+    "src/packages/FormItems/Transfer/KeySetting.tsx": [],
+    "src/packages/FormItems/Transfer/OperationStyleSetting.tsx": [],
+    "src/packages/FormItems/Transfer/OperationsSetting.tsx": [],
+    "src/packages/FormItems/Transfer/Schema.tsx": [
+      "src/packages/components/TextSetting.tsx",
+      "src/packages/FormItems/Transfer/KeySetting.tsx",
+      "src/packages/FormItems/Transfer/OperationsSetting.tsx",
+      "src/packages/FormItems/Transfer/OperationStyleSetting.tsx"
+    ],
+    "src/packages/components/TextSetting.tsx": [
+      "src/components/VsEditor.tsx"
+    ]
+  }
+}

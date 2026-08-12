@@ -1,0 +1,380 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/applicationList/backrelation.tsx",
+      "language": "typescript",
+      "sizeLines": 506,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/index.tsx",
+      "language": "typescript",
+      "sizeLines": 2291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/upcheckty.tsx",
+      "language": "typescript",
+      "sizeLines": 991,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationList/versionHost.tsx",
+      "language": "typescript",
+      "sizeLines": 174,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationMap/index.tsx",
+      "language": "typescript",
+      "sizeLines": 1258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "language": "typescript",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "language": "typescript",
+      "sizeLines": 781,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "language": "typescript",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "language": "typescript",
+      "sizeLines": 755,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appCategory/index.tsx",
+      "language": "typescript",
+      "sizeLines": 481,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "language": "typescript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appTempCont.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "language": "typescript",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/index.tsx",
+      "language": "typescript",
+      "sizeLines": 344,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "language": "typescript",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "language": "typescript",
+      "sizeLines": 1246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "language": "typescript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "language": "typescript",
+      "sizeLines": 426,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "language": "typescript",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "language": "typescript",
+      "sizeLines": 443,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "language": "typescript",
+      "sizeLines": 369,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "language": "typescript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/index.tsx",
+      "language": "typescript",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/searchCont/index.tsx",
+      "language": "typescript",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx",
+      "language": "typescript",
+      "sizeLines": 370,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "language": "typescript",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "language": "typescript",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/businessComponentManage/searchResultModuleList/index.tsx",
+      "language": "typescript",
+      "sizeLines": 512,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/canvasEditingComponent/index.tsx",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/editor/topbar/TopBar.tsx",
+      "language": "typescript",
+      "sizeLines": 438,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/applicationList/backrelation.tsx": [
+      "src/pages/applicationList/backrelation.less",
+      "src/pages/applicationList/OffshelfModal.tsx",
+      "src/pages/applicationList/versionHost.tsx",
+      "src/utils/appMenuData.ts",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/applicationList/index.tsx": [
+      "src/config/permissionConfig.ts",
+      "src/pages/applicationList/AppDetail.tsx",
+      "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "src/pages/applicationList/appList.less",
+      "src/pages/applicationList/backrelation.tsx",
+      "src/pages/applicationList/index.module.less",
+      "src/pages/applicationList/OffshelfModal.tsx",
+      "src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "src/pages/applicationList/upcheckty.tsx",
+      "src/utils/appMenuData.ts",
+      "src/utils/crossAPI.js",
+      "src/utils/operLog.ts",
+      "src/utils/util.ts"
+    ],
+    "src/pages/applicationList/upcheckty.tsx": [
+      "src/pages/applicationList/upcheckty.less",
+      "src/utils/util.ts"
+    ],
+    "src/pages/applicationList/versionHost.tsx": [
+      "src/pages/applicationList/upcheckty.tsx",
+      "src/pages/applicationList/versionHost.less"
+    ],
+    "src/pages/applicationMap/index.tsx": [
+      "src/pages/applicationMap/index.module.less",
+      "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "src/stores/menuStore.ts"
+    ],
+    "src/pages/applicationOrchestration/CascadeSelect/index.tsx": [
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/CascadeSelect/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/CascadeSelects/index.tsx": [
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/CascadeSelects/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx": [
+      "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx": [
+      "src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "src/pages/applicationOrchestration/appCategory/index.tsx",
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "src/utils/appMenuData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/applicationOrchestration/appCategory/index.tsx": [
+      "src/pages/applicationOrchestration/appCategory/index.module.less",
+      "src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/applicationOrchestration/appOrchestrationTypes.ts": [],
+    "src/pages/applicationOrchestration/appTempCont.tsx": [
+      "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/index.module.less"
+    ],
+    "src/pages/applicationOrchestration/appTypeManageDialog/index.tsx": [
+      "src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/applicationOrchestration/index.tsx": [
+      "src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/appTempCont.tsx",
+      "src/pages/applicationOrchestration/index.module.less",
+      "src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "src/utils/objectToFormData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/applicationOrchestration/orchestrationFrom.tsx": [
+      "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/index.module.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx": [
+      "src/layout/Preview/Preview.tsx",
+      "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/businessComponentManage/businessComponentMangeTypes.ts": [],
+    "src/pages/businessComponentManage/businessComponentPreview/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/businessComponentPreview/index.module.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx",
+      "src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx": [
+      "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.tsx",
+      "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/businessComponentManage/componentTemplateChoose/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx",
+      "src/utils/appMenuData.ts",
+      "src/utils/objectToFormData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/businessComponentManage/componentTemplateChoose/tempCont.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "src/pages/businessComponentManage/componentTemplateChoose/index.module.less"
+    ],
+    "src/pages/businessComponentManage/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/componentTemplateChoose/index.tsx",
+      "src/pages/businessComponentManage/index.less",
+      "src/pages/businessComponentManage/searchCont/index.tsx",
+      "src/pages/businessComponentManage/searchResultModuleCard/index.tsx",
+      "src/pages/businessComponentManage/searchResultModuleList/index.tsx"
+    ],
+    "src/pages/businessComponentManage/searchCont/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/index.less",
+      "src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx"
+    ],
+    "src/pages/businessComponentManage/searchCont/otherFiltersCont.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/index.less",
+      "src/utils/appMenuData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "src/pages/businessComponentManage/index.less",
+      "src/utils/appMenuData.ts"
+    ],
+    "src/pages/businessComponentManage/searchResultModuleCard/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/index.less",
+      "src/pages/businessComponentManage/searchResultModuleCard/componentCard.tsx",
+      "src/utils/objectToFormData.ts",
+      "src/utils/operLog.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/businessComponentManage/searchResultModuleList/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts",
+      "src/pages/businessComponentManage/businessComponentPreview/index.tsx",
+      "src/pages/businessComponentManage/index.less",
+      "src/utils/appMenuData.ts",
+      "src/utils/objectToFormData.ts",
+      "src/utils/operLog.ts",
+      "src/utils/request.ts"
+    ],
+    "src/pages/canvasEditingComponent/index.tsx": [
+      "src/pages/businessComponentManage/businessComponentMangeTypes.ts"
+    ],
+    "src/pages/editor/topbar/TopBar.tsx": [
+      "src/pages/businessComponentManage/componentTemplateChoose/addBusponentTemp.tsx",
+      "src/pages/editor/topbar/index.module.less",
+      "src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/operLog.ts",
+      "src/utils/request.ts"
+    ]
+  }
+}

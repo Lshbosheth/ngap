@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.it.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.ja.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.ko.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.ru.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.zh-cn.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.zh-tw.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/css/cssMode.js",
+      "language": "javascript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/css/cssWorker.js",
+      "language": "javascript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/html/htmlMode.js",
+      "language": "javascript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/html/htmlWorker.js",
+      "language": "javascript",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/json/jsonMode.js",
+      "language": "javascript",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/json/jsonWorker.js",
+      "language": "javascript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/typescript/tsMode.js",
+      "language": "javascript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/language/typescript/tsWorker.js",
+      "language": "javascript",
+      "sizeLines": 33970,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/loader.js",
+      "language": "javascript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/base/worker/workerMain.js",
+      "language": "javascript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/abap/abap.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/apex/apex.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/azcli/azcli.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/bat/bat.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/bicep/bicep.js",
+      "language": "javascript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/cameligo/cameligo.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/clojure/clojure.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/coffee/coffee.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "public/static/monaco-editor/vs/editor/editor.main.nls.it.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.ja.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.ko.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.ru.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.zh-cn.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.zh-tw.js": [],
+    "public/static/monaco-editor/vs/language/css/cssMode.js": [],
+    "public/static/monaco-editor/vs/language/css/cssWorker.js": [],
+    "public/static/monaco-editor/vs/language/html/htmlMode.js": [],
+    "public/static/monaco-editor/vs/language/html/htmlWorker.js": [],
+    "public/static/monaco-editor/vs/language/json/jsonMode.js": [],
+    "public/static/monaco-editor/vs/language/json/jsonWorker.js": [],
+    "public/static/monaco-editor/vs/language/typescript/tsMode.js": [],
+    "public/static/monaco-editor/vs/language/typescript/tsWorker.js": [],
+    "public/static/monaco-editor/vs/loader.js": [],
+    "public/static/monaco-editor/vs1/base/worker/workerMain.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/abap/abap.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/apex/apex.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/azcli/azcli.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/bat/bat.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/bicep/bicep.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/cameligo/cameligo.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/clojure/clojure.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/coffee/coffee.js": []
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 779,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/TableSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/SearchForm/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Tree/FunctionSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Tree/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 372,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Avatar/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/BownloadButton/DataSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/BownloadButton/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 244,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Drawer/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Modal/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Result/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Spin/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/StaticItem/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/StaticItem/StaticSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/List/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Other/IFrame/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Other/IFrame/iFrameSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "language": "typescript",
+      "sizeLines": 326,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "language": "typescript",
+      "sizeLines": 599,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx",
+      "language": "typescript",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/ProvinceIdCon.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Advanced/NgapTable/ColumnSetting.tsx": [
+      "src/components/ColorPicker.tsx",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx",
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ],
+    "src/packages/Advanced/NgapTable/DragColumn.tsx": [
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/Advanced/NgapTable/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx",
+      "src/packages/Advanced/NgapTable/TableSetting.tsx"
+    ],
+    "src/packages/Advanced/NgapTable/TableSetting.tsx": [
+      "src/packages/Advanced/NgapTable/ColumnSetting.tsx",
+      "src/packages/Advanced/NgapTable/DragColumn.tsx",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Advanced/SearchForm/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/Advanced/Tree/FunctionSetting.tsx": [
+      "src/components/VsEditor.tsx"
+    ],
+    "src/packages/Advanced/Tree/Schema.tsx": [
+      "src/packages/Advanced/Tree/FunctionSetting.tsx"
+    ],
+    "src/packages/Basic/Avatar/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/Basic/BownloadButton/DataSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/packages/Basic/BownloadButton/Schema.tsx": [
+      "src/packages/Basic/BownloadButton/DataSetting.tsx"
+    ],
+    "src/packages/FeedBack/Drawer/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/FeedBack/Modal/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/FeedBack/Result/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/FeedBack/Spin/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/FormItems/StaticItem/Schema.tsx": [
+      "src/packages/FormItems/StaticItem/StaticSetting.tsx"
+    ],
+    "src/packages/FormItems/StaticItem/StaticSetting.tsx": [
+      "src/components/VsEditor.tsx"
+    ],
+    "src/packages/Functional/List/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx"
+    ],
+    "src/packages/Other/IFrame/IFrameEventsSetting.tsx": [
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Other/IFrame/IframeParamsSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/packages/Other/IFrame/Schema.tsx": [
+      "src/packages/Other/IFrame/IFrameEventsSetting.tsx",
+      "src/packages/Other/IFrame/IframeParamsSetting.tsx",
+      "src/packages/Other/IFrame/iFrameSetting.tsx"
+    ],
+    "src/packages/Other/IFrame/iFrameSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/packages/Other/IFrame/iFramecss.css",
+      "src/utils/request.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.less",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionDialog/index.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/types.ts": [],
+    "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/CondtionalInterface/index.tsx": [],
+    "src/utils/ProvinceIdCon.ts": []
+  }
+}

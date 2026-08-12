@@ -1,0 +1,579 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/Schema.ts",
+      "summary": "定义引导式流程运行页可配置属性、默认值和设计器 Schema。",
+      "tags": [
+        "guided-process",
+        "configuration",
+        "presentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/processCanvasPage 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/processCanvasPage 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationAlert/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/ApplicationRunPage/applicationAlert/index.module.less",
+      "summary": "为 pages/ApplicationRunPage/applicationAlert 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationLog/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/ApplicationRunPage/applicationLog/index.module.less",
+      "summary": "为 pages/ApplicationRunPage/applicationLog 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/ApplicationRunPage/applicationMonitoring/index.module.less",
+      "summary": "为 pages/ApplicationRunPage/applicationMonitoring 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.module.less",
+      "summary": "为 pages/ApplicationRunPage/rateLimitingRuleConfiguration 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/AppRun/ApplicationLog.tsx",
+      "type": "file",
+      "name": "ApplicationLog.tsx",
+      "filePath": "src/pages/AppRun/ApplicationLog.tsx",
+      "summary": "嵌入 ApplicationLog 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/ApplicationLog.tsx:ApplicationLog",
+      "type": "function",
+      "name": "ApplicationLog",
+      "filePath": "src/pages/AppRun/ApplicationLog.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "ApplicationLog 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/AppLimit.tsx",
+      "type": "file",
+      "name": "AppLimit.tsx",
+      "filePath": "src/pages/AppRun/AppLimit.tsx",
+      "summary": "嵌入 AppLimit 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/AppLimit.tsx:AppLimit",
+      "type": "function",
+      "name": "AppLimit",
+      "filePath": "src/pages/AppRun/AppLimit.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "AppLimit 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/AppLog.tsx",
+      "type": "file",
+      "name": "AppLog.tsx",
+      "filePath": "src/pages/AppRun/AppLog.tsx",
+      "summary": "嵌入 AppLog 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/AppLog.tsx:appLog",
+      "type": "function",
+      "name": "appLog",
+      "filePath": "src/pages/AppRun/AppLog.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "appLog 封装该模块中的数据处理或交互逻辑。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/AppWarn.tsx",
+      "type": "file",
+      "name": "AppWarn.tsx",
+      "filePath": "src/pages/AppRun/AppWarn.tsx",
+      "summary": "嵌入 AppWarn 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/AppWarn.tsx:AppWarn",
+      "type": "function",
+      "name": "AppWarn",
+      "filePath": "src/pages/AppRun/AppWarn.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "AppWarn 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/AppWarnRule.tsx",
+      "type": "file",
+      "name": "AppWarnRule.tsx",
+      "filePath": "src/pages/AppRun/AppWarnRule.tsx",
+      "summary": "嵌入 AppWarnRule 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/AppWarnRule.tsx:AppWarnRule",
+      "type": "function",
+      "name": "AppWarnRule",
+      "filePath": "src/pages/AppRun/AppWarnRule.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "AppWarnRule 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/EncryptionAdd.tsx",
+      "type": "file",
+      "name": "EncryptionAdd.tsx",
+      "filePath": "src/pages/AppRun/EncryptionAdd.tsx",
+      "summary": "嵌入 EncryptionAdd 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/EncryptionAdd.tsx:EncryptionAdd",
+      "type": "function",
+      "name": "EncryptionAdd",
+      "filePath": "src/pages/AppRun/EncryptionAdd.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "EncryptionAdd 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/AppRun/index.module.less",
+      "summary": "为 pages/AppRun 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/AppRun/InterfaceApply.tsx",
+      "type": "file",
+      "name": "InterfaceApply.tsx",
+      "filePath": "src/pages/AppRun/InterfaceApply.tsx",
+      "summary": "嵌入 InterfaceApply 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/InterfaceApply.tsx:InterfaceApply",
+      "type": "function",
+      "name": "InterfaceApply",
+      "filePath": "src/pages/AppRun/InterfaceApply.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "InterfaceApply 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/AppRun/KeyManage.tsx",
+      "type": "file",
+      "name": "KeyManage.tsx",
+      "filePath": "src/pages/AppRun/KeyManage.tsx",
+      "summary": "嵌入 KeyManage 运行管理子页面并透传应用上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/AppRun/KeyManage.tsx:KeyManage",
+      "type": "function",
+      "name": "KeyManage",
+      "filePath": "src/pages/AppRun/KeyManage.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "KeyManage 是该文件的核心 React 组件，负责页面展示与交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/auditManagement/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/auditManagement/index.less",
+      "summary": "为 pages/auditManagement 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/auditManagement/pages/AuditManagement.less",
+      "type": "file",
+      "name": "AuditManagement.less",
+      "filePath": "src/pages/auditManagement/pages/AuditManagement.less",
+      "summary": "为 pages/auditManagement/pages 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/auditManagement/pages/AuditRecord.less",
+      "type": "file",
+      "name": "AuditRecord.less",
+      "filePath": "src/pages/auditManagement/pages/AuditRecord.less",
+      "summary": "为 pages/auditManagement/pages 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/auditManagement/util/optionProvince.ts",
+      "type": "file",
+      "name": "optionProvince.ts",
+      "filePath": "src/pages/auditManagement/util/optionProvince.ts",
+      "summary": "提供审核管理筛选使用的省份选项常量。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/businessComponentPreview/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/businessComponentManage/businessComponentPreview/index.module.less",
+      "summary": "为 pages/businessComponentManage/businessComponentPreview 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/AppRun/ApplicationLog.tsx",
+      "target": "function:src/pages/AppRun/ApplicationLog.tsx:ApplicationLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/AppLimit.tsx",
+      "target": "function:src/pages/AppRun/AppLimit.tsx:AppLimit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/AppLog.tsx",
+      "target": "function:src/pages/AppRun/AppLog.tsx:appLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/AppWarn.tsx",
+      "target": "function:src/pages/AppRun/AppWarn.tsx:AppWarn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/AppWarnRule.tsx",
+      "target": "function:src/pages/AppRun/AppWarnRule.tsx:AppWarnRule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/EncryptionAdd.tsx",
+      "target": "function:src/pages/AppRun/EncryptionAdd.tsx:EncryptionAdd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/InterfaceApply.tsx",
+      "target": "function:src/pages/AppRun/InterfaceApply.tsx:InterfaceApply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/KeyManage.tsx",
+      "target": "function:src/pages/AppRun/KeyManage.tsx:KeyManage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/ApplicationLog.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/AppLimit.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/AppLog.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/AppWarn.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/AppWarnRule.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/EncryptionAdd.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/InterfaceApply.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/KeyManage.tsx",
+      "target": "file:src/pages/AppRun/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

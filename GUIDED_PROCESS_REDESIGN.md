@@ -1,4 +1,4 @@
-# 引导式流程展示编排升级设计
+# 引导式流程展示编排升级设计（GUIDED_PROCESS_REDESIGN.md）
 
 ## 1. 文档目的
 
@@ -6,12 +6,12 @@
 
 - 哪个业务节点显示在页面顶部区域；
 - 哪个业务节点显示在页面底部操作区；
-- 哪些普通环节显示在“智能导航”中；
+- 所有普通正文环节自动显示在“智能导航”中；
 - 哪些节点仅负责流程控制，不产生页面内容；
 - 整个流程是否启用智能导航；
 - 顶部区域和智能导航是否固定，或随整页滚动。
 
-本设计只调整引导式流程的展示模型、编辑配置和运行时布局，不推翻现有 `MT / AT / VA` 分支判断逻辑。
+本设计覆盖引导式流程的展示模型、编辑配置、运行时布局、节点数据域、环节正式输出和流程推进机制。现有 `MT / AT / VA` 能力需要兼容迁移，但不再把“监听内部原子值并立即切换分支”作为新模型的唯一执行方式。
 
 ---
 
@@ -58,7 +58,16 @@
 - 点击导航依赖 `.componentBox` 下标定位；
 - 一个节点包含多个元素时，定位逻辑容易错位；
 - 没有全局关闭导航的配置；
-- 没有节点级“是否显示在导航”配置。
+- 当前导航来源依赖运行时反推，尚未明确固定为正文环节。
+
+导航卡片后续需要展示节点运行摘要，而不是只显示节点名称。建议每个导航卡片统一展示：
+
+- 环节标题：优先使用导航自定义标题，其次使用业务组件名称；
+- 环节方式：展示“自动”或“人工”；该方式同时决定正常推进是静默连续执行还是等待用户交互；
+- 自动环节诊断结果：展示应用组件提供的一个或多个诊断结果，并读取接口显式返回的 `success/failure` 业务状态，分别显示绿色或红色；
+- 人工环节诊断结果：展示组件点选或交互产生的一个或多个结果，不强制套用自动环节的红绿状态。
+
+这些字段应从流程运行态统一整理出来，不建议由导航组件直接读取组件内部 DOM 或内部 React state。业务组件内部结果如果要同步到导航区，需要通过分支结果、变量、接口结果或事件回调进入流程运行态。
 
 ### 2.3 当前底部通栏
 
@@ -149,7 +158,7 @@
 
 ## 4. 核心数据模型
 
-### 4.1 节点展示配置
+### 4.1 节点展示与交互配置
 
 在每个流程业务节点实例上新增 `presentation`：
 
@@ -164,11 +173,13 @@ export interface ProcessNodePresentation {
     /** 页面展示区域 */
     region: ProcessNodeRegion;
 
-    /** 是否显示在智能导航中，仅 content 节点有效 */
-    showInNavigator: boolean;
-
     /** 自定义导航标题；为空时使用 componentName */
     navigatorTitle?: string;
+}
+
+export interface ProcessNodeExecution {
+    /** content 环节的交互与推进方式，同时用于导航人工/自动文案 */
+    interactionMode: 'manual' | 'automatic';
 }
 ```
 
@@ -177,7 +188,7 @@ export interface ProcessNodePresentation {
 | region | 是否渲染 | 是否可进入导航 | 说明 |
 |---|---:|---:|---|
 | `header` | 是 | 否 | 页面顶部核心信息，流程最多一个 |
-| `content` | 是 | 可配置 | 普通流程环节 |
+| `content` | 是 | 是 | 默认正文环节，无需逐节点配置 |
 | `footer` | 是 | 否 | 页面底部操作区，流程最多一个 |
 | `control` | 否 | 否 | 仅参与流程判断与流转 |
 
@@ -186,12 +197,23 @@ export interface ProcessNodePresentation {
 ```ts
 export const DEFAULT_NODE_PRESENTATION: ProcessNodePresentation = {
     region: 'content',
-    showInNavigator: true,
     navigatorTitle: '',
+};
+
+export const DEFAULT_NODE_EXECUTION: ProcessNodeExecution = {
+    interactionMode: 'automatic',
 };
 ```
 
 重要约束：`presentation` 属于“组件在当前流程中的节点实例”，不能写回业务组件模板。相同业务组件用于不同流程时，可以拥有不同展示方式。
+
+产品配置时不要求用户为普通环节逐个选择 `content`。节点没有被显式设置为 `header`、`footer` 或 `control` 时，运行时即归一化为 `content`。只有这三种特殊用途需要显式设置。
+
+`interactionMode` 与展示区域正交，但不再只是导航文案：
+
+- `automatic`：接口或组件自动逻辑完成后，立即评估已有分支规则并静默进入下一节点；即使存在多条条件分支也不暂停；
+- `manual`：进入环节后等待用户点选、选择、输入或确认，交互完成后再评估分支并继续；
+- 智能导航直接使用同一个 `interactionMode` 展示“人工/自动”，避免维护第二份可能不一致的标识。
 
 ### 4.2 流程全局展示配置
 
@@ -238,16 +260,17 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
       "componentId": "component-basic-info",
       "presentation": {
         "region": "header",
-        "showInNavigator": false,
         "navigatorTitle": ""
       }
     },
     {
       "nodeId": "node-check-order",
       "componentId": "component-check-order",
+      "execution": {
+        "interactionMode": "automatic"
+      },
       "presentation": {
         "region": "content",
-        "showInNavigator": true,
         "navigatorTitle": "是否有在途工单"
       }
     },
@@ -255,16 +278,14 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
       "nodeId": "node-condition-only",
       "componentId": "component-condition",
       "presentation": {
-        "region": "control",
-        "showInNavigator": false
+        "region": "control"
       }
     },
     {
       "nodeId": "node-footer",
       "componentId": "component-actions",
       "presentation": {
-        "region": "footer",
-        "showInNavigator": false
+        "region": "footer"
       }
     }
   ]
@@ -298,13 +319,14 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
 ### 5.2 导航规则
 
 - `navigator.enabled = false` 时完全不渲染导航；
-- `showInNavigator` 只控制导航项，不控制环节正文是否渲染；
-- `header`、`footer`、`control` 强制不进入导航；
-- 没有组件内容的节点默认不进入导航；
-- 若用户显式设置导航但节点没有可渲染内容，保存校验给出警告并自动忽略；
+- 所有已进入活动路径且有可渲染内容的 `content` 节点自动进入导航；
+- `header`、`footer`、`control` 不进入导航；
+- 不提供节点级“是否进入导航”开关，导航资格由归一化后的区域直接推导；
+- 没有组件内容的普通节点应提示改为 `control`，运行时不会生成空导航项；
 - 导航总数是实际已命中且可见的导航节点数；
-- 异常数是这些导航节点中 `status === 'error'` 或兼容旧值 `status === 2` 的数量；
+- 异常数暂按自动环节中 `diagnosisStatus === 'failure'` 的数量统计；人工环节只展示点选或交互结果，不强制计入红绿成功/失败；
 - 导航标题优先使用 `navigatorTitle`，其次使用节点的 `componentName`。
+- 每个 `content` 节点配置统一的 `interactionMode`；它既决定正常推进方式，也用于导航卡片展示“人工/自动”。
 
 ### 5.3 流程执行规则
 
@@ -313,8 +335,9 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
 - `header` 命中后更新顶部区域；
 - `footer` 命中后更新底部区域；
 - `content` 命中后追加到环节内容；
-- 分支切换需要删除旧分支产生的 `content/header/footer/control` 运行结果，然后执行新分支；
-- 顶部或底部节点若位于某个分支中，切换分支后必须正确替换或清空。
+- `header` 固定为开始节点后的首个业务节点，不允许位于中间分支；
+- `footer` 固定为结束节点前的最后一个业务节点，可以接收不同互斥路径汇合，但唯一后续只能是结束节点；
+- 分支切换需要删除旧分支产生的 `content/control` 运行结果；如果用户从 footer 返回并使 footer 退出活动路径，同时清理 footer 运行结果。
 
 ### 5.4 空节点
 
@@ -325,6 +348,17 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
 - 只写变量或触发事件。
 
 这类节点应设置 `region = control`。运行引擎不得因为 `elements.length === 0` 而中断流程。
+
+### 5.5 流程拓扑
+
+- 第一版采用单活动路径 DAG，只允许一个开始节点和一个结束节点；
+- 所有有效业务路径无论经过哪条互斥分支，最终都必须汇合并连接到同一个结束节点；
+- 存在 `header` 时，开始节点必须且只能直接连接 `header`，`header` 是首个业务节点；
+- 存在 `footer` 时，`footer` 是最后一个业务节点，其唯一后续必须是结束节点；不同互斥路径可以在 `footer` 汇合；
+- 禁止环路、孤立节点和不可达节点；
+- 非结束节点必须存在合法后续策略；
+- 一个节点可以有多个父节点，但只表示互斥路径重新汇合，不表示并行等待；
+- 保存、发布和运行加载时都执行完整拓扑校验。
 
 ---
 
@@ -337,23 +371,23 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
 字段：
 
 ```text
-展示区域
-  ○ 普通环节
-  ○ 顶部区域
-  ○ 底部区域
+环节用途
+  ○ 普通环节（默认，无需额外设置）
+  ○ 顶部核心信息
+  ○ 底部操作区
   ○ 仅流程控制
 
-当展示区域为“普通环节”时：
-  □ 在智能导航中展示
+当环节用途为“普通环节”时：
+  环节方式：○ 人工  ○ 自动
   导航名称：[默认使用组件名称]
 ```
 
 交互规则：
 
-- 切到顶部、底部或控制节点时，自动关闭 `showInNavigator`；
-- 切回普通环节时，默认恢复为 `true`，但尊重用户最后一次显式选择更好；
+- 普通环节在底层归一化为 `content` 并自动进入导航，不显示导航开关；
+- 切到顶部、底部或控制节点时，隐藏正文环节方式和导航名称配置；
+- 切回普通环节时恢复该节点上一次的交互方式和导航文案配置；
 - 节点卡片应增加区域标记，例如“顶部”“底部”“控制”；
-- 不进入导航的普通环节显示“隐藏导航”标记；
 - 顶部/底部唯一性在变更时立即校验。
 
 ### 6.2 流程全局配置入口
@@ -372,7 +406,7 @@ export const DEFAULT_GUIDED_PROCESS_CONFIG: GuidedProcessConfig = {
 当导航关闭时：
 
 - 隐藏导航标题输入；
-- 节点的 `showInNavigator` 配置可以保留，重新启用导航后继续生效。
+- 正文节点的导航文案配置继续保留，重新启用后直接恢复。
 
 ### 6.3 画布节点展示
 
@@ -423,6 +457,9 @@ export interface RenderedProcessNode {
     branchType: 'MT' | 'AT' | 'VA' | '';
     branchResult?: string;
     status?: string | number;
+    interactionMode?: 'manual' | 'automatic';
+    diagnosisStatus?: 'success' | 'failure';
+    diagnosisResults?: Array<{ label?: string; value: unknown }>;
     presentation: ProcessNodePresentation;
     elements: any[];
 }
@@ -449,7 +486,6 @@ const contentNodes = renderedNodes.filter(
 const navigatorNodes = contentNodes.filter(
     node =>
         processConfig.navigator.enabled &&
-        node.presentation.showInNavigator &&
         node.elements.length > 0
 );
 ```
@@ -600,7 +636,8 @@ const scrollToNode = (nodeId: string) => {
 ```ts
 const total = navigatorNodes.length;
 const abnormal = navigatorNodes.filter(node =>
-    node.status === 'error' || node.status === 2 || node.status === '2'
+    node.interactionMode === 'automatic' &&
+    node.diagnosisStatus === 'failure'
 ).length;
 ```
 
@@ -615,6 +652,10 @@ const abnormal = navigatorNodes.filter(node =>
 </p>
 ```
 
+导航中的 `success/failure` 是自动应用组件给出的业务诊断状态，不是请求生命周期状态。多数自动环节正文以列表展示，可以把“有数据成功、无数据失败”作为当前业务理解，但运行时最终读取接口单独返回并由组件暴露的状态字段，不根据列表长度自行推断。请求超时、程序异常等技术错误必须与业务 `failure` 分开处理。
+
+人工环节从组件输出中选择一个或多个诊断展示字段；简单选择暂定使用选项 `label` 展示、`value` 参与分支。导航展示字段与分支判断字段可以不同。
+
 ### 7.7 分支切换与回滚
 
 当前实现通过 `allRenderElements.slice/filter` 删除旧分支元素。改造后应按节点删除：
@@ -628,7 +669,7 @@ setRenderedNodes(current =>
 优势：
 
 - 不会把同一节点的部分元素残留；
-- header/footer 能随旧分支一起清理；
+- footer 退出活动路径时能整体清理，header 不允许位于中间分支；
 - 导航条天然同步；
 - 不再依赖元素在数组中的连续性。
 
@@ -801,7 +842,7 @@ src/pages/applicationOrchestration/pageCanvas/processCanvasPage/
 职责：
 
 - 编辑 region；
-- 编辑 showInNavigator；
+- 普通环节编辑 execution.interactionMode 和 navigatorTitle；
 - 编辑 navigatorTitle；
 - 执行 header/footer 唯一性提示；
 - 保存后推入 undo/redo 历史。
@@ -1008,9 +1049,11 @@ packages/guided-process-runtime/
     "componentList": [
       {
         "nodeId": "...",
+        "execution": {
+          "interactionMode": "automatic"
+        },
         "presentation": {
           "region": "content",
-          "showInNavigator": true,
           "navigatorTitle": ""
         }
       }
@@ -1045,8 +1088,7 @@ packages/guided-process-runtime/
   "processConfig": {},
   "nodePresentationMap": {
     "node-1": {
-      "region": "header",
-      "showInNavigator": false
+      "region": "header"
     }
   },
   "componentList": []
@@ -1064,12 +1106,15 @@ packages/guided-process-runtime/
 ```ts
 presentation = {
     region: 'content',
-    showInNavigator: true,
     navigatorTitle: '',
+};
+
+execution = {
+    interactionMode: 'automatic',
 };
 ```
 
-这样旧流程保持“全部普通环节进入导航”的现状。
+这样旧流程保持“全部普通正文环节进入导航”的现状。`content` 是默认归属，不要求用户重新配置。
 
 ### 11.2 无 processConfig 的流程
 
@@ -1099,8 +1144,7 @@ processConfig = {
 
 - “降档挽留-通用-诊断核心信息”设置为 `header`；
 - “在途工单”等诊断环节设置为 `content`；
-- 不希望显示的空环节设置 `showInNavigator = false`；
-- 纯条件判断节点设置为 `control`；
+- 无展示内容、只负责判断或服务调用的环节设置为 `control`；
 - 包含“直接答复、挽留成功”的操作组件独立为 `footer`，或迁移现有 BottomBanner 内容；
 - 流程导航可全局关闭。
 
@@ -1120,9 +1164,10 @@ processConfig = {
 ### 12.2 导航测试
 
 - 全局关闭时导航完全消失；
-- `showInNavigator = false` 的内容仍显示但不进导航；
-- header/footer/control 不进导航；
+- 所有已执行且有内容的 content 节点自动进入导航；
+- header/footer/control 不进入导航；
 - 空节点不进导航；
+- content 节点的人工/自动推进方式、导航文案和样式正确；
 - 标题可配置；
 - 总数和异常数正确；
 - 点击导航精准定位到节点；
@@ -1190,7 +1235,7 @@ processConfig = {
 
 ### 阶段三：导航升级
 
-- 节点级导航筛选；
+- 根据 content 区域自动生成导航；
 - 动态统计；
 - 节点 ref 定位；
 - IntersectionObserver 当前项；
@@ -1221,10 +1266,1325 @@ processConfig = {
 
 1. 顶部、普通环节、底部、控制节点都属于同一张引导式流程图。
 2. 展示属性属于流程节点实例，不属于业务组件模板。
-3. 导航是流程级可选能力；每个普通环节可单独决定是否进入导航。
+3. 导航是流程级可选能力；开启时，活动路径中的普通 content 环节自动进入导航，不提供节点级开关。
 4. 顶部和底部最多各一个，前后端都应校验。
 5. 空环节可作为控制节点继续参与流转，但不渲染、不进入导航。
 6. 运行时必须保留节点边界，不能再以扁平 `allRenderElements` 作为主数据结构。
 7. BottomBanner 不应负责页面定位，固定底部由流程页面壳负责。
 8. `src` 与 `page` 两套运行时都必须改，长期应抽取共享实现。
+9. “人工/自动”是 `content` 环节的交互与推进方式，并同时作为智能导航文案：自动环节静默连续执行，人工环节进入后等待用户交互；`header/footer/control` 不使用这项正文交互配置。
+10. 每个流程节点实例必须拥有独立数据域，默认变量不再注册为流程全局变量。
+11. 跨节点数据传递必须通过输入绑定和输出端口显式完成，禁止依赖同名全局变量碰巧取值。
+12. 技术隔离键使用不可变 `nodeId`，用户只维护显示名称；仅在跨节点引用时按需提供可读别名。
+13. 新旧运行时迁移期以节点数据域为主数据，旧扁平上下文只作为兼容投影，不再作为新能力的数据源。
 
+---
+
+## 15. 环节区域、完成策略与运行时数据域改造
+
+### 15.1 本章解决的问题
+
+引导式流程不只是把多个业务组件按顺序展示出来，还要解决多个环节同时运行时的数据归属问题。
+
+旧模式下，一个业务组件就是一个相对独立页面，可以通过环节或组件 ID 加载自己的页面数据。进入新的引导式运行页后，多个业务组件被依次装入同一个页面 Store，当前实现会把下面这些内容合并到页面级容器：
+
+- `variables`；
+- `variableData`；
+- `formData`；
+- `apiOutData`；
+- `elements`；
+- `elementsMap`。
+
+因此两个完全无关的环节只要都定义了 `result`、`list`、`selectedValue`，就可能发生覆盖、串值、误触发分支或默认值失效。让配置人员为每个变量手工想一个流程级唯一名称，只是把平台的数据隔离责任转嫁给用户，不能作为正式方案。
+
+本章目标是建立：
+
+1. 环节实例级私有数据域；
+2. 流程级显式共享数据域；
+3. 明确的输入绑定和输出发布机制；
+4. 正文环节的人工/自动方式统一表达默认推进行为与导航文案，同时与展示区域、业务诊断结果和组件输出字段保持解耦；
+5. `src` 与 `page/materials` 双运行时一致的兼容迁移机制。
+
+### 15.2 当前实现的直接证据
+
+#### `canvasPageStore`
+
+`src/stores/canvasPageStore.ts` 当前同时保存页面级：
+
+```ts
+variables: PageVariable[];
+variableData: Record<string, any>;
+formData: Record<string, any>;
+apiOutData: Record<string, ApiType>;
+```
+
+编辑器侧虽然已经存在：
+
+```ts
+processData.nodeData[nodeId] = nodeData.pageData;
+```
+
+但 `addNodeData` 随后仍把节点的 `elementsMap` 合入 `page.pageData.elementsMap`，`addBussinessElement` 也继续把节点的元素和表单数据合入全局页面数据。说明当前只是“保存了一份节点页面快照”，没有把它建立成运行时数据边界。
+
+#### `ProcessPage`
+
+`ProcessPage.tsx` 加载节点时会：
+
+1. 查询业务组件；
+2. 合并 API 配置；
+3. 调用 `mergeVariable(componentInfo)`；
+4. 给元素追加 `belongNodeId`；
+5. 调用 `addBussinessElement(pageData)` 合入页面级 Store。
+
+当前私有变量处理为：
+
+```ts
+if (variable.isPrivate) {
+  variable.name = variable.name + pageData.zjId;
+}
+```
+
+这个方式存在四个问题：
+
+- 隔离依赖字符串拼接，不是数据结构隔离；
+- `zjId` 与流程节点实例并非严格一一对应；
+- 表单、API 输出和分支依赖仍是扁平结构；
+- 变量重命名后，历史公式和事件动作中的引用不一定同步迁移。
+
+#### 独立 `page/materials` 运行时
+
+`page/src/page/index.tsx` 仍按变量名去重后调用 `addVariable`；`materials/stores/pageStore.ts` 仍以 `variableData[name]`、`formData[name]`、`apiOutData[id]` 保存数据；`materials/utils/util.ts#getPageVariable` 仍把所有变量组装成一个 `context.variable` 对象。
+
+因此只改主 `src` 预览不会解决正式运行问题，必须同步改造独立运行页。
+
+### 15.3 三个正交维度
+
+新的节点模型必须把下面三个维度拆开。
+
+#### 维度一：流程节点结构类型
+
+```ts
+type NodeType = 'begin' | 'end' | 'business';
+```
+
+它回答“这是开始、结束还是业务节点”。
+
+#### 维度二：正文交互与推进方式
+
+```ts
+type ContentInteractionMode = 'manual' | 'automatic';
+```
+
+它回答“普通正文环节是静默连续执行，还是进入后等待用户交互”，智能导航同时用它显示人工或自动。
+
+| 交互方式 | 中文 | 作用 |
+| --- | --- | --- |
+| `manual` | 人工 | 渲染交互内容并暂停，等待点选、输入或确认后继续；导航显示“人工” |
+| `automatic` | 自动 | 接口或组件自动逻辑完成后判断分支并静默连续加载；导航显示“自动” |
+
+自动环节无论是一条无条件出线还是多条条件分支，都在自动逻辑完成后直接评估连线；多分支不会让它停下来。人工环节才是正常流程中的等待点。当前 `AT/MT/VA` 旧语义仍需兼容迁移，但新模型以统一的 `interactionMode` 作为正文环节推进方式，避免导航标识与执行方式出现两份配置。
+
+#### 维度三：页面展示区域
+
+```ts
+type ProcessNodeRegion = 'header' | 'content' | 'footer' | 'control';
+```
+
+它回答“节点在页面哪里展示”。产品侧只需要显式设置 `header/footer/control` 三种特殊用途；未设置特殊用途的普通环节自动归一化为 `content`。
+
+推荐规则是：
+
+- 未设置特殊用途的节点默认 `content`，渲染并进入智能导航；
+- `header` 渲染到顶部核心信息区，不进入导航，流程最多一个；
+- `footer` 渲染到底部操作区，不进入导航，流程最多一个；
+- `control` 不渲染、不进入导航，但仍执行接口、转换、条件判断和分支推进；
+- 只有 `content` 配置人工/自动交互方式，导航直接复用该方式显示文案。
+
+### 15.4 目标节点定义
+
+流程定义只保存配置、契约和绑定关系，不保存一次运行产生的临时值。
+
+```ts
+interface GuidedNodeDefinition {
+  nodeId: string;
+  nodeType: 'begin' | 'end' | 'business';
+  componentId?: string;
+  displayName: string;
+  alias?: string;
+
+  execution: {
+    interactionMode: 'manual' | 'automatic';
+    completionPolicy:
+      | { mode: 'selection-change'; sourceKey: string }
+      | { mode: 'component-signal'; signalKey: string }
+      | { mode: 'condition'; condition: StructuredCondition };
+    timeoutMs?: number;
+    retry?: {
+      maxAttempts: number;
+      intervalMs: number;
+    };
+  };
+
+  presentation: {
+    region: 'header' | 'content' | 'footer' | 'control';
+    navigatorTitle?: string;
+  };
+
+  inputs: NodeInputDefinition[];
+  outputs: NodeOutputDefinition[];
+  inputBindings: Record<string, DataBinding>;
+  branchConfig?: GuidedBranchConfig;
+}
+```
+
+字段职责：
+
+- `nodeId`：流程节点实例的不可变技术主键；
+- `componentId`：可复用业务组件模板 ID，不能用于隔离一次流程中的多个实例；
+- `displayName`：页面和画布展示名称，可以重复；
+- `alias`：跨节点表达式使用的可读别名，只有被其他节点引用时才需要；
+- `presentation.region`：缺省归一化为 `content`；只有顶部、底部和控制用途需要用户显式设置；
+- `execution.interactionMode`：只对 `content` 有效；自动环节自动连续执行，人工环节等待交互，导航同时据此展示人工/自动；
+- `execution.completionPolicy`：进一步描述人工环节由哪次点选、输入确认或组件动作恢复推进；自动环节通常由配置接口或组件自动逻辑完成触发；
+- `inputs/outputs`：节点公开的数据契约；
+- `inputBindings`：输入从哪里取得；
+- `branchConfig`：节点完成后如何选择下一条连线。
+
+### 15.5 目标运行时数据结构
+
+```ts
+interface GuidedProcessRuntimeState {
+  processInstanceId: string;
+  definitionId: string;
+
+  shared: {
+    definitions: Record<string, SharedVariableDefinition>;
+    values: Record<string, any>;
+  };
+
+  nodes: Record<string, NodeRuntimeScope>;
+
+  route: {
+    activeNodeId?: string;
+    visitedNodeIds: string[];
+    activePath: string[];
+    branchSelections: Record<string, string>;
+  };
+
+  compatibility?: {
+    legacyVariableData: Record<string, any>;
+    legacyFormData: Record<string, any>;
+    legacyApiOutData: Record<string, any>;
+  };
+}
+
+interface NodeRuntimeScope {
+  nodeId: string;
+  status: 'idle' | 'loading' | 'waiting-user' | 'success' | 'failed' | 'cancelled';
+
+  input: Record<string, any>;
+  variables: Record<string, any>;
+  formData: Record<string, any>;
+  apiData: Record<string, any>;
+  output: Record<string, any>;
+
+  branchResult?: {
+    branchId?: string;
+    optionIndex?: number;
+    reason?: string;
+  };
+
+  error?: {
+    code?: string;
+    message: string;
+    detail?: any;
+  };
+
+  startedAt?: number;
+  completedAt?: number;
+}
+```
+
+核心规则：
+
+1. `nodes` 必须以流程节点实例 `nodeId` 为 key；
+2. 不能用 `componentId` 做隔离，因为同一业务组件可以在一个流程中使用多次；
+3. 节点内部的 `result`、`list`、`selectedValue` 只要求在本节点内唯一；
+4. 只有明确声明为流程共享的数据才进入 `shared.values`；
+5. 表单、API 返回和分支计算结果默认都留在节点数据域；
+6. 分支回滚时按 `nodeId` 清理整块节点数据，不再按变量名猜测哪些全局数据应该删除。
+
+### 15.6 命名策略：用户不负责全局唯一
+
+#### 不再要求
+
+不再要求用户写：
+
+```text
+orderQueryNode_orderList
+customerSelectNode_selectedCustomer
+provinceA_step3_result
+```
+
+#### 技术键
+
+平台直接使用不可变 `nodeId` 建立隔离，例如：
+
+```text
+nodes["node-8f41"].variables.result
+nodes["node-c921"].variables.result
+```
+
+两个节点都可以继续把变量叫作 `result`。
+
+#### 显示名称
+
+画布上使用“客户选择”“订单查询”“额度校验”等显示名称。显示名称允许重复，但产品上应提示重复名称会降低可读性。
+
+#### 可读别名
+
+只有当其他节点需要引用该节点输出时，平台才自动生成或要求确认别名：
+
+```text
+customer_select
+order_query
+credit_check
+```
+
+别名规则：
+
+- 流程内唯一；
+- 默认根据显示名称自动生成；
+- 重名时自动追加稳定序号；
+- 用户重命名节点时，底层仍按 `nodeId` 保存引用，不因显示名称变化而断开；
+- 别名只用于表达式展示和导出，不是主键。
+
+### 15.7 输入、输出与数据绑定
+
+#### 输入定义
+
+```ts
+interface NodeInputDefinition {
+  key: string;
+  title: string;
+  required?: boolean;
+  schema?: JsonSchema;
+  defaultValue?: any;
+}
+```
+
+#### 输出定义
+
+```ts
+interface NodeOutputDefinition {
+  key: string;
+  title: string;
+  schema?: JsonSchema;
+  source: {
+    type: 'variable' | 'form' | 'api' | 'expression';
+    path?: string;
+    expression?: string;
+  };
+  visibility: 'private' | 'flow';
+}
+```
+
+`private` 只写入当前节点 `output`；`flow` 除写入当前节点输出外，还按显式配置发布到流程共享域。不能因为某变量被创建就自动变成全局变量。
+
+#### 输入绑定
+
+```ts
+type DataBinding =
+  | { source: 'constant'; value: any }
+  | { source: 'process'; path: string }
+  | { source: 'node-output'; nodeId: string; outputKey: string }
+  | { source: 'runtime'; path: 'user' | 'route' | 'environment' }
+  | { source: 'expression'; expression: string };
+```
+
+示例：
+
+```json
+{
+  "customerId": {
+    "source": "node-output",
+    "nodeId": "node-customer-select",
+    "outputKey": "selectedCustomerId"
+  },
+  "provinceCode": {
+    "source": "process",
+    "path": "shared.provinceCode"
+  }
+}
+```
+
+保存时应保存 `nodeId + outputKey`，界面上显示“客户选择环节 / 已选客户 ID”。用户通过数据选择器完成绑定，不手写长字符串。
+
+### 15.8 表达式上下文
+
+新表达式上下文建议为：
+
+```ts
+interface GuidedExpressionContext {
+  node: {
+    id: string;
+    input: Record<string, any>;
+    variable: Record<string, any>;
+    form: Record<string, any>;
+    api: Record<string, any>;
+    output: Record<string, any>;
+  };
+  process: {
+    shared: Record<string, any>;
+    route: GuidedProcessRuntimeState['route'];
+  };
+  steps: Record<string, {
+    output: Record<string, any>;
+    status: NodeRuntimeScope['status'];
+  }>;
+  user: any;
+  environment: any;
+  eventParams?: any;
+}
+```
+
+典型引用：
+
+```ts
+context.node.variable.result
+context.node.form.customerId
+context.node.api.queryOrders
+context.node.input.customerId
+context.process.shared.provinceCode
+context.steps.order_query.output.orders
+```
+
+兼容期继续提供：
+
+```ts
+context.variable.xxx
+context.api.xxx
+context.<formId>
+```
+
+但这些字段来自兼容投影，应在编辑器中标记“旧版上下文”，新建配置默认只展示新上下文。
+
+### 15.9 区域与完成策略的数据生命周期
+
+#### 可渲染节点：header、content、footer
+
+执行过程：
+
+1. 解析 `inputBindings`；
+2. 创建 `nodes[nodeId]`；
+3. 执行初始化接口、变量和规则；
+4. 在对应区域渲染业务组件；
+5. 用户操作、接口结果和组件逻辑只更新当前节点的 `formData/variables/apiData`；
+6. 自动环节在接口或组件自动逻辑完成后直接计算分支并继续；人工环节等待配置的交互完成动作；
+7. 仅在分支、导航或下游确有需要时整理组件输出，然后计算分支并进入下一节点。
+
+自动 content 的后续无论是一条出线还是多条条件分支，都不会因为需要分支判断而暂停；已有数据和条件足以让运行时静默选择下一条连线。人工 content 进入后才等待点选、输入或确认。组件输出用于提供分支判断、导航诊断或下游数据，不是自动环节继续加载的开关。
+
+#### control 节点
+
+执行过程：
+
+1. 不创建页面元素，也不进入智能导航；
+2. 解析输入；
+3. 调服务、执行表达式、转换数据或判断条件；
+4. 保存必要的 `apiData/output/branchResult`；
+5. 根据完成策略选择下一分支；
+6. 完成后继续运行。
+
+运行监控仍应能查看 control 的状态、输入摘要、输出摘要和分支结果，否则发生错误时无法定位。
+
+### 15.10 分支、回滚和重复执行
+
+#### 分支判断
+
+分支规则必须声明数据来源：
+
+- 当前节点输出；
+- 指定上游节点输出；
+- 流程共享变量；
+- 服务调用结果。
+
+不得再通过“遍历所有全局变量名并检查表达式字符串是否包含变量名”判断依赖关系。
+
+#### 分支切换
+
+当人工选择或变量变化导致分支切换时：
+
+1. 找到旧活动路径与新活动路径的分叉点；
+2. 取消旧路径仍在进行的异步任务；
+3. 从后往前卸载旧路径节点；
+4. 删除旧路径的 `nodes[nodeId]`；
+5. 移除对应渲染节点；
+6. 保留分叉点之前的节点数据；
+7. 从新分支首节点重新执行。
+
+#### 重试
+
+单节点重试默认只清理本节点的：
+
+```text
+apiData
+output
+branchResult
+error
+startedAt/completedAt
+```
+
+输入重新解析，人工表单是否保留由节点策略决定。
+
+### 15.11 平台运行时 API
+
+建议抽取共享 `GuidedRuntime`，由平台提供稳定 API，禁止页面组件直接操作 Store 内部结构。
+
+```ts
+interface GuidedRuntime {
+  enterNode(nodeId: string): Promise<void>;
+  completeNode(nodeId: string, reason?: string): Promise<void>;
+  retryNode(nodeId: string): Promise<void>;
+  disposeNode(nodeId: string): void;
+
+  getNodeScope(nodeId: string): NodeRuntimeScope | undefined;
+  getCurrentNodeScope(): NodeRuntimeScope | undefined;
+
+  resolveInputs(nodeId: string): Promise<Record<string, any>>;
+  publishOutputs(nodeId: string): Record<string, any>;
+  evaluateBranch(nodeId: string): Promise<BranchDecision>;
+
+  getVariable(nodeId: string, name: string): any;
+  setVariable(nodeId: string, name: string, value: any): void;
+  setFormData(nodeId: string, formId: string, value: any): void;
+  setApiData(nodeId: string, apiId: string, value: any): void;
+
+  getShared(name: string): any;
+  setShared(name: string, value: any): void;
+}
+```
+
+React 物料通过节点 Runtime Context 获得当前 `nodeId`：
+
+```ts
+const runtime = useGuidedNodeRuntime();
+runtime.setVariable('selectedValue', value);
+```
+
+物料不需要知道全局 Store 路径，也不需要自己拼变量名后缀。
+
+### 15.12 编辑器交互设计
+
+#### 数据面板分组
+
+变量选择器应按下面结构展示：
+
+```text
+当前环节
+  输入
+  本地变量
+  表单数据
+  接口结果
+  输出
+
+上游环节
+  客户选择
+    输出
+      已选客户 ID
+  订单查询
+    输出
+      订单列表
+
+流程共享
+  省份编码
+  当前用户机构
+
+系统上下文
+  登录用户
+  路由参数
+  环境信息
+```
+
+#### 产品规则
+
+- 默认打开“当前环节”；
+- 不展示其他节点内部变量，只展示它们声明的输出；
+- 不能选择当前节点的下游节点输出；
+- 删除或修改输出前先显示引用影响；
+- 节点显示名称变化不影响已有绑定；
+- 仅当用户切换到高级模式时显示表达式源码；
+- 旧 `context.variable` 引用显示兼容标记和迁移建议。
+
+#### 数据血缘
+
+点击一个输入绑定，应能看到：
+
+```text
+订单确认.customerId
+  ← 客户选择.selectedCustomerId
+  ← 客户选择表单.customerId
+```
+
+这比在全局变量列表中搜索名字更适合多团队维护。
+
+### 15.13 保存结构与后端边界
+
+后端流程定义需要保存：
+
+- `execution`；
+- `presentation`；
+- `inputs`；
+- `outputs`；
+- `inputBindings`；
+- `branchConfig`；
+- 可选 `alias`。
+
+一次运行产生的 `formData/apiData/output/status` 不应写回流程定义。如果产品需要断点续办，应另建“流程实例运行快照”接口，以 `processInstanceId + nodeId` 保存，不能混入组件模板或流程定义。
+
+建议接口职责：
+
+```text
+流程定义接口：保存节点配置、契约和连线
+流程实例接口：创建一次运行
+运行快照接口：保存/恢复节点状态（可选）
+运行日志接口：记录节点输入摘要、输出摘要、耗时、错误和分支
+```
+
+### 15.14 双运行时改造清单
+
+#### 主 `src` 运行时
+
+`src/stores/canvasPageStore.ts`
+
+- 新增 `guidedRuntime` 或独立 `guidedRuntimeStore`；
+- `processData.nodeData` 只保存定义态节点页面数据，不再承担运行值；
+- `addBussinessElement` 增加 `nodeId` 上下文，或逐步改为节点渲染容器；
+- `setVariableData/setFormData/editApiOutData` 改为节点域写入；
+- 保留 legacy projection 供旧页面使用。
+
+`ProcessPage.tsx`
+
+- 删除 `mergeVariable` 中的变量名后缀策略；
+- `addProcessNode` 改为 `runtime.enterNode`；
+- 所有区域节点通过统一执行器运行，content 的 `interactionMode` 同时驱动默认推进方式和导航展示；
+- 分支只读取声明的数据绑定；
+- 渲染元素从 `runtime.nodes[nodeId]` 组装；
+- 回滚按节点域释放。
+
+`VariableBind/VariableSelect`
+
+- 从“页面全局变量树”升级为“当前节点、上游输出、流程共享、系统上下文”数据选择器；
+- 保存稳定引用对象，不只保存字符串表达式。
+
+#### 独立 `materials` 运行时
+
+`materials/stores/pageStore.ts`
+
+- 新增节点域状态和节点域写入 action；
+- 保持组装式页面仍使用 legacy page scope；
+- 通过 Runtime Context 判断当前渲染属于普通页面还是引导节点。
+
+`materials/utils/util.ts`
+
+- 新增 `getNodeVariable/getNodeFormData/getNodeApiData`；
+- `renderFormula` 组装新 `GuidedExpressionContext`；
+- `getPageVariable` 保留为旧页面兼容 API。
+
+#### 独立 `page` 运行壳
+
+`page/src/page/index.tsx`
+
+- 与主预览使用同一 `GuidedRuntime`；
+- 删除独立实现的 `mergeVariable`；
+- 使用相同节点执行器、绑定解析器和回滚算法；
+- 宿主差异只留在 API 请求、用户信息和路由适配器。
+
+### 15.15 兼容迁移方案
+
+#### 阶段 A：引入节点域，不改变旧数据
+
+- 新增 scoped runtime 数据结构；
+- 旧页面仍读写 flat page scope；
+- 引导式新节点同时写节点域，并生成旧上下文投影；
+- 新配置默认保存结构化 binding。
+
+#### 阶段 B：新引导式以节点域为主
+
+- `ProcessPage` 和独立 `page` 只通过 runtime 读写；
+- legacy projection 只在执行旧公式、旧动作时生成；
+- 对重复旧变量名输出诊断，不阻断旧流程运行。
+
+#### 阶段 C：旧配置迁移
+
+迁移器按节点处理：
+
+1. 把节点业务组件中的变量复制为节点本地定义；
+2. 分析该节点公式、事件和分支引用；
+3. 能确定来源的引用改成结构化 binding；
+4. 被多个节点依赖且无法归属的变量标记为流程共享候选；
+5. 同名变量出现多个来源时生成冲突清单，要求人工确认；
+6. 保存迁移版本和回滚快照。
+
+#### 阶段 D：收敛旧上下文
+
+- 新建流程不再允许创建隐式全局变量；
+- 旧上下文仅对历史版本可用；
+- 使用率降到可接受范围后再评估移除。
+
+### 15.16 兼容投影规则
+
+兼容投影不是简单把所有节点变量重新扁平合并。建议优先级：
+
+1. 显式流程共享变量；
+2. 当前活动节点本地变量；
+3. 当前活动路径上已发布且标记兼容导出的输出；
+4. 历史旧页面变量。
+
+如果同一优先级出现同名值：
+
+- 不静默覆盖；
+- 记录 `LEGACY_NAME_CONFLICT` 诊断；
+- 编辑器显示冲突来源；
+- 旧版本可按原先“先到先得”行为运行，新版本必须完成迁移后发布。
+
+### 15.17 观测、诊断与安全
+
+每个节点运行日志至少包含：
+
+```ts
+interface NodeExecutionLog {
+  processInstanceId: string;
+  nodeId: string;
+  region: 'header' | 'content' | 'footer' | 'control';
+  interactionMode?: 'manual' | 'automatic';
+  completionMode?: 'selection-change' | 'component-signal' | 'condition';
+  status: string;
+  inputKeys: string[];
+  outputKeys: string[];
+  branchId?: string;
+  durationMs?: number;
+  errorCode?: string;
+}
+```
+
+安全规则：
+
+- 默认不记录完整敏感值；
+- 密码、证件号、Token 等按 schema 标记并脱敏；
+- control 只能访问声明的输入；
+- 节点不能遍历其他节点的私有变量；
+- 表达式执行保留现有安全治理要求，逐步减少任意 `new Function` 的使用范围；
+- 跨节点输出需支持字段级权限和脱敏策略。
+
+### 15.18 测试矩阵
+
+#### 隔离测试
+
+- 两个节点都定义 `result`，互不覆盖；
+- 同一业务组件模板在流程中出现两次，数据独立；
+- 分支 A、B 使用同名表单 ID，切换分支不串值；
+- 两个节点的 API ID 相同但实例不同，输出独立；
+- control 不创建 DOM，但状态和输出可诊断。
+
+#### 绑定测试
+
+- 当前节点读取本地变量；
+- 下游节点读取上游公开输出；
+- 节点不能读取上游私有变量；
+- 节点重命名后绑定不失效；
+- 输出 key 变更时给出引用影响；
+- 流程共享变量重名时阻止保存。
+
+#### 分支测试
+
+- 人工表单变化只重算依赖该表单的分支；
+- 自动接口返回后正确选择分支；
+- control 根据输入选择分支；
+- 快速连续切换时旧异步结果不能污染新路径；
+- 回滚后旧路径节点域被释放；
+- 重试只重置目标节点规定的数据。
+
+#### 兼容测试
+
+- 旧 `context.variable.xxx` 继续执行；
+- 旧 `context.api.xxx` 继续执行；
+- 旧表单 ID 表达式继续执行；
+- `isPrivate` 旧变量能映射到所属节点；
+- 主预览和独立 `page` 运行结果一致；
+- 普通组装式页面仍使用原页面级数据模型，不被引导式节点域影响。
+
+### 15.19 验收标准
+
+#### 产品验收
+
+- 用户创建本地变量时不需要考虑流程全局重名；
+- 数据选择器能按环节和输出选择数据；
+- content 的人工/自动推进方式清晰，且导航与运行时读取同一个配置来源；
+- header/footer/control 的特殊用途和默认 content 规则清晰；
+- control 不渲染但可在运行诊断中查看；
+- 引用变更有影响提示。
+
+#### 技术验收
+
+- 新引导流程运行值以 `nodes[nodeId]` 为唯一主数据；
+- 新代码不再用字符串后缀实现私有变量；
+- 新分支规则不再扫描全局变量名判断依赖；
+- `src` 与 `page/materials` 使用同一 binding 和 expression 语义；
+- 节点卸载后没有遗留表单、API、变量或订阅；
+- 旧 flat context 只由兼容适配层生成。
+
+#### 性能验收
+
+- 单节点字段变化只通知当前节点和显式依赖者；
+- 不因任一变量变化重新序列化整个流程 Store；
+- 分支回滚时间与被移除节点数线性相关；
+- 100 个节点、每节点 50 个本地字段时，变量读取和更新无明显页面卡顿；
+- 性能容量不能只统计节点数，还要同时统计节点内部元素总量、组件配置体积、活动路径实际渲染元素数和接口结果体积。
+
+### 15.20 推荐实施顺序
+
+1. 冻结区域、导航文案、完成策略、数据域、输入输出和 binding 模型；
+2. 实现无 UI 的 `GuidedRuntime` 及单元测试；
+3. 在主 `src` 预览接入节点数据域；
+4. 改造变量选择器和表达式上下文；
+5. 接入统一节点执行器、完成策略和 control 无界面执行；
+6. 完成分支回滚和异步取消；
+7. 同步改造 `page/materials`；
+8. 增加 legacy projection 和迁移诊断；
+9. 跑双运行时、旧流程和组装式页面回归；
+10. 数据域稳定后，再继续自定义元素 v2 的正式改造。
+
+---
+
+## 16. 融合式 React 环节、正式输出与线性流程推进
+
+### 16.1 本轮讨论后的核心结论
+
+新的 React 引导式不是继续由后端逐环节下发“下一任务”的后端驱动页面，也不是让每个 React 组件自行实现流程跳转。目标模型是：
+
+```text
+流程节点 = React 展示/交互 + 节点配置 + 数据契约 + 配置化动作 + 分支规则
+引导式运行引擎 = 解释节点配置、维护节点状态、选择连线并推进流程
+后端 = 提供业务接口、权限校验、配置持久化和可选运行快照
+```
+
+这里的“融合”指一个环节在产品模型中同时包含界面、数据、动作和分支能力，不代表流程遍历、回滚、取消、重试等公共能力散落在各组件内部。
+
+组件可以产生业务结果，但不能直接指定 `nextNodeId`。下一节点仍由画布连线和分支规则决定。
+
+本轮进一步确认：
+
+- 自动环节进入后自动调用接口或执行组件逻辑；完成后直接评估已有分支并静默继续，多条条件分支不会导致暂停；
+- 后续仍为自动环节时连续加载，直到人工环节、结束节点或执行异常；
+- 人工环节进入后等待点选、选择、输入或确认，交互完成后再评估分支；
+- 组件输出与推进触发是两件事。自动环节不需要为了“继续”额外输出一个结果；只有分支、智能导航或下游需要时才对外提供相应业务字段；
+- 产品侧统一称为“组件输出”；“输出契约”只表示这些字段的名称、类型和含义，不是第二套输出机制，更不是默认写入全局参数。
+
+### 16.2 当前能力：有内部原子条件，没有正式环节输出
+
+当前人工分支已经能够完成一部分多字段判断：
+
+- 分支配置的每个选项包含 `conditionList`；
+- 多个条件可以使用“全部满足”或“任一满足”；
+- 条件可以引用业务组件内部的 `Select`、`Radio` 原子元素；
+- 值为数组时会逐项比较；
+- 被引用的 `formData` 一旦变化，就重新计算分支并替换后续渲染节点。
+
+当前链路实际是：
+
+```text
+内部原子元素值
+→ 页面级 formData
+→ branchElementData[atomId]
+→ conditionList
+→ 分支下标
+→ 加载下一节点
+```
+
+因此，当前只能说“可以直接读取部分内部原子值判断分支”，不能说“组件已经拥有正式输出”。主要缺口如下：
+
+1. 流程配置依赖组件内部 `atomId`，组件内部结构调整后引用容易失效；
+2. 分支配置器目前重点识别 `Select/Radio`，不能天然理解一个完整 React ZIP 组件的内部 state；
+3. 没有稳定、声明式、可校验和可版本化的输出 Schema；
+4. 没有明确区分填写草稿、校验通过和正式完成；
+5. 任一关联值变化即触发分支，可能在其他必填项尚未完成时过早推进；
+6. 下游得到的是零散内部值，而不是当前环节对外承诺的业务结果；
+7. 内部字段大量注册到页面全局数据后，仍存在重名、污染和回滚残留风险。
+
+### 16.3 环节统一数据边界
+
+每个运行节点至少包含以下数据分区：
+
+```ts
+interface GuidedNodeRuntimeData {
+  input: Record<string, unknown>;
+  draft: Record<string, unknown>;
+  private: Record<string, unknown>;
+  apiData: Record<string, unknown>;
+  output: Record<string, unknown>;
+  status: NodeExecutionStatus;
+  validation: {
+    valid: boolean;
+    errors: Array<{ path: string; message: string }>;
+  };
+}
+```
+
+语义必须固定：
+
+- `input`：进入环节时由绑定解析得到，只面向当前节点；
+- `draft`：用户尚未确认的表单和选择结果，可以反复修改；
+- `private`：组件内部临时状态，其他节点不可见；
+- `apiData`：当前节点调用接口得到的原始或中间数据；
+- `output`：节点正式完成后对外公布的稳定业务结果；
+- `status`：节点处于编辑、等待、提交、完成、失败还是取消状态；
+- `validation`：是否具备正式完成条件，以及未通过原因。
+
+节点内部字段默认私有。只有声明进入 `output` 的数据才允许分支和下游节点使用；只有显式发布的数据才进入 `process.shared`。
+
+### 16.4 组件输出的定义和值
+
+应用组件开发人员定义组件能够向流程提供哪些输出字段；技术设计中的“输出契约”只是这些字段的名称、类型、含义和约束：
+
+```ts
+interface GuidedNodeOutputField {
+  key: string;
+  title: string;
+  schema: JsonSchema;
+  required?: boolean;
+  sensitive?: boolean;
+  description?: string;
+}
+```
+
+例如“材料选择”环节声明：
+
+```text
+selectedMaterials: string[]  已选择材料
+deliveryMode: string         领取方式
+applicantType: string        申请人类型
+```
+
+输出值属于某次流程实例中的某次节点执行：
+
+```json
+{
+  "selectedMaterials": ["ID_CARD", "LICENSE"],
+  "deliveryMode": "MAIL",
+  "applicantType": "COMPANY"
+}
+```
+
+输出定义可被编辑器、分支配置器、导航结果选择器、数据选择器、校验器和影响分析共同使用；输出值则必须隔离在 `runtime.nodes[nodeId].output` 中。它默认不是全局参数，只有显式发布时才进入流程共享域。
+
+组件输出主要供分支判断，也可以供智能导航或下游节点使用。三者可选择不同字段：简单人工选择暂定以稳定 `value` 判断分支、以 `label` 展示导航；复杂组件可以分别提供判断字段和一个或多个诊断展示字段。
+
+### 16.5 低代码业务组件如何生成输出
+
+对现有由平台原子元素组成的业务组件，节点配置提供“输出映射”：
+
+```text
+内部 Select_123.value → output.selectedMaterials
+内部 Radio_456.value → output.deliveryMode
+内部 Select_789.value → output.applicantType
+```
+
+底层保存结构化来源引用，不把界面展示名称当主键：
+
+```ts
+interface NodeOutputMapping {
+  outputKey: string;
+  source:
+    | { type: 'form'; elementId: string; path?: string }
+    | { type: 'variable'; variableId: string; path?: string }
+    | { type: 'api'; apiId: string; path?: string }
+    | { type: 'expression'; expression: string };
+}
+```
+
+组件内部原子 ID 只存在于当前节点内部的映射层。流程分支和下游节点只引用 `outputKey`，不再直接绑定这些原子 ID。
+
+2026-08-11 暂定的优先方向是把复杂业务计算集中在应用组件内部：应用组件开发人员声明一个稳定的“分支结果变量”，由内部选择和代码计算产生业务代码，流程只负责把该代码映射到画布连线。现有代码已验证可以通过下面的显式事件链完成：
+
+```text
+组件 onChange
+→ 运行脚本或表达式
+→ 变量赋值
+→ variableData 变化
+→ VA 分支重新判断
+```
+
+但当前仅声明变量或填写默认表达式不会随表单变化自动重新计算；现有“变量赋值”写入页面级 `variableData`，还需要改为当前 `nodeId` 的组件变量域。新模型还必须允许“人工交互 + 组件变量分支”，不能继续把人工/自动交互方式与 `MT/VA` 分支数据来源绑定在一起。该方向已经记录，具体赋值和人工完成时机留待下一轮继续讨论。
+
+### 16.6 完整 React 组件如何生成输出
+
+完整 React 组件的 Checkbox、Form、内部 state 和子组件不会天然进入平台 `formData`。平台必须通过统一 Node Runtime Context 接收组件提交的数据。
+
+概念协议如下：
+
+```ts
+interface GuidedNodeComponentContext {
+  input: Readonly<Record<string, unknown>>;
+  draft: Readonly<Record<string, unknown>>;
+  updateDraft(patch: Record<string, unknown>): void;
+  validate(): Promise<ValidationResult>;
+  complete(output: Record<string, unknown>): Promise<void>;
+}
+```
+
+约束：
+
+- `updateDraft` 只更新当前节点草稿，不推进流程；
+- `complete` 提交的值必须通过输出 Schema 校验；
+- 流程引擎收到完成请求后统一落盘输出、改变状态和判断连线；
+- 组件不能直接调用流程 Store、删除后续 DOM 或执行 `enterNode(nextNodeId)`；
+- 自定义元素 v2 后续通过版本化平台 SDK 映射到这套协议。
+
+### 16.7 content 环节的推进边界
+
+#### 自动环节
+
+自动环节进入后调用配置接口或执行应用组件的自动逻辑。数据或逻辑完成后，运行时立即使用已有分支规则选择下一条连线：
+
+```text
+进入自动环节
+→ 调接口或执行组件自动逻辑
+→ 更新正文和导航诊断结果
+→ 评估一条或多条条件分支
+→ 选择唯一出线
+→ 静默进入下一节点
+```
+
+多条条件分支不会使自动环节暂停。下一节点仍为自动环节时继续执行，直到人工环节、结束节点或执行异常。只有一条无条件出线时，不需要为了推进专门生成组件输出。
+
+自动环节可以提供接口业务状态、诊断摘要或分支判断字段，但这些输出服务于分支、导航或下游取数，不是“继续加载”信号。
+
+#### 人工环节
+
+人工环节进入后正常暂停并展示交互内容：
+
+- 单选、下拉、开关或卡片选择，可以由点选变化恢复推进；
+- 输入项或多个交互元素，由应用组件定义确认/完成动作；
+- 交互完成后，如有条件分支则读取组件输出判断；只有一条出线时直接继续；
+- 组件输出业务结果，不允许输出 `nextNodeId`。
+
+人工环节的具体多字段完成条件和组合分支规则仍在 P0-04 中继续讨论，本节不提前冻结。
+
+### 16.8 多个内部组件全部完成后再输出
+
+一个业务环节内部可以包含多个表单、多个选择器或多个子组件。是否允许完成不能依赖“某一个字段发生过变化”，而应由完成规则判断。
+
+建议支持：
+
+```ts
+interface CompletionPolicy {
+  mode: 'selection-change' | 'component-signal' | 'condition';
+  sourceKey?: string;
+  signalKey?: string;
+  condition?: StructuredCondition;
+  requiredOutputs?: string[];
+  validationRule?: StructuredCondition;
+}
+```
+
+例如：
+
+```text
+selectedMaterials 非空
+并且 deliveryMode 已选择
+并且 applicantType 已选择
+并且组件内部校验通过
+```
+
+本节只适用于人工环节：多元素场景满足必填和校验后，还要等待应用组件配置的确认/完成动作；单一决策元素则可在选择后直接继续。自动环节不使用这套等待规则。
+
+### 16.9 多选组合的标准条件语义
+
+本节暂不冻结。若最终确定复杂选择全部由应用组件内部代码计算，并只向流程提供稳定分支结果变量，则这些集合操作符可以降为兼容旧组件或增强配置能力，不再作为所有新组件的必选分支方式。
+
+多选结果必须按集合而不是按字符串或数组顺序判断。分支条件至少应支持：
+
+```text
+containsAny      包含任意一个
+containsAll      包含全部
+equalsSet        集合完全相等，忽略顺序
+notContains      不包含
+sizeEquals       选择数量等于
+sizeGreaterThan  选择数量大于
+isEmpty          为空
+isNotEmpty       非空
+```
+
+示例：
+
+```text
+$current.output.selectedMaterials containsAll ["A", "B"]
+并且
+$current.output.deliveryMode == "MAIL"
+→ 邮寄办理分支
+```
+
+`["A", "B"]` 与 `["B", "A"]` 在 `equalsSet` 下必须视为相同集合。
+
+### 16.10 输出与分支的职责边界
+
+组件输出业务事实：
+
+```json
+{
+  "selectedMaterials": ["A", "B"],
+  "deliveryMode": "MAIL",
+  "decisionCode": "NEED_REVIEW"
+}
+```
+
+流程配置决定路线：
+
+```text
+decisionCode == NEED_REVIEW → 人工复核节点
+decisionCode == PASS        → 办理成功节点
+默认                         → 异常处理节点
+```
+
+允许组件输出业务语义结果 `decisionCode`，但禁止输出平台结构信息 `nextNodeId`。否则流程关系会被隐藏进组件代码，画布连线、影响分析和流程可视化都会失真。
+
+分支判断字段和智能导航展示字段不要求相同。组件可以用简短稳定的代码区分分支，同时向导航提供更丰富的一个或多个诊断结果。两者都来自同一套组件输出机制，但由不同消费者按需选择。
+
+### 16.11 单活动路径与分支汇合
+
+当前业务范围采用“设计图可分支，一次运行只有一条活动路径”：
+
+```text
+       ┌→ B ─┐
+A ─选择┤      ├→ D
+       └→ C ─┘
+```
+
+一次运行只能是：
+
+```text
+A → B → D
+```
+
+或者：
+
+```text
+A → C → D
+```
+
+D 可以配置 B、C 两个父节点，但谁被选中，谁完成后就直接进入 D；D 不等待另一条未执行分支。
+
+整个流程只允许一个结束节点。B、C 等不同互斥路径可以在中间节点 D 汇合，也可以分别继续处理，但最终都必须连接到同一个结束节点。
+
+当前范围明确不实现：
+
+```text
+A 同时启动 B 和 C
+→ 等待 B、C 全部完成
+→ 再进入 D
+```
+
+因此不需要并行 token、join 计数器和并行补偿机制。设计器和保存校验应明确阻止把多条出线解释为“同时执行”。
+
+### 16.12 连线推进规则
+
+连线仍然是流程推进的唯一图结构来源。节点执行完成后，引擎从当前节点的出线中选择且只能选择一条：
+
+```ts
+interface GuidedTransition {
+  transitionId: string;
+  sourceNodeId: string;
+  targetNodeId: string;
+  trigger: 'completed' | 'success' | 'failed';
+  condition?: StructuredCondition;
+  priority?: number;
+  isDefault?: boolean;
+}
+```
+
+运行规则：
+
+1. 只评估与当前完成事件匹配的出线；
+2. 按优先级评估条件；
+3. 正常分支必须唯一命中；
+4. 无条件命中时进入唯一默认分支；
+5. 多条同优先级分支命中时停止并报告配置错误，不能静默任选；
+6. 没有命中且没有默认分支时，节点进入 `blocked` 或配置错误状态；
+7. 自动节点在数据或自动逻辑完成后始终继续评估和推进，多分支不暂停；只有进入人工节点后才等待选择、输入或确认，直到人工完成、结束或发生异常。
+8. 流程只允许一个结束节点，所有能够运行到终点的有效路径都必须到达该结束节点。
+
+### 16.13 输出失效与分支回滚
+
+用户返回前序人工环节修改选择时，旧输出不能继续被视为有效：
+
+```text
+当前节点 completed
+→ 用户发起重新编辑
+→ 原 output 标记失效
+→ 更新 draft
+→ 再次提交生成新 output
+→ 重新判断分支
+```
+
+如果分支改变，引擎按节点域清理旧路径：
+
+- 取消或忽略旧路径尚未完成的请求；
+- 删除旧路径节点的 `draft/private/apiData/output/status`；
+- 删除旧路径渲染结果和订阅；
+- 保留分叉点之前仍然有效的节点域；
+- 从新分支首节点开始执行；
+- 使用新的执行批次 ID，拒绝旧异步结果回写。
+
+这一步必须同时回滚数据和 DOM，不能只截断 `allRenderElements`。
+
+### 16.14 所有区域统一为同一执行管线
+
+`header/content/footer` 负责在不同页面区域渲染，`control` 不渲染但继续执行。content 的人工/自动决定正常推进方式，并同时作为导航文案；展示区域仍不改变流程图连线顺序。
+
+统一执行管线：
+
+```text
+解析 input
+→ 创建节点域
+→ 执行动作或渲染组件
+→ 形成 draft/apiData
+→ 按分支、导航或下游需要整理组件输出
+→ 选择唯一连线
+→ 进入下一节点
+```
+
+自动节点沿这条管线连续执行；人工节点在交互阶段暂停，等待应用组件触发点选或确认完成。
+
+`VA` 更适合表示“变量变化触发重新计算”的触发方式或兼容分支类型。迁移时应保留旧行为，但新模型应把导航文案、完成触发和展示区域拆开。
+
+### 16.15 前后端职责
+
+前端引导式运行引擎负责：
+
+- 解析流程定义和节点配置；
+- 创建、更新和释放节点数据域；
+- 渲染 React 环节；
+- 执行配置化动作；
+- 校验输出；
+- 判断连线并推进单活动路径；
+- 处理前端范围的回滚、取消和旧结果失效；
+- 保持主预览与独立运行页语义一致。
+
+后端负责：
+
+- 提供业务查询、提交、校验等 API；
+- 在服务端执行必须可信的业务规则和权限校验；
+- 保存流程定义、节点配置、输出契约和连线；
+- 根据产品需要保存流程实例快照与运行日志；
+- 为有副作用的提交接口提供幂等支持。
+
+前端可以根据已保存的分支规则选择路线，但涉及资金、权限、审批等可信业务结论时，最终结论仍必须由后端接口返回，前端只消费其输出并按配置推进。
+
+### 16.16 编辑器需要补充的产品能力
+
+节点配置面板至少增加：
+
+1. 输入：当前节点需要哪些数据，以及来源绑定；
+2. 内部数据：仅供当前节点使用的表单、变量和 API 数据；
+3. 组件输出：名称、中文标题、类型、必填、敏感标记和来源映射；明确哪些字段用于分支、导航或下游；
+4. 交互方式：自动环节连续执行；人工环节配置单一决策元素变化或组件确认动作；
+5. 完成校验：哪些输出必须产生，是否还有组件内部校验；
+6. 分支：只允许选择当前节点正式输出、显式共享数据或受支持的系统上下文；
+7. 引用影响：删除或修改输出前，显示所有分支和下游输入引用；
+8. 运行诊断：查看本次节点输入摘要、输出摘要、完成状态和实际命中连线。
+
+输出选择器使用业务名称，不让配置人员直接操作内部 `atomId`：
+
+```text
+当前环节
+  输出
+    已选择材料
+    领取方式
+    申请人类型
+```
+
+### 16.17 此部分验收标准
+
+- 一个环节包含多个内部选择器时，可以等全部必填项完成并确认后再推进；
+- 多选可以配置任意包含、全部包含、集合相等和数量条件；
+- 分支配置不直接依赖 React 组件内部 DOM 和 state；
+- 现有低代码原子组件可以通过输出映射生成正式输出；
+- 后续 React ZIP 组件可以通过同一节点协议提交输出；
+- 两个节点都使用 `result`、`selectedItems` 等名称时互不覆盖；
+- 分支只读取正式输出，不读取未确认草稿；
+- 用户修改前序节点后，旧输出与旧路径数据同时失效；
+- `A-B-D / A-C-D` 两条互斥路径均能进入 D；
+- 所有互斥路径最终都能到达同一个、也是唯一的结束节点；
+- 不会把 B、C 误解释为并行执行；
+- 多条分支同时命中、无分支命中且无默认分支时有明确诊断；
+- 主 `src` 预览和独立 `page` 运行结果一致。
+
+---
+
+## 17. 大流程编辑器容量与性能改造
+
+### 17.1 容量边界
+
+旧业务存在 77、110 个环节的真实流程，当前确认单流程业务节点数最多不超过 150。150 只是拓扑节点上限，不是完整性能规模；业务节点内部还包含原子元素、接口、变量、事件、表达式和组件配置，因此容量评估必须采用组合指标：
+
+```text
+编辑规模 = 节点与连线拓扑
+         + 全部节点内部元素数量与配置体积
+         + 编辑期 DOM/SVG 与状态订阅
+         + 撤销重做数据量
+
+运行规模 = 当前活动路径节点数
+         + 活动路径实际渲染元素数
+         + 接口结果、节点域状态与订阅
+```
+
+“支持 150 个节点”只有在真实复杂度数据下完成打开、拖动、缩放、编辑、撤销和保存验证后才能成立，不能用 150 个空节点的演示结果代替。
+
+### 17.2 编辑器数据分层
+
+流程编辑器需要把轻量拓扑和完整业务组件定义分开：
+
+```text
+画布常驻数据
+  nodeId / componentId / name / position
+  presentation / branchSummary / validationSummary
+
+按需组件详情
+  elements / elementsMap / variables
+  api / events / expressions / full component config
+```
+
+画布节点卡片只渲染摘要，不挂载节点内部真实元素。完整组件详情仅在打开节点编辑或预览时加载，并使用有界缓存；撤销重做不得重复深拷贝这些完整详情。
+
+### 17.3 现有画布优先优化项
+
+1. 用邻接索引定位当前节点的入线和出线，拖动时只更新相关连线；
+2. 用 `requestAnimationFrame` 合并 `mousemove`，拖动结束后再提交坐标、Store 和历史记录；
+3. 节点卡片、连线、选中态、弹窗采用细粒度订阅，避免单节点变化触发整图更新；
+4. 历史记录保存轻量拓扑快照或操作差异，排除原子元素树、完整组件配置和接口结果；
+5. 初始化阶段批量建立 DOM/节点/连线索引，减少反复 `querySelector` 和同步布局测量；
+6. 保存时只在必要阶段生成后端协议，避免编辑过程中反复整图序列化；
+7. 完成以上优化后仍有压力时，再启用按视口渲染或画布大图降级。
+
+### 17.4 运行期元素治理
+
+运行时只加载实际命中的活动路径，不加载未命中场景或分支。节点字段更新只通知当前节点和显式依赖者。已完成复杂节点不能无条件长期保留全部重型交互 DOM；是否转为只读结果、折叠后卸载并按需恢复，需与“返回前序环节修改”的产品规则共同确定。旧分支失效时，其 DOM、订阅、接口任务、Blob 和节点域状态必须一并释放。
+
+### 17.5 画布技术路线
+
+第一阶段先优化现有画布，不预先绑定某个开源库。使用同一份真实 110 节点数据和模拟 150 节点数据进行基准测试；若数据瘦身、局部连线更新和状态隔离后仍未达标，再用相同数据对 React Flow、AntV X6、LogicFlow 等候选方案做原型对比。
+
+即使替换开源库，也只替换拖拽、缩放、连线、连接点和视口等画布基础层，保留现有流程定义协议、组件体系、分支语义和引导式运行引擎。开源画布不能替代节点详情按需加载、历史记录瘦身和运行期元素治理。
+
+### 17.6 验收矩阵
+
+至少覆盖以下样本：
+
+- 真实 110 节点流程；
+- 模拟 150 节点、典型连线与多分支流程；
+- 节点较少但单节点内部元素较多的流程；
+- 节点较多但单节点内容简单的流程；
+- 包含复杂表格、表单、接口结果和变量联动的长活动路径。
+
+统一记录首屏可操作时间、拖动/缩放帧耗时、节点编辑打开时间、撤销重做耗时、保存序列化耗时、DOM/SVG 数量、JS 堆内存和浏览器长任务。正式的总元素数、单节点元素峰值和配置体积上限，在统计真实 110 节点流程后冻结。

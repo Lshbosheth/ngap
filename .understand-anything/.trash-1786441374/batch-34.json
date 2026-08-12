@@ -1,0 +1,364 @@
+{
+  "nodes": [
+    {
+      "id": "file:.gitattributes",
+      "type": "file",
+      "name": ".gitattributes",
+      "filePath": ".gitattributes",
+      "summary": "配置 Git 对仓库文本文件、换行符及文件属性的处理规则。",
+      "tags": [
+        "configuration",
+        "tooling",
+        "repository"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.npmrc",
+      "type": "file",
+      "name": ".npmrc",
+      "filePath": ".npmrc",
+      "summary": "配置 npm 依赖安装时使用的仓库和客户端行为。",
+      "tags": [
+        "configuration",
+        "tooling",
+        "repository"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.prettierignore",
+      "type": "file",
+      "name": ".prettierignore",
+      "filePath": ".prettierignore",
+      "summary": "列出 Prettier 格式化时应跳过的构建产物、依赖和生成文件。",
+      "tags": [
+        "configuration",
+        "tooling",
+        "repository"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "定义 Understand-Anything 项目扫描的忽略建议与当前扫描边界。",
+      "tags": [
+        "configuration",
+        "tooling",
+        "repository"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Advanced/AIChat/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/AIChat/index.module.less",
+      "summary": "定义独立 materials 运行时中AI 对话物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Advanced/Breadcrumb/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/Breadcrumb/index.module.less",
+      "summary": "定义独立 materials 运行时中面包屑物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Advanced/FloatingWindow/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/FloatingWindow/index.module.less",
+      "summary": "定义独立 materials 运行时中悬浮窗口物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Menu/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/Menu/index.module.less",
+      "summary": "定义独立 materials 运行时中菜单物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Advanced/Pagination/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/Pagination/index.module.less",
+      "summary": "定义独立 materials 运行时中分页物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Pagination/ShowNumberSetting.tsx",
+      "type": "file",
+      "name": "ShowNumberSetting.tsx",
+      "filePath": "materials/Advanced/Pagination/ShowNumberSetting.tsx",
+      "summary": "提供独立运行时分页组件的展示数量设置器，并把值绑定到指定表单字段。",
+      "tags": [
+        "component",
+        "react",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Advanced/Steps/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/Steps/index.module.less",
+      "summary": "定义独立 materials 运行时中步骤条物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Advanced/Tree/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Advanced/Tree/index.module.less",
+      "summary": "定义独立 materials 运行时中树物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/AudioPlayer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/AudioPlayer/index.module.less",
+      "summary": "定义独立 materials 运行时中音频播放器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/Badge/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/Badge/index.module.less",
+      "summary": "定义独立 materials 运行时中徽标物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Carousel/carousel.less",
+      "type": "file",
+      "name": "carousel.less",
+      "filePath": "materials/Basic/Carousel/carousel.less",
+      "summary": "定义独立 materials 运行时中carousel物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/CollapseBtn/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/CollapseBtn/index.module.less",
+      "summary": "定义独立 materials 运行时中折叠按钮物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Text/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/Text/index.module.less",
+      "summary": "定义独立 materials 运行时中文本物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Timer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/Timer/index.module.less",
+      "summary": "定义独立 materials 运行时中计时器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Video/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Basic/Video/index.module.less",
+      "summary": "定义独立 materials 运行时中视频物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/components.ts",
+      "type": "file",
+      "name": "components.ts",
+      "filePath": "materials/components.ts",
+      "summary": "作为独立 materials 运行时的物料导出总入口，按布局、功能、高级、基础、容器、图表、反馈和表单分类重导出全部组件。",
+      "tags": [
+        "barrel",
+        "entry-point",
+        "component-registry",
+        "exports"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "纯 TypeScript barrel 文件，通过命名重导出形成独立物料包的公共组件表面。"
+    },
+    {
+      "id": "file:materials/Container/Card/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/Container/Card/index.less",
+      "summary": "定义独立 materials 运行时中卡片容器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Container/Collapse/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/Container/Collapse/index.less",
+      "summary": "定义独立 materials 运行时中折叠容器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Container/Cycle/BasicConfig.tsx",
+      "type": "file",
+      "name": "BasicConfig.tsx",
+      "filePath": "materials/Container/Cycle/BasicConfig.tsx",
+      "summary": "提供循环容器的基础配置表单，用于设置列表项唯一性字段。",
+      "tags": [
+        "component",
+        "react",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Container/Form/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/Container/Form/index.less",
+      "summary": "定义独立 materials 运行时中表单容器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Container/GridForm/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/Container/GridForm/index.less",
+      "summary": "定义独立 materials 运行时中栅格表单物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "function",
+      "name": "BasicConfig",
+      "filePath": "materials/Container/Cycle/BasicConfig.tsx",
+      "lineRange": [
+        4,
+        10
+      ],
+      "summary": "渲染循环容器的基础配置项并绑定唯一性字段。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Container/Cycle/BasicConfig.tsx",
+      "target": "function:materials/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Cycle/BasicConfig.tsx",
+      "target": "function:materials/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

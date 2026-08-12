@@ -1,0 +1,1004 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "type": "file",
+      "name": "ComponentMethods.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "summary": "该文件配置事件动作调用的目标组件方法、参数映射和执行顺序。",
+      "tags": [
+        "react-component",
+        "event-config",
+        "action",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ComponentMethods.tsx:ComponentMethods",
+      "type": "function",
+      "name": "ComponentMethods",
+      "filePath": "src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "lineRange": [
+        12,
+        157
+      ],
+      "summary": "ComponentMethods 是该文件的核心 React 组件，负责配置事件动作调用的目标组件方法、参数映射和执行顺序。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "event-config",
+        "action"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "type": "file",
+      "name": "Componentlinkage.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "summary": "该文件配置组件联动动作，包括目标组件、属性变化和变量绑定。",
+      "tags": [
+        "react-component",
+        "event-config",
+        "action",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/Componentlinkage.tsx:Componentlinkage",
+      "type": "function",
+      "name": "Componentlinkage",
+      "filePath": "src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "lineRange": [
+        16,
+        301
+      ],
+      "summary": "Componentlinkage 是该文件的核心 React 组件，负责配置组件联动动作，包括目标组件、属性变化和变量绑定。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "event-config",
+        "action"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "type": "file",
+      "name": "RequestAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "summary": "该文件配置事件触发后的接口请求动作及请求参数输入。",
+      "tags": [
+        "react-component",
+        "event-config",
+        "action",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/RequestAction.tsx:RequestAction",
+      "type": "function",
+      "name": "RequestAction",
+      "filePath": "src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "lineRange": [
+        14,
+        32
+      ],
+      "summary": "RequestAction 是该文件的核心 React 组件，负责配置事件触发后的接口请求动作及请求参数输入。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "event-config",
+        "action"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/RequestAction.tsx:ReqInput",
+      "type": "function",
+      "name": "ReqInput",
+      "filePath": "src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "lineRange": [
+        38,
+        72
+      ],
+      "summary": "ReqInput 渲染请求动作的参数输入项并同步配置值。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/FloatingCollector/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/components/FloatingCollector/index.tsx",
+      "summary": "该文件提供可拖动的悬浮采集入口和图标选择弹窗。",
+      "tags": [
+        "react-component",
+        "frontend",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/FloatingCollector/index.tsx:FloatingCollector",
+      "type": "function",
+      "name": "FloatingCollector",
+      "filePath": "src/components/FloatingCollector/index.tsx",
+      "lineRange": [
+        12,
+        155
+      ],
+      "summary": "FloatingCollector 是该文件的核心 React 组件，负责提供可拖动的悬浮采集入口和图标选择弹窗。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "frontend",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/FloatingCollector/index.tsx:ModalIcon",
+      "type": "function",
+      "name": "ModalIcon",
+      "filePath": "src/components/FloatingCollector/index.tsx",
+      "lineRange": [
+        157,
+        167
+      ],
+      "summary": "ModalIcon 渲染悬浮采集器的可选图标内容。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/Toolbar/Toolbar.tsx",
+      "type": "file",
+      "name": "Toolbar.tsx",
+      "filePath": "src/components/Toolbar/Toolbar.tsx",
+      "summary": "该文件实现画布工具栏中的对齐、层级、复制、删除等编辑命令。",
+      "tags": [
+        "react-component",
+        "page-editor",
+        "drag-drop",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/VariableBind/VariableSelect.tsx",
+      "type": "file",
+      "name": "VariableSelect.tsx",
+      "filePath": "src/components/VariableBind/VariableSelect.tsx",
+      "summary": "该文件实现变量选择弹窗，浏览页面变量、接口输出和组件数据并建立绑定。",
+      "tags": [
+        "react-component",
+        "variable-binding",
+        "data-source",
+        "configuration"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/components/VariableBind/VariableSelect.tsx:SelectVariableModal",
+      "type": "function",
+      "name": "SelectVariableModal",
+      "filePath": "src/components/VariableBind/VariableSelect.tsx",
+      "lineRange": [
+        14,
+        429
+      ],
+      "summary": "SelectVariableModal 是该文件的核心 React 组件，负责实现变量选择弹窗，浏览页面变量、接口输出和组件数据并建立绑定。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "variable-binding",
+        "data-source"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "type": "file",
+      "name": "BaseCanvasPreview.tsx",
+      "filePath": "src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "summary": "该文件在运行态加载页面数据、注册组件并渲染基础画布预览。",
+      "tags": [
+        "react-component",
+        "runtime-preview",
+        "canvas",
+        "component-loader"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx:BaseCanvasPreview",
+      "type": "function",
+      "name": "BaseCanvasPreview",
+      "filePath": "src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "lineRange": [
+        19,
+        126
+      ],
+      "summary": "BaseCanvasPreview 是该文件的核心 React 组件，负责在运行态加载页面数据、注册组件并渲染基础画布预览。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "runtime-preview",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/ApiList/ApiList.tsx",
+      "type": "file",
+      "name": "ApiList.tsx",
+      "filePath": "src/layout/components/ApiList/ApiList.tsx",
+      "summary": "该文件展示页面接口列表并提供接口选择和参数输入。",
+      "tags": [
+        "react-component",
+        "api-config",
+        "data-source"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/components/ApiList/ApiList.tsx:ApiInput",
+      "type": "function",
+      "name": "ApiInput",
+      "filePath": "src/layout/components/ApiList/ApiList.tsx",
+      "lineRange": [
+        134,
+        151
+      ],
+      "summary": "ApiInput 是该文件的核心 React 组件，负责展示页面接口列表并提供接口选择和参数输入。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "api-config",
+        "data-source"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "type": "file",
+      "name": "CrossApiList.tsx",
+      "filePath": "src/layout/components/CrossApiList/CrossApiList.tsx",
+      "summary": "该文件展示跨应用接口列表并配置跨应用调用。",
+      "tags": [
+        "react-component",
+        "api-config",
+        "data-source"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Menu/ComponentPanel.tsx",
+      "type": "file",
+      "name": "ComponentPanel.tsx",
+      "filePath": "src/layout/components/Menu/ComponentPanel.tsx",
+      "summary": "该文件展示设计器组件面板、分类和可拖拽组件入口。",
+      "tags": [
+        "react-component",
+        "page-editor",
+        "drag-drop",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/components/Menu/ComponentPanel.tsx:ComponentPanel",
+      "type": "function",
+      "name": "ComponentPanel",
+      "filePath": "src/layout/components/Menu/ComponentPanel.tsx",
+      "lineRange": [
+        17,
+        199
+      ],
+      "summary": "ComponentPanel 是该文件的核心 React 组件，负责展示设计器组件面板、分类和可拖拽组件入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "page-editor",
+        "drag-drop"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "type": "file",
+      "name": "DragMenuItem.tsx",
+      "filePath": "src/layout/components/Menu/DragMenuItem.tsx",
+      "summary": "该文件把组件菜单项接入拖拽系统并创建对应画布元素。",
+      "tags": [
+        "react-component",
+        "page-editor",
+        "drag-drop",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/layout/components/Menu/DragMenuItem.tsx:DragMenuItem",
+      "type": "function",
+      "name": "DragMenuItem",
+      "filePath": "src/layout/components/Menu/DragMenuItem.tsx",
+      "lineRange": [
+        24,
+        309
+      ],
+      "summary": "DragMenuItem 是该文件的核心 React 组件，负责把组件菜单项接入拖拽系统并创建对应画布元素。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "page-editor",
+        "drag-drop"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/components/OutlinePanel.tsx",
+      "type": "file",
+      "name": "OutlinePanel.tsx",
+      "filePath": "src/layout/components/OutlinePanel.tsx",
+      "summary": "该文件展示画布元素层级大纲并支持选中、定位和层级操作。",
+      "tags": [
+        "react-component",
+        "page-editor",
+        "drag-drop",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "type": "file",
+      "name": "AIChat.tsx",
+      "filePath": "src/packages/Advanced/AIChat/AIChat.tsx",
+      "summary": "该文件封装低代码运行时的 AIChat 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/Advanced/AIChat/AIChat.tsx:AIChat",
+      "type": "function",
+      "name": "AIChat",
+      "filePath": "src/packages/Advanced/AIChat/AIChat.tsx",
+      "lineRange": [
+        32,
+        524
+      ],
+      "summary": "AIChat 是该文件的核心 React 组件，负责封装低代码运行时的 AIChat 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "type": "file",
+      "name": "FloatingWindow.tsx",
+      "filePath": "src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "summary": "该文件封装低代码运行时的 FloatingWindow 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx:MFloatingWindow",
+      "type": "function",
+      "name": "MFloatingWindow",
+      "filePath": "src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "lineRange": [
+        29,
+        269
+      ],
+      "summary": "MFloatingWindow 是该文件的核心 React 组件，负责封装低代码运行时的 FloatingWindow 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/Pagination/Pagination.tsx",
+      "type": "file",
+      "name": "Pagination.tsx",
+      "filePath": "src/packages/Advanced/Pagination/Pagination.tsx",
+      "summary": "该文件封装低代码运行时的 Pagination 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Pagination/Pagination.tsx:MPagination",
+      "type": "function",
+      "name": "MPagination",
+      "filePath": "src/packages/Advanced/Pagination/Pagination.tsx",
+      "lineRange": [
+        20,
+        85
+      ],
+      "summary": "MPagination 是该文件的核心 React 组件，负责封装低代码运行时的 Pagination 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ComponentMethods.tsx:ComponentMethods",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/Componentlinkage.tsx:Componentlinkage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/RequestAction.tsx:RequestAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/RequestAction.tsx:ReqInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/FloatingCollector/index.tsx",
+      "target": "function:src/components/FloatingCollector/index.tsx:FloatingCollector",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/FloatingCollector/index.tsx",
+      "target": "function:src/components/FloatingCollector/index.tsx:ModalIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "function:src/components/VariableBind/VariableSelect.tsx:SelectVariableModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "target": "function:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx:BaseCanvasPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "function:src/layout/components/ApiList/ApiList.tsx:ApiInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/Menu/ComponentPanel.tsx",
+      "target": "function:src/layout/components/Menu/ComponentPanel.tsx:ComponentPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "function:src/layout/components/Menu/DragMenuItem.tsx:DragMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "function:src/packages/Advanced/AIChat/AIChat.tsx:AIChat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "function:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx:MFloatingWindow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Pagination.tsx",
+      "target": "function:src/packages/Advanced/Pagination/Pagination.tsx:MPagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "file:src/components/ApiConfig/components/SettingModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FloatingCollector/index.tsx",
+      "target": "file:src/components/FloatingCollector/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FloatingCollector/index.tsx",
+      "target": "file:src/packages/utils/useComponentRefs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FloatingCollector/index.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/Toolbar/Toolbar.tsx",
+      "target": "file:src/components/Toolbar/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/Toolbar/Toolbar.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/components/VariableBind/variable.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableSelect.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "target": "file:src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/layout/components/ApiList/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ApiList/ApiList.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "target": "file:src/layout/components/CrossApiList/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/ComponentPanel.tsx",
+      "target": "file:src/layout/components/ApiList/ApiList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/ComponentPanel.tsx",
+      "target": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/ComponentPanel.tsx",
+      "target": "file:src/layout/components/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "file:src/layout/components/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/Menu/DragMenuItem.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/OutlinePanel.tsx",
+      "target": "file:src/layout/components/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "file:src/packages/Advanced/AIChat/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/AIChat/AIChat.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/packages/Advanced/FloatingWindow/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Pagination.tsx",
+      "target": "file:src/packages/Advanced/Pagination/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Pagination.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Pagination.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

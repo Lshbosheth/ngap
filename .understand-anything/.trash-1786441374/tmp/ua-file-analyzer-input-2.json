@@ -1,0 +1,329 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/config/components.tsx",
+      "language": "typescript",
+      "sizeLines": 799,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconAIChat.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconAudioPlayer.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBadge.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBarAndLine.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBarChart.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBaseTable.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBasicAvatar.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBasicIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBasicStatistic.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBottomBanner.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBownloadButton.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconBreadcrumb.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconButton.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCard.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCarousel.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCheckableTagGroup.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCollapse.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCollapseBtn.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconColorPicker.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconColumn.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconColumnChart.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCountDown.tsx",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconCounter.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconDescriptions.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconDiv.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconDivider.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconDropdown.tsx",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFeedBackDrawer.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFeedBackEmpty.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFeedBackModal.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFeedBackResult.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFile.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/config/components.tsx": [
+      "src/config/icons/IconAIChat.tsx",
+      "src/config/icons/IconAudioPlayer.tsx",
+      "src/config/icons/IconBadge.tsx",
+      "src/config/icons/IconBarAndLine.tsx",
+      "src/config/icons/IconBarChart.tsx",
+      "src/config/icons/IconBaseTable.tsx",
+      "src/config/icons/IconBasicAvatar.tsx",
+      "src/config/icons/IconBasicIcon.tsx",
+      "src/config/icons/IconBasicStatistic.tsx",
+      "src/config/icons/IconBottomBanner.tsx",
+      "src/config/icons/IconBownloadButton.tsx",
+      "src/config/icons/IconBreadcrumb.tsx",
+      "src/config/icons/IconButton.tsx",
+      "src/config/icons/IconCard.tsx",
+      "src/config/icons/IconCarousel.tsx",
+      "src/config/icons/IconCheckableTagGroup.tsx",
+      "src/config/icons/IconCollapse.tsx",
+      "src/config/icons/IconCollapseBtn.tsx",
+      "src/config/icons/IconColorPicker.tsx",
+      "src/config/icons/IconColumn.tsx",
+      "src/config/icons/IconColumnChart.tsx",
+      "src/config/icons/IconCountDown.tsx",
+      "src/config/icons/IconCounter.tsx",
+      "src/config/icons/IconDescriptions.tsx",
+      "src/config/icons/IconDiv.tsx",
+      "src/config/icons/IconDivider.tsx",
+      "src/config/icons/IconDropdown.tsx",
+      "src/config/icons/IconFeedBackDrawer.tsx",
+      "src/config/icons/IconFeedBackEmpty.tsx",
+      "src/config/icons/IconFeedBackModal.tsx",
+      "src/config/icons/IconFeedBackResult.tsx",
+      "src/config/icons/IconFile.tsx",
+      "src/config/icons/IconFileUpload.tsx",
+      "src/config/icons/IconFlex.tsx",
+      "src/config/icons/IconFloatingWindow.tsx",
+      "src/config/icons/IconForm.tsx",
+      "src/config/icons/IconFormCascader.tsx",
+      "src/config/icons/IconFormCheckbox.tsx",
+      "src/config/icons/IconFormDate.tsx",
+      "src/config/icons/IconFormDatepicker.tsx",
+      "src/config/icons/IconFormInput.tsx",
+      "src/config/icons/IconFormInputPassword.tsx",
+      "src/config/icons/IconFormItem.tsx",
+      "src/config/icons/IconFormList.tsx",
+      "src/config/icons/IconFormRadio.tsx",
+      "src/config/icons/IconFormSelect.tsx",
+      "src/config/icons/IconFormSlider.tsx",
+      "src/config/icons/IconFormStatic.tsx",
+      "src/config/icons/IconFormSwitch.tsx",
+      "src/config/icons/IconFormTextArea.tsx",
+      "src/config/icons/IconFormTime.tsx",
+      "src/config/icons/IconFormTimePicker.tsx",
+      "src/config/icons/IconFromInputNumber.tsx",
+      "src/config/icons/IconFunctionalTabs.tsx",
+      "src/config/icons/IconFunnelChart.tsx",
+      "src/config/icons/IconGridForm.tsx",
+      "src/config/icons/IconIFrame.tsx",
+      "src/config/icons/IconImage.tsx",
+      "src/config/icons/IconJson.tsx",
+      "src/config/icons/IconLineChart.tsx",
+      "src/config/icons/IconLink.tsx",
+      "src/config/icons/IconList.tsx",
+      "src/config/icons/IconMapChart.tsx",
+      "src/config/icons/IconMenu.tsx",
+      "src/config/icons/IconPagination.tsx",
+      "src/config/icons/IconPieChart.tsx",
+      "src/config/icons/IconPopover.tsx",
+      "src/config/icons/IconProgress.tsx",
+      "src/config/icons/IconRate.tsx",
+      "src/config/icons/IconRichText.tsx",
+      "src/config/icons/IconRingProgress.tsx",
+      "src/config/icons/IconRow.tsx",
+      "src/config/icons/IconSearcFrom.tsx",
+      "src/config/icons/IconSpace.tsx",
+      "src/config/icons/IconSpan.tsx",
+      "src/config/icons/IconSpin.tsx",
+      "src/config/icons/IconSteps.tsx",
+      "src/config/icons/IconTag.tsx",
+      "src/config/icons/IconText.tsx",
+      "src/config/icons/IconTimeLine.tsx",
+      "src/config/icons/IconTimer.tsx",
+      "src/config/icons/IconTinyColumn.tsx",
+      "src/config/icons/IconTinyLine.tsx",
+      "src/config/icons/IconTitle.tsx",
+      "src/config/icons/IconTransfer.tsx",
+      "src/config/icons/IconTree.tsx",
+      "src/config/icons/IconTreeSelect.tsx",
+      "src/config/icons/IconVideo.tsx",
+      "src/config/icons/IconWatermark.tsx",
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/config/icons/IconAIChat.tsx": [],
+    "src/config/icons/IconAudioPlayer.tsx": [],
+    "src/config/icons/IconBadge.tsx": [],
+    "src/config/icons/IconBarAndLine.tsx": [],
+    "src/config/icons/IconBarChart.tsx": [],
+    "src/config/icons/IconBaseTable.tsx": [],
+    "src/config/icons/IconBasicAvatar.tsx": [],
+    "src/config/icons/IconBasicIcon.tsx": [],
+    "src/config/icons/IconBasicStatistic.tsx": [],
+    "src/config/icons/IconBottomBanner.tsx": [],
+    "src/config/icons/IconBownloadButton.tsx": [],
+    "src/config/icons/IconBreadcrumb.tsx": [],
+    "src/config/icons/IconButton.tsx": [],
+    "src/config/icons/IconCard.tsx": [],
+    "src/config/icons/IconCarousel.tsx": [],
+    "src/config/icons/IconCheckableTagGroup.tsx": [],
+    "src/config/icons/IconCollapse.tsx": [],
+    "src/config/icons/IconCollapseBtn.tsx": [],
+    "src/config/icons/IconColorPicker.tsx": [],
+    "src/config/icons/IconColumn.tsx": [],
+    "src/config/icons/IconColumnChart.tsx": [],
+    "src/config/icons/IconCountDown.tsx": [],
+    "src/config/icons/IconCounter.tsx": [],
+    "src/config/icons/IconDescriptions.tsx": [],
+    "src/config/icons/IconDiv.tsx": [],
+    "src/config/icons/IconDivider.tsx": [],
+    "src/config/icons/IconDropdown.tsx": [],
+    "src/config/icons/IconFeedBackDrawer.tsx": [],
+    "src/config/icons/IconFeedBackEmpty.tsx": [],
+    "src/config/icons/IconFeedBackModal.tsx": [],
+    "src/config/icons/IconFeedBackResult.tsx": [],
+    "src/config/icons/IconFile.tsx": []
+  }
+}

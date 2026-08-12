@@ -1,0 +1,28 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/businessComponentManage/businessComponent.json",
+      "language": "json",
+      "sizeLines": 226,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentBusinessList.json",
+      "language": "json",
+      "sizeLines": 134,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/pages/businessComponentManage/index.less",
+      "language": "css",
+      "sizeLines": 496,
+      "fileCategory": "markup"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/businessComponentManage/businessComponent.json": [],
+    "src/pages/businessComponentManage/componentBusinessList.json": [],
+    "src/pages/businessComponentManage/index.less": []
+  }
+}

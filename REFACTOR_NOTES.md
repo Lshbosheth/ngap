@@ -1,4 +1,4 @@
-# NGAP 核心改造记录
+# NGAP 核心改造记录（REFACTOR_NOTES.md）
 
 ## 改造目标
 
@@ -21,7 +21,7 @@
 
 ## 自定义元素 v2 设计状态（2026-08-10）
 
-- 已新增 `CUSTOM_ELEMENT_REDESIGN.md`，完成 React 组件 ZIP 包的详细重写设计。
+- 已新增自定义元素完整设计·理想方案（`CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md`），完成 React 组件 ZIP 包的详细重写设计。
 - 已确定使用“标准 ZIP 目录 + 根目录 `ngap.json` + `src/index.tsx` 默认导出组件”的协议方向；可拆分本地 TSX/TS 模块、样式和静态资源。
 - 已确定以标准 manifest 为核心，再转换成现有 `attrs/config/events/methods` Schema 以降低首期编辑器改造面。
 - 已确定 v2 运行时使用扁平业务 Props + 稳定 `context`，同时保留旧 `config/id/type/elements/loopVariable` 兼容 Props。
@@ -29,6 +29,38 @@
 - 已确定主 `src` 与独立 `page/materials` 必须共用 analyzer、manifest、registry 和 Props adapter。
 - 浏览器只做 ZIP 安全预检；本地开发可使用 Vite/esbuild-wasm。正式预览和生产必须服务端构建、扫描并产出不可变 ESM/CSS/assets、runtime manifest、hash 和签名，不能仅用 Babel 转入口文件。
 - 首期仍需确认后端是否支持 `elementProtocolVersion`、manifest/bundle URL 以及运行版本锁定。
+
+## 需求人员入门文档（2026-08-11）
+
+- 已新增 `NGAP_REQUIREMENTS_ONBOARDING.md`，面向刚进入项目的需求/产品人员介绍当前 NGAP 平台能力和业务闭环。
+- 文档重点说明元素、业务组件、模板、应用、接口、变量、事件、流程、审核发布和运行治理之间的关系。
+- 文档详细介绍两个重点优化项目，并明确当前顺序为：先完成步骤引导式流程改造及双运行时回归，再启动自定义元素 ZIP + SDK 正式改造。
+- 文档包含跨项目组协作清单、需求产出、验收门槛、常见误区和建议学习路径。
+
+## 引导式节点数据域设计（2026-08-11）
+
+- 已通过 `/understand` 完成全仓知识图谱：1208 个文件、2112 个节点、3219 条边、8 个架构层、12 步中文导览；正式图谱位于 `.understand-anything/knowledge-graph.json`。
+- 已确认当前 `canvasPageStore` 与 `materials/pageStore` 都使用页面级扁平 `variables/variableData/formData/apiOutData`。
+- 编辑器侧虽存在 `processData.nodeData[nodeId]`，但元素、表单和变量仍会并入页面级 Store，没有形成运行时数据边界。
+- `ProcessPage.tsx` 当前 `isPrivate + zjId` 只是变量名后缀方案；独立 `page/src/page/index.tsx` 甚至仍直接按变量名去重，双运行时行为不完全一致。
+- 目标方案确定为 `runtime.nodes[nodeId]` 节点私有域 + `runtime.shared` 显式流程共享域；跨节点通过 input/output binding 传递。
+- 节点执行类型确定为 `manual/automatic/service`，与 `presentation.region` 正交；服务节点默认 `control` 且不渲染。
+- 用户只维护显示名称和业务输出名，平台用不可变 `nodeId` 隔离；可读 alias 仅用于跨节点展示，不能作为主键。
+- 兼容期以 scoped runtime 为主数据，旧 `context.variable/context.api` 只由 legacy projection 生成。
+- 详细数据结构、平台 Runtime API、编辑器选择器、迁移阶段、测试矩阵和验收标准已追加到 `GUIDED_PROCESS_REDESIGN.md` 第 15 章；需求侧说明已追加到 `NGAP_REQUIREMENTS_ONBOARDING.md` 第 8.11 节。
+
+## 引导式环节输出和待完善事项（2026-08-11）
+
+- 已确认当前人工分支具备“读取多个内部原子值 + conditionList + AND/OR + 数组逐项比较”能力，但不存在正式、声明式、可版本化的环节输出契约。
+- 已确认新模型需要区分 `input/draft/private/apiData/output/status/validation`，内部字段默认私有，分支和下游主要读取正式 `node.output`。
+- 人工环节默认按“填写草稿 → 校验就绪 → 用户确认 → 生成输出 → 判断分支”推进；任一字段变化不再默认代表环节完成。
+- 现有低代码业务组件通过输出映射形成标准输出；未来 React ZIP 组件通过平台 SDK 提交相同输出。
+- 多选组合需要补充集合操作符，包括 `containsAny/containsAll/equalsSet/notContains/size...`。
+- 组件可以输出业务 `decisionCode`，但不能直接输出 `nextNodeId`；画布连线仍然是流程推进关系。
+- 已冻结单活动路径范围：支持 `A-B-D / A-C-D` 互斥分支后进入同一 D，不实现 B、C 同时执行并等待汇聚。
+- 上述完整方案已追加到引导式流程展示编排升级详细设计（`GUIDED_PROCESS_REDESIGN.md`）第 16 章。
+- 已新增引导式流程待完善事项（`GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`），按 P0/P1/P2 记录完成边界、状态机、输出协议、条件语言、分支唯一命中、图校验、回滚、刷新恢复、失败策略、双运行时和版本治理等事项。
+- 当前用户要求先讨论和评审待完善事项，尚未要求开始本轮引导式主干编码。
 
 ## 第一批需要采集的接口响应
 

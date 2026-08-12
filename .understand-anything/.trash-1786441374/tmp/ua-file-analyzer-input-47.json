@@ -1,0 +1,190 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "language": "typescript",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Breadcrumb/index.module.less",
+      "language": "css",
+      "sizeLines": 43,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/Breadcrumb/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/index.module.less",
+      "language": "css",
+      "sizeLines": 173,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "language": "css",
+      "sizeLines": 432,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/FloatingWindow/index.module.less",
+      "language": "css",
+      "sizeLines": 128,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/FloatingWindow/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Menu/index.module.less",
+      "language": "css",
+      "sizeLines": 17,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/Menu/Menu.tsx",
+      "language": "typescript",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Menu/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 213,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/index.module.less",
+      "language": "css",
+      "sizeLines": 126,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "language": "typescript",
+      "sizeLines": 872,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Pagination/index.module.less",
+      "language": "css",
+      "sizeLines": 147,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/SearchForm/index.module.less",
+      "language": "css",
+      "sizeLines": 21,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/index.module.less",
+      "language": "css",
+      "sizeLines": 366,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/Timeline/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Timeline/Timeline.tsx",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Tree/index.module.less",
+      "language": "css",
+      "sizeLines": 236,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/AudioPlayer/index.module.less",
+      "language": "css",
+      "sizeLines": 860,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/AudioPlayer/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Badge/index.module.less",
+      "language": "css",
+      "sizeLines": 11,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Badge/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Carousel/carousel.less",
+      "language": "css",
+      "sizeLines": 29,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Carousel/Carousel.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Carousel/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 136,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Advanced/Breadcrumb/Breadcrumb.tsx": [
+      "src/packages/Advanced/Breadcrumb/index.module.less"
+    ],
+    "src/packages/Advanced/Breadcrumb/index.module.less": [],
+    "src/packages/Advanced/Breadcrumb/Schema.tsx": [],
+    "src/packages/Advanced/BusinessTable/index.module.less": [],
+    "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less": [],
+    "src/packages/Advanced/FloatingWindow/index.module.less": [],
+    "src/packages/Advanced/FloatingWindow/Schema.tsx": [],
+    "src/packages/Advanced/Menu/index.module.less": [],
+    "src/packages/Advanced/Menu/Menu.tsx": [
+      "src/packages/Advanced/Menu/index.module.less"
+    ],
+    "src/packages/Advanced/Menu/Schema.tsx": [],
+    "src/packages/Advanced/NgapTable/index.module.less": [],
+    "src/packages/Advanced/NgapTable/NgapTable.tsx": [
+      "src/packages/Advanced/NgapTable/index.module.less"
+    ],
+    "src/packages/Advanced/Pagination/index.module.less": [],
+    "src/packages/Advanced/SearchForm/index.module.less": [],
+    "src/packages/Advanced/Steps/index.module.less": [],
+    "src/packages/Advanced/Timeline/Schema.tsx": [],
+    "src/packages/Advanced/Timeline/Timeline.tsx": [],
+    "src/packages/Advanced/Tree/index.module.less": [],
+    "src/packages/Basic/AudioPlayer/index.module.less": [],
+    "src/packages/Basic/AudioPlayer/Schema.ts": [],
+    "src/packages/Basic/Badge/index.module.less": [],
+    "src/packages/Basic/Badge/Schema.ts": [],
+    "src/packages/Basic/Carousel/carousel.less": [],
+    "src/packages/Basic/Carousel/Carousel.tsx": [
+      "src/packages/Basic/Carousel/carousel.less"
+    ],
+    "src/packages/Basic/Carousel/Schema.tsx": []
+  }
+}

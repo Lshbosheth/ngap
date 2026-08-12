@@ -1,0 +1,189 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/FormItems/Slider/Slider.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Switch/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/index.module.less",
+      "language": "css",
+      "sizeLines": 154,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TreeSelect/index.module.less",
+      "language": "css",
+      "sizeLines": 253,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Functional/Button/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/index.module.less",
+      "language": "css",
+      "sizeLines": 5,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Functional/List/index.module.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Functional/List/List.tsx",
+      "language": "typescript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/List/useRenderItem.tsx",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tabs/index.module.less",
+      "language": "css",
+      "sizeLines": 59,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Layout/BottomBanner/index.module.less",
+      "language": "css",
+      "sizeLines": 27,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Layout/BottomBanner/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Col/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Divider/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Row/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Span/index.module.less",
+      "language": "css",
+      "sizeLines": 44,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Layout/Span/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/NgapRender/index.less",
+      "language": "css",
+      "sizeLines": 7,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Other/IFrame/iFramecss.css",
+      "language": "css",
+      "sizeLines": 87,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Page/index.module.less",
+      "language": "css",
+      "sizeLines": 42,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Page/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/useWatchVariable.ts",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/bar-chart/index.less",
+      "language": "css",
+      "sizeLines": 1,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/appEffectBoard/china-map/china.json",
+      "language": "json",
+      "sizeLines": 103310,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/FormItems/Slider/Slider.tsx": [
+      "src/packages/FormItems/Slider/index.module.less"
+    ],
+    "src/packages/FormItems/Switch/Schema.ts": [],
+    "src/packages/FormItems/Transfer/index.module.less": [],
+    "src/packages/FormItems/Transfer/ShowNumberSetting.tsx": [],
+    "src/packages/FormItems/TreeSelect/index.module.less": [],
+    "src/packages/Functional/Button/Schema.ts": [],
+    "src/packages/Functional/Descriptions/index.module.less": [],
+    "src/packages/Functional/List/index.module.less": [],
+    "src/packages/Functional/List/List.tsx": [
+      "src/packages/Functional/List/index.module.less",
+      "src/packages/Functional/List/useRenderItem.tsx"
+    ],
+    "src/packages/Functional/List/useRenderItem.tsx": [
+      "src/packages/Functional/List/List.tsx"
+    ],
+    "src/packages/Functional/Tabs/index.module.less": [],
+    "src/packages/Layout/BottomBanner/index.module.less": [],
+    "src/packages/Layout/BottomBanner/Schema.ts": [],
+    "src/packages/Layout/Col/Schema.ts": [],
+    "src/packages/Layout/Divider/Schema.ts": [],
+    "src/packages/Layout/Row/Schema.ts": [],
+    "src/packages/Layout/Span/index.module.less": [],
+    "src/packages/Layout/Span/Schema.ts": [],
+    "src/packages/NgapRender/index.less": [],
+    "src/packages/Other/IFrame/iFramecss.css": [],
+    "src/packages/Page/index.module.less": [],
+    "src/packages/Page/Schema.ts": [],
+    "src/packages/utils/useWatchVariable.ts": [],
+    "src/pages/appEffectBoard/bar-chart/index.less": [],
+    "src/pages/appEffectBoard/china-map/china.json": []
+  }
+}

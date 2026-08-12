@@ -1,0 +1,590 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/FormItems/Cascader/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Cascader/Schema.tsx",
+      "summary": "该文件声明 Cascader 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/CheckBox/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/CheckBox/Schema.tsx",
+      "summary": "该文件声明 CheckBox 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Counter/CounterDouble.tsx",
+      "type": "file",
+      "name": "CounterDouble.tsx",
+      "filePath": "src/packages/FormItems/Counter/CounterDouble.tsx",
+      "summary": "该文件实现计数器双值范围输入并同步最小值和最大值。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "function",
+      "name": "CounterDouble",
+      "filePath": "src/packages/FormItems/Counter/CounterDouble.tsx",
+      "lineRange": [
+        9,
+        54
+      ],
+      "summary": "CounterDouble 是该文件的核心 React 组件，负责实现计数器双值范围输入并同步最小值和最大值。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Counter/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Counter/Schema.tsx",
+      "summary": "该文件声明 Counter 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/DatePicker/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/DatePicker/Schema.tsx",
+      "summary": "该文件声明 DatePicker 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/DatePickerRange/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/DatePickerRange/Schema.tsx",
+      "summary": "该文件声明 DatePickerRange 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Input/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Input/Schema.tsx",
+      "summary": "该文件声明 Input 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/InputNumber/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/InputNumber/Schema.tsx",
+      "summary": "该文件声明 InputNumber 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/InputPassword/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/InputPassword/Schema.tsx",
+      "summary": "该文件声明 InputPassword 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Json/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Json/Schema.tsx",
+      "summary": "该文件声明 Json 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Radio/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Radio/Schema.tsx",
+      "summary": "该文件声明 Radio 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Rate/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Rate/Schema.tsx",
+      "summary": "该文件声明 Rate 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Select/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Select/Schema.tsx",
+      "summary": "该文件声明 Select 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Slider/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Slider/Schema.tsx",
+      "summary": "该文件声明 Slider 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/TextArea/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/TextArea/Schema.tsx",
+      "summary": "该文件声明 TextArea 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/TimePicker/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/TimePicker/Schema.tsx",
+      "summary": "该文件声明 TimePicker 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/TimePickerRange/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/TimePickerRange/Schema.tsx",
+      "summary": "该文件声明 TimePickerRange 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/TreeSelect/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/TreeSelect/Schema.tsx",
+      "summary": "该文件声明 TreeSelect 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/Upload/DataSetting.tsx",
+      "type": "file",
+      "name": "DataSetting.tsx",
+      "filePath": "src/packages/FormItems/Upload/DataSetting.tsx",
+      "summary": "该文件配置上传组件的数据字段映射和附加参数。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/FormItems/Upload/DataSetting.tsx:DataSetting",
+      "type": "function",
+      "name": "DataSetting",
+      "filePath": "src/packages/FormItems/Upload/DataSetting.tsx",
+      "lineRange": [
+        7,
+        35
+      ],
+      "summary": "DataSetting 是该文件的核心 React 组件，负责配置上传组件的数据字段映射和附加参数。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Upload/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Upload/Schema.tsx",
+      "summary": "该文件声明 Upload 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/components/DynamicItemSetting/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/packages/components/DynamicItemSetting/index.tsx",
+      "summary": "该文件提供通用动态配置项列表，支持增删、排序和字段编辑。",
+      "tags": [
+        "react-component",
+        "property-panel",
+        "configuration",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/components/IConSetting.tsx",
+      "type": "file",
+      "name": "IConSetting.tsx",
+      "filePath": "src/packages/components/IConSetting.tsx",
+      "summary": "该文件提供平台图标列表和图标选择控件。",
+      "tags": [
+        "react-component",
+        "property-panel",
+        "configuration",
+        "validation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/components/IConSetting.tsx:IConSetting",
+      "type": "function",
+      "name": "IConSetting",
+      "filePath": "src/packages/components/IConSetting.tsx",
+      "lineRange": [
+        10,
+        17
+      ],
+      "summary": "IConSetting 是该文件的核心 React 组件，负责提供平台图标列表和图标选择控件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "property-panel",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/components/RulesSetting.tsx",
+      "type": "file",
+      "name": "RulesSetting.tsx",
+      "filePath": "src/packages/components/RulesSetting.tsx",
+      "summary": "该文件配置表单字段校验规则、触发时机和错误提示。",
+      "tags": [
+        "react-component",
+        "property-panel",
+        "configuration",
+        "validation"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/FormItems/Counter/CounterDouble.tsx",
+      "target": "function:src/packages/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/CounterDouble.tsx",
+      "target": "function:src/packages/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/DataSetting.tsx",
+      "target": "function:src/packages/FormItems/Upload/DataSetting.tsx:DataSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/IConSetting.tsx",
+      "target": "function:src/packages/components/IConSetting.tsx:IConSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/IConSetting.tsx",
+      "target": "function:src/packages/components/IConSetting.tsx:IConSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/CounterDouble.tsx",
+      "target": "file:src/packages/FormItems/Counter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Schema.tsx",
+      "target": "file:src/packages/FormItems/Counter/CounterDouble.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePicker/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/DatePickerRange/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Input/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputNumber/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/InputPassword/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Json/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Radio/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Schema.tsx",
+      "target": "file:src/packages/components/IConSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Rate/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Select/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Slider/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TextArea/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePicker/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TimePickerRange/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/TreeSelect/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/DataSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Schema.tsx",
+      "target": "file:src/packages/components/RulesSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Upload/Schema.tsx",
+      "target": "file:src/packages/FormItems/Upload/DataSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/DynamicItemSetting/index.tsx",
+      "target": "file:src/packages/components/DynamicItemSetting/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/DynamicItemSetting/index.tsx",
+      "target": "file:src/packages/components/IConSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

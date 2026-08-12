@@ -1,0 +1,6962 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 30,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "materials/Container/Flex/Flex.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 72,
+      "functions": [
+        {
+          "name": "MFlex",
+          "startLine": 17,
+          "endLine": 76,
+          "params": [
+            "{ id, type, config, elements, loopVariable, onClick }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MFlex",
+          "callee": "useState",
+          "lineNumber": 18
+        },
+        {
+          "caller": "MFlex",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "MFlex",
+          "callee": "useImperativeHandle",
+          "lineNumber": 22
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 25
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 28
+        },
+        {
+          "caller": "MFlex",
+          "callee": "setMStyle",
+          "lineNumber": 31
+        },
+        {
+          "caller": "handleClick",
+          "callee": "onClick",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MFlex",
+          "callee": "parseFloat",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MFlex",
+          "callee": "String(gap).replace",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MFlex",
+          "callee": "String",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MFlex",
+          "callee": "String(gap).match",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MFlex",
+          "callee": "String",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/Container/Form/Form.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 268,
+      "nonEmptyLines": 259,
+      "functions": [
+        {
+          "name": "MForm",
+          "startLine": 48,
+          "endLine": 267,
+          "params": [
+            "props",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MForm",
+          "callee": "Form.useForm",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MForm",
+          "callee": "usePageStore",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MForm",
+          "callee": "useShallow",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MForm",
+          "callee": "usePageStore",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MForm",
+          "callee": "useShallow",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MForm",
+          "callee": "usePageStore",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MForm",
+          "callee": "useShallow",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MForm",
+          "callee": "useState",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MForm",
+          "callee": "useState",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MForm",
+          "callee": "useState",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MForm",
+          "callee": "useEffect",
+          "lineNumber": 67
+        },
+        {
+          "caller": "MForm",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MForm",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 70
+        },
+        {
+          "caller": "MForm",
+          "callee": "dateFormat",
+          "lineNumber": 70
+        },
+        {
+          "caller": "MForm",
+          "callee": "form.resetFields",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MForm",
+          "callee": "setInitialValues",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleFinish",
+          "callee": "onFinish",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleFinish",
+          "callee": "dateFormat",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleChange",
+          "callee": "dateFormat",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setFormData",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MForm",
+          "callee": "useImperativeHandle",
+          "lineNumber": 92
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 95
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 98
+        },
+        {
+          "caller": "reset",
+          "callee": "form.resetFields",
+          "lineNumber": 101
+        },
+        {
+          "caller": "reset",
+          "callee": "setFormData",
+          "lineNumber": 102
+        },
+        {
+          "caller": "reset",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 104
+        },
+        {
+          "caller": "submit",
+          "callee": "form.submit",
+          "lineNumber": 109
+        },
+        {
+          "caller": "validate",
+          "callee": "form.validateFields",
+          "lineNumber": 113
+        },
+        {
+          "caller": "validate",
+          "callee": "console.error",
+          "lineNumber": 116
+        },
+        {
+          "caller": "init",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 121
+        },
+        {
+          "caller": "init",
+          "callee": "dateFormat",
+          "lineNumber": 122
+        },
+        {
+          "caller": "init",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 123
+        },
+        {
+          "caller": "init",
+          "callee": "setFormData",
+          "lineNumber": 124
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 133
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 134
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 135
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 136
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 143
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "value.format",
+          "lineNumber": 144
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dateIsValid",
+          "lineNumber": 146
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dayjs(value).format",
+          "lineNumber": 147
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dayjs",
+          "lineNumber": 147
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "getDateComponentType",
+          "lineNumber": 155
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "(Object.values(elementsMap || {}) as any[]).find",
+          "lineNumber": 157
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "Object.values",
+          "lineNumber": 157
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 159
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "formatDateValue",
+          "lineNumber": 160
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 162
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "formatDateValue",
+          "lineNumber": 163
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "Array.isArray",
+          "lineNumber": 165
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "obj.map",
+          "lineNumber": 166
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "convertDayjsToString",
+          "lineNumber": 166
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 174
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 175
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "Array.isArray",
+          "lineNumber": 176
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 178
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 179
+        },
+        {
+          "caller": "getFormData",
+          "callee": "getDateComponentType",
+          "lineNumber": 188
+        },
+        {
+          "caller": "getFormData",
+          "callee": "needsDateConversion",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getFormData",
+          "callee": "convertDayjsToString",
+          "lineNumber": 190
+        },
+        {
+          "caller": "getFormData",
+          "callee": "Object.prototype.hasOwnProperty.call",
+          "lineNumber": 198
+        },
+        {
+          "caller": "getFormData",
+          "callee": "getDateComponentType",
+          "lineNumber": 199
+        },
+        {
+          "caller": "getFormData",
+          "callee": "needsDateConversion",
+          "lineNumber": 200
+        },
+        {
+          "caller": "getFormData",
+          "callee": "convertDayjsToString",
+          "lineNumber": 201
+        },
+        {
+          "caller": "MForm",
+          "callee": "setMStyle",
+          "lineNumber": 210
+        },
+        {
+          "caller": "MForm",
+          "callee": "useCallback",
+          "lineNumber": 216
+        },
+        {
+          "caller": "MForm",
+          "callee": "isNotEmpty",
+          "lineNumber": 220
+        },
+        {
+          "caller": "MForm",
+          "callee": "Number",
+          "lineNumber": 221
+        },
+        {
+          "caller": "MForm",
+          "callee": "initValue.trim",
+          "lineNumber": 223
+        },
+        {
+          "caller": "MForm",
+          "callee": "dateStrToDayjs",
+          "lineNumber": 224
+        },
+        {
+          "caller": "MForm",
+          "callee": "getDateByType",
+          "lineNumber": 227
+        },
+        {
+          "caller": "MForm",
+          "callee": "getDateByType",
+          "lineNumber": 228
+        },
+        {
+          "caller": "MForm",
+          "callee": "getDateRangeByType",
+          "lineNumber": 233
+        },
+        {
+          "caller": "MForm",
+          "callee": "dayjs",
+          "lineNumber": 234
+        },
+        {
+          "caller": "MForm",
+          "callee": "setInitialValues",
+          "lineNumber": 236
+        },
+        {
+          "caller": "MForm",
+          "callee": "form.setFieldValue",
+          "lineNumber": 237
+        },
+        {
+          "caller": "MForm",
+          "callee": "setFormData",
+          "lineNumber": 238
+        },
+        {
+          "caller": "MForm",
+          "callee": "useMemo",
+          "lineNumber": 246
+        },
+        {
+          "caller": "MForm",
+          "callee": "omit",
+          "lineNumber": 247
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/Container/GridForm/GridForm.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 340,
+      "nonEmptyLines": 315,
+      "functions": [
+        {
+          "name": "GridForm",
+          "startLine": 23,
+          "endLine": 339,
+          "params": [
+            "{ id, type, config, elements, onChange, loopVariable, onSearch, onReset }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GridForm",
+          "callee": "Form.useForm",
+          "lineNumber": 24
+        },
+        {
+          "caller": "GridForm",
+          "callee": "usePageStore",
+          "lineNumber": 27
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useShallow",
+          "lineNumber": 28
+        },
+        {
+          "caller": "GridForm",
+          "callee": "usePageStore",
+          "lineNumber": 37
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useShallow",
+          "lineNumber": 37
+        },
+        {
+          "caller": "GridForm",
+          "callee": "usePageStore",
+          "lineNumber": 38
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useShallow",
+          "lineNumber": 38
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useEffect",
+          "lineNumber": 44
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 45
+        },
+        {
+          "caller": "GridForm",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 46
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateFormat",
+          "lineNumber": 46
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useState",
+          "lineNumber": 49
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useCallback",
+          "lineNumber": 52
+        },
+        {
+          "caller": "GridForm",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 53
+        },
+        {
+          "caller": "GridForm",
+          "callee": "console.log",
+          "lineNumber": 54
+        },
+        {
+          "caller": "GridForm",
+          "callee": "onSearch",
+          "lineNumber": 55
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateFormat",
+          "lineNumber": 55
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useCallback",
+          "lineNumber": 59
+        },
+        {
+          "caller": "GridForm",
+          "callee": "form.resetFields",
+          "lineNumber": 60
+        },
+        {
+          "caller": "GridForm",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 61
+        },
+        {
+          "caller": "GridForm",
+          "callee": "onReset",
+          "lineNumber": 62
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateFormat",
+          "lineNumber": 62
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setFormData",
+          "lineNumber": 63
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useCallback",
+          "lineNumber": 71
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 72
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateFormat",
+          "lineNumber": 73
+        },
+        {
+          "caller": "GridForm",
+          "callee": "onChange",
+          "lineNumber": 74
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setFormData",
+          "lineNumber": 75
+        },
+        {
+          "caller": "GridForm",
+          "callee": "JSON.stringify",
+          "lineNumber": 79
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useImperativeHandle",
+          "lineNumber": 81
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 84
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 87
+        },
+        {
+          "caller": "reset",
+          "callee": "form.resetFields",
+          "lineNumber": 90
+        },
+        {
+          "caller": "reset",
+          "callee": "setFormData",
+          "lineNumber": 91
+        },
+        {
+          "caller": "reset",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 93
+        },
+        {
+          "caller": "validate",
+          "callee": "form.validateFields",
+          "lineNumber": 99
+        },
+        {
+          "caller": "validate",
+          "callee": "console.error",
+          "lineNumber": 102
+        },
+        {
+          "caller": "init",
+          "callee": "setDefaultValueInvalidMap",
+          "lineNumber": 107
+        },
+        {
+          "caller": "init",
+          "callee": "dateFormat",
+          "lineNumber": 108
+        },
+        {
+          "caller": "init",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 109
+        },
+        {
+          "caller": "init",
+          "callee": "setFormData",
+          "lineNumber": 110
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 120
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 121
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 122
+        },
+        {
+          "caller": "getDateComponentType",
+          "callee": "k.startsWith",
+          "lineNumber": 123
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 130
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "value.format",
+          "lineNumber": 131
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "dayjs",
+          "lineNumber": 134
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "d.isValid",
+          "lineNumber": 135
+        },
+        {
+          "caller": "formatDateValue",
+          "callee": "d.format",
+          "lineNumber": 136
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "getDateComponentType",
+          "lineNumber": 146
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "(Object.values(elementsMap || {}) as any[]).find",
+          "lineNumber": 148
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "Object.values",
+          "lineNumber": 148
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 150
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "formatDateValue",
+          "lineNumber": 151
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 153
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "formatDateValue",
+          "lineNumber": 154
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "Array.isArray",
+          "lineNumber": 156
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "obj.map",
+          "lineNumber": 157
+        },
+        {
+          "caller": "convertDayjsToString",
+          "callee": "convertDayjsToString",
+          "lineNumber": 157
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 165
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 166
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "Array.isArray",
+          "lineNumber": 167
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "dayjs.isDayjs",
+          "lineNumber": 169
+        },
+        {
+          "caller": "needsDateConversion",
+          "callee": "/^\\d{4}-\\d{2}-\\d{2}/.test",
+          "lineNumber": 170
+        },
+        {
+          "caller": "getFormData",
+          "callee": "getDateComponentType",
+          "lineNumber": 179
+        },
+        {
+          "caller": "getFormData",
+          "callee": "needsDateConversion",
+          "lineNumber": 180
+        },
+        {
+          "caller": "getFormData",
+          "callee": "convertDayjsToString",
+          "lineNumber": 181
+        },
+        {
+          "caller": "getFormData",
+          "callee": "Object.prototype.hasOwnProperty.call",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getFormData",
+          "callee": "getDateComponentType",
+          "lineNumber": 190
+        },
+        {
+          "caller": "getFormData",
+          "callee": "needsDateConversion",
+          "lineNumber": 191
+        },
+        {
+          "caller": "getFormData",
+          "callee": "convertDayjsToString",
+          "lineNumber": 192
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setMStyle",
+          "lineNumber": 201
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useCallback",
+          "lineNumber": 207
+        },
+        {
+          "caller": "GridForm",
+          "callee": "Number",
+          "lineNumber": 211
+        },
+        {
+          "caller": "GridForm",
+          "callee": "initValue.trim",
+          "lineNumber": 214
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateStrToDayjs",
+          "lineNumber": 215
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dateStrToDayjs",
+          "lineNumber": 216
+        },
+        {
+          "caller": "GridForm",
+          "callee": "getDateByType",
+          "lineNumber": 218
+        },
+        {
+          "caller": "GridForm",
+          "callee": "getDateRangeByType",
+          "lineNumber": 230
+        },
+        {
+          "caller": "GridForm",
+          "callee": "dayjs",
+          "lineNumber": 231
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setInitialValues",
+          "lineNumber": 233
+        },
+        {
+          "caller": "GridForm",
+          "callee": "form.setFieldValue",
+          "lineNumber": 234
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setFormData",
+          "lineNumber": 235
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useMemo",
+          "lineNumber": 242
+        },
+        {
+          "caller": "getRestColSpan",
+          "callee": "getColSpan",
+          "lineNumber": 255
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 269
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 270
+        },
+        {
+          "caller": "formItemStyle",
+          "callee": "getFormItemShow",
+          "lineNumber": 274
+        },
+        {
+          "caller": "formItemStyle",
+          "callee": "colMarginTop",
+          "lineNumber": 274
+        },
+        {
+          "caller": "GridForm",
+          "callee": "useMemo",
+          "lineNumber": 281
+        },
+        {
+          "caller": "GridForm",
+          "callee": "omit",
+          "lineNumber": 282
+        },
+        {
+          "caller": "GridForm",
+          "callee": "colMarginTop",
+          "lineNumber": 299
+        },
+        {
+          "caller": "GridForm",
+          "callee": "elements?.map",
+          "lineNumber": 300
+        },
+        {
+          "caller": "GridForm",
+          "callee": "getColSpan",
+          "lineNumber": 301
+        },
+        {
+          "caller": "GridForm",
+          "callee": "formItemStyle",
+          "lineNumber": 301
+        },
+        {
+          "caller": "GridForm",
+          "callee": "getRestColSpan",
+          "lineNumber": 305
+        },
+        {
+          "caller": "GridForm",
+          "callee": "colMarginTop",
+          "lineNumber": 305
+        },
+        {
+          "caller": "GridForm",
+          "callee": "bulkActionList?.map",
+          "lineNumber": 313
+        },
+        {
+          "caller": "GridForm",
+          "callee": "React.createElement",
+          "lineNumber": 321
+        },
+        {
+          "caller": "GridForm",
+          "callee": "handleOperate",
+          "lineNumber": 322
+        },
+        {
+          "caller": "GridForm",
+          "callee": "setFold",
+          "lineNumber": 328
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/BarAndLine/BarAndLine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 252,
+      "nonEmptyLines": 241,
+      "functions": [
+        {
+          "name": "BarAndLine",
+          "startLine": 27,
+          "endLine": 251,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BarAndLine",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useRef",
+          "lineNumber": 31
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "usePageStore",
+          "lineNumber": 33
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useShallow",
+          "lineNumber": 34
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "getDictionary",
+          "lineNumber": 42
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "getDataList",
+          "lineNumber": 44
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "getDataList",
+          "lineNumber": 47
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 51
+        },
+        {
+          "caller": "dealData",
+          "callee": "barKey?.reduce",
+          "lineNumber": 56
+        },
+        {
+          "caller": "dealData",
+          "callee": "prev.concat",
+          "lineNumber": 57
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 58
+        },
+        {
+          "caller": "dealData",
+          "callee": "lineKey?.reduce",
+          "lineNumber": 66
+        },
+        {
+          "caller": "dealData",
+          "callee": "prev.concat",
+          "lineNumber": 67
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 68
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useRef",
+          "lineNumber": 78
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useEffect",
+          "lineNumber": 79
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setData",
+          "lineNumber": 80
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "dealData",
+          "lineNumber": 80
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "debounce",
+          "lineNumber": 83
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "isEmpty",
+          "lineNumber": 85
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setLoading",
+          "lineNumber": 86
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setLoading",
+          "lineNumber": 89
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (isNotEmpty(res?.data)) {\r\n                        let resData = res.data;\r\n                        if (config?.api?.sourceType == 'api') {\r\n                            resData = Object.fromEntries(\r\n                                Object.entries(res.data).map(([key, value]) => [\r\n                                    mapping.current?.[key] || key, // 如果有映射就用新键，否则保留原键\r\n                                    value,\r\n                                ]),\r\n                            );\r\n                        }\r\n                        apiData.current = resData;\r\n                        setData(dealData(resData));\r\n                    } else {\r\n                        setData([[], []]);\r\n                        console.error('[BarAndLine]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 90
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 90
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "handleApi",
+          "lineNumber": 90
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "isNotEmpty",
+          "lineNumber": 93
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "Object.fromEntries",
+          "lineNumber": 96
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 97
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "Object.entries",
+          "lineNumber": 97
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setData",
+          "lineNumber": 104
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "dealData",
+          "lineNumber": 104
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setData",
+          "lineNumber": 106
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "console.error",
+          "lineNumber": 107
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setLoading",
+          "lineNumber": 111
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useWatchVariable",
+          "lineNumber": 117
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useWatchVariable",
+          "lineNumber": 123
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useImperativeHandle",
+          "lineNumber": 129
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 132
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 135
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "getDataList",
+          "lineNumber": 138
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "setMStyle",
+          "lineNumber": 141
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "useMemo",
+          "lineNumber": 146
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "Object.assign",
+          "lineNumber": 184
+        },
+        {
+          "caller": "BarAndLine",
+          "callee": "configProps.geometryOptions.map",
+          "lineNumber": 217
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/BarChart/BarChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 152,
+      "nonEmptyLines": 147,
+      "functions": [
+        {
+          "name": "EChart",
+          "startLine": 28,
+          "endLine": 151,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EChart",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "EChart",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "EChart",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "EChart",
+          "callee": "useRef",
+          "lineNumber": 32
+        },
+        {
+          "caller": "EChart",
+          "callee": "useState",
+          "lineNumber": 33
+        },
+        {
+          "caller": "EChart",
+          "callee": "usePageStore",
+          "lineNumber": 34
+        },
+        {
+          "caller": "EChart",
+          "callee": "useShallow",
+          "lineNumber": 35
+        },
+        {
+          "caller": "EChart",
+          "callee": "useRef",
+          "lineNumber": 40
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dealData",
+          "callee": "xField.reduce",
+          "lineNumber": 48
+        },
+        {
+          "caller": "dealData",
+          "callee": "prev.concat",
+          "lineNumber": 49
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 50
+        },
+        {
+          "caller": "EChart",
+          "callee": "useEffect",
+          "lineNumber": 60
+        },
+        {
+          "caller": "EChart",
+          "callee": "setData",
+          "lineNumber": 61
+        },
+        {
+          "caller": "EChart",
+          "callee": "dealData",
+          "lineNumber": 61
+        },
+        {
+          "caller": "EChart",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 64
+        },
+        {
+          "caller": "EChart",
+          "callee": "getDictionary",
+          "lineNumber": 66
+        },
+        {
+          "caller": "EChart",
+          "callee": "getDataList",
+          "lineNumber": 68
+        },
+        {
+          "caller": "EChart",
+          "callee": "getDataList",
+          "lineNumber": 71
+        },
+        {
+          "caller": "EChart",
+          "callee": "debounce",
+          "lineNumber": 75
+        },
+        {
+          "caller": "EChart",
+          "callee": "isEmpty",
+          "lineNumber": 77
+        },
+        {
+          "caller": "EChart",
+          "callee": "setLoading",
+          "lineNumber": 78
+        },
+        {
+          "caller": "EChart",
+          "callee": "setLoading",
+          "lineNumber": 81
+        },
+        {
+          "caller": "EChart",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (isNotEmpty(res?.data)) {\r\n                        let resData = res.data;\r\n                        if (config.api.sourceType == 'api') {\r\n                            resData = Object.fromEntries(\r\n                                Object.entries(res.data).map(([key, value]) => [\r\n                                    mapping.current?.[key] || key, // 如果有映射就用新键，否则保留原键\r\n                                    value,\r\n                                ]),\r\n                            );\r\n                        }\r\n                        apiData.current = resData;\r\n                        setData(dealData(resData));\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[BarChart]', 'data数据格式错误，请检查');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 82
+        },
+        {
+          "caller": "EChart",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 82
+        },
+        {
+          "caller": "EChart",
+          "callee": "handleApi",
+          "lineNumber": 82
+        },
+        {
+          "caller": "EChart",
+          "callee": "isNotEmpty",
+          "lineNumber": 85
+        },
+        {
+          "caller": "EChart",
+          "callee": "Object.fromEntries",
+          "lineNumber": 88
+        },
+        {
+          "caller": "EChart",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 89
+        },
+        {
+          "caller": "EChart",
+          "callee": "Object.entries",
+          "lineNumber": 89
+        },
+        {
+          "caller": "EChart",
+          "callee": "setData",
+          "lineNumber": 96
+        },
+        {
+          "caller": "EChart",
+          "callee": "dealData",
+          "lineNumber": 96
+        },
+        {
+          "caller": "EChart",
+          "callee": "setData",
+          "lineNumber": 98
+        },
+        {
+          "caller": "EChart",
+          "callee": "console.error",
+          "lineNumber": 99
+        },
+        {
+          "caller": "EChart",
+          "callee": "setLoading",
+          "lineNumber": 103
+        },
+        {
+          "caller": "EChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 109
+        },
+        {
+          "caller": "EChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 115
+        },
+        {
+          "caller": "EChart",
+          "callee": "useImperativeHandle",
+          "lineNumber": 121
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 124
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 127
+        },
+        {
+          "caller": "EChart",
+          "callee": "getDataList",
+          "lineNumber": 130
+        },
+        {
+          "caller": "EChart",
+          "callee": "setMStyle",
+          "lineNumber": 133
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/ColumnChart/ColumnChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 700,
+      "nonEmptyLines": 639,
+      "functions": [
+        {
+          "name": "ColumnChart",
+          "startLine": 36,
+          "endLine": 699,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ColumnChart",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useRef",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "usePageStore",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useShallow",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 49
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getDictionary",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getDataList",
+          "lineNumber": 53
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getDataList",
+          "lineNumber": 56
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 61
+        },
+        {
+          "caller": "dealData",
+          "callee": "yField?.reduce",
+          "lineNumber": 69
+        },
+        {
+          "caller": "dealData",
+          "callee": "prev.concat",
+          "lineNumber": 70
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 71
+        },
+        {
+          "caller": "dealData",
+          "callee": "detectUnitType",
+          "lineNumber": 76
+        },
+        {
+          "caller": "dealData",
+          "callee": "convertValueToNumber",
+          "lineNumber": 80
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "currentData.filter",
+          "lineNumber": 96
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "currentData.map",
+          "lineNumber": 98
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "allSeriesData.findIndex",
+          "lineNumber": 103
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "items.filter",
+          "lineNumber": 127
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "name.includes",
+          "lineNumber": 131
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "filteredItems.forEach",
+          "lineNumber": 143
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.filter",
+          "lineNumber": 161
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "currentSeriesData.sort",
+          "lineNumber": 168
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.indexOf",
+          "lineNumber": 169
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.indexOf",
+          "lineNumber": 170
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "currentSeriesData.findIndex",
+          "lineNumber": 175
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 190
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "parseFloat",
+          "lineNumber": 190
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 227
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 259
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "Math.abs",
+          "lineNumber": 275
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "momPercentage.toFixed",
+          "lineNumber": 278
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatDifferenceWithUnit",
+          "lineNumber": 284
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useRef",
+          "lineNumber": 308
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useEffect",
+          "lineNumber": 310
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "dealData",
+          "lineNumber": 311
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "newData.filter",
+          "lineNumber": 314
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "generateComparisonData",
+          "lineNumber": 318
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setData",
+          "lineNumber": 321
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "debounce",
+          "lineNumber": 324
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "isEmpty",
+          "lineNumber": 326
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setLoading",
+          "lineNumber": 327
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setLoading",
+          "lineNumber": 330
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (isNotEmpty(res?.data)) {\r\n                        let resData = res.data;\r\n                        if (config?.api?.sourceType == 'api') {\r\n                            resData = Object.fromEntries(\r\n                                Object.entries(res.data).map(([key, value]) => [\r\n                                    mapping.current?.[key] || key, // 如果有映射就用新键，否则保留原键\r\n                                    value,\r\n                                ]),\r\n                            );\r\n                        }\r\n                        apiData.current = resData;\r\n                        let finalData = dealData(resData);\r\n                        // 如果启用上个节点对比虚线功能，生成对比数据\r\n                        if (config.props.showPreviousNodeLine) {\r\n                            finalData = generateComparisonData(finalData, config.props.xField, config.props.seriesField);\r\n                        }\r\n                        setData(finalData);\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[ColumnChart]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 331
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 331
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "handleApi",
+          "lineNumber": 331
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "isNotEmpty",
+          "lineNumber": 334
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Object.fromEntries",
+          "lineNumber": 337
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 338
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Object.entries",
+          "lineNumber": 338
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "dealData",
+          "lineNumber": 345
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "generateComparisonData",
+          "lineNumber": 348
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setData",
+          "lineNumber": 350
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setData",
+          "lineNumber": 352
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "console.error",
+          "lineNumber": 353
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setLoading",
+          "lineNumber": 357
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 363
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 369
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "useImperativeHandle",
+          "lineNumber": 375
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 378
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 381
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getDataList",
+          "lineNumber": 384
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "params[`${id}`].split",
+          "lineNumber": 388
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getDataList",
+          "lineNumber": 390
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "setMStyle",
+          "lineNumber": 393
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "data.find",
+          "lineNumber": 427
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "(() => {\r\n                                    // 在Y轴标题上添加单位，如果没有标题则只显示单位\r\n                                    if (data.length > 0 && data[0].unitType) {\r\n                                        const unitInfo = detectUnitType(data[0].originalValue);\r\n                                        // 只返回单位，不包含原标题，确保单位在Y轴顶部显示\r\n                                        return unitInfo.unit;\r\n                                    }\r\n                                    return config.props.yAxis?.title?.text || '';\r\n                                })",
+          "lineNumber": 439
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "detectUnitType",
+          "lineNumber": 442
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "parseFloat",
+          "lineNumber": 455
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 456
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "seriesName.includes",
+          "lineNumber": 469
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "seriesName.replace",
+          "lineNumber": 473
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 483
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 486
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "config.props.yField?.indexOf",
+          "lineNumber": 488
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 498
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "getLighterColor",
+          "lineNumber": 506
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "originalColor.startsWith",
+          "lineNumber": 509
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "parseInt",
+          "lineNumber": 510
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 510
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "parseInt",
+          "lineNumber": 511
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 511
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "parseInt",
+          "lineNumber": 512
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 512
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 525
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 530
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "config.props.yField?.indexOf",
+          "lineNumber": 531
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 543
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 550
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "seriesName.includes",
+          "lineNumber": 562
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "(() => {\r\n                                      // 当showPreviousNodeLine关闭时，确保原始线始终为实线\r\n                                      if (typeof config.props.lineStyle === 'function') {\r\n                                          return (datum: any) => {\r\n                                              const style = config.props.lineStyle(datum);\r\n                                              return {\r\n                                                  ...style,\r\n                                                  lineDash: undefined, // 移除任何虚线设置，确保为实线\r\n                                              };\r\n                                          };\r\n                                      }\r\n                                      return {\r\n                                          ...(config.props.lineStyle || {}),\r\n                                          lineDash: undefined, // 移除任何虚线设置，确保为实线\r\n                                      };\r\n                                  })",
+          "lineNumber": 587
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "config.props.lineStyle",
+          "lineNumber": 591
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "(() => {\r\n                                          // 获取所有唯一的系列名称（排除对比线）\r\n                                          const uniqueSeries = Array.from(\r\n                                              new Set(data.map((item: any) => item[config.props.seriesField || 'series'])),\r\n                                          ).filter((name: string) => !name.includes('_comparison'));\r\n\r\n                                          return {\r\n                                              ...config.props.legend,\r\n                                              custom: true,\r\n                                              items: uniqueSeries.map((seriesName: string) => ({\r\n                                                  name: seriesName,\r\n                                                  value: seriesName,\r\n                                                  marker: {\r\n                                                      style: {\r\n                                                          fill: config.props.seriesField\r\n                                                              ? config.props.color?.[seriesName] || undefined\r\n                                                              : Array.isArray(config.props.color)\r\n                                                              ? config.props.color[0]\r\n                                                              : config.props.color,\r\n                                                      },\r\n                                                  },\r\n                                              })),\r\n                                          };\r\n                                      })",
+          "lineNumber": 637
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.from(\r\n                                              new Set(data.map((item: any) => item[config.props.seriesField || 'series'])),\r\n                                          ).filter",
+          "lineNumber": 639
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.from",
+          "lineNumber": 639
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "data.map",
+          "lineNumber": 640
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "name.includes",
+          "lineNumber": 641
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "uniqueSeries.map",
+          "lineNumber": 646
+        },
+        {
+          "caller": "ColumnChart",
+          "callee": "Array.isArray",
+          "lineNumber": 653
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/LineChart/LineChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 627,
+      "nonEmptyLines": 574,
+      "functions": [
+        {
+          "name": "LineChart",
+          "startLine": 36,
+          "endLine": 626,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "LineChart",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useRef",
+          "lineNumber": 40
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "LineChart",
+          "callee": "usePageStore",
+          "lineNumber": 42
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useShallow",
+          "lineNumber": 43
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 50
+        },
+        {
+          "caller": "dealData",
+          "callee": "yField.reduce",
+          "lineNumber": 56
+        },
+        {
+          "caller": "dealData",
+          "callee": "prev.concat",
+          "lineNumber": 57
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 58
+        },
+        {
+          "caller": "dealData",
+          "callee": "detectUnitType",
+          "lineNumber": 64
+        },
+        {
+          "caller": "dealData",
+          "callee": "convertValueToNumber",
+          "lineNumber": 68
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "isEmpty",
+          "lineNumber": 80
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "currentData.filter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "generateComparisonData",
+          "callee": "allSeriesData.map",
+          "lineNumber": 85
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "items.filter",
+          "lineNumber": 110
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "name.includes",
+          "lineNumber": 114
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "filteredItems.forEach",
+          "lineNumber": 126
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.filter",
+          "lineNumber": 144
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "currentSeriesData.sort",
+          "lineNumber": 151
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.indexOf",
+          "lineNumber": 152
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "data.indexOf",
+          "lineNumber": 153
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "currentSeriesData.findIndex",
+          "lineNumber": 158
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 173
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "parseFloat",
+          "lineNumber": 173
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 210
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 242
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "Math.abs",
+          "lineNumber": 258
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "momPercentage.toFixed",
+          "lineNumber": 261
+        },
+        {
+          "caller": "customTooltip",
+          "callee": "formatDifferenceWithUnit",
+          "lineNumber": 267
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 292
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getDictionary",
+          "lineNumber": 294
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getDataList",
+          "lineNumber": 296
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getDataList",
+          "lineNumber": 299
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useRef",
+          "lineNumber": 302
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useEffect",
+          "lineNumber": 305
+        },
+        {
+          "caller": "LineChart",
+          "callee": "dealData",
+          "lineNumber": 306
+        },
+        {
+          "caller": "LineChart",
+          "callee": "newData.filter",
+          "lineNumber": 309
+        },
+        {
+          "caller": "LineChart",
+          "callee": "generateComparisonData",
+          "lineNumber": 313
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setData",
+          "lineNumber": 316
+        },
+        {
+          "caller": "LineChart",
+          "callee": "debounce",
+          "lineNumber": 319
+        },
+        {
+          "caller": "LineChart",
+          "callee": "isEmpty",
+          "lineNumber": 321
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setLoading",
+          "lineNumber": 322
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setLoading",
+          "lineNumber": 325
+        },
+        {
+          "caller": "LineChart",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (isNotEmpty(res?.data)) {\r\n                        let resData = res.data;\r\n                        if (config?.api?.sourceType == 'api') {\r\n                            resData = Object.fromEntries(\r\n                                Object.entries(res.data).map(([key, value]) => [\r\n                                    mapping.current?.[key] || key, // 如果有映射就用新键，否则保留原键\r\n                                    value,\r\n                                ]),\r\n                            );\r\n                        }\r\n\r\n                        apiData.current = resData;\r\n                        let finalData = dealData(resData);\r\n\r\n                        // 如果启用上个节点对比虚线功能，生成对比数据\r\n                        if (config.props.showPreviousNodeLine) {\r\n                            finalData = generateComparisonData(finalData, config.props.xField, config.props.seriesField);\r\n                        }\r\n\r\n                        setData(finalData);\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[LineChart]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 326
+        },
+        {
+          "caller": "LineChart",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 326
+        },
+        {
+          "caller": "LineChart",
+          "callee": "handleApi",
+          "lineNumber": 326
+        },
+        {
+          "caller": "LineChart",
+          "callee": "isNotEmpty",
+          "lineNumber": 329
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Object.fromEntries",
+          "lineNumber": 332
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 333
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Object.entries",
+          "lineNumber": 333
+        },
+        {
+          "caller": "LineChart",
+          "callee": "dealData",
+          "lineNumber": 341
+        },
+        {
+          "caller": "LineChart",
+          "callee": "generateComparisonData",
+          "lineNumber": 345
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setData",
+          "lineNumber": 348
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setData",
+          "lineNumber": 350
+        },
+        {
+          "caller": "LineChart",
+          "callee": "console.error",
+          "lineNumber": 351
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setLoading",
+          "lineNumber": 355
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 361
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 367
+        },
+        {
+          "caller": "LineChart",
+          "callee": "useImperativeHandle",
+          "lineNumber": 373
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 376
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 379
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getDataList",
+          "lineNumber": 382
+        },
+        {
+          "caller": "LineChart",
+          "callee": "params[`${id}`].split",
+          "lineNumber": 386
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getDataList",
+          "lineNumber": 388
+        },
+        {
+          "caller": "LineChart",
+          "callee": "setMStyle",
+          "lineNumber": 391
+        },
+        {
+          "caller": "LineChart",
+          "callee": "data.find",
+          "lineNumber": 408
+        },
+        {
+          "caller": "LineChart",
+          "callee": "(() => {\r\n                                    // 在Y轴标题上添加单位，如果没有标题则只显示单位\r\n                                    if (data.length > 0 && data[0].unitType) {\r\n                                        const unitInfo = detectUnitType(data[0].originalValue);\r\n                                        // 只返回单位，不包含原标题，确保单位在Y轴顶部显示\r\n                                        return unitInfo.unit;\r\n                                    }\r\n                                    return config.props.yAxis?.title?.text || '';\r\n                                })",
+          "lineNumber": 420
+        },
+        {
+          "caller": "LineChart",
+          "callee": "detectUnitType",
+          "lineNumber": 423
+        },
+        {
+          "caller": "LineChart",
+          "callee": "parseFloat",
+          "lineNumber": 436
+        },
+        {
+          "caller": "LineChart",
+          "callee": "formatValueWithUnit",
+          "lineNumber": 437
+        },
+        {
+          "caller": "LineChart",
+          "callee": "seriesName.includes",
+          "lineNumber": 450
+        },
+        {
+          "caller": "LineChart",
+          "callee": "seriesName.replace",
+          "lineNumber": 453
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Array.isArray",
+          "lineNumber": 456
+        },
+        {
+          "caller": "LineChart",
+          "callee": "getLighterColor",
+          "lineNumber": 465
+        },
+        {
+          "caller": "LineChart",
+          "callee": "originalColor.startsWith",
+          "lineNumber": 468
+        },
+        {
+          "caller": "LineChart",
+          "callee": "parseInt",
+          "lineNumber": 469
+        },
+        {
+          "caller": "LineChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 469
+        },
+        {
+          "caller": "LineChart",
+          "callee": "parseInt",
+          "lineNumber": 470
+        },
+        {
+          "caller": "LineChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 470
+        },
+        {
+          "caller": "LineChart",
+          "callee": "parseInt",
+          "lineNumber": 471
+        },
+        {
+          "caller": "LineChart",
+          "callee": "originalColor.slice",
+          "lineNumber": 471
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Array.isArray",
+          "lineNumber": 482
+        },
+        {
+          "caller": "LineChart",
+          "callee": "seriesName.includes",
+          "lineNumber": 500
+        },
+        {
+          "caller": "LineChart",
+          "callee": "(() => {\r\n                                      // 当showPreviousNodeLine关闭时，确保原始线始终为实线\r\n                                      if (typeof config.props.lineStyle === 'function') {\r\n                                          return (datum: any) => {\r\n                                              const style = config.props.lineStyle(datum);\r\n                                              return {\r\n                                                  ...style,\r\n                                                  lineDash: undefined, // 移除任何虚线设置，确保为实线\r\n                                              };\r\n                                          };\r\n                                      }\r\n                                      return {\r\n                                          ...(config.props.lineStyle || {}),\r\n                                          lineDash: undefined, // 移除任何虚线设置，确保为实线\r\n                                      };\r\n                                  })",
+          "lineNumber": 525
+        },
+        {
+          "caller": "LineChart",
+          "callee": "config.props.lineStyle",
+          "lineNumber": 529
+        },
+        {
+          "caller": "LineChart",
+          "callee": "(() => {\r\n                                          // 获取所有唯一的系列名称（排除对比线）\r\n                                          const uniqueSeries = Array.from(\r\n                                              new Set(data.map((item: any) => item[config.props.seriesField || 'series'])),\r\n                                          ).filter((name: string) => !name.includes('_comparison'));\r\n\r\n                                          return {\r\n                                              ...config.props.legend,\r\n                                              custom: true,\r\n                                              items: uniqueSeries.map((seriesName: string) => ({\r\n                                                  name: seriesName,\r\n                                                  value: seriesName,\r\n                                                  marker: {\r\n                                                      style: {\r\n                                                          fill: config.props.seriesField\r\n                                                              ? config.props.color?.[seriesName] || undefined\r\n                                                              : Array.isArray(config.props.color)\r\n                                                              ? config.props.color[0]\r\n                                                              : config.props.color,\r\n                                                      },\r\n                                                  },\r\n                                              })),\r\n                                          };\r\n                                      })",
+          "lineNumber": 561
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Array.from(\r\n                                              new Set(data.map((item: any) => item[config.props.seriesField || 'series'])),\r\n                                          ).filter",
+          "lineNumber": 563
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Array.from",
+          "lineNumber": 563
+        },
+        {
+          "caller": "LineChart",
+          "callee": "data.map",
+          "lineNumber": 564
+        },
+        {
+          "caller": "LineChart",
+          "callee": "name.includes",
+          "lineNumber": 565
+        },
+        {
+          "caller": "LineChart",
+          "callee": "uniqueSeries.map",
+          "lineNumber": 570
+        },
+        {
+          "caller": "LineChart",
+          "callee": "Array.isArray",
+          "lineNumber": 577
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/MapChart/MapChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 190,
+      "nonEmptyLines": 181,
+      "functions": [
+        {
+          "name": "MapChart",
+          "startLine": 25,
+          "endLine": 189,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MapChart",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MapChart",
+          "callee": "usePageStore",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useShallow",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MapChart",
+          "callee": "getDataList",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MapChart",
+          "callee": "debounce",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MapChart",
+          "callee": "isEmpty",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setLoading",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setLoading",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MapChart",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (Array.isArray(res.data)) {\r\n                        setData(res.data);\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[MapChart]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MapChart",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MapChart",
+          "callee": "handleApi",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MapChart",
+          "callee": "Array.isArray",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setData",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setData",
+          "lineNumber": 54
+        },
+        {
+          "caller": "MapChart",
+          "callee": "console.error",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setLoading",
+          "lineNumber": 59
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 71
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useImperativeHandle",
+          "lineNumber": 77
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 80
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MapChart",
+          "callee": "getDataList",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setMStyle",
+          "lineNumber": 89
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useRef",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useEffect",
+          "lineNumber": 96
+        },
+        {
+          "caller": "MapChart",
+          "callee": "(async () => {\r\n            try {\r\n                const chinaJson = await import('./mapJson/chinaGeoJSON.json');\r\n                echarts.registerMap('china', chinaJson.default as any);\r\n                setChinaJsonLoaded(true);\r\n            } catch (error) {\r\n                console.error('加载中国地图失败:', error);\r\n                setChinaJsonLoaded(false);\r\n            }\r\n        })",
+          "lineNumber": 97
+        },
+        {
+          "caller": "MapChart",
+          "callee": "import",
+          "lineNumber": 99
+        },
+        {
+          "caller": "MapChart",
+          "callee": "echarts.registerMap",
+          "lineNumber": 100
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setChinaJsonLoaded",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MapChart",
+          "callee": "console.error",
+          "lineNumber": 103
+        },
+        {
+          "caller": "MapChart",
+          "callee": "setChinaJsonLoaded",
+          "lineNumber": 104
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useEffect",
+          "lineNumber": 109
+        },
+        {
+          "caller": "MapChart",
+          "callee": "echarts.init",
+          "lineNumber": 111
+        },
+        {
+          "caller": "handleResize",
+          "callee": "chartInstance?.resize",
+          "lineNumber": 113
+        },
+        {
+          "caller": "MapChart",
+          "callee": "window.addEventListener",
+          "lineNumber": 115
+        },
+        {
+          "caller": "MapChart",
+          "callee": "window.removeEventListener",
+          "lineNumber": 117
+        },
+        {
+          "caller": "MapChart",
+          "callee": "chartInstance.dispose",
+          "lineNumber": 118
+        },
+        {
+          "caller": "MapChart",
+          "callee": "useEffect",
+          "lineNumber": 122
+        },
+        {
+          "caller": "MapChart",
+          "callee": "createChart",
+          "lineNumber": 124
+        },
+        {
+          "caller": "createChart",
+          "callee": "echarts.getInstanceByDom",
+          "lineNumber": 128
+        },
+        {
+          "caller": "createChart",
+          "callee": "Math.max",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createChart",
+          "callee": "config.api.source.map",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createChart",
+          "callee": "Number",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createChart",
+          "callee": "chartInstance?.setOption",
+          "lineNumber": 179
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/PieChart/PieChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 152,
+      "nonEmptyLines": 142,
+      "functions": [
+        {
+          "name": "PieChart",
+          "startLine": 27,
+          "endLine": 151,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PieChart",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useRef",
+          "lineNumber": 32
+        },
+        {
+          "caller": "PieChart",
+          "callee": "usePageStore",
+          "lineNumber": 33
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useShallow",
+          "lineNumber": 34
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "PieChart",
+          "callee": "getDictionary",
+          "lineNumber": 42
+        },
+        {
+          "caller": "PieChart",
+          "callee": "getDataList",
+          "lineNumber": 44
+        },
+        {
+          "caller": "PieChart",
+          "callee": "getDataList",
+          "lineNumber": 47
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useRef",
+          "lineNumber": 51
+        },
+        {
+          "caller": "dealApiData",
+          "callee": "isEmpty",
+          "lineNumber": 54
+        },
+        {
+          "caller": "dealApiData",
+          "callee": "Math.max",
+          "lineNumber": 56
+        },
+        {
+          "caller": "dealApiData",
+          "callee": "Array.from",
+          "lineNumber": 58
+        },
+        {
+          "caller": "dealApiData",
+          "callee": "Number",
+          "lineNumber": 59
+        },
+        {
+          "caller": "dealApiData",
+          "callee": "Number",
+          "lineNumber": 60
+        },
+        {
+          "caller": "PieChart",
+          "callee": "debounce",
+          "lineNumber": 64
+        },
+        {
+          "caller": "PieChart",
+          "callee": "isEmpty",
+          "lineNumber": 66
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setLoading",
+          "lineNumber": 67
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setLoading",
+          "lineNumber": 70
+        },
+        {
+          "caller": "PieChart",
+          "callee": "handleApi(config.api, params)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (isNotEmpty(res?.data)) {\r\n                        let resData = res.data;\r\n                        if (config?.api?.sourceType == 'api') {\r\n                            resData = Object.fromEntries(\r\n                                Object.entries(res.data).map(([key, value]) => [\r\n                                    mapping.current?.[key] || key, // 如果有映射就用新键，否则保留原键\r\n                                    value,\r\n                                ]),\r\n                            );\r\n                        }\r\n                        apiData.current = resData;\r\n                        setData(dealApiData(resData));\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[PieChart]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 71
+        },
+        {
+          "caller": "PieChart",
+          "callee": "handleApi(config.api, params)\r\n                .then",
+          "lineNumber": 71
+        },
+        {
+          "caller": "PieChart",
+          "callee": "handleApi",
+          "lineNumber": 71
+        },
+        {
+          "caller": "PieChart",
+          "callee": "isNotEmpty",
+          "lineNumber": 74
+        },
+        {
+          "caller": "PieChart",
+          "callee": "Object.fromEntries",
+          "lineNumber": 77
+        },
+        {
+          "caller": "PieChart",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 78
+        },
+        {
+          "caller": "PieChart",
+          "callee": "Object.entries",
+          "lineNumber": 78
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setData",
+          "lineNumber": 85
+        },
+        {
+          "caller": "PieChart",
+          "callee": "dealApiData",
+          "lineNumber": 85
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setData",
+          "lineNumber": 87
+        },
+        {
+          "caller": "PieChart",
+          "callee": "console.error",
+          "lineNumber": 88
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setLoading",
+          "lineNumber": 92
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 98
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useWatchVariable",
+          "lineNumber": 104
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useEffect",
+          "lineNumber": 110
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setData",
+          "lineNumber": 111
+        },
+        {
+          "caller": "PieChart",
+          "callee": "dealApiData",
+          "lineNumber": 111
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useImperativeHandle",
+          "lineNumber": 114
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 117
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 120
+        },
+        {
+          "caller": "PieChart",
+          "callee": "getDataList",
+          "lineNumber": 123
+        },
+        {
+          "caller": "PieChart",
+          "callee": "setMStyle",
+          "lineNumber": 126
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useMemo",
+          "lineNumber": 131
+        },
+        {
+          "caller": "PieChart",
+          "callee": "useMemo",
+          "lineNumber": 135
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/EChart/chartCalculationUtil.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 90,
+      "functions": [
+        {
+          "name": "detectUnitType",
+          "startLine": 10,
+          "endLine": 26,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "convertValueToNumber",
+          "startLine": 29,
+          "endLine": 53,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "formatValueWithUnit",
+          "startLine": 56,
+          "endLine": 74,
+          "params": [
+            "value",
+            "unitType"
+          ]
+        },
+        {
+          "name": "formatDifferenceWithUnit",
+          "startLine": 77,
+          "endLine": 92,
+          "params": [
+            "diff",
+            "unitType"
+          ]
+        },
+        {
+          "name": "getLighterColor",
+          "startLine": 95,
+          "endLine": 110,
+          "params": [
+            "hexColor",
+            "factor"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "detectUnitType",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "convertValueToNumber",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "formatValueWithUnit",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "formatDifferenceWithUnit",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "getLighterColor",
+          "line": 95,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "detectUnitType",
+          "callee": "/^\\d{1,2}:\\d{2}:\\d{2}$/.test",
+          "lineNumber": 16
+        },
+        {
+          "caller": "detectUnitType",
+          "callee": "/^-?\\d+\\.?\\d*%$/.test",
+          "lineNumber": 21
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "detectUnitType",
+          "lineNumber": 35
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "value.split",
+          "lineNumber": 40
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "parseInt",
+          "lineNumber": 41
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "parseInt",
+          "lineNumber": 41
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "parseInt",
+          "lineNumber": 41
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "parseFloat",
+          "lineNumber": 45
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "value.replace",
+          "lineNumber": 45
+        },
+        {
+          "caller": "convertValueToNumber",
+          "callee": "parseFloat",
+          "lineNumber": 48
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "Math.floor",
+          "lineNumber": 60
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "Math.floor",
+          "lineNumber": 61
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "Math.floor",
+          "lineNumber": 62
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "hours.toString().padStart",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "hours.toString",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "minutes.toString().padStart",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "minutes.toString",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "seconds.toString().padStart",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "seconds.toString",
+          "lineNumber": 63
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "(value * 100).toFixed",
+          "lineNumber": 68
+        },
+        {
+          "caller": "formatValueWithUnit",
+          "callee": "value.toString",
+          "lineNumber": 72
+        },
+        {
+          "caller": "formatDifferenceWithUnit",
+          "callee": "Math.abs(diff).toFixed",
+          "lineNumber": 81
+        },
+        {
+          "caller": "formatDifferenceWithUnit",
+          "callee": "Math.abs",
+          "lineNumber": 81
+        },
+        {
+          "caller": "formatDifferenceWithUnit",
+          "callee": "(diff * 100).toFixed",
+          "lineNumber": 85
+        },
+        {
+          "caller": "formatDifferenceWithUnit",
+          "callee": "diff.toFixed",
+          "lineNumber": 90
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "hexColor.startsWith",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "parseInt",
+          "lineNumber": 99
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "hexColor.slice",
+          "lineNumber": 99
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "parseInt",
+          "lineNumber": 100
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "hexColor.slice",
+          "lineNumber": 100
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "parseInt",
+          "lineNumber": 101
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "hexColor.slice",
+          "lineNumber": 101
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "Math.round",
+          "lineNumber": 105
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "Math.round",
+          "lineNumber": 106
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "Math.round",
+          "lineNumber": 107
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newR.toString(16).padStart",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newR.toString",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newG.toString(16).padStart",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newG.toString",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newB.toString(16).padStart",
+          "lineNumber": 109
+        },
+        {
+          "caller": "getLighterColor",
+          "callee": "newB.toString",
+          "lineNumber": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Drawer/Drawer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 108,
+      "callGraph": [
+        {
+          "caller": "handleOpenChange",
+          "callee": "onAfterOpenChange",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleClose",
+          "callee": "setVisible",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleClose",
+          "callee": "onClose",
+          "lineNumber": 62
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 66
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Empty/Empty.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "MEmpty",
+          "startLine": 15,
+          "endLine": 42,
+          "params": [
+            "{id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MEmpty",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "MEmpty",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "MEmpty",
+          "callee": "useImperativeHandle",
+          "lineNumber": 20
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 23
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MEmpty",
+          "callee": "setMStyle",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Modal/Modal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 210,
+      "nonEmptyLines": 202,
+      "callGraph": [
+        {
+          "caller": "handleOk",
+          "callee": "onOk",
+          "lineNumber": 82
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "onCancel",
+          "lineNumber": 86
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setVisible",
+          "lineNumber": 88
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 102
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 103
+        },
+        {
+          "caller": "renderTitle",
+          "callee": "/<[^>]+>/.test",
+          "lineNumber": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Popover/Popover.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 290,
+      "nonEmptyLines": 269,
+      "functions": [
+        {
+          "name": "MPopover",
+          "startLine": 34,
+          "endLine": 288,
+          "params": [
+            "{ id, type, config, elements, onLoad, loopVariable, }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useMemo",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useCallback",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MPopover",
+          "callee": "document.querySelector",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MPopover",
+          "callee": "console.log",
+          "lineNumber": 53
+        },
+        {
+          "caller": "MPopover",
+          "callee": "document.querySelectorAll",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MPopover",
+          "callee": "item.getAttribute",
+          "lineNumber": 57
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useEffect",
+          "lineNumber": 62
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setTriggerElement",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MPopover",
+          "callee": "findTriggerElement",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setTriggerElement",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useEffect",
+          "lineNumber": 70
+        },
+        {
+          "caller": "MPopover",
+          "callee": "onLoad",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MPopover",
+          "callee": "document.querySelector",
+          "lineNumber": 76
+        },
+        {
+          "caller": "MPopover",
+          "callee": "window.getComputedStyle",
+          "lineNumber": 78
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setVisible",
+          "lineNumber": 79
+        },
+        {
+          "caller": "MPopover",
+          "callee": "observer.disconnect",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MPopover",
+          "callee": "observer.observe",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MPopover",
+          "callee": "observer.disconnect",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useCallback",
+          "lineNumber": 89
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parseFloat",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parseFloat",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MPopover",
+          "callee": "window.getComputedStyle",
+          "lineNumber": 100
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parent.classList.contains",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parent.classList.contains",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parent.classList.contains",
+          "lineNumber": 110
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parseFloat",
+          "lineNumber": 112
+        },
+        {
+          "caller": "MPopover",
+          "callee": "parseFloat",
+          "lineNumber": 113
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 131
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useState",
+          "lineNumber": 132
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useEffect",
+          "lineNumber": 134
+        },
+        {
+          "caller": "MPopover",
+          "callee": "detectContainerBoundary",
+          "lineNumber": 136
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setContainerBoundary",
+          "lineNumber": 137
+        },
+        {
+          "caller": "MPopover",
+          "callee": "window.getComputedStyle",
+          "lineNumber": 139
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setPopperStrategy",
+          "lineNumber": 141
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setPopperStrategy",
+          "lineNumber": 143
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setPopperStrategy",
+          "lineNumber": 146
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setContainerBoundary",
+          "lineNumber": 149
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setPopperStrategy",
+          "lineNumber": 150
+        },
+        {
+          "caller": "MPopover",
+          "callee": "usePopper",
+          "lineNumber": 153
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useEffect",
+          "lineNumber": 195
+        },
+        {
+          "caller": "MPopover",
+          "callee": "update",
+          "lineNumber": 198
+        },
+        {
+          "caller": "MPopover",
+          "callee": "observer.observe",
+          "lineNumber": 200
+        },
+        {
+          "caller": "MPopover",
+          "callee": "observer.disconnect",
+          "lineNumber": 201
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useImperativeHandle",
+          "lineNumber": 205
+        },
+        {
+          "caller": "show",
+          "callee": "setTriggerElementId",
+          "lineNumber": 208
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 209
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 212
+        },
+        {
+          "caller": "hide",
+          "callee": "setTriggerElementId",
+          "lineNumber": 213
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setMStyle",
+          "lineNumber": 216
+        },
+        {
+          "caller": "getArrowPosition",
+          "callee": "p.startsWith",
+          "lineNumber": 225
+        },
+        {
+          "caller": "getArrowPosition",
+          "callee": "p.startsWith",
+          "lineNumber": 226
+        },
+        {
+          "caller": "getArrowPosition",
+          "callee": "p.startsWith",
+          "lineNumber": 227
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useCallback",
+          "lineNumber": 231
+        },
+        {
+          "caller": "MPopover",
+          "callee": "e.stopPropagation",
+          "lineNumber": 232
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setVisible",
+          "lineNumber": 233
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useCallback",
+          "lineNumber": 236
+        },
+        {
+          "caller": "MPopover",
+          "callee": "setVisible",
+          "lineNumber": 238
+        },
+        {
+          "caller": "MPopover",
+          "callee": "useMemo",
+          "lineNumber": 242
+        },
+        {
+          "caller": "MPopover",
+          "callee": "getArrowPosition",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Result/Result.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 102,
+      "functions": [
+        {
+          "name": "MResult",
+          "startLine": 29,
+          "endLine": 109,
+          "params": [
+            "{id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MResult",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MResult",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MResult",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "MResult",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MResult",
+          "callee": "useImperativeHandle",
+          "lineNumber": 39
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 42
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MResult",
+          "callee": "setMStyle",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MResult",
+          "callee": "useEffect",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MResult",
+          "callee": "setSubTitle",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MResult",
+          "callee": "useEffect",
+          "lineNumber": 68
+        },
+        {
+          "caller": "MResult",
+          "callee": "setRsultTitle",
+          "lineNumber": 70
+        },
+        {
+          "caller": "MResult",
+          "callee": "omit",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MResult",
+          "callee": "React.createElement",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MResult",
+          "callee": "bulkActionList.map",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MResult",
+          "callee": "React.createElement",
+          "lineNumber": 97
+        },
+        {
+          "caller": "MResult",
+          "callee": "handleOperate",
+          "lineNumber": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FeedBack/Spin/Spin.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 84,
+      "nonEmptyLines": 79,
+      "functions": [
+        {
+          "name": "MSpin",
+          "startLine": 19,
+          "endLine": 83,
+          "params": [
+            "{id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MSpin",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "MSpin",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "MSpin",
+          "callee": "useImperativeHandle",
+          "lineNumber": 24
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 27
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MSpin",
+          "callee": "setMStyle",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Cascader/Cascader.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 187,
+      "nonEmptyLines": 173,
+      "functions": [
+        {
+          "name": "MCascader",
+          "startLine": 38,
+          "endLine": 186,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MCascader",
+          "callee": "useFormContext",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MCascader",
+          "callee": "usePageStore",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useEffect",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCascader",
+          "callee": "initValues",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useEffect",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MCascader",
+          "callee": "setDisabled",
+          "lineNumber": 56
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 59
+        },
+        {
+          "caller": "MCascader",
+          "callee": "getDataList",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useCallback",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MCascader",
+          "callee": "isEmpty",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MCascader",
+          "callee": "Array.from",
+          "lineNumber": 73
+        },
+        {
+          "caller": "MCascader",
+          "callee": "dealChildren",
+          "lineNumber": 77
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "isEmpty",
+          "lineNumber": 84
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "children.replace",
+          "lineNumber": 86
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "childrenData?.map",
+          "lineNumber": 88
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "Object.entries",
+          "lineNumber": 89
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "child_key?.endsWith",
+          "lineNumber": 92
+        },
+        {
+          "caller": "dealChildren",
+          "callee": "dealChildren",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useRef",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useEffect",
+          "lineNumber": 110
+        },
+        {
+          "caller": "MCascader",
+          "callee": "setData",
+          "lineNumber": 111
+        },
+        {
+          "caller": "MCascader",
+          "callee": "dealData",
+          "lineNumber": 111
+        },
+        {
+          "caller": "MCascader",
+          "callee": "debounce",
+          "lineNumber": 114
+        },
+        {
+          "caller": "MCascader",
+          "callee": "isEmpty",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MCascader",
+          "callee": "handleApi(config.api, params).then",
+          "lineNumber": 117
+        },
+        {
+          "caller": "MCascader",
+          "callee": "handleApi",
+          "lineNumber": 117
+        },
+        {
+          "caller": "MCascader",
+          "callee": "isNotEmpty",
+          "lineNumber": 119
+        },
+        {
+          "caller": "MCascader",
+          "callee": "setData",
+          "lineNumber": 121
+        },
+        {
+          "caller": "MCascader",
+          "callee": "dealData",
+          "lineNumber": 121
+        },
+        {
+          "caller": "MCascader",
+          "callee": "setData",
+          "lineNumber": 123
+        },
+        {
+          "caller": "MCascader",
+          "callee": "console.error",
+          "lineNumber": 124
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useWatchVariable",
+          "lineNumber": 131
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useImperativeHandle",
+          "lineNumber": 137
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 140
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 143
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 146
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 149
+        },
+        {
+          "caller": "MCascader",
+          "callee": "getDataList",
+          "lineNumber": 152
+        },
+        {
+          "caller": "MCascader",
+          "callee": "setMStyle",
+          "lineNumber": 155
+        },
+        {
+          "caller": "MCascader",
+          "callee": "useCallback",
+          "lineNumber": 160
+        },
+        {
+          "caller": "MCascader",
+          "callee": "onChange",
+          "lineNumber": 162
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/CheckBox/CheckBox.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 270,
+      "nonEmptyLines": 252,
+      "functions": [
+        {
+          "name": "MCheckBox",
+          "startLine": 43,
+          "endLine": 269,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MCheckBox",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useState",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useRef",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useFormContext",
+          "lineNumber": 49
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "usePageStore",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useEffect",
+          "lineNumber": 56
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "isNil",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "value.indexOf",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "value.indexOf",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "JSON.parse",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "value.indexOf",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "value.indexOf",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "value.split",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "console.log",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "initValues",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "JSON.stringify",
+          "lineNumber": 73
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useEffect",
+          "lineNumber": 76
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "setDisabled",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "getDictionary",
+          "lineNumber": 82
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "getDataList",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "getDataList",
+          "lineNumber": 87
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 92
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 98
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useRef",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useEffect",
+          "lineNumber": 109
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "setData",
+          "lineNumber": 110
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "dealData",
+          "lineNumber": 110
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "debounce",
+          "lineNumber": 113
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "isEmpty",
+          "lineNumber": 115
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "handleApi(config.api, params).then",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "handleApi",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "isNotEmpty",
+          "lineNumber": 118
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Object.fromEntries",
+          "lineNumber": 121
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Object.entries(res?.data || {}).map",
+          "lineNumber": 122
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Object.entries",
+          "lineNumber": 122
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "setData",
+          "lineNumber": 129
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "dealData",
+          "lineNumber": 129
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "console.error",
+          "lineNumber": 131
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "setData",
+          "lineNumber": 132
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useWatchVariable",
+          "lineNumber": 143
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useImperativeHandle",
+          "lineNumber": 150
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 153
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 156
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 159
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 162
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "getDataList",
+          "lineNumber": 165
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "setMStyle",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 174
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useMemo",
+          "lineNumber": 179
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useMemo",
+          "lineNumber": 191
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Math.min",
+          "lineNumber": 194
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Math.max",
+          "lineNumber": 194
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "useMemo",
+          "lineNumber": 217
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Math.min",
+          "lineNumber": 220
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "Math.max",
+          "lineNumber": 220
+        },
+        {
+          "caller": "MCheckBox",
+          "callee": "data.map",
+          "lineNumber": 245
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 85,
+      "functions": [
+        {
+          "name": "MColorPicker",
+          "startLine": 18,
+          "endLine": 91,
+          "params": [
+            "{id, type, config, onChange, onChangeComplete }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MColorPicker",
+          "callee": "useFormContext",
+          "lineNumber": 19
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useEffect",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "initValues",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useEffect",
+          "lineNumber": 33
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "setDisabled",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 41
+        },
+        {
+          "caller": "handleChangeComplete",
+          "callee": "onChangeComplete",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "useImperativeHandle",
+          "lineNumber": 56
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 59
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 62
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 65
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 68
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "setMStyle",
+          "lineNumber": 71
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "handleChange",
+          "lineNumber": 85
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "color.toCssString",
+          "lineNumber": 85
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "handleChangeComplete",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MColorPicker",
+          "callee": "color.toCssString",
+          "lineNumber": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Counter/Counter.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 447,
+      "nonEmptyLines": 432,
+      "functions": [
+        {
+          "name": "MCounter",
+          "startLine": 38,
+          "endLine": 445,
+          "params": [
+            "{ id, type, config, onAddOne, onMinusOne, onChangeOne, onAddTwo, onMinusTwo, onChangeTwo }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MCounter",
+          "callee": "useRef",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useRef",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useFormContext",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MCounter",
+          "callee": "form?.getFieldValue",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MCounter",
+          "callee": "initValue.split",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCounter",
+          "callee": "initValue.split",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCounter",
+          "callee": "initValue.split",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 49
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 53
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useState",
+          "lineNumber": 54
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useEffect",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MCounter",
+          "callee": "initValues",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MCounter",
+          "callee": "value.split",
+          "lineNumber": 67
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setValueOne",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setValueTwo",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useEffect",
+          "lineNumber": 76
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setDisabled",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useEffect",
+          "lineNumber": 79
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setStep2",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useEffect",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MCounter",
+          "callee": "message.error",
+          "lineNumber": 93
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MCounter",
+          "callee": "message.error",
+          "lineNumber": 96
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 98
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 98
+        },
+        {
+          "caller": "MCounter",
+          "callee": "message.error",
+          "lineNumber": 99
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MCounter",
+          "callee": "numExist",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MCounter",
+          "callee": "message.error",
+          "lineNumber": 102
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setMinAndMax",
+          "lineNumber": 104
+        },
+        {
+          "caller": "MCounter",
+          "callee": "useImperativeHandle",
+          "lineNumber": 108
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 111
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 114
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 117
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 120
+        },
+        {
+          "caller": "MCounter",
+          "callee": "setMStyle",
+          "lineNumber": 130
+        },
+        {
+          "caller": "changeOne",
+          "callee": "parseFloat",
+          "lineNumber": 143
+        },
+        {
+          "caller": "changeOne",
+          "callee": "parseFloat",
+          "lineNumber": 144
+        },
+        {
+          "caller": "changeOne",
+          "callee": "setValueOne",
+          "lineNumber": 146
+        },
+        {
+          "caller": "changeOne",
+          "callee": "onAddOne",
+          "lineNumber": 148
+        },
+        {
+          "caller": "changeOne",
+          "callee": "onMinusOne",
+          "lineNumber": 151
+        },
+        {
+          "caller": "changeOne",
+          "callee": "parseFloat",
+          "lineNumber": 153
+        },
+        {
+          "caller": "changeOne",
+          "callee": "onChangeOne",
+          "lineNumber": 154
+        },
+        {
+          "caller": "changeOne",
+          "callee": "initValues",
+          "lineNumber": 161
+        },
+        {
+          "caller": "changeOne",
+          "callee": "BtnDisabled",
+          "lineNumber": 162
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "parseFloat",
+          "lineNumber": 166
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "parseFloat",
+          "lineNumber": 167
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "setValueTwo",
+          "lineNumber": 169
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "onAddTwo",
+          "lineNumber": 171
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "onMinusTwo",
+          "lineNumber": 174
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "parseFloat",
+          "lineNumber": 176
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "onChangeTwo",
+          "lineNumber": 177
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "initValues",
+          "lineNumber": 182
+        },
+        {
+          "caller": "changeTwo",
+          "callee": "BtnDisabled2",
+          "lineNumber": 183
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "numExist",
+          "lineNumber": 192
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "numExist",
+          "lineNumber": 193
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "parseFloat",
+          "lineNumber": 194
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "numExist",
+          "lineNumber": 195
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisAdd",
+          "lineNumber": 197
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisAdd",
+          "lineNumber": 199
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "numExist",
+          "lineNumber": 202
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "numExist",
+          "lineNumber": 202
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisMinus",
+          "lineNumber": 203
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisMinus",
+          "lineNumber": 205
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "parseFloat",
+          "lineNumber": 208
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisMinus2",
+          "lineNumber": 209
+        },
+        {
+          "caller": "BtnDisabled",
+          "callee": "setDisMinus2",
+          "lineNumber": 211
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "numExist",
+          "lineNumber": 219
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "numExist",
+          "lineNumber": 219
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisAdd2",
+          "lineNumber": 220
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisAdd2",
+          "lineNumber": 222
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "numExist",
+          "lineNumber": 226
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "numExist",
+          "lineNumber": 227
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "parseFloat",
+          "lineNumber": 227
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "numExist",
+          "lineNumber": 227
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisMinus2",
+          "lineNumber": 229
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisMinus2",
+          "lineNumber": 231
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "parseFloat",
+          "lineNumber": 233
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisAdd",
+          "lineNumber": 234
+        },
+        {
+          "caller": "BtnDisabled2",
+          "callee": "setDisAdd",
+          "lineNumber": 236
+        },
+        {
+          "caller": "add",
+          "callee": "oneRef.current.stepUp",
+          "lineNumber": 245
+        },
+        {
+          "caller": "add",
+          "callee": "parseFloat",
+          "lineNumber": 246
+        },
+        {
+          "caller": "add",
+          "callee": "numExist",
+          "lineNumber": 247
+        },
+        {
+          "caller": "add",
+          "callee": "numExist",
+          "lineNumber": 250
+        },
+        {
+          "caller": "add",
+          "callee": "changeOne",
+          "lineNumber": 253
+        },
+        {
+          "caller": "add",
+          "callee": "twoRef.current.stepUp",
+          "lineNumber": 258
+        },
+        {
+          "caller": "add",
+          "callee": "parseFloat",
+          "lineNumber": 259
+        },
+        {
+          "caller": "add",
+          "callee": "numExist",
+          "lineNumber": 260
+        },
+        {
+          "caller": "add",
+          "callee": "changeTwo",
+          "lineNumber": 263
+        },
+        {
+          "caller": "minus",
+          "callee": "oneRef.current.stepDown",
+          "lineNumber": 273
+        },
+        {
+          "caller": "minus",
+          "callee": "parseFloat",
+          "lineNumber": 274
+        },
+        {
+          "caller": "minus",
+          "callee": "numExist",
+          "lineNumber": 275
+        },
+        {
+          "caller": "minus",
+          "callee": "changeOne",
+          "lineNumber": 278
+        },
+        {
+          "caller": "minus",
+          "callee": "twoRef.current.stepDown",
+          "lineNumber": 284
+        },
+        {
+          "caller": "minus",
+          "callee": "parseFloat",
+          "lineNumber": 285
+        },
+        {
+          "caller": "minus",
+          "callee": "numExist",
+          "lineNumber": 286
+        },
+        {
+          "caller": "minus",
+          "callee": "numExist",
+          "lineNumber": 289
+        },
+        {
+          "caller": "minus",
+          "callee": "changeTwo",
+          "lineNumber": 292
+        },
+        {
+          "caller": "inputChange",
+          "callee": "onChangeOne",
+          "lineNumber": 302
+        },
+        {
+          "caller": "inputChange",
+          "callee": "initValues",
+          "lineNumber": 308
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisAdd",
+          "lineNumber": 310
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisMinus",
+          "lineNumber": 311
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisMinus2",
+          "lineNumber": 313
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setValueOne",
+          "lineNumber": 314
+        },
+        {
+          "caller": "inputChange",
+          "callee": "parseFloat",
+          "lineNumber": 316
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 317
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 320
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 323
+        },
+        {
+          "caller": "inputChange",
+          "callee": "changeOne",
+          "lineNumber": 326
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setValueTwo",
+          "lineNumber": 330
+        },
+        {
+          "caller": "inputChange",
+          "callee": "onChangeTwo",
+          "lineNumber": 333
+        },
+        {
+          "caller": "inputChange",
+          "callee": "initValues",
+          "lineNumber": 336
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisAdd",
+          "lineNumber": 339
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisAdd2",
+          "lineNumber": 341
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setDisMinus2",
+          "lineNumber": 342
+        },
+        {
+          "caller": "inputChange",
+          "callee": "setValueTwo",
+          "lineNumber": 343
+        },
+        {
+          "caller": "inputChange",
+          "callee": "parseFloat",
+          "lineNumber": 345
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 346
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 349
+        },
+        {
+          "caller": "inputChange",
+          "callee": "numExist",
+          "lineNumber": 352
+        },
+        {
+          "caller": "inputChange",
+          "callee": "changeTwo",
+          "lineNumber": 355
+        },
+        {
+          "caller": "MCounter",
+          "callee": "getStyle",
+          "lineNumber": 375
+        },
+        {
+          "caller": "MCounter",
+          "callee": "inputChange",
+          "lineNumber": 390
+        },
+        {
+          "caller": "MCounter",
+          "callee": "add",
+          "lineNumber": 397
+        },
+        {
+          "caller": "MCounter",
+          "callee": "minus",
+          "lineNumber": 403
+        },
+        {
+          "caller": "MCounter",
+          "callee": "inputChange",
+          "lineNumber": 420
+        },
+        {
+          "caller": "MCounter",
+          "callee": "add",
+          "lineNumber": 427
+        },
+        {
+          "caller": "MCounter",
+          "callee": "minus",
+          "lineNumber": 433
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/CustomCalendarIcon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 34,
+      "exports": [
+        {
+          "name": "CustomCalendarIcon",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "CustomSelectIcon",
+          "line": 39,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/DatePicker/DatePicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 120,
+      "nonEmptyLines": 112,
+      "functions": [
+        {
+          "name": "MDatePicker",
+          "startLine": 33,
+          "endLine": 119,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MDatePicker",
+          "callee": "useFormContext",
+          "lineNumber": 34
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useEffect",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "renderFormula",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "isNil",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "initValues",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useEffect",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setDisabled",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "useImperativeHandle",
+          "lineNumber": 70
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 73
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 76
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 79
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 82
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setMStyle",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleChange",
+          "callee": "val.format",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setFocused",
+          "lineNumber": 106
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setFocused",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setHovered",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MDatePicker",
+          "callee": "setHovered",
+          "lineNumber": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 150,
+      "functions": [
+        {
+          "name": "MDatePickerRange",
+          "startLine": 24,
+          "endLine": 158,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useFormContext",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs().subtract",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useEffect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "isNotEmpty",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "initValues",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useEffect",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setDisabled",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useImperativeHandle",
+          "lineNumber": 46
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 49
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 52
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 55
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setMStyle",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setDates",
+          "lineNumber": 67
+        },
+        {
+          "caller": "handleChange",
+          "callee": "dates?.map",
+          "lineNumber": 75
+        },
+        {
+          "caller": "handleChange",
+          "callee": "date?.format",
+          "lineNumber": 75
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useEffect",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setdisabledDates",
+          "lineNumber": 88
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "today.getFullYear",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "today.getMonth",
+          "lineNumber": 93
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 103
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useMemo",
+          "lineNumber": 104
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs().subtract",
+          "lineNumber": 105
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs",
+          "lineNumber": 105
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs",
+          "lineNumber": 105
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useMemo",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 112
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useState",
+          "lineNumber": 113
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useEffect",
+          "lineNumber": 114
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setPickerValue",
+          "lineNumber": 115
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setPickerKey",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "useCallback",
+          "lineNumber": 122
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setPanelMonth",
+          "lineNumber": 126
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs().subtract",
+          "lineNumber": 126
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "dayjs",
+          "lineNumber": 126
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setFocused",
+          "lineNumber": 149
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setFocused",
+          "lineNumber": 150
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setHovered",
+          "lineNumber": 151
+        },
+        {
+          "caller": "MDatePickerRange",
+          "callee": "setHovered",
+          "lineNumber": 152
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/FormItem/FormItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "MFormItem",
+          "startLine": 19,
+          "endLine": 45,
+          "params": [
+            "{ id, type, config, elements, loopVariable }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MFormItem",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "MFormItem",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "MFormItem",
+          "callee": "useImperativeHandle",
+          "lineNumber": 24
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 27
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MFormItem",
+          "callee": "setMStyle",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Input/Input.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 95,
+      "functions": [
+        {
+          "name": "MInput",
+          "startLine": 21,
+          "endLine": 101,
+          "params": [
+            "{id, type, config, onChange, onBlur, onPressEnter }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MInput",
+          "callee": "useFormContext",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MInput",
+          "callee": "useEffect",
+          "lineNumber": 28
+        },
+        {
+          "caller": "MInput",
+          "callee": "initValues",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MInput",
+          "callee": "useEffect",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MInput",
+          "callee": "setDisabled",
+          "lineNumber": 37
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 43
+        },
+        {
+          "caller": "handleBlur",
+          "callee": "onBlur",
+          "lineNumber": 50
+        },
+        {
+          "caller": "handlePressEnter",
+          "callee": "onPressEnter",
+          "lineNumber": 57
+        },
+        {
+          "caller": "MInput",
+          "callee": "useImperativeHandle",
+          "lineNumber": 62
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 65
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 68
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 71
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 74
+        },
+        {
+          "caller": "MInput",
+          "callee": "setMStyle",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MInput",
+          "callee": "omit",
+          "lineNumber": 88
+        },
+        {
+          "caller": "MInput",
+          "callee": "React.createElement",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MInput",
+          "callee": "React.createElement",
+          "lineNumber": 93
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/InputNumber/InputNumber.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 112,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "MInputNumber",
+          "startLine": 20,
+          "endLine": 110,
+          "params": [
+            "{id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MInputNumber",
+          "callee": "useFormContext",
+          "lineNumber": 21
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useEffect",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "initValues",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useEffect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "setDisabled",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useImperativeHandle",
+          "lineNumber": 40
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 43
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 46
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 49
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "setMStyle",
+          "lineNumber": 55
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 61
+        },
+        {
+          "caller": "handleFormatter",
+          "callee": "new Function('value', `return (${formatter})(value);`)",
+          "lineNumber": 69
+        },
+        {
+          "caller": "handleFormatter",
+          "callee": "console.error",
+          "lineNumber": 71
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useCallback",
+          "lineNumber": 76
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "handleFormatter(formatter?.value)",
+          "lineNumber": 79
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "handleFormatter",
+          "lineNumber": 79
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "useCallback",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "handleFormatter(parser?.value)",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MInputNumber",
+          "callee": "handleFormatter",
+          "lineNumber": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/InputPassword/InputPassword.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 80,
+      "functions": [
+        {
+          "name": "MInputPassword",
+          "startLine": 19,
+          "endLine": 83,
+          "params": [
+            "{id, type, config, onChange, onBlur }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MInputPassword",
+          "callee": "useFormContext",
+          "lineNumber": 20
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useEffect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "initValues",
+          "lineNumber": 30
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useEffect",
+          "lineNumber": 34
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "setDisabled",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleBlur",
+          "callee": "onBlur",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "useImperativeHandle",
+          "lineNumber": 48
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 51
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 54
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 57
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "setMStyle",
+          "lineNumber": 63
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "handleChange",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MInputPassword",
+          "callee": "handleBlur",
+          "lineNumber": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Json/Json.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 138,
+      "nonEmptyLines": 127,
+      "functions": [
+        {
+          "name": "JsonView",
+          "startLine": 25,
+          "endLine": 47,
+          "params": [
+            "props"
+          ]
+        },
+        {
+          "name": "MJson",
+          "startLine": 55,
+          "endLine": 137,
+          "params": [
+            "{ id, type, config, onAdd, onEdit, onDelete }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "onEdit",
+          "callee": "props.onChange",
+          "lineNumber": 27
+        },
+        {
+          "caller": "onEdit",
+          "callee": "props.onEdit",
+          "lineNumber": 28
+        },
+        {
+          "caller": "onDelete",
+          "callee": "props.onChange",
+          "lineNumber": 31
+        },
+        {
+          "caller": "onDelete",
+          "callee": "props.onDelete",
+          "lineNumber": 32
+        },
+        {
+          "caller": "onAdd",
+          "callee": "props.onChange",
+          "lineNumber": 35
+        },
+        {
+          "caller": "onAdd",
+          "callee": "props.onAdd",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MJson",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "MJson",
+          "callee": "useState",
+          "lineNumber": 57
+        },
+        {
+          "caller": "MJson",
+          "callee": "useFormContext",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MJson",
+          "callee": "useState",
+          "lineNumber": 59
+        },
+        {
+          "caller": "MJson",
+          "callee": "useEffect",
+          "lineNumber": 62
+        },
+        {
+          "caller": "MJson",
+          "callee": "['string', 'number', 'boolean'].includes",
+          "lineNumber": 67
+        },
+        {
+          "caller": "MJson",
+          "callee": "initValues",
+          "lineNumber": 68
+        },
+        {
+          "caller": "MJson",
+          "callee": "useEffect",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MJson",
+          "callee": "setDisabled",
+          "lineNumber": 73
+        },
+        {
+          "caller": "MJson",
+          "callee": "useImperativeHandle",
+          "lineNumber": 76
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 79
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 82
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 85
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 88
+        },
+        {
+          "caller": "MJson",
+          "callee": "setMStyle",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleEdit",
+          "callee": "onEdit",
+          "lineNumber": 97
+        },
+        {
+          "caller": "handleDelete",
+          "callee": "onDelete",
+          "lineNumber": 102
+        },
+        {
+          "caller": "handleAdd",
+          "callee": "onAdd",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MJson",
+          "callee": "isNotEmpty",
+          "lineNumber": 117
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Radio/Radio.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 283,
+      "nonEmptyLines": 268,
+      "functions": [
+        {
+          "name": "MRadio",
+          "startLine": 43,
+          "endLine": 282,
+          "params": [
+            "{ id, type, config, onLoad, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MRadio",
+          "callee": "useState",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useRef",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useState",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useFormContext",
+          "lineNumber": 49
+        },
+        {
+          "caller": "MRadio",
+          "callee": "usePageStore",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Form.useFormInstance",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useState",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useEffect",
+          "lineNumber": 54
+        },
+        {
+          "caller": "MRadio",
+          "callee": "isNil",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MRadio",
+          "callee": "initValues",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useEffect",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MRadio",
+          "callee": "onLoad",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useEffect",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setDisabled",
+          "lineNumber": 65
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 67
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getDictionary",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getDataList",
+          "lineNumber": 71
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getDataList",
+          "lineNumber": 74
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 79
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 85
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useRef",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useEffect",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setData",
+          "lineNumber": 96
+        },
+        {
+          "caller": "MRadio",
+          "callee": "dealData",
+          "lineNumber": 96
+        },
+        {
+          "caller": "MRadio",
+          "callee": "debounce",
+          "lineNumber": 99
+        },
+        {
+          "caller": "MRadio",
+          "callee": "isEmpty",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MRadio",
+          "callee": "handleApi(config.api, params).then",
+          "lineNumber": 102
+        },
+        {
+          "caller": "MRadio",
+          "callee": "handleApi",
+          "lineNumber": 102
+        },
+        {
+          "caller": "MRadio",
+          "callee": "isNotEmpty",
+          "lineNumber": 104
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Object.fromEntries",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Object.entries(resData).map",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Object.entries",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setData",
+          "lineNumber": 115
+        },
+        {
+          "caller": "MRadio",
+          "callee": "dealData",
+          "lineNumber": 115
+        },
+        {
+          "caller": "MRadio",
+          "callee": "console.error",
+          "lineNumber": 117
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setData",
+          "lineNumber": 118
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useWatchVariable",
+          "lineNumber": 126
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useCallback",
+          "lineNumber": 134
+        },
+        {
+          "caller": "MRadio",
+          "callee": "renderAsyncFormula",
+          "lineNumber": 141
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useImperativeHandle",
+          "lineNumber": 147
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 150
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 153
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 156
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 159
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getDataList",
+          "lineNumber": 162
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setMStyle",
+          "lineNumber": 165
+        },
+        {
+          "caller": "MRadio",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 168
+        },
+        {
+          "caller": "MRadio",
+          "callee": "formatLabelName",
+          "lineNumber": 168
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setDisItem",
+          "lineNumber": 171
+        },
+        {
+          "caller": "MRadio",
+          "callee": "arr.push",
+          "lineNumber": 173
+        },
+        {
+          "caller": "MRadio",
+          "callee": "formatLabelName",
+          "lineNumber": 173
+        },
+        {
+          "caller": "MRadio",
+          "callee": "setDisItem",
+          "lineNumber": 178
+        },
+        {
+          "caller": "MRadio",
+          "callee": "arr?.filter",
+          "lineNumber": 180
+        },
+        {
+          "caller": "MRadio",
+          "callee": "formatLabelName",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 188
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useMemo",
+          "lineNumber": 193
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useMemo",
+          "lineNumber": 205
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Math.min",
+          "lineNumber": 207
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Math.max",
+          "lineNumber": 207
+        },
+        {
+          "caller": "MRadio",
+          "callee": "useMemo",
+          "lineNumber": 229
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Math.min",
+          "lineNumber": 231
+        },
+        {
+          "caller": "MRadio",
+          "callee": "Math.max",
+          "lineNumber": 231
+        },
+        {
+          "caller": "getItemDisabled",
+          "callee": "disItem?.some",
+          "lineNumber": 244
+        },
+        {
+          "caller": "MRadio",
+          "callee": "data.map",
+          "lineNumber": 259
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getItemDisabled",
+          "lineNumber": 265
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getItemDisabled",
+          "lineNumber": 266
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getItemDisabled",
+          "lineNumber": 272
+        },
+        {
+          "caller": "MRadio",
+          "callee": "getItemDisabled",
+          "lineNumber": 273
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/FormItems/Rate/Rate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 85,
+      "callGraph": [
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 30
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 33
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 36
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 66
+        },
+        {
+          "caller": "handleHoverChange",
+          "callee": "onHoverChange",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

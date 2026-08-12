@@ -1,0 +1,662 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".gitattributes",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 21,
+      "metrics": {}
+    },
+    {
+      "path": ".npmrc",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": ".prettierignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 48,
+      "nonEmptyLines": 37,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 30,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/AIChat/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 402,
+      "nonEmptyLines": 348,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/Breadcrumb/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 43,
+      "nonEmptyLines": 39,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/FloatingWindow/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 114,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/Menu/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 14,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/Pagination/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 147,
+      "nonEmptyLines": 127,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/Pagination/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/Advanced/Steps/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 366,
+      "nonEmptyLines": 358,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Advanced/Tree/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 236,
+      "nonEmptyLines": 198,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/AudioPlayer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 861,
+      "nonEmptyLines": 725,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/Badge/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/Carousel/carousel.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/CollapseBtn/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/Text/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/Timer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 23,
+      "nonEmptyLines": 23,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Basic/Video/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": "materials/components.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 112,
+      "nonEmptyLines": 100,
+      "exports": [
+        {
+          "name": "BottomBanner",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Col",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "Divider",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "Row",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "Space",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "Span",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "Button",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "AuthButton",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "Descriptions",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "List",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "Tab",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "Tabs",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "Breadcrumb",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "FloatingWindow",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "Menu",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "Pagination",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "Progress",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "Steps",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "Timeline",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "Tree",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "AIChat",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "AudioPlayer",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "Avatar",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "Badge",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "Carousel",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "CheckableTagGroup",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "Icon",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "Image",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "Link",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "Statistic",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "Tag",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "Text",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "Timer",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "Title",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "Video",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "Watermark",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "CollapseBtn",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "BownloadButton",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "Card",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "Collapse",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "CollapseItem",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "Cycle",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "Div",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "Flex",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "Form",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "GridForm",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "BarAndLine",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "BarChart",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "ColumnChart",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "LineChart",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "MapChart",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "PieChart",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "Drawer",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "Empty",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "Modal",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "Result",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "Spin",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "Popover",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "NgapTable",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "SearchForm",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "BusinessTable",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "IFrame",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "Cascader",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "CheckBox",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "ColorPicker",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "Counter",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "CounterDouble",
+          "line": 93,
+          "isDefault": false
+        },
+        {
+          "name": "DatePicker",
+          "line": 94,
+          "isDefault": false
+        },
+        {
+          "name": "DatePickerRange",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "FormItem",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "Input",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "InputNumber",
+          "line": 98,
+          "isDefault": false
+        },
+        {
+          "name": "InputPassword",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "Json",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "Radio",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "Rate",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "Select",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "Slider",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "StaticItem",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "Switch",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "TextArea",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "TimePicker",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "TimePickerRange",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "Transfer",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "TreeSelect",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "Upload",
+          "line": 112,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 86,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/Container/Card/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Container/Collapse/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 24,
+      "nonEmptyLines": 23,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Container/Cycle/BasicConfig.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "functions": [
+        {
+          "name": "BasicConfig",
+          "startLine": 4,
+          "endLine": 10,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "materials/Container/Form/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "materials/Container/GridForm/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    }
+  ]
+}

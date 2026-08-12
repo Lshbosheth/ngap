@@ -1,0 +1,684 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 51,
+      "nonEmptyLines": 51,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 146,
+      "nonEmptyLines": 127,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 478,
+      "nonEmptyLines": 420,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/editor/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 90,
+      "nonEmptyLines": 84,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/editor/topbar/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 57,
+      "nonEmptyLines": 54,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/editor/topbar/ShareLink.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 75,
+      "callGraph": [
+        {
+          "caller": "copyText",
+          "callee": "copy",
+          "lineNumber": 34
+        },
+        {
+          "caller": "copyText",
+          "callee": "setCopy",
+          "lineNumber": 35
+        },
+        {
+          "caller": "copyText",
+          "callee": "setTimeout",
+          "lineNumber": 36
+        },
+        {
+          "caller": "copyText",
+          "callee": "setCopy",
+          "lineNumber": 37
+        },
+        {
+          "caller": "updateVisitLimit",
+          "callee": "setChecked",
+          "lineNumber": 43
+        },
+        {
+          "caller": "updateVisitLimit",
+          "callee": "api.updatePageData",
+          "lineNumber": 44
+        },
+        {
+          "caller": "updateVisitLimit",
+          "callee": "savePageInfo",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/elementManagement/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 474,
+      "nonEmptyLines": 464,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/evaluateRecord/DependModal/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 43,
+      "nonEmptyLines": 37,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/evaluateRecord/DependModal/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 91,
+      "callGraph": [
+        {
+          "caller": "fetchConditions",
+          "callee": "isEmpty",
+          "lineNumber": 29
+        },
+        {
+          "caller": "fetchConditions",
+          "callee": "request.post",
+          "lineNumber": 33
+        },
+        {
+          "caller": "fetchConditions",
+          "callee": "setConditions",
+          "lineNumber": 34
+        },
+        {
+          "caller": "showModal",
+          "callee": "modalRef?.current?.showModal",
+          "lineNumber": 39
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "getValue",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "value.split(',')?.map",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "value.split",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "evaluateIndicatorArr.find",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "isEmpty",
+          "lineNumber": 53
+        },
+        {
+          "caller": "getEvaluateTarget",
+          "callee": "temp.join",
+          "lineNumber": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/evaluateRecord/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/evaluateRecord/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 39,
+      "functions": [
+        {
+          "name": "EvaluateRecord",
+          "startLine": 15,
+          "endLine": 49,
+          "params": [
+            "{initialParams}"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EvaluateRecord",
+          "callee": "useRef",
+          "lineNumber": 17
+        },
+        {
+          "caller": "EvaluateRecord",
+          "callee": "useRef",
+          "lineNumber": 19
+        },
+        {
+          "caller": "EvaluateRecord",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "setShowModal",
+          "callee": "setCurrentItem",
+          "lineNumber": 23
+        },
+        {
+          "caller": "setShowModal",
+          "callee": "modalRef?.current?.showModal",
+          "lineNumber": 24
+        },
+        {
+          "caller": "onExport",
+          "callee": "listRef.current?.getParams",
+          "lineNumber": 29
+        },
+        {
+          "caller": "onExport",
+          "callee": "request.download",
+          "lineNumber": 32
+        },
+        {
+          "caller": "onExport",
+          "callee": "console.error",
+          "lineNumber": 34
+        },
+        {
+          "caller": "EvaluateRecord",
+          "callee": "getColumns",
+          "lineNumber": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/evaluateRecord/params.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 93,
+      "functions": [
+        {
+          "name": "getColumns",
+          "startLine": 12,
+          "endLine": 66,
+          "params": [
+            "setShowModal"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getColumns",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "RESULT_ARR",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "FILTER_OPTS",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "evaluateIndicatorArr",
+          "line": 96,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getColumns",
+          "callee": "setShowModal",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getColumns",
+          "callee": "RESULT_ARR.find",
+          "lineNumber": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/MyActivity/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 143,
+      "nonEmptyLines": 142,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/serviceOrchestration/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/serviceOrchestration/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Page",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "Page",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "Page",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/taskCenter/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 587,
+      "nonEmptyLines": 563,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/templateManagement/applicationTemp/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 175,
+      "nonEmptyLines": 155,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 124,
+      "nonEmptyLines": 123,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/templateManagement/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 647,
+      "nonEmptyLines": 570,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/tenantManage/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 125,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/TestApi/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 6,
+          "endLine": 23,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Page",
+          "callee": "useRef",
+          "lineNumber": 9
+        },
+        {
+          "caller": "clickHandle",
+          "callee": "getFieldFromAPI(id, '', { name: '123' }).then",
+          "lineNumber": 13
+        },
+        {
+          "caller": "clickHandle",
+          "callee": "getFieldFromAPI",
+          "lineNumber": 13
+        },
+        {
+          "caller": "clickHandle",
+          "callee": "console.log",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/types/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 88,
+      "nonEmptyLines": 74,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "CreateRecent",
+          "startLine": 13,
+          "endLine": 113,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CreateRecent",
+          "callee": "useNavigate",
+          "lineNumber": 14
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 15
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useEffect",
+          "lineNumber": 29
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "fetchData",
+          "lineNumber": 30
+        },
+        {
+          "caller": "fetchData",
+          "callee": "request.post",
+          "lineNumber": 38
+        },
+        {
+          "caller": "fetchData",
+          "callee": "resp.beans.map",
+          "lineNumber": 39
+        },
+        {
+          "caller": "fetchData",
+          "callee": "setDataSource",
+          "lineNumber": 45
+        },
+        {
+          "caller": "fetchData",
+          "callee": "console.error",
+          "lineNumber": 47
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "useEffect",
+          "lineNumber": 51
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "userInfo?.tenantInfos?.find",
+          "lineNumber": 52
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "setTenantCode",
+          "lineNumber": 55
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "userInfo?.tenantInfos?.map",
+          "lineNumber": 57
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "setTenantList",
+          "lineNumber": 62
+        },
+        {
+          "caller": "onMore",
+          "callee": "navigate",
+          "lineNumber": 67
+        },
+        {
+          "caller": "onCreateApp",
+          "callee": "navigate",
+          "lineNumber": 71
+        },
+        {
+          "caller": "onCreateProject",
+          "callee": "setShowModal",
+          "lineNumber": 75
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "hasPermission",
+          "lineNumber": 82
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "hasPermission",
+          "lineNumber": 84
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "hasPermission",
+          "lineNumber": 86
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "dataSource.map",
+          "lineNumber": 90
+        },
+        {
+          "caller": "CreateRecent",
+          "callee": "setShowModal",
+          "lineNumber": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/item.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "Item",
+          "startLine": 8,
+          "endLine": 39,
+          "params": [
+            "{data, index}"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Item",
+          "callee": "getImgUrl",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/utils/storage.ts",
+      "type": "file",
+      "name": "storage.ts",
+      "filePath": "src/utils/storage.ts",
+      "summary": "封装 localStorage 的读取、写入、删除和 JSON 序列化。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/useClickLogger.ts",
+      "type": "file",
+      "name": "useClickLogger.ts",
+      "filePath": "src/utils/useClickLogger.ts",
+      "summary": "提供 React Hook，在指定容器内捕获点击并上报元素与页面信息。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/useClickLogger.ts:useClickLogger",
+      "type": "function",
+      "name": "useClickLogger",
+      "filePath": "src/utils/useClickLogger.ts",
+      "lineRange": [
+        12,
+        66
+      ],
+      "summary": "useClickLogger 注册点击监听并上报结构化点击信息。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "src/vite-env.d.ts",
+      "summary": "引入 Vite 客户端环境变量类型。",
+      "tags": [
+        "type-definition",
+        "typescript",
+        "global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/commonEmpty/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/widget/commonEmpty/index.less",
+      "summary": "为 widget/commonEmpty 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/commonEmpty/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/widget/commonEmpty/index.tsx",
+      "summary": "提供统一的空状态展示组件。",
+      "tags": [
+        "react-component",
+        "shared-widget",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/commonList/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/widget/commonList/index.less",
+      "summary": "为 widget/commonList 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/commonList/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/widget/commonList/index.tsx",
+      "summary": "提供带查询、分页、加载和空状态处理的通用列表组件。",
+      "tags": [
+        "react-component",
+        "shared-widget",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/widget/commonModal/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/widget/commonModal/index.less",
+      "summary": "为 widget/commonModal 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/commonModal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/widget/commonModal/index.tsx",
+      "summary": "提供统一尺寸、标题和关闭行为的通用弹窗组件。",
+      "tags": [
+        "react-component",
+        "shared-widget",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/widget/confirmModal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/widget/confirmModal/index.tsx",
+      "summary": "提供带确认与取消回调的通用确认弹窗。",
+      "tags": [
+        "react-component",
+        "shared-widget",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "vite.config.ts",
+      "summary": "NGAP 主应用 Vite 配置，控制代理、别名、构建输出、压缩、静态资源占位和开发服务器。",
+      "tags": [
+        "configuration",
+        "vite",
+        "build-system",
+        "development-server"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:vite.config.ts:missingBinaryPlaceholder",
+      "type": "function",
+      "name": "missingBinaryPlaceholder",
+      "filePath": "vite.config.ts",
+      "lineRange": [
+        12,
+        27
+      ],
+      "summary": "missingBinaryPlaceholder 在构建时为缺失二进制资源提供可诊断占位内容。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/utils/useClickLogger.ts",
+      "target": "function:src/utils/useClickLogger.ts:useClickLogger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:vite.config.ts",
+      "target": "function:vite.config.ts:missingBinaryPlaceholder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/widget/commonEmpty/index.tsx",
+      "target": "file:src/widget/commonEmpty/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/widget/commonList/index.tsx",
+      "target": "file:src/widget/commonList/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:vite.config.ts",
+      "target": "file:scripts/get-git-branch.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

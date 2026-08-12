@@ -1,0 +1,299 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "src/components/ApiConfig/ApiConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 215,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/BaseSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/HttpSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/InterceptorModal.tsx",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/ReturnStructure.tsx",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/ReturnTips.tsx",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/ApiConfig/components/SettingModal.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/BulkAction/ActionButtonModal.tsx",
+      "language": "typescript",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/BulkAction/ActionSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "language": "typescript",
+      "sizeLines": 511,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/CreateNodeAction.tsx",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "language": "typescript",
+      "sizeLines": 721,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/FormAction.tsx",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "language": "typescript",
+      "sizeLines": 328,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/components/ApiConfig/ApiConfig.tsx": [
+      "src/components/ApiConfig/components/SettingModal.tsx",
+      "src/components/ApiConfig/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx",
+      "src/stores/apiListStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/ApiConfig/components/BaseSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/components/ApiConfig/components/HttpSetting.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx"
+    ],
+    "src/components/ApiConfig/components/InterceptorModal.tsx": [
+      "src/components/ApiConfig/components/HttpSetting.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/ApiConfig/components/ReturnStructure.tsx": [],
+    "src/components/ApiConfig/components/ReturnTips.tsx": [],
+    "src/components/ApiConfig/components/SettingModal.tsx": [
+      "src/components/ApiConfig/components/BaseSetting.tsx",
+      "src/components/ApiConfig/components/ReturnStructure.tsx",
+      "src/components/ApiConfig/components/ReturnTips.tsx",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/components/BulkAction/ActionButtonModal.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/BulkAction/ActionSetting.tsx": [
+      "src/components/BulkAction/ActionButtonModal.tsx",
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/components/EventConfig/ActionModal/ActionModal.tsx": [
+      "src/components/EventConfig/ActionModal/ClosePopoverAction.tsx",
+      "src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "src/components/EventConfig/ActionModal/CopyAction.tsx",
+      "src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx",
+      "src/components/EventConfig/ActionModal/DestroyPageAction.tsx",
+      "src/components/EventConfig/ActionModal/DisableAction.tsx",
+      "src/components/EventConfig/ActionModal/FormAction.tsx",
+      "src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx",
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/EventConfig/ActionModal/JumpLinkAction.tsx",
+      "src/components/EventConfig/ActionModal/MessageAction.tsx",
+      "src/components/EventConfig/ActionModal/MessageChangeAction.tsx",
+      "src/components/EventConfig/ActionModal/NotificationAction.tsx",
+      "src/components/EventConfig/ActionModal/OpenDrawerAction.tsx",
+      "src/components/EventConfig/ActionModal/OpenModalAction.tsx",
+      "src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "src/components/EventConfig/ActionModal/OpenPopoverAction.tsx",
+      "src/components/EventConfig/ActionModal/ReloadPageAction.tsx",
+      "src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "src/components/EventConfig/ActionModal/SendParams.tsx",
+      "src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/ClosePopoverAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/CopyAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/CreateNodeAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/CrossAPIEventAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/crossAPI.js",
+      "src/utils/ProvinceIdCon.ts",
+      "src/utils/request.ts",
+      "src/utils/useMessageListener.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/components/EventConfig/ActionModal/DestroyPageAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/DisableAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/FormAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/GoldBankCheckAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/stores/crossapiStore.ts"
+    ],
+    "src/components/EventConfig/ActionModal/JumpLinkAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/components/EventConfig/ActionModal/MessageAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/MessageChangeAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/NotificationAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/OpenDrawerAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/OpenModalAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/OpenPopoverAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/ReloadPageAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ]
+  }
+}

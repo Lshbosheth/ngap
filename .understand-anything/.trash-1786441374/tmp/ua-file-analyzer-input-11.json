@@ -1,0 +1,395 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Basic/Timer/Timer.tsx",
+      "language": "typescript",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Title/Title.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Video/Video.tsx",
+      "language": "typescript",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Watermark/Watermark.tsx",
+      "language": "typescript",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Card/Card.tsx",
+      "language": "typescript",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Collapse/Collapse.tsx",
+      "language": "typescript",
+      "sizeLines": 375,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Cycle/Cycle.tsx",
+      "language": "typescript",
+      "sizeLines": 353,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Div/Div.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Flex/Flex.tsx",
+      "language": "typescript",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Form/Form.tsx",
+      "language": "typescript",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/GridForm/GridForm.tsx",
+      "language": "typescript",
+      "sizeLines": 404,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "language": "typescript",
+      "sizeLines": 265,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/BarChart/BarChart.tsx",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "language": "typescript",
+      "sizeLines": 712,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/LineChart/LineChart.tsx",
+      "language": "typescript",
+      "sizeLines": 622,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/MapChart/MapChart.tsx",
+      "language": "typescript",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/PieChart/PieChart.tsx",
+      "language": "typescript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/EChart/chartCalculationUtil.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Drawer/Drawer.tsx",
+      "language": "typescript",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Empty/Empty.tsx",
+      "language": "typescript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Modal/Modal.tsx",
+      "language": "typescript",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Popover/Popover.tsx",
+      "language": "typescript",
+      "sizeLines": 411,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Result/Result.tsx",
+      "language": "typescript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FeedBack/Spin/Spin.tsx",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Cascader/Cascader.tsx",
+      "language": "typescript",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "language": "typescript",
+      "sizeLines": 275,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Counter/Counter.tsx",
+      "language": "typescript",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Basic/Timer/Timer.tsx": [
+      "src/packages/Basic/Timer/index.module.less",
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/Basic/Title/Title.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Video/Video.tsx": [
+      "src/packages/Basic/Video/index.module.less",
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/Basic/Watermark/Watermark.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/Card/Card.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/Container/Card/index.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/Collapse/Collapse.tsx": [
+      "src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "src/packages/Container/Collapse/index.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/CollapseItem/CollapseItem.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/Cycle/Cycle.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Container/Div/Div.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/Flex/Flex.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/Form/Form.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/Container/Form/index.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Container/GridForm/GridForm.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/Container/GridForm/index.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/BarAndLine/BarAndLine.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/BarChart/BarChart.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/ColumnChart/ColumnChart.tsx": [
+      "src/packages/EChart/chartCalculationUtil.ts",
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/LineChart/LineChart.tsx": [
+      "src/packages/EChart/chartCalculationUtil.ts",
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/MapChart/MapChart.tsx": [
+      "src/packages/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/PieChart/PieChart.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/EChart/chartCalculationUtil.ts": [],
+    "src/packages/FeedBack/Drawer/Drawer.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FeedBack/Empty/Empty.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FeedBack/Modal/Modal.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FeedBack/Popover/Popover.tsx": [
+      "src/packages/FeedBack/Popover/index.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FeedBack/Result/Result.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FeedBack/Spin/Spin.tsx": [
+      "src/packages/FeedBack/Spin/index.module.less",
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/FormItems/Cascader/Cascader.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/CheckBox/CheckBox.tsx": [
+      "src/packages/FormItems/CheckBox/index.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/CollapseItem/CollapseItem.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/ColorPicker/ColorPicker.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts"
+    ],
+    "src/packages/FormItems/Counter/Counter.tsx": [
+      "src/packages/FormItems/Counter/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts"
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/EventConfig/EventConfig.tsx",
+      "type": "file",
+      "name": "EventConfig.tsx",
+      "filePath": "src/components/EventConfig/EventConfig.tsx",
+      "summary": "该文件实现元素事件配置面板，管理触发事件、动作列表和动作编辑弹窗。",
+      "tags": [
+        "react-component",
+        "event-config",
+        "action"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/FlowNode/FlowNode.tsx",
+      "type": "file",
+      "name": "FlowNode.tsx",
+      "filePath": "src/components/FlowNode/FlowNode.tsx",
+      "summary": "该文件实现可配置的流程节点组件，维护节点连接、分支条件和节点级数据。",
+      "tags": [
+        "react-component",
+        "flow-node",
+        "workflow",
+        "branch"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/FlowNode/FlowNode.tsx:FlowNode",
+      "type": "function",
+      "name": "FlowNode",
+      "filePath": "src/components/FlowNode/FlowNode.tsx",
+      "lineRange": [
+        20,
+        347
+      ],
+      "summary": "FlowNode 是该文件的核心 React 组件，负责实现可配置的流程节点组件，维护节点连接、分支条件和节点级数据。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "flow-node",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/FlowNode/NodeEdit.tsx",
+      "type": "file",
+      "name": "NodeEdit.tsx",
+      "filePath": "src/components/FlowNode/NodeEdit.tsx",
+      "summary": "该文件提供流程节点基础属性与条件的编辑表单。",
+      "tags": [
+        "react-component",
+        "flow-node",
+        "workflow",
+        "branch"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/FlowNode/NodeEdit.tsx:NodeConfig",
+      "type": "function",
+      "name": "NodeConfig",
+      "filePath": "src/components/FlowNode/NodeEdit.tsx",
+      "lineRange": [
+        3,
+        45
+      ],
+      "summary": "NodeConfig 是该文件的核心 React 组件，负责提供流程节点基础属性与条件的编辑表单。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "flow-node",
+        "workflow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/FlowNode/NodeModal.tsx",
+      "type": "file",
+      "name": "NodeModal.tsx",
+      "filePath": "src/components/FlowNode/NodeModal.tsx",
+      "summary": "该文件在弹窗中承载流程节点配置并回写节点数据。",
+      "tags": [
+        "react-component",
+        "flow-node",
+        "workflow",
+        "branch"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/FlowNode/NodeModal.tsx:NodeModal",
+      "type": "function",
+      "name": "NodeModal",
+      "filePath": "src/components/FlowNode/NodeModal.tsx",
+      "lineRange": [
+        5,
+        86
+      ],
+      "summary": "NodeModal 是该文件的核心 React 组件，负责在弹窗中承载流程节点配置并回写节点数据。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "flow-node",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "type": "file",
+      "name": "CollapseItemSchema.ts",
+      "filePath": "src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "summary": "该文件声明 Collapse 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "type": "file",
+      "name": "CollapseSetting.tsx",
+      "filePath": "src/packages/Container/Collapse/CollapseSetting.tsx",
+      "summary": "该文件配置折叠面板子项的标题、标识和动态增删。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/Collapse/CollapseSetting.tsx:CollapseNameItemForm",
+      "type": "function",
+      "name": "CollapseNameItemForm",
+      "filePath": "src/packages/Container/Collapse/CollapseSetting.tsx",
+      "lineRange": [
+        106,
+        160
+      ],
+      "summary": "CollapseNameItemForm 是该文件的核心 React 组件，负责配置折叠面板子项的标题、标识和动态增删。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Collapse/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Container/Collapse/Schema.tsx",
+      "summary": "该文件声明 Collapse 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Segmented/CollapseItemSchema.ts",
+      "type": "file",
+      "name": "CollapseItemSchema.ts",
+      "filePath": "src/packages/FormItems/Segmented/CollapseItemSchema.ts",
+      "summary": "该文件声明 Segmented 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "type": "file",
+      "name": "CollapseSetting.tsx",
+      "filePath": "src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "summary": "该文件配置折叠面板子项的标题、标识和动态增删。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Segmented/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Segmented/Schema.tsx",
+      "summary": "该文件声明 Segmented 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Tab/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Functional/Tab/Schema.ts",
+      "summary": "该文件声明 Tab 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Tabs/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Functional/Tabs/Schema.tsx",
+      "summary": "该文件声明 Tabs 组件的设计器属性 Schema、默认值和校验规则。",
+      "tags": [
+        "configuration",
+        "schema-definition",
+        "property-panel",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "function:src/components/FlowNode/FlowNode.tsx:FlowNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/FlowNode/NodeEdit.tsx",
+      "target": "function:src/components/FlowNode/NodeEdit.tsx:NodeConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/FlowNode/NodeModal.tsx",
+      "target": "function:src/components/FlowNode/NodeModal.tsx:NodeModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "target": "function:src/packages/Container/Collapse/CollapseSetting.tsx:CollapseNameItemForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/EventConfig.tsx",
+      "target": "file:src/components/EventConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/EventConfig.tsx",
+      "target": "file:src/components/FlowNode/FlowNode.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/EventConfig.tsx",
+      "target": "file:src/components/FlowNode/NodeModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/EventConfig.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "file:src/components/FlowNode/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "file:src/components/FlowNode/NodeEdit.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/FlowNode.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/FlowNode/NodeModal.tsx",
+      "target": "file:src/components/FlowNode/FlowNode.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "target": "file:src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Schema.tsx",
+      "target": "file:src/packages/Container/Collapse/CollapseSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "target": "file:src/packages/FormItems/Segmented/CollapseItemSchema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Segmented/Schema.tsx",
+      "target": "file:src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/Schema.tsx",
+      "target": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

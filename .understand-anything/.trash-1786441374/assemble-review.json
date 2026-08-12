@@ -1,0 +1,15 @@
+{
+  "fixedSectionOk": true,
+  "nodesRecovered": 0,
+  "edgesRestored": 3,
+  "crossBatchEdgesAdded": 0,
+  "typesRemapped": 0,
+  "complexityRemapped": 0,
+  "notes": [
+    "合并输入 2112 个节点、3246 条边，输出 2112 个节点、3216 条边；没有 ID、类型或复杂度修正，固定项结果合理。",
+    "已使用 scan-result.json 的全部 1208 项 importMap，核对 1728 条内部导入关系；恢复后无缺口。",
+    "恢复了 3 条导入边，目标使用图中既有 config 节点：EChart MapChart、appEffectBoard china-map、applicationDashboard 地图 JSON。",
+    "未为 24 条 usePageStore selector 调用虚构 function:materials/stores/pageStore.ts:usePageStore 节点；该符号在图中不是独立显式函数节点。",
+    "未为 apiListInfo 与 crossApiUserInfo 的 3 条 store 字段调用虚构函数节点；这些 selector 目标不是显式函数声明。"
+  ]
+}

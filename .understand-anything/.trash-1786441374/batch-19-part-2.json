@@ -1,0 +1,1310 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "type": "file",
+      "name": "TabSetting.tsx",
+      "filePath": "src/packages/Functional/Tabs/TabSetting.tsx",
+      "summary": "该文件配置标签页子项的标题、标识和动态增删。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Functional/Tabs/TabSetting.tsx:TabNameItemForm",
+      "type": "function",
+      "name": "TabNameItemForm",
+      "filePath": "src/packages/Functional/Tabs/TabSetting.tsx",
+      "lineRange": [
+        135,
+        193
+      ],
+      "summary": "TabNameItemForm 是该文件的核心 React 组件，负责配置标签页子项的标题、标识和动态增删。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "summary": "该文件嵌入应用告警管理页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/ApplicationRunPage/applicationAlert/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "lineRange": [
+        7,
+        28
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责嵌入应用告警管理页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "summary": "该文件嵌入应用运行日志页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/ApplicationRunPage/applicationLog/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "lineRange": [
+        7,
+        28
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责嵌入应用运行日志页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "summary": "该文件嵌入应用监控页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "lineRange": [
+        7,
+        28
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责嵌入应用监控页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "summary": "该文件嵌入应用限流规则配置页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "lineRange": [
+        7,
+        28
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责嵌入应用限流规则配置页面并透传当前应用上下文。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-runtime",
+        "micro-frontend"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/bar-chart/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/appEffectBoard/bar-chart/index.tsx",
+      "summary": "该文件渲染应用效果看板中的单系列柱状图。",
+      "tags": [
+        "react-component",
+        "analytics-dashboard",
+        "visualization",
+        "application-metrics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/appEffectBoard/bar-chart/index.tsx:SingleBarChart",
+      "type": "function",
+      "name": "SingleBarChart",
+      "filePath": "src/pages/appEffectBoard/bar-chart/index.tsx",
+      "lineRange": [
+        11,
+        71
+      ],
+      "summary": "SingleBarChart 是该文件的核心 React 组件，负责渲染应用效果看板中的单系列柱状图。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "analytics-dashboard",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/china-map/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/appEffectBoard/china-map/index.tsx",
+      "summary": "该文件渲染中国地图热力分布并响应区域选择。",
+      "tags": [
+        "react-component",
+        "analytics-dashboard",
+        "visualization",
+        "application-metrics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/appEffectBoard/china-map/index.tsx:ChinaHeatMap",
+      "type": "function",
+      "name": "ChinaHeatMap",
+      "filePath": "src/pages/appEffectBoard/china-map/index.tsx",
+      "lineRange": [
+        33,
+        225
+      ],
+      "summary": "ChinaHeatMap 是该文件的核心 React 组件，负责渲染中国地图热力分布并响应区域选择。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "analytics-dashboard",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/appEffectBoard/index.tsx",
+      "summary": "该文件实现应用效果分析看板，组织指标、趋势、地域分布和筛选查询。",
+      "tags": [
+        "react-component",
+        "analytics-dashboard",
+        "visualization",
+        "application-metrics"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂状态和异步交互；包含较多画布、流程或数据可视化分支，属于核心高复杂度模块。"
+    },
+    {
+      "id": "function:src/pages/appEffectBoard/index.tsx:AppEffectBoard",
+      "type": "function",
+      "name": "AppEffectBoard",
+      "filePath": "src/pages/appEffectBoard/index.tsx",
+      "lineRange": [
+        27,
+        723
+      ],
+      "summary": "AppEffectBoard 是该文件的核心 React 组件，负责实现应用效果分析看板，组织指标、趋势、地域分布和筛选查询。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "analytics-dashboard",
+        "visualization"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/params.tsx",
+      "type": "file",
+      "name": "params.tsx",
+      "filePath": "src/pages/appEffectBoard/params.tsx",
+      "summary": "该文件定义应用效果看板的表格列、应用类型选项和展示参数。",
+      "tags": [
+        "react-component",
+        "analytics-dashboard",
+        "visualization",
+        "application-metrics"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/appEffectBoard/params.tsx:getColumns",
+      "type": "function",
+      "name": "getColumns",
+      "filePath": "src/pages/appEffectBoard/params.tsx",
+      "lineRange": [
+        13,
+        218
+      ],
+      "summary": "getColumns 生成应用效果明细表的列配置和渲染规则。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/ring-chart/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/appEffectBoard/ring-chart/index.tsx",
+      "summary": "该文件渲染应用效果看板中的环形进度指标。",
+      "tags": [
+        "react-component",
+        "analytics-dashboard",
+        "visualization",
+        "application-metrics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/appEffectBoard/ring-chart/index.tsx:RingProgressChart",
+      "type": "function",
+      "name": "RingProgressChart",
+      "filePath": "src/pages/appEffectBoard/ring-chart/index.tsx",
+      "lineRange": [
+        11,
+        75
+      ],
+      "summary": "RingProgressChart 是该文件的核心 React 组件，负责渲染应用效果看板中的环形进度指标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "analytics-dashboard",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/utils/ChromeVersionLow.tsx",
+      "type": "file",
+      "name": "ChromeVersionLow.tsx",
+      "filePath": "src/utils/ChromeVersionLow.tsx",
+      "summary": "该文件展示浏览器版本过低提示并引导用户升级。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/ChromeVersionLow.tsx:ChromeVersionLow",
+      "type": "function",
+      "name": "ChromeVersionLow",
+      "filePath": "src/utils/ChromeVersionLow.tsx",
+      "lineRange": [
+        4,
+        17
+      ],
+      "summary": "ChromeVersionLow 是该文件的核心 React 组件，负责展示浏览器版本过低提示并引导用户升级。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/util.ts",
+      "type": "file",
+      "name": "util.ts",
+      "filePath": "src/utils/util.ts",
+      "summary": "该文件集中提供 ID、样式、画布节点、接口参数、URL、签名、文件和浏览器检测等通用工具。",
+      "tags": [
+        "utility",
+        "canvas-data",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/util.ts:createId",
+      "type": "function",
+      "name": "createId",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        11,
+        19
+      ],
+      "summary": "createId 基于时间戳生成轻量唯一标识。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:generateUUID",
+      "type": "function",
+      "name": "generateUUID",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        25,
+        37
+      ],
+      "summary": "generateUUID 生成标准格式的随机 UUID。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getElement",
+      "type": "function",
+      "name": "getElement",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        45,
+        57
+      ],
+      "summary": "getElement 根据元素 ID 在画布元素树中递归查找节点。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:parseStyle",
+      "type": "function",
+      "name": "parseStyle",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        62,
+        82
+      ],
+      "summary": "parseStyle 把元素样式配置转换为可应用的 CSS 属性对象。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getBoundingClientRect",
+      "type": "function",
+      "name": "getBoundingClientRect",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        88,
+        109
+      ],
+      "summary": "getBoundingClientRect 计算元素在画布缩放和偏移后的边界信息。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        117,
+        119
+      ],
+      "summary": "formatDate 把时间值格式化为统一日期文本。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:arrayToTree",
+      "type": "function",
+      "name": "arrayToTree",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        122,
+        143
+      ],
+      "summary": "arrayToTree 把带父子标识的扁平数组转换为树结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:loadScript",
+      "type": "function",
+      "name": "loadScript",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        150,
+        160
+      ],
+      "summary": "loadScript 动态加载外部脚本并返回加载结果。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:findParentTypesById",
+      "type": "function",
+      "name": "findParentTypesById",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        168,
+        177
+      ],
+      "summary": "findParentTypesById 沿画布树查找指定元素的祖先组件类型。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:checkComponentType",
+      "type": "function",
+      "name": "checkComponentType",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        183,
+        198
+      ],
+      "summary": "checkComponentType 判断元素是否属于给定组件类型集合。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:checkHasBottomBannerSimple",
+      "type": "function",
+      "name": "checkHasBottomBannerSimple",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        203,
+        206
+      ],
+      "summary": "checkHasBottomBannerSimple 判断页面结构中是否包含底部栏组件。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:saveFile",
+      "type": "function",
+      "name": "saveFile",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        212,
+        241
+      ],
+      "summary": "saveFile 把字符串或二进制内容保存为浏览器下载文件。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:findNodeIndexAndParent",
+      "type": "function",
+      "name": "findNodeIndexAndParent",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        254,
+        275
+      ],
+      "summary": "findNodeIndexAndParent 递归定位画布节点的索引及父节点。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:baseApiConvert",
+      "type": "function",
+      "name": "baseApiConvert",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        281,
+        312
+      ],
+      "summary": "baseApiConvert 把基础接口配置转换为运行时请求结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getUrlParams",
+      "type": "function",
+      "name": "getUrlParams",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        319,
+        347
+      ],
+      "summary": "getUrlParams 解析当前 URL 查询参数并生成键值对象。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getUrlParam",
+      "type": "function",
+      "name": "getUrlParam",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        355,
+        358
+      ],
+      "summary": "getUrlParam 读取指定名称的 URL 查询参数。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:isEmpty",
+      "type": "function",
+      "name": "isEmpty",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        360,
+        362
+      ],
+      "summary": "isEmpty 判断值是否为空或缺少有效内容。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getValue",
+      "type": "function",
+      "name": "getValue",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        364,
+        366
+      ],
+      "summary": "getValue 从对象中安全读取配置值。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:generateSign",
+      "type": "function",
+      "name": "generateSign",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        373,
+        386
+      ],
+      "summary": "generateSign 按平台约定生成接口请求签名。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getKey",
+      "type": "function",
+      "name": "getKey",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        388,
+        398
+      ],
+      "summary": "getKey 生成平台请求或缓存使用的稳定键。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:isTest",
+      "type": "function",
+      "name": "isTest",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        400,
+        402
+      ],
+      "summary": "isTest 判断当前环境是否属于测试模式。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:formatSize",
+      "type": "function",
+      "name": "formatSize",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        404,
+        414
+      ],
+      "summary": "formatSize 把字节数格式化为可读文件大小。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/util.ts:getChromeVersion",
+      "type": "function",
+      "name": "getChromeVersion",
+      "filePath": "src/utils/util.ts",
+      "lineRange": [
+        417,
+        457
+      ],
+      "summary": "getChromeVersion 识别当前 Chrome 主版本并判断兼容性。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "target": "function:src/packages/Functional/Tabs/TabSetting.tsx:TabNameItemForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "target": "function:src/pages/ApplicationRunPage/applicationAlert/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "target": "function:src/pages/ApplicationRunPage/applicationLog/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "target": "function:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "target": "function:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/bar-chart/index.tsx",
+      "target": "function:src/pages/appEffectBoard/bar-chart/index.tsx:SingleBarChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/china-map/index.tsx",
+      "target": "function:src/pages/appEffectBoard/china-map/index.tsx:ChinaHeatMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "function:src/pages/appEffectBoard/index.tsx:AppEffectBoard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/params.tsx",
+      "target": "function:src/pages/appEffectBoard/params.tsx:getColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/params.tsx",
+      "target": "function:src/pages/appEffectBoard/params.tsx:getColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/ring-chart/index.tsx",
+      "target": "function:src/pages/appEffectBoard/ring-chart/index.tsx:RingProgressChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/ChromeVersionLow.tsx",
+      "target": "function:src/utils/ChromeVersionLow.tsx:ChromeVersionLow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:createId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:createId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:generateUUID",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:generateUUID",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getElement",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:parseStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:parseStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getBoundingClientRect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getBoundingClientRect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:formatDate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:arrayToTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:arrayToTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:loadScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:loadScript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:findParentTypesById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:checkComponentType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:checkComponentType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:checkHasBottomBannerSimple",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:checkHasBottomBannerSimple",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:saveFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:saveFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:findNodeIndexAndParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:findNodeIndexAndParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:baseApiConvert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:baseApiConvert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getUrlParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getUrlParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getUrlParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getUrlParam",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:isEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:isEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:generateSign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:generateSign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:isTest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:isTest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:formatSize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:formatSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getChromeVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "function:src/utils/util.ts:getChromeVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "target": "file:src/packages/Functional/Tab/Schema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Tabs/TabSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "target": "file:src/pages/ApplicationRunPage/applicationAlert/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "target": "file:src/pages/ApplicationRunPage/applicationLog/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "target": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "target": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/china-map/index.tsx",
+      "target": "file:src/pages/appEffectBoard/china-map/china.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/china-map/index.tsx",
+      "target": "file:src/pages/appEffectBoard/china-map/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/pages/appEffectBoard/bar-chart/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/pages/appEffectBoard/china-map/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/pages/appEffectBoard/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/pages/appEffectBoard/params.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/pages/appEffectBoard/ring-chart/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/appEffectBoard/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/ChromeVersionLow.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "file:src/config/components.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/util.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

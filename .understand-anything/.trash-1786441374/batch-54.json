@@ -1,0 +1,726 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/Workbench/dataIndicator/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/Workbench/dataIndicator/index.less",
+      "summary": "为 pages/Workbench/dataIndicator 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/dataIndicator/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/Workbench/dataIndicator/index.tsx",
+      "summary": "展示工作台关键数据指标和统计摘要。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/Workbench/dataIndicator/index.tsx:DataIndicator",
+      "type": "function",
+      "name": "DataIndicator",
+      "filePath": "src/pages/Workbench/dataIndicator/index.tsx",
+      "lineRange": [
+        13,
+        158
+      ],
+      "summary": "DataIndicator 加载并展示工作台数据指标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/dataIndicator/item.tsx",
+      "type": "file",
+      "name": "item.tsx",
+      "filePath": "src/pages/Workbench/dataIndicator/item.tsx",
+      "summary": "渲染单个工作台数据指标。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/freUse/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/Workbench/freUse/index.less",
+      "summary": "为 pages/Workbench/freUse 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/freUse/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/Workbench/freUse/index.tsx",
+      "summary": "展示工作台常用功能快捷入口。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/Workbench/freUse/index.tsx:FreUse",
+      "type": "function",
+      "name": "FreUse",
+      "filePath": "src/pages/Workbench/freUse/index.tsx",
+      "lineRange": [
+        6,
+        21
+      ],
+      "summary": "FreUse 展示常用功能入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/freUse/Item.tsx",
+      "type": "file",
+      "name": "Item.tsx",
+      "filePath": "src/pages/Workbench/freUse/Item.tsx",
+      "summary": "渲染常用功能的单个快捷入口。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/Workbench/freUse/Item.tsx:Item",
+      "type": "function",
+      "name": "Item",
+      "filePath": "src/pages/Workbench/freUse/Item.tsx",
+      "lineRange": [
+        12,
+        63
+      ],
+      "summary": "Item 渲染所属列表中的单个业务项。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/Workbench/index.less",
+      "summary": "为 pages/Workbench 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/Workbench/index.module.less",
+      "summary": "为 pages/Workbench 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/warnNotice/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/Workbench/warnNotice/index.less",
+      "summary": "为 pages/Workbench/warnNotice 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/warnNotice/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/Workbench/warnNotice/index.tsx",
+      "summary": "展示工作台告警通知摘要。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/Workbench/warnNotice/index.tsx:WarnNotice",
+      "type": "function",
+      "name": "WarnNotice",
+      "filePath": "src/pages/Workbench/warnNotice/index.tsx",
+      "lineRange": [
+        4,
+        17
+      ],
+      "summary": "WarnNotice 展示告警通知摘要。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/appTypeListStore.ts",
+      "type": "file",
+      "name": "appTypeListStore.ts",
+      "filePath": "src/stores/appTypeListStore.ts",
+      "summary": "使用 Zustand 保存应用类型列表及其更新方法。",
+      "tags": [
+        "state-management",
+        "zustand",
+        "application-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/businessCategoryStore.ts",
+      "type": "file",
+      "name": "businessCategoryStore.ts",
+      "filePath": "src/stores/businessCategoryStore.ts",
+      "summary": "使用 Zustand 保存业务组件分类列表及其更新方法。",
+      "tags": [
+        "state-management",
+        "zustand",
+        "application-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/businessComponentStore.ts",
+      "type": "file",
+      "name": "businessComponentStore.ts",
+      "filePath": "src/stores/businessComponentStore.ts",
+      "summary": "使用 Zustand 保存业务组件相关用户或选择状态。",
+      "tags": [
+        "state-management",
+        "zustand",
+        "application-data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/stores/crossApiListStore.ts",
+      "type": "file",
+      "name": "crossApiListStore.ts",
+      "filePath": "src/stores/crossApiListStore.ts",
+      "summary": "使用 Zustand 保存跨应用接口列表及加载状态。",
+      "tags": [
+        "state-management",
+        "zustand",
+        "application-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/stores/processCanvasStore.ts",
+      "type": "file",
+      "name": "processCanvasStore.ts",
+      "filePath": "src/stores/processCanvasStore.ts",
+      "summary": "引导式流程画布的核心 Zustand Store，集中维护流程节点、连线、选中状态、节点页面数据和画布操作。",
+      "tags": [
+        "state-management",
+        "zustand",
+        "guided-process"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 Zustand 与 Immer 管理大型可变流程状态，并同时维护流程节点数据和页面元素映射。"
+    },
+    {
+      "id": "file:src/styles/antd-compat-chrome8x.css",
+      "type": "file",
+      "name": "antd-compat-chrome8x.css",
+      "filePath": "src/styles/antd-compat-chrome8x.css",
+      "summary": "为旧版 Chrome 8x 提供 Ant Design 组件样式兼容覆盖。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/types/global.d.ts",
+      "type": "file",
+      "name": "global.d.ts",
+      "filePath": "src/types/global.d.ts",
+      "summary": "声明主应用使用的全局变量和第三方模块类型。",
+      "tags": [
+        "type-definition",
+        "typescript",
+        "global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/typings.d.ts",
+      "type": "file",
+      "name": "typings.d.ts",
+      "filePath": "src/typings.d.ts",
+      "summary": "补充静态资源和缺少类型声明的模块定义。",
+      "tags": [
+        "type-definition",
+        "typescript",
+        "global"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/canvas.ts",
+      "type": "file",
+      "name": "canvas.ts",
+      "filePath": "src/utils/canvas.ts",
+      "summary": "初始化星空背景 Canvas 动画并管理粒子、连线和窗口尺寸变化。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/utils/canvas.ts:initStarCanvas",
+      "type": "function",
+      "name": "initStarCanvas",
+      "filePath": "src/utils/canvas.ts",
+      "lineRange": [
+        4,
+        322
+      ],
+      "summary": "initStarCanvas 初始化并驱动星空粒子 Canvas 动画。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/utils/cmos-full-es5-H5-5.1.0.js",
+      "type": "file",
+      "name": "cmos-full-es5-H5-5.1.0.js",
+      "filePath": "src/utils/cmos-full-es5-H5-5.1.0.js",
+      "summary": "CMOS H5 能力的预构建 ES5 第三方运行时包。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件为压缩或打包后的第三方 ES5 兼容产物，应通过上游版本整体升级，避免手工修改。"
+    },
+    {
+      "id": "file:src/utils/commonGdp.tsx",
+      "type": "file",
+      "name": "commonGdp.tsx",
+      "filePath": "src/utils/commonGdp.tsx",
+      "summary": "初始化埋点 SDK 并上报用户点击行为。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/commonGdp.tsx:initChama",
+      "type": "function",
+      "name": "initChama",
+      "filePath": "src/utils/commonGdp.tsx",
+      "lineRange": [
+        6,
+        46
+      ],
+      "summary": "initChama 初始化平台埋点 SDK。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/commonGdp.tsx:trackClk",
+      "type": "function",
+      "name": "trackClk",
+      "filePath": "src/utils/commonGdp.tsx",
+      "lineRange": [
+        49,
+        70
+      ],
+      "summary": "trackClk 上报点击埋点事件。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/crossAPI.d.ts",
+      "type": "file",
+      "name": "crossAPI.d.ts",
+      "filePath": "src/utils/crossAPI.d.ts",
+      "summary": "声明跨应用通信 SDK 的全局对象、消息和调用接口类型。",
+      "tags": [
+        "type-definition",
+        "platform-api",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/utils/dealApiData.ts",
+      "type": "file",
+      "name": "dealApiData.ts",
+      "filePath": "src/utils/dealApiData.ts",
+      "summary": "递归转换接口定义树，规范化目录和接口节点供选择控件使用。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/dealApiData.ts:dealApiData",
+      "type": "function",
+      "name": "dealApiData",
+      "filePath": "src/utils/dealApiData.ts",
+      "lineRange": [
+        4,
+        19
+      ],
+      "summary": "dealApiData 规范化接口目录树。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/dealApiData.ts:dealChildren",
+      "type": "function",
+      "name": "dealChildren",
+      "filePath": "src/utils/dealApiData.ts",
+      "lineRange": [
+        20,
+        38
+      ],
+      "summary": "dealChildren 递归转换接口子节点。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/file.ts",
+      "type": "file",
+      "name": "file.ts",
+      "filePath": "src/utils/file.ts",
+      "summary": "提供 Base64、Blob 和 File 之间的浏览器端转换工具。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/file.ts:base64ToBlob",
+      "type": "function",
+      "name": "base64ToBlob",
+      "filePath": "src/utils/file.ts",
+      "lineRange": [
+        6,
+        32
+      ],
+      "summary": "base64ToBlob 把 Base64 内容转换为 Blob。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/file.ts:blobToFile",
+      "type": "function",
+      "name": "blobToFile",
+      "filePath": "src/utils/file.ts",
+      "lineRange": [
+        40,
+        43
+      ],
+      "summary": "blobToFile 把 Blob 包装为 File。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/snapshot.ts",
+      "type": "file",
+      "name": "snapshot.ts",
+      "filePath": "src/utils/snapshot.ts",
+      "summary": "实现 DOM 或画布目标的截图生成、下载和图片数据导出。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/snapshot.ts:Snapshot",
+      "type": "function",
+      "name": "Snapshot",
+      "filePath": "src/utils/snapshot.ts",
+      "lineRange": [
+        24,
+        202
+      ],
+      "summary": "Snapshot 创建目标快照并提供导出能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "data-transform"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/Workbench/dataIndicator/index.tsx",
+      "target": "function:src/pages/Workbench/dataIndicator/index.tsx:DataIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/freUse/index.tsx",
+      "target": "function:src/pages/Workbench/freUse/index.tsx:FreUse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/freUse/Item.tsx",
+      "target": "function:src/pages/Workbench/freUse/Item.tsx:Item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/warnNotice/index.tsx",
+      "target": "function:src/pages/Workbench/warnNotice/index.tsx:WarnNotice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/canvas.ts",
+      "target": "function:src/utils/canvas.ts:initStarCanvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/canvas.ts",
+      "target": "function:src/utils/canvas.ts:initStarCanvas",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/commonGdp.tsx",
+      "target": "function:src/utils/commonGdp.tsx:initChama",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/commonGdp.tsx",
+      "target": "function:src/utils/commonGdp.tsx:initChama",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/commonGdp.tsx",
+      "target": "function:src/utils/commonGdp.tsx:trackClk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/commonGdp.tsx",
+      "target": "function:src/utils/commonGdp.tsx:trackClk",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/dealApiData.ts",
+      "target": "function:src/utils/dealApiData.ts:dealApiData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dealApiData.ts",
+      "target": "function:src/utils/dealApiData.ts:dealApiData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/dealApiData.ts",
+      "target": "function:src/utils/dealApiData.ts:dealChildren",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/file.ts",
+      "target": "function:src/utils/file.ts:base64ToBlob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/file.ts",
+      "target": "function:src/utils/file.ts:base64ToBlob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/file.ts",
+      "target": "function:src/utils/file.ts:blobToFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/file.ts",
+      "target": "function:src/utils/file.ts:blobToFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/snapshot.ts",
+      "target": "function:src/utils/snapshot.ts:Snapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/snapshot.ts",
+      "target": "function:src/utils/snapshot.ts:Snapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/Workbench/dataIndicator/index.tsx",
+      "target": "file:src/pages/Workbench/dataIndicator/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/dataIndicator/index.tsx",
+      "target": "file:src/pages/Workbench/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/freUse/index.tsx",
+      "target": "file:src/pages/Workbench/freUse/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/freUse/index.tsx",
+      "target": "file:src/pages/Workbench/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/freUse/Item.tsx",
+      "target": "file:src/pages/Workbench/freUse/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/warnNotice/index.tsx",
+      "target": "file:src/pages/Workbench/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/warnNotice/index.tsx",
+      "target": "file:src/pages/Workbench/warnNotice/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/commonGdp.tsx",
+      "target": "file:src/utils/cmos-full-es5-H5-5.1.0.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

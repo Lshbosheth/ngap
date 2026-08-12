@@ -1,0 +1,837 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/FormItems/Slider/Slider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "MInput",
+          "startLine": 21,
+          "endLine": 80,
+          "params": [
+            "{ id, type, config, onChange, onBlur }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MInput",
+          "callee": "useFormContext",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "MInput",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MInput",
+          "callee": "useAppContext",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MInput",
+          "callee": "pageStore",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MInput",
+          "callee": "useEffect",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MInput",
+          "callee": "setElementAlias",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MInput",
+          "callee": "useEffect",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MInput",
+          "callee": "initValues",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MInput",
+          "callee": "useEffect",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MInput",
+          "callee": "setDisabled",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 49
+        },
+        {
+          "caller": "MInput",
+          "callee": "useImperativeHandle",
+          "lineNumber": 54
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 57
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 60
+        },
+        {
+          "caller": "enable",
+          "callee": "setDisabled",
+          "lineNumber": 63
+        },
+        {
+          "caller": "disable",
+          "callee": "setDisabled",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MInput",
+          "callee": "setMStyle",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MInput",
+          "callee": "handleChange",
+          "lineNumber": 76
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Switch/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 89,
+      "nonEmptyLines": 89,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 154,
+      "nonEmptyLines": 129,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/TreeSelect/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 253,
+      "nonEmptyLines": 213,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Functional/Button/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 129,
+      "nonEmptyLines": 129,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Functional/List/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Functional/List/List.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 167,
+      "nonEmptyLines": 158,
+      "functions": [
+        {
+          "name": "MList",
+          "startLine": 54,
+          "endLine": 166,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MList",
+          "callee": "useState",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MList",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "MList",
+          "callee": "useRef",
+          "lineNumber": 57
+        },
+        {
+          "caller": "MList",
+          "callee": "useState",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MList",
+          "callee": "useAppContext",
+          "lineNumber": 59
+        },
+        {
+          "caller": "MList",
+          "callee": "pageStore",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MList",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 62
+        },
+        {
+          "caller": "MList",
+          "callee": "getDictionary",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MList",
+          "callee": "getDataList",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MList",
+          "callee": "getDataList",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MList",
+          "callee": "pageStore",
+          "lineNumber": 74
+        },
+        {
+          "caller": "MList",
+          "callee": "useEffect",
+          "lineNumber": 75
+        },
+        {
+          "caller": "MList",
+          "callee": "setElementAlias",
+          "lineNumber": 76
+        },
+        {
+          "caller": "dealData",
+          "callee": "isEmpty",
+          "lineNumber": 80
+        },
+        {
+          "caller": "dealData",
+          "callee": "Math.max",
+          "lineNumber": 83
+        },
+        {
+          "caller": "dealData",
+          "callee": "keys.map",
+          "lineNumber": 83
+        },
+        {
+          "caller": "dealData",
+          "callee": "Array.from",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MList",
+          "callee": "useRef",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MList",
+          "callee": "useEffect",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MList",
+          "callee": "setData",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MList",
+          "callee": "dealData",
+          "lineNumber": 95
+        },
+        {
+          "caller": "MList",
+          "callee": "debounce",
+          "lineNumber": 98
+        },
+        {
+          "caller": "MList",
+          "callee": "isEmpty",
+          "lineNumber": 100
+        },
+        {
+          "caller": "MList",
+          "callee": "handleApi(config.api, params, _state).then",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MList",
+          "callee": "handleApi",
+          "lineNumber": 101
+        },
+        {
+          "caller": "MList",
+          "callee": "isNotEmpty",
+          "lineNumber": 103
+        },
+        {
+          "caller": "MList",
+          "callee": "Object.fromEntries",
+          "lineNumber": 106
+        },
+        {
+          "caller": "MList",
+          "callee": "Object.entries(res.data).map",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MList",
+          "callee": "Object.entries",
+          "lineNumber": 107
+        },
+        {
+          "caller": "MList",
+          "callee": "setData",
+          "lineNumber": 114
+        },
+        {
+          "caller": "MList",
+          "callee": "dealData",
+          "lineNumber": 114
+        },
+        {
+          "caller": "MList",
+          "callee": "setData",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MList",
+          "callee": "console.error",
+          "lineNumber": 117
+        },
+        {
+          "caller": "MList",
+          "callee": "useWatchVariable",
+          "lineNumber": 124
+        },
+        {
+          "caller": "MList",
+          "callee": "useImperativeHandle",
+          "lineNumber": 130
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 133
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 136
+        },
+        {
+          "caller": "MList",
+          "callee": "getDataList",
+          "lineNumber": 139
+        },
+        {
+          "caller": "MList",
+          "callee": "setMStyle",
+          "lineNumber": 142
+        },
+        {
+          "caller": "MList",
+          "callee": "useRenderItem",
+          "lineNumber": 147
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Functional/List/useRenderItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 95,
+      "nonEmptyLines": 87,
+      "functions": [
+        {
+          "name": "MemoizedListItem",
+          "startLine": 21,
+          "endLine": 91,
+          "params": [
+            "props"
+          ]
+        },
+        {
+          "name": "useRenderItem",
+          "startLine": 93,
+          "endLine": 95,
+          "params": [
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useRenderItem",
+          "line": 93,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MemoizedListItem",
+          "callee": "useAppContext",
+          "lineNumber": 23
+        },
+        {
+          "caller": "handleContent",
+          "callee": "formatNumber",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handleContent",
+          "callee": "formatNumber",
+          "lineNumber": 31
+        },
+        {
+          "caller": "handleContent",
+          "callee": "formatDate",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleContent",
+          "callee": "formatDate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleContent",
+          "callee": "Array.isArray",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleContent",
+          "callee": "content.map",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleContent",
+          "callee": "content?.toString",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 46
+        },
+        {
+          "caller": "handleActions",
+          "callee": "config.props.bulkActionList?.map",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleActions",
+          "callee": "React.createElement",
+          "lineNumber": 50
+        },
+        {
+          "caller": "handleActions",
+          "callee": "handleOperate",
+          "lineNumber": 52
+        },
+        {
+          "caller": "renderAvatarOrIcon",
+          "callee": "React.createElement",
+          "lineNumber": 67
+        },
+        {
+          "caller": "renderContent",
+          "callee": "handleContent",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MemoizedListItem",
+          "callee": "handleActions",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MemoizedListItem",
+          "callee": "renderAvatarOrIcon",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MemoizedListItem",
+          "callee": "renderTitle",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MemoizedListItem",
+          "callee": "renderDesc",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MemoizedListItem",
+          "callee": "renderContent",
+          "lineNumber": 88
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Functional/Tabs/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 59,
+      "nonEmptyLines": 52,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Layout/BottomBanner/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 27,
+      "nonEmptyLines": 27,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Layout/BottomBanner/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Layout/Col/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 57,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Layout/Divider/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 81,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Layout/Row/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 70,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Layout/Span/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 44,
+      "nonEmptyLines": 43,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Layout/Span/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/NgapRender/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Other/IFrame/iFramecss.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 87,
+      "nonEmptyLines": 83,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Page/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 42,
+      "nonEmptyLines": 42,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Page/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 49,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/utils/useWatchVariable.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "useWatchVariable",
+          "startLine": 12,
+          "endLine": 36,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useWatchVariable",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useWatchVariable",
+          "callee": "useRef",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "isNil",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variableValue?.includes",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "Object.entries",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variablePrefix.includes",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variableEntries.some",
+          "lineNumber": 22
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "Object.entries",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "formEntries.some",
+          "lineNumber": 24
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variableValue?.includes",
+          "lineNumber": 24
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "isEqual",
+          "lineNumber": 24
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variableEntries.some",
+          "lineNumber": 27
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "variableValue?.includes",
+          "lineNumber": 27
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "isEqual",
+          "lineNumber": 27
+        },
+        {
+          "caller": "useWatchVariable",
+          "callee": "callback",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/appEffectBoard/bar-chart/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/appEffectBoard/china-map/china.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 103310,
+      "nonEmptyLines": 103310,
+      "sections": [
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "features",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

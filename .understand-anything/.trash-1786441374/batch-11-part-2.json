@@ -1,0 +1,967 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "type": "file",
+      "name": "ColumnChart.tsx",
+      "filePath": "src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "summary": "该文件基于 ECharts 渲染 ColumnChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "type": "function",
+      "name": "ColumnChart",
+      "filePath": "src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "lineRange": [
+        36,
+        711
+      ],
+      "summary": "ColumnChart 是该文件的核心 React 组件，负责基于 ECharts 渲染 ColumnChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "type": "file",
+      "name": "LineChart.tsx",
+      "filePath": "src/packages/EChart/LineChart/LineChart.tsx",
+      "summary": "该文件基于 ECharts 渲染 LineChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/EChart/LineChart/LineChart.tsx:LineChart",
+      "type": "function",
+      "name": "LineChart",
+      "filePath": "src/packages/EChart/LineChart/LineChart.tsx",
+      "lineRange": [
+        36,
+        621
+      ],
+      "summary": "LineChart 是该文件的核心 React 组件，负责基于 ECharts 渲染 LineChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "type": "file",
+      "name": "MapChart.tsx",
+      "filePath": "src/packages/EChart/MapChart/MapChart.tsx",
+      "summary": "该文件基于 ECharts 渲染 MapChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/EChart/MapChart/MapChart.tsx:MapChart",
+      "type": "function",
+      "name": "MapChart",
+      "filePath": "src/packages/EChart/MapChart/MapChart.tsx",
+      "lineRange": [
+        26,
+        182
+      ],
+      "summary": "MapChart 是该文件的核心 React 组件，负责基于 ECharts 渲染 MapChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/EChart/PieChart/PieChart.tsx",
+      "type": "file",
+      "name": "PieChart.tsx",
+      "filePath": "src/packages/EChart/PieChart/PieChart.tsx",
+      "summary": "该文件基于 ECharts 渲染 PieChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/EChart/PieChart/PieChart.tsx:PieChart",
+      "type": "function",
+      "name": "PieChart",
+      "filePath": "src/packages/EChart/PieChart/PieChart.tsx",
+      "lineRange": [
+        27,
+        159
+      ],
+      "summary": "PieChart 是该文件的核心 React 组件，负责基于 ECharts 渲染 PieChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "type": "file",
+      "name": "Drawer.tsx",
+      "filePath": "src/packages/FeedBack/Drawer/Drawer.tsx",
+      "summary": "该文件封装 Drawer 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Empty/Empty.tsx",
+      "type": "file",
+      "name": "Empty.tsx",
+      "filePath": "src/packages/FeedBack/Empty/Empty.tsx",
+      "summary": "该文件封装 Empty 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FeedBack/Empty/Empty.tsx:MEmpty",
+      "type": "function",
+      "name": "MEmpty",
+      "filePath": "src/packages/FeedBack/Empty/Empty.tsx",
+      "lineRange": [
+        18,
+        54
+      ],
+      "summary": "MEmpty 是该文件的核心 React 组件，负责封装 Empty 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "feedback",
+        "antd"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "type": "file",
+      "name": "Modal.tsx",
+      "filePath": "src/packages/FeedBack/Modal/Modal.tsx",
+      "summary": "该文件封装 Modal 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "type": "file",
+      "name": "Popover.tsx",
+      "filePath": "src/packages/FeedBack/Popover/Popover.tsx",
+      "summary": "该文件封装 Popover 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Result/Result.tsx",
+      "type": "file",
+      "name": "Result.tsx",
+      "filePath": "src/packages/FeedBack/Result/Result.tsx",
+      "summary": "该文件封装 Result 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FeedBack/Result/Result.tsx:MResult",
+      "type": "function",
+      "name": "MResult",
+      "filePath": "src/packages/FeedBack/Result/Result.tsx",
+      "lineRange": [
+        31,
+        111
+      ],
+      "summary": "MResult 是该文件的核心 React 组件，负责封装 Result 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "feedback",
+        "antd"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Spin/Spin.tsx",
+      "type": "file",
+      "name": "Spin.tsx",
+      "filePath": "src/packages/FeedBack/Spin/Spin.tsx",
+      "summary": "该文件封装 Spin 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "feedback",
+        "antd",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FeedBack/Spin/Spin.tsx:MSpin",
+      "type": "function",
+      "name": "MSpin",
+      "filePath": "src/packages/FeedBack/Spin/Spin.tsx",
+      "lineRange": [
+        20,
+        92
+      ],
+      "summary": "MSpin 是该文件的核心 React 组件，负责封装 Spin 反馈组件，统一可见状态、内容配置和关闭事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "feedback",
+        "antd"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "type": "file",
+      "name": "Cascader.tsx",
+      "filePath": "src/packages/FormItems/Cascader/Cascader.tsx",
+      "summary": "该文件封装 Cascader 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/Cascader/Cascader.tsx:MCascader",
+      "type": "function",
+      "name": "MCascader",
+      "filePath": "src/packages/FormItems/Cascader/Cascader.tsx",
+      "lineRange": [
+        39,
+        192
+      ],
+      "summary": "MCascader 是该文件的核心 React 组件，负责封装 Cascader 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "type": "file",
+      "name": "CheckBox.tsx",
+      "filePath": "src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "summary": "该文件封装 CheckBox 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "type": "function",
+      "name": "MCheckBox",
+      "filePath": "src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "lineRange": [
+        44,
+        274
+      ],
+      "summary": "MCheckBox 是该文件的核心 React 组件，负责封装 CheckBox 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "type": "file",
+      "name": "CollapseItem.tsx",
+      "filePath": "src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "summary": "该文件封装 CollapseItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "lineRange": [
+        16,
+        87
+      ],
+      "summary": "MTabs 是该文件的核心 React 组件，负责封装 CollapseItem 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "type": "file",
+      "name": "ColorPicker.tsx",
+      "filePath": "src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "summary": "该文件封装 ColorPicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/FormItems/ColorPicker/ColorPicker.tsx:MColorPicker",
+      "type": "function",
+      "name": "MColorPicker",
+      "filePath": "src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "lineRange": [
+        18,
+        89
+      ],
+      "summary": "MColorPicker 是该文件的核心 React 组件，负责封装 ColorPicker 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FormItems/Counter/Counter.tsx",
+      "type": "file",
+      "name": "Counter.tsx",
+      "filePath": "src/packages/FormItems/Counter/Counter.tsx",
+      "summary": "该文件封装 Counter 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "form-control",
+        "data-binding",
+        "validation"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/FormItems/Counter/Counter.tsx:MCounter",
+      "type": "function",
+      "name": "MCounter",
+      "filePath": "src/packages/FormItems/Counter/Counter.tsx",
+      "lineRange": [
+        39,
+        451
+      ],
+      "summary": "MCounter 是该文件的核心 React 组件，负责封装 Counter 表单控件，统一值绑定、校验、禁用状态和变更事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "form-control",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "function:src/packages/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "target": "function:src/packages/EChart/LineChart/LineChart.tsx:LineChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "target": "function:src/packages/EChart/MapChart/MapChart.tsx:MapChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/PieChart/PieChart.tsx",
+      "target": "function:src/packages/EChart/PieChart/PieChart.tsx:PieChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FeedBack/Empty/Empty.tsx",
+      "target": "function:src/packages/FeedBack/Empty/Empty.tsx:MEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FeedBack/Result/Result.tsx",
+      "target": "function:src/packages/FeedBack/Result/Result.tsx:MResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FeedBack/Spin/Spin.tsx",
+      "target": "function:src/packages/FeedBack/Spin/Spin.tsx:MSpin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "target": "function:src/packages/FormItems/Cascader/Cascader.tsx:MCascader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "function:src/packages/FormItems/CheckBox/CheckBox.tsx:MCheckBox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "function:src/packages/FormItems/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "function:src/packages/FormItems/ColorPicker/ColorPicker.tsx:MColorPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Counter.tsx",
+      "target": "function:src/packages/FormItems/Counter/Counter.tsx:MCounter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "target": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/LineChart.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "target": "file:src/packages/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/MapChart.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/PieChart/PieChart.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/PieChart/PieChart.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/PieChart/PieChart.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Empty/Empty.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Empty/Empty.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Modal/Modal.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/packages/FeedBack/Popover/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Popover/Popover.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Result/Result.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Result/Result.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Result/Result.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Spin/Spin.tsx",
+      "target": "file:src/packages/FeedBack/Spin/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FeedBack/Spin/Spin.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Cascader/Cascader.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:src/packages/FormItems/CheckBox/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CheckBox/CheckBox.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/ColorPicker/ColorPicker.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Counter.tsx",
+      "target": "file:src/packages/FormItems/Counter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Counter.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Counter/Counter.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

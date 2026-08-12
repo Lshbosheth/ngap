@@ -1,0 +1,353 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/api/page.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 64,
+      "nonEmptyLines": 56,
+      "callGraph": [
+        {
+          "caller": "getPageDetail",
+          "callee": "request.post",
+          "lineNumber": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/api/project.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 48,
+      "callGraph": [
+        {
+          "caller": "getCategoryList",
+          "callee": "Date.now",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/CreatePage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 154,
+      "nonEmptyLines": 149,
+      "functions": [
+        {
+          "name": "CreatePage",
+          "startLine": 19,
+          "endLine": 152,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CreatePage",
+          "callee": "Form.useForm",
+          "lineNumber": 20
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useAppContext",
+          "lineNumber": 27
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "pageStore",
+          "lineNumber": 28
+        },
+        {
+          "caller": "CreatePage",
+          "callee": "useImperativeHandle",
+          "lineNumber": 30
+        },
+        {
+          "caller": "open",
+          "callee": "projectApi.getCategoryList",
+          "lineNumber": 32
+        },
+        {
+          "caller": "open",
+          "callee": "setProjectList",
+          "lineNumber": 36
+        },
+        {
+          "caller": "open",
+          "callee": "list.map",
+          "lineNumber": 37
+        },
+        {
+          "caller": "open",
+          "callee": "setType",
+          "lineNumber": 46
+        },
+        {
+          "caller": "open",
+          "callee": "setRecordId",
+          "lineNumber": 48
+        },
+        {
+          "caller": "open",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 49
+        },
+        {
+          "caller": "open",
+          "callee": "setRecordId",
+          "lineNumber": 51
+        },
+        {
+          "caller": "open",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 52
+        },
+        {
+          "caller": "open",
+          "callee": "setType",
+          "lineNumber": 55
+        },
+        {
+          "caller": "open",
+          "callee": "setRecordId",
+          "lineNumber": 56
+        },
+        {
+          "caller": "open",
+          "callee": "setVisible",
+          "lineNumber": 59
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 65
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.validateFields",
+          "lineNumber": 66
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 68
+        },
+        {
+          "caller": "handleOk",
+          "callee": "api.createPageData",
+          "lineNumber": 71
+        },
+        {
+          "caller": "handleOk",
+          "callee": "api.updatePageData",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleOk",
+          "callee": "savePageInfo",
+          "lineNumber": 77
+        },
+        {
+          "caller": "handleOk",
+          "callee": "api.copyPageData",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleOk",
+          "callee": "props.update",
+          "lineNumber": 89
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.resetFields",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setVisible",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 92
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "form.resetFields",
+          "lineNumber": 101
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setVisible",
+          "lineNumber": 102
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "props.update",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/CreateProject.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 65,
+      "functions": [
+        {
+          "name": "CreateProject",
+          "startLine": 9,
+          "endLine": 68,
+          "params": [
+            "props",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CreateProject",
+          "callee": "Form.useForm",
+          "lineNumber": 10
+        },
+        {
+          "caller": "CreateProject",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "CreateProject",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "CreateProject",
+          "callee": "useImperativeHandle",
+          "lineNumber": 15
+        },
+        {
+          "caller": "open",
+          "callee": "form.resetFields",
+          "lineNumber": 17
+        },
+        {
+          "caller": "open",
+          "callee": "setVisible",
+          "lineNumber": 18
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.validateFields",
+          "lineNumber": 25
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 26
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 27
+        },
+        {
+          "caller": "handleOk",
+          "callee": "api.addProject",
+          "lineNumber": 28
+        },
+        {
+          "caller": "handleOk",
+          "callee": "props.update",
+          "lineNumber": 29
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 30
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setVisible",
+          "lineNumber": 31
+        },
+        {
+          "caller": "handleOk",
+          "callee": "setLoading",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "form.resetFields",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setVisible",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

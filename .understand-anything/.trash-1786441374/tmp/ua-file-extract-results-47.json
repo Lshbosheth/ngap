@@ -1,0 +1,2043 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 185,
+      "nonEmptyLines": 176,
+      "functions": [
+        {
+          "name": "WBreadcrumb",
+          "startLine": 25,
+          "endLine": 184,
+          "params": [
+            "{ id, type, config, onClick }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useRef",
+          "lineNumber": 29
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useState",
+          "lineNumber": 30
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useAppContext",
+          "lineNumber": 31
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "pageStore",
+          "lineNumber": 33
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "pageStore",
+          "lineNumber": 34
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 36
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "getDataList",
+          "lineNumber": 37
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useEffect",
+          "lineNumber": 40
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setElementAlias",
+          "lineNumber": 41
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "debounce",
+          "lineNumber": 44
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "isEmpty",
+          "lineNumber": 46
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setLoading",
+          "lineNumber": 47
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setLoading",
+          "lineNumber": 50
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then((res: any) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (Array.isArray(res.data)) {\r\n                        setData(res.data);\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[面包屑]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 51
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then",
+          "lineNumber": 51
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "handleApi",
+          "lineNumber": 51
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "Array.isArray",
+          "lineNumber": 54
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setData",
+          "lineNumber": 55
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setData",
+          "lineNumber": 57
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "console.error",
+          "lineNumber": 58
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setLoading",
+          "lineNumber": 62
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useWatchVariable",
+          "lineNumber": 71
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useImperativeHandle",
+          "lineNumber": 77
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 80
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 83
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "getDataList",
+          "lineNumber": 86
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "setMStyle",
+          "lineNumber": 89
+        },
+        {
+          "caller": "transformItems",
+          "callee": "removed.push",
+          "lineNumber": 103
+        },
+        {
+          "caller": "transformItems",
+          "callee": "data.slice",
+          "lineNumber": 103
+        },
+        {
+          "caller": "transformItems",
+          "callee": "data.slice",
+          "lineNumber": 105
+        },
+        {
+          "caller": "transformItems",
+          "callee": "data.slice",
+          "lineNumber": 107
+        },
+        {
+          "caller": "transformItems",
+          "callee": "removed.map",
+          "lineNumber": 111
+        },
+        {
+          "caller": "transformItems",
+          "callee": "Date.now",
+          "lineNumber": 112
+        },
+        {
+          "caller": "transformItems",
+          "callee": "Math.random().toString(36).slice",
+          "lineNumber": 112
+        },
+        {
+          "caller": "transformItems",
+          "callee": "Math.random().toString",
+          "lineNumber": 112
+        },
+        {
+          "caller": "transformItems",
+          "callee": "Math.random",
+          "lineNumber": 112
+        },
+        {
+          "caller": "transformItems",
+          "callee": "data\r\n                .filter((item) => !!item?.title)\r\n                .map",
+          "lineNumber": 124
+        },
+        {
+          "caller": "transformItems",
+          "callee": "data\r\n                .filter",
+          "lineNumber": 124
+        },
+        {
+          "caller": "transformItems",
+          "callee": "item.title.substring",
+          "lineNumber": 135
+        },
+        {
+          "caller": "transformItems",
+          "callee": "handleItemClick",
+          "lineNumber": 142
+        },
+        {
+          "caller": "handleItemClick",
+          "callee": "onClick",
+          "lineNumber": 152
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "useEffect",
+          "lineNumber": 158
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "breadcrumbWrapperRef.current?.querySelector",
+          "lineNumber": 159
+        },
+        {
+          "caller": "WBreadcrumb",
+          "callee": "transformItems",
+          "lineNumber": 179
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Breadcrumb/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 43,
+      "nonEmptyLines": 39,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/Breadcrumb/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 78,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 173,
+      "nonEmptyLines": 171,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 432,
+      "nonEmptyLines": 358,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/FloatingWindow/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 114,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/FloatingWindow/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 155,
+      "nonEmptyLines": 154,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Menu/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 17,
+      "nonEmptyLines": 17,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/Menu/Menu.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 190,
+      "nonEmptyLines": 182,
+      "functions": [
+        {
+          "name": "generateRandomKey",
+          "startLine": 20,
+          "endLine": 28,
+          "params": []
+        },
+        {
+          "name": "MMenu",
+          "startLine": 35,
+          "endLine": 189,
+          "params": [
+            "{ id, type, config, onClick, onDeselect, onOpenChange, onSelect }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateRandomKey",
+          "callee": "Math.floor",
+          "lineNumber": 24
+        },
+        {
+          "caller": "generateRandomKey",
+          "callee": "Math.random",
+          "lineNumber": 24
+        },
+        {
+          "caller": "generateRandomKey",
+          "callee": "chars.charAt",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MMenu",
+          "callee": "generateRandomKey",
+          "lineNumber": 39
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useAppContext",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MMenu",
+          "callee": "pageStore",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useEffect",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setElementAlias",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useEffect",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MMenu",
+          "callee": "Array.isArray",
+          "lineNumber": 53
+        },
+        {
+          "caller": "MMenu",
+          "callee": "console.error",
+          "lineNumber": 54
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setOpenKeys",
+          "lineNumber": 55
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setOpenKeys",
+          "lineNumber": 57
+        },
+        {
+          "caller": "MMenu",
+          "callee": "Array.isArray",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MMenu",
+          "callee": "console.error",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setSelectedKeys",
+          "lineNumber": 62
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setSelectedKeys",
+          "lineNumber": 64
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setMenuKey",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MMenu",
+          "callee": "generateRandomKey",
+          "lineNumber": 66
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MMenu",
+          "callee": "getDataList",
+          "lineNumber": 70
+        },
+        {
+          "caller": "MMenu",
+          "callee": "debounce",
+          "lineNumber": 73
+        },
+        {
+          "caller": "MMenu",
+          "callee": "isEmpty",
+          "lineNumber": 75
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setLoading",
+          "lineNumber": 76
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setLoading",
+          "lineNumber": 79
+        },
+        {
+          "caller": "MMenu",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (Array.isArray(res?.data)) {\r\n                        setData(processMenuData(res.data));\r\n                    } else {\r\n                        setData([]);\r\n                        console.error('[Menu]数据格式错误');\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MMenu",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MMenu",
+          "callee": "handleApi",
+          "lineNumber": 80
+        },
+        {
+          "caller": "MMenu",
+          "callee": "Array.isArray",
+          "lineNumber": 83
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setData",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MMenu",
+          "callee": "processMenuData",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setData",
+          "lineNumber": 86
+        },
+        {
+          "caller": "MMenu",
+          "callee": "console.error",
+          "lineNumber": 87
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setLoading",
+          "lineNumber": 91
+        },
+        {
+          "caller": "processMenuData",
+          "callee": "data.map",
+          "lineNumber": 102
+        },
+        {
+          "caller": "processMenuData",
+          "callee": "React.createElement",
+          "lineNumber": 104
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useImperativeHandle",
+          "lineNumber": 109
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 112
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 115
+        },
+        {
+          "caller": "setSelectKeys",
+          "callee": "setSelectedKeys",
+          "lineNumber": 121
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setMStyle",
+          "lineNumber": 127
+        },
+        {
+          "caller": "MMenu",
+          "callee": "useEffect",
+          "lineNumber": 131
+        },
+        {
+          "caller": "MMenu",
+          "callee": "React.createElement",
+          "lineNumber": 134
+        },
+        {
+          "caller": "MMenu",
+          "callee": "React.createElement",
+          "lineNumber": 137
+        },
+        {
+          "caller": "MMenu",
+          "callee": "setIconProps",
+          "lineNumber": 139
+        },
+        {
+          "caller": "onOpenChangeHandle",
+          "callee": "onOpenChange",
+          "lineNumber": 144
+        },
+        {
+          "caller": "onOpenChangeHandle",
+          "callee": "setOpenKeys",
+          "lineNumber": 146
+        },
+        {
+          "caller": "onSelectHandle",
+          "callee": "onSelect",
+          "lineNumber": 151
+        },
+        {
+          "caller": "onSelectHandle",
+          "callee": "setSelectedKeys",
+          "lineNumber": 153
+        },
+        {
+          "caller": "onDeselectHanle",
+          "callee": "onDeselect",
+          "lineNumber": 158
+        },
+        {
+          "caller": "onDeselectHanle",
+          "callee": "setSelectedKeys",
+          "lineNumber": 160
+        },
+        {
+          "caller": "onClick1",
+          "callee": "onClick",
+          "lineNumber": 164
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Menu/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 213,
+      "nonEmptyLines": 212,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 126,
+      "nonEmptyLines": 126,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 872,
+      "nonEmptyLines": 844,
+      "functions": [
+        {
+          "name": "NgapTable",
+          "startLine": 85,
+          "endLine": 871,
+          "params": [
+            "{ id, type, config, elements, onCheckedChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 86
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 89
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 96
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 97
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 98
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 99
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useState",
+          "lineNumber": 100
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useAppContext",
+          "lineNumber": 101
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "pageStore",
+          "lineNumber": 103
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 110
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "apiListInfo",
+          "lineNumber": 111
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useEffect",
+          "lineNumber": 114
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setElementAlias",
+          "lineNumber": 115
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 118
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "updateDataList",
+          "lineNumber": 119
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 122
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "config.props.columns\r\n            .map((item: any) => item.dataIndex)\r\n            .concat([config.props?.expandable?.childrenColumnName])\r\n            .concat",
+          "lineNumber": 123
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "config.props.columns\r\n            .map((item: any) => item.dataIndex)\r\n            .concat",
+          "lineNumber": 123
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "config.props.columns\r\n            .map",
+          "lineNumber": 123
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useRef",
+          "lineNumber": 129
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "debounce",
+          "lineNumber": 130
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "isEmpty",
+          "lineNumber": 132
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setLoading",
+          "lineNumber": 133
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setLoading",
+          "lineNumber": 136
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then((res) => {\r\n                    updateToolbar();\r\n                    if (res?.code !== 0) return;\r\n                    apiData.current = res.data;\r\n                    if (util.isNotEmpty(res?.data)) {\r\n                        setData(dealApiData(res.data, columnsKeys));\r\n                        setSelectedRowKeys([]);\r\n                        setSelectedRows([]);\r\n                    } else {\r\n                        console.error('[基础表格] 数据格式错误');\r\n                        setData([]);\r\n                        setSelectedRowKeys([]);\r\n                        setSelectedRows([]);\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 137
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then",
+          "lineNumber": 137
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleApi",
+          "lineNumber": 137
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "updateToolbar",
+          "lineNumber": 139
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "util.isNotEmpty",
+          "lineNumber": 142
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setData",
+          "lineNumber": 143
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "dealApiData",
+          "lineNumber": 143
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 144
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRows",
+          "lineNumber": 145
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "console.error",
+          "lineNumber": 147
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setData",
+          "lineNumber": 148
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 149
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRows",
+          "lineNumber": 150
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setLoading",
+          "lineNumber": 154
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useEffect",
+          "lineNumber": 160
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "isEmpty",
+          "lineNumber": 161
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setData",
+          "lineNumber": 162
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setData",
+          "lineNumber": 164
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "dealApiData",
+          "lineNumber": 164
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useEffect",
+          "lineNumber": 167
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setPageParams",
+          "lineNumber": 175
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useCallback",
+          "lineNumber": 177
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setPageParams",
+          "lineNumber": 185
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "getDataList",
+          "lineNumber": 186
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useWatchVariable",
+          "lineNumber": 188
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useWatchVariable",
+          "lineNumber": 194
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useEffect",
+          "lineNumber": 200
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setTotal",
+          "lineNumber": 203
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setTotal",
+          "lineNumber": 205
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useDrop",
+          "lineNumber": 208
+        },
+        {
+          "caller": "drop",
+          "callee": "monitor.didDrop",
+          "lineNumber": 211
+        },
+        {
+          "caller": "drop",
+          "callee": "getComponent",
+          "lineNumber": 213
+        },
+        {
+          "caller": "drop",
+          "callee": "addChildElements",
+          "lineNumber": 214
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "monitor.isOver",
+          "lineNumber": 230
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "monitor.canDrop",
+          "lineNumber": 231
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useImperativeHandle",
+          "lineNumber": 235
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setLoading",
+          "lineNumber": 238
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setLoading",
+          "lineNumber": 241
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 244
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 247
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "pickBy",
+          "lineNumber": 251
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "util.isNotEmpty",
+          "lineNumber": 251
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setPageParams",
+          "lineNumber": 256
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSearchParams",
+          "lineNumber": 257
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRows",
+          "lineNumber": 258
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 259
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 260
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "getDataList",
+          "lineNumber": 261
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRows",
+          "lineNumber": 264
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 265
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 266
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "getDataList",
+          "lineNumber": 267
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setData",
+          "lineNumber": 271
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRows",
+          "lineNumber": 272
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 273
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 274
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 283
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setMStyle",
+          "lineNumber": 298
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useEffect",
+          "lineNumber": 302
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 304
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "util.getParentKeys",
+          "lineNumber": 304
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 306
+        },
+        {
+          "caller": "handleExpand",
+          "callee": "setExpandedRowKeys",
+          "lineNumber": 311
+        },
+        {
+          "caller": "handleExpand",
+          "callee": "prev.filter",
+          "lineNumber": 311
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 314
+        },
+        {
+          "caller": "onChange",
+          "callee": "onCheckedChange",
+          "lineNumber": 324
+        },
+        {
+          "caller": "onChange",
+          "callee": "setSelectedRowKeys",
+          "lineNumber": 325
+        },
+        {
+          "caller": "onChange",
+          "callee": "setSelectedRows",
+          "lineNumber": 326
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "config.props.columns.filter",
+          "lineNumber": 332
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "omit",
+          "lineNumber": 337
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "columnsNew.map",
+          "lineNumber": 342
+        },
+        {
+          "caller": "onCell",
+          "callee": "renderFn",
+          "lineNumber": 353
+        },
+        {
+          "caller": "onCell",
+          "callee": "console.error",
+          "lineNumber": 355
+        },
+        {
+          "caller": "render",
+          "callee": "util.isNotEmpty",
+          "lineNumber": 363
+        },
+        {
+          "caller": "render",
+          "callee": "util.formatNumber",
+          "lineNumber": 369
+        },
+        {
+          "caller": "render",
+          "callee": "util.formatNumber",
+          "lineNumber": 370
+        },
+        {
+          "caller": "render",
+          "callee": "util.formatDate",
+          "lineNumber": 371
+        },
+        {
+          "caller": "render",
+          "callee": "util.formatDate",
+          "lineNumber": 372
+        },
+        {
+          "caller": "render",
+          "callee": "renderFn",
+          "lineNumber": 378
+        },
+        {
+          "caller": "render",
+          "callee": "console.error",
+          "lineNumber": 380
+        },
+        {
+          "caller": "render",
+          "callee": "logicFn",
+          "lineNumber": 393
+        },
+        {
+          "caller": "render",
+          "callee": "fn",
+          "lineNumber": 394
+        },
+        {
+          "caller": "render",
+          "callee": "console.error",
+          "lineNumber": 396
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 410
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 415
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 420
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 430
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 430
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 442
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 466
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 481
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 489
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 490
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 495
+        },
+        {
+          "caller": "render",
+          "callee": "Array.isArray",
+          "lineNumber": 501
+        },
+        {
+          "caller": "render",
+          "callee": "txt.map",
+          "lineNumber": 502
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 516
+        },
+        {
+          "caller": "render",
+          "callee": "Array.isArray",
+          "lineNumber": 522
+        },
+        {
+          "caller": "render",
+          "callee": "txt.map",
+          "lineNumber": 523
+        },
+        {
+          "caller": "render",
+          "callee": "txt.toString",
+          "lineNumber": 542
+        },
+        {
+          "caller": "render",
+          "callee": "Array.isArray",
+          "lineNumber": 549
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "isNumber",
+          "lineNumber": 550
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "Number",
+          "lineNumber": 550
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "Number",
+          "lineNumber": 550
+        },
+        {
+          "caller": "render",
+          "callee": "adaptVal",
+          "lineNumber": 553
+        },
+        {
+          "caller": "render",
+          "callee": "adaptVal",
+          "lineNumber": 553
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "isNumber",
+          "lineNumber": 557
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "Number",
+          "lineNumber": 557
+        },
+        {
+          "caller": "adaptVal",
+          "callee": "Number",
+          "lineNumber": 557
+        },
+        {
+          "caller": "render",
+          "callee": "txt?.startsWith",
+          "lineNumber": 558
+        },
+        {
+          "caller": "render",
+          "callee": "adaptVal",
+          "lineNumber": 558
+        },
+        {
+          "caller": "render",
+          "callee": "adaptVal",
+          "lineNumber": 558
+        },
+        {
+          "caller": "render",
+          "callee": "Array.isArray",
+          "lineNumber": 561
+        },
+        {
+          "caller": "render",
+          "callee": "txt.map",
+          "lineNumber": 562
+        },
+        {
+          "caller": "render",
+          "callee": "txt?.toString",
+          "lineNumber": 588
+        },
+        {
+          "caller": "render",
+          "callee": "item.list?.map",
+          "lineNumber": 595
+        },
+        {
+          "caller": "render",
+          "callee": "renderFn",
+          "lineNumber": 609
+        },
+        {
+          "caller": "render",
+          "callee": "console.error",
+          "lineNumber": 611
+        },
+        {
+          "caller": "render",
+          "callee": "renderDisableFn",
+          "lineNumber": 632
+        },
+        {
+          "caller": "render",
+          "callee": "console.error",
+          "lineNumber": 635
+        },
+        {
+          "caller": "render",
+          "callee": "handleActionClick",
+          "lineNumber": 647
+        },
+        {
+          "caller": "render",
+          "callee": "btns.slice",
+          "lineNumber": 654
+        },
+        {
+          "caller": "render",
+          "callee": "btns.slice",
+          "lineNumber": 662
+        },
+        {
+          "caller": "render",
+          "callee": "btns.slice",
+          "lineNumber": 667
+        },
+        {
+          "caller": "render",
+          "callee": "console.error",
+          "lineNumber": 678
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 690
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "setPageParams",
+          "lineNumber": 704
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "getDataList",
+          "lineNumber": 708
+        },
+        {
+          "caller": "handleSummary",
+          "callee": "new Function('pageData,selectedRows', `return (${summaryFn})(pageData, selectedRows);`)",
+          "lineNumber": 721
+        },
+        {
+          "caller": "handleSummary",
+          "callee": "console.error",
+          "lineNumber": 723
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useCallback",
+          "lineNumber": 729
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "config.props.columns.filter",
+          "lineNumber": 731
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "['checkbox', 'radio'].includes",
+          "lineNumber": 732
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "columnsNew.map",
+          "lineNumber": 738
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleSummary(title)",
+          "lineNumber": 741
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleSummary",
+          "lineNumber": 741
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "config.events.find",
+          "lineNumber": 774
+        },
+        {
+          "caller": "handleOperate",
+          "callee": "handleActionFlow",
+          "lineNumber": 775
+        },
+        {
+          "caller": "handleActionClick",
+          "callee": "config.events.find",
+          "lineNumber": 782
+        },
+        {
+          "caller": "handleActionClick",
+          "callee": "handleActionFlow",
+          "lineNumber": 783
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 791
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 800
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 815
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "useMemo",
+          "lineNumber": 819
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "bulkActionList?.map",
+          "lineNumber": 835
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "createElement",
+          "lineNumber": 841
+        },
+        {
+          "caller": "NgapTable",
+          "callee": "handleOperate",
+          "lineNumber": 842
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Pagination/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 147,
+      "nonEmptyLines": 127,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/SearchForm/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/Steps/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 366,
+      "nonEmptyLines": 358,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/Timeline/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 90,
+      "nonEmptyLines": 89,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Timeline/Timeline.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 108,
+      "nonEmptyLines": 99,
+      "functions": [
+        {
+          "name": "TimelineCus",
+          "startLine": 21,
+          "endLine": 107,
+          "params": [
+            "props",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TimelineCus",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useAppContext",
+          "lineNumber": 29
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "pageStore",
+          "lineNumber": 32
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useEffect",
+          "lineNumber": 33
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setElementAlias",
+          "lineNumber": 34
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useEffect",
+          "lineNumber": 37
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setPropsConf",
+          "lineNumber": 38
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useEffect",
+          "lineNumber": 41
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setDataList",
+          "lineNumber": 42
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 45
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "getDataList",
+          "lineNumber": 46
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "debounce",
+          "lineNumber": 49
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "isEmpty",
+          "lineNumber": 51
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setLoading",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setDataList",
+          "lineNumber": 58
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setLoading",
+          "lineNumber": 59
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setDataList",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setLoading",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then((res) => {\r\n                    if (res?.code !== 0) return;\r\n                    if (!Array.isArray(res?.data)) {\r\n                        console.error('[select]', 'data数据格式错误，请检查');\r\n                        setDataList([]);\r\n                    } else {\r\n                        setDataList(res?.data || []);\r\n                    }\r\n                })\r\n                .finally",
+          "lineNumber": 66
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "handleApi(config.api, params, _state)\r\n                .then",
+          "lineNumber": 66
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "handleApi",
+          "lineNumber": 66
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "Array.isArray",
+          "lineNumber": 69
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "console.error",
+          "lineNumber": 70
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setDataList",
+          "lineNumber": 71
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setDataList",
+          "lineNumber": 73
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setLoading",
+          "lineNumber": 77
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "useImperativeHandle",
+          "lineNumber": 84
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 87
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 90
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "getDataList",
+          "lineNumber": 93
+        },
+        {
+          "caller": "TimelineCus",
+          "callee": "setMStyle",
+          "lineNumber": 96
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Tree/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 236,
+      "nonEmptyLines": 198,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/AudioPlayer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 860,
+      "nonEmptyLines": 724,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/AudioPlayer/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 119,
+      "nonEmptyLines": 118,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Badge/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Badge/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 114,
+      "nonEmptyLines": 114,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Carousel/carousel.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Carousel/Carousel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 116,
+      "nonEmptyLines": 110,
+      "functions": [
+        {
+          "name": "MCarousel",
+          "startLine": 23,
+          "endLine": 115,
+          "params": [
+            "{ id, type, config }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MCarousel",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useAppContext",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "pageStore",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "getDataList",
+          "lineNumber": 32
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "pageStore",
+          "lineNumber": 35
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useEffect",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "setElementAlias",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "debounce",
+          "lineNumber": 40
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "isEmpty",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "handleApi(config.api, params, _state).then",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "handleApi",
+          "lineNumber": 43
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "Array.isArray",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "setData",
+          "lineNumber": 46
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "setData",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "console.error",
+          "lineNumber": 49
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useWatchVariable",
+          "lineNumber": 56
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useImperativeHandle",
+          "lineNumber": 63
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 66
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "setMStyle",
+          "lineNumber": 72
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "useMemo",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MCarousel",
+          "callee": "data.map",
+          "lineNumber": 89
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Carousel/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 136,
+      "nonEmptyLines": 135,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

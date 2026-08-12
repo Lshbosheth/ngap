@@ -1,0 +1,1670 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "type": "file",
+      "name": "RunScriptAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "summary": "编辑执行脚本动作，通过代码编辑器维护运行时脚本内容。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/RunScriptAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "lineRange": [
+        4,
+        17
+      ],
+      "summary": "编辑执行脚本动作，通过代码编辑器维护运行时脚本内容；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/SendParams.tsx",
+      "type": "file",
+      "name": "SendParams.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/SendParams.tsx",
+      "summary": "编辑参数发送动作，配置向目标组件或页面传递的键值映射。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/SendParams.tsx:SendParams",
+      "type": "function",
+      "name": "SendParams",
+      "filePath": "src/components/EventConfig/ActionModal/SendParams.tsx",
+      "lineRange": [
+        7,
+        35
+      ],
+      "summary": "编辑参数发送动作，配置向目标组件或页面传递的键值映射；SendParams 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "type": "file",
+      "name": "SetTimeoutAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "summary": "编辑延时动作，配置等待时长及延时后的动作执行策略。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "lineRange": [
+        3,
+        57
+      ],
+      "summary": "编辑延时动作，配置等待时长及延时后的动作执行策略；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "type": "file",
+      "name": "ShowConfirmAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "summary": "编辑确认对话框动作，配置标题、正文和确认取消交互。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx:ShowConfirmModal",
+      "type": "function",
+      "name": "ShowConfirmModal",
+      "filePath": "src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "lineRange": [
+        7,
+        38
+      ],
+      "summary": "编辑确认对话框动作，配置标题、正文和确认取消交互；ShowConfirmModal 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "type": "file",
+      "name": "VariableAssignment.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "summary": "编辑变量赋值动作，选择目标变量并配置固定值、变量或脚本表达式来源。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/VariableAssignment.tsx:VariableAssignment",
+      "type": "function",
+      "name": "VariableAssignment",
+      "filePath": "src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "lineRange": [
+        7,
+        85
+      ],
+      "summary": "编辑变量赋值动作，选择目标变量并配置固定值、变量或脚本表达式来源；VariableAssignment 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "type": "file",
+      "name": "VisibleAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "summary": "编辑组件显隐动作，选择目标组件并配置显示、隐藏或切换行为。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/VisibleAction.tsx:VisibleAction",
+      "type": "function",
+      "name": "VisibleAction",
+      "filePath": "src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "lineRange": [
+        11,
+        78
+      ],
+      "summary": "编辑组件显隐动作，选择目标组件并配置显示、隐藏或切换行为；VisibleAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "type": "file",
+      "name": "openOneScreenAction.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "summary": "编辑打开一屏应用动作，选择目标应用页面并配置打开参数。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "event-flow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/openOneScreenAction.tsx:OpenModalAction",
+      "type": "function",
+      "name": "OpenModalAction",
+      "filePath": "src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "lineRange": [
+        6,
+        22
+      ],
+      "summary": "编辑打开一屏应用动作，选择目标应用页面并配置打开参数；OpenModalAction 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "action-configuration",
+        "form-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "file",
+      "name": "VariableBind.tsx",
+      "filePath": "src/components/VariableBind/VariableBind.tsx",
+      "summary": "提供统一变量绑定输入器，在固定值、页面变量、接口数据和表达式等来源之间建立配置引用。",
+      "tags": [
+        "react-component",
+        "variable-binding",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/VariableBind/VariableBind.tsx:VariableBind",
+      "type": "function",
+      "name": "VariableBind",
+      "filePath": "src/components/VariableBind/VariableBind.tsx",
+      "lineRange": [
+        16,
+        77
+      ],
+      "summary": "提供统一变量绑定输入器，在固定值、页面变量、接口数据和表达式等来源之间建立配置引用；VariableBind 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/VsEditor.tsx",
+      "type": "file",
+      "name": "VsEditor.tsx",
+      "filePath": "src/components/VsEditor.tsx",
+      "summary": "封装 Monaco 风格代码编辑器，提供脚本输入、语言模式、格式化和受控值同步能力。",
+      "tags": [
+        "react-component",
+        "code-editor",
+        "script-config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/VsEditor.tsx:VsEditor",
+      "type": "function",
+      "name": "VsEditor",
+      "filePath": "src/components/VsEditor.tsx",
+      "lineRange": [
+        8,
+        122
+      ],
+      "summary": "封装 Monaco 风格代码编辑器，提供脚本输入、语言模式、格式化和受控值同步能力；VsEditor 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "type": "file",
+      "name": "BusinessTable.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "summary": "实现设计态业务表格物料，覆盖示例数据、列渲染、筛选排序、分页选择、编辑操作和标签规则预览。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "type": "function",
+      "name": "BusinessTable",
+      "filePath": "src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "lineRange": [
+        119,
+        2424
+      ],
+      "summary": "实现设计态业务表格物料，覆盖示例数据、列渲染、筛选排序、分页选择、编辑操作和标签规则预览；BusinessTable 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "type": "file",
+      "name": "ColumnSetting.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "summary": "提供业务表格列设置面板，分区编辑字段属性、显示格式、自定义渲染、汇总和标签规则。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:AttrSetting",
+      "type": "function",
+      "name": "AttrSetting",
+      "filePath": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "lineRange": [
+        271,
+        452
+      ],
+      "summary": "提供业务表格列设置面板，分区编辑字段属性、显示格式、自定义渲染、汇总和标签规则；AttrSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:DisplaySetting",
+      "type": "function",
+      "name": "DisplaySetting",
+      "filePath": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "lineRange": [
+        455,
+        692
+      ],
+      "summary": "提供业务表格列设置面板，分区编辑字段属性、显示格式、自定义渲染、汇总和标签规则；DisplaySetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:CustomRender",
+      "type": "function",
+      "name": "CustomRender",
+      "filePath": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "lineRange": [
+        695,
+        726
+      ],
+      "summary": "提供业务表格列设置面板，分区编辑字段属性、显示格式、自定义渲染、汇总和标签规则；CustomRender 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:SummarySetting",
+      "type": "function",
+      "name": "SummarySetting",
+      "filePath": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "lineRange": [
+        729,
+        781
+      ],
+      "summary": "提供业务表格列设置面板，分区编辑字段属性、显示格式、自定义渲染、汇总和标签规则；SummarySetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "type": "file",
+      "name": "DragColumn.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "summary": "实现业务表格列拖拽排序配置，并支持列项的动态标题与基础属性编辑。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/Schema.tsx",
+      "summary": "定义业务表格物料的设计态属性架构，组织数据、列、统计、批量操作和外观配置入口。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "type": "file",
+      "name": "StatisticsConfig.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "summary": "提供业务表格统计项配置器，编辑统计字段、聚合方式和展示属性。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx:StatisticsConfig",
+      "type": "function",
+      "name": "StatisticsConfig",
+      "filePath": "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "lineRange": [
+        17,
+        133
+      ],
+      "summary": "提供业务表格统计项配置器，编辑统计字段、聚合方式和展示属性；StatisticsConfig 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "type": "file",
+      "name": "StatisticsConfigWrapper.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "summary": "为业务表格统计配置提供表单适配包装，连接外层属性编辑器与统计项配置。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "type": "file",
+      "name": "TableSetting.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "summary": "提供业务表格列管理入口，协调列设置、拖拽排序、远程字段加载和配置提交。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "type": "file",
+      "name": "TagSetting.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "summary": "实现业务表格标签规则编辑器，维护条件分支、触发条件、事件结果及列标签样式。",
+      "tags": [
+        "react-component",
+        "property-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting.tsx:TagSetting",
+      "type": "function",
+      "name": "TagSetting",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "lineRange": [
+        61,
+        394
+      ],
+      "summary": "实现业务表格标签规则编辑器，维护条件分支、触发条件、事件结果及列标签样式；TagSetting 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "type": "file",
+      "name": "CaseList.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "summary": "管理标签规则的条件分支列表，呈现每个分支的条件摘要、触发结果和编辑操作。",
+      "tags": [
+        "react-component",
+        "rule-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:BranchContent",
+      "type": "function",
+      "name": "BranchContent",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "lineRange": [
+        30,
+        61
+      ],
+      "summary": "渲染单个标签规则分支的条件内容与操作区。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:TriggerResultsSummary",
+      "type": "function",
+      "name": "TriggerResultsSummary",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "lineRange": [
+        67,
+        90
+      ],
+      "summary": "汇总展示标签规则分支配置的触发结果。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:CaseItemComponent",
+      "type": "function",
+      "name": "CaseItemComponent",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "lineRange": [
+        96,
+        190
+      ],
+      "summary": "渲染可编辑的标签规则分支项并处理分支增删改。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:CaseList",
+      "type": "function",
+      "name": "CaseList",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "lineRange": [
+        196,
+        225
+      ],
+      "summary": "维护并渲染标签规则的条件分支集合。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "type": "file",
+      "name": "TriggerConditions.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "summary": "编辑单个标签规则分支的组合条件，维护字段、运算符和值及条件关系。",
+      "tags": [
+        "react-component",
+        "rule-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:generateId",
+      "type": "function",
+      "name": "generateId",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "lineRange": [
+        46,
+        46
+      ],
+      "summary": "生成标签条件项使用的轻量唯一标识。",
+      "tags": [
+        "utility",
+        "identifier",
+        "rule-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:TriggerConditions",
+      "type": "function",
+      "name": "TriggerConditions",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "lineRange": [
+        52,
+        161
+      ],
+      "summary": "编辑单个标签规则分支的组合条件，维护字段、运算符和值及条件关系；TriggerConditions 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "file",
+      "name": "TriggerEventItem.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "summary": "编辑标签规则触发结果，配置单元格颜色、图标、文字及相关展示参数。",
+      "tags": [
+        "react-component",
+        "rule-editor",
+        "data-table"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx:TriggerEventItem",
+      "type": "function",
+      "name": "TriggerEventItem",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "lineRange": [
+        97,
+        413
+      ],
+      "summary": "编辑标签规则触发结果，配置单元格颜色、图标、文字及相关展示参数；TriggerEventItem 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "type": "file",
+      "name": "TriggerEvents.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "summary": "管理标签规则分支的多个触发结果项并协调增删编辑。",
+      "tags": [
+        "react-component",
+        "rule-editor",
+        "data-table"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx:TriggerEvents",
+      "type": "function",
+      "name": "TriggerEvents",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "lineRange": [
+        28,
+        53
+      ],
+      "summary": "管理标签规则分支的多个触发结果项并协调增删编辑；TriggerEvents 承担该文件的核心渲染、状态管理或配置回写逻辑。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "type": "file",
+      "name": "columns.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "summary": "提供业务表格单元格格式化和标签效果渲染工具，将标签规则转为图标与样式。",
+      "tags": [
+        "utility",
+        "data-table",
+        "sorting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:formatCellValue",
+      "type": "function",
+      "name": "formatCellValue",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "lineRange": [
+        5,
+        12
+      ],
+      "summary": "把业务表格单元格原始值格式化为可展示文本。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:TagSettingIcons",
+      "type": "function",
+      "name": "TagSettingIcons",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "lineRange": [
+        24,
+        97
+      ],
+      "summary": "根据标签规则与单元格数据渲染匹配的图标、颜色和文字效果。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "type": "file",
+      "name": "filter.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "summary": "提供业务表格文本筛选下拉面板及 Ant Design 列筛选配置构造器。",
+      "tags": [
+        "utility",
+        "data-table",
+        "sorting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/filter.tsx:TextFilterDropdown",
+      "type": "function",
+      "name": "TextFilterDropdown",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "lineRange": [
+        11,
+        66
+      ],
+      "summary": "渲染业务表格文本筛选下拉面板并管理查询、重置操作。",
+      "tags": [
+        "react-component",
+        "data-table",
+        "property-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/filter.tsx:filterConfig",
+      "type": "function",
+      "name": "filterConfig",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "lineRange": [
+        79,
+        80
+      ],
+      "summary": "返回业务表格列使用的标准文本筛选配置。",
+      "tags": [
+        "utility",
+        "data-table",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "type": "file",
+      "name": "sort.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "summary": "提供业务表格列排序配置，根据字段类型选择比较器并生成排序图标和排序属性。",
+      "tags": [
+        "utility",
+        "data-table",
+        "sorting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSorter",
+      "type": "function",
+      "name": "getSorter",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "lineRange": [
+        42,
+        79
+      ],
+      "summary": "根据字段类型和排序模式选择合适的比较函数。",
+      "tags": [
+        "utility",
+        "data-table",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSortIcon",
+      "type": "function",
+      "name": "getSortIcon",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "lineRange": [
+        81,
+        115
+      ],
+      "summary": "根据当前排序方向渲染表格列排序图标。",
+      "tags": [
+        "utility",
+        "data-table",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:sortConfig",
+      "type": "function",
+      "name": "sortConfig",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "lineRange": [
+        118,
+        127
+      ],
+      "summary": "组合比较器和图标，生成业务表格列排序配置。",
+      "tags": [
+        "utility",
+        "data-table",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "type": "file",
+      "name": "textfilter.ts",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "summary": "检测 HTML 文本中是否包含严格匹配的字体颜色样式，供表格标签展示判断使用。",
+      "tags": [
+        "utility",
+        "data-table",
+        "sorting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Advanced/BusinessTable/utils/textfilter.ts:hasFontColorStrict",
+      "type": "function",
+      "name": "hasFontColorStrict",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "lineRange": [
+        1,
+        19
+      ],
+      "summary": "严格检测 HTML 片段是否包含指定字体颜色样式。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "type": "file",
+      "name": "windowSort.tsx",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "summary": "实现混合类型排序器，统一比较数字、文件尺寸、英文、中文和特殊字符，并支持拼音排序。",
+      "tags": [
+        "utility",
+        "data-table",
+        "sorting"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 TypeScript 类封装多阶段分词与比较算法，并缓存中文拼音首字母以降低重复计算。"
+    },
+    {
+      "id": "class:src/packages/Advanced/BusinessTable/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "class",
+      "name": "MixedTypeSorter",
+      "filePath": "src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "lineRange": [
+        13,
+        433
+      ],
+      "summary": "对数字、容量单位、英文、中文及特殊字符进行分词和稳定比较，并生成表格排序函数。",
+      "tags": [
+        "sorting",
+        "data-table",
+        "utility"
+      ],
+      "complexity": "complex",
+      "languageNotes": "类中集中封装 17 个比较与解析方法。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/RunScriptAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/SendParams.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/SendParams.tsx:SendParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx:ShowConfirmModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/VariableAssignment.tsx:VariableAssignment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/VisibleAction.tsx:VisibleAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/openOneScreenAction.tsx:OpenModalAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableBind.tsx",
+      "target": "function:src/components/VariableBind/VariableBind.tsx:VariableBind",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/VsEditor.tsx",
+      "target": "function:src/components/VsEditor.tsx:VsEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/VsEditor.tsx",
+      "target": "function:src/components/VsEditor.tsx:VsEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/BusinessTable.tsx:BusinessTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:AttrSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:DisplaySetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:CustomRender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:SummarySetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx:StatisticsConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting.tsx:TagSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:BranchContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:TriggerResultsSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:CaseItemComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx:CaseList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:generateId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:generateId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:TriggerConditions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx:TriggerConditions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx:TriggerEventItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx:TriggerEventItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx:TriggerEvents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx:TriggerEvents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:formatCellValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:formatCellValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:TagSettingIcons",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/columns.tsx:TagSettingIcons",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/filter.tsx:TextFilterDropdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/filter.tsx:filterConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/filter.tsx:filterConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSorter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSorter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSortIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:sortConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:sortConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/textfilter.ts:hasFontColorStrict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/textfilter.ts:hasFontColorStrict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "target": "class:src/packages/Advanced/BusinessTable/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "target": "class:src/packages/Advanced/BusinessTable/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/SendParams.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VariableBind/VariableBind.tsx",
+      "target": "file:src/components/VariableBind/VariableSelect.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/VsEditor.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/Schema.tsx",
+      "target": "file:src/components/BulkAction/ActionSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/Schema.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/Schema.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/Schema.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "target": "file:src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/VariableAssignment.tsx:VariableAssignment",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/VisibleAction.tsx:VisibleAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/EventConfig/ActionModal/openOneScreenAction.tsx:OpenModalAction",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/components/VsEditor.tsx:VsEditor",
+      "target": "function:src/packages/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/packages/Advanced/BusinessTable/ColumnSetting.tsx:DisplaySetting",
+      "target": "function:src/utils/util.ts:createId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/packages/Advanced/BusinessTable/StatisticsConfig.tsx:StatisticsConfig",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:sortConfig",
+      "target": "function:src/packages/Advanced/BusinessTable/utils/sort.tsx:getSortIcon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

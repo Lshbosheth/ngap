@@ -1,0 +1,195 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "language": "css",
+      "sizeLines": 51,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "language": "css",
+      "sizeLines": 146,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "language": "css",
+      "sizeLines": 478,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/editor/index.module.less",
+      "language": "css",
+      "sizeLines": 90,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/editor/topbar/index.module.less",
+      "language": "css",
+      "sizeLines": 57,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/editor/topbar/ShareLink.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/index.module.less",
+      "language": "css",
+      "sizeLines": 474,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/evaluateRecord/DependModal/index.less",
+      "language": "css",
+      "sizeLines": 43,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/evaluateRecord/DependModal/index.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/evaluateRecord/index.less",
+      "language": "css",
+      "sizeLines": 6,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/evaluateRecord/index.tsx",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/evaluateRecord/params.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/MyActivity/index.module.less",
+      "language": "css",
+      "sizeLines": 143,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/serviceOrchestration/index.module.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/serviceOrchestration/index.tsx",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/taskCenter/index.module.less",
+      "language": "css",
+      "sizeLines": 587,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/templateManagement/applicationTemp/index.module.less",
+      "language": "css",
+      "sizeLines": 175,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "language": "css",
+      "sizeLines": 124,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/templateManagement/index.module.less",
+      "language": "css",
+      "sizeLines": 647,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/tenantManage/index.module.less",
+      "language": "css",
+      "sizeLines": 128,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/TestApi/index.tsx",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/types/index.ts",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/index.less",
+      "language": "css",
+      "sizeLines": 88,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/index.tsx",
+      "language": "typescript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/Workbench/createRecent/item.tsx",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less": [],
+    "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less": [],
+    "src/pages/businessComponentManage/componentTemplateChoose/index.module.less": [],
+    "src/pages/editor/index.module.less": [],
+    "src/pages/editor/topbar/index.module.less": [],
+    "src/pages/editor/topbar/ShareLink.tsx": [
+      "src/pages/editor/topbar/index.module.less"
+    ],
+    "src/pages/elementManagement/index.module.less": [],
+    "src/pages/evaluateRecord/DependModal/index.less": [],
+    "src/pages/evaluateRecord/DependModal/index.tsx": [
+      "src/pages/evaluateRecord/DependModal/index.less"
+    ],
+    "src/pages/evaluateRecord/index.less": [],
+    "src/pages/evaluateRecord/index.tsx": [
+      "src/pages/evaluateRecord/index.less"
+    ],
+    "src/pages/evaluateRecord/params.tsx": [],
+    "src/pages/MyActivity/index.module.less": [],
+    "src/pages/serviceOrchestration/index.module.less": [],
+    "src/pages/serviceOrchestration/index.tsx": [
+      "src/pages/serviceOrchestration/index.module.less"
+    ],
+    "src/pages/taskCenter/index.module.less": [],
+    "src/pages/templateManagement/applicationTemp/index.module.less": [],
+    "src/pages/templateManagement/businessTemplatePreview/index.module.less": [],
+    "src/pages/templateManagement/index.module.less": [],
+    "src/pages/tenantManage/index.module.less": [],
+    "src/pages/TestApi/index.tsx": [],
+    "src/pages/types/index.ts": [],
+    "src/pages/Workbench/createRecent/index.less": [],
+    "src/pages/Workbench/createRecent/index.tsx": [
+      "src/pages/Workbench/createRecent/index.less",
+      "src/pages/Workbench/index.less"
+    ],
+    "src/pages/Workbench/createRecent/item.tsx": [
+      "src/pages/Workbench/createRecent/index.less"
+    ]
+  }
+}

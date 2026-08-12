@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/cpp/cpp.js",
+      "type": "file",
+      "name": "cpp.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/cpp/cpp.js",
+      "summary": "Monaco 编辑器的 cpp 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/csharp/csharp.js",
+      "type": "file",
+      "name": "csharp.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/csharp/csharp.js",
+      "summary": "Monaco 编辑器的 csharp 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/csp/csp.js",
+      "type": "file",
+      "name": "csp.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/csp/csp.js",
+      "summary": "Monaco 编辑器的 csp 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/css/css.js",
+      "type": "file",
+      "name": "css.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/css/css.js",
+      "summary": "Monaco 编辑器的 css 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/cypher/cypher.js",
+      "type": "file",
+      "name": "cypher.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/cypher/cypher.js",
+      "summary": "Monaco 编辑器的 cypher 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/dart/dart.js",
+      "type": "file",
+      "name": "dart.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/dart/dart.js",
+      "summary": "Monaco 编辑器的 dart 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/dockerfile/dockerfile.js",
+      "type": "file",
+      "name": "dockerfile.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/dockerfile/dockerfile.js",
+      "summary": "Monaco 编辑器的 dockerfile 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/ecl/ecl.js",
+      "type": "file",
+      "name": "ecl.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/ecl/ecl.js",
+      "summary": "Monaco 编辑器的 ecl 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/elixir/elixir.js",
+      "type": "file",
+      "name": "elixir.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/elixir/elixir.js",
+      "summary": "Monaco 编辑器的 elixir 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/flow9/flow9.js",
+      "type": "file",
+      "name": "flow9.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/flow9/flow9.js",
+      "summary": "Monaco 编辑器的 flow9 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/freemarker2/freemarker2.js",
+      "type": "file",
+      "name": "freemarker2.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/freemarker2/freemarker2.js",
+      "summary": "Monaco 编辑器的 freemarker2 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/fsharp/fsharp.js",
+      "type": "file",
+      "name": "fsharp.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/fsharp/fsharp.js",
+      "summary": "Monaco 编辑器的 fsharp 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/go/go.js",
+      "type": "file",
+      "name": "go.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/go/go.js",
+      "summary": "Monaco 编辑器的 go 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/graphql/graphql.js",
+      "type": "file",
+      "name": "graphql.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/graphql/graphql.js",
+      "summary": "Monaco 编辑器的 graphql 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/handlebars/handlebars.js",
+      "type": "file",
+      "name": "handlebars.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/handlebars/handlebars.js",
+      "summary": "Monaco 编辑器的 handlebars 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/hcl/hcl.js",
+      "type": "file",
+      "name": "hcl.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/hcl/hcl.js",
+      "summary": "Monaco 编辑器的 hcl 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/html/html.js",
+      "type": "file",
+      "name": "html.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/html/html.js",
+      "summary": "Monaco 编辑器的 html 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/ini/ini.js",
+      "type": "file",
+      "name": "ini.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/ini/ini.js",
+      "summary": "Monaco 编辑器的 ini 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/java/java.js",
+      "type": "file",
+      "name": "java.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/java/java.js",
+      "summary": "Monaco 编辑器的 java 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/javascript/javascript.js",
+      "type": "file",
+      "name": "javascript.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/javascript/javascript.js",
+      "summary": "Monaco 编辑器的 javascript 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/julia/julia.js",
+      "type": "file",
+      "name": "julia.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/julia/julia.js",
+      "summary": "Monaco 编辑器的 julia 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/kotlin/kotlin.js",
+      "type": "file",
+      "name": "kotlin.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/kotlin/kotlin.js",
+      "summary": "Monaco 编辑器的 kotlin 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/less/less.js",
+      "type": "file",
+      "name": "less.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/less/less.js",
+      "summary": "Monaco 编辑器的 less 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/lexon/lexon.js",
+      "type": "file",
+      "name": "lexon.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/lexon/lexon.js",
+      "summary": "Monaco 编辑器的 lexon 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/basic-languages/liquid/liquid.js",
+      "type": "file",
+      "name": "liquid.js",
+      "filePath": "public/static/monaco-editor/vs1/basic-languages/liquid/liquid.js",
+      "summary": "Monaco 编辑器的 liquid 语言静态定义，注册语言配置和 Monarch 语法高亮规则。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "syntax-highlighting",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    }
+  ],
+  "edges": []
+}

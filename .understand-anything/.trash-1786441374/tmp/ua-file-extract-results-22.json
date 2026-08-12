@@ -1,0 +1,2603 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "page/src/api/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 17,
+      "functions": [
+        {
+          "name": "getPageDetail",
+          "startLine": 5,
+          "endLine": 19,
+          "params": [
+            "id",
+            "serviceTypeId",
+            "provinceId",
+            "relationId",
+            "appStatus"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getPageDetail",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getPageDetail",
+          "callee": "baseApiConvert",
+          "lineNumber": 13
+        },
+        {
+          "caller": "getPageDetail",
+          "callee": "request.post",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/page/TemplateNav.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 75,
+      "nonEmptyLines": 73,
+      "callGraph": [
+        {
+          "caller": "moveLeft",
+          "callee": "moveNav",
+          "lineNumber": 24
+        },
+        {
+          "caller": "moveRight",
+          "callee": "moveNav",
+          "lineNumber": 27
+        },
+        {
+          "caller": "moveNav",
+          "callee": "Number",
+          "lineNumber": 30
+        },
+        {
+          "caller": "moveNav",
+          "callee": "((navNodes?.current?.scrollLeft || 0) / 178).toFixed",
+          "lineNumber": 30
+        },
+        {
+          "caller": "moveNav",
+          "callee": "navNodes.current?.getBoundingClientRect",
+          "lineNumber": 31
+        },
+        {
+          "caller": "moveNav",
+          "callee": "templateNavBox.current?.getBoundingClientRect",
+          "lineNumber": 32
+        },
+        {
+          "caller": "moveNav",
+          "callee": "console.log",
+          "lineNumber": 34
+        },
+        {
+          "caller": "moveNav",
+          "callee": "Math.floor",
+          "lineNumber": 37
+        },
+        {
+          "caller": "moveNav",
+          "callee": "Math.ceil",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/page/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 891,
+      "nonEmptyLines": 845,
+      "functions": [
+        {
+          "name": "Pages",
+          "startLine": 32,
+          "endLine": 889,
+          "params": [
+            "{ userInfo, serialNo }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 33
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 36
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 39
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 48
+        },
+        {
+          "caller": "Pages",
+          "callee": "window.location.search.slice",
+          "lineNumber": 49
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 50
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 50
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 51
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 51
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 52
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 52
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 53
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 53
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 54
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 54
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 55
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 55
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 56
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 56
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 57
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 57
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 58
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 58
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 59
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 59
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 62
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 63
+        },
+        {
+          "caller": "Pages",
+          "callee": "handleExternalScroll",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.removeListener",
+          "lineNumber": 72
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.on",
+          "lineNumber": 73
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.removeListener",
+          "lineNumber": 75
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 80
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 81
+        },
+        {
+          "caller": "Pages",
+          "callee": "createCrossAPIEvents",
+          "lineNumber": 83
+        },
+        {
+          "caller": "Pages",
+          "callee": "crossApisGlobal?.forEach",
+          "lineNumber": 90
+        },
+        {
+          "caller": "handler",
+          "callee": "eventFunction[itemCrossAPI.eventName]",
+          "lineNumber": 93
+        },
+        {
+          "caller": "Pages",
+          "callee": "handlers.push",
+          "lineNumber": 95
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.on",
+          "lineNumber": 96
+        },
+        {
+          "caller": "Pages",
+          "callee": "handlers.forEach",
+          "lineNumber": 100
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.removeListener",
+          "lineNumber": 101
+        },
+        {
+          "caller": "createCrossAPIEvents",
+          "callee": "events?.forEach",
+          "lineNumber": 118
+        },
+        {
+          "caller": "createCrossAPIEvents",
+          "callee": "(obj[event.eventName] || []).concat",
+          "lineNumber": 120
+        },
+        {
+          "caller": "createCrossAPIEvents",
+          "callee": "obj[key]?.forEach",
+          "lineNumber": 127
+        },
+        {
+          "caller": "createCrossAPIEvents",
+          "callee": "setTimeout",
+          "lineNumber": 129
+        },
+        {
+          "caller": "createCrossAPIEvents",
+          "callee": "handleActionFlow",
+          "lineNumber": 130
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 139
+        },
+        {
+          "caller": "Pages",
+          "callee": "message.error",
+          "lineNumber": 142
+        },
+        {
+          "caller": "Pages",
+          "callee": "searchStr.split",
+          "lineNumber": 146
+        },
+        {
+          "caller": "Pages",
+          "callee": "paramPairs.forEach",
+          "lineNumber": 147
+        },
+        {
+          "caller": "Pages",
+          "callee": "pair.split",
+          "lineNumber": 149
+        },
+        {
+          "caller": "Pages",
+          "callee": "valueParts.join",
+          "lineNumber": 151
+        },
+        {
+          "caller": "Pages",
+          "callee": "decodeURIComponent",
+          "lineNumber": 153
+        },
+        {
+          "caller": "Pages",
+          "callee": "decodeURIComponent",
+          "lineNumber": 153
+        },
+        {
+          "caller": "Pages",
+          "callee": "message.error",
+          "lineNumber": 159
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 184
+        },
+        {
+          "caller": "Pages",
+          "callee": "saveUserInfo",
+          "lineNumber": 185
+        },
+        {
+          "caller": "Pages",
+          "callee": "usePageStore",
+          "lineNumber": 188
+        },
+        {
+          "caller": "Pages",
+          "callee": "useShallow",
+          "lineNumber": 189
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 200
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 201
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 202
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 203
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 207
+        },
+        {
+          "caller": "Pages",
+          "callee": "saveAppSequenceId",
+          "lineNumber": 209
+        },
+        {
+          "caller": "Pages",
+          "callee": "saveAppPageId",
+          "lineNumber": 210
+        },
+        {
+          "caller": "Pages",
+          "callee": "getPageDetail(paramObj.id, userInfo?.serviceTypeId!, userInfo?.provinceId!, paramObj.relationId, paramObj.appStatus)\r\n                .then(async (res: any) => {\r\n                    // 存储全局变量\r\n                    if (res.bean) {\r\n                        appSequenceData.appLevel = res.bean.appLevel;\r\n                        appSequenceData.belongVersion = res.bean.belongVersion;\r\n                        appSequenceData.projectId = res.bean.projectId;\r\n                        appSequenceData.provId = res.bean.provId;\r\n                        appSequenceData.relationId = res.bean.relationId;\r\n                        appSequenceData.appName = res.bean.appName;\r\n                        appSequenceData.id = res.bean.id;\r\n                        appSequenceData.sceneTypeNm = res.bean.sceneTypeNm;\r\n                        console.log('serialNo-------page------val', serialNo)\r\n                        appSequenceData.serialNo = serialNo || '';\r\n                        const pageBaseInfo: any = {\r\n                            relationId: res.bean.relationId || '',\r\n                            belongVersion: res.bean.belongVersion || '',\r\n                            provId: res.bean.provId || '',\r\n                            appLevel: res.bean.appLevel || '',\r\n                            id: res.bean.id,\r\n                            name: res.bean.appName,\r\n                            projectId: res.bean.projectId,\r\n                        };\r\n                        savePageInfo(pageBaseInfo);\r\n                    }\r\n                    // 检查应用状态，如果状态为11则显示下架公告\r\n                    if (res.bean.appStatus == \"11\") {\r\n                        setAppStatus('11');\r\n                        setDownNotice(res.bean.downNotice || '该应用目前已下架，暂时无法提供服务。'); // 从 DOWN_NOTICE 字段获取公告内容\r\n\r\n                    }\r\n                    try {\r\n                        if (res.bean.elementIds && res.bean.elementIds.length > 0) {\r\n                            const elementList: any = await request.post('/element/queryElementList', {\r\n                                params: {\r\n                                    elementIds: res.bean.elementIds, // 查询所有自定义元素\r\n                                    // provId: userInfo?.provinceId,\r\n                                },\r\n                            });\r\n\r\n                            if (elementList && elementList.beans) {\r\n                                // 将接口返回的数据传递给 materials/index.tsx 的 queryElementFun 处理\r\n                                // 等待所有自定义元素加载完成\r\n                                await queryElementFun(elementList.beans);\r\n                            }\r\n                        }\r\n                    } catch (error) {\r\n                        console.error('查询自定义元素失败:', error);\r\n                    }\r\n                    if (res.bean.atomList && res.bean.atomList.length > 0) {\r\n                        setPageType(\"ZPS\");\r\n                        setPageDataLoading(true);\r\n                        let pageData: any = {};\r\n                        let pageBaseInfo: any = {};\r\n                        try {\r\n                            // 性能优化：使用 Web Worker 异步解析 Schema\r\n                            const worker = new DataWorker();\r\n                            pageDataWorkerRef.current = worker;\r\n                            worker.postMessage({ rawData: res.bean });\r\n                            worker.onmessage = (e) => {\r\n                                const { success, data, error, rawData } = e.data;\r\n                                if (success && data) {\r\n                                    pageData = data.pageData || {};\r\n                                    updateApiConfig({\r\n                                        api: pageData.apisGlobal,\r\n                                        editApiOutData,\r\n                                    });\r\n                                    if (window.gdp && window._monitor) {\r\n                                        window._monitor.setJson(pageData);\r\n                                        console.log('serialNo-------appSequenceData', appSequenceData)\r\n                                        console.log('serialNo-------appSequenceData------val', appSequenceData.serialNo)\r\n                                        const monitorJson: Record<string, any> = {\r\n                                            appSequenceId: window.appSequenceId, // 页面访问业务侧全局变量\r\n                                            appId: appSequenceData.id, // 应用ID\r\n                                            appLevel: appSequenceData.appLevel, // 应用级别\r\n                                            appVersion: appSequenceData.belongVersion, // 应用版本号\r\n                                            projectId: appSequenceData.projectId, // 应用所属项目\r\n                                            appPovcode: appSequenceData.provId, // 所属应用的省份\r\n                                            relationID: appSequenceData.relationId, // 应用的关系ID\r\n                                            sceneTypeNm: appSequenceData.sceneTypeNm, // 应用的关系ID\r\n                                            serialNo: appSequenceData.serialNo,\r\n                                            appName: appSequenceData.appName,\r\n                                        };\r\n                                        if (paramObj && paramObj.appStatus == \"1\") {\r\n                                            monitorJson.isTestShow = \"1\";\r\n                                        }\r\n                                        window._monitor.setGeneralProps(monitorJson);\r\n                                    }\r\n                                    clearPageInfo();\r\n                                    pageBaseInfo = {\r\n                                        relationId: rawData?.relationId || data?.relationId || '',\r\n                                        belongVersion: rawData?.belongVersion || data?.belongVersion || '',\r\n                                        provId: rawData?.provId || data?.provId || '',\r\n                                        appLevel: rawData?.appLevel || data?.appLevel || '',\r\n                                        id: rawData?.id || data?.id || \"\",\r\n                                        name: rawData?.appName || data?.appName || \"\",\r\n                                        projectId: rawData?.projectId || data?.projectId || \"\",\r\n                                    };\r\n                                    savePageInfo({\r\n                                        ...pageBaseInfo,\r\n                                        pageData,\r\n                                    });\r\n                                    setPageData(pageData);\r\n                                    setTheme(pageData.config?.props?.theme || '#0085d0');\r\n                                } else {\r\n                                    console.error('Schema 解析失败:', error);\r\n                                }\r\n                                setPageDataLoading(false);\r\n                                worker.terminate();\r\n                                pageDataWorkerRef.current = null;\r\n                            };\r\n                            worker.onerror = (error) => {\r\n                                console.error('Worker 错误:', error);\r\n                                message.error('页面数据解析失败');\r\n                                setPageDataLoading(false);\r\n                                worker.terminate();\r\n                                pageDataWorkerRef.current = null;\r\n                            };\r\n                            // 如果 Worker 没有在 10 秒内返回，使用备用方案\r\n                            const timeoutId = setTimeout(() => {\r\n                                if (pageDataLoading) {\r\n                                    worker.terminate();\r\n                                    pageDataWorkerRef.current = null;\r\n                                    // 备用：同步解析\r\n                                    const _res = dealPageData(res.bean);\r\n                                    pageData = _res.pageData || {};\r\n                                    updateApiConfig({ api: pageData.apisGlobal, editApiOutData });\r\n                                    clearPageInfo();\r\n                                    savePageInfo({ ..._res, pageData });\r\n                                    setPageDataLoading(false);\r\n                                    setPageData(pageData);\r\n                                    setTheme(pageData.config?.props?.theme || '#0085d0');\r\n                                }\r\n                            }, 10000);\r\n                            pageDataTimeoutRef.current = timeoutId;\r\n                        } catch (error) { }\r\n                    } else if (res.bean.componentList && res.bean.componentList.length > 0) {\r\n                        setPageType(\"XDS\");\r\n                        setRefreshPageEvent(res.bean.refreshPageEvent ?? \"\");\r\n                        let nodeList: any = res.bean.componentList;\r\n                        nodeList.forEach((componentData: any) => {\r\n                            const parentId = componentData.parentId;\r\n                            if (!parentId || parentId.indexOf(\"begin\") > -1 || parentId.indexOf(\"null\") > -1) {\r\n                                newComponentMap.current[\"start\"] = componentData;\r\n                            } else {\r\n                                const parentIds = parentId.split(\",\");\r\n                                const branchIndexes = componentData.branchIndex?.split(\",\") || [];\r\n                                parentIds.forEach((pid: any, i: number) => {\r\n                                    const branchId = `${pid}-${branchIndexes[i]}`;\r\n                                    newComponentMap.current[branchId] = componentData;\r\n                                });\r\n                            }\r\n                        });\r\n                        // 加载起始节点\r\n                        addProcessNode(newComponentMap.current[\"start\"]);\r\n                        if (window.gdp && window._monitor) {\r\n                            window._monitor.setJson(pageData);\r\n                            const monitorJson: Record<string, any> = {\r\n                                appSequenceId: window.appSequenceId, // 页面访问业务侧全局变量\r\n                                appId: appSequenceData.id, // 应用ID\r\n                                appLevel: appSequenceData.appLevel, // 应用级别\r\n                                appVersion: appSequenceData.belongVersion, // 应用版本号\r\n                                projectId: appSequenceData.projectId, // 应用所属项目\r\n                                appPovcode: appSequenceData.provId, // 所属应用的省份\r\n                                relationID: appSequenceData.relationId // 应用的关系ID\r\n                            };\r\n                            if (paramObj && paramObj.appStatus == \"1\") {\r\n                                monitorJson.isTestShow = \"1\";\r\n                            }\r\n                            window._monitor.setGeneralProps(monitorJson);\r\n                        }\r\n                    }\r\n                })\r\n                .catch",
+          "lineNumber": 211
+        },
+        {
+          "caller": "Pages",
+          "callee": "getPageDetail(paramObj.id, userInfo?.serviceTypeId!, userInfo?.provinceId!, paramObj.relationId, paramObj.appStatus)\r\n                .then",
+          "lineNumber": 211
+        },
+        {
+          "caller": "Pages",
+          "callee": "getPageDetail",
+          "lineNumber": 211
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.log",
+          "lineNumber": 223
+        },
+        {
+          "caller": "Pages",
+          "callee": "savePageInfo",
+          "lineNumber": 234
+        },
+        {
+          "caller": "Pages",
+          "callee": "setAppStatus",
+          "lineNumber": 238
+        },
+        {
+          "caller": "Pages",
+          "callee": "setDownNotice",
+          "lineNumber": 239
+        },
+        {
+          "caller": "Pages",
+          "callee": "request.post",
+          "lineNumber": 244
+        },
+        {
+          "caller": "Pages",
+          "callee": "queryElementFun",
+          "lineNumber": 254
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.error",
+          "lineNumber": 258
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageType",
+          "lineNumber": 261
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageDataLoading",
+          "lineNumber": 262
+        },
+        {
+          "caller": "Pages",
+          "callee": "worker.postMessage",
+          "lineNumber": 269
+        },
+        {
+          "caller": "Pages",
+          "callee": "updateApiConfig",
+          "lineNumber": 274
+        },
+        {
+          "caller": "Pages",
+          "callee": "window._monitor.setJson",
+          "lineNumber": 279
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.log",
+          "lineNumber": 280
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.log",
+          "lineNumber": 281
+        },
+        {
+          "caller": "Pages",
+          "callee": "window._monitor.setGeneralProps",
+          "lineNumber": 297
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearPageInfo",
+          "lineNumber": 299
+        },
+        {
+          "caller": "Pages",
+          "callee": "savePageInfo",
+          "lineNumber": 309
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageData",
+          "lineNumber": 313
+        },
+        {
+          "caller": "Pages",
+          "callee": "setTheme",
+          "lineNumber": 314
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.error",
+          "lineNumber": 316
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageDataLoading",
+          "lineNumber": 318
+        },
+        {
+          "caller": "Pages",
+          "callee": "worker.terminate",
+          "lineNumber": 319
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.error",
+          "lineNumber": 323
+        },
+        {
+          "caller": "Pages",
+          "callee": "message.error",
+          "lineNumber": 324
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageDataLoading",
+          "lineNumber": 325
+        },
+        {
+          "caller": "Pages",
+          "callee": "worker.terminate",
+          "lineNumber": 326
+        },
+        {
+          "caller": "Pages",
+          "callee": "setTimeout",
+          "lineNumber": 330
+        },
+        {
+          "caller": "Pages",
+          "callee": "worker.terminate",
+          "lineNumber": 332
+        },
+        {
+          "caller": "Pages",
+          "callee": "dealPageData",
+          "lineNumber": 335
+        },
+        {
+          "caller": "Pages",
+          "callee": "updateApiConfig",
+          "lineNumber": 337
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearPageInfo",
+          "lineNumber": 338
+        },
+        {
+          "caller": "Pages",
+          "callee": "savePageInfo",
+          "lineNumber": 339
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageDataLoading",
+          "lineNumber": 340
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageData",
+          "lineNumber": 341
+        },
+        {
+          "caller": "Pages",
+          "callee": "setTheme",
+          "lineNumber": 342
+        },
+        {
+          "caller": "Pages",
+          "callee": "setPageType",
+          "lineNumber": 348
+        },
+        {
+          "caller": "Pages",
+          "callee": "setRefreshPageEvent",
+          "lineNumber": 349
+        },
+        {
+          "caller": "Pages",
+          "callee": "nodeList.forEach",
+          "lineNumber": 351
+        },
+        {
+          "caller": "Pages",
+          "callee": "parentId.indexOf",
+          "lineNumber": 353
+        },
+        {
+          "caller": "Pages",
+          "callee": "parentId.indexOf",
+          "lineNumber": 353
+        },
+        {
+          "caller": "Pages",
+          "callee": "parentId.split",
+          "lineNumber": 356
+        },
+        {
+          "caller": "Pages",
+          "callee": "componentData.branchIndex?.split",
+          "lineNumber": 357
+        },
+        {
+          "caller": "Pages",
+          "callee": "parentIds.forEach",
+          "lineNumber": 358
+        },
+        {
+          "caller": "Pages",
+          "callee": "addProcessNode",
+          "lineNumber": 365
+        },
+        {
+          "caller": "Pages",
+          "callee": "window._monitor.setJson",
+          "lineNumber": 367
+        },
+        {
+          "caller": "Pages",
+          "callee": "window._monitor.setGeneralProps",
+          "lineNumber": 380
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 389
+        },
+        {
+          "caller": "Pages",
+          "callee": "Object.entries(formData || {}).forEach",
+          "lineNumber": 391
+        },
+        {
+          "caller": "Pages",
+          "callee": "Object.entries",
+          "lineNumber": 391
+        },
+        {
+          "caller": "Pages",
+          "callee": "Object.entries(newFormItem || {}).forEach",
+          "lineNumber": 393
+        },
+        {
+          "caller": "Pages",
+          "callee": "Object.entries",
+          "lineNumber": 393
+        },
+        {
+          "caller": "Pages",
+          "callee": "allRenderElements.slice",
+          "lineNumber": 409
+        },
+        {
+          "caller": "Pages",
+          "callee": "setAllRenderElements",
+          "lineNumber": 410
+        },
+        {
+          "caller": "Pages",
+          "callee": "checkBranch",
+          "lineNumber": 414
+        },
+        {
+          "caller": "Pages",
+          "callee": "addProcessNode",
+          "lineNumber": 416
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 424
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 425
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 426
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 429
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 430
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 433
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 434
+        },
+        {
+          "caller": "Pages",
+          "callee": "useMemo",
+          "lineNumber": 437
+        },
+        {
+          "caller": "Pages",
+          "callee": "debounce",
+          "lineNumber": 438
+        },
+        {
+          "caller": "Pages",
+          "callee": "deleteNodeId.push",
+          "lineNumber": 444
+        },
+        {
+          "caller": "Pages",
+          "callee": "node.branchConfig?.interfaceId?.value.indexOf",
+          "lineNumber": 448
+        },
+        {
+          "caller": "Pages",
+          "callee": "checkVABranch",
+          "lineNumber": 449
+        },
+        {
+          "caller": "Pages",
+          "callee": "allRenderElementsRef.current.filter",
+          "lineNumber": 459
+        },
+        {
+          "caller": "Pages",
+          "callee": "deleteNodeId.indexOf",
+          "lineNumber": 459
+        },
+        {
+          "caller": "Pages",
+          "callee": "setAllRenderElements",
+          "lineNumber": 460
+        },
+        {
+          "caller": "Pages",
+          "callee": "addProcessNode",
+          "lineNumber": 461
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 466
+        },
+        {
+          "caller": "Pages",
+          "callee": "debouncedSetConfig",
+          "lineNumber": 467
+        },
+        {
+          "caller": "Pages",
+          "callee": "JSON.stringify",
+          "lineNumber": 468
+        },
+        {
+          "caller": "mergeVariable",
+          "callee": "variables.map",
+          "lineNumber": 472
+        },
+        {
+          "caller": "mergeVariable",
+          "callee": "(pageData.variables || []).forEach",
+          "lineNumber": 473
+        },
+        {
+          "caller": "mergeVariable",
+          "callee": "variablesNames.indexOf",
+          "lineNumber": 475
+        },
+        {
+          "caller": "mergeVariable",
+          "callee": "addVariable",
+          "lineNumber": 476
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "request.post",
+          "lineNumber": 487
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "elementIds.filter",
+          "lineNumber": 489
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "getComponent",
+          "lineNumber": 489
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "request.post",
+          "lineNumber": 492
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "queryElementFun",
+          "lineNumber": 502
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "console.error",
+          "lineNumber": 506
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "componentWorker.postMessage",
+          "lineNumber": 511
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "componentWorker.terminate",
+          "lineNumber": 514
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "resolve",
+          "lineNumber": 515
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "dealPageData",
+          "lineNumber": 515
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "componentWorker.terminate",
+          "lineNumber": 518
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "resolve",
+          "lineNumber": 519
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "dealPageData",
+          "lineNumber": 519
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "dealPageData",
+          "lineNumber": 525
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "updateApiConfig",
+          "lineNumber": 527
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "updateApiGlobal",
+          "lineNumber": 532
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "JSON.parse",
+          "lineNumber": 532
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "JSON.stringify",
+          "lineNumber": 532
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "mergeVariable",
+          "lineNumber": 533
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "setComponentInfoMap",
+          "lineNumber": 537
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "setNodeInfoMap",
+          "lineNumber": 538
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "rendererComponentNode",
+          "lineNumber": 540
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "JSON.parse",
+          "lineNumber": 551
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "console.log",
+          "lineNumber": 557
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "getFieldFromAPI(branchConfig.interfaceId).then",
+          "lineNumber": 561
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "getFieldFromAPI",
+          "lineNumber": 561
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "checkBranch",
+          "lineNumber": 562
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "addProcessNode",
+          "lineNumber": 564
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "branchConfig.optionsList.forEach",
+          "lineNumber": 570
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "optionsConfig.conditionList.forEach",
+          "lineNumber": 571
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "checkVABranch",
+          "lineNumber": 584
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "addProcessNode",
+          "lineNumber": 586
+        },
+        {
+          "caller": "addProcessNode",
+          "callee": "addProcessNode",
+          "lineNumber": 591
+        },
+        {
+          "caller": "Pages",
+          "callee": "useCallback",
+          "lineNumber": 596
+        },
+        {
+          "caller": "Pages",
+          "callee": "console.log",
+          "lineNumber": 598
+        },
+        {
+          "caller": "Pages",
+          "callee": "setAllRenderElements",
+          "lineNumber": 599
+        },
+        {
+          "caller": "Pages",
+          "callee": "addProcessNode",
+          "lineNumber": 600
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 604
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 606
+        },
+        {
+          "caller": "Pages",
+          "callee": "refreshPageEvent.split(\",\").filter",
+          "lineNumber": 608
+        },
+        {
+          "caller": "Pages",
+          "callee": "refreshPageEvent.split",
+          "lineNumber": 608
+        },
+        {
+          "caller": "handler",
+          "callee": "refreshPageRef.current",
+          "lineNumber": 609
+        },
+        {
+          "caller": "Pages",
+          "callee": "eventList.forEach",
+          "lineNumber": 610
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.removeListener",
+          "lineNumber": 611
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.on",
+          "lineNumber": 612
+        },
+        {
+          "caller": "Pages",
+          "callee": "eventList.forEach",
+          "lineNumber": 615
+        },
+        {
+          "caller": "Pages",
+          "callee": "CrossAPI.removeListener",
+          "lineNumber": 616
+        },
+        {
+          "caller": "checkVABranch",
+          "callee": "getVariableData",
+          "lineNumber": 622
+        },
+        {
+          "caller": "checkVABranch",
+          "callee": "value",
+          "lineNumber": 623
+        },
+        {
+          "caller": "checkVABranch",
+          "callee": "option.conditionList.forEach",
+          "lineNumber": 627
+        },
+        {
+          "caller": "checkVABranch",
+          "callee": "getResultWithValueByRelation",
+          "lineNumber": 628
+        },
+        {
+          "caller": "getVariableData",
+          "callee": "getPageVariable",
+          "lineNumber": 643
+        },
+        {
+          "caller": "getVariableData",
+          "callee": "createFunction",
+          "lineNumber": 644
+        },
+        {
+          "caller": "getVariableData",
+          "callee": "dynamicFunc",
+          "lineNumber": 648
+        },
+        {
+          "caller": "rendererComponentNode",
+          "callee": "JSON.parse",
+          "lineNumber": 654
+        },
+        {
+          "caller": "rendererComponentNode",
+          "callee": "JSON.stringify",
+          "lineNumber": 654
+        },
+        {
+          "caller": "rendererComponentNode",
+          "callee": "pageData.elements.forEach",
+          "lineNumber": 655
+        },
+        {
+          "caller": "rendererComponentNode",
+          "callee": "addBussinessElement",
+          "lineNumber": 658
+        },
+        {
+          "caller": "rendererComponentNode",
+          "callee": "setAllRenderElements",
+          "lineNumber": 659
+        },
+        {
+          "caller": "checkBranch",
+          "callee": "conditionList.forEach",
+          "lineNumber": 679
+        },
+        {
+          "caller": "checkBranch",
+          "callee": "getResultWithValueByRelation",
+          "lineNumber": 697
+        },
+        {
+          "caller": "checkBranch",
+          "callee": "getResultWithValueByRelation",
+          "lineNumber": 703
+        },
+        {
+          "caller": "checkBranch",
+          "callee": "getResultWithValueByRelation",
+          "lineNumber": 712
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "['greater', '<', 'equalOrGreater', '<=', '>', '>='].indexOf",
+          "lineNumber": 728
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number.isNaN",
+          "lineNumber": 729
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 729
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number.isNaN",
+          "lineNumber": 729
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 729
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 743
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 743
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 745
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 745
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 747
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 747
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 749
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 749
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 751
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 751
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 753
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "Number",
+          "lineNumber": 753
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String(val1).indexOf",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 755
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String(val1).indexOf",
+          "lineNumber": 757
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 757
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 757
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String(val1).indexOf",
+          "lineNumber": 759
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 759
+        },
+        {
+          "caller": "getResultWithValueByRelation",
+          "callee": "String",
+          "lineNumber": 759
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 767
+        },
+        {
+          "caller": "Pages",
+          "callee": "Array.from",
+          "lineNumber": 768
+        },
+        {
+          "caller": "Pages",
+          "callee": "allRenderElements.map",
+          "lineNumber": 768
+        },
+        {
+          "caller": "Pages",
+          "callee": "nodeIds.map",
+          "lineNumber": 769
+        },
+        {
+          "caller": "Pages",
+          "callee": "setNodeList",
+          "lineNumber": 788
+        },
+        {
+          "caller": "Pages",
+          "callee": "useState",
+          "lineNumber": 790
+        },
+        {
+          "caller": "scroll",
+          "callee": "componentList?.current?.querySelectorAll",
+          "lineNumber": 793
+        },
+        {
+          "caller": "scroll",
+          "callee": "componentList?.current?.getBoundingClientRect",
+          "lineNumber": 794
+        },
+        {
+          "caller": "scroll",
+          "callee": "Array.from",
+          "lineNumber": 795
+        },
+        {
+          "caller": "scroll",
+          "callee": "allRenderElements.map",
+          "lineNumber": 795
+        },
+        {
+          "caller": "scroll",
+          "callee": "nodeList[i].children[0].getBoundingClientRect",
+          "lineNumber": 797
+        },
+        {
+          "caller": "scroll",
+          "callee": "nodeIds.indexOf",
+          "lineNumber": 798
+        },
+        {
+          "caller": "scroll",
+          "callee": "setComponentIndex",
+          "lineNumber": 802
+        },
+        {
+          "caller": "Pages",
+          "callee": "useRef",
+          "lineNumber": 807
+        },
+        {
+          "caller": "updateScroll",
+          "callee": "allRenderElements.map",
+          "lineNumber": 810
+        },
+        {
+          "caller": "updateScroll",
+          "callee": "Array.from",
+          "lineNumber": 811
+        },
+        {
+          "caller": "updateScroll",
+          "callee": "componentList?.current?.querySelectorAll",
+          "lineNumber": 812
+        },
+        {
+          "caller": "updateScroll",
+          "callee": "nodeIdsArr.indexOf",
+          "lineNumber": 814
+        },
+        {
+          "caller": "Pages",
+          "callee": "useEffect",
+          "lineNumber": 819
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "pageDataWorkerRef.current.terminate",
+          "lineNumber": 822
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearTimeout",
+          "lineNumber": 826
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearComponentRef",
+          "lineNumber": 829
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearTimerList",
+          "lineNumber": 830
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearProcessedMessageIds",
+          "lineNumber": 831
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "resetEchartsPreload",
+          "lineNumber": 832
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearElementComponents",
+          "lineNumber": 833
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "clearBabelCache",
+          "lineNumber": 834
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "usePageStore.getState().clearPageInfo",
+          "lineNumber": 835
+        },
+        {
+          "caller": "handleBeforeUnload",
+          "callee": "usePageStore.getState",
+          "lineNumber": 835
+        },
+        {
+          "caller": "Pages",
+          "callee": "window.addEventListener",
+          "lineNumber": 837
+        },
+        {
+          "caller": "Pages",
+          "callee": "window.removeEventListener",
+          "lineNumber": 839
+        },
+        {
+          "caller": "Pages",
+          "callee": "pageDataWorkerRef.current.terminate",
+          "lineNumber": 842
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearTimeout",
+          "lineNumber": 846
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearComponentRef",
+          "lineNumber": 849
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearTimerList",
+          "lineNumber": 850
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearProcessedMessageIds",
+          "lineNumber": 851
+        },
+        {
+          "caller": "Pages",
+          "callee": "resetEchartsPreload",
+          "lineNumber": 852
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearElementComponents",
+          "lineNumber": 853
+        },
+        {
+          "caller": "Pages",
+          "callee": "clearBabelCache",
+          "lineNumber": 854
+        },
+        {
+          "caller": "Pages",
+          "callee": "setAppStatus",
+          "lineNumber": 879
+        },
+        {
+          "caller": "Pages",
+          "callee": "setDownNotice",
+          "lineNumber": 880
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/types/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 28,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/utils/ChromeVersionLow.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "ChromeVersionLow",
+          "startLine": 4,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ChromeVersionLow",
+          "callee": "getChromeVersion",
+          "lineNumber": 5
+        },
+        {
+          "caller": "ChromeVersionLow",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "ChromeVersionLow",
+          "callee": "version?.split",
+          "lineNumber": 7
+        },
+        {
+          "caller": "ChromeVersionLow",
+          "callee": "setChromeVersionLowShow",
+          "lineNumber": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/utils/dataToCanvas.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 137,
+      "nonEmptyLines": 137,
+      "functions": [
+        {
+          "name": "dealDataId",
+          "startLine": 2,
+          "endLine": 22,
+          "params": [
+            "res"
+          ]
+        },
+        {
+          "name": "dealPageData",
+          "startLine": 23,
+          "endLine": 105,
+          "params": [
+            "res"
+          ]
+        },
+        {
+          "name": "dealPageDataId",
+          "startLine": 108,
+          "endLine": 137,
+          "params": [
+            "pageData"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "dealPageDataId",
+          "line": 108,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "dealDataId",
+          "callee": "res.atomList.forEach",
+          "lineNumber": 3
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "item.atomId.replace",
+          "lineNumber": 7
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "res.branchName.replace",
+          "lineNumber": 8
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "JSON.stringify",
+          "lineNumber": 10
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "item.atomId.replace",
+          "lineNumber": 12
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "res.branchName.replace",
+          "lineNumber": 13
+        },
+        {
+          "caller": "dealDataId",
+          "callee": "JSON.parse",
+          "lineNumber": 14
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "dealDataId",
+          "lineNumber": 24
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "res.atomList.shift",
+          "lineNumber": 25
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "res.atomList.forEach",
+          "lineNumber": 40
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "atomMap_parentId[_res.elementsMap[key].parentId || 'undefined'].push",
+          "lineNumber": 59
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "contConfig?.componentList?.map",
+          "lineNumber": 61
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "atomMap_parentId[parentId].sort",
+          "lineNumber": 63
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "idSorts?.indexOf",
+          "lineNumber": 63
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "idSorts?.indexOf",
+          "lineNumber": 63
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "JSON.parse",
+          "lineNumber": 67
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "JSON.stringify",
+          "lineNumber": 67
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "ids.shift",
+          "lineNumber": 69
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "(atomMap_parentId[id] || []).forEach",
+          "lineNumber": 71
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "atomMap[id].elements.push",
+          "lineNumber": 72
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "ids.push",
+          "lineNumber": 73
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "rootNode.elements.push",
+          "lineNumber": 82
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "rootNode.elements.sort",
+          "lineNumber": 85
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "idSorts?.indexOf",
+          "lineNumber": 85
+        },
+        {
+          "caller": "dealPageData",
+          "callee": "idSorts?.indexOf",
+          "lineNumber": 85
+        },
+        {
+          "caller": "recursion",
+          "callee": "nodes.forEach",
+          "lineNumber": 114
+        },
+        {
+          "caller": "recursion",
+          "callee": "createId",
+          "lineNumber": 117
+        },
+        {
+          "caller": "recursion",
+          "callee": "node.id.split",
+          "lineNumber": 117
+        },
+        {
+          "caller": "recursion",
+          "callee": "oldId.indexOf",
+          "lineNumber": 117
+        },
+        {
+          "caller": "recursion",
+          "callee": "recursion",
+          "lineNumber": 121
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "recursion",
+          "lineNumber": 125
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "JSON.stringify",
+          "lineNumber": 126
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "JSON.stringify",
+          "lineNumber": 127
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "oldId.replace",
+          "lineNumber": 130
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "_elements.replace",
+          "lineNumber": 132
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "_elementsMap.replace",
+          "lineNumber": 133
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "JSON.parse",
+          "lineNumber": 135
+        },
+        {
+          "caller": "dealPageDataId",
+          "callee": "JSON.parse",
+          "lineNumber": 136
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/utils/dealApiGlobal.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "updateApiConfig",
+          "startLine": 2,
+          "endLine": 41,
+          "params": [
+            "{ api, apiOutData, editApiOutData }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "updateApiConfig",
+          "line": 2,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "updateApiConfig",
+          "callee": "resolve",
+          "lineNumber": 7
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "(api || []).forEach",
+          "lineNumber": 9
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "handleApi(\r\n                    {\r\n                        sourceType: 'api',\r\n                        id: id,\r\n                        source: '',\r\n                        sourceField: {\r\n                            type: 'variable',\r\n                            value: 'Map',\r\n                        },\r\n                        params: _api.params,\r\n                    },\r\n                    {},\r\n                ).then",
+          "lineNumber": 13
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "handleApi",
+          "lineNumber": 13
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "editApiOutData",
+          "lineNumber": 27
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "resolve",
+          "lineNumber": 30
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "setTimeout",
+          "lineNumber": 37
+        },
+        {
+          "caller": "updateApiConfig",
+          "callee": "resolve",
+          "lineNumber": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/utils/request.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 394,
+      "nonEmptyLines": 358,
+      "functions": [
+        {
+          "name": "showErrorIfNeeded",
+          "startLine": 34,
+          "endLine": 39,
+          "params": [
+            "msg"
+          ]
+        },
+        {
+          "name": "loadCache",
+          "startLine": 142,
+          "endLine": 200,
+          "params": [
+            "url",
+            "data",
+            "options"
+          ]
+        },
+        {
+          "name": "updateRequestCache",
+          "startLine": 201,
+          "endLine": 208,
+          "params": [
+            "url",
+            "params",
+            "res",
+            "resultType"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "showErrorIfNeeded",
+          "callee": "Date.now",
+          "lineNumber": 35
+        },
+        {
+          "caller": "loadCache",
+          "callee": "window.requestCache.filter",
+          "lineNumber": 143
+        },
+        {
+          "caller": "loadCache",
+          "callee": "JSON.stringify",
+          "lineNumber": 143
+        },
+        {
+          "caller": "loadCache",
+          "callee": "Promise.resolve",
+          "lineNumber": 147
+        },
+        {
+          "caller": "loadCache",
+          "callee": "Promise.reject",
+          "lineNumber": 149
+        },
+        {
+          "caller": "loading",
+          "callee": "window.requestCache.filter",
+          "lineNumber": 156
+        },
+        {
+          "caller": "loading",
+          "callee": "JSON.stringify",
+          "lineNumber": 156
+        },
+        {
+          "caller": "loading",
+          "callee": "resolve",
+          "lineNumber": 160
+        },
+        {
+          "caller": "loading",
+          "callee": "reject",
+          "lineNumber": 162
+        },
+        {
+          "caller": "loading",
+          "callee": "setTimeout",
+          "lineNumber": 166
+        },
+        {
+          "caller": "loading",
+          "callee": "loading",
+          "lineNumber": 167
+        },
+        {
+          "caller": "loading",
+          "callee": "reject",
+          "lineNumber": 170
+        },
+        {
+          "caller": "loading",
+          "callee": "instance.post(url, data, options).then((res: any) => {\r\n                            updateRequestCache(url, data, res, \"success\");\r\n                            resolve(res);\r\n                        }).catch",
+          "lineNumber": 174
+        },
+        {
+          "caller": "loading",
+          "callee": "instance.post(url, data, options).then",
+          "lineNumber": 174
+        },
+        {
+          "caller": "loading",
+          "callee": "instance.post",
+          "lineNumber": 174
+        },
+        {
+          "caller": "loading",
+          "callee": "updateRequestCache",
+          "lineNumber": 175
+        },
+        {
+          "caller": "loading",
+          "callee": "resolve",
+          "lineNumber": 176
+        },
+        {
+          "caller": "loading",
+          "callee": "updateRequestCache",
+          "lineNumber": 178
+        },
+        {
+          "caller": "loading",
+          "callee": "reject",
+          "lineNumber": 179
+        },
+        {
+          "caller": "loadCache",
+          "callee": "loading",
+          "lineNumber": 183
+        },
+        {
+          "caller": "loadCache",
+          "callee": "window.requestCache.push",
+          "lineNumber": 187
+        },
+        {
+          "caller": "loadCache",
+          "callee": "JSON.stringify",
+          "lineNumber": 189
+        },
+        {
+          "caller": "loadCache",
+          "callee": "instance.post(url, data, options).then((res: any) => {\r\n            updateRequestCache(url, data, res, \"success\");\r\n            resolve(res);\r\n        }).catch",
+          "lineNumber": 192
+        },
+        {
+          "caller": "loadCache",
+          "callee": "instance.post(url, data, options).then",
+          "lineNumber": 192
+        },
+        {
+          "caller": "loadCache",
+          "callee": "instance.post",
+          "lineNumber": 192
+        },
+        {
+          "caller": "loadCache",
+          "callee": "updateRequestCache",
+          "lineNumber": 193
+        },
+        {
+          "caller": "loadCache",
+          "callee": "resolve",
+          "lineNumber": 194
+        },
+        {
+          "caller": "loadCache",
+          "callee": "updateRequestCache",
+          "lineNumber": 196
+        },
+        {
+          "caller": "loadCache",
+          "callee": "reject",
+          "lineNumber": 197
+        },
+        {
+          "caller": "updateRequestCache",
+          "callee": "JSON.stringify",
+          "lineNumber": 203
+        },
+        {
+          "caller": "get",
+          "callee": "instance.get",
+          "lineNumber": 218
+        },
+        {
+          "caller": "post",
+          "callee": "instance.post",
+          "lineNumber": 233
+        },
+        {
+          "caller": "put",
+          "callee": "instance.put",
+          "lineNumber": 243
+        },
+        {
+          "caller": "delete",
+          "callee": "instance.delete",
+          "lineNumber": 257
+        },
+        {
+          "caller": "patch",
+          "callee": "instance.patch",
+          "lineNumber": 267
+        },
+        {
+          "caller": "download",
+          "callee": "instance.post",
+          "lineNumber": 293
+        },
+        {
+          "caller": "download",
+          "callee": "instance.get",
+          "lineNumber": 295
+        },
+        {
+          "caller": "download",
+          "callee": "requestPromise\r\n            .then((response: AxiosResponse<Blob>) => {\r\n                // 校验 blob 数据是否有效\r\n                if (!response.data || response.data.size === 0) {\r\n                    throw new Error(DOWNLOAD_ERROR_MSG);\r\n                }\r\n\r\n                // 解析文件名：优先从响应头获取，其次用自定义 filename，最后兜底\r\n                const fileNameHeader = response.headers['filename'] || response.headers['x-filename'];\r\n                const fileName = fileNameHeader\r\n                    ? decodeURIComponent(fileNameHeader) // 解码中文文件名\r\n                    : options.filename || 'download.file';\r\n\r\n                // 创建下载链接\r\n                const blob = new Blob([response.data], { type: response.data.type || 'application/octet-stream' });\r\n                const blobUrl = URL.createObjectURL(blob);\r\n                const link = document.createElement('a');\r\n\r\n                link.href = blobUrl;\r\n                link.download = fileName;\r\n                document?.body?.appendChild(link);\r\n                link.click(); // 触发下载\r\n\r\n                // 清理资源：避免内存泄漏\r\n                setTimeout(() => {\r\n                    document?.body?.removeChild(link);\r\n                    URL.revokeObjectURL(blobUrl);\r\n                }, 100);\r\n\r\n                return response.data;\r\n            })\r\n            .catch",
+          "lineNumber": 299
+        },
+        {
+          "caller": "download",
+          "callee": "requestPromise\r\n            .then",
+          "lineNumber": 299
+        },
+        {
+          "caller": "download",
+          "callee": "decodeURIComponent",
+          "lineNumber": 309
+        },
+        {
+          "caller": "download",
+          "callee": "URL.createObjectURL",
+          "lineNumber": 314
+        },
+        {
+          "caller": "download",
+          "callee": "document.createElement",
+          "lineNumber": 315
+        },
+        {
+          "caller": "download",
+          "callee": "document?.body?.appendChild",
+          "lineNumber": 319
+        },
+        {
+          "caller": "download",
+          "callee": "link.click",
+          "lineNumber": 320
+        },
+        {
+          "caller": "download",
+          "callee": "setTimeout",
+          "lineNumber": 323
+        },
+        {
+          "caller": "download",
+          "callee": "document?.body?.removeChild",
+          "lineNumber": 324
+        },
+        {
+          "caller": "download",
+          "callee": "URL.revokeObjectURL",
+          "lineNumber": 325
+        },
+        {
+          "caller": "download",
+          "callee": "Promise.reject",
+          "lineNumber": 331
+        },
+        {
+          "caller": "upload",
+          "callee": "Array.from(file).forEach",
+          "lineNumber": 355
+        },
+        {
+          "caller": "upload",
+          "callee": "Array.from",
+          "lineNumber": 355
+        },
+        {
+          "caller": "upload",
+          "callee": "formData.append",
+          "lineNumber": 355
+        },
+        {
+          "caller": "upload",
+          "callee": "Array.isArray",
+          "lineNumber": 356
+        },
+        {
+          "caller": "upload",
+          "callee": "file.forEach",
+          "lineNumber": 357
+        },
+        {
+          "caller": "upload",
+          "callee": "formData.append",
+          "lineNumber": 357
+        },
+        {
+          "caller": "upload",
+          "callee": "formData.append",
+          "lineNumber": 359
+        },
+        {
+          "caller": "upload",
+          "callee": "Object.entries(data).forEach",
+          "lineNumber": 363
+        },
+        {
+          "caller": "upload",
+          "callee": "Object.entries",
+          "lineNumber": 363
+        },
+        {
+          "caller": "upload",
+          "callee": "formData.append",
+          "lineNumber": 364
+        },
+        {
+          "caller": "upload",
+          "callee": "String",
+          "lineNumber": 364
+        },
+        {
+          "caller": "upload",
+          "callee": "Object.entries(options.headers).forEach",
+          "lineNumber": 370
+        },
+        {
+          "caller": "upload",
+          "callee": "Object.entries",
+          "lineNumber": 370
+        },
+        {
+          "caller": "upload",
+          "callee": "instance.post",
+          "lineNumber": 390
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "page/src/utils/util.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 189,
+      "nonEmptyLines": 176,
+      "functions": [
+        {
+          "name": "isEnv",
+          "startLine": 7,
+          "endLine": 9,
+          "params": [
+            "env"
+          ]
+        },
+        {
+          "name": "getPageId",
+          "startLine": 16,
+          "endLine": 24,
+          "params": [
+            "pageId",
+            "pageMap"
+          ]
+        },
+        {
+          "name": "arrayToTree",
+          "startLine": 33,
+          "endLine": 75,
+          "params": [
+            "array"
+          ]
+        },
+        {
+          "name": "baseApiConvert",
+          "startLine": 81,
+          "endLine": 112,
+          "params": [
+            "url"
+          ]
+        },
+        {
+          "name": "createId",
+          "startLine": 119,
+          "endLine": 127,
+          "params": [
+            "name",
+            "len"
+          ]
+        },
+        {
+          "name": "generateSign",
+          "startLine": 134,
+          "endLine": 147,
+          "params": []
+        },
+        {
+          "name": "getChromeVersion",
+          "startLine": 149,
+          "endLine": 189,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "isEnv",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "getPageId",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "arrayToTree",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "baseApiConvert",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "createId",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "generateSign",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "getChromeVersion",
+          "line": 149,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isEnv",
+          "callee": "['stg', 'pre', 'prd'].includes",
+          "lineNumber": 8
+        },
+        {
+          "caller": "getPageId",
+          "callee": "isNaN",
+          "lineNumber": 18
+        },
+        {
+          "caller": "getPageId",
+          "callee": "Number",
+          "lineNumber": 18
+        },
+        {
+          "caller": "getPageId",
+          "callee": "Object.values(pageMap || {}).filter",
+          "lineNumber": 19
+        },
+        {
+          "caller": "getPageId",
+          "callee": "Object.values",
+          "lineNumber": 19
+        },
+        {
+          "caller": "getPageId",
+          "callee": "item?.path?.startsWith",
+          "lineNumber": 20
+        },
+        {
+          "caller": "getPageId",
+          "callee": "item?.path?.slice",
+          "lineNumber": 20
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "array.forEach",
+          "lineNumber": 39
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "buttons.push",
+          "lineNumber": 41
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "array.forEach",
+          "lineNumber": 52
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "parentItem.children?.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "(parentItem.children || []).sort",
+          "lineNumber": 59
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "parentItem.buttons?.push",
+          "lineNumber": 62
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "Object.values(map)\r\n        .filter((item) => !item.parentId)\r\n        .sort",
+          "lineNumber": 66
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "Object.values(map)\r\n        .filter",
+          "lineNumber": 66
+        },
+        {
+          "caller": "arrayToTree",
+          "callee": "Object.values",
+          "lineNumber": 66
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "window?.location?.href?.indexOf",
+          "lineNumber": 83
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "url?.indexOf",
+          "lineNumber": 84
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 88
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "returnUrl.substring",
+          "lineNumber": 88
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "url.replace",
+          "lineNumber": 91
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "url.replace",
+          "lineNumber": 95
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "url.replace",
+          "lineNumber": 101
+        },
+        {
+          "caller": "baseApiConvert",
+          "callee": "Url?.href?.replace",
+          "lineNumber": 104
+        },
+        {
+          "caller": "createId",
+          "callee": "Number(Math.random().toString().substring(2, 12) + Date.now())\r\n            .toString(36)\r\n            .slice",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Number(Math.random().toString().substring(2, 12) + Date.now())\r\n            .toString",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Number",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random().toString().substring",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random().toString",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createId",
+          "callee": "Date.now",
+          "lineNumber": 123
+        },
+        {
+          "caller": "generateSign",
+          "callee": "String",
+          "lineNumber": 136
+        },
+        {
+          "caller": "generateSign",
+          "callee": "new Date().getTime",
+          "lineNumber": 136
+        },
+        {
+          "caller": "generateSign",
+          "callee": "Math.random().toString(36).substr",
+          "lineNumber": 138
+        },
+        {
+          "caller": "generateSign",
+          "callee": "Math.random().toString",
+          "lineNumber": 138
+        },
+        {
+          "caller": "generateSign",
+          "callee": "Math.random",
+          "lineNumber": 138
+        },
+        {
+          "caller": "generateSign",
+          "callee": "CryptoJS.MD5(timestamp + nonce).toString().toUpperCase",
+          "lineNumber": 140
+        },
+        {
+          "caller": "generateSign",
+          "callee": "CryptoJS.MD5(timestamp + nonce).toString",
+          "lineNumber": 140
+        },
+        {
+          "caller": "generateSign",
+          "callee": "CryptoJS.MD5",
+          "lineNumber": 140
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.match",
+          "lineNumber": 155
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.indexOf",
+          "lineNumber": 160
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.indexOf",
+          "lineNumber": 160
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.indexOf",
+          "lineNumber": 161
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.match",
+          "lineNumber": 170
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.match",
+          "lineNumber": 176
+        },
+        {
+          "caller": "getChromeVersion",
+          "callee": "ua.match",
+          "lineNumber": 182
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    }
+  ]
+}

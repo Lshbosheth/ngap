@@ -1,0 +1,531 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog/index.module.less",
+      "summary": "为 pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/editCategoryDialog 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig/index.module.less",
+      "summary": "为 pages/businessComponentManage/componentTemplateChoose/businessCategoryConfig 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/businessComponentManage/componentTemplateChoose/index.module.less",
+      "summary": "为 pages/businessComponentManage/componentTemplateChoose 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/editor/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/editor/index.module.less",
+      "summary": "为 pages/editor 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/editor/topbar/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/editor/topbar/index.module.less",
+      "summary": "为 pages/editor/topbar 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/editor/topbar/ShareLink.tsx",
+      "type": "file",
+      "name": "ShareLink.tsx",
+      "filePath": "src/pages/editor/topbar/ShareLink.tsx",
+      "summary": "生成并展示页面分享链接，支持复制和访问范围配置。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/elementManagement/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/elementManagement/index.module.less",
+      "summary": "为 pages/elementManagement 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/evaluateRecord/DependModal/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/evaluateRecord/DependModal/index.less",
+      "summary": "为 pages/evaluateRecord/DependModal 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/evaluateRecord/DependModal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/evaluateRecord/DependModal/index.tsx",
+      "summary": "展示评价记录依赖的应用、组件或服务详情。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/evaluateRecord/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/evaluateRecord/index.less",
+      "summary": "为 pages/evaluateRecord 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/evaluateRecord/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/evaluateRecord/index.tsx",
+      "summary": "实现评价记录列表页面，承载查询条件、结果表格和依赖详情入口。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/evaluateRecord/index.tsx:EvaluateRecord",
+      "type": "function",
+      "name": "EvaluateRecord",
+      "filePath": "src/pages/evaluateRecord/index.tsx",
+      "lineRange": [
+        15,
+        49
+      ],
+      "summary": "EvaluateRecord 渲染评价记录列表并处理筛选与详情交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/evaluateRecord/params.tsx",
+      "type": "file",
+      "name": "params.tsx",
+      "filePath": "src/pages/evaluateRecord/params.tsx",
+      "summary": "定义评价记录表格列、结果枚举、筛选项和指标选项。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/evaluateRecord/params.tsx:getColumns",
+      "type": "function",
+      "name": "getColumns",
+      "filePath": "src/pages/evaluateRecord/params.tsx",
+      "lineRange": [
+        12,
+        66
+      ],
+      "summary": "getColumns 生成评价记录表格列和单元格渲染规则。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/MyActivity/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/MyActivity/index.module.less",
+      "summary": "为 pages/MyActivity 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/serviceOrchestration/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/serviceOrchestration/index.module.less",
+      "summary": "为 pages/serviceOrchestration 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/serviceOrchestration/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/serviceOrchestration/index.tsx",
+      "summary": "嵌入服务编排子应用页面并透传平台与用户上下文。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/serviceOrchestration/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/serviceOrchestration/index.tsx",
+      "lineRange": [
+        4,
+        55
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责嵌入服务编排子应用页面并透传平台与用户上下文。。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/taskCenter/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/taskCenter/index.module.less",
+      "summary": "为 pages/taskCenter 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationTemp/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/templateManagement/applicationTemp/index.module.less",
+      "summary": "为 pages/templateManagement/applicationTemp 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "summary": "为 pages/templateManagement/businessTemplatePreview 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/templateManagement/index.module.less",
+      "summary": "为 pages/templateManagement 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/tenantManage/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/tenantManage/index.module.less",
+      "summary": "为 pages/tenantManage 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/TestApi/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/TestApi/index.tsx",
+      "summary": "提供接口调用与跨应用通信的开发测试页面。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/TestApi/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/TestApi/index.tsx",
+      "lineRange": [
+        6,
+        23
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责提供接口调用与跨应用通信的开发测试页面。。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/types/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/pages/types/index.ts",
+      "summary": "声明页面层复用的基础 TypeScript 类型。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/Workbench/createRecent/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/Workbench/createRecent/index.less",
+      "summary": "为 pages/Workbench/createRecent 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/createRecent/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/Workbench/createRecent/index.tsx",
+      "summary": "展示工作台最近创建的应用或资源列表。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/Workbench/createRecent/index.tsx:CreateRecent",
+      "type": "function",
+      "name": "CreateRecent",
+      "filePath": "src/pages/Workbench/createRecent/index.tsx",
+      "lineRange": [
+        13,
+        113
+      ],
+      "summary": "CreateRecent 加载并展示最近创建内容。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/createRecent/item.tsx",
+      "type": "file",
+      "name": "item.tsx",
+      "filePath": "src/pages/Workbench/createRecent/item.tsx",
+      "summary": "渲染最近创建列表中的单个资源卡片。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "dashboard"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/Workbench/createRecent/item.tsx:Item",
+      "type": "function",
+      "name": "Item",
+      "filePath": "src/pages/Workbench/createRecent/item.tsx",
+      "lineRange": [
+        8,
+        39
+      ],
+      "summary": "Item 渲染所属列表中的单个业务项。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/evaluateRecord/index.tsx",
+      "target": "function:src/pages/evaluateRecord/index.tsx:EvaluateRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/evaluateRecord/params.tsx",
+      "target": "function:src/pages/evaluateRecord/params.tsx:getColumns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/evaluateRecord/params.tsx",
+      "target": "function:src/pages/evaluateRecord/params.tsx:getColumns",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/serviceOrchestration/index.tsx",
+      "target": "function:src/pages/serviceOrchestration/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/TestApi/index.tsx",
+      "target": "function:src/pages/TestApi/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/createRecent/index.tsx",
+      "target": "function:src/pages/Workbench/createRecent/index.tsx:CreateRecent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/createRecent/item.tsx",
+      "target": "function:src/pages/Workbench/createRecent/item.tsx:Item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/editor/topbar/ShareLink.tsx",
+      "target": "file:src/pages/editor/topbar/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/evaluateRecord/DependModal/index.tsx",
+      "target": "file:src/pages/evaluateRecord/DependModal/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/evaluateRecord/index.tsx",
+      "target": "file:src/pages/evaluateRecord/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/serviceOrchestration/index.tsx",
+      "target": "file:src/pages/serviceOrchestration/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/createRecent/index.tsx",
+      "target": "file:src/pages/Workbench/createRecent/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/createRecent/index.tsx",
+      "target": "file:src/pages/Workbench/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/createRecent/item.tsx",
+      "target": "file:src/pages/Workbench/createRecent/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "materials/Advanced/AIChat/AIChat.tsx",
+      "language": "typescript",
+      "sizeLines": 520,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "language": "typescript",
+      "sizeLines": 179,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "language": "typescript",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Menu/Menu.tsx",
+      "language": "typescript",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Pagination/Pagination.tsx",
+      "language": "typescript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Progress/Progress.tsx",
+      "language": "typescript",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Timeline/Timeline.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Advanced/Tree/Tree.tsx",
+      "language": "typescript",
+      "sizeLines": 541,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/AudioPlayer/AudioPlayer.tsx",
+      "language": "typescript",
+      "sizeLines": 653,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Avatar/Avatar.tsx",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Badge/Badge.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/BownloadButton/BownloadButton.tsx",
+      "language": "typescript",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Carousel/Carousel.tsx",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "language": "typescript",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/CollapseBtn/CollapseBtn.tsx",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Icon/Icon.tsx",
+      "language": "typescript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Image/Image.tsx",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Link/Link.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Statistic/Statistic.tsx",
+      "language": "typescript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Tag/Tag.tsx",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Text/Text.tsx",
+      "language": "typescript",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Timer/Timer.tsx",
+      "language": "typescript",
+      "sizeLines": 243,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Title/Title.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Video/Video.tsx",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Basic/Watermark/Watermark.tsx",
+      "language": "typescript",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/Card/Card.tsx",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/Collapse/Collapse.tsx",
+      "language": "typescript",
+      "sizeLines": 209,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/CollapseItem/CollapseItem.tsx",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/Cycle/Cycle.tsx",
+      "language": "typescript",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/Div/Div.tsx",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/Advanced/AIChat/AIChat.tsx": [
+      "materials/Advanced/AIChat/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/request.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Advanced/Breadcrumb/Breadcrumb.tsx": [
+      "materials/Advanced/Breadcrumb/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts"
+    ],
+    "materials/Advanced/FloatingWindow/FloatingWindow.tsx": [
+      "materials/Advanced/FloatingWindow/index.module.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Advanced/Menu/Menu.tsx": [
+      "materials/Advanced/Menu/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts"
+    ],
+    "materials/Advanced/Pagination/Pagination.tsx": [
+      "materials/Advanced/Pagination/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/Advanced/Progress/Progress.tsx": [
+      "materials/types/index.ts",
+      "src/packages/utils/util.ts"
+    ],
+    "materials/Advanced/Timeline/Timeline.tsx": [
+      "materials/utils/handleApi.ts"
+    ],
+    "materials/Advanced/Tree/Tree.tsx": [
+      "materials/Advanced/Tree/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Basic/AudioPlayer/AudioPlayer.tsx": [
+      "materials/Basic/AudioPlayer/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Avatar/Avatar.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Badge/Badge.tsx": [
+      "materials/Basic/Badge/index.module.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/BownloadButton/BownloadButton.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/apiUtilForInterface.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Basic/Carousel/Carousel.tsx": [
+      "materials/Basic/Carousel/carousel.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts"
+    ],
+    "materials/Basic/CheckableTagGroup/CheckableTagGroup.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts"
+    ],
+    "materials/Basic/CollapseBtn/CollapseBtn.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Icon/Icon.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/action.ts"
+    ],
+    "materials/Basic/Image/Image.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Link/Link.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Statistic/Statistic.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Tag/Tag.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Text/Text.tsx": [
+      "materials/Basic/Text/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Basic/Timer/Timer.tsx": [
+      "materials/Basic/Timer/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Title/Title.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Basic/Video/Video.tsx": [
+      "materials/Basic/Video/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/Basic/Watermark/Watermark.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Container/Card/Card.tsx": [
+      "materials/Container/Card/index.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Container/Collapse/Collapse.tsx": [
+      "materials/Container/Collapse/index.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Container/CollapseItem/CollapseItem.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Container/Cycle/Cycle.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/handleApi.ts",
+      "materials/utils/request.ts"
+    ],
+    "materials/Container/Div/Div.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ]
+  }
+}

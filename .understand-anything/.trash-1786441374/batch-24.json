@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/api/page.ts",
+      "type": "file",
+      "name": "page.ts",
+      "filePath": "src/api/page.ts",
+      "summary": "集中定义设计器页面相关接口请求，包括页面创建、详情读取、更新、复制和状态操作。",
+      "tags": [
+        "api-client",
+        "designer",
+        "data-fetching"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/api/project.ts",
+      "type": "file",
+      "name": "project.ts",
+      "filePath": "src/api/project.ts",
+      "summary": "集中定义设计器项目相关接口请求，包括项目列表、创建、详情和维护操作。",
+      "tags": [
+        "api-client",
+        "designer",
+        "data-fetching"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/CreatePage.tsx",
+      "type": "file",
+      "name": "CreatePage.tsx",
+      "filePath": "src/components/CreatePage.tsx",
+      "summary": "实现创建页面弹窗，加载所属项目信息、校验页面表单并调用页面接口完成创建。",
+      "tags": [
+        "react-component",
+        "page-management",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/CreatePage.tsx:CreatePage",
+      "type": "function",
+      "name": "CreatePage",
+      "filePath": "src/components/CreatePage.tsx",
+      "lineRange": [
+        19,
+        152
+      ],
+      "summary": "实现创建页面表单、项目选择、字段校验和提交反馈。",
+      "tags": [
+        "react-component",
+        "form-editor",
+        "resource-creation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/CreateProject.tsx",
+      "type": "file",
+      "name": "CreateProject.tsx",
+      "filePath": "src/components/CreateProject.tsx",
+      "summary": "实现创建项目弹窗，校验项目基础信息并调用项目接口完成创建。",
+      "tags": [
+        "react-component",
+        "project-management",
+        "form-editor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/CreateProject.tsx:CreateProject",
+      "type": "function",
+      "name": "CreateProject",
+      "filePath": "src/components/CreateProject.tsx",
+      "lineRange": [
+        9,
+        68
+      ],
+      "summary": "实现创建项目表单、字段校验和提交反馈。",
+      "tags": [
+        "react-component",
+        "form-editor",
+        "resource-creation"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/CreatePage.tsx",
+      "target": "function:src/components/CreatePage.tsx:CreatePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/CreateProject.tsx",
+      "target": "function:src/components/CreateProject.tsx:CreateProject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/page.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/CreatePage.tsx",
+      "target": "file:src/api/page.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/CreatePage.tsx",
+      "target": "file:src/api/project.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/CreatePage.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/CreateProject.tsx",
+      "target": "file:src/api/project.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/components/CreatePage.tsx:CreatePage",
+      "target": "function:src/utils/AppProvider.tsx:useAppContext",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

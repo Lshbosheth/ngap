@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "config:src/pages/businessComponentManage/businessComponent.json",
+      "type": "config",
+      "name": "businessComponent.json",
+      "filePath": "src/pages/businessComponentManage/businessComponent.json",
+      "summary": "提供业务组件管理页面的静态接口样例，包含组件标识、名称、分类、状态、归属和创建更新信息。",
+      "tags": [
+        "configuration",
+        "mock-data",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:src/pages/businessComponentManage/componentBusinessList.json",
+      "type": "config",
+      "name": "componentBusinessList.json",
+      "filePath": "src/pages/businessComponentManage/componentBusinessList.json",
+      "summary": "提供业务组件分类列表的静态接口样例，包含业务分类名称、标识、类型和审计时间。",
+      "tags": [
+        "configuration",
+        "mock-data",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/businessComponentManage/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/businessComponentManage/index.less",
+      "summary": "定义业务组件管理页面的查询、列表、树形分类、表单弹窗和操作按钮样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": []
+}

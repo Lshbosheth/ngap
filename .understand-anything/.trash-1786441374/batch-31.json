@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/component.module.less",
+      "type": "file",
+      "name": "component.module.less",
+      "filePath": "src/packages/component.module.less",
+      "summary": "定义主物料组件共享的局部样式，统一组件根容器、编辑态和画布交互相关视觉规则。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/index.less",
+      "summary": "定义主物料运行时的全局基础样式与第三方组件覆盖，保证画布内各物料展示一致。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:src/packages/readme.md",
+      "type": "document",
+      "name": "readme.md",
+      "filePath": "src/packages/readme.md",
+      "summary": "说明平台物料为何使用 forwardRef、组件 Schema 的完整结构、NgapRender 渲染链路以及事件和接口公共能力。",
+      "tags": [
+        "documentation",
+        "architecture",
+        "runtime-guide"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

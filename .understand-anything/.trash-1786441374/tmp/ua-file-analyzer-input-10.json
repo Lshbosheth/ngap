@@ -1,0 +1,368 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/components/EventConfig/ActionModal/ComponentMethods.tsx",
+      "language": "typescript",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/Componentlinkage.tsx",
+      "language": "typescript",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/RequestAction.tsx",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/FloatingCollector/index.tsx",
+      "language": "typescript",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Toolbar/Toolbar.tsx",
+      "language": "typescript",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/VariableBind/VariableSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 431,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "language": "typescript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/ApiList/ApiList.tsx",
+      "language": "typescript",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/CrossApiList/CrossApiList.tsx",
+      "language": "typescript",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Menu/ComponentPanel.tsx",
+      "language": "typescript",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Menu/DragMenuItem.tsx",
+      "language": "typescript",
+      "sizeLines": 311,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/OutlinePanel.tsx",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/AIChat/AIChat.tsx",
+      "language": "typescript",
+      "sizeLines": 526,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/FloatingWindow/FloatingWindow.tsx",
+      "language": "typescript",
+      "sizeLines": 271,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Pagination/Pagination.tsx",
+      "language": "typescript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Progress/Progress.tsx",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "language": "typescript",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Tree/Tree.tsx",
+      "language": "typescript",
+      "sizeLines": 544,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "language": "typescript",
+      "sizeLines": 654,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Avatar/Avatar.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Badge/Badge.tsx",
+      "language": "typescript",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "language": "typescript",
+      "sizeLines": 275,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "language": "typescript",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/File/File.tsx",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Icon/Icon.tsx",
+      "language": "typescript",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Image/Image.tsx",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Link/Link.tsx",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Statistic/Statistic.tsx",
+      "language": "typescript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Tag/Tag.tsx",
+      "language": "typescript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Text/Text.tsx",
+      "language": "typescript",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/components/EventConfig/ActionModal/ComponentMethods.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/Componentlinkage.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/RequestAction.tsx": [
+      "src/components/ApiConfig/components/SettingModal.tsx",
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/stores/apiListStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/FloatingCollector/index.tsx": [
+      "src/components/FloatingCollector/index.module.less",
+      "src/packages/utils/useComponentRefs.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/Toolbar/Toolbar.tsx": [
+      "src/components/Toolbar/index.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/VariableBind/VariableSelect.tsx": [
+      "src/components/VariableBind/variable.module.less",
+      "src/components/VsEditor.tsx",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx": [
+      "src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/dealApiGlobal.ts"
+    ],
+    "src/layout/components/ApiList/ApiList.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/layout/components/ApiList/index.module.less",
+      "src/packages/utils/handleApi.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/dealApiGlobal.ts",
+      "src/utils/request.ts"
+    ],
+    "src/layout/components/CrossApiList/CrossApiList.tsx": [
+      "src/layout/components/CrossApiList/index.module.less",
+      "src/packages/utils/handleApi.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/dealApiGlobal.ts"
+    ],
+    "src/layout/components/Menu/ComponentPanel.tsx": [
+      "src/layout/components/ApiList/ApiList.tsx",
+      "src/layout/components/Menu/DragMenuItem.tsx",
+      "src/layout/components/Menu/index.module.less"
+    ],
+    "src/layout/components/Menu/DragMenuItem.tsx": [
+      "src/layout/components/Menu/index.module.less",
+      "src/packages/utils/handleApi.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/dealApiGlobal.ts"
+    ],
+    "src/layout/components/OutlinePanel.tsx": [
+      "src/layout/components/Menu/index.module.less"
+    ],
+    "src/packages/Advanced/AIChat/AIChat.tsx": [
+      "src/packages/Advanced/AIChat/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Advanced/FloatingWindow/FloatingWindow.tsx": [
+      "src/packages/Advanced/FloatingWindow/index.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Advanced/Pagination/Pagination.tsx": [
+      "src/packages/Advanced/Pagination/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/Advanced/Progress/Progress.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/Advanced/SearchForm/SearchForm.tsx": [
+      "src/packages/Advanced/SearchForm/index.module.less",
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Advanced/Tree/Tree.tsx": [
+      "src/packages/Advanced/Tree/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/AudioPlayer/AudioPlayer.tsx": [
+      "src/packages/Basic/AudioPlayer/index.module.less",
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/Basic/Avatar/Avatar.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Badge/Badge.tsx": [
+      "src/packages/Basic/Badge/index.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/BownloadButton/BownloadButton.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/useMaterialTools.ts",
+      "src/utils/apiUtilForInterface.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/CollapseBtn/CollapseBtn.tsx": [
+      "src/packages/Basic/CollapseBtn/index.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/File/File.tsx": [
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/Basic/Icon/Icon.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Image/Image.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Link/Link.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/crossAPI.js"
+    ],
+    "src/packages/Basic/Statistic/Statistic.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Tag/Tag.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Basic/Text/Text.tsx": [
+      "src/packages/Basic/Text/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ]
+  }
+}

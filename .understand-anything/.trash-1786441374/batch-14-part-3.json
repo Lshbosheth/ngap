@@ -1,0 +1,1488 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/utils/sort.tsx",
+      "type": "file",
+      "name": "sort.tsx",
+      "filePath": "materials/utils/sort.tsx",
+      "summary": "提供表格数字、日期和混合值排序器及排序图标配置。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/sort.tsx:getSorter",
+      "type": "function",
+      "name": "getSorter",
+      "filePath": "materials/utils/sort.tsx",
+      "lineRange": [
+        42,
+        79
+      ],
+      "summary": "根据列类型返回对应排序比较器。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/sort.tsx:getSortIcon",
+      "type": "function",
+      "name": "getSortIcon",
+      "filePath": "materials/utils/sort.tsx",
+      "lineRange": [
+        81,
+        115
+      ],
+      "summary": "根据排序状态渲染列头排序图标。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/sort.tsx:sortConfig",
+      "type": "function",
+      "name": "sortConfig",
+      "filePath": "materials/utils/sort.tsx",
+      "lineRange": [
+        118,
+        127
+      ],
+      "summary": "生成表格列排序配置。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/storage.ts",
+      "type": "file",
+      "name": "storage.ts",
+      "filePath": "materials/utils/storage.ts",
+      "summary": "封装页面运行时的本地存储读写，统一序列化、键名和异常处理。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/textfilter.ts",
+      "type": "file",
+      "name": "textfilter.ts",
+      "filePath": "materials/utils/textfilter.ts",
+      "summary": "严格检测富文本内容是否显式设置字体颜色，用于文本样式过滤和兼容处理。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/textfilter.ts:hasFontColorStrict",
+      "type": "function",
+      "name": "hasFontColorStrict",
+      "filePath": "materials/utils/textfilter.ts",
+      "lineRange": [
+        1,
+        19
+      ],
+      "summary": "检测 HTML 内容是否明确声明字体颜色。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/useComponentRefs.ts",
+      "type": "file",
+      "name": "useComponentRefs.ts",
+      "filePath": "materials/utils/useComponentRefs.ts",
+      "summary": "维护按元素标识索引的组件 Ref 注册表，供动作引擎跨组件调用实例方法。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/useComponentRefs.ts:getComponentRef",
+      "type": "function",
+      "name": "getComponentRef",
+      "filePath": "materials/utils/useComponentRefs.ts",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "实现 getComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/useComponentRefs.ts:setComponentRef",
+      "type": "function",
+      "name": "setComponentRef",
+      "filePath": "materials/utils/useComponentRefs.ts",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "实现 setComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "function",
+      "name": "clearComponentRef",
+      "filePath": "materials/utils/useComponentRefs.ts",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "实现 clearComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/useComponentRefs.ts:removeComponentRef",
+      "type": "function",
+      "name": "removeComponentRef",
+      "filePath": "materials/utils/useComponentRefs.ts",
+      "lineRange": [
+        18,
+        20
+      ],
+      "summary": "实现 removeComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/useWatchVariable.ts",
+      "type": "file",
+      "name": "useWatchVariable.ts",
+      "filePath": "materials/utils/useWatchVariable.ts",
+      "summary": "监听页面变量变化并触发依赖更新，使配置表达式和组件属性随变量刷新。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "function",
+      "name": "useWatchVariable",
+      "filePath": "materials/utils/useWatchVariable.ts",
+      "lineRange": [
+        12,
+        36
+      ],
+      "summary": "订阅变量状态并在变化时刷新依赖组件。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/util.ts",
+      "type": "file",
+      "name": "util.ts",
+      "filePath": "materials/utils/util.ts",
+      "summary": "汇集独立运行时的 ID、日期、模板、公式、变量、接口数据、脚本样式加载和表单值转换工具。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/utils/util.ts:createId",
+      "type": "function",
+      "name": "createId",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "实现 createId 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:formatNumber",
+      "type": "function",
+      "name": "formatNumber",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        36,
+        43
+      ],
+      "summary": "实现 formatNumber 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        51,
+        53
+      ],
+      "summary": "实现 formatDate 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getDateByType",
+      "type": "function",
+      "name": "getDateByType",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        56,
+        73
+      ],
+      "summary": "实现 getDateByType 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getDateRangeByType",
+      "type": "function",
+      "name": "getDateRangeByType",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        91,
+        128
+      ],
+      "summary": "实现 getDateRangeByType 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:isNull",
+      "type": "function",
+      "name": "isNull",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        133,
+        136
+      ],
+      "summary": "实现 isNull 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "function",
+      "name": "isNotEmpty",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        141,
+        144
+      ],
+      "summary": "实现 isNotEmpty 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:copyText",
+      "type": "function",
+      "name": "copyText",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        151,
+        153
+      ],
+      "summary": "实现 copyText 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:renderTemplate",
+      "type": "function",
+      "name": "renderTemplate",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        160,
+        172
+      ],
+      "summary": "实现 renderTemplate 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getPageVariable",
+      "type": "function",
+      "name": "getPageVariable",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        177,
+        186
+      ],
+      "summary": "实现 getPageVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getPageApiData",
+      "type": "function",
+      "name": "getPageApiData",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        191,
+        199
+      ],
+      "summary": "实现 getPageApiData 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:createFunction",
+      "type": "function",
+      "name": "createFunction",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        203,
+        218
+      ],
+      "summary": "实现 createFunction 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:renderAsyncFormula",
+      "type": "function",
+      "name": "renderAsyncFormula",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        221,
+        274
+      ],
+      "summary": "实现 renderAsyncFormula 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/util.ts:renderFormula",
+      "type": "function",
+      "name": "renderFormula",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        281,
+        361
+      ],
+      "summary": "实现 renderFormula 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getDateItem",
+      "type": "function",
+      "name": "getDateItem",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        366,
+        376
+      ],
+      "summary": "实现 getDateItem 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:dateFormat",
+      "type": "function",
+      "name": "dateFormat",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        383,
+        447
+      ],
+      "summary": "实现 dateFormat 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/util.ts:handleParamVariable",
+      "type": "function",
+      "name": "handleParamVariable",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        453,
+        472
+      ],
+      "summary": "实现 handleParamVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:handleArrayVariable",
+      "type": "function",
+      "name": "handleArrayVariable",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        480,
+        511
+      ],
+      "summary": "实现 handleArrayVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:loadStyle",
+      "type": "function",
+      "name": "loadStyle",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        518,
+        535
+      ],
+      "summary": "实现 loadStyle 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:loadScript",
+      "type": "function",
+      "name": "loadScript",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        542,
+        552
+      ],
+      "summary": "实现 loadScript 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getEnv",
+      "type": "function",
+      "name": "getEnv",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        561,
+        574
+      ],
+      "summary": "实现 getEnv 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getPageId",
+      "type": "function",
+      "name": "getPageId",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        582,
+        590
+      ],
+      "summary": "实现 getPageId 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:baseApiConvert",
+      "type": "function",
+      "name": "baseApiConvert",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        596,
+        623
+      ],
+      "summary": "实现 baseApiConvert 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:generateSign",
+      "type": "function",
+      "name": "generateSign",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        630,
+        645
+      ],
+      "summary": "实现 generateSign 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getParentKeys",
+      "type": "function",
+      "name": "getParentKeys",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        668,
+        687
+      ],
+      "summary": "实现 getParentKeys 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:dateIsValid",
+      "type": "function",
+      "name": "dateIsValid",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        694,
+        696
+      ],
+      "summary": "实现 dateIsValid 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:formatDateValue",
+      "type": "function",
+      "name": "formatDateValue",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        718,
+        727
+      ],
+      "summary": "实现 formatDateValue 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:formatFormValues",
+      "type": "function",
+      "name": "formatFormValues",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        735,
+        777
+      ],
+      "summary": "实现 formatFormValues 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:dateStrToDayjs",
+      "type": "function",
+      "name": "dateStrToDayjs",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        784,
+        789
+      ],
+      "summary": "实现 dateStrToDayjs 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:cleanHtml",
+      "type": "function",
+      "name": "cleanHtml",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        795,
+        797
+      ],
+      "summary": "实现 cleanHtml 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:analysisHtmlToStr",
+      "type": "function",
+      "name": "analysisHtmlToStr",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        804,
+        807
+      ],
+      "summary": "实现 analysisHtmlToStr 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/util.ts:getUrlName",
+      "type": "function",
+      "name": "getUrlName",
+      "filePath": "materials/utils/util.ts",
+      "lineRange": [
+        809,
+        818
+      ],
+      "summary": "实现 getUrlName 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/windowSort.tsx",
+      "type": "file",
+      "name": "windowSort.tsx",
+      "filePath": "materials/utils/windowSort.tsx",
+      "summary": "实现混合类型字符串排序器，对数字、尺寸、字母、中文和特殊字符分词后执行稳定比较。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:materials/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "class",
+      "name": "MixedTypeSorter",
+      "filePath": "materials/utils/windowSort.tsx",
+      "lineRange": [
+        13,
+        433
+      ],
+      "summary": "把混合字符串拆分为数字、单位、字母、中文和特殊符号令牌，并提供可复用比较器。",
+      "tags": [
+        "utility",
+        "sorting",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/utils/useMessageListener.tsx",
+      "type": "file",
+      "name": "useMessageListener.tsx",
+      "filePath": "src/utils/useMessageListener.tsx",
+      "summary": "提供窗口 postMessage 监听 Hook 及向父窗口发送消息的方法，用于编辑器与宿主容器通信。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/useMessageListener.tsx:useMessageListener",
+      "type": "function",
+      "name": "useMessageListener",
+      "filePath": "src/utils/useMessageListener.tsx",
+      "lineRange": [
+        18,
+        55
+      ],
+      "summary": "注册窗口消息监听并在组件卸载时清理。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/useMessageListener.tsx:postMessageToParent",
+      "type": "function",
+      "name": "postMessageToParent",
+      "filePath": "src/utils/useMessageListener.tsx",
+      "lineRange": [
+        62,
+        73
+      ],
+      "summary": "向父窗口发送结构化协作消息。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "file:materials/utils/windowSort.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "function:materials/utils/sort.tsx:getSorter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "function:materials/utils/sort.tsx:getSorter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "function:materials/utils/sort.tsx:getSortIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "function:materials/utils/sort.tsx:sortConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/sort.tsx",
+      "target": "function:materials/utils/sort.tsx:sortConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/textfilter.ts",
+      "target": "function:materials/utils/textfilter.ts:hasFontColorStrict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/textfilter.ts",
+      "target": "function:materials/utils/textfilter.ts:hasFontColorStrict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:getComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:getComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:setComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:setComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:removeComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/useComponentRefs.ts",
+      "target": "function:materials/utils/useComponentRefs.ts:removeComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/useWatchVariable.ts",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/useWatchVariable.ts",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "file:materials/utils/storage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:createId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:createId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatDate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateByType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateByType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateRangeByType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateRangeByType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:isNull",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:isNull",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:copyText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:copyText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderTemplate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageApiData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageApiData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:createFunction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:createFunction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderAsyncFormula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderAsyncFormula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:renderFormula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getDateItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateFormat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateFormat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:handleParamVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:handleParamVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:handleArrayVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:handleArrayVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:loadStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:loadStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:loadScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:loadScript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getEnv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getPageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:baseApiConvert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:baseApiConvert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:generateSign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:generateSign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getParentKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getParentKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateIsValid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateIsValid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatDateValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatFormValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:formatFormValues",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateStrToDayjs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:dateStrToDayjs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:cleanHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:cleanHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:analysisHtmlToStr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:analysisHtmlToStr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getUrlName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/util.ts",
+      "target": "function:materials/utils/util.ts:getUrlName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/windowSort.tsx",
+      "target": "class:materials/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/windowSort.tsx",
+      "target": "class:materials/utils/windowSort.tsx:MixedTypeSorter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/useMessageListener.tsx",
+      "target": "function:src/utils/useMessageListener.tsx:useMessageListener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/useMessageListener.tsx",
+      "target": "function:src/utils/useMessageListener.tsx:useMessageListener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/useMessageListener.tsx",
+      "target": "function:src/utils/useMessageListener.tsx:postMessageToParent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/useMessageListener.tsx",
+      "target": "function:src/utils/useMessageListener.tsx:postMessageToParent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

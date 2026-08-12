@@ -1,0 +1,1121 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/config/icons/IconPieChart.tsx",
+      "type": "file",
+      "name": "IconPieChart.tsx",
+      "filePath": "src/config/icons/IconPieChart.tsx",
+      "summary": "为低代码组件面板提供 PieChart 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconPopover.tsx",
+      "type": "file",
+      "name": "IconPopover.tsx",
+      "filePath": "src/config/icons/IconPopover.tsx",
+      "summary": "为低代码组件面板提供 Popover 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconProgress.tsx",
+      "type": "file",
+      "name": "IconProgress.tsx",
+      "filePath": "src/config/icons/IconProgress.tsx",
+      "summary": "为低代码组件面板提供 Progress 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconRate.tsx",
+      "type": "file",
+      "name": "IconRate.tsx",
+      "filePath": "src/config/icons/IconRate.tsx",
+      "summary": "为低代码组件面板提供 Rate 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconRichText.tsx",
+      "type": "file",
+      "name": "IconRichText.tsx",
+      "filePath": "src/config/icons/IconRichText.tsx",
+      "summary": "为低代码组件面板提供 RichText 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "function:src/config/icons/IconRichText.tsx:IconRichText",
+      "type": "function",
+      "name": "IconRichText",
+      "filePath": "src/config/icons/IconRichText.tsx",
+      "lineRange": [
+        1,
+        12
+      ],
+      "summary": "IconRichText 是该文件的核心 React 组件，负责为低代码组件面板提供 RichText 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconRingProgress.tsx",
+      "type": "file",
+      "name": "IconRingProgress.tsx",
+      "filePath": "src/config/icons/IconRingProgress.tsx",
+      "summary": "为低代码组件面板提供 RingProgress 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "function:src/config/icons/IconRingProgress.tsx:IconRignProgress",
+      "type": "function",
+      "name": "IconRignProgress",
+      "filePath": "src/config/icons/IconRingProgress.tsx",
+      "lineRange": [
+        1,
+        32
+      ],
+      "summary": "IconRignProgress 是该文件的核心 React 组件，负责为低代码组件面板提供 RingProgress 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconRow.tsx",
+      "type": "file",
+      "name": "IconRow.tsx",
+      "filePath": "src/config/icons/IconRow.tsx",
+      "summary": "为低代码组件面板提供 Row 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconSearcFrom.tsx",
+      "type": "file",
+      "name": "IconSearcFrom.tsx",
+      "filePath": "src/config/icons/IconSearcFrom.tsx",
+      "summary": "为低代码组件面板提供 SearcFrom 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconSpace.tsx",
+      "type": "file",
+      "name": "IconSpace.tsx",
+      "filePath": "src/config/icons/IconSpace.tsx",
+      "summary": "为低代码组件面板提供 Space 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "function:src/config/icons/IconSpace.tsx:IconSpace",
+      "type": "function",
+      "name": "IconSpace",
+      "filePath": "src/config/icons/IconSpace.tsx",
+      "lineRange": [
+        1,
+        48
+      ],
+      "summary": "IconSpace 是该文件的核心 React 组件，负责为低代码组件面板提供 Space 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconSpan.tsx",
+      "type": "file",
+      "name": "IconSpan.tsx",
+      "filePath": "src/config/icons/IconSpan.tsx",
+      "summary": "为低代码组件面板提供 Span 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconSpin.tsx",
+      "type": "file",
+      "name": "IconSpin.tsx",
+      "filePath": "src/config/icons/IconSpin.tsx",
+      "summary": "为低代码组件面板提供 Spin 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconSteps.tsx",
+      "type": "file",
+      "name": "IconSteps.tsx",
+      "filePath": "src/config/icons/IconSteps.tsx",
+      "summary": "为低代码组件面板提供 Steps 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTag.tsx",
+      "type": "file",
+      "name": "IconTag.tsx",
+      "filePath": "src/config/icons/IconTag.tsx",
+      "summary": "为低代码组件面板提供 Tag 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconText.tsx",
+      "type": "file",
+      "name": "IconText.tsx",
+      "filePath": "src/config/icons/IconText.tsx",
+      "summary": "为低代码组件面板提供 Text 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTimeLine.tsx",
+      "type": "file",
+      "name": "IconTimeLine.tsx",
+      "filePath": "src/config/icons/IconTimeLine.tsx",
+      "summary": "为低代码组件面板提供 TimeLine 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTimer.tsx",
+      "type": "file",
+      "name": "IconTimer.tsx",
+      "filePath": "src/config/icons/IconTimer.tsx",
+      "summary": "为低代码组件面板提供 Timer 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTinyColumn.tsx",
+      "type": "file",
+      "name": "IconTinyColumn.tsx",
+      "filePath": "src/config/icons/IconTinyColumn.tsx",
+      "summary": "为低代码组件面板提供 TinyColumn 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "function:src/config/icons/IconTinyColumn.tsx:IconTinyColumn",
+      "type": "function",
+      "name": "IconTinyColumn",
+      "filePath": "src/config/icons/IconTinyColumn.tsx",
+      "lineRange": [
+        1,
+        45
+      ],
+      "summary": "IconTinyColumn 是该文件的核心 React 组件，负责为低代码组件面板提供 TinyColumn 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconTinyLine.tsx",
+      "type": "file",
+      "name": "IconTinyLine.tsx",
+      "filePath": "src/config/icons/IconTinyLine.tsx",
+      "summary": "为低代码组件面板提供 TinyLine 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "function:src/config/icons/IconTinyLine.tsx:IconTinyLine",
+      "type": "function",
+      "name": "IconTinyLine",
+      "filePath": "src/config/icons/IconTinyLine.tsx",
+      "lineRange": [
+        1,
+        35
+      ],
+      "summary": "IconTinyLine 是该文件的核心 React 组件，负责为低代码组件面板提供 TinyLine 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconTitle.tsx",
+      "type": "file",
+      "name": "IconTitle.tsx",
+      "filePath": "src/config/icons/IconTitle.tsx",
+      "summary": "为低代码组件面板提供 Title 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTransfer.tsx",
+      "type": "file",
+      "name": "IconTransfer.tsx",
+      "filePath": "src/config/icons/IconTransfer.tsx",
+      "summary": "为低代码组件面板提供 Transfer 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTree.tsx",
+      "type": "file",
+      "name": "IconTree.tsx",
+      "filePath": "src/config/icons/IconTree.tsx",
+      "summary": "为低代码组件面板提供 Tree 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconTreeSelect.tsx",
+      "type": "file",
+      "name": "IconTreeSelect.tsx",
+      "filePath": "src/config/icons/IconTreeSelect.tsx",
+      "summary": "为低代码组件面板提供 TreeSelect 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconVideo.tsx",
+      "type": "file",
+      "name": "IconVideo.tsx",
+      "filePath": "src/config/icons/IconVideo.tsx",
+      "summary": "为低代码组件面板提供 Video 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/config/icons/IconWatermark.tsx",
+      "type": "file",
+      "name": "IconWatermark.tsx",
+      "filePath": "src/config/icons/IconWatermark.tsx",
+      "summary": "为低代码组件面板提供 Watermark 组件的 SVG 图标，用于设计态组件识别和菜单展示。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 TSX 直接声明 SVG 图形，组件本身无业务状态。"
+    },
+    {
+      "id": "file:src/pages/auditManagement/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/auditManagement/index.tsx",
+      "summary": "该文件为审核管理与审核记录两个页面提供标签页切换入口。",
+      "tags": [
+        "react-component",
+        "audit",
+        "management-page",
+        "workflow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/auditManagement/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/auditManagement/index.tsx",
+      "lineRange": [
+        8,
+        26
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责为审核管理与审核记录两个页面提供标签页切换入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "audit",
+        "management-page"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "type": "file",
+      "name": "AuditManagement.tsx",
+      "filePath": "src/pages/auditManagement/pages/AuditManagement.tsx",
+      "summary": "该文件实现审核任务查询、筛选、详情查看和审核操作。",
+      "tags": [
+        "react-component",
+        "audit",
+        "management-page",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/auditManagement/pages/AuditManagement.tsx:AuditManagement",
+      "type": "function",
+      "name": "AuditManagement",
+      "filePath": "src/pages/auditManagement/pages/AuditManagement.tsx",
+      "lineRange": [
+        21,
+        1264
+      ],
+      "summary": "AuditManagement 是该文件的核心 React 组件，负责实现审核任务查询、筛选、详情查看和审核操作。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "audit",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/auditManagement/pages/AuditRecord.tsx",
+      "type": "file",
+      "name": "AuditRecord.tsx",
+      "filePath": "src/pages/auditManagement/pages/AuditRecord.tsx",
+      "summary": "该文件展示历史审核记录及其筛选、分页和详情信息。",
+      "tags": [
+        "react-component",
+        "audit",
+        "management-page",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/auditManagement/pages/AuditRecord.tsx:AuditRecord",
+      "type": "function",
+      "name": "AuditRecord",
+      "filePath": "src/pages/auditManagement/pages/AuditRecord.tsx",
+      "lineRange": [
+        18,
+        339
+      ],
+      "summary": "AuditRecord 是该文件的核心 React 组件，负责展示历史审核记录及其筛选、分页和详情信息。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "audit",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "file",
+      "name": "AddElementModal.tsx",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "summary": "该文件实现自定义元素新增与编辑弹窗，处理代码文件、资源上传、预览和提交。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/elementManagement/AddElementModal.tsx:AddElementModal",
+      "type": "function",
+      "name": "AddElementModal",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "lineRange": [
+        70,
+        737
+      ],
+      "summary": "AddElementModal 是该文件的核心 React 组件，负责实现自定义元素新增与编辑弹窗，处理代码文件、资源上传、预览和提交。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/elementManagement/AddElementModal.tsx:generateUid",
+      "type": "function",
+      "name": "generateUid",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "lineRange": [
+        743,
+        745
+      ],
+      "summary": "generateUid 封装实现自定义元素新增与编辑弹窗，处理代码文件、资源上传、预览和提交过程中可复用的数据转换或交互逻辑。",
+      "tags": [
+        "utility",
+        "event-handler",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/elementManagement/AddElementModal.tsx:toRcFile",
+      "type": "function",
+      "name": "toRcFile",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "lineRange": [
+        750,
+        774
+      ],
+      "summary": "toRcFile 把浏览器 File 对象转换为上传组件使用的 RcFile 结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFile",
+      "type": "function",
+      "name": "toUploadFile",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "lineRange": [
+        779,
+        793
+      ],
+      "summary": "toUploadFile 把原始文件转换为带状态信息的 UploadFile 对象。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFileList",
+      "type": "function",
+      "name": "toUploadFileList",
+      "filePath": "src/pages/elementManagement/AddElementModal.tsx",
+      "lineRange": [
+        800,
+        802
+      ],
+      "summary": "toUploadFileList 批量生成上传组件可直接回显的文件列表。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "type": "file",
+      "name": "SingleFunctionUploadModal.tsx",
+      "filePath": "src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "summary": "该文件实现单函数文件上传弹窗并联动自定义元素预览。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/elementManagement/SingleFunctionUploadModal.tsx:SingleFunctionUploadModal",
+      "type": "function",
+      "name": "SingleFunctionUploadModal",
+      "filePath": "src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "lineRange": [
+        54,
+        107
+      ],
+      "summary": "SingleFunctionUploadModal 是该文件的核心 React 组件，负责实现单函数文件上传弹窗并联动自定义元素预览。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/elementManagement/elementDetail.tsx",
+      "type": "file",
+      "name": "elementDetail.tsx",
+      "filePath": "src/pages/elementManagement/elementDetail.tsx",
+      "summary": "该文件展示自定义元素详情并提供编辑、版本和发布相关操作。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/elementManagement/elementDetail.tsx:ElementDetailPage",
+      "type": "function",
+      "name": "ElementDetailPage",
+      "filePath": "src/pages/elementManagement/elementDetail.tsx",
+      "lineRange": [
+        88,
+        639
+      ],
+      "summary": "ElementDetailPage 是该文件的核心 React 组件，负责展示自定义元素详情并提供编辑、版本和发布相关操作。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/elementManagement/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/elementManagement/index.tsx",
+      "summary": "该文件实现自定义元素的列表查询、分类筛选、上传、预览、编辑和生命周期管理。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/elementManagement/index.tsx:PageManagementSystem",
+      "type": "function",
+      "name": "PageManagementSystem",
+      "filePath": "src/pages/elementManagement/index.tsx",
+      "lineRange": [
+        183,
+        1424
+      ],
+      "summary": "PageManagementSystem 是该文件的核心 React 组件，负责实现自定义元素的列表查询、分类筛选、上传、预览、编辑和生命周期管理。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/elementManagement/onlineEditing.tsx",
+      "type": "file",
+      "name": "onlineEditing.tsx",
+      "filePath": "src/pages/elementManagement/onlineEditing.tsx",
+      "summary": "该文件提供自定义元素代码在线编辑和保存界面。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/elementManagement/onlineEditing.tsx:ElementDetailPage",
+      "type": "function",
+      "name": "ElementDetailPage",
+      "filePath": "src/pages/elementManagement/onlineEditing.tsx",
+      "lineRange": [
+        25,
+        230
+      ],
+      "summary": "ElementDetailPage 是该文件的核心 React 组件，负责提供自定义元素代码在线编辑和保存界面。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/elementManagement/previewElementModal.tsx",
+      "type": "file",
+      "name": "previewElementModal.tsx",
+      "filePath": "src/pages/elementManagement/previewElementModal.tsx",
+      "summary": "该文件在隔离预览弹窗中加载并展示待发布的自定义元素。",
+      "tags": [
+        "react-component",
+        "custom-element",
+        "management-page",
+        "upload"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/elementManagement/previewElementModal.tsx:AddElementModal",
+      "type": "function",
+      "name": "AddElementModal",
+      "filePath": "src/pages/elementManagement/previewElementModal.tsx",
+      "lineRange": [
+        16,
+        307
+      ],
+      "summary": "AddElementModal 是该文件的核心 React 组件，负责在隔离预览弹窗中加载并展示待发布的自定义元素。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element",
+        "management-page"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/config/icons/IconRichText.tsx",
+      "target": "function:src/config/icons/IconRichText.tsx:IconRichText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconRingProgress.tsx",
+      "target": "function:src/config/icons/IconRingProgress.tsx:IconRignProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconSpace.tsx",
+      "target": "function:src/config/icons/IconSpace.tsx:IconSpace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconTinyColumn.tsx",
+      "target": "function:src/config/icons/IconTinyColumn.tsx:IconTinyColumn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconTinyLine.tsx",
+      "target": "function:src/config/icons/IconTinyLine.tsx:IconTinyLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/auditManagement/index.tsx",
+      "target": "function:src/pages/auditManagement/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "target": "function:src/pages/auditManagement/pages/AuditManagement.tsx:AuditManagement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditRecord.tsx",
+      "target": "function:src/pages/auditManagement/pages/AuditRecord.tsx:AuditRecord",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:AddElementModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:generateUid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:generateUid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toRcFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toRcFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFileList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "function:src/pages/elementManagement/AddElementModal.tsx:toUploadFileList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "target": "function:src/pages/elementManagement/SingleFunctionUploadModal.tsx:SingleFunctionUploadModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "function:src/pages/elementManagement/elementDetail.tsx:ElementDetailPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "function:src/pages/elementManagement/index.tsx:PageManagementSystem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/onlineEditing.tsx",
+      "target": "function:src/pages/elementManagement/onlineEditing.tsx:ElementDetailPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/elementManagement/previewElementModal.tsx",
+      "target": "function:src/pages/elementManagement/previewElementModal.tsx:AddElementModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/auditManagement/index.tsx",
+      "target": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/index.tsx",
+      "target": "file:src/pages/auditManagement/pages/AuditRecord.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "target": "file:src/config/components.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "target": "file:src/pages/auditManagement/pages/AuditManagement.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditManagement.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/auditManagement/pages/AuditRecord.tsx",
+      "target": "file:src/pages/auditManagement/pages/AuditRecord.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "file:src/pages/elementManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "file:src/pages/elementManagement/previewElementModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "target": "file:src/pages/elementManagement/previewElementModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "file:src/config/components.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "file:src/pages/elementManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "file:src/pages/elementManagement/onlineEditing.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/elementDetail.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/config/components.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/config/icons/IconFunnelChart.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/pages/elementManagement/elementDetail.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/pages/elementManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/elementManagement/onlineEditing.tsx",
+      "target": "file:src/pages/elementManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/taskCenter/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/taskCenter/index.tsx",
+      "summary": "实现任务中心主页面，组织待办查询、筛选、分页、批量操作和审核抽屉，是应用及物料审核任务的统一入口。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/taskCenter/index.tsx:TenantManagePage",
+      "type": "function",
+      "name": "TenantManagePage",
+      "filePath": "src/pages/taskCenter/index.tsx",
+      "lineRange": [
+        41,
+        1178
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/taskCenter/review.tsx",
+      "type": "file",
+      "name": "review.tsx",
+      "filePath": "src/pages/taskCenter/review.tsx",
+      "summary": "实现任务审核详情抽屉，展示申请信息、版本内容和流程节点，并提交通过、驳回等审核意见。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/taskCenter/review.tsx:reviewDrawer",
+      "type": "function",
+      "name": "reviewDrawer",
+      "filePath": "src/pages/taskCenter/review.tsx",
+      "lineRange": [
+        96,
+        1102
+      ],
+      "summary": "实现 reviewDrawer 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "type": "file",
+      "name": "reviewConfig.tsx",
+      "filePath": "src/pages/taskCenter/reviewConfig.tsx",
+      "summary": "实现审核流程配置抽屉，用于维护应用、模板、组件和自定义元素等对象的审核环节及审批人。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/taskCenter/reviewConfig.tsx:reviewConfigDrawer",
+      "type": "function",
+      "name": "reviewConfigDrawer",
+      "filePath": "src/pages/taskCenter/reviewConfig.tsx",
+      "lineRange": [
+        17,
+        701
+      ],
+      "summary": "实现 reviewConfigDrawer 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/taskCenter/reviewConfigCon.ts",
+      "type": "file",
+      "name": "reviewConfigCon.ts",
+      "filePath": "src/pages/taskCenter/reviewConfigCon.ts",
+      "summary": "集中定义各类对象的默认审核流程、临时流程和审核树数据，供审核配置界面构建流程选项。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "type": "file",
+      "name": "applicationCard.tsx",
+      "filePath": "src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "summary": "渲染应用模块卡片及其预览、编辑、复制、发布等操作，承载模板管理中的单项交互。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/templateManagement/applicationModuleList/applicationCard.tsx:CommponentCard",
+      "type": "function",
+      "name": "CommponentCard",
+      "filePath": "src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "lineRange": [
+        41,
+        165
+      ],
+      "summary": "渲染 applicationCard 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/applicationModuleList/index.tsx",
+      "summary": "以类组件实现应用模块列表，负责查询、分页、消息监听及卡片操作后的列表刷新。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:src/pages/templateManagement/applicationModuleList/index.tsx:ApplicationMuduleCard",
+      "type": "class",
+      "name": "ApplicationMuduleCard",
+      "filePath": "src/pages/templateManagement/applicationModuleList/index.tsx",
+      "lineRange": [
+        83,
+        299
+      ],
+      "summary": "以 React 类组件组织 applicationModuleList 列表或页面的加载、渲染和生命周期。",
+      "tags": [
+        "component",
+        "react",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "type": "file",
+      "name": "addApplyponentTemp.tsx",
+      "filePath": "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "summary": "提供新增或编辑应用模板的基础信息对话框，维护模板名称、分类、图标和说明等元数据。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx:AppBaseInfoDialog",
+      "type": "function",
+      "name": "AppBaseInfoDialog",
+      "filePath": "src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "lineRange": [
+        58,
+        349
+      ],
+      "summary": "渲染 addApplyponentTemp 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "type": "file",
+      "name": "applicationTempSearchCont.tsx",
+      "filePath": "src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "summary": "实现应用模板搜索结果与操作区，负责条件查询、分页、预览和模板生命周期操作。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx:ApplicationTempSearchCont",
+      "type": "function",
+      "name": "ApplicationTempSearchCont",
+      "filePath": "src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "lineRange": [
+        33,
+        321
+      ],
+      "summary": "渲染 applicationTempSearchCont 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/applicationTemp/index.tsx",
+      "summary": "组织应用模板管理页的查询条件与结果列表，并提供重置和刷新入口。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/pages/templateManagement/applicationTemp/index.tsx:ApplicationTemp",
+      "type": "class",
+      "name": "ApplicationTemp",
+      "filePath": "src/pages/templateManagement/applicationTemp/index.tsx",
+      "lineRange": [
+        16,
+        74
+      ],
+      "summary": "以 React 类组件组织 applicationTemp 列表或页面的加载、渲染和生命周期。",
+      "tags": [
+        "component",
+        "react",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "summary": "渲染业务组件模板预览页，根据模板信息加载并展示对应组件内容。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/templateManagement/businessTemplatePreview/index.tsx:BusinessComponentPreview",
+      "type": "function",
+      "name": "BusinessComponentPreview",
+      "filePath": "src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "lineRange": [
+        13,
+        78
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "type": "file",
+      "name": "addComponentTemp.tsx",
+      "filePath": "src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "summary": "提供新增或编辑组件模板的对话框，维护模板基础信息、分类、图标和关联组件。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/templateManagement/componentTemp/addComponentTemp.tsx:AddComponentTemp",
+      "type": "function",
+      "name": "AddComponentTemp",
+      "filePath": "src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "lineRange": [
+        42,
+        311
+      ],
+      "summary": "渲染 addComponentTemp 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "type": "file",
+      "name": "componentTempSearchCont.tsx",
+      "filePath": "src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "summary": "实现组件模板搜索结果与操作区，处理查询、分页、预览、编辑、复制和发布等动作。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx:ComponentTempSearchCont",
+      "type": "function",
+      "name": "ComponentTempSearchCont",
+      "filePath": "src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "lineRange": [
+        43,
+        275
+      ],
+      "summary": "渲染 componentTempSearchCont 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/componentTemp/index.tsx",
+      "summary": "组织组件模板管理页，协调查询表单、结果列表、初始化加载与重置行为。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/pages/templateManagement/componentTemp/index.tsx:ComponentTemp",
+      "type": "class",
+      "name": "ComponentTemp",
+      "filePath": "src/pages/templateManagement/componentTemp/index.tsx",
+      "lineRange": [
+        19,
+        98
+      ],
+      "summary": "以 React 类组件组织 componentTemp 列表或页面的加载、渲染和生命周期。",
+      "tags": [
+        "component",
+        "react",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/templateManagement/index.tsx",
+      "summary": "提供模板管理总入口，通过页签切换应用模板、组件模板及相关模块列表。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/templateManagement/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/templateManagement/index.tsx",
+      "lineRange": [
+        26,
+        171
+      ],
+      "summary": "渲染 index 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "file",
+      "name": "templateManageTypes.ts",
+      "filePath": "src/pages/templateManagement/templateManageTypes.ts",
+      "summary": "定义模板管理页面使用的应用模板、组件模板、查询条件和卡片数据等 TypeScript 类型。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "file:src/pages/applicationList/versionHost.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "file:src/pages/taskCenter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "file:src/pages/taskCenter/review.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "function:src/pages/taskCenter/index.tsx:TenantManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/taskCenter/index.tsx",
+      "target": "function:src/pages/taskCenter/index.tsx:TenantManagePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/layout/Preview/Preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/pages/applicationList/upcheckty.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/pages/taskCenter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/stores/menuStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/review.tsx",
+      "target": "function:src/pages/taskCenter/review.tsx:reviewDrawer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "target": "file:src/pages/taskCenter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "target": "file:src/pages/taskCenter/reviewConfigCon.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/taskCenter/reviewConfig.tsx",
+      "target": "function:src/pages/taskCenter/reviewConfig.tsx:reviewConfigDrawer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "target": "function:src/pages/templateManagement/applicationModuleList/applicationCard.tsx:CommponentCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "target": "function:src/pages/templateManagement/applicationModuleList/applicationCard.tsx:CommponentCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/applicationModuleList/applicationCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "class:src/pages/templateManagement/applicationModuleList/index.tsx:ApplicationMuduleCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "target": "class:src/pages/templateManagement/applicationModuleList/index.tsx:ApplicationMuduleCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "file:src/pages/templateManagement/applicationTemp/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "function:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx:AppBaseInfoDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "target": "function:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx:AppBaseInfoDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "function:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx:ApplicationTempSearchCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "target": "function:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx:ApplicationTempSearchCont",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/applicationModuleList/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/applicationTemp/applicationTempSearchCont.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "class:src/pages/templateManagement/applicationTemp/index.tsx:ApplicationTemp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "target": "class:src/pages/templateManagement/applicationTemp/index.tsx:ApplicationTemp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "target": "file:src/pages/templateManagement/businessTemplatePreview/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "target": "function:src/pages/templateManagement/businessTemplatePreview/index.tsx:BusinessComponentPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/businessTemplatePreview/index.tsx",
+      "target": "function:src/pages/templateManagement/businessTemplatePreview/index.tsx:BusinessComponentPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "target": "function:src/pages/templateManagement/componentTemp/addComponentTemp.tsx:AddComponentTemp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "target": "function:src/pages/templateManagement/componentTemp/addComponentTemp.tsx:AddComponentTemp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/componentTemp/addComponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "function:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx:ComponentTempSearchCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "target": "function:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx:ComponentTempSearchCont",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/componentTemp/componentTempSearchCont.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "file:src/pages/templateManagement/tempModuleList/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "class:src/pages/templateManagement/componentTemp/index.tsx:ComponentTemp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "target": "class:src/pages/templateManagement/componentTemp/index.tsx:ComponentTemp",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "file:src/pages/templateManagement/applicationTemp/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "file:src/pages/templateManagement/componentTemp/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "file:src/pages/templateManagement/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "file:src/pages/templateManagement/templateManageTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "function:src/pages/templateManagement/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/templateManagement/index.tsx",
+      "target": "function:src/pages/templateManagement/index.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

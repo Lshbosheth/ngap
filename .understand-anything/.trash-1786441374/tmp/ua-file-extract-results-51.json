@@ -1,0 +1,934 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/appEffectBoard/china-map/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 42,
+      "nonEmptyLines": 35,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/appEffectBoard/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 268,
+      "nonEmptyLines": 224,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationDashboard/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 424,
+      "nonEmptyLines": 358,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationDashboard/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 480,
+      "nonEmptyLines": 472,
+      "functions": [
+        {
+          "name": "ElementManagePage",
+          "startLine": 24,
+          "endLine": 478,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 68
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "echarts.registerMap",
+          "lineNumber": 183
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 184
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 216
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 217
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useState",
+          "lineNumber": 218
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "useEffect",
+          "lineNumber": 220
+        },
+        {
+          "caller": "initLoad",
+          "callee": "setLoading",
+          "lineNumber": 223
+        },
+        {
+          "caller": "initLoad",
+          "callee": "JSON.parse",
+          "lineNumber": 225
+        },
+        {
+          "caller": "initLoad",
+          "callee": "JSON.stringify",
+          "lineNumber": 225
+        },
+        {
+          "caller": "initLoad",
+          "callee": "listData.sort",
+          "lineNumber": 227
+        },
+        {
+          "caller": "initLoad",
+          "callee": "setListData",
+          "lineNumber": 228
+        },
+        {
+          "caller": "initLoad",
+          "callee": "JSON.parse",
+          "lineNumber": 230
+        },
+        {
+          "caller": "initLoad",
+          "callee": "JSON.stringify",
+          "lineNumber": 230
+        },
+        {
+          "caller": "initLoad",
+          "callee": "listData1.sort",
+          "lineNumber": 232
+        },
+        {
+          "caller": "initLoad",
+          "callee": "listData1.slice",
+          "lineNumber": 234
+        },
+        {
+          "caller": "initLoad",
+          "callee": "setRenderList",
+          "lineNumber": 235
+        },
+        {
+          "caller": "initLoad",
+          "callee": "message.error",
+          "lineNumber": 237
+        },
+        {
+          "caller": "initLoad",
+          "callee": "setLoading",
+          "lineNumber": 239
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "initLoad",
+          "lineNumber": 242
+        },
+        {
+          "caller": "unitConversion",
+          "callee": "parseFloat",
+          "lineNumber": 250
+        },
+        {
+          "caller": "unitConversion",
+          "callee": "(num / 10000).toFixed",
+          "lineNumber": 250
+        },
+        {
+          "caller": "unitConversion",
+          "callee": "resNum.toFixed",
+          "lineNumber": 253
+        },
+        {
+          "caller": "unitConversion",
+          "callee": "num.toString",
+          "lineNumber": 261
+        },
+        {
+          "caller": "unitConversion",
+          "callee": "numStr.slice",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "renderList?.map",
+          "lineNumber": 382
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "(() => {\r\n                                                    if (index === 0)\r\n                                                        return (\r\n                                                            <span className={styles.ordinal1}>\r\n                                                                <img src={new URL(`./imgs/ordinal_1.png`, import.meta.url).href} alt=\"\" />\r\n                                                            </span>\r\n                                                        );\r\n                                                    if (index === 1)\r\n                                                        return (\r\n                                                            <span className={styles.ordinal2}>\r\n                                                                <img src={new URL(`./imgs/ordinal_2.png`, import.meta.url).href} alt=\"\" />\r\n                                                            </span>\r\n                                                        );\r\n                                                    if (index === 2)\r\n                                                        return (\r\n                                                            <span className={styles.ordinal3}>\r\n                                                                <img src={new URL(`./imgs/ordinal_3.png`, import.meta.url).href} alt=\"\" />\r\n                                                            </span>\r\n                                                        );\r\n                                                    return <span className={styles[`ordinal${index + 1}`]}>{index + 1}</span>;\r\n                                                })",
+          "lineNumber": 385
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "listData?.map",
+          "lineNumber": 436
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "(() => {\r\n                                            if (index === 0)\r\n                                                return (\r\n                                                    <div className={styles.hot_rank1}>\r\n                                                        <img src={new URL(`./imgs/hot_rank_1.png`, import.meta.url).href} alt=\"\" />\r\n                                                    </div>\r\n                                                );\r\n                                            if (index === 1)\r\n                                                return (\r\n                                                    <div className={styles.hot_rank2}>\r\n                                                        <img src={new URL(`./imgs/hot_rank_2.png`, import.meta.url).href} alt=\"\" />\r\n                                                    </div>\r\n                                                );\r\n                                            if (index === 2)\r\n                                                return (\r\n                                                    <div className={styles.hot_rank3}>\r\n                                                        <img src={new URL(`./imgs/hot_rank_3.png`, import.meta.url).href} alt=\"\" />\r\n                                                    </div>\r\n                                                );\r\n                                            return <div className={styles[`hot_rank${index + 1}`]}>{index + 1}</div>;\r\n                                        })",
+          "lineNumber": 439
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "unitConversion",
+          "lineNumber": 464
+        },
+        {
+          "caller": "ElementManagePage",
+          "callee": "unitConversion",
+          "lineNumber": 467
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 26913,
+      "nonEmptyLines": 26913,
+      "sections": [
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "features",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 179,
+      "nonEmptyLines": 150,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationMap/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 747,
+      "nonEmptyLines": 692,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 412,
+      "nonEmptyLines": 364,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appCategory/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 163,
+      "nonEmptyLines": 139,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 33,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelect/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 248,
+      "nonEmptyLines": 216,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelects/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 346,
+      "nonEmptyLines": 303,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 374,
+      "nonEmptyLines": 337,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 70,
+      "nonEmptyLines": 58,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 39,
+      "nonEmptyLines": 39,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 35,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 220,
+      "nonEmptyLines": 193,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 153,
+      "nonEmptyLines": 130,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 317,
+      "nonEmptyLines": 286,
+      "functions": [
+        {
+          "name": "ConsoleLogModal",
+          "startLine": 23,
+          "endLine": 315,
+          "params": [
+            "{ visible, onClose, logs, onClearLogs }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useEffect",
+          "lineNumber": 28
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "setFilterLevel",
+          "lineNumber": 30
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "setSearchText",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useCallback",
+          "lineNumber": 36
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "onClearLogs",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useMemo",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "filtered.filter",
+          "lineNumber": 48
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "searchText.trim",
+          "lineNumber": 52
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "searchText.toLowerCase",
+          "lineNumber": 53
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "filtered.filter",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "JSON.stringify",
+          "lineNumber": 57
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "messageStr.toLowerCase().includes",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "messageStr.toLowerCase",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "JSON.stringify",
+          "lineNumber": 60
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "logStr.toLowerCase().includes",
+          "lineNumber": 61
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "logStr.toLowerCase",
+          "lineNumber": 61
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "filtered.filter",
+          "lineNumber": 69
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "log.trim",
+          "lineNumber": 98
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "Array.isArray",
+          "lineNumber": 106
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "log.forEach",
+          "lineNumber": 108
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 111
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 117
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 120
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 127
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "JSON.stringify",
+          "lineNumber": 132
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 134
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 137
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "String",
+          "lineNumber": 137
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.push",
+          "lineNumber": 143
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "String",
+          "lineNumber": 143
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "lines.join",
+          "lineNumber": 147
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "JSON.stringify",
+          "lineNumber": 153
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "String",
+          "lineNumber": 159
+        },
+        {
+          "caller": "formatLogContent",
+          "callee": "String",
+          "lineNumber": 168
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "useMemo",
+          "lineNumber": 172
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "logs.forEach",
+          "lineNumber": 178
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "setSearchText",
+          "lineNumber": 242
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "filteredLogs.map",
+          "lineNumber": 262
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "getLevelConfig",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "formatLogContent",
+          "lineNumber": 267
+        },
+        {
+          "caller": "ConsoleLogModal",
+          "callee": "config.bgColor.replace",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 299,
+      "nonEmptyLines": 267,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/BusinessComponent.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 244,
+      "nonEmptyLines": 214,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 79,
+      "nonEmptyLines": 66,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 429,
+      "nonEmptyLines": 413,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 212,
+      "nonEmptyLines": 178,
+      "functions": [
+        {
+          "name": "initSVG",
+          "startLine": 19,
+          "endLine": 39,
+          "params": [
+            "container"
+          ]
+        },
+        {
+          "name": "createLine",
+          "startLine": 41,
+          "endLine": 47,
+          "params": [
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        },
+        {
+          "name": "updateLine",
+          "startLine": 49,
+          "endLine": 55,
+          "params": [
+            "line",
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        },
+        {
+          "name": "createLineBySvg",
+          "startLine": 58,
+          "endLine": 68,
+          "params": [
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        },
+        {
+          "name": "updateLineBySvg",
+          "startLine": 70,
+          "endLine": 109,
+          "params": [
+            "line",
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        },
+        {
+          "name": "createLineByDiv",
+          "startLine": 112,
+          "endLine": 126,
+          "params": [
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        },
+        {
+          "name": "updateLineByDiv",
+          "startLine": 128,
+          "endLine": 212,
+          "params": [
+            "line",
+            "config",
+            "startDom",
+            "endDom"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "initSVG",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "createLine",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "updateLine",
+          "line": 49,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "initSVG",
+          "callee": "document.createElementNS",
+          "lineNumber": 28
+        },
+        {
+          "caller": "initSVG",
+          "callee": "svg.setAttribute",
+          "lineNumber": 29
+        },
+        {
+          "caller": "initSVG",
+          "callee": "svg.setAttribute",
+          "lineNumber": 30
+        },
+        {
+          "caller": "initSVG",
+          "callee": "svg.setAttribute",
+          "lineNumber": 31
+        },
+        {
+          "caller": "initSVG",
+          "callee": "container.appendChild",
+          "lineNumber": 34
+        },
+        {
+          "caller": "createLine",
+          "callee": "createLineBySvg",
+          "lineNumber": 43
+        },
+        {
+          "caller": "createLine",
+          "callee": "createLineByDiv",
+          "lineNumber": 45
+        },
+        {
+          "caller": "updateLine",
+          "callee": "updateLineBySvg",
+          "lineNumber": 51
+        },
+        {
+          "caller": "updateLine",
+          "callee": "updateLineByDiv",
+          "lineNumber": 53
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "document.createElementNS",
+          "lineNumber": 59
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "path.setAttribute",
+          "lineNumber": 60
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "path.setAttribute",
+          "lineNumber": 61
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "path.setAttribute",
+          "lineNumber": 62
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "path.setAttribute",
+          "lineNumber": 63
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "svgElement.appendChild",
+          "lineNumber": 64
+        },
+        {
+          "caller": "createLineBySvg",
+          "callee": "updateLineBySvg",
+          "lineNumber": 66
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "startDom.getBoundingClientRect",
+          "lineNumber": 73
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "endDom.getBoundingClientRect",
+          "lineNumber": 74
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 76
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 77
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 81
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 82
+        },
+        {
+          "caller": "updateLineBySvg",
+          "callee": "line.setAttribute",
+          "lineNumber": 107
+        },
+        {
+          "caller": "createLineByDiv",
+          "callee": "document.createElement",
+          "lineNumber": 113
+        },
+        {
+          "caller": "createLineByDiv",
+          "callee": "config.canvas?.appendChild",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createLineByDiv",
+          "callee": "updateLineByDiv",
+          "lineNumber": 124
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "startDom.getBoundingClientRect",
+          "lineNumber": 130
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "endDom.getBoundingClientRect",
+          "lineNumber": 131
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 133
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 134
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 138
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "canvas.getBoundingClientRect",
+          "lineNumber": 139
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 149
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 150
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 151
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 152
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 153
+        },
+        {
+          "caller": "updateLineByDiv",
+          "callee": "line.querySelector",
+          "lineNumber": 154
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    }
+  ]
+}

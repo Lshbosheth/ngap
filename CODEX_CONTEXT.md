@@ -1,8 +1,8 @@
-# NGAP 项目上下文交接
+# NGAP 项目上下文交接记忆（CODEX_CONTEXT.md）
 
 > 用途：在 Codex 新建对话后，先让 Codex 完整阅读本文件，再继续本项目工作。
 >
-> 建议新对话第一句话：`请先完整阅读 C:\Users\EDY\Desktop\ngap\CODEX_CONTEXT.md，然后继续这个项目。`
+> 建议新对话第一句话：`请先完整阅读项目里的 CODEX_CONTEXT.md、GUIDED_PROCESS_REDESIGN.md 和 GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md，然后接着讨论引导式改造，先不要生成代码。`
 
 ## 1. 项目位置
 
@@ -48,7 +48,7 @@ C:\Users\EDY\AppData\Local\Temp\codex-clipboard-3aa4392c-c0aa-4746-b9ef-c6e37b8d
 要求：
 
 - 每个流程节点可配置展示区域；
-- 普通环节可单独决定是否显示在智能导航中；
+- 普通正文环节默认进入智能导航，不提供节点级显示开关；
 - 有些环节没有页面组件，只参与流程控制，不进入导航；
 - 一个流程最多一个顶部节点、一个底部节点；
 - 整个流程可以不显示智能导航；
@@ -60,8 +60,11 @@ C:\Users\EDY\AppData\Local\Temp\codex-clipboard-3aa4392c-c0aa-4746-b9ef-c6e37b8d
 ```ts
 interface ProcessNodePresentation {
     region: 'header' | 'content' | 'footer' | 'control';
-    showInNavigator: boolean;
     navigatorTitle?: string;
+}
+
+interface ProcessNodeExecution {
+    interactionMode: 'manual' | 'automatic';
 }
 ```
 
@@ -80,10 +83,51 @@ interface GuidedProcessConfig {
 关键业务约束：
 
 - `header`：渲染在顶部，不进入导航，最多一个；
-- `content`：普通环节，可配置是否进入导航；
+- `content`：未设置特殊用途时的默认正文区域，自动进入导航，不要求用户逐个配置；
 - `footer`：渲染在底部，不进入导航，最多一个；
 - `control`：参与流程判断和流转，但不渲染 UI、不进入导航；
 - 展示配置属于当前流程中的节点实例，不属于业务组件模板。
+- `header/footer/control` 是需要显式设置的特殊用途；未设置时按 `content` 处理；
+- “人工/自动”是 `content` 环节的交互方式，同时作为智能导航文案：自动环节在接口或组件逻辑完成后静默判断分支并连续加载，人工环节进入后等待用户点选、选择、输入或确认；
+- 自动环节即使有多条条件分支也不暂停，取得数据后直接使用已有分支规则选择唯一出线；只有进入人工环节、结束节点或发生执行异常时才正常停止连续加载；
+- 自动环节不需要为了推进流程额外输出一个“继续”结果；人工环节的单一选择变化或多字段确认信号才是恢复推进的触发点；
+- 一个引导式流程最多一个 `header`、一个 `footer`，可以有多个 `content` 和 `control`。
+
+新增的数据域结论：
+
+- `header/content/footer/control` 是展示区域；普通环节默认属于 `content`；人工/自动是正文环节的交互与推进方式，并同时显示在智能导航中；
+- `control` 节点不渲染，但仍可调用服务、转换数据、执行条件判断并推进分支；
+- 每个流程节点实例以不可变 `nodeId` 拥有独立的变量、表单、API、输出和状态数据域；
+- 相同业务组件在同一流程使用两次时，也必须按两个 `nodeId` 隔离，不能使用 `componentId` 做数据主键；
+- 本地变量默认不注册到全局，跨节点只通过声明的输入、输出和 binding 传递；
+- 用户不负责流程级唯一命名，平台维护技术 ID；显示名称可以重复，可读别名仅在跨节点引用时按需生成；
+- 流程共享变量必须显式声明；旧 `context.variable/context.api` 由兼容投影生成；
+- 分支回滚按节点域整体释放数据和异步任务，不再按全局变量名清理；
+- 主 `src` 和独立 `page/materials` 必须使用同一 GuidedRuntime、binding 和表达式语义。
+
+新增的环节输出和流程推进结论：
+
+- 当前人工分支能读取多个内部 `Select/Radio` 原子值，支持条件列表和 AND/OR，也会处理数组值，但这只是“内部原子值判断”，不是正式组件输出；
+- 新模型必须区分节点 `input/draft/private/apiData/output/status/validation`；
+- 自动 content 在接口或组件自动逻辑完成后立即评估分支并继续，后续仍为自动节点时连续静默加载，不需要用户动作或 `isNext`；
+- 人工 content 进入后暂停：单一决策元素可在点选变化后继续，多输入或复杂交互由组件确认/完成信号恢复推进；
+- “组件输出”是应用组件对外提供的环节结果，默认属于当前 `nodeId`，不是全局参数；主要用于分支判断，也可被智能导航和下游节点按需引用；
+- 分支判断字段与导航展示字段可以不同。简单人工选择可暂用 `value` 判断分支、`label` 展示导航；复杂组件可以分别提供判断字段和一个或多个诊断展示字段；
+- 自动环节可由接口单独返回 `success/failure` 业务诊断状态供导航显示红色或绿色；完整列表仍可留在环节正文，除非分支或下游确实需要，否则不必全部发布为组件输出；
+- 复杂选择和计算当前倾向集中在应用组件内部：组件声明稳定的分支结果变量，通过 `onChange → 脚本/表达式 → 变量赋值` 更新，流程只根据该业务代码选择连线；该方向暂定，下一轮继续讨论完成时机；
+- 已核对当前代码：仅声明变量或设置默认表达式不会自动响应表单变化，必须显式配置事件赋值；变量变化后现有 `VA` 监听可以重算分支；
+- 当前变量赋值仍写入页面级 `variableData`，新模型需要按 `nodeId` 隔离，并支持“人工交互 + 组件变量分支”，不再把交互方式和 `MT/VA` 数据来源绑定在一起；
+- P0-05 多出线唯一命中规则已冻结：正常推进只命中一条出线，同优先级冲突停止并诊断，无命中时走唯一默认分支或显式阻塞；自动多分支仍静默连续执行；
+- P0-06 拓扑规则已冻结：单活动路径 DAG，只允许一个开始节点和一个结束节点；所有有效分支最终必须汇合并连接到同一个结束节点；
+- P0-07 分支回滚范围已冻结：旧路径节点域、输出、接口数据、DOM、订阅和异步任务整体失效，后端副作用按具体接口语义处理；
+- 多选条件需要明确支持 `containsAny/containsAll/equalsSet/notContains/size...` 等集合语义；
+- 现有低代码业务组件通过输出映射形成 `node.output`，未来完整 React ZIP 组件通过平台 SDK 提交同一种输出；
+- 组件可以输出业务 `decisionCode`，但不能输出 `nextNodeId`，下一节点仍由画布连线和分支规则选择；
+- 设计图可以分支和重新汇合，但一次运行只有一条活动路径；支持 `A-B-D / A-C-D`，本期不支持 B、C 同时执行后等待汇聚；
+- 前端 GuidedRuntime 是流程推进主引擎，后端负责业务 API、可信业务规则、权限、定义持久化和可选运行快照；
+- 用户修改前序环节时，旧输出、旧分支数据、DOM 和异步结果必须一起失效，不能只截断页面元素。
+
+详细数据域设计位于《引导式流程展示编排升级设计（`GUIDED_PROCESS_REDESIGN.md`）》第 15 章；环节正式输出和单活动路径推进位于第 16 章。尚未冻结的问题单独记录在《引导式流程待完善事项（`GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`）》中。
 
 ### 目标 B：升级自定义元素为“上传一个组件 ZIP 包”
 
@@ -120,7 +164,10 @@ interface GuidedProcessConfig {
 - 已分析引导式流程编辑、保存、预览和运行链路；
 - 已分析自定义元素上传、源码获取、动态编译、注册和渲染链路；
 - 已编写详细引导式流程重构设计文档。
+- 已把环节正式输出、草稿/完成边界、多字段和多选组合、低代码/React 组件统一输出协议、单活动路径与分支汇合追加到引导式详细设计第 16 章。
+- 已新增独立的引导式流程待完善事项文档，按 P0/P1/P2 记录需要后续评审的产品和技术决策；当前用户要求先讨论、看清待完善点，再决定实现，不要直接生成代码。
 - 已编写详细自定义元素 v2 React 组件 ZIP 包重写设计文档，包含 ZIP/ngap.json 协议、AST 推导、平台 SDK 与权限、manifest、服务端构建、注册、安全、双运行时兼容、迁移、测试和分阶段实施方案。
+- 已编写需求人员入门文档 `NGAP_REQUIREMENTS_ONBOARDING.md`，介绍当前 NGAP 平台能力、核心业务对象、多项目组协作方式和两个重点优化项目；明确先完成引导式流程改造，再启动自定义元素正式改造。
 - 已增加保留原页面结构的本地模拟模式，不再采用独立“实验台”页面：
   - `#/build?mock=guided` 自动打开原应用编排画布；
   - `#/build?mock=element` 当前仍自动打开原元素管理并弹出现有“单 TSX 函数组件”模拟上传；它只是旧的链路验证样例，正式目标已改为 ZIP 包上传；
@@ -131,7 +178,23 @@ interface GuidedProcessConfig {
 
 ## 4. 必读文档
 
-### 引导式流程详细设计
+### NGAP 平台与重点优化需求入门指南（NGAP_REQUIREMENTS_ONBOARDING.md）
+
+```text
+C:\Users\EDY\Desktop\ngap\NGAP_REQUIREMENTS_ONBOARDING.md
+```
+
+包含：
+
+- 当前 NGAP 的产品定位和完整能力地图；
+- 元素、业务组件、模板、应用、变量、接口、事件和流程等核心对象；
+- 应用从建设、审核、发布、上架到运行治理的闭环；
+- 多项目组协作和需求文档检查清单；
+- 引导式流程四区改造的需求目标、范围、规则和完成门槛；
+- 自定义元素 ZIP + SDK 改造的需求目标和启动条件；
+- 明确实施顺序：引导式稳定后再改造自定义元素。
+
+### 引导式流程展示编排升级详细设计（GUIDED_PROCESS_REDESIGN.md）
 
 ```text
 C:\Users\EDY\Desktop\ngap\GUIDED_PROCESS_REDESIGN.md
@@ -151,10 +214,34 @@ C:\Users\EDY\Desktop\ngap\GUIDED_PROCESS_REDESIGN.md
 - 测试方案；
 - 分阶段实施计划。
 
-### 自定义元素 v2 详细设计
+新增内容：
+
+- 节点域、输入输出和数据绑定；
+- 融合式 React 环节的职责边界；
+- `draft → ready → completed → output` 完成过程；
+- 多字段、多选组合和集合条件；
+- 单活动路径、互斥分支和重新进入同一后续节点；
+- 前端 GuidedRuntime 与后端业务 API 的职责划分。
+
+### 引导式流程待完善事项（GUIDED_PROCESS_PENDING_ITEMS）
 
 ```text
-C:\Users\EDY\Desktop\ngap\CUSTOM_ELEMENT_REDESIGN.md
+C:\Users\EDY\Desktop\ngap\GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md
+```
+
+包含：
+
+- 已经确认的方案前提；
+- 开发主干前必须确认的 P0 事项；
+- 主干开发期间确认的 P1 事项；
+- 主链路稳定后完善的 P2 事项；
+- 当前代码风险依据；
+- 推荐评审顺序和开始编码前冻结门槛。
+
+### 自定义元素完整设计·理想方案（CUSTOM_ELEMENT_REDESIGN）
+
+```text
+C:\Users\EDY\Desktop\ngap\CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md
 ```
 
 包含：
@@ -170,13 +257,13 @@ C:\Users\EDY\Desktop\ngap\CUSTOM_ELEMENT_REDESIGN.md
 - `src` 与 `page/materials` 双运行时统一；
 - 安全边界、旧元素迁移、测试矩阵和分阶段实施计划。
 
-### 接口和改造记录
+### NGAP 核心改造记录（REFACTOR_NOTES.md）
 
 ```text
 C:\Users\EDY\Desktop\ngap\REFACTOR_NOTES.md
 ```
 
-### 缺失二进制资源清单
+### 缺失二进制资源清单（missing-binary-assets.txt）
 
 ```text
 C:\Users\EDY\Desktop\ngap\missing-binary-assets.txt
@@ -481,18 +568,22 @@ http://127.0.0.1:8892/ngap/#/build?mock=element
 
 ## 10. 下一步建议
 
-如果用户要求开始实现引导式改造：
+当前用户要求先讨论方案，不要直接生成代码。下一步应先打开《引导式流程待完善事项（`GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`）》逐项沟通，优先确认 P0-01 至 P0-07，再决定第一期实现范围。
+
+如果用户后续明确要求开始实现引导式改造：
 
 1. 先完整阅读 `GUIDED_PROCESS_REDESIGN.md`；
-2. 从数据模型、默认值、Store、getData/setData 和保存闭环开始；
-3. 验证后端是否透传 `sceneData` 新字段；
-4. 再把运行时从 `allRenderElements` 重构为节点级 `renderedNodes`；
-5. 然后实现四区页面壳和导航升级；
-6. 最后处理 BottomBanner 和 `page` 子项目同步。
+2. 再完整阅读 `GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`，确认 P0 结论已经冻结；
+3. 从节点域、组件输出、人工/自动推进方式、条件模型和保存闭环开始；
+4. 验证后端是否透传 `sceneData`、节点输出定义、绑定和连线新字段；
+5. 抽取主 `src` 与独立 `page/materials` 共享的 GuidedRuntime；
+6. 再把运行时从 `allRenderElements` 重构为节点级 `renderedNodes` 和节点执行状态；
+7. 然后实现四区页面壳、导航升级、分支回滚和异常处理；
+8. 最后处理 BottomBanner、旧数据迁移和双运行时完整回归。
 
 如果用户要求开始实现组件 ZIP 包上传：
 
-1. 先完整阅读 `CUSTOM_ELEMENT_REDESIGN.md`；
+1. 先完整阅读 `CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md`；
 2. 先冻结 ZIP 目录、`ngap.json`、runtime manifest、SDK 版本与权限字典；
 3. 优先实施共享 package reader、contract、analyzer、manifest、manifest-to-schema 和 SDK types/mock；
 4. 并行准备服务端异步构建/扫描接口；正式 ZIP 多模块预览不能只依赖浏览器 Babel；
@@ -503,9 +594,12 @@ http://127.0.0.1:8892/ngap/#/build?mock=element
 
 ## 11. 新对话注意事项
 
+- 新对话先完整阅读 `CODEX_CONTEXT.md`，它是本项目的长期记忆入口；
+- 讨论或实现引导式时，再完整阅读 `GUIDED_PROCESS_REDESIGN.md` 和 `GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`；
+- 当前讨论进度是：已经确认组件输出、自动环节静默连续执行、人工环节等待交互、智能导航诊断结果、节点变量域、单活动路径和前端引擎方向；P0-05、P0-06、P0-07 已冻结，P0-06 明确全流程只有一个结束节点且所有路径最终连到该节点；组件内计算分支结果变量的方向暂定，下一轮继续讨论其赋值/完成时机和 P0-04 范围，尚未授权开始主干编码；
 - 不要重新要求用户提供整个项目；文本源码已还原。
 - 不要要求用户传十几 MB 的全部图片；核心改造可先使用占位资源。
-- 不要把顶部/底部属性加到业务组件模板；必须加到流程节点实例。
+- 不要把顶部/底部属性加到业务组件模板；必须加到流程节点实例。普通环节无需配置 `content`，只有 `header/footer/control` 作为特殊用途显式设置。
 - 不要继续以第一个节点固定作为 header 或最后节点作为 footer；应显式配置。
 - 不要继续用扁平元素下标实现导航定位；使用 nodeId 和节点容器 ref。
 - 不要只修改 `src`，还要考虑 `page` 子项目的独立运行时。

@@ -1,0 +1,97 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/businessComponentManage/businessComponent.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 226,
+      "nonEmptyLines": 226,
+      "sections": [
+        {
+          "heading": "returnCode",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "beans",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "returnMessage",
+          "level": 1,
+          "line": 221
+        },
+        {
+          "heading": "bean",
+          "level": 1,
+          "line": 222
+        },
+        {
+          "heading": "object",
+          "level": 1,
+          "line": 225
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "src/pages/businessComponentManage/componentBusinessList.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 134,
+      "nonEmptyLines": 134,
+      "sections": [
+        {
+          "heading": "returnCode",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "beans",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "returnMessage",
+          "level": 1,
+          "line": 131
+        },
+        {
+          "heading": "bean",
+          "level": 1,
+          "line": 132
+        },
+        {
+          "heading": "object",
+          "level": 1,
+          "line": 133
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "src/pages/businessComponentManage/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 496,
+      "nonEmptyLines": 451,
+      "metrics": {}
+    }
+  ]
+}

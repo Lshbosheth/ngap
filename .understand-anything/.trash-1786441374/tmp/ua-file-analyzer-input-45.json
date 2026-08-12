@@ -1,0 +1,186 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/api/pageMember.ts",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/user.ts",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/App.less",
+      "language": "css",
+      "sizeLines": 79,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/ApiConfig/index.module.less",
+      "language": "css",
+      "sizeLines": 23,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/CustomIconList.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/index.module.less",
+      "language": "css",
+      "sizeLines": 182,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/EventConfig/index.module.less",
+      "language": "css",
+      "sizeLines": 32,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/FloatingCollector/index.module.less",
+      "language": "css",
+      "sizeLines": 128,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/FlowNode/index.less",
+      "language": "css",
+      "sizeLines": 289,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/FormItemModal.tsx",
+      "language": "typescript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Searchbar/index.module.less",
+      "language": "css",
+      "sizeLines": 7,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/Searchbar/SearchBar.tsx",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/SetterRender/index.module.less",
+      "language": "css",
+      "sizeLines": 10,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/SpinLoading.tsx",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/StyleConfig/index.module.less",
+      "language": "css",
+      "sizeLines": 128,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/StyleConfig/transform.ts",
+      "language": "typescript",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/Toolbar/index.less",
+      "language": "css",
+      "sizeLines": 90,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/components/VariableBind/variable.module.less",
+      "language": "css",
+      "sizeLines": 48,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/config/icons/IconBMap.tsx",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconEmpty.tsx",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFormB.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFormEditTable.tsx",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconFormPassValidate.tsx",
+      "language": "typescript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconGrid.tsx",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/api/pageMember.ts": [],
+    "src/api/user.ts": [],
+    "src/App.less": [],
+    "src/components/ApiConfig/index.module.less": [],
+    "src/components/CustomIconList.tsx": [],
+    "src/components/EventConfig/ActionModal/ComponentStyle.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/index.module.less": [],
+    "src/components/EventConfig/index.module.less": [],
+    "src/components/FloatingCollector/index.module.less": [],
+    "src/components/FlowNode/index.less": [],
+    "src/components/FormItemModal.tsx": [],
+    "src/components/Searchbar/index.module.less": [],
+    "src/components/Searchbar/SearchBar.tsx": [
+      "src/components/Searchbar/index.module.less"
+    ],
+    "src/components/SetterRender/index.module.less": [],
+    "src/components/SpinLoading.tsx": [],
+    "src/components/StyleConfig/index.module.less": [],
+    "src/components/StyleConfig/transform.ts": [],
+    "src/components/Toolbar/index.less": [],
+    "src/components/VariableBind/variable.module.less": [],
+    "src/config/icons/IconBMap.tsx": [],
+    "src/config/icons/IconEmpty.tsx": [],
+    "src/config/icons/IconFormB.tsx": [],
+    "src/config/icons/IconFormEditTable.tsx": [],
+    "src/config/icons/IconFormPassValidate.tsx": [],
+    "src/config/icons/IconGrid.tsx": []
+  }
+}

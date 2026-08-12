@@ -1,0 +1,785 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/api/pageMember.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/api/user.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "login",
+          "startLine": 2,
+          "endLine": 10,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "getUserInfo",
+          "startLine": 12,
+          "endLine": 19,
+          "params": []
+        },
+        {
+          "name": "searchUser",
+          "startLine": 22,
+          "endLine": 27,
+          "params": [
+            "params"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "login",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "getUserInfo",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "searchUser",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/App.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 79,
+      "nonEmptyLines": 79,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/ApiConfig/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 23,
+      "nonEmptyLines": 23,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/CustomIconList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "CustomIconOptions",
+          "startLine": 23,
+          "endLine": 82,
+          "params": [
+            "{ value, onChange }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CustomIconOptions",
+          "line": 23,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useMemo",
+          "lineNumber": 27
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "Object.keys(icons)\r\n            .filter((item) => !['default', 'createFromIconfontCN', 'getTwoToneColor', 'setTwoToneColor', 'IconProvider'].includes(item))\r\n            .map",
+          "lineNumber": 31
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "Object.keys(icons)\r\n            .filter",
+          "lineNumber": 31
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "Object.keys",
+          "lineNumber": 31
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "['default', 'createFromIconfontCN', 'getTwoToneColor', 'setTwoToneColor', 'IconProvider'].includes",
+          "lineNumber": 32
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "React.createElement",
+          "lineNumber": 33
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useMemo",
+          "lineNumber": 37
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "allList.filter",
+          "lineNumber": 37
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "item.value.includes",
+          "lineNumber": 37
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useMemo",
+          "lineNumber": 38
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "allList.filter",
+          "lineNumber": 38
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "item.value.includes",
+          "lineNumber": 38
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useMemo",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "allList.filter",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "item.value.includes",
+          "lineNumber": 39
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "useMemo",
+          "lineNumber": 41
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "setOpen",
+          "lineNumber": 58
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "onChange",
+          "lineNumber": 59
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "setType",
+          "lineNumber": 62
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "options.map",
+          "lineNumber": 64
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "onChange",
+          "lineNumber": 69
+        },
+        {
+          "caller": "CustomIconOptions",
+          "callee": "setOpen",
+          "lineNumber": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "ComponentStyle",
+          "startLine": 8,
+          "endLine": 55,
+          "params": [
+            "{form}"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ComponentStyle",
+          "callee": "useAppContext",
+          "lineNumber": 9
+        },
+        {
+          "caller": "ComponentStyle",
+          "callee": "pageStore",
+          "lineNumber": 11
+        },
+        {
+          "caller": "ComponentStyle",
+          "callee": "pageStore",
+          "lineNumber": 13
+        },
+        {
+          "caller": "ComponentStyle",
+          "callee": "useShallow",
+          "lineNumber": 14
+        },
+        {
+          "caller": "ComponentStyle",
+          "callee": "useMemo",
+          "lineNumber": 19
+        },
+        {
+          "caller": "processNode",
+          "callee": "node.elements.map",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ComponentStyle",
+          "callee": "elements.map",
+          "lineNumber": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 182,
+      "nonEmptyLines": 168,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/EventConfig/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 32,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/FloatingCollector/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 114,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/FlowNode/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 289,
+      "nonEmptyLines": 288,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/FormItemModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 128,
+      "nonEmptyLines": 119,
+      "functions": [
+        {
+          "name": "FormItemModal",
+          "startLine": 35,
+          "endLine": 126,
+          "params": [
+            "{ open, elementName, onOk, onCancel }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "FormItemModal",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleOk",
+          "callee": "onOk",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "onCancel",
+          "lineNumber": 43
+        },
+        {
+          "caller": "FormItemModal",
+          "callee": "setSelectedType",
+          "lineNumber": 57
+        },
+        {
+          "caller": "FormItemModal",
+          "callee": "formContainerOptions.map",
+          "lineNumber": 67
+        },
+        {
+          "caller": "FormItemModal",
+          "callee": "setSelectedType",
+          "lineNumber": 73
+        },
+        {
+          "caller": "FormItemModal",
+          "callee": "IconComponent",
+          "lineNumber": 90
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Searchbar/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/Searchbar/SearchBar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "SearchBar",
+          "startLine": 7,
+          "endLine": 41,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SearchBar",
+          "callee": "useLocation",
+          "lineNumber": 8
+        },
+        {
+          "caller": "SearchBar",
+          "callee": "useNavigate",
+          "lineNumber": 9
+        },
+        {
+          "caller": "SearchBar",
+          "callee": "navigate",
+          "lineNumber": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/SetterRender/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/SpinLoading.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "functions": [
+        {
+          "name": "SpinLoading",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "{ size = 'default' }"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/StyleConfig/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 128,
+      "nonEmptyLines": 110,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/StyleConfig/transform.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 69,
+      "functions": [
+        {
+          "name": "transformRules",
+          "startLine": 12,
+          "endLine": 34,
+          "params": [
+            "rules",
+            "result"
+          ]
+        },
+        {
+          "name": "cleanPropertyName",
+          "startLine": 36,
+          "endLine": 43,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "mediaNameGenerator",
+          "startLine": 45,
+          "endLine": 47,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "nameGenerator",
+          "startLine": 49,
+          "endLine": 56,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "transform",
+          "startLine": 58,
+          "endLine": 80,
+          "params": [
+            "inputCssText"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "transform",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "transformRules",
+          "callee": "rules.forEach",
+          "lineNumber": 13
+        },
+        {
+          "caller": "transformRules",
+          "callee": "mediaNameGenerator",
+          "lineNumber": 16
+        },
+        {
+          "caller": "transformRules",
+          "callee": "transformRules",
+          "lineNumber": 20
+        },
+        {
+          "caller": "transformRules",
+          "callee": "rule.declarations.forEach",
+          "lineNumber": 22
+        },
+        {
+          "caller": "transformRules",
+          "callee": "cleanPropertyName",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transformRules",
+          "callee": "rule.selectors.forEach",
+          "lineNumber": 28
+        },
+        {
+          "caller": "transformRules",
+          "callee": "nameGenerator",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transformRules",
+          "callee": "selector.trim",
+          "lineNumber": 29
+        },
+        {
+          "caller": "cleanPropertyName",
+          "callee": "name.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "cleanPropertyName",
+          "callee": "v[1].toUpperCase",
+          "lineNumber": 39
+        },
+        {
+          "caller": "nameGenerator",
+          "callee": "name.replace",
+          "lineNumber": 50
+        },
+        {
+          "caller": "nameGenerator",
+          "callee": "name.replace",
+          "lineNumber": 51
+        },
+        {
+          "caller": "nameGenerator",
+          "callee": "name.replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "nameGenerator",
+          "callee": "name.replace",
+          "lineNumber": 53
+        },
+        {
+          "caller": "transform",
+          "callee": "inputCssText.indexOf",
+          "lineNumber": 66
+        },
+        {
+          "caller": "transform",
+          "callee": "cssParser.parse",
+          "lineNumber": 70
+        },
+        {
+          "caller": "transform",
+          "callee": "transformRules",
+          "lineNumber": 72
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/components/Toolbar/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 90,
+      "nonEmptyLines": 89,
+      "metrics": {}
+    },
+    {
+      "path": "src/components/VariableBind/variable.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 48,
+      "nonEmptyLines": 48,
+      "metrics": {}
+    },
+    {
+      "path": "src/config/icons/IconBMap.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "IconBmap",
+          "startLine": 1,
+          "endLine": 28,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconEmpty.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "IconEmpty",
+          "startLine": 1,
+          "endLine": 13,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormB.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormEditTable.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "IconFormEditTable",
+          "startLine": 1,
+          "endLine": 75,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormPassValidate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "IconFormPassValidate",
+          "startLine": 1,
+          "endLine": 22,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconGrid.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "IconGrid",
+          "startLine": 1,
+          "endLine": 66,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/utils/goldBankCheckfn.ts",
+      "type": "file",
+      "name": "goldBankCheckfn.ts",
+      "filePath": "src/packages/utils/goldBankCheckfn.ts",
+      "summary": "把主运行时动作参数转换为 GoldBank 安全校验调用并处理回调。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "function",
+      "name": "GoldBankCheckAction",
+      "filePath": "src/packages/utils/goldBankCheckfn.ts",
+      "lineRange": [
+        8,
+        46
+      ],
+      "summary": "解析动作参数并调用 GoldBank 安全校验。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/handleApi.ts",
+      "type": "file",
+      "name": "handleApi.ts",
+      "filePath": "src/packages/utils/handleApi.ts",
+      "summary": "执行主运行时页面接口配置，解析上下文参数并把响应映射到变量、表单和组件状态。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/handleApi.ts:handleApi",
+      "type": "function",
+      "name": "handleApi",
+      "filePath": "src/packages/utils/handleApi.ts",
+      "lineRange": [
+        20,
+        144
+      ],
+      "summary": "执行配置接口并把结果写回页面运行时。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/handleApi.ts:mergeParams",
+      "type": "function",
+      "name": "mergeParams",
+      "filePath": "src/packages/utils/handleApi.ts",
+      "lineRange": [
+        154,
+        189
+      ],
+      "summary": "把静态配置、变量、表单和接口数据合并为调用参数。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/useComponentRefs.ts",
+      "type": "file",
+      "name": "useComponentRefs.ts",
+      "filePath": "src/packages/utils/useComponentRefs.ts",
+      "summary": "维护主运行时的元素组件 Ref 注册表，支持动作链按元素标识调用实例。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/useComponentRefs.ts:getComponentRef",
+      "type": "function",
+      "name": "getComponentRef",
+      "filePath": "src/packages/utils/useComponentRefs.ts",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "实现 getComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/useComponentRefs.ts:setComponentRef",
+      "type": "function",
+      "name": "setComponentRef",
+      "filePath": "src/packages/utils/useComponentRefs.ts",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "实现 setComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "function",
+      "name": "clearComponentRef",
+      "filePath": "src/packages/utils/useComponentRefs.ts",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "实现 clearComponentRef 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/useHandleApi.ts",
+      "type": "file",
+      "name": "useHandleApi.ts",
+      "filePath": "src/packages/utils/useHandleApi.ts",
+      "summary": "封装 React 组件中的接口执行逻辑，读取页面上下文、合并参数并更新运行时数据。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/useHandleApi.ts:UseHandleApi",
+      "type": "function",
+      "name": "UseHandleApi",
+      "filePath": "src/packages/utils/useHandleApi.ts",
+      "lineRange": [
+        21,
+        178
+      ],
+      "summary": "实现 UseHandleApi 对应的运行时处理逻辑。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "file",
+      "name": "useMaterialTools.ts",
+      "filePath": "src/packages/utils/useMaterialTools.ts",
+      "summary": "为物料组件提供动作执行、变量访问和组件引用等常用运行时工具。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/useMaterialTools.ts:UseMaterialTools",
+      "type": "function",
+      "name": "UseMaterialTools",
+      "filePath": "src/packages/utils/useMaterialTools.ts",
+      "lineRange": [
+        14,
+        25
+      ],
+      "summary": "实现 UseMaterialTools 对应的运行时处理逻辑。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/util.ts",
+      "type": "file",
+      "name": "util.ts",
+      "filePath": "src/packages/utils/util.ts",
+      "summary": "汇集主物料运行时的日期、公式、变量、模板、脚本样式和表单数据转换工具。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:createId",
+      "type": "function",
+      "name": "createId",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        20,
+        22
+      ],
+      "summary": "实现 createId 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:formatNumber",
+      "type": "function",
+      "name": "formatNumber",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        28,
+        35
+      ],
+      "summary": "实现 formatNumber 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "实现 formatDate 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getDateByType",
+      "type": "function",
+      "name": "getDateByType",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        48,
+        65
+      ],
+      "summary": "实现 getDateByType 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getDateRangeByType",
+      "type": "function",
+      "name": "getDateRangeByType",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        83,
+        120
+      ],
+      "summary": "实现 getDateRangeByType 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:isNull",
+      "type": "function",
+      "name": "isNull",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        125,
+        128
+      ],
+      "summary": "实现 isNull 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:isNotEmpty",
+      "type": "function",
+      "name": "isNotEmpty",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        133,
+        136
+      ],
+      "summary": "实现 isNotEmpty 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:copyText",
+      "type": "function",
+      "name": "copyText",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        143,
+        145
+      ],
+      "summary": "实现 copyText 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:renderTemplate",
+      "type": "function",
+      "name": "renderTemplate",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        152,
+        164
+      ],
+      "summary": "实现 renderTemplate 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getPageVariable",
+      "type": "function",
+      "name": "getPageVariable",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        169,
+        177
+      ],
+      "summary": "实现 getPageVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getPageApiData",
+      "type": "function",
+      "name": "getPageApiData",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        182,
+        191
+      ],
+      "summary": "实现 getPageApiData 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:createFunction",
+      "type": "function",
+      "name": "createFunction",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        196,
+        211
+      ],
+      "summary": "实现 createFunction 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:renderAsyncFormula",
+      "type": "function",
+      "name": "renderAsyncFormula",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        219,
+        266
+      ],
+      "summary": "实现 renderAsyncFormula 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:renderFormula",
+      "type": "function",
+      "name": "renderFormula",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        273,
+        342
+      ],
+      "summary": "实现 renderFormula 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getDateItem",
+      "type": "function",
+      "name": "getDateItem",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        347,
+        357
+      ],
+      "summary": "实现 getDateItem 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:dateFormat",
+      "type": "function",
+      "name": "dateFormat",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        364,
+        429
+      ],
+      "summary": "实现 dateFormat 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:handleParamVariable",
+      "type": "function",
+      "name": "handleParamVariable",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        435,
+        454
+      ],
+      "summary": "实现 handleParamVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:handleArrayVariable",
+      "type": "function",
+      "name": "handleArrayVariable",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        462,
+        493
+      ],
+      "summary": "实现 handleArrayVariable 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:loadStyle",
+      "type": "function",
+      "name": "loadStyle",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        500,
+        517
+      ],
+      "summary": "实现 loadStyle 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:loadScript",
+      "type": "function",
+      "name": "loadScript",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        524,
+        534
+      ],
+      "summary": "实现 loadScript 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getEnv",
+      "type": "function",
+      "name": "getEnv",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        540,
+        542
+      ],
+      "summary": "实现 getEnv 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:handleFormatter",
+      "type": "function",
+      "name": "handleFormatter",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        547,
+        557
+      ],
+      "summary": "实现 handleFormatter 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:generateSign",
+      "type": "function",
+      "name": "generateSign",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        564,
+        579
+      ],
+      "summary": "实现 generateSign 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getParentKeys",
+      "type": "function",
+      "name": "getParentKeys",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        602,
+        621
+      ],
+      "summary": "实现 getParentKeys 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:dateIsValid",
+      "type": "function",
+      "name": "dateIsValid",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        628,
+        630
+      ],
+      "summary": "实现 dateIsValid 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:dateStrToDayjs",
+      "type": "function",
+      "name": "dateStrToDayjs",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        637,
+        642
+      ],
+      "summary": "实现 dateStrToDayjs 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:cleanHtml",
+      "type": "function",
+      "name": "cleanHtml",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        648,
+        650
+      ],
+      "summary": "实现 cleanHtml 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:analysisHtmlToStr",
+      "type": "function",
+      "name": "analysisHtmlToStr",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        657,
+        660
+      ],
+      "summary": "实现 analysisHtmlToStr 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:formatDateValue",
+      "type": "function",
+      "name": "formatDateValue",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        682,
+        691
+      ],
+      "summary": "实现 formatDateValue 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:formatFormValues",
+      "type": "function",
+      "name": "formatFormValues",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        699,
+        740
+      ],
+      "summary": "实现 formatFormValues 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:numberToChinese",
+      "type": "function",
+      "name": "numberToChinese",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        743,
+        769
+      ],
+      "summary": "实现 numberToChinese 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/util.ts:getUrlName",
+      "type": "function",
+      "name": "getUrlName",
+      "filePath": "src/packages/utils/util.ts",
+      "lineRange": [
+        771,
+        780
+      ],
+      "summary": "实现 getUrlName 通用数据转换或运行时辅助逻辑。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "type": "file",
+      "name": "ComponentPanelAO.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "summary": "实现应用编排画布的物料面板，展示内置与自定义组件分类并支持搜索、拖拽和菜单刷新。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/editor/editor.tsx",
+      "type": "file",
+      "name": "editor.tsx",
+      "filePath": "src/pages/editor/editor.tsx",
+      "summary": "实现低代码编辑器主工作区，组织画布、物料、属性面板、预览、保存及跨窗口消息协作。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/stores/apiListStore.ts",
+      "type": "file",
+      "name": "apiListStore.ts",
+      "filePath": "src/stores/apiListStore.ts",
+      "summary": "维护可选接口列表及其加载状态，为接口配置和表达式编辑提供共享数据源。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "file:src/utils/goldbank.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "function:src/packages/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/goldBankCheckfn.ts",
+      "target": "function:src/packages/utils/goldBankCheckfn.ts:GoldBankCheckAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "file:src/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "function:src/packages/utils/handleApi.ts:handleApi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "function:src/packages/utils/handleApi.ts:handleApi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "function:src/packages/utils/handleApi.ts:mergeParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/handleApi.ts",
+      "target": "function:src/packages/utils/handleApi.ts:mergeParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:getComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:getComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:setComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:setComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useComponentRefs.ts",
+      "target": "function:src/packages/utils/useComponentRefs.ts:clearComponentRef",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "file:src/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "function:src/packages/utils/useHandleApi.ts:UseHandleApi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useHandleApi.ts",
+      "target": "function:src/packages/utils/useHandleApi.ts:UseHandleApi",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/useMaterialTools.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useMaterialTools.ts",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useMaterialTools.ts",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/useMaterialTools.ts",
+      "target": "function:src/packages/utils/useMaterialTools.ts:UseMaterialTools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/useMaterialTools.ts",
+      "target": "function:src/packages/utils/useMaterialTools.ts:UseMaterialTools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:createId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:createId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatDate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateByType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateByType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateRangeByType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateRangeByType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:isNull",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:isNull",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:isNotEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:isNotEmpty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:copyText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:copyText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderTemplate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getPageVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getPageVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getPageApiData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getPageApiData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:createFunction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:createFunction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderAsyncFormula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderAsyncFormula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderFormula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:renderFormula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getDateItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateFormat",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateFormat",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleParamVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleParamVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleArrayVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleArrayVariable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:loadStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:loadStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:loadScript",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:loadScript",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getEnv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleFormatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:handleFormatter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:generateSign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:generateSign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getParentKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getParentKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateIsValid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateIsValid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateStrToDayjs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:dateStrToDayjs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:cleanHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:cleanHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:analysisHtmlToStr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:analysisHtmlToStr",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatDateValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatDateValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatFormValues",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:formatFormValues",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:numberToChinese",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:numberToChinese",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getUrlName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/util.ts",
+      "target": "function:src/packages/utils/util.ts:getUrlName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "target": "file:src/layout/components/ApiList/ApiList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "target": "file:src/layout/components/CrossApiList/CrossApiList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "target": "file:src/layout/components/OutlinePanel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/editor.tsx",
+      "target": "file:src/pages/editor/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/editor.tsx",
+      "target": "file:src/pages/editor/topbar/TopBar.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/editor.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/editor.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/editor/editor.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

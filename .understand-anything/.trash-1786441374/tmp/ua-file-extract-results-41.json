@@ -1,0 +1,2022 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/cpp/cpp.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "s.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/csharp/csharp.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "l",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "c.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "p",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/csp/csp.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "u",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "g.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "q",
+          "callee": "c",
+          "lineNumber": 8
+        },
+        {
+          "caller": "q",
+          "callee": "o",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/css/css.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "callGraph": [
+        {
+          "caller": "m",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "c",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/cypher/cypher.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "g",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/dart/dart.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "p",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "c",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "a.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "g",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "r",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/dockerfile/dockerfile.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "p",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "i.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "g",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "a",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/ecl/ecl.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "r",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/elixir/elixir.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "a.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "c",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "o",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/flow9/flow9.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "m",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/freemarker2/freemarker2.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "callGraph": [
+        {
+          "caller": "h",
+          "callee": "t",
+          "lineNumber": 8
+        },
+        {
+          "caller": "S",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "D",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "v.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "C",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "x",
+          "callee": "B",
+          "lineNumber": 8
+        },
+        {
+          "caller": "x",
+          "callee": "T",
+          "lineNumber": 8
+        },
+        {
+          "caller": "x",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "x",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "I",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "I",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "k.join",
+          "lineNumber": 9
+        },
+        {
+          "caller": "p",
+          "callee": "k.join",
+          "lineNumber": 9
+        },
+        {
+          "caller": "p",
+          "callee": "l.join",
+          "lineNumber": 9
+        },
+        {
+          "caller": "p",
+          "callee": "l.join",
+          "lineNumber": 9
+        },
+        {
+          "caller": "b",
+          "callee": "k.join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "b",
+          "callee": "k.join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "b",
+          "callee": "l.join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "b",
+          "callee": "l.join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "e",
+          "callee": "c.replace",
+          "lineNumber": 10
+        },
+        {
+          "caller": "o",
+          "callee": "c.source.replace",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "e",
+          "lineNumber": 10
+        },
+        {
+          "caller": "a",
+          "callee": "o",
+          "lineNumber": 10
+        },
+        {
+          "caller": "$",
+          "callee": "a",
+          "lineNumber": 10
+        },
+        {
+          "caller": "$",
+          "callee": "a",
+          "lineNumber": 10
+        },
+        {
+          "caller": "$",
+          "callee": "a",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/fsharp/fsharp.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "f",
+          "callee": "g",
+          "lineNumber": 8
+        },
+        {
+          "caller": "f",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/go/go.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "m",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "c.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/graphql/graphql.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/handlebars/handlebars.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "T",
+          "callee": "e",
+          "lineNumber": 8
+        },
+        {
+          "caller": "S",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "u",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "k.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "b",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "m",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "m",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "h",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "x",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "m",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "E",
+          "callee": "m",
+          "lineNumber": 8
+        },
+        {
+          "caller": "E",
+          "callee": "i",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/hcl/hcl.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "l",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "c.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "r",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/html/html.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "E",
+          "callee": "e",
+          "lineNumber": 8
+        },
+        {
+          "caller": "T",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "o",
+          "callee": "x",
+          "lineNumber": 8
+        },
+        {
+          "caller": "o",
+          "callee": "g.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "o",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "o",
+          "callee": "b",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "u",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "y",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "m",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "w",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "w",
+          "callee": "a",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/ini/ini.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "t",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "g.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "t",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "t",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/java/java.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "l",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "c.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/javascript/javascript.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "w",
+          "callee": "e",
+          "lineNumber": 8
+        },
+        {
+          "caller": "h",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "f",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "k.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "u",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "x",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "b",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "v",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "v",
+          "callee": "a",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/julia/julia.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "c",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "p.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "l",
+          "callee": "i",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "l",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/kotlin/kotlin.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "l",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "c.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "o",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "g",
+          "callee": "o",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/less/less.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 11,
+      "callGraph": [
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "u",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "u",
+          "callee": "l.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "u",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "u",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "u",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "r",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/lexon/lexon.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "l",
+          "callee": "n",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "d",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "a.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "n",
+          "lineNumber": 8
+        },
+        {
+          "caller": "p",
+          "callee": "s",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "p",
+          "lineNumber": 8
+        },
+        {
+          "caller": "c",
+          "callee": "n",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/liquid/liquid.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "callGraph": [
+        {
+          "caller": "b",
+          "callee": "e",
+          "lineNumber": 8
+        },
+        {
+          "caller": "T",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "r",
+          "callee": "w",
+          "lineNumber": 8
+        },
+        {
+          "caller": "r",
+          "callee": "q.call",
+          "lineNumber": 8
+        },
+        {
+          "caller": "r",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "r",
+          "callee": "g",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "d",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "p",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "h",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "s",
+          "callee": "a",
+          "lineNumber": 8
+        },
+        {
+          "caller": "k",
+          "callee": "r",
+          "lineNumber": 8
+        },
+        {
+          "caller": "k",
+          "callee": "a",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

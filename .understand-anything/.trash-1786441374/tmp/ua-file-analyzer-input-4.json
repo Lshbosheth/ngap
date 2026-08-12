@@ -1,0 +1,271 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/config/icons/IconPieChart.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconPopover.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconProgress.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconRate.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconRichText.tsx",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconRingProgress.tsx",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconRow.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSearcFrom.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSpace.tsx",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSpan.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSpin.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSteps.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTag.tsx",
+      "language": "typescript",
+      "sizeLines": 9,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconText.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTimeLine.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTimer.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTinyColumn.tsx",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTinyLine.tsx",
+      "language": "typescript",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTitle.tsx",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTransfer.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTree.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTreeSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconVideo.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconWatermark.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/auditManagement/index.tsx",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditManagement.tsx",
+      "language": "typescript",
+      "sizeLines": 1266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditRecord.tsx",
+      "language": "typescript",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/AddElementModal.tsx",
+      "language": "typescript",
+      "sizeLines": 802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/elementDetail.tsx",
+      "language": "typescript",
+      "sizeLines": 641,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/index.tsx",
+      "language": "typescript",
+      "sizeLines": 1426,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/onlineEditing.tsx",
+      "language": "typescript",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/elementManagement/previewElementModal.tsx",
+      "language": "typescript",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/config/icons/IconPieChart.tsx": [],
+    "src/config/icons/IconPopover.tsx": [],
+    "src/config/icons/IconProgress.tsx": [],
+    "src/config/icons/IconRate.tsx": [],
+    "src/config/icons/IconRichText.tsx": [],
+    "src/config/icons/IconRingProgress.tsx": [],
+    "src/config/icons/IconRow.tsx": [],
+    "src/config/icons/IconSearcFrom.tsx": [],
+    "src/config/icons/IconSpace.tsx": [],
+    "src/config/icons/IconSpan.tsx": [],
+    "src/config/icons/IconSpin.tsx": [],
+    "src/config/icons/IconSteps.tsx": [],
+    "src/config/icons/IconTag.tsx": [],
+    "src/config/icons/IconText.tsx": [],
+    "src/config/icons/IconTimeLine.tsx": [],
+    "src/config/icons/IconTimer.tsx": [],
+    "src/config/icons/IconTinyColumn.tsx": [],
+    "src/config/icons/IconTinyLine.tsx": [],
+    "src/config/icons/IconTitle.tsx": [],
+    "src/config/icons/IconTransfer.tsx": [],
+    "src/config/icons/IconTree.tsx": [],
+    "src/config/icons/IconTreeSelect.tsx": [],
+    "src/config/icons/IconVideo.tsx": [],
+    "src/config/icons/IconWatermark.tsx": [],
+    "src/pages/auditManagement/index.tsx": [
+      "src/pages/auditManagement/pages/AuditManagement.tsx",
+      "src/pages/auditManagement/pages/AuditRecord.tsx"
+    ],
+    "src/pages/auditManagement/pages/AuditManagement.tsx": [
+      "src/config/components.tsx",
+      "src/packages/index.tsx",
+      "src/pages/auditManagement/pages/AuditManagement.less",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/auditManagement/pages/AuditRecord.tsx": [
+      "src/pages/auditManagement/pages/AuditRecord.less"
+    ],
+    "src/pages/elementManagement/AddElementModal.tsx": [
+      "src/pages/elementManagement/index.module.less",
+      "src/pages/elementManagement/previewElementModal.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/pages/elementManagement/SingleFunctionUploadModal.tsx": [
+      "src/pages/elementManagement/previewElementModal.tsx"
+    ],
+    "src/pages/elementManagement/elementDetail.tsx": [
+      "src/config/components.tsx",
+      "src/pages/elementManagement/AddElementModal.tsx",
+      "src/pages/elementManagement/index.module.less",
+      "src/pages/elementManagement/onlineEditing.tsx",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/elementManagement/index.tsx": [
+      "src/config/components.tsx",
+      "src/config/icons/IconFunnelChart.tsx",
+      "src/packages/index.tsx",
+      "src/pages/elementManagement/AddElementModal.tsx",
+      "src/pages/elementManagement/elementDetail.tsx",
+      "src/pages/elementManagement/index.module.less",
+      "src/pages/elementManagement/SingleFunctionUploadModal.tsx",
+      "src/utils/operLog.ts"
+    ],
+    "src/pages/elementManagement/onlineEditing.tsx": [
+      "src/pages/elementManagement/index.module.less"
+    ],
+    "src/pages/elementManagement/previewElementModal.tsx": []
+  }
+}

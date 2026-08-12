@@ -1,0 +1,717 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/api/pageMember.ts",
+      "type": "file",
+      "name": "pageMember.ts",
+      "filePath": "src/api/pageMember.ts",
+      "summary": "提供页面成员查询、新增和删除的本地模拟 API。",
+      "tags": [
+        "api-handler",
+        "mock",
+        "data-access"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/api/user.ts",
+      "type": "file",
+      "name": "user.ts",
+      "filePath": "src/api/user.ts",
+      "summary": "提供登录、当前用户信息和用户搜索的本地模拟 API。",
+      "tags": [
+        "api-handler",
+        "mock",
+        "data-access"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/user.ts:login",
+      "type": "function",
+      "name": "login",
+      "filePath": "src/api/user.ts",
+      "lineRange": [
+        2,
+        10
+      ],
+      "summary": "login 返回演示用户登录凭据。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/user.ts:getUserInfo",
+      "type": "function",
+      "name": "getUserInfo",
+      "filePath": "src/api/user.ts",
+      "lineRange": [
+        12,
+        19
+      ],
+      "summary": "getUserInfo 返回当前演示用户信息。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/user.ts:searchUser",
+      "type": "function",
+      "name": "searchUser",
+      "filePath": "src/api/user.ts",
+      "lineRange": [
+        22,
+        27
+      ],
+      "summary": "searchUser 按条件返回示例用户结果。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/App.less",
+      "type": "file",
+      "name": "App.less",
+      "filePath": "src/App.less",
+      "summary": "为 App.less 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/ApiConfig/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/ApiConfig/index.module.less",
+      "summary": "为 components/ApiConfig 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/CustomIconList.tsx",
+      "type": "file",
+      "name": "CustomIconList.tsx",
+      "filePath": "src/components/CustomIconList.tsx",
+      "summary": "渲染平台自定义图标选项列表，并将选中图标回写到配置表单。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/CustomIconList.tsx:CustomIconOptions",
+      "type": "function",
+      "name": "CustomIconOptions",
+      "filePath": "src/components/CustomIconList.tsx",
+      "lineRange": [
+        23,
+        82
+      ],
+      "summary": "CustomIconOptions 渲染并筛选可选平台图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "type": "file",
+      "name": "ComponentStyle.tsx",
+      "filePath": "src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "summary": "配置事件动作对目标组件样式的修改内容。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/EventConfig/ActionModal/ComponentStyle.tsx:ComponentStyle",
+      "type": "function",
+      "name": "ComponentStyle",
+      "filePath": "src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "lineRange": [
+        8,
+        55
+      ],
+      "summary": "ComponentStyle 编辑事件动作中的目标样式配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/EventConfig/ActionModal/index.module.less",
+      "summary": "为 components/EventConfig/ActionModal 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/EventConfig/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/EventConfig/index.module.less",
+      "summary": "为 components/EventConfig 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/FloatingCollector/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/FloatingCollector/index.module.less",
+      "summary": "为 components/FloatingCollector 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/FlowNode/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/components/FlowNode/index.less",
+      "summary": "为 components/FlowNode 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/FormItemModal.tsx",
+      "type": "file",
+      "name": "FormItemModal.tsx",
+      "filePath": "src/components/FormItemModal.tsx",
+      "summary": "在弹窗中编辑表单项配置，并处理字段值、校验规则和提交回写。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/FormItemModal.tsx:FormItemModal",
+      "type": "function",
+      "name": "FormItemModal",
+      "filePath": "src/components/FormItemModal.tsx",
+      "lineRange": [
+        35,
+        126
+      ],
+      "summary": "FormItemModal 承载表单项配置弹窗及提交逻辑。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/Searchbar/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/Searchbar/index.module.less",
+      "summary": "为 components/Searchbar 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/Searchbar/SearchBar.tsx",
+      "type": "file",
+      "name": "SearchBar.tsx",
+      "filePath": "src/components/Searchbar/SearchBar.tsx",
+      "summary": "提供带清空和搜索触发能力的通用搜索输入框。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/Searchbar/SearchBar.tsx:SearchBar",
+      "type": "function",
+      "name": "SearchBar",
+      "filePath": "src/components/Searchbar/SearchBar.tsx",
+      "lineRange": [
+        7,
+        41
+      ],
+      "summary": "SearchBar 封装搜索输入与清空交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/SetterRender/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/SetterRender/index.module.less",
+      "summary": "为 components/SetterRender 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/SpinLoading.tsx",
+      "type": "file",
+      "name": "SpinLoading.tsx",
+      "filePath": "src/components/SpinLoading.tsx",
+      "summary": "提供平台统一的轻量加载中占位组件。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/StyleConfig/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/components/StyleConfig/index.module.less",
+      "summary": "为 components/StyleConfig 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/transform.ts",
+      "type": "file",
+      "name": "transform.ts",
+      "filePath": "src/components/StyleConfig/transform.ts",
+      "summary": "解析 CSS 文本，将选择器、媒体查询和 kebab-case 属性转换为平台使用的 JavaScript 样式对象。",
+      "tags": [
+        "utility",
+        "style-config",
+        "css-parser",
+        "serialization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/transform.ts:transformRules",
+      "type": "function",
+      "name": "transformRules",
+      "filePath": "src/components/StyleConfig/transform.ts",
+      "lineRange": [
+        12,
+        34
+      ],
+      "summary": "transformRules 递归处理 CSS 规则和媒体查询并写入结果对象。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/StyleConfig/transform.ts:transform",
+      "type": "function",
+      "name": "transform",
+      "filePath": "src/components/StyleConfig/transform.ts",
+      "lineRange": [
+        58,
+        80
+      ],
+      "summary": "transform 把 CSS 文本解析为平台样式配置对象。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/Toolbar/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/components/Toolbar/index.less",
+      "summary": "为 components/Toolbar 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/VariableBind/variable.module.less",
+      "type": "file",
+      "name": "variable.module.less",
+      "filePath": "src/components/VariableBind/variable.module.less",
+      "summary": "为 components/VariableBind/variable.module.less 模块定义布局、状态和交互反馈样式。",
+      "tags": [
+        "stylesheet",
+        "react-component",
+        "user-interface"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconBMap.tsx",
+      "type": "file",
+      "name": "IconBMap.tsx",
+      "filePath": "src/config/icons/IconBMap.tsx",
+      "summary": "为低代码组件面板提供 BMap 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconBMap.tsx:IconBmap",
+      "type": "function",
+      "name": "IconBmap",
+      "filePath": "src/config/icons/IconBMap.tsx",
+      "lineRange": [
+        1,
+        28
+      ],
+      "summary": "IconBmap 渲染对应低代码组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconEmpty.tsx",
+      "type": "file",
+      "name": "IconEmpty.tsx",
+      "filePath": "src/config/icons/IconEmpty.tsx",
+      "summary": "为低代码组件面板提供 Empty 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconEmpty.tsx:IconEmpty",
+      "type": "function",
+      "name": "IconEmpty",
+      "filePath": "src/config/icons/IconEmpty.tsx",
+      "lineRange": [
+        1,
+        13
+      ],
+      "summary": "IconEmpty 渲染对应低代码组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFormB.tsx",
+      "type": "file",
+      "name": "IconFormB.tsx",
+      "filePath": "src/config/icons/IconFormB.tsx",
+      "summary": "为低代码组件面板提供 FormB 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconFormEditTable.tsx",
+      "type": "file",
+      "name": "IconFormEditTable.tsx",
+      "filePath": "src/config/icons/IconFormEditTable.tsx",
+      "summary": "为低代码组件面板提供 FormEditTable 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/config/icons/IconFormEditTable.tsx:IconFormEditTable",
+      "type": "function",
+      "name": "IconFormEditTable",
+      "filePath": "src/config/icons/IconFormEditTable.tsx",
+      "lineRange": [
+        1,
+        75
+      ],
+      "summary": "IconFormEditTable 渲染对应低代码组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/config/icons/IconFormPassValidate.tsx",
+      "type": "file",
+      "name": "IconFormPassValidate.tsx",
+      "filePath": "src/config/icons/IconFormPassValidate.tsx",
+      "summary": "为低代码组件面板提供 FormPassValidate 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/config/icons/IconFormPassValidate.tsx:IconFormPassValidate",
+      "type": "function",
+      "name": "IconFormPassValidate",
+      "filePath": "src/config/icons/IconFormPassValidate.tsx",
+      "lineRange": [
+        1,
+        22
+      ],
+      "summary": "IconFormPassValidate 渲染对应低代码组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/icons/IconGrid.tsx",
+      "type": "file",
+      "name": "IconGrid.tsx",
+      "filePath": "src/config/icons/IconGrid.tsx",
+      "summary": "为低代码组件面板提供 Grid 组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "svg-icon",
+        "component-palette"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/config/icons/IconGrid.tsx:IconGrid",
+      "type": "function",
+      "name": "IconGrid",
+      "filePath": "src/config/icons/IconGrid.tsx",
+      "lineRange": [
+        1,
+        66
+      ],
+      "summary": "IconGrid 渲染对应低代码组件的 SVG 图标。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "svg-icon"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:login",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:getUserInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:getUserInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:searchUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/user.ts",
+      "target": "function:src/api/user.ts:searchUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/CustomIconList.tsx",
+      "target": "function:src/components/CustomIconList.tsx:CustomIconOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/CustomIconList.tsx",
+      "target": "function:src/components/CustomIconList.tsx:CustomIconOptions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "target": "function:src/components/EventConfig/ActionModal/ComponentStyle.tsx:ComponentStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/FormItemModal.tsx",
+      "target": "function:src/components/FormItemModal.tsx:FormItemModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/Searchbar/SearchBar.tsx",
+      "target": "function:src/components/Searchbar/SearchBar.tsx:SearchBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/transform.ts",
+      "target": "function:src/components/StyleConfig/transform.ts:transformRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/transform.ts",
+      "target": "function:src/components/StyleConfig/transform.ts:transform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/transform.ts",
+      "target": "function:src/components/StyleConfig/transform.ts:transform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/config/icons/IconBMap.tsx",
+      "target": "function:src/config/icons/IconBMap.tsx:IconBmap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconEmpty.tsx",
+      "target": "function:src/config/icons/IconEmpty.tsx:IconEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFormEditTable.tsx",
+      "target": "function:src/config/icons/IconFormEditTable.tsx:IconFormEditTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconFormPassValidate.tsx",
+      "target": "function:src/config/icons/IconFormPassValidate.tsx:IconFormPassValidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/icons/IconGrid.tsx",
+      "target": "function:src/config/icons/IconGrid.tsx:IconGrid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/EventConfig/ActionModal/ComponentStyle.tsx",
+      "target": "file:src/components/EventConfig/ActionModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/Searchbar/SearchBar.tsx",
+      "target": "file:src/components/Searchbar/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

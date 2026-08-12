@@ -1,0 +1,187 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/appEffectBoard/china-map/index.less",
+      "language": "css",
+      "sizeLines": 42,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/appEffectBoard/index.less",
+      "language": "css",
+      "sizeLines": 268,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationDashboard/index.module.less",
+      "language": "css",
+      "sizeLines": 424,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationDashboard/index.tsx",
+      "language": "typescript",
+      "sizeLines": 480,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "language": "json",
+      "sizeLines": 26913,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "language": "css",
+      "sizeLines": 179,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationMap/index.module.less",
+      "language": "css",
+      "sizeLines": 747,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "language": "css",
+      "sizeLines": 412,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appCategory/index.module.less",
+      "language": "css",
+      "sizeLines": 163,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "language": "css",
+      "sizeLines": 33,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelect/index.module.less",
+      "language": "css",
+      "sizeLines": 248,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/CascadeSelects/index.module.less",
+      "language": "css",
+      "sizeLines": 346,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/index.module.less",
+      "language": "css",
+      "sizeLines": 374,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less",
+      "language": "css",
+      "sizeLines": 70,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less",
+      "language": "css",
+      "sizeLines": 39,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "language": "css",
+      "sizeLines": 35,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "language": "css",
+      "sizeLines": 220,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less",
+      "language": "css",
+      "sizeLines": 153,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "language": "typescript",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "language": "css",
+      "sizeLines": 299,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/BusinessComponent.tsx",
+      "language": "typescript",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less",
+      "language": "css",
+      "sizeLines": 244,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less",
+      "language": "css",
+      "sizeLines": 79,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "language": "css",
+      "sizeLines": 429,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "language": "typescript",
+      "sizeLines": 212,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/appEffectBoard/china-map/index.less": [],
+    "src/pages/appEffectBoard/index.less": [],
+    "src/pages/applicationDashboard/index.module.less": [],
+    "src/pages/applicationDashboard/index.tsx": [
+      "src/pages/applicationDashboard/index.module.less",
+      "src/pages/applicationDashboard/map/chinaGeoJSON.json"
+    ],
+    "src/pages/applicationDashboard/map/chinaGeoJSON.json": [],
+    "src/pages/applicationList/AppEvaluationModal/index.module.less": [],
+    "src/pages/applicationMap/index.module.less": [],
+    "src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less": [],
+    "src/pages/applicationOrchestration/appCategory/index.module.less": [],
+    "src/pages/applicationOrchestration/appTypeManageDialog/index.module.less": [],
+    "src/pages/applicationOrchestration/CascadeSelect/index.module.less": [],
+    "src/pages/applicationOrchestration/CascadeSelects/index.module.less": [],
+    "src/pages/applicationOrchestration/index.module.less": [],
+    "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx": [
+      "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/BusinessComponent.tsx": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/index.module.less": [],
+    "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx": []
+  }
+}

@@ -1,0 +1,1335 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Basic/Timer/Timer.tsx",
+      "type": "file",
+      "name": "Timer.tsx",
+      "filePath": "src/packages/Basic/Timer/Timer.tsx",
+      "summary": "该文件封装低代码运行时的 Timer 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Basic/Timer/Timer.tsx:parseInitialTime",
+      "type": "function",
+      "name": "parseInitialTime",
+      "filePath": "src/packages/Basic/Timer/Timer.tsx",
+      "lineRange": [
+        11,
+        26
+      ],
+      "summary": "parseInitialTime 解析计时器初始值并转换为统一的时分秒状态。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Basic/Timer/Timer.tsx:MTimer",
+      "type": "function",
+      "name": "MTimer",
+      "filePath": "src/packages/Basic/Timer/Timer.tsx",
+      "lineRange": [
+        37,
+        253
+      ],
+      "summary": "MTimer 是该文件的核心 React 组件，负责封装低代码运行时的 Timer 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Title/Title.tsx",
+      "type": "file",
+      "name": "Title.tsx",
+      "filePath": "src/packages/Basic/Title/Title.tsx",
+      "summary": "该文件封装低代码运行时的 Title 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Title/Title.tsx:MTitle",
+      "type": "function",
+      "name": "MTitle",
+      "filePath": "src/packages/Basic/Title/Title.tsx",
+      "lineRange": [
+        14,
+        96
+      ],
+      "summary": "MTitle 是该文件的核心 React 组件，负责封装低代码运行时的 Title 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Video/Video.tsx",
+      "type": "file",
+      "name": "Video.tsx",
+      "filePath": "src/packages/Basic/Video/Video.tsx",
+      "summary": "该文件封装低代码运行时的 Video 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Video/Video.tsx:MVideo",
+      "type": "function",
+      "name": "MVideo",
+      "filePath": "src/packages/Basic/Video/Video.tsx",
+      "lineRange": [
+        19,
+        101
+      ],
+      "summary": "MVideo 是该文件的核心 React 组件，负责封装低代码运行时的 Video 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "type": "file",
+      "name": "Watermark.tsx",
+      "filePath": "src/packages/Basic/Watermark/Watermark.tsx",
+      "summary": "该文件封装低代码运行时的 Watermark 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Watermark/Watermark.tsx:MRow",
+      "type": "function",
+      "name": "MRow",
+      "filePath": "src/packages/Basic/Watermark/Watermark.tsx",
+      "lineRange": [
+        21,
+        141
+      ],
+      "summary": "MRow 是该文件的核心 React 组件，负责封装低代码运行时的 Watermark 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Card/Card.tsx",
+      "type": "file",
+      "name": "Card.tsx",
+      "filePath": "src/packages/Container/Card/Card.tsx",
+      "summary": "该文件提供 Card 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/Card/Card.tsx:MCard",
+      "type": "function",
+      "name": "MCard",
+      "filePath": "src/packages/Container/Card/Card.tsx",
+      "lineRange": [
+        22,
+        142
+      ],
+      "summary": "MCard 是该文件的核心 React 组件，负责提供 Card 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "type": "file",
+      "name": "Collapse.tsx",
+      "filePath": "src/packages/Container/Collapse/Collapse.tsx",
+      "summary": "该文件提供 Collapse 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Container/Collapse/Collapse.tsx:MCollapse",
+      "type": "function",
+      "name": "MCollapse",
+      "filePath": "src/packages/Container/Collapse/Collapse.tsx",
+      "lineRange": [
+        24,
+        270
+      ],
+      "summary": "MCollapse 是该文件的核心 React 组件，负责提供 Collapse 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "type": "file",
+      "name": "CollapseItem.tsx",
+      "filePath": "src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "summary": "该文件提供 CollapseItem 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "lineRange": [
+        16,
+        90
+      ],
+      "summary": "MTabs 是该文件的核心 React 组件，负责提供 CollapseItem 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "type": "file",
+      "name": "Cycle.tsx",
+      "filePath": "src/packages/Container/Cycle/Cycle.tsx",
+      "summary": "该文件提供 Cycle 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Container/Cycle/Cycle.tsx:Cycle",
+      "type": "function",
+      "name": "Cycle",
+      "filePath": "src/packages/Container/Cycle/Cycle.tsx",
+      "lineRange": [
+        17,
+        315
+      ],
+      "summary": "Cycle 是该文件的核心 React 组件，负责提供 Cycle 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Container/Div/Div.tsx",
+      "type": "file",
+      "name": "Div.tsx",
+      "filePath": "src/packages/Container/Div/Div.tsx",
+      "summary": "该文件提供 Div 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/Div/Div.tsx:Div",
+      "type": "function",
+      "name": "Div",
+      "filePath": "src/packages/Container/Div/Div.tsx",
+      "lineRange": [
+        23,
+        110
+      ],
+      "summary": "Div 是该文件的核心 React 组件，负责提供 Div 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Flex/Flex.tsx",
+      "type": "file",
+      "name": "Flex.tsx",
+      "filePath": "src/packages/Container/Flex/Flex.tsx",
+      "summary": "该文件提供 Flex 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/Flex/Flex.tsx:MFlex",
+      "type": "function",
+      "name": "MFlex",
+      "filePath": "src/packages/Container/Flex/Flex.tsx",
+      "lineRange": [
+        24,
+        141
+      ],
+      "summary": "MFlex 是该文件的核心 React 组件，负责提供 Flex 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Container/Form/Form.tsx",
+      "type": "file",
+      "name": "Form.tsx",
+      "filePath": "src/packages/Container/Form/Form.tsx",
+      "summary": "该文件提供 Form 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Container/Form/Form.tsx:MForm",
+      "type": "function",
+      "name": "MForm",
+      "filePath": "src/packages/Container/Form/Form.tsx",
+      "lineRange": [
+        57,
+        315
+      ],
+      "summary": "MForm 是该文件的核心 React 组件，负责提供 Form 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "type": "file",
+      "name": "GridForm.tsx",
+      "filePath": "src/packages/Container/GridForm/GridForm.tsx",
+      "summary": "该文件提供 GridForm 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "container",
+        "layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Container/GridForm/GridForm.tsx:GridForm",
+      "type": "function",
+      "name": "GridForm",
+      "filePath": "src/packages/Container/GridForm/GridForm.tsx",
+      "lineRange": [
+        28,
+        398
+      ],
+      "summary": "GridForm 是该文件的核心 React 组件，负责提供 GridForm 容器组件，管理子元素布局、样式和容器级交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "container"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "type": "file",
+      "name": "BarAndLine.tsx",
+      "filePath": "src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "summary": "该文件基于 ECharts 渲染 BarAndLine 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "type": "function",
+      "name": "BarAndLine",
+      "filePath": "src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "lineRange": [
+        27,
+        264
+      ],
+      "summary": "BarAndLine 是该文件的核心 React 组件，负责基于 ECharts 渲染 BarAndLine 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/EChart/BarChart/BarChart.tsx",
+      "type": "file",
+      "name": "BarChart.tsx",
+      "filePath": "src/packages/EChart/BarChart/BarChart.tsx",
+      "summary": "该文件基于 ECharts 渲染 BarChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "echarts",
+        "visualization",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/EChart/BarChart/BarChart.tsx:BarChart",
+      "type": "function",
+      "name": "BarChart",
+      "filePath": "src/packages/EChart/BarChart/BarChart.tsx",
+      "lineRange": [
+        28,
+        160
+      ],
+      "summary": "BarChart 是该文件的核心 React 组件，负责基于 ECharts 渲染 BarChart 图表，并处理数据映射、主题和交互事件。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "echarts",
+        "visualization"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "type": "file",
+      "name": "chartCalculationUtil.ts",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "summary": "该文件提供图表数值单位识别、换算、格式化和颜色派生工具。",
+      "tags": [
+        "utility",
+        "echarts",
+        "data-formatting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "function",
+      "name": "detectUnitType",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        10,
+        26
+      ],
+      "summary": "detectUnitType 根据数值量级识别适合展示的单位类型。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "function",
+      "name": "convertValueToNumber",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        29,
+        53
+      ],
+      "summary": "convertValueToNumber 把带单位的展示值还原为可计算数值。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "function",
+      "name": "formatValueWithUnit",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        56,
+        74
+      ],
+      "summary": "formatValueWithUnit 按目标单位格式化图表数值。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "function",
+      "name": "formatDifferenceWithUnit",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        77,
+        92
+      ],
+      "summary": "formatDifferenceWithUnit 格式化图表差值并保留正负方向和单位。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "function",
+      "name": "getLighterColor",
+      "filePath": "src/packages/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        95,
+        110
+      ],
+      "summary": "getLighterColor 基于输入色值计算更浅的派生颜色。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Basic/Timer/Timer.tsx",
+      "target": "function:src/packages/Basic/Timer/Timer.tsx:parseInitialTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Timer/Timer.tsx",
+      "target": "function:src/packages/Basic/Timer/Timer.tsx:MTimer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Title/Title.tsx",
+      "target": "function:src/packages/Basic/Title/Title.tsx:MTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Video/Video.tsx",
+      "target": "function:src/packages/Basic/Video/Video.tsx:MVideo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "function:src/packages/Basic/Watermark/Watermark.tsx:MRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "function:src/packages/Container/Card/Card.tsx:MCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "function:src/packages/Container/Collapse/Collapse.tsx:MCollapse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "function:src/packages/Container/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "function:src/packages/Container/Cycle/Cycle.tsx:Cycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "function:src/packages/Container/Div/Div.tsx:Div",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "function:src/packages/Container/Flex/Flex.tsx:MFlex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "function:src/packages/Container/Form/Form.tsx:MForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "function:src/packages/Container/GridForm/GridForm.tsx:GridForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "function:src/packages/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/BarChart.tsx",
+      "target": "function:src/packages/EChart/BarChart/BarChart.tsx:BarChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/EChart/chartCalculationUtil.ts",
+      "target": "function:src/packages/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Basic/Timer/Timer.tsx",
+      "target": "file:src/packages/Basic/Timer/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Timer/Timer.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Title/Title.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Title/Title.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Title/Title.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Video/Video.tsx",
+      "target": "file:src/packages/Basic/Video/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Video/Video.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Watermark/Watermark.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/packages/Container/Card/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Card/Card.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/packages/Container/Collapse/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Collapse/Collapse.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/Cycle.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Div/Div.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Flex/Flex.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/Container/Form/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/Form/Form.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/Container/GridForm/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Container/GridForm/GridForm.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/BarChart.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/BarChart.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/BarChart.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

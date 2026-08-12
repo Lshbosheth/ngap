@@ -1,0 +1,737 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 137,
+      "nonEmptyLines": 129,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 255,
+      "nonEmptyLines": 222,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 331,
+      "nonEmptyLines": 317,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 261,
+      "nonEmptyLines": 261,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 49,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 221,
+      "nonEmptyLines": 211,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 75,
+      "nonEmptyLines": 71,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationAlert/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationLog/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationMonitoring/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/AppRun/ApplicationLog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "ApplicationLog",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApplicationLog",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "ApplicationLog",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ApplicationLog",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/AppLimit.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "AppLimit",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppLimit",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AppLimit",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AppLimit",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/AppLog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "appLog",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "appLog",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "appLog",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "appLog",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/AppWarn.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "AppWarn",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppWarn",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AppWarn",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AppWarn",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/AppWarnRule.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "AppWarnRule",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppWarnRule",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "AppWarnRule",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AppWarnRule",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/EncryptionAdd.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "EncryptionAdd",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EncryptionAdd",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "EncryptionAdd",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "EncryptionAdd",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/AppRun/InterfaceApply.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "InterfaceApply",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "InterfaceApply",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "InterfaceApply",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "InterfaceApply",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/AppRun/KeyManage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "KeyManage",
+          "startLine": 4,
+          "endLine": 55,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "KeyManage",
+          "callee": "crossApiUserInfo",
+          "lineNumber": 6
+        },
+        {
+          "caller": "KeyManage",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring(0, 6).toUpperCase",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "returnUrl.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace('http:', 'https:').replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 29
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 32
+        },
+        {
+          "caller": "transform",
+          "callee": "url.replace",
+          "lineNumber": 38
+        },
+        {
+          "caller": "transform",
+          "callee": "Url.href.replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "KeyManage",
+          "callee": "transform",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/auditManagement/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditManagement.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 78,
+      "nonEmptyLines": 67,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/auditManagement/pages/AuditRecord.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 56,
+      "nonEmptyLines": 48,
+      "metrics": {}
+    },
+    {
+      "path": "src/pages/auditManagement/util/optionProvince.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 35,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/businessComponentManage/businessComponentPreview/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 124,
+      "nonEmptyLines": 123,
+      "metrics": {}
+    }
+  ]
+}

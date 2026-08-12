@@ -1,0 +1,371 @@
+{
+  "nodes": [
+    {
+      "id": "config:materials/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "type": "config",
+      "name": "chinaGeoJSON.json",
+      "filePath": "materials/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "summary": "保存中国行政区域边界的 GeoJSON FeatureCollection，供地图图表注册底图和绘制省级区域。",
+      "tags": [
+        "configuration",
+        "geojson",
+        "map-data",
+        "static-data"
+      ],
+      "complexity": "complex",
+      "languageNotes": "采用标准 GeoJSON FeatureCollection 结构保存大量 Polygon/MultiPolygon 坐标，文件体积较大但不包含执行逻辑。"
+    },
+    {
+      "id": "document:materials/EChart/MapChart/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "materials/EChart/MapChart/README.md",
+      "summary": "说明 MapChart 对 ECharts 的动态导入、NgapRender 预加载、Vite 分包策略、验证步骤和扩展方式。",
+      "tags": [
+        "documentation",
+        "architecture",
+        "runtime-guide"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FeedBack/Popover/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FeedBack/Popover/index.module.less",
+      "summary": "定义独立 materials 运行时中气泡卡片物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FeedBack/Spin/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FeedBack/Spin/index.module.less",
+      "summary": "定义独立 materials 运行时中加载反馈物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/CheckBox/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/FormItems/CheckBox/index.less",
+      "summary": "定义独立 materials 运行时中复选框物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/Counter/CounterDouble.tsx",
+      "type": "file",
+      "name": "CounterDouble.tsx",
+      "filePath": "materials/FormItems/Counter/CounterDouble.tsx",
+      "summary": "实现双值计数输入物料，维护两个数值、范围约束和变化回调，并应用独立运行时样式。",
+      "tags": [
+        "component",
+        "react",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Counter/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FormItems/Counter/index.module.less",
+      "summary": "定义独立 materials 运行时中计数器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FormItems/InputNumber/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FormItems/InputNumber/index.module.less",
+      "summary": "定义独立 materials 运行时中数字输入物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/Radio/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/FormItems/Radio/index.less",
+      "summary": "定义独立 materials 运行时中单选框物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/Slider/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FormItems/Slider/index.module.less",
+      "summary": "定义独立 materials 运行时中滑块物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Transfer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FormItems/Transfer/index.module.less",
+      "summary": "定义独立 materials 运行时中穿梭框物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FormItems/Transfer/OperationsSetting.tsx",
+      "type": "file",
+      "name": "OperationsSetting.tsx",
+      "filePath": "materials/FormItems/Transfer/OperationsSetting.tsx",
+      "summary": "提供独立运行时穿梭框左右操作文案的属性设置器。",
+      "tags": [
+        "component",
+        "react",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/Transfer/ShowNumberSetting.tsx",
+      "type": "file",
+      "name": "ShowNumberSetting.tsx",
+      "filePath": "materials/FormItems/Transfer/ShowNumberSetting.tsx",
+      "summary": "提供独立运行时穿梭框展示数量相关的属性设置器。",
+      "tags": [
+        "component",
+        "react",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FormItems/TreeSelect/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/FormItems/TreeSelect/index.module.less",
+      "summary": "定义独立 materials 运行时中树选择物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Functional/Descriptions/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Functional/Descriptions/index.module.less",
+      "summary": "定义独立 materials 运行时中描述列表物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Functional/List/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Functional/List/index.module.less",
+      "summary": "定义独立 materials 运行时中列表物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Functional/Tabs/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Functional/Tabs/index.module.less",
+      "summary": "定义独立 materials 运行时中页签物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Layout/BottomBanner/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Layout/BottomBanner/index.module.less",
+      "summary": "定义独立 materials 运行时中底部横幅物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Layout/Span/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Layout/Span/index.module.less",
+      "summary": "定义独立 materials 运行时中行内容器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/NgapRender/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "materials/NgapRender/index.less",
+      "summary": "定义独立 materials 运行时中物料渲染器物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Scene/BusinessTable/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Scene/BusinessTable/index.module.less",
+      "summary": "定义独立 materials 运行时中业务表格物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Scene/NgapTable/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Scene/NgapTable/index.module.less",
+      "summary": "定义独立 materials 运行时中通用表格物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Scene/SearchForm/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "materials/Scene/SearchForm/index.module.less",
+      "summary": "定义独立 materials 运行时中搜索表单物料的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/typings.d.ts",
+      "type": "file",
+      "name": "typings.d.ts",
+      "filePath": "materials/typings.d.ts",
+      "summary": "声明独立 materials 构建所需的资源模块、全局变量和第三方模块类型。",
+      "tags": [
+        "type-definition",
+        "runtime-contract",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/crossAPI.d.ts",
+      "type": "file",
+      "name": "crossAPI.d.ts",
+      "filePath": "materials/utils/crossAPI.d.ts",
+      "summary": "声明 CrossAPI 浏览器桥接对象、方法参数和回调的 TypeScript 类型，供宿主能力调用获得类型提示。",
+      "tags": [
+        "type-definition",
+        "runtime-contract",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "function",
+      "name": "CounterDouble",
+      "filePath": "materials/FormItems/Counter/CounterDouble.tsx",
+      "lineRange": [
+        9,
+        54
+      ],
+      "summary": "渲染双值计数输入并同步两个受控数值。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/FormItems/Counter/CounterDouble.tsx",
+      "target": "file:materials/FormItems/Counter/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FormItems/Counter/CounterDouble.tsx",
+      "target": "function:materials/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FormItems/Counter/CounterDouble.tsx",
+      "target": "function:materials/FormItems/Counter/CounterDouble.tsx:CounterDouble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

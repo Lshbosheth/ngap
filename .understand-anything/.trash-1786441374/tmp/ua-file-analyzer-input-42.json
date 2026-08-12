@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/lua/lua.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/m3/m3.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/markdown/markdown.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/mdx/mdx.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/mips/mips.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/msdax/msdax.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/mysql/mysql.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/objective-c/objective-c.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/pascal/pascal.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/pascaligo/pascaligo.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/perl/perl.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/pgsql/pgsql.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/php/php.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/pla/pla.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/postiats/postiats.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/powerquery/powerquery.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/powershell/powershell.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/protobuf/protobuf.js",
+      "language": "javascript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/pug/pug.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/python/python.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/qsharp/qsharp.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/r/r.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/razor/razor.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/redis/redis.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs1/basic-languages/redshift/redshift.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "public/static/monaco-editor/vs1/basic-languages/lua/lua.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/m3/m3.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/markdown/markdown.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/mdx/mdx.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/mips/mips.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/msdax/msdax.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/mysql/mysql.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/objective-c/objective-c.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/pascal/pascal.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/pascaligo/pascaligo.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/perl/perl.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/pgsql/pgsql.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/php/php.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/pla/pla.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/postiats/postiats.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/powerquery/powerquery.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/powershell/powershell.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/protobuf/protobuf.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/pug/pug.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/python/python.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/qsharp/qsharp.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/r/r.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/razor/razor.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/redis/redis.js": [],
+    "public/static/monaco-editor/vs1/basic-languages/redshift/redshift.js": []
+  }
+}

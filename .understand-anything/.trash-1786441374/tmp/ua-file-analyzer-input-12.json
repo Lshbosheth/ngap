@@ -1,0 +1,396 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/DatePicker/DatePicker.tsx",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "language": "typescript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/FormItem/FormItem.tsx",
+      "language": "typescript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Input/Input.tsx",
+      "language": "typescript",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/InputNumber/InputNumber.tsx",
+      "language": "typescript",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/InputPassword/InputPassword.tsx",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Json/Json.tsx",
+      "language": "typescript",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Radio/Radio.tsx",
+      "language": "typescript",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Rate/Rate.tsx",
+      "language": "typescript",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Segmented/Segmented.tsx",
+      "language": "typescript",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Select/Select.tsx",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/StaticItem/StaticItem.tsx",
+      "language": "typescript",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Switch/Switch.tsx",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TextArea/TextArea.tsx",
+      "language": "typescript",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TimePicker/TimePicker.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "language": "typescript",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Transfer/Transfer.tsx",
+      "language": "typescript",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/TreeSelect/TreeSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 320,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Upload/Upload.tsx",
+      "language": "typescript",
+      "sizeLines": 507,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Button/Button.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/Descriptions.tsx",
+      "language": "typescript",
+      "sizeLines": 360,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "language": "typescript",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tab/Tab.tsx",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tabs/Tabs.tsx",
+      "language": "typescript",
+      "sizeLines": 241,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/BottomBanner/BottomBanner.tsx",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Col/Col.tsx",
+      "language": "typescript",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Divider/Divider.tsx",
+      "language": "typescript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Row/Row.tsx",
+      "language": "typescript",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Layout/Span/Col.tsx",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/FormItems/CustomCalendarIcon.tsx": [],
+    "src/packages/FormItems/DatePicker/DatePicker.tsx": [
+      "materials/utils/util.ts",
+      "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/DatePickerRange/DatePickerRange.tsx": [
+      "materials/utils/util.ts",
+      "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/FormItem/FormItem.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Input/Input.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/InputNumber/InputNumber.tsx": [
+      "src/packages/FormItems/InputNumber/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/InputPassword/InputPassword.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Json/Json.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/FormItems/Radio/Radio.tsx": [
+      "src/packages/FormItems/Radio/index.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/dictionary.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Rate/Rate.tsx": [
+      "src/packages/components/IConSetting.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Segmented/Segmented.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Select/Select.tsx": [
+      "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "src/packages/FormItems/Select/index.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/StaticItem/StaticItem.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Switch/Switch.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/TextArea/TextArea.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/TimePicker/TimePicker.tsx": [
+      "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/TimePickerRange/TimePickerRange.tsx": [
+      "src/packages/FormItems/CustomCalendarIcon.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Transfer/Transfer.tsx": [
+      "src/packages/Advanced/Pagination/index.module.less",
+      "src/packages/FormItems/Transfer/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/TreeSelect/TreeSelect.tsx": [
+      "src/packages/FormItems/TreeSelect/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/FormItems/Upload/Upload.tsx": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/context.ts",
+      "src/packages/utils/useMaterialTools.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/apiUtilForInterface.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Functional/Button/Button.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Functional/Descriptions/Descriptions.tsx": [
+      "src/packages/Functional/Descriptions/index.module.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Functional/Descriptions/ItemEdit.tsx": [
+      "src/components/VsEditor.tsx",
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/packages/Functional/Tab/Tab.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Functional/Tabs/Tabs.tsx": [
+      "src/packages/Functional/Tab/Schema.ts",
+      "src/packages/Functional/Tabs/index.module.less",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Layout/BottomBanner/BottomBanner.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/Layout/BottomBanner/index.module.less",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Layout/Col/Col.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Layout/Divider/Divider.tsx": [
+      "src/packages/types/index.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Layout/Row/Row.tsx": [
+      "src/packages/component.module.less",
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Layout/Span/Col.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/Layout/Span/index.module.less",
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/types/index.ts",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AppProvider.tsx"
+    ]
+  }
+}

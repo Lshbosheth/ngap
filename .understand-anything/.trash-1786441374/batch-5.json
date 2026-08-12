@@ -1,0 +1,1685 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/App.tsx",
+      "type": "file",
+      "name": "App.tsx",
+      "filePath": "src/App.tsx",
+      "summary": "该文件初始化跨窗口通信、用户与平台环境，并挂载路由和全局错误边界。",
+      "tags": [
+        "react-component",
+        "application-shell",
+        "cross-window",
+        "routing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/App.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "src/App.tsx",
+      "lineRange": [
+        78,
+        498
+      ],
+      "summary": "App 是该文件的核心 React 组件，负责初始化跨窗口通信、用户与平台环境，并挂载路由和全局错误边界。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-shell",
+        "cross-window"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/ErrorBoundary.tsx",
+      "type": "file",
+      "name": "ErrorBoundary.tsx",
+      "filePath": "src/ErrorBoundary.tsx",
+      "summary": "该文件捕获 React 子树运行时异常并展示可恢复的兜底界面。",
+      "tags": [
+        "react-component",
+        "frontend",
+        "platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/ErrorBoundary.tsx:ErrorBoundary",
+      "type": "class",
+      "name": "ErrorBoundary",
+      "filePath": "src/ErrorBoundary.tsx",
+      "lineRange": [
+        13,
+        51
+      ],
+      "summary": "ErrorBoundary 捕获子组件树中的未处理异常，记录错误并渲染兜底界面。",
+      "tags": [
+        "react-component",
+        "error-boundary",
+        "resilience"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/config/permissionConfig.ts",
+      "type": "file",
+      "name": "permissionConfig.ts",
+      "filePath": "src/config/permissionConfig.ts",
+      "summary": "该文件集中定义菜单模块标识，并依据当前用户权限判断功能可见性。",
+      "tags": [
+        "permission",
+        "configuration",
+        "access-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/config/permissionConfig.ts:hasPermission",
+      "type": "function",
+      "name": "hasPermission",
+      "filePath": "src/config/permissionConfig.ts",
+      "lineRange": [
+        108,
+        113
+      ],
+      "summary": "hasPermission 封装集中定义菜单模块标识，并依据当前用户权限判断功能可见性过程中可复用的数据转换或交互逻辑。",
+      "tags": [
+        "utility",
+        "event-handler",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/AppLayout.tsx",
+      "type": "file",
+      "name": "AppLayout.tsx",
+      "filePath": "src/layout/AppLayout.tsx",
+      "summary": "该文件组织应用运行态布局、菜单导航、预览入口和权限控制。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/layout/AppLayout.tsx:EditLayout",
+      "type": "function",
+      "name": "EditLayout",
+      "filePath": "src/layout/AppLayout.tsx",
+      "lineRange": [
+        25,
+        530
+      ],
+      "summary": "EditLayout 是该文件的核心 React 组件，负责组织应用运行态布局、菜单导航、预览入口和权限控制。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "navigation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/EditLayout.tsx",
+      "type": "file",
+      "name": "EditLayout.tsx",
+      "filePath": "src/layout/EditLayout.tsx",
+      "summary": "该文件组织低代码编辑态布局、编辑菜单和预览切换。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/layout/EditLayout.tsx:EditLayout",
+      "type": "function",
+      "name": "EditLayout",
+      "filePath": "src/layout/EditLayout.tsx",
+      "lineRange": [
+        38,
+        559
+      ],
+      "summary": "EditLayout 是该文件的核心 React 组件，负责组织低代码编辑态布局、编辑菜单和预览切换。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "navigation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/LazyLoadComponent.tsx",
+      "type": "file",
+      "name": "LazyLoadComponent.tsx",
+      "filePath": "src/layout/LazyLoadComponent.tsx",
+      "summary": "该文件为路由页面提供带加载占位的 React 懒加载包装。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/layout/LazyLoadComponent.tsx:LazyLoadComponent",
+      "type": "function",
+      "name": "LazyLoadComponent",
+      "filePath": "src/layout/LazyLoadComponent.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "LazyLoadComponent 是该文件的核心 React 组件，负责为路由页面提供带加载占位的 React 懒加载包装。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "navigation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/MainLayout.tsx",
+      "type": "file",
+      "name": "MainLayout.tsx",
+      "filePath": "src/layout/MainLayout.tsx",
+      "summary": "该文件提供平台主框架、侧边菜单、用户操作和路由内容承载区。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/layout/MainLayout.tsx:MainLayout",
+      "type": "function",
+      "name": "MainLayout",
+      "filePath": "src/layout/MainLayout.tsx",
+      "lineRange": [
+        14,
+        335
+      ],
+      "summary": "MainLayout 是该文件的核心 React 组件，负责提供平台主框架、侧边菜单、用户操作和路由内容承载区。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "navigation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/Preview/Preview.tsx",
+      "type": "file",
+      "name": "Preview.tsx",
+      "filePath": "src/layout/Preview/Preview.tsx",
+      "summary": "该文件承载页面画布预览，并把已配置页面交给基础预览运行时渲染。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/layout/Preview/Preview.tsx:PageCanvas",
+      "type": "function",
+      "name": "PageCanvas",
+      "filePath": "src/layout/Preview/Preview.tsx",
+      "lineRange": [
+        19,
+        55
+      ],
+      "summary": "PageCanvas 是该文件的核心 React 组件，负责承载页面画布预览，并把已配置页面交给基础预览运行时渲染。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "layout",
+        "navigation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "type": "file",
+      "name": "ConfigPanel.tsx",
+      "filePath": "src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "summary": "该文件实现画布元素的属性配置面板，处理配置数据、接口选项与表单联动。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/layout/menuTypes.ts",
+      "type": "file",
+      "name": "menuTypes.ts",
+      "filePath": "src/layout/menuTypes.ts",
+      "summary": "声明平台菜单项及其层级结构的 TypeScript 类型，为相关模块提供统一的静态约束。",
+      "tags": [
+        "react-component",
+        "layout",
+        "navigation",
+        "permission"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "src/main.tsx",
+      "summary": "该文件作为浏览器入口加载兼容层、日志捕获和全局样式，并挂载根应用。",
+      "tags": [
+        "entry-point",
+        "react",
+        "bootstrap"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/mock/localMock.ts",
+      "type": "file",
+      "name": "localMock.ts",
+      "filePath": "src/mock/localMock.ts",
+      "summary": "该文件识别本地 Mock 运行模式，为开发环境切换模拟数据提供统一判断。",
+      "tags": [
+        "development",
+        "mock",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/mock/localMock.ts:getLocalMockMode",
+      "type": "function",
+      "name": "getLocalMockMode",
+      "filePath": "src/mock/localMock.ts",
+      "lineRange": [
+        9,
+        13
+      ],
+      "summary": "getLocalMockMode 读取本地 Mock 模式配置。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/mock/localMock.ts:isLocalMockMode",
+      "type": "function",
+      "name": "isLocalMockMode",
+      "filePath": "src/mock/localMock.ts",
+      "lineRange": [
+        15,
+        18
+      ],
+      "summary": "isLocalMockMode 判断当前是否启用了本地 Mock 数据模式。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/File/FileUpload.tsx",
+      "type": "file",
+      "name": "FileUpload.tsx",
+      "filePath": "src/packages/Basic/File/FileUpload.tsx",
+      "summary": "该文件实现文件上传控件及上传请求、状态回填和结果展示。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "configuration",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/File/FileUpload.tsx:FileUpload",
+      "type": "function",
+      "name": "FileUpload",
+      "filePath": "src/packages/Basic/File/FileUpload.tsx",
+      "lineRange": [
+        9,
+        91
+      ],
+      "summary": "FileUpload 是该文件的核心 React 组件，负责实现文件上传控件及上传请求、状态回填和结果展示。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/File/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/File/Schema.tsx",
+      "summary": "该文件声明文件上传组件在设计器中的属性配置 Schema。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "schema-definition",
+        "property-panel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "summary": "该文件提供链接目标的级联选择弹窗，并支持树数据搜索过滤。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "configuration",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Basic/Link/CascadeSelect/index.tsx:CascadeSelectDialog",
+      "type": "function",
+      "name": "CascadeSelectDialog",
+      "filePath": "src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "lineRange": [
+        41,
+        407
+      ],
+      "summary": "CascadeSelectDialog 是该文件的核心 React 组件，负责提供链接目标的级联选择弹窗，并支持树数据搜索过滤。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Basic/Link/CascadeSelect/index.tsx:filterTreeData",
+      "type": "function",
+      "name": "filterTreeData",
+      "filePath": "src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "lineRange": [
+        420,
+        492
+      ],
+      "summary": "filterTreeData 按搜索条件递归过滤树节点，同时保留匹配节点的祖先路径。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/LinkSetting.tsx",
+      "type": "file",
+      "name": "LinkSetting.tsx",
+      "filePath": "src/packages/Basic/Link/LinkSetting.tsx",
+      "summary": "该文件配置链接组件的跳转方式、目标页面及级联参数。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "configuration",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Link/Schema.tsx",
+      "summary": "该文件声明链接组件在设计器中的属性配置 Schema。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "schema-definition",
+        "property-panel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "type": "file",
+      "name": "DescItemSetting.tsx",
+      "filePath": "src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "summary": "该文件配置描述列表的字段项、字典和展示规则。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "configuration",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Functional/Descriptions/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Functional/Descriptions/Schema.tsx",
+      "summary": "该文件声明描述列表组件的属性配置 Schema。",
+      "tags": [
+        "react-component",
+        "configuration",
+        "schema-definition",
+        "property-panel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/utils/dictionary.ts",
+      "type": "file",
+      "name": "dictionary.ts",
+      "filePath": "src/packages/utils/dictionary.ts",
+      "summary": "该文件从平台接口加载字典项并转换为组件可消费的数据结构。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "configuration",
+        "data-binding"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/dictionary.ts:getDictionary",
+      "type": "function",
+      "name": "getDictionary",
+      "filePath": "src/packages/utils/dictionary.ts",
+      "lineRange": [
+        7,
+        17
+      ],
+      "summary": "getDictionary 请求平台字典接口并返回规范化字典选项。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "data-source"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/AppBuild/AppBuild.tsx",
+      "type": "file",
+      "name": "AppBuild.tsx",
+      "filePath": "src/pages/AppBuild/AppBuild.tsx",
+      "summary": "该文件为应用构建路由挂载编辑态布局。",
+      "tags": [
+        "entry-point",
+        "react-component",
+        "routing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/AppBuild/AppBuild.tsx:AppBuild",
+      "type": "function",
+      "name": "AppBuild",
+      "filePath": "src/pages/AppBuild/AppBuild.tsx",
+      "lineRange": [
+        3,
+        10
+      ],
+      "summary": "AppBuild 是该文件的核心 React 组件，负责为应用构建路由挂载编辑态布局。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "react-component",
+        "routing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/AppRun/AppRun.tsx",
+      "type": "file",
+      "name": "AppRun.tsx",
+      "filePath": "src/pages/AppRun/AppRun.tsx",
+      "summary": "该文件为应用运行路由挂载运行态布局。",
+      "tags": [
+        "entry-point",
+        "react-component",
+        "routing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/AppRun/AppRun.tsx:AppRun",
+      "type": "function",
+      "name": "AppRun",
+      "filePath": "src/pages/AppRun/AppRun.tsx",
+      "lineRange": [
+        2,
+        8
+      ],
+      "summary": "AppRun 是该文件的核心 React 组件，负责为应用运行路由挂载运行态布局。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "react-component",
+        "routing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/MyActivity/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/MyActivity/index.tsx",
+      "summary": "该文件展示并管理用户活动列表，提供查询、分页与新增入口。",
+      "tags": [
+        "react-component",
+        "activity-management",
+        "form",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/MyActivity/index.tsx:TenantManagePage",
+      "type": "function",
+      "name": "TenantManagePage",
+      "filePath": "src/pages/MyActivity/index.tsx",
+      "lineRange": [
+        14,
+        334
+      ],
+      "summary": "TenantManagePage 是该文件的核心 React 组件，负责展示并管理用户活动列表，提供查询、分页与新增入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "activity-management",
+        "form"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "type": "file",
+      "name": "activityAdd.tsx",
+      "filePath": "src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "summary": "该文件实现活动新增与编辑表单，以及相关校验、提交和回显流程。",
+      "tags": [
+        "react-component",
+        "activity-management",
+        "form",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/MyActivity/myActiviChild/activityAdd.tsx:AddManagePage",
+      "type": "function",
+      "name": "AddManagePage",
+      "filePath": "src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "lineRange": [
+        29,
+        879
+      ],
+      "summary": "AddManagePage 是该文件的核心 React 组件，负责实现活动新增与编辑表单，以及相关校验、提交和回显流程。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "activity-management",
+        "form"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/Workbench/MyAcSm.tsx",
+      "type": "file",
+      "name": "MyAcSm.tsx",
+      "filePath": "src/pages/Workbench/MyAcSm.tsx",
+      "summary": "该文件展示工作台中的个人活动摘要与快捷处理入口。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/Workbench/MyAcSm.tsx:TenantManagePage",
+      "type": "function",
+      "name": "TenantManagePage",
+      "filePath": "src/pages/Workbench/MyAcSm.tsx",
+      "lineRange": [
+        30,
+        258
+      ],
+      "summary": "TenantManagePage 是该文件的核心 React 组件，负责展示工作台中的个人活动摘要与快捷处理入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/Workbench/Workbench.tsx",
+      "type": "file",
+      "name": "Workbench.tsx",
+      "filePath": "src/pages/Workbench/Workbench.tsx",
+      "summary": "该文件组合工作台的活动和任务模块，形成用户日常操作首页。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/Workbench/Workbench.tsx:Workbench",
+      "type": "function",
+      "name": "Workbench",
+      "filePath": "src/pages/Workbench/Workbench.tsx",
+      "lineRange": [
+        13,
+        71
+      ],
+      "summary": "Workbench 是该文件的核心 React 组件，负责组合工作台的活动和任务模块，形成用户日常操作首页。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/Workbench/taskCnSm.tsx",
+      "type": "file",
+      "name": "taskCnSm.tsx",
+      "filePath": "src/pages/Workbench/taskCnSm.tsx",
+      "summary": "该文件展示工作台待办任务摘要并提供审核处理入口。",
+      "tags": [
+        "react-component",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/Workbench/taskCnSm.tsx:TenantManagePage",
+      "type": "function",
+      "name": "TenantManagePage",
+      "filePath": "src/pages/Workbench/taskCnSm.tsx",
+      "lineRange": [
+        11,
+        305
+      ],
+      "summary": "TenantManagePage 是该文件的核心 React 组件，负责展示工作台待办任务摘要并提供审核处理入口。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "workbench",
+        "task-management"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/AppDetail.tsx",
+      "type": "file",
+      "name": "AppDetail.tsx",
+      "filePath": "src/pages/applicationList/AppDetail.tsx",
+      "summary": "该文件展示应用基础信息、版本与关联配置详情。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationList/AppDetail.tsx:AppDetail",
+      "type": "function",
+      "name": "AppDetail",
+      "filePath": "src/pages/applicationList/AppDetail.tsx",
+      "lineRange": [
+        26,
+        253
+      ],
+      "summary": "AppDetail 是该文件的核心 React 组件，负责展示应用基础信息、版本与关联配置详情。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "type": "file",
+      "name": "AppEvaluationModal.tsx",
+      "filePath": "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "summary": "该文件实现应用评价弹窗、评价维度编辑及维度管理。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:AppEvaluationModal",
+      "type": "function",
+      "name": "AppEvaluationModal",
+      "filePath": "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "lineRange": [
+        79,
+        371
+      ],
+      "summary": "AppEvaluationModal 是该文件的核心 React 组件，负责实现应用评价弹窗、评价维度编辑及维度管理。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:EvaluationDimensionItem",
+      "type": "function",
+      "name": "EvaluationDimensionItem",
+      "filePath": "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "lineRange": [
+        373,
+        569
+      ],
+      "summary": "EvaluationDimensionItem 是该文件的核心 React 组件，负责实现应用评价弹窗、评价维度编辑及维度管理。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:DimensionManager",
+      "type": "function",
+      "name": "DimensionManager",
+      "filePath": "src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "lineRange": [
+        571,
+        802
+      ],
+      "summary": "DimensionManager 是该文件的核心 React 组件，负责实现应用评价弹窗、评价维度编辑及维度管理。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "type": "file",
+      "name": "OffshelfModal.tsx",
+      "filePath": "src/pages/applicationList/OffshelfModal.tsx",
+      "summary": "该文件处理应用下架原因填写、权限校验和提交操作。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationList/OffshelfModal.tsx:OffshelfModal",
+      "type": "function",
+      "name": "OffshelfModal",
+      "filePath": "src/pages/applicationList/OffshelfModal.tsx",
+      "lineRange": [
+        22,
+        449
+      ],
+      "summary": "OffshelfModal 是该文件的核心 React 组件，负责处理应用下架原因填写、权限校验和提交操作。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "type": "file",
+      "name": "SubmitReviewDrawer.tsx",
+      "filePath": "src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "summary": "该文件实现应用提审抽屉，汇总版本、审核人、材料与流程配置并提交审核。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationList/SubmitReviewDrawer.tsx:SubmitReviewDrawer",
+      "type": "function",
+      "name": "SubmitReviewDrawer",
+      "filePath": "src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "lineRange": [
+        25,
+        1141
+      ],
+      "summary": "SubmitReviewDrawer 是该文件的核心 React 组件，负责实现应用提审抽屉，汇总版本、审核人、材料与流程配置并提交审核。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/App.tsx",
+      "target": "function:src/App.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/ErrorBoundary.tsx",
+      "target": "class:src/ErrorBoundary.tsx:ErrorBoundary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/permissionConfig.ts",
+      "target": "function:src/config/permissionConfig.ts:hasPermission",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/config/permissionConfig.ts",
+      "target": "function:src/config/permissionConfig.ts:hasPermission",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "function:src/layout/AppLayout.tsx:EditLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/EditLayout.tsx",
+      "target": "function:src/layout/EditLayout.tsx:EditLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/LazyLoadComponent.tsx",
+      "target": "function:src/layout/LazyLoadComponent.tsx:LazyLoadComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "function:src/layout/MainLayout.tsx:MainLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "function:src/layout/MainLayout.tsx:MainLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/layout/Preview/Preview.tsx",
+      "target": "function:src/layout/Preview/Preview.tsx:PageCanvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/mock/localMock.ts",
+      "target": "function:src/mock/localMock.ts:getLocalMockMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/mock/localMock.ts",
+      "target": "function:src/mock/localMock.ts:getLocalMockMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/mock/localMock.ts",
+      "target": "function:src/mock/localMock.ts:isLocalMockMode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/mock/localMock.ts",
+      "target": "function:src/mock/localMock.ts:isLocalMockMode",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Basic/File/FileUpload.tsx",
+      "target": "function:src/packages/Basic/File/FileUpload.tsx:FileUpload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/File/FileUpload.tsx",
+      "target": "function:src/packages/Basic/File/FileUpload.tsx:FileUpload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "target": "function:src/packages/Basic/Link/CascadeSelect/index.tsx:CascadeSelectDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "target": "function:src/packages/Basic/Link/CascadeSelect/index.tsx:filterTreeData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "target": "function:src/packages/Basic/Link/CascadeSelect/index.tsx:filterTreeData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/dictionary.ts",
+      "target": "function:src/packages/utils/dictionary.ts:getDictionary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/dictionary.ts",
+      "target": "function:src/packages/utils/dictionary.ts:getDictionary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/AppBuild/AppBuild.tsx",
+      "target": "function:src/pages/AppBuild/AppBuild.tsx:AppBuild",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppBuild/AppBuild.tsx",
+      "target": "function:src/pages/AppBuild/AppBuild.tsx:AppBuild",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/AppRun/AppRun.tsx",
+      "target": "function:src/pages/AppRun/AppRun.tsx:AppRun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/AppRun/AppRun.tsx",
+      "target": "function:src/pages/AppRun/AppRun.tsx:AppRun",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/MyActivity/index.tsx",
+      "target": "function:src/pages/MyActivity/index.tsx:TenantManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "target": "function:src/pages/MyActivity/myActiviChild/activityAdd.tsx:AddManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/MyAcSm.tsx",
+      "target": "function:src/pages/Workbench/MyAcSm.tsx:TenantManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "function:src/pages/Workbench/Workbench.tsx:Workbench",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "function:src/pages/Workbench/Workbench.tsx:Workbench",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/Workbench/taskCnSm.tsx",
+      "target": "function:src/pages/Workbench/taskCnSm.tsx:TenantManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/AppDetail.tsx",
+      "target": "function:src/pages/applicationList/AppDetail.tsx:AppDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "target": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:AppEvaluationModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "target": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:EvaluationDimensionItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "target": "function:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx:DimensionManager",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "target": "function:src/pages/applicationList/OffshelfModal.tsx:OffshelfModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "target": "function:src/pages/applicationList/SubmitReviewDrawer.tsx:SubmitReviewDrawer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/App.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/ErrorBoundary.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/mock/localMock.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/router/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/crossAPIDistributeMessages.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/Logout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/useMessageListener.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/App.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/config/permissionConfig.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/config/permissionConfig.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/layout/layout.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/layout/LazyLoadComponent.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/layout/menuTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/layout/Preview/Preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/AppLayout.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/EditLayout.tsx",
+      "target": "file:src/layout/layout.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/EditLayout.tsx",
+      "target": "file:src/layout/LazyLoadComponent.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/EditLayout.tsx",
+      "target": "file:src/layout/menuTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/EditLayout.tsx",
+      "target": "file:src/layout/Preview/Preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "file:src/config/permissionConfig.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "file:src/stores/menuStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "file:src/utils/Logout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/MainLayout.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/Preview.tsx",
+      "target": "file:src/layout/Preview/BaseCanvasPreview/BaseCanvasPreview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/Preview/Preview.tsx",
+      "target": "file:src/layout/Preview/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "target": "file:src/layout/components/ConfigPanel/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/layout/components/ConfigPanel/ConfigPanel.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/App.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/polyfills.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/styles/antd-compat-chrome8x.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/main.tsx",
+      "target": "file:src/utils/logCapture.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/File/FileUpload.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/File/Schema.tsx",
+      "target": "file:src/packages/Basic/File/FileUpload.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "target": "file:src/packages/Basic/Link/CascadeSelect/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/LinkSetting.tsx",
+      "target": "file:src/packages/Basic/Link/CascadeSelect/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/LinkSetting.tsx",
+      "target": "file:src/packages/Basic/Link/Linkcss.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/LinkSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/Schema.tsx",
+      "target": "file:src/packages/Basic/Link/LinkSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "target": "file:src/packages/Functional/Descriptions/ItemEdit.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Functional/Descriptions/Schema.tsx",
+      "target": "file:src/packages/Functional/Descriptions/DescItemSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/dictionary.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppBuild/AppBuild.tsx",
+      "target": "file:src/layout/EditLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/AppRun/AppRun.tsx",
+      "target": "file:src/layout/AppLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/MyActivity/index.tsx",
+      "target": "file:src/pages/MyActivity/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/MyActivity/index.tsx",
+      "target": "file:src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "target": "file:src/pages/MyActivity/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/MyAcSm.tsx",
+      "target": "file:src/pages/MyActivity/myActiviChild/activityAdd.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/MyAcSm.tsx",
+      "target": "file:src/pages/Workbench/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "file:src/pages/Workbench/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "file:src/pages/Workbench/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "file:src/pages/Workbench/MyAcSm.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/Workbench.tsx",
+      "target": "file:src/pages/Workbench/taskCnSm.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/taskCnSm.tsx",
+      "target": "file:src/pages/taskCenter/review.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/Workbench/taskCnSm.tsx",
+      "target": "file:src/pages/Workbench/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/AppDetail.tsx",
+      "target": "file:src/pages/applicationList/appDetail.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/AppDetail.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "target": "file:src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "target": "file:src/pages/applicationList/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "target": "file:src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

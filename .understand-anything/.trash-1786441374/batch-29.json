@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "config:materials/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "materials/package.json",
+      "summary": "独立物料库的包清单，声明格式化与提交检查脚本，以及组件运行所需的数据、状态和工具依赖。",
+      "tags": [
+        "configuration",
+        "package-manifest",
+        "build-system",
+        "dependencies"
+      ],
+      "complexity": "simple",
+      "languageNotes": "JSON 清单集中声明脚本、依赖、开发依赖和工具链约束。"
+    },
+    {
+      "id": "document:materials/readme.md",
+      "type": "document",
+      "name": "readme.md",
+      "filePath": "materials/readme.md",
+      "summary": "物料库说明文档，概述组件 Schema 的属性、事件、接口和默认配置结构，以及 NgapRender 的渲染和公共能力职责。",
+      "tags": [
+        "documentation",
+        "development",
+        "project-overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:materials/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "materials/tsconfig.json",
+      "summary": "物料库 TypeScript 编译配置，约束独立 materials 源码的类型检查与模块解析。",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

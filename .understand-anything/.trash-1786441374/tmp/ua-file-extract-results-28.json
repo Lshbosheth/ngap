@@ -1,0 +1,3386 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 18,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 7,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "Workspace instructions",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "CODEX_CONTEXT.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 530,
+      "nonEmptyLines": 385,
+      "sections": [
+        {
+          "heading": "NGAP 项目上下文交接",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 项目位置",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "2. 用户的两个核心目标",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "目标 A：升级引导式流程编排",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "目标 B：升级自定义元素为“上传一个组件 ZIP 包”",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "3. 已完成的工作",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "4. 必读文档",
+          "level": 2,
+          "line": 133
+        },
+        {
+          "heading": "需求人员入门与重点路线",
+          "level": 3,
+          "line": 135
+        },
+        {
+          "heading": "引导式流程详细设计",
+          "level": 3,
+          "line": 151
+        },
+        {
+          "heading": "自定义元素 v2 详细设计",
+          "level": 3,
+          "line": 171
+        },
+        {
+          "heading": "接口和改造记录",
+          "level": 3,
+          "line": 190
+        },
+        {
+          "heading": "缺失二进制资源清单",
+          "level": 3,
+          "line": 196
+        },
+        {
+          "heading": "5. 引导式流程关键源码",
+          "level": 2,
+          "line": 204
+        },
+        {
+          "heading": "编排入口",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "流程画布",
+          "level": 3,
+          "line": 220
+        },
+        {
+          "heading": "类型",
+          "level": 3,
+          "line": 236
+        },
+        {
+          "heading": "运行和预览",
+          "level": 3,
+          "line": 242
+        },
+        {
+          "heading": "智能导航",
+          "level": 3,
+          "line": 258
+        },
+        {
+          "heading": "智能导航及运行时样式",
+          "level": 3,
+          "line": 272
+        },
+        {
+          "heading": "保存",
+          "level": 3,
+          "line": 285
+        },
+        {
+          "heading": "Store",
+          "level": 3,
+          "line": 302
+        },
+        {
+          "heading": "BottomBanner",
+          "level": 3,
+          "line": 318
+        },
+        {
+          "heading": "独立运行页",
+          "level": 3,
+          "line": 335
+        },
+        {
+          "heading": "6. 自定义元素关键源码",
+          "level": 2,
+          "line": 345
+        },
+        {
+          "heading": "动态编译和注册",
+          "level": 3,
+          "line": 347
+        },
+        {
+          "heading": "统一元素渲染",
+          "level": 3,
+          "line": 364
+        },
+        {
+          "heading": "自定义元素管理和预览",
+          "level": 3,
+          "line": 382
+        },
+        {
+          "heading": "自定义元素菜单",
+          "level": 3,
+          "line": 392
+        },
+        {
+          "heading": "7. 已取得的接口数据",
+          "level": 2,
+          "line": 398
+        },
+        {
+          "heading": "已验证有效",
+          "level": 3,
+          "line": 406
+        },
+        {
+          "heading": "`/app/queryAppAndNodeInfo`",
+          "level": 4,
+          "line": 408
+        },
+        {
+          "heading": "`/appComponent/queryAppComponentInfo`",
+          "level": 4,
+          "line": 415
+        },
+        {
+          "heading": "`/element/queryElementList`",
+          "level": 4,
+          "line": 423
+        },
+        {
+          "heading": "`/csf/call/getElementFileInfo`",
+          "level": 4,
+          "line": 428
+        },
+        {
+          "heading": "数据缺口",
+          "level": 3,
+          "line": 434
+        },
+        {
+          "heading": "8. 已做的本地依赖调整",
+          "level": 2,
+          "line": 453
+        },
+        {
+          "heading": "9. 当前验证状态",
+          "level": 2,
+          "line": 467
+        },
+        {
+          "heading": "本地模拟启动",
+          "level": 3,
+          "line": 477
+        },
+        {
+          "heading": "10. 下一步建议",
+          "level": 2,
+          "line": 499
+        },
+        {
+          "heading": "11. 新对话注意事项",
+          "level": 2,
+          "line": 521
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 40
+      }
+    },
+    {
+      "path": "CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 525,
+      "nonEmptyLines": 392,
+      "sections": [
+        {
+          "heading": "自定义元素 v2 设计文档问题清单",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、必须修复的问题（阻塞实施）",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "问题 1：协议识别字段是硬性要求，不是可选",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "问题 2：AST 推导失败时的用户体验缺失",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "9.2 节增加\"推导失败的用户提示\"小节：",
+          "level": 4,
+          "line": 45
+        },
+        {
+          "heading": "问题 3：SDK 权限的真实作用被误导性表述",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "8.3 节\"SDK 权限声明\"增加安全提示框：",
+          "level": 4,
+          "line": 111
+        },
+        {
+          "heading": "18.2 节\"首期可信执行模型\"移到前面（第 8 章之后）",
+          "level": 4,
+          "line": 140
+        },
+        {
+          "heading": "问题 4：构建异步化的用户体验不明确",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "15.4 节\"步骤 3：分析与配置\"增加构建模式说明：",
+          "level": 4,
+          "line": 164
+        },
+        {
+          "heading": "25 节\"首期切片\"明确构建策略：",
+          "level": 4,
+          "line": 187
+        },
+        {
+          "heading": "问题 5：版本锁定和升级策略不明确",
+          "level": 3,
+          "line": 199
+        },
+        {
+          "heading": "16.5 节增加\"版本升级策略\"小节：",
+          "level": 4,
+          "line": 215
+        },
+        {
+          "heading": "二、建议优化的问题（不阻塞但重要）",
+          "level": 2,
+          "line": 279
+        },
+        {
+          "heading": "问题 6：首期支持多模块的必要性存疑",
+          "level": 3,
+          "line": 281
+        },
+        {
+          "heading": "问题 7：构建器版本升级策略缺失",
+          "level": 3,
+          "line": 317
+        },
+        {
+          "heading": "问题 8：v1 迁移工具的局限性说明不足",
+          "level": 3,
+          "line": 361
+        },
+        {
+          "heading": "三、缺失的章节建议",
+          "level": 2,
+          "line": 404
+        },
+        {
+          "heading": "建议增加：成本与风险评估",
+          "level": 3,
+          "line": 406
+        },
+        {
+          "heading": "四、文档结构优化建议",
+          "level": 2,
+          "line": 449
+        },
+        {
+          "heading": "当前问题",
+          "level": 3,
+          "line": 451
+        },
+        {
+          "heading": "建议拆分",
+          "level": 3,
+          "line": 456
+        },
+        {
+          "heading": "五、修复优先级",
+          "level": 2,
+          "line": 487
+        },
+        {
+          "heading": "P0（必须在实施前修复）",
+          "level": 3,
+          "line": 489
+        },
+        {
+          "heading": "P1（首期实施时处理）",
+          "level": 3,
+          "line": 496
+        },
+        {
+          "heading": "P2（后续迭代优化）",
+          "level": 3,
+          "line": 501
+        },
+        {
+          "heading": "总体评价",
+          "level": 2,
+          "line": 507
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 27
+      }
+    },
+    {
+      "path": "CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 906,
+      "nonEmptyLines": 732,
+      "sections": [
+        {
+          "heading": "自定义元素实用方案：ZIP 包组件上传",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、当前问题",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "现有三文件方案的痛点",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "二、目标方案",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "用户视角",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "技术视角",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "三、核心设计",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "3.1 组件配置文件（component.json）",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "3.2 组件接收的 Props",
+          "level": 3,
+          "line": 158
+        },
+        {
+          "heading": "3.3 平台能力访问",
+          "level": 3,
+          "line": 201
+        },
+        {
+          "heading": "3.4 依赖白名单",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "四、实施方案",
+          "level": 2,
+          "line": 294
+        },
+        {
+          "heading": "4.1 浏览器端处理（首期）",
+          "level": 3,
+          "line": 296
+        },
+        {
+          "heading": "4.2 构建器实现（esbuild-wasm）",
+          "level": 3,
+          "line": 339
+        },
+        {
+          "heading": "4.3 component.json 转 Schema",
+          "level": 3,
+          "line": 384
+        },
+        {
+          "heading": "4.4 usePlatform 实现",
+          "level": 3,
+          "line": 432
+        },
+        {
+          "heading": "4.5 NgapRender 集成",
+          "level": 3,
+          "line": 495
+        },
+        {
+          "heading": "五、上传界面设计",
+          "level": 2,
+          "line": 523
+        },
+        {
+          "heading": "5.1 上传步骤",
+          "level": 3,
+          "line": 525
+        },
+        {
+          "heading": "5.2 文件树展示",
+          "level": 3,
+          "line": 552
+        },
+        {
+          "heading": "5.3 错误提示",
+          "level": 3,
+          "line": 570
+        },
+        {
+          "heading": "六、数据存储",
+          "level": 2,
+          "line": 585
+        },
+        {
+          "heading": "6.1 后端字段（最小改动）",
+          "level": 3,
+          "line": 587
+        },
+        {
+          "heading": "6.2 加载逻辑",
+          "level": 3,
+          "line": 606
+        },
+        {
+          "heading": "七、完整示例",
+          "level": 2,
+          "line": 624
+        },
+        {
+          "heading": "示例 1：简单展示组件",
+          "level": 3,
+          "line": 626
+        },
+        {
+          "heading": "示例 2：复杂业务组件",
+          "level": 3,
+          "line": 657
+        },
+        {
+          "heading": "八、实施计划",
+          "level": 2,
+          "line": 766
+        },
+        {
+          "heading": "阶段 1：核心能力（2 周）",
+          "level": 3,
+          "line": 768
+        },
+        {
+          "heading": "阶段 2：平台集成（2 周）",
+          "level": 3,
+          "line": 775
+        },
+        {
+          "heading": "阶段 3：上传界面（1 周）",
+          "level": 3,
+          "line": 782
+        },
+        {
+          "heading": "阶段 4：独立运行时（1 周）",
+          "level": 3,
+          "line": 788
+        },
+        {
+          "heading": "总计：6 周（1.5 人月）",
+          "level": 3,
+          "line": 793
+        },
+        {
+          "heading": "九、风险和限制",
+          "level": 2,
+          "line": 795
+        },
+        {
+          "heading": "当前限制",
+          "level": 3,
+          "line": 797
+        },
+        {
+          "heading": "未来扩展",
+          "level": 3,
+          "line": 809
+        },
+        {
+          "heading": "十、开发者体验",
+          "level": 2,
+          "line": 826
+        },
+        {
+          "heading": "本地开发",
+          "level": 3,
+          "line": 828
+        },
+        {
+          "heading": "调试支持",
+          "level": 3,
+          "line": 860
+        },
+        {
+          "heading": "十一、总结",
+          "level": 2,
+          "line": 872
+        },
+        {
+          "heading": "核心优势",
+          "level": 3,
+          "line": 874
+        },
+        {
+          "heading": "与理想方案的差距",
+          "level": 3,
+          "line": 892
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 42
+      }
+    },
+    {
+      "path": "CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 4705,
+      "nonEmptyLines": 3735,
+      "sections": [
+        {
+          "heading": "自定义元素 v2：React 组件 ZIP 包重写设计",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 文档目的",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "2. 改造范围",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "2.1 本次包含",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "2.2 本次不直接包含",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "3. 术语",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "4. 现状分析",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "4.1 当前元素管理链路",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "4.2 当前主项目动态注册",
+          "level": 3,
+          "line": 142
+        },
+        {
+          "heading": "4.3 当前预览链路",
+          "level": 3,
+          "line": 180
+        },
+        {
+          "heading": "4.4 当前编辑器消费方式",
+          "level": 3,
+          "line": 207
+        },
+        {
+          "heading": "4.5 当前统一渲染",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "4.6 独立运行时",
+          "level": 3,
+          "line": 294
+        },
+        {
+          "heading": "4.7 已取得的真实样例",
+          "level": 3,
+          "line": 316
+        },
+        {
+          "heading": "5. 重写目标",
+          "level": 2,
+          "line": 354
+        },
+        {
+          "heading": "5.1 用户体验目标",
+          "level": 3,
+          "line": 356
+        },
+        {
+          "heading": "5.2 技术目标",
+          "level": 3,
+          "line": 378
+        },
+        {
+          "heading": "5.3 非目标",
+          "level": 3,
+          "line": 390
+        },
+        {
+          "heading": "6. 关键设计结论",
+          "level": 2,
+          "line": 399
+        },
+        {
+          "heading": "6.1 为什么推荐“受约束 ZIP + 平台 SDK”",
+          "level": 3,
+          "line": 415
+        },
+        {
+          "heading": "6.2 目标分层",
+          "level": 3,
+          "line": 432
+        },
+        {
+          "heading": "7. ZIP 组件包协议",
+          "level": 2,
+          "line": 452
+        },
+        {
+          "heading": "7.1 标准目录结构",
+          "level": 3,
+          "line": 454
+        },
+        {
+          "heading": "7.2 最小包",
+          "level": 3,
+          "line": 500
+        },
+        {
+          "heading": "7.3 完整包",
+          "level": 3,
+          "line": 570
+        },
+        {
+          "heading": "7.4 入口默认导出规则",
+          "level": 3,
+          "line": 713
+        },
+        {
+          "heading": "7.5 `ngap.json` 规则",
+          "level": 3,
+          "line": 761
+        },
+        {
+          "heading": "7.6 `ngap.json` 完整字段模型",
+          "level": 3,
+          "line": 806
+        },
+        {
+          "heading": "7.7 元数据优先级",
+          "level": 3,
+          "line": 935
+        },
+        {
+          "heading": "7.8 包内模块和资源规则",
+          "level": 3,
+          "line": 952
+        },
+        {
+          "heading": "7.9 ZIP 安全与容量限制",
+          "level": 3,
+          "line": 1020
+        },
+        {
+          "heading": "7.10 保留 Props",
+          "level": 3,
+          "line": 1045
+        },
+        {
+          "heading": "8. v2 组件运行协议",
+          "level": 2,
+          "line": 1074
+        },
+        {
+          "heading": "8.1 组件最终接收的 Props",
+          "level": 3,
+          "line": 1076
+        },
+        {
+          "heading": "8.2 平台 SDK context",
+          "level": 3,
+          "line": 1132
+        },
+        {
+          "heading": "8.3 SDK 权限声明",
+          "level": 3,
+          "line": 1291
+        },
+        {
+          "heading": "8.4 SDK 版本管理",
+          "level": 3,
+          "line": 1379
+        },
+        {
+          "heading": "8.5 SDK 与现有项目能力的对应关系",
+          "level": 3,
+          "line": 1408
+        },
+        {
+          "heading": "8.6 SDK 调用语义",
+          "level": 3,
+          "line": 1460
+        },
+        {
+          "heading": "8.7 SDK 错误模型",
+          "level": 3,
+          "line": 1537
+        },
+        {
+          "heading": "8.8 官方开发包、模板和本地工具",
+          "level": 3,
+          "line": 1593
+        },
+        {
+          "heading": "8.9 事件协议",
+          "level": 3,
+          "line": 1638
+        },
+        {
+          "heading": "8.10 方法协议",
+          "level": 3,
+          "line": 1682
+        },
+        {
+          "heading": "8.11 容器组件",
+          "level": 3,
+          "line": 1722
+        },
+        {
+          "heading": "9. 自动分析与推导",
+          "level": 2,
+          "line": 1757
+        },
+        {
+          "heading": "9.1 分析阶段",
+          "level": 3,
+          "line": 1759
+        },
+        {
+          "heading": "9.2 支持的 Props 声明",
+          "level": 3,
+          "line": 1789
+        },
+        {
+          "heading": "9.3 类型到属性面板的映射",
+          "level": 3,
+          "line": 1845
+        },
+        {
+          "heading": "9.4 默认值提取",
+          "level": 3,
+          "line": 1867
+        },
+        {
+          "heading": "9.5 事件推导",
+          "level": 3,
+          "line": 1916
+        },
+        {
+          "heading": "9.6 方法推导",
+          "level": 3,
+          "line": 1940
+        },
+        {
+          "heading": "9.7 名称和描述推导",
+          "level": 3,
+          "line": 1958
+        },
+        {
+          "heading": "9.8 分析诊断",
+          "level": 3,
+          "line": 1980
+        },
+        {
+          "heading": "10. 标准 manifest",
+          "level": 2,
+          "line": 2060
+        },
+        {
+          "heading": "10.1 数据结构",
+          "level": 3,
+          "line": 2062
+        },
+        {
+          "heading": "10.2 属性定义",
+          "level": 3,
+          "line": 2158
+        },
+        {
+          "heading": "10.3 manifest 到旧 Schema 的转换",
+          "level": 3,
+          "line": 2203
+        },
+        {
+          "heading": "10.4 manifest 不保存函数",
+          "level": 3,
+          "line": 2235
+        },
+        {
+          "heading": "11. 编译与依赖设计",
+          "level": 2,
+          "line": 2269
+        },
+        {
+          "heading": "11.1 推荐生产架构",
+          "level": 3,
+          "line": 2271
+        },
+        {
+          "heading": "11.2 浏览器过渡架构",
+          "level": 3,
+          "line": 2299
+        },
+        {
+          "heading": "11.3 依赖白名单",
+          "level": 3,
+          "line": 2326
+        },
+        {
+          "heading": "11.4 外部依赖注入",
+          "level": 3,
+          "line": 2368
+        },
+        {
+          "heading": "11.5 编译目标",
+          "level": 3,
+          "line": 2414
+        },
+        {
+          "heading": "11.6 构建产物",
+          "level": 3,
+          "line": 2457
+        },
+        {
+          "heading": "11.7 runtime-manifest 格式与加载算法",
+          "level": 3,
+          "line": 2481
+        },
+        {
+          "heading": "11.8 编译错误",
+          "level": 3,
+          "line": 2576
+        },
+        {
+          "heading": "12. 样式设计",
+          "level": 2,
+          "line": 2619
+        },
+        {
+          "heading": "12.1 ZIP 包样式",
+          "level": 3,
+          "line": 2621
+        },
+        {
+          "heading": "12.2 CSS 作用域",
+          "level": 3,
+          "line": 2639
+        },
+        {
+          "heading": "12.3 样式生命周期",
+          "level": 3,
+          "line": 2667
+        },
+        {
+          "heading": "13. 注册中心设计",
+          "level": 2,
+          "line": 2684
+        },
+        {
+          "heading": "13.1 Registry Entry",
+          "level": 3,
+          "line": 2686
+        },
+        {
+          "heading": "13.2 Registry API",
+          "level": 3,
+          "line": 2711
+        },
+        {
+          "heading": "13.3 缓存规则",
+          "level": 3,
+          "line": 2725
+        },
+        {
+          "heading": "13.4 兼容 `getComponent()`",
+          "level": 3,
+          "line": 2736
+        },
+        {
+          "heading": "13.5 加载状态",
+          "level": 3,
+          "line": 2769
+        },
+        {
+          "heading": "14. NgapRender 适配",
+          "level": 2,
+          "line": 2792
+        },
+        {
+          "heading": "14.1 分流规则",
+          "level": 3,
+          "line": 2794
+        },
+        {
+          "heading": "14.2 事件处理",
+          "level": 3,
+          "line": 2826
+        },
+        {
+          "heading": "14.3 方法 ref",
+          "level": 3,
+          "line": 2845
+        },
+        {
+          "heading": "14.4 Error Boundary",
+          "level": 3,
+          "line": 2862
+        },
+        {
+          "heading": "15. 上传与编辑交互",
+          "level": 2,
+          "line": 2886
+        },
+        {
+          "heading": "15.1 新建流程",
+          "level": 3,
+          "line": 2888
+        },
+        {
+          "heading": "15.2 步骤 1：基础信息",
+          "level": 3,
+          "line": 2900
+        },
+        {
+          "heading": "15.3 步骤 2：上传组件",
+          "level": 3,
+          "line": 2913
+        },
+        {
+          "heading": "15.4 步骤 3：分析与配置",
+          "level": 3,
+          "line": 2938
+        },
+        {
+          "heading": "15.5 步骤 4：预览",
+          "level": 3,
+          "line": 2976
+        },
+        {
+          "heading": "15.6 步骤 5：保存和审核",
+          "level": 3,
+          "line": 3022
+        },
+        {
+          "heading": "15.7 编辑已发布元素",
+          "level": 3,
+          "line": 3053
+        },
+        {
+          "heading": "16. 后端数据模型",
+          "level": 2,
+          "line": 3069
+        },
+        {
+          "heading": "16.1 推荐新增字段",
+          "level": 3,
+          "line": 3071
+        },
+        {
+          "heading": "16.2 推荐接口",
+          "level": 3,
+          "line": 3133
+        },
+        {
+          "heading": "上传源包",
+          "level": 4,
+          "line": 3135
+        },
+        {
+          "heading": "ZIP 包分析和构建",
+          "level": 4,
+          "line": 3152
+        },
+        {
+          "heading": "查询构建状态",
+          "level": 4,
+          "line": 3200
+        },
+        {
+          "heading": "取消构建",
+          "level": 4,
+          "line": 3254
+        },
+        {
+          "heading": "构建失败响应",
+          "level": 4,
+          "line": 3262
+        },
+        {
+          "heading": "保存 v2 元素",
+          "level": 4,
+          "line": 3286
+        },
+        {
+          "heading": "批量运行信息",
+          "level": 4,
+          "line": 3311
+        },
+        {
+          "heading": "16.3 不改后端字段的过渡方案",
+          "level": 3,
+          "line": 3351
+        },
+        {
+          "heading": "16.4 兼容旧字段的增强过渡",
+          "level": 3,
+          "line": 3384
+        },
+        {
+          "heading": "16.5 页面实例版本锁定",
+          "level": 3,
+          "line": 3401
+        },
+        {
+          "heading": "17. 旧数据兼容",
+          "level": 2,
+          "line": 3431
+        },
+        {
+          "heading": "17.1 v1/v2 判定",
+          "level": 3,
+          "line": 3433
+        },
+        {
+          "heading": "17.2 v1 保持运行",
+          "level": 3,
+          "line": 3448
+        },
+        {
+          "heading": "17.3 v1 转 v2",
+          "level": 3,
+          "line": 3467
+        },
+        {
+          "heading": "17.4 旧页面兼容",
+          "level": 3,
+          "line": 3490
+        },
+        {
+          "heading": "18. 安全设计",
+          "level": 2,
+          "line": 3516
+        },
+        {
+          "heading": "18.1 基本事实",
+          "level": 3,
+          "line": 3518
+        },
+        {
+          "heading": "18.2 首期可信执行模型",
+          "level": 3,
+          "line": 3533
+        },
+        {
+          "heading": "18.3 静态扫描规则",
+          "level": 3,
+          "line": 3557
+        },
+        {
+          "heading": "18.4 资源限制",
+          "level": 3,
+          "line": 3588
+        },
+        {
+          "heading": "18.5 沙箱方案",
+          "level": 3,
+          "line": 3608
+        },
+        {
+          "heading": "18.6 签名与校验",
+          "level": 3,
+          "line": 3645
+        },
+        {
+          "heading": "19. 双运行时统一",
+          "level": 2,
+          "line": 3666
+        },
+        {
+          "heading": "19.1 推荐共享目录",
+          "level": 3,
+          "line": 3668
+        },
+        {
+          "heading": "19.2 宿主适配器",
+          "level": 3,
+          "line": 3734
+        },
+        {
+          "heading": "19.3 独立 page 加载流程",
+          "level": 3,
+          "line": 3768
+        },
+        {
+          "heading": "20. 具体文件改造",
+          "level": 2,
+          "line": 3797
+        },
+        {
+          "heading": "20.1 新增共享核心",
+          "level": 3,
+          "line": 3799
+        },
+        {
+          "heading": "20.2 元素管理页面",
+          "level": 3,
+          "line": 3809
+        },
+        {
+          "heading": "20.3 旧新增弹窗",
+          "level": 3,
+          "line": 3855
+        },
+        {
+          "heading": "20.4 预览弹窗",
+          "level": 3,
+          "line": 3868
+        },
+        {
+          "heading": "20.5 主组件注册",
+          "level": 3,
+          "line": 3885
+        },
+        {
+          "heading": "20.6 NgapRender",
+          "level": 3,
+          "line": 3915
+        },
+        {
+          "heading": "20.7 属性面板",
+          "level": 3,
+          "line": 3933
+        },
+        {
+          "heading": "20.8 拖拽与新增元素",
+          "level": 3,
+          "line": 3949
+        },
+        {
+          "heading": "20.9 元素菜单",
+          "level": 3,
+          "line": 3965
+        },
+        {
+          "heading": "20.10 Store 类型",
+          "level": 3,
+          "line": 3980
+        },
+        {
+          "heading": "20.11 独立 materials",
+          "level": 3,
+          "line": 3999
+        },
+        {
+          "heading": "20.12 独立 page",
+          "level": 3,
+          "line": 4016
+        },
+        {
+          "heading": "20.13 构建配置",
+          "level": 3,
+          "line": 4031
+        },
+        {
+          "heading": "21. 状态与时序",
+          "level": 2,
+          "line": 4053
+        },
+        {
+          "heading": "21.1 上传预览时序",
+          "level": 3,
+          "line": 4055
+        },
+        {
+          "heading": "21.2 保存草稿时序",
+          "level": 3,
+          "line": 4079
+        },
+        {
+          "heading": "21.3 提交审核时序",
+          "level": 3,
+          "line": 4097
+        },
+        {
+          "heading": "21.4 发布后加载",
+          "level": 3,
+          "line": 4109
+        },
+        {
+          "heading": "22. 错误与可观测性",
+          "level": 2,
+          "line": 4131
+        },
+        {
+          "heading": "22.1 错误类型",
+          "level": 3,
+          "line": 4133
+        },
+        {
+          "heading": "22.2 日志字段",
+          "level": 3,
+          "line": 4153
+        },
+        {
+          "heading": "22.3 用户提示",
+          "level": 3,
+          "line": 4170
+        },
+        {
+          "heading": "22.4 指标",
+          "level": 3,
+          "line": 4183
+        },
+        {
+          "heading": "23. 测试方案",
+          "level": 2,
+          "line": 4205
+        },
+        {
+          "heading": "23.1 Analyzer 单元测试",
+          "level": 3,
+          "line": 4207
+        },
+        {
+          "heading": "23.2 manifest 测试",
+          "level": 3,
+          "line": 4232
+        },
+        {
+          "heading": "23.3 编译测试",
+          "level": 3,
+          "line": 4245
+        },
+        {
+          "heading": "23.4 SDK 与 Host Adapter 契约测试",
+          "level": 3,
+          "line": 4274
+        },
+        {
+          "heading": "23.5 Registry 测试",
+          "level": 3,
+          "line": 4293
+        },
+        {
+          "heading": "23.6 编辑器集成测试",
+          "level": 3,
+          "line": 4306
+        },
+        {
+          "heading": "23.7 预览测试",
+          "level": 3,
+          "line": 4322
+        },
+        {
+          "heading": "23.8 后端与生命周期测试",
+          "level": 3,
+          "line": 4335
+        },
+        {
+          "heading": "23.9 独立运行页测试",
+          "level": 3,
+          "line": 4358
+        },
+        {
+          "heading": "23.10 安全测试",
+          "level": 3,
+          "line": 4372
+        },
+        {
+          "heading": "24. 推荐实施阶段",
+          "level": 2,
+          "line": 4399
+        },
+        {
+          "heading": "阶段 0：接口与协议确认",
+          "level": 3,
+          "line": 4401
+        },
+        {
+          "heading": "阶段 1：共享 contract、analyzer 与 manifest",
+          "level": 3,
+          "line": 4420
+        },
+        {
+          "heading": "阶段 2：服务端预览构建与 Preview Registry",
+          "level": 3,
+          "line": 4442
+        },
+        {
+          "heading": "阶段 3：编辑器正式接入",
+          "level": 3,
+          "line": 4464
+        },
+        {
+          "heading": "阶段 4：独立 page/materials 接入",
+          "level": 3,
+          "line": 4483
+        },
+        {
+          "heading": "阶段 5：生产构建强化、扫描和签名",
+          "level": 3,
+          "line": 4500
+        },
+        {
+          "heading": "阶段 6：版本锁定与升级",
+          "level": 3,
+          "line": 4521
+        },
+        {
+          "heading": "阶段 7：v1 转换与收口",
+          "level": 3,
+          "line": 4538
+        },
+        {
+          "heading": "25. 建议首期切片",
+          "level": 2,
+          "line": 4557
+        },
+        {
+          "heading": "26. 风险与待确认项",
+          "level": 2,
+          "line": 4594
+        },
+        {
+          "heading": "26.1 待现场确认与推荐默认值",
+          "level": 3,
+          "line": 4596
+        },
+        {
+          "heading": "26.2 主要风险",
+          "level": 3,
+          "line": 4627
+        },
+        {
+          "heading": "27. 最终验收标准",
+          "level": 2,
+          "line": 4646
+        },
+        {
+          "heading": "28. 总结",
+          "level": 2,
+          "line": 4687
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 169
+      }
+    },
+    {
+      "path": "CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 759,
+      "nonEmptyLines": 614,
+      "sections": [
+        {
+          "heading": "自定义元素 ZIP 包上传技术方案",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "一、当前问题",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "1.1 用户痛点",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "1.2 技术限制",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "1.3 影响范围",
+          "level": 3,
+          "line": 49
+        },
+        {
+          "heading": "二、目标方案",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "2.1 用户体验",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "2.2 技术特点",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "三、技术方案",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "3.1 组件配置文件",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "3.2 构建方案",
+          "level": 3,
+          "line": 160
+        },
+        {
+          "heading": "3.3 平台能力访问",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "3.4 兼容现有系统",
+          "level": 3,
+          "line": 301
+        },
+        {
+          "heading": "3.5 依赖白名单",
+          "level": 3,
+          "line": 346
+        },
+        {
+          "heading": "四、关键实现",
+          "level": 2,
+          "line": 376
+        },
+        {
+          "heading": "4.1 目录结构",
+          "level": 3,
+          "line": 378
+        },
+        {
+          "heading": "4.2 核心代码",
+          "level": 3,
+          "line": 398
+        },
+        {
+          "heading": "4.3 后端对接",
+          "level": 3,
+          "line": 512
+        },
+        {
+          "heading": "五、完整示例",
+          "level": 2,
+          "line": 549
+        },
+        {
+          "heading": "5.1 简单组件",
+          "level": 3,
+          "line": 551
+        },
+        {
+          "heading": "5.2 复杂组件",
+          "level": 3,
+          "line": 582
+        },
+        {
+          "heading": "六、风险评估",
+          "level": 2,
+          "line": 675
+        },
+        {
+          "heading": "6.1 技术风险",
+          "level": 3,
+          "line": 677
+        },
+        {
+          "heading": "6.2 业务风险",
+          "level": 3,
+          "line": 685
+        },
+        {
+          "heading": "6.3 运维风险",
+          "level": 3,
+          "line": 693
+        },
+        {
+          "heading": "七、对比分析",
+          "level": 2,
+          "line": 701
+        },
+        {
+          "heading": "7.1 与当前方案对比",
+          "level": 3,
+          "line": 703
+        },
+        {
+          "heading": "7.2 与其他方案对比",
+          "level": 3,
+          "line": 715
+        },
+        {
+          "heading": "八、建议",
+          "level": 2,
+          "line": 724
+        },
+        {
+          "heading": "8.1 技术建议",
+          "level": 3,
+          "line": 726
+        },
+        {
+          "heading": "8.2 实施建议",
+          "level": 3,
+          "line": 738
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 31
+      }
+    },
+    {
+      "path": "GUIDED_PROCESS_REDESIGN.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1238,
+      "nonEmptyLines": 902,
+      "sections": [
+        {
+          "heading": "引导式流程展示编排升级设计",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 文档目的",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "2. 现状分析",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "2.1 当前运行时结构",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "2.2 当前智能导航",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "2.3 当前底部通栏",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "2.4 当前保存结构",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "3. 目标页面模型",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "4. 核心数据模型",
+          "level": 2,
+          "line": 159
+        },
+        {
+          "heading": "4.1 节点展示配置",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "4.2 流程全局展示配置",
+          "level": 3,
+          "line": 205
+        },
+        {
+          "heading": "5. 业务规则与校验",
+          "level": 2,
+          "line": 285
+        },
+        {
+          "heading": "5.1 唯一性",
+          "level": 3,
+          "line": 287
+        },
+        {
+          "heading": "5.2 导航规则",
+          "level": 3,
+          "line": 307
+        },
+        {
+          "heading": "5.3 流程执行规则",
+          "level": 3,
+          "line": 318
+        },
+        {
+          "heading": "5.4 空节点",
+          "level": 3,
+          "line": 328
+        },
+        {
+          "heading": "6. 编辑器设计",
+          "level": 2,
+          "line": 340
+        },
+        {
+          "heading": "6.1 节点配置入口",
+          "level": 3,
+          "line": 342
+        },
+        {
+          "heading": "6.2 流程全局配置入口",
+          "level": 3,
+          "line": 368
+        },
+        {
+          "heading": "6.3 画布节点展示",
+          "level": 3,
+          "line": 386
+        },
+        {
+          "heading": "7. 运行时设计",
+          "level": 2,
+          "line": 415
+        },
+        {
+          "heading": "7.1 不再维护扁平元素作为主状态",
+          "level": 3,
+          "line": 417
+        },
+        {
+          "heading": "7.2 四区页面壳",
+          "level": 3,
+          "line": 466
+        },
+        {
+          "heading": "7.3 固定与滚动模式",
+          "level": 3,
+          "line": 522
+        },
+        {
+          "heading": "7.4 导航定位",
+          "level": 3,
+          "line": 569
+        },
+        {
+          "heading": "7.5 当前步骤计算",
+          "level": 3,
+          "line": 597
+        },
+        {
+          "heading": "7.6 导航统计",
+          "level": 3,
+          "line": 607
+        },
+        {
+          "heading": "7.7 分支切换与回滚",
+          "level": 3,
+          "line": 627
+        },
+        {
+          "heading": "8. BottomBanner 改造",
+          "level": 2,
+          "line": 646
+        },
+        {
+          "heading": "8.1 目标职责",
+          "level": 3,
+          "line": 648
+        },
+        {
+          "heading": "8.2 样式修改",
+          "level": 3,
+          "line": 652
+        },
+        {
+          "heading": "8.3 兼容组装式页面",
+          "level": 3,
+          "line": 679
+        },
+        {
+          "heading": "8.4 节点与物料的关系",
+          "level": 3,
+          "line": 702
+        },
+        {
+          "heading": "9. 具体文件与模块改动",
+          "level": 2,
+          "line": 714
+        },
+        {
+          "heading": "9.1 类型定义",
+          "level": 3,
+          "line": 716
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 718
+        },
+        {
+          "heading": "修改",
+          "level": 4,
+          "line": 722
+        },
+        {
+          "heading": "9.2 全局默认配置与工具函数",
+          "level": 3,
+          "line": 731
+        },
+        {
+          "heading": "建议新增",
+          "level": 4,
+          "line": 733
+        },
+        {
+          "heading": "9.3 状态管理",
+          "level": 3,
+          "line": 747
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 749
+        },
+        {
+          "heading": "修改",
+          "level": 4,
+          "line": 753
+        },
+        {
+          "heading": "9.4 流程画布序列化",
+          "level": 3,
+          "line": 768
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 770
+        },
+        {
+          "heading": "修改位置",
+          "level": 4,
+          "line": 774
+        },
+        {
+          "heading": "9.5 节点展示设置面板",
+          "level": 3,
+          "line": 799
+        },
+        {
+          "heading": "建议新增",
+          "level": 4,
+          "line": 801
+        },
+        {
+          "heading": "9.6 流程全局设置",
+          "level": 3,
+          "line": 818
+        },
+        {
+          "heading": "可能修改",
+          "level": 4,
+          "line": 820
+        },
+        {
+          "heading": "建议新增",
+          "level": 4,
+          "line": 824
+        },
+        {
+          "heading": "9.7 流程页面入口",
+          "level": 3,
+          "line": 841
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 843
+        },
+        {
+          "heading": "修改",
+          "level": 4,
+          "line": 847
+        },
+        {
+          "heading": "9.8 保存逻辑",
+          "level": 3,
+          "line": 855
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 857
+        },
+        {
+          "heading": "修改",
+          "level": 4,
+          "line": 861
+        },
+        {
+          "heading": "9.9 运行时核心",
+          "level": 3,
+          "line": 887
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 889
+        },
+        {
+          "heading": "主要重构",
+          "level": 4,
+          "line": 893
+        },
+        {
+          "heading": "9.10 智能导航",
+          "level": 3,
+          "line": 906
+        },
+        {
+          "heading": "当前文件",
+          "level": 4,
+          "line": 908
+        },
+        {
+          "heading": "建议",
+          "level": 4,
+          "line": 912
+        },
+        {
+          "heading": "9.11 四区展示组件",
+          "level": 3,
+          "line": 928
+        },
+        {
+          "heading": "建议新增",
+          "level": 4,
+          "line": 930
+        },
+        {
+          "heading": "9.12 BottomBanner",
+          "level": 3,
+          "line": 952
+        },
+        {
+          "heading": "文件",
+          "level": 4,
+          "line": 954
+        },
+        {
+          "heading": "修改",
+          "level": 4,
+          "line": 960
+        },
+        {
+          "heading": "9.13 独立 page 子项目",
+          "level": 3,
+          "line": 967
+        },
+        {
+          "heading": "10. 接口与后端存储",
+          "level": 2,
+          "line": 997
+        },
+        {
+          "heading": "10.1 查询接口",
+          "level": 3,
+          "line": 999
+        },
+        {
+          "heading": "10.2 保存接口",
+          "level": 3,
+          "line": 1031
+        },
+        {
+          "heading": "10.3 不改后端的过渡方案",
+          "level": 3,
+          "line": 1048
+        },
+        {
+          "heading": "11. 旧数据兼容与迁移",
+          "level": 2,
+          "line": 1069
+        },
+        {
+          "heading": "11.1 无 presentation 的节点",
+          "level": 3,
+          "line": 1071
+        },
+        {
+          "heading": "11.2 无 processConfig 的流程",
+          "level": 3,
+          "line": 1083
+        },
+        {
+          "heading": "11.3 旧 BottomBanner",
+          "level": 3,
+          "line": 1095
+        },
+        {
+          "heading": "11.4 当前示例流程迁移建议",
+          "level": 3,
+          "line": 1105
+        },
+        {
+          "heading": "12. 测试方案",
+          "level": 2,
+          "line": 1118
+        },
+        {
+          "heading": "12.1 数据校验",
+          "level": 3,
+          "line": 1120
+        },
+        {
+          "heading": "12.2 导航测试",
+          "level": 3,
+          "line": 1129
+        },
+        {
+          "heading": "12.3 布局测试",
+          "level": 3,
+          "line": 1141
+        },
+        {
+          "heading": "12.4 流程执行测试",
+          "level": 3,
+          "line": 1152
+        },
+        {
+          "heading": "12.5 BottomBanner 回归",
+          "level": 3,
+          "line": 1162
+        },
+        {
+          "heading": "12.6 双运行时一致性",
+          "level": 3,
+          "line": 1170
+        },
+        {
+          "heading": "13. 推荐实施阶段",
+          "level": 2,
+          "line": 1178
+        },
+        {
+          "heading": "阶段一：数据模型与保存闭环",
+          "level": 3,
+          "line": 1180
+        },
+        {
+          "heading": "阶段二：运行时四区重构",
+          "level": 3,
+          "line": 1191
+        },
+        {
+          "heading": "阶段三：导航升级",
+          "level": 3,
+          "line": 1200
+        },
+        {
+          "heading": "阶段四：BottomBanner 与兼容迁移",
+          "level": 3,
+          "line": 1210
+        },
+        {
+          "heading": "阶段五：抽取共享运行时",
+          "level": 3,
+          "line": 1219
+        },
+        {
+          "heading": "14. 关键设计结论",
+          "level": 2,
+          "line": 1229
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 91
+      }
+    },
+    {
+      "path": "NGAP_REQUIREMENTS_ONBOARDING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1177,
+      "nonEmptyLines": 870,
+      "sections": [
+        {
+          "heading": "NGAP 平台与重点优化需求入门指南",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 先记住这几句话",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "2. NGAP 是什么",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "3. 谁在使用和维护 NGAP",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "3.1 典型使用角色",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "3.2 多项目组维护意味着什么",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "4. 当前 NGAP 的核心能力地图",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "4.1 应用建设",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "4.2 可视化页面编辑",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "4.3 元素资产",
+          "level": 3,
+          "line": 152
+        },
+        {
+          "heading": "4.4 业务组件资产",
+          "level": 3,
+          "line": 177
+        },
+        {
+          "heading": "4.5 模板资产",
+          "level": 3,
+          "line": 197
+        },
+        {
+          "heading": "4.6 服务和接口编排",
+          "level": 3,
+          "line": 211
+        },
+        {
+          "heading": "4.7 变量、公式和数据联动",
+          "level": 3,
+          "line": 234
+        },
+        {
+          "heading": "4.8 事件和动作流",
+          "level": 3,
+          "line": 257
+        },
+        {
+          "heading": "4.9 CrossAPI 和宿主系统集成",
+          "level": 3,
+          "line": 289
+        },
+        {
+          "heading": "4.10 应用审核、发布和版本治理",
+          "level": 3,
+          "line": 305
+        },
+        {
+          "heading": "4.11 应用运营和运行治理",
+          "level": 3,
+          "line": 328
+        },
+        {
+          "heading": "4.12 建设态、预览态和运行态",
+          "level": 3,
+          "line": 344
+        },
+        {
+          "heading": "5. 当前两种主要页面形态",
+          "level": 2,
+          "line": 366
+        },
+        {
+          "heading": "5.1 一屏通览页面",
+          "level": 3,
+          "line": 368
+        },
+        {
+          "heading": "5.2 步骤引导页面",
+          "level": 3,
+          "line": 382
+        },
+        {
+          "heading": "6. 一个应用从需求到运行的大致过程",
+          "level": 2,
+          "line": 409
+        },
+        {
+          "heading": "阶段 1：需求定义",
+          "level": 3,
+          "line": 411
+        },
+        {
+          "heading": "阶段 2：资产准备",
+          "level": 3,
+          "line": 419
+        },
+        {
+          "heading": "阶段 3：应用编排",
+          "level": 3,
+          "line": 427
+        },
+        {
+          "heading": "阶段 4：草稿和审核",
+          "level": 3,
+          "line": 435
+        },
+        {
+          "heading": "阶段 5：发布和上架",
+          "level": 3,
+          "line": 443
+        },
+        {
+          "heading": "阶段 6：运行和运营",
+          "level": 3,
+          "line": 449
+        },
+        {
+          "heading": "7. 核心业务对象速查",
+          "level": 2,
+          "line": 458
+        },
+        {
+          "heading": "8. 本项目组重点优化一：步骤引导式流程改造",
+          "level": 2,
+          "line": 477
+        },
+        {
+          "heading": "8.1 为什么要改",
+          "level": 3,
+          "line": 482
+        },
+        {
+          "heading": "8.2 改造后的目标页面",
+          "level": 3,
+          "line": 495
+        },
+        {
+          "heading": "8.3 节点展示模型",
+          "level": 3,
+          "line": 515
+        },
+        {
+          "heading": "8.4 流程级页面配置",
+          "level": 3,
+          "line": 540
+        },
+        {
+          "heading": "8.5 必须遵守的业务规则",
+          "level": 3,
+          "line": 561
+        },
+        {
+          "heading": "8.6 改造包含哪些需求范围",
+          "level": 3,
+          "line": 574
+        },
+        {
+          "heading": "流程编辑器",
+          "level": 4,
+          "line": 576
+        },
+        {
+          "heading": "页面级配置",
+          "level": 4,
+          "line": 586
+        },
+        {
+          "heading": "预览",
+          "level": 4,
+          "line": 593
+        },
+        {
+          "heading": "正式运行",
+          "level": 4,
+          "line": 600
+        },
+        {
+          "heading": "保存与兼容",
+          "level": 4,
+          "line": 608
+        },
+        {
+          "heading": "8.7 这次不做什么",
+          "level": 3,
+          "line": 616
+        },
+        {
+          "heading": "8.8 需求验收重点",
+          "level": 3,
+          "line": 626
+        },
+        {
+          "heading": "功能验收",
+          "level": 4,
+          "line": 628
+        },
+        {
+          "heading": "兼容验收",
+          "level": 4,
+          "line": 641
+        },
+        {
+          "heading": "数据验收",
+          "level": 4,
+          "line": 649
+        },
+        {
+          "heading": "8.9 需求人员在此阶段的主要产出",
+          "level": 3,
+          "line": 657
+        },
+        {
+          "heading": "8.10 引导式改造完成门槛",
+          "level": 3,
+          "line": 670
+        },
+        {
+          "heading": "9. 本项目组重点优化二：自定义元素改造",
+          "level": 2,
+          "line": 687
+        },
+        {
+          "heading": "9.1 当前自定义元素是什么",
+          "level": 3,
+          "line": 692
+        },
+        {
+          "heading": "9.2 目标方案",
+          "level": 3,
+          "line": 716
+        },
+        {
+          "heading": "9.3 组件作者的目标流程",
+          "level": 3,
+          "line": 742
+        },
+        {
+          "heading": "9.4 为什么项目 API 必须由平台暴露",
+          "level": 3,
+          "line": 759
+        },
+        {
+          "heading": "9.5 自定义元素改造的需求范围",
+          "level": 3,
+          "line": 827
+        },
+        {
+          "heading": "元素管理",
+          "level": 4,
+          "line": 829
+        },
+        {
+          "heading": "开发协议",
+          "level": 4,
+          "line": 839
+        },
+        {
+          "heading": "构建与安全",
+          "level": 4,
+          "line": 848
+        },
+        {
+          "heading": "编辑器和运行时",
+          "level": 4,
+          "line": 859
+        },
+        {
+          "heading": "9.6 这次不做什么",
+          "level": 3,
+          "line": 868
+        },
+        {
+          "heading": "9.7 自定义元素验收重点",
+          "level": 3,
+          "line": 879
+        },
+        {
+          "heading": "10. 两个优化项目为什么必须按顺序做",
+          "level": 2,
+          "line": 897
+        },
+        {
+          "heading": "10.1 正式顺序",
+          "level": 3,
+          "line": 899
+        },
+        {
+          "heading": "10.2 先做引导式的原因",
+          "level": 3,
+          "line": 909
+        },
+        {
+          "heading": "10.3 什么时候可以启动自定义元素正式开发",
+          "level": 3,
+          "line": 918
+        },
+        {
+          "heading": "11. 跨项目组协作清单",
+          "level": 2,
+          "line": 936
+        },
+        {
+          "heading": "11.1 引导式改造需要的协作角色",
+          "level": 3,
+          "line": 938
+        },
+        {
+          "heading": "11.2 自定义元素改造需要的协作角色",
+          "level": 3,
+          "line": 950
+        },
+        {
+          "heading": "11.3 推荐的责任表达方式",
+          "level": 3,
+          "line": 964
+        },
+        {
+          "heading": "12. 新进需求人员的建议学习顺序",
+          "level": 2,
+          "line": 984
+        },
+        {
+          "heading": "第 1 步：先理解平台业务闭环",
+          "level": 3,
+          "line": 986
+        },
+        {
+          "heading": "第 2 步：实际走一遍应用建设",
+          "level": 3,
+          "line": 995
+        },
+        {
+          "heading": "第 3 步：走一遍步骤引导应用",
+          "level": 3,
+          "line": 1009
+        },
+        {
+          "heading": "第 4 步：精读引导式改造方案",
+          "level": 3,
+          "line": 1019
+        },
+        {
+          "heading": "第 5 步：引导式稳定后再学习自定义元素",
+          "level": 3,
+          "line": 1031
+        },
+        {
+          "heading": "13. 需求文档写作检查表",
+          "level": 2,
+          "line": 1044
+        },
+        {
+          "heading": "业务背景",
+          "level": 3,
+          "line": 1046
+        },
+        {
+          "heading": "产品规则",
+          "level": 3,
+          "line": 1053
+        },
+        {
+          "heading": "编辑与运行",
+          "level": 3,
+          "line": 1060
+        },
+        {
+          "heading": "数据与接口",
+          "level": 3,
+          "line": 1067
+        },
+        {
+          "heading": "生命周期",
+          "level": 3,
+          "line": 1074
+        },
+        {
+          "heading": "兼容和安全",
+          "level": 3,
+          "line": 1081
+        },
+        {
+          "heading": "验收",
+          "level": 3,
+          "line": 1088
+        },
+        {
+          "heading": "14. 常见误区",
+          "level": 2,
+          "line": 1099
+        },
+        {
+          "heading": "误区 1：只画页面效果图",
+          "level": 3,
+          "line": 1101
+        },
+        {
+          "heading": "误区 2：编辑器能用就算完成",
+          "level": 3,
+          "line": 1105
+        },
+        {
+          "heading": "误区 3：节点顺序可以代表页面区域",
+          "level": 3,
+          "line": 1109
+        },
+        {
+          "heading": "误区 4：业务组件自己决定放在哪个区域",
+          "level": 3,
+          "line": 1113
+        },
+        {
+          "heading": "误区 5：自定义元素就是上传一个 TSX",
+          "level": 3,
+          "line": 1117
+        },
+        {
+          "heading": "误区 6：把 request 或 Store 暴露给自定义组件最省事",
+          "level": 3,
+          "line": 1121
+        },
+        {
+          "heading": "误区 7：两个优化点可以一起大改",
+          "level": 3,
+          "line": 1125
+        },
+        {
+          "heading": "15. 相关文档",
+          "level": 2,
+          "line": 1131
+        },
+        {
+          "heading": "项目上下文和现状记忆",
+          "level": 3,
+          "line": 1133
+        },
+        {
+          "heading": "引导式流程详细设计",
+          "level": 3,
+          "line": 1139
+        },
+        {
+          "heading": "自定义元素详细设计",
+          "level": 3,
+          "line": 1145
+        },
+        {
+          "heading": "接口和改造记录",
+          "level": 3,
+          "line": 1151
+        },
+        {
+          "heading": "16. 当前路线结论",
+          "level": 2,
+          "line": 1159
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 97
+      }
+    },
+    {
+      "path": "NGAP核心能力升级技术方案(给领导看).md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 677,
+      "nonEmptyLines": 548,
+      "sections": [
+        {
+          "heading": "NGAP 低代码平台核心能力升级技术方案",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "概述",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "改造点一：引导式流程展示编排升级",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "一、当前问题",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "1.1 用户痛点",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "1.2 技术问题",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "1.3 影响范围",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "二、目标方案",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "2.1 四区页面模型",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "2.2 节点展示配置",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "2.3 业务约束",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "三、关键实现",
+          "level": 2,
+          "line": 129
+        },
+        {
+          "heading": "3.1 数据模型",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "3.2 运行时重构",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "3.3 编辑器增强",
+          "level": 3,
+          "line": 226
+        },
+        {
+          "heading": "3.4 BottomBanner 改造",
+          "level": 3,
+          "line": 293
+        },
+        {
+          "heading": "3.5 独立运行时同步",
+          "level": 3,
+          "line": 321
+        },
+        {
+          "heading": "四、风险评估",
+          "level": 2,
+          "line": 328
+        },
+        {
+          "heading": "改造点二：自定义元素 ZIP 包上传",
+          "level": 1,
+          "line": 338
+        },
+        {
+          "heading": "一、当前问题",
+          "level": 2,
+          "line": 340
+        },
+        {
+          "heading": "1.1 用户痛点",
+          "level": 3,
+          "line": 342
+        },
+        {
+          "heading": "1.2 技术问题",
+          "level": 3,
+          "line": 362
+        },
+        {
+          "heading": "1.3 影响范围",
+          "level": 3,
+          "line": 383
+        },
+        {
+          "heading": "二、目标方案",
+          "level": 2,
+          "line": 394
+        },
+        {
+          "heading": "2.1 用户体验",
+          "level": 3,
+          "line": 396
+        },
+        {
+          "heading": "2.2 技术特点",
+          "level": 3,
+          "line": 428
+        },
+        {
+          "heading": "三、关键实现",
+          "level": 2,
+          "line": 441
+        },
+        {
+          "heading": "3.1 组件配置文件",
+          "level": 3,
+          "line": 443
+        },
+        {
+          "heading": "3.2 构建方案",
+          "level": 3,
+          "line": 489
+        },
+        {
+          "heading": "3.3 平台能力访问",
+          "level": 3,
+          "line": 527
+        },
+        {
+          "heading": "3.4 后端对接",
+          "level": 3,
+          "line": 572
+        },
+        {
+          "heading": "四、风险评估",
+          "level": 2,
+          "line": 594
+        },
+        {
+          "heading": "整体评估",
+          "level": 1,
+          "line": 605
+        },
+        {
+          "heading": "一、改造对比",
+          "level": 2,
+          "line": 607
+        },
+        {
+          "heading": "二、实施建议",
+          "level": 2,
+          "line": 614
+        },
+        {
+          "heading": "优先级建议",
+          "level": 3,
+          "line": 616
+        },
+        {
+          "heading": "资源评估",
+          "level": 3,
+          "line": 630
+        },
+        {
+          "heading": "实施路径",
+          "level": 3,
+          "line": 642
+        },
+        {
+          "heading": "三、成功标准",
+          "level": 2,
+          "line": 659
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 39
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "Vite + React + TypeScript + Antd",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "框架项目使用说明",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "启动说明",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "目录结构",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "分支",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "在线资料",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "README_ONBOARDING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 472,
+      "nonEmptyLines": 367,
+      "sections": [
+        {
+          "heading": "NGAP 项目新人上手指南",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "项目简介",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "技术栈",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "快速开始",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "环境要求",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "本地启动",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "模拟模式",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "项目结构",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "核心概念",
+          "level": 2,
+          "line": 99
+        },
+        {
+          "heading": "1. 物料组件（Material）",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "2. 自定义元素（Custom Element）",
+          "level": 3,
+          "line": 119
+        },
+        {
+          "heading": "3. 业务组件（App Component）",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "4. 应用（App）",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "5. 引导式流程",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "关键模块说明",
+          "level": 2,
+          "line": 159
+        },
+        {
+          "heading": "NgapRender（统一渲染引擎）",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "组件注册中心",
+          "level": 3,
+          "line": 190
+        },
+        {
+          "heading": "属性配置面板",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "引导式流程画布",
+          "level": 3,
+          "line": 237
+        },
+        {
+          "heading": "核心改造项目",
+          "level": 2,
+          "line": 258
+        },
+        {
+          "heading": "改造 A：引导式流程四区升级",
+          "level": 3,
+          "line": 262
+        },
+        {
+          "heading": "改造 B：自定义元素 ZIP 包上传",
+          "level": 3,
+          "line": 274
+        },
+        {
+          "heading": "数据流",
+          "level": 2,
+          "line": 289
+        },
+        {
+          "heading": "编辑器数据流",
+          "level": 3,
+          "line": 291
+        },
+        {
+          "heading": "运行时数据流",
+          "level": 3,
+          "line": 305
+        },
+        {
+          "heading": "常见任务",
+          "level": 2,
+          "line": 323
+        },
+        {
+          "heading": "添加一个新的内置物料",
+          "level": 3,
+          "line": 325
+        },
+        {
+          "heading": "调试自定义元素",
+          "level": 3,
+          "line": 363
+        },
+        {
+          "heading": "修改属性面板控件",
+          "level": 3,
+          "line": 371
+        },
+        {
+          "heading": "注意事项",
+          "level": 2,
+          "line": 388
+        },
+        {
+          "heading": "双运行时同步",
+          "level": 3,
+          "line": 390
+        },
+        {
+          "heading": "自定义元素编译",
+          "level": 3,
+          "line": 400
+        },
+        {
+          "heading": "缺失资源",
+          "level": 3,
+          "line": 410
+        },
+        {
+          "heading": "常用命令",
+          "level": 2,
+          "line": 419
+        },
+        {
+          "heading": "相关文档",
+          "level": 2,
+          "line": 435
+        },
+        {
+          "heading": "获取帮助",
+          "level": 2,
+          "line": 442
+        },
+        {
+          "heading": "附录：关键接口",
+          "level": 2,
+          "line": 449
+        },
+        {
+          "heading": "应用和流程",
+          "level": 3,
+          "line": 451
+        },
+        {
+          "heading": "自定义元素",
+          "level": 3,
+          "line": 458
+        },
+        {
+          "heading": "接口编排",
+          "level": 3,
+          "line": 465
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 40
+      }
+    },
+    {
+      "path": "REFACTOR_NOTES.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 125,
+      "nonEmptyLines": 81,
+      "sections": [
+        {
+          "heading": "NGAP 核心改造记录",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "改造目标",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "本地模拟实现状态（2026-08-05）",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "自定义元素 v2 设计状态（2026-08-10）",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "需求人员入门文档（2026-08-11）",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "第一批需要采集的接口响应",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "引导式流程（必需）",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "1. 查询流程结构",
+          "level": 4,
+          "line": 44
+        },
+        {
+          "heading": "2. 批量查询流程节点对应的业务组件",
+          "level": 4,
+          "line": 50
+        },
+        {
+          "heading": "3. 查询单个业务组件",
+          "level": 4,
+          "line": 56
+        },
+        {
+          "heading": "自定义元素（必需）",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "4. 查询自定义元素清单",
+          "level": 4,
+          "line": 64
+        },
+        {
+          "heading": "5. 获取自定义元素源码",
+          "level": 4,
+          "line": 70
+        },
+        {
+          "heading": "第二批按场景补充",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "流程包含自动接口分支或组件接口时",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "需要复现流程保存、发布和历史版本时",
+          "level": 3,
+          "line": 93
+        },
+        {
+          "heading": "需要复现自定义元素上传和保存时",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "采集要求",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "已收到的数据（new 67.txt）",
+          "level": 2,
+          "line": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    },
+    {
+      "path": "find-missing-repomix-assets.ps1",
+      "language": "powershell",
+      "fileCategory": "script",
+      "totalLines": 64,
+      "nonEmptyLines": 55,
+      "metrics": {}
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "fileCategory": "markup",
+      "totalLines": 182,
+      "nonEmptyLines": 166,
+      "metrics": {}
+    },
+    {
+      "path": "missing-binary-assets.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 315,
+      "nonEmptyLines": 315,
+      "metrics": {}
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 151,
+      "nonEmptyLines": 151,
+      "sections": [
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "os",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "cpu",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 82
+        },
+        {
+          "heading": "engines",
+          "level": 1,
+          "line": 129
+        },
+        {
+          "heading": "overrides",
+          "level": 1,
+          "line": 132
+        },
+        {
+          "heading": "npmConfig",
+          "level": 1,
+          "line": 139
+        },
+        {
+          "heading": "browserslist",
+          "level": 1,
+          "line": 142
+        },
+        {
+          "heading": "resolutions",
+          "level": 1,
+          "line": 145
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 34,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "references",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "exclude",
+          "level": 1,
+          "line": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "tsconfig.node.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

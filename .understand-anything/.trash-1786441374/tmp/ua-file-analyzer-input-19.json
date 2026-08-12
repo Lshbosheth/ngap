@@ -1,0 +1,233 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/components/EventConfig/EventConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/FlowNode/FlowNode.tsx",
+      "language": "typescript",
+      "sizeLines": 349,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/FlowNode/NodeEdit.tsx",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/FlowNode/NodeModal.tsx",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Collapse/CollapseSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Collapse/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Segmented/CollapseItemSchema.ts",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Segmented/CollapseSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/FormItems/Segmented/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tab/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tabs/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Functional/Tabs/TabSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationAlert/index.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationLog/index.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/applicationMonitoring/index.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/bar-chart/index.tsx",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/china-map/index.tsx",
+      "language": "typescript",
+      "sizeLines": 227,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/index.tsx",
+      "language": "typescript",
+      "sizeLines": 725,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/params.tsx",
+      "language": "typescript",
+      "sizeLines": 228,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/appEffectBoard/ring-chart/index.tsx",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/ChromeVersionLow.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/util.ts",
+      "language": "typescript",
+      "sizeLines": 457,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/components/EventConfig/EventConfig.tsx": [
+      "src/components/EventConfig/index.module.less",
+      "src/components/FlowNode/FlowNode.tsx",
+      "src/components/FlowNode/NodeModal.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/FlowNode/FlowNode.tsx": [
+      "src/components/EventConfig/ActionModal/ActionModal.tsx",
+      "src/components/FlowNode/index.less",
+      "src/components/FlowNode/NodeEdit.tsx",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/components/FlowNode/NodeEdit.tsx": [],
+    "src/components/FlowNode/NodeModal.tsx": [
+      "src/components/FlowNode/FlowNode.tsx"
+    ],
+    "src/packages/Container/Collapse/CollapseItemSchema.ts": [],
+    "src/packages/Container/Collapse/CollapseSetting.tsx": [
+      "src/packages/Container/Collapse/CollapseItemSchema.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/packages/Container/Collapse/Schema.tsx": [
+      "src/packages/Container/Collapse/CollapseSetting.tsx"
+    ],
+    "src/packages/FormItems/Segmented/CollapseItemSchema.ts": [],
+    "src/packages/FormItems/Segmented/CollapseSetting.tsx": [
+      "src/packages/FormItems/Segmented/CollapseItemSchema.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/packages/FormItems/Segmented/Schema.tsx": [
+      "src/packages/FormItems/Segmented/CollapseSetting.tsx"
+    ],
+    "src/packages/Functional/Tab/Schema.ts": [],
+    "src/packages/Functional/Tabs/Schema.tsx": [
+      "src/packages/Functional/Tabs/TabSetting.tsx"
+    ],
+    "src/packages/Functional/Tabs/TabSetting.tsx": [
+      "src/packages/Functional/Tab/Schema.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/pages/ApplicationRunPage/applicationAlert/index.tsx": [
+      "src/pages/ApplicationRunPage/applicationAlert/index.module.less",
+      "src/utils/util.ts"
+    ],
+    "src/pages/ApplicationRunPage/applicationLog/index.tsx": [
+      "src/pages/ApplicationRunPage/applicationLog/index.module.less",
+      "src/utils/util.ts"
+    ],
+    "src/pages/ApplicationRunPage/applicationMonitoring/index.tsx": [
+      "src/pages/ApplicationRunPage/applicationMonitoring/index.module.less",
+      "src/utils/util.ts"
+    ],
+    "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.tsx": [
+      "src/pages/ApplicationRunPage/rateLimitingRuleConfiguration/index.module.less",
+      "src/utils/util.ts"
+    ],
+    "src/pages/appEffectBoard/bar-chart/index.tsx": [],
+    "src/pages/appEffectBoard/china-map/index.tsx": [
+      "src/pages/appEffectBoard/china-map/china.json",
+      "src/pages/appEffectBoard/china-map/index.less"
+    ],
+    "src/pages/appEffectBoard/index.tsx": [
+      "src/pages/appEffectBoard/bar-chart/index.tsx",
+      "src/pages/appEffectBoard/china-map/index.tsx",
+      "src/pages/appEffectBoard/index.less",
+      "src/pages/appEffectBoard/params.tsx",
+      "src/pages/appEffectBoard/ring-chart/index.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/pages/appEffectBoard/params.tsx": [],
+    "src/pages/appEffectBoard/ring-chart/index.tsx": [],
+    "src/utils/ChromeVersionLow.tsx": [
+      "src/utils/util.ts"
+    ],
+    "src/utils/util.ts": [
+      "src/config/components.tsx",
+      "src/packages/types/index.ts"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Advanced/Steps/StepCircleIcon.tsx",
+      "type": "file",
+      "name": "StepCircleIcon.tsx",
+      "filePath": "materials/Advanced/Steps/StepCircleIcon.tsx",
+      "summary": "绘制步骤条未完成状态的圆形图标，并通过物料样式参数控制尺寸和颜色。",
+      "tags": [
+        "react-component",
+        "steps",
+        "low-code-material"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Advanced/Steps/StepCircleIcon.tsx:StepCircleIcon",
+      "type": "function",
+      "name": "StepCircleIcon",
+      "filePath": "materials/Advanced/Steps/StepCircleIcon.tsx",
+      "lineRange": [
+        10,
+        40
+      ],
+      "summary": "渲染步骤条未完成状态使用的圆形 SVG 图标。",
+      "tags": [
+        "react-component",
+        "steps",
+        "rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Advanced/Steps/StepFinishIcon.tsx",
+      "type": "file",
+      "name": "StepFinishIcon.tsx",
+      "filePath": "materials/Advanced/Steps/StepFinishIcon.tsx",
+      "summary": "绘制步骤条已完成状态图标，呈现完成标记及可配置的主题样式。",
+      "tags": [
+        "react-component",
+        "steps",
+        "low-code-material"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Steps/StepFinishIcon.tsx:StepFinishIcon",
+      "type": "function",
+      "name": "StepFinishIcon",
+      "filePath": "materials/Advanced/Steps/StepFinishIcon.tsx",
+      "lineRange": [
+        14,
+        63
+      ],
+      "summary": "渲染步骤条完成状态使用的勾选 SVG 图标。",
+      "tags": [
+        "react-component",
+        "steps",
+        "rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Steps/StepLoadingIcon.tsx",
+      "type": "file",
+      "name": "StepLoadingIcon.tsx",
+      "filePath": "materials/Advanced/Steps/StepLoadingIcon.tsx",
+      "summary": "绘制步骤条进行中状态的加载图标，使用动画表现当前步骤正在处理。",
+      "tags": [
+        "react-component",
+        "steps",
+        "low-code-material"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Steps/StepLoadingIcon.tsx:StepLoadingIcon",
+      "type": "function",
+      "name": "StepLoadingIcon",
+      "filePath": "materials/Advanced/Steps/StepLoadingIcon.tsx",
+      "lineRange": [
+        19,
+        90
+      ],
+      "summary": "渲染步骤条当前状态使用的动画加载图标。",
+      "tags": [
+        "react-component",
+        "steps",
+        "rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Advanced/Steps/Steps.tsx",
+      "type": "file",
+      "name": "Steps.tsx",
+      "filePath": "materials/Advanced/Steps/Steps.tsx",
+      "summary": "实现低代码步骤条物料，管理当前步骤、状态图标、标题描述、方向和步骤切换交互。",
+      "tags": [
+        "react-component",
+        "steps",
+        "low-code-material"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Advanced/Steps/Steps.tsx:MSteps",
+      "type": "function",
+      "name": "MSteps",
+      "filePath": "materials/Advanced/Steps/Steps.tsx",
+      "lineRange": [
+        17,
+        189
+      ],
+      "summary": "实现步骤条的核心渲染和交互逻辑，依据步骤数据选择状态图标并同步当前步骤。",
+      "tags": [
+        "react-component",
+        "steps",
+        "rendering"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Advanced/Steps/StepCircleIcon.tsx",
+      "target": "function:materials/Advanced/Steps/StepCircleIcon.tsx:StepCircleIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Steps/StepFinishIcon.tsx",
+      "target": "function:materials/Advanced/Steps/StepFinishIcon.tsx:StepFinishIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Steps/StepLoadingIcon.tsx",
+      "target": "function:materials/Advanced/Steps/StepLoadingIcon.tsx:StepLoadingIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "function:materials/Advanced/Steps/Steps.tsx:MSteps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Advanced/Steps/StepCircleIcon.tsx",
+      "target": "file:materials/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/StepFinishIcon.tsx",
+      "target": "file:materials/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "file:materials/Advanced/Steps/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "file:materials/Advanced/Steps/StepCircleIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "file:materials/Advanced/Steps/StepFinishIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "file:materials/Advanced/Steps/StepLoadingIcon.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Advanced/Steps/Steps.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

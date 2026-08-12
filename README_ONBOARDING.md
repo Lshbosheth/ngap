@@ -132,7 +132,7 @@ ngap/
 - 服务端构建、扫描和签名
 - 运行时加载不可变产物
 
-详见：[CUSTOM_ELEMENT_REDESIGN.md](./CUSTOM_ELEMENT_REDESIGN.md)
+详见：[自定义元素完整设计·理想方案](<./CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md>)
 
 ### 3. 业务组件（App Component）
 
@@ -273,7 +273,7 @@ ngap/
 
 ### 改造 B：自定义元素 ZIP 包上传
 
-**文档：** [CUSTOM_ELEMENT_REDESIGN.md](./CUSTOM_ELEMENT_REDESIGN.md)
+**文档：** [自定义元素完整设计·理想方案](<./CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md>)
 
 **目标：**
 - 从"三个文件分别上传"改为"一个 ZIP 包"
@@ -405,7 +405,7 @@ src/layout/components/ConfigPanel/components/
 3. 安全风险（任意代码执行）
 4. 缺少类型检查和静态分析
 
-正在改造为服务端构建模式，详见 CUSTOM_ELEMENT_REDESIGN.md
+目标方案采用服务端构建模式，详见自定义元素完整设计·理想方案（`CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md`）。
 
 ### 缺失资源
 
@@ -435,7 +435,7 @@ cd page && npm run build
 ## 相关文档
 
 - [引导式流程重构设计](./GUIDED_PROCESS_REDESIGN.md)
-- [自定义元素 ZIP 包重写设计](./CUSTOM_ELEMENT_REDESIGN.md)
+- [自定义元素 ZIP 包重写设计](<./CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md>)
 - [改造记录](./REFACTOR_NOTES.md)
 - [项目交接上下文](./CODEX_CONTEXT.md)
 

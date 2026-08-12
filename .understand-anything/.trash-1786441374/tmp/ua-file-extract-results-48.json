@@ -1,0 +1,829 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 162,
+      "nonEmptyLines": 154,
+      "functions": [
+        {
+          "name": "MCheckableTagGroup",
+          "startLine": 24,
+          "endLine": 161,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useState",
+          "lineNumber": 29
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useAppContext",
+          "lineNumber": 31
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "pageStore",
+          "lineNumber": 33
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "pageStore",
+          "lineNumber": 36
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useEffect",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setElementAlias",
+          "lineNumber": 38
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useDeepCompareEffect",
+          "lineNumber": 41
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "getDataList",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "debounce",
+          "lineNumber": 45
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "isEmpty",
+          "lineNumber": 47
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "handleApi(config.api, params, _state).then",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "handleApi",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "Array.isArray",
+          "lineNumber": 50
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setData",
+          "lineNumber": 51
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setData",
+          "lineNumber": 53
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "console.error",
+          "lineNumber": 54
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useWatchVariable",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useEffect",
+          "lineNumber": 67
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setIsCollapsed",
+          "lineNumber": 68
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useImperativeHandle",
+          "lineNumber": 72
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 75
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 78
+        },
+        {
+          "caller": "getCheckedIds",
+          "callee": "data.filter((_, index) => checked[index]).map",
+          "lineNumber": 81
+        },
+        {
+          "caller": "getCheckedIds",
+          "callee": "data.filter",
+          "lineNumber": 81
+        },
+        {
+          "caller": "getCheckedIds",
+          "callee": "item.id.toString",
+          "lineNumber": 81
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setMStyle",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleChange",
+          "callee": "newChecked.filter",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleChange",
+          "callee": "Number",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleChange",
+          "callee": "isNaN",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setChecked",
+          "lineNumber": 104
+        },
+        {
+          "caller": "handleChange",
+          "callee": "onChange",
+          "lineNumber": 106
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useMemo",
+          "lineNumber": 109
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useMemo",
+          "lineNumber": 116
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "useMemo",
+          "lineNumber": 129
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "data.map",
+          "lineNumber": 146
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "handleChange",
+          "lineNumber": 147
+        },
+        {
+          "caller": "MCheckableTagGroup",
+          "callee": "setIsCollapsed",
+          "lineNumber": 153
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/CheckableTagGroup/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 217,
+      "nonEmptyLines": 212,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/CollapseBtn/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/CollapseBtn/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 61,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Icon/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 75,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Image/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 96,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Link/CascadeSelect/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 248,
+      "nonEmptyLines": 216,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Link/Linkcss.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 87,
+      "nonEmptyLines": 83,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Tag/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 77,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Text/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Timer/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 23,
+      "nonEmptyLines": 23,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Timer/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 90,
+      "nonEmptyLines": 90,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Video/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Basic/Video/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 93,
+      "nonEmptyLines": 91,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Basic/Watermark/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 216,
+      "nonEmptyLines": 212,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/ColorPicker/ColorPicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "ColorPicker",
+          "startLine": 14,
+          "endLine": 59,
+          "params": [
+            "{ value, onChange, index, dataSource }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ColorPicker",
+          "callee": "useState",
+          "lineNumber": 16
+        },
+        {
+          "caller": "ColorPicker",
+          "callee": "useState",
+          "lineNumber": 18
+        },
+        {
+          "caller": "ColorPicker",
+          "callee": "useEffect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "ColorPicker",
+          "callee": "setOpen",
+          "lineNumber": 21
+        },
+        {
+          "caller": "ColorPicker",
+          "callee": "onChange",
+          "lineNumber": 22
+        },
+        {
+          "caller": "getNodeIndex",
+          "callee": "numberToChinese",
+          "lineNumber": 26
+        },
+        {
+          "caller": "ColorList",
+          "callee": "getNodeIndex",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ColorList",
+          "callee": "dataSource.map",
+          "lineNumber": 35
+        },
+        {
+          "caller": "ColorList",
+          "callee": "setCheckColor",
+          "lineNumber": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "functions": [
+        {
+          "name": "ColorPickerSetting",
+          "startLine": 5,
+          "endLine": 12,
+          "params": [
+            "{label, name, form ,dataSource}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ColorPickerSetting",
+          "line": 5,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ColorPickerSetting",
+          "callee": "form.getFieldValue",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/ColorPicker/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 55,
+      "nonEmptyLines": 47,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/components/DynamicItemSetting/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 41,
+      "nonEmptyLines": 36,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/components/icon-select/IconSelect.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 88,
+      "functions": [
+        {
+          "name": "IconSelect",
+          "startLine": 13,
+          "endLine": 98,
+          "params": [
+            "{ value, onChange, placeholder }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "IconSelect",
+          "callee": "Object.keys(icons).filter",
+          "lineNumber": 16
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "Object.keys",
+          "lineNumber": 16
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "[\"default\", \"createFromIconfontCN\", \"getTwoToneColor\", \"setTwoToneColor\", \"IconProvider\"].includes",
+          "lineNumber": 17
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "useMemo",
+          "lineNumber": 26
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "searchWord.trim",
+          "lineNumber": 27
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "allIconKeys.filter",
+          "lineNumber": 28
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "key.toLowerCase().includes",
+          "lineNumber": 28
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "key.toLowerCase",
+          "lineNumber": 28
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "searchWord.toLowerCase",
+          "lineNumber": 28
+        },
+        {
+          "caller": "handleSelectIcon",
+          "callee": "onChange",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleSelectIcon",
+          "callee": "setOpen",
+          "lineNumber": 34
+        },
+        {
+          "caller": "handleSelectIcon",
+          "callee": "setSearchWord",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleSelectIcon",
+          "callee": "setValue",
+          "lineNumber": 36
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "useEffect",
+          "lineNumber": 39
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "setSearchWord",
+          "lineNumber": 41
+        },
+        {
+          "caller": "IconGrid",
+          "callee": "iconKeys.map",
+          "lineNumber": 49
+        },
+        {
+          "caller": "IconGrid",
+          "callee": "handleSelectIcon",
+          "lineNumber": 52
+        },
+        {
+          "caller": "IconGrid",
+          "callee": "React.createElement",
+          "lineNumber": 56
+        },
+        {
+          "caller": "renderInputPrefix",
+          "callee": "React.createElement",
+          "lineNumber": 69
+        },
+        {
+          "caller": "onClear",
+          "callee": "e.stopPropagation",
+          "lineNumber": 73
+        },
+        {
+          "caller": "onClear",
+          "callee": "handleSelectIcon",
+          "lineNumber": 74
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "renderInputPrefix",
+          "lineNumber": 87
+        },
+        {
+          "caller": "IconSelect",
+          "callee": "setSearchWord",
+          "lineNumber": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/icon-select/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 36,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 59,
+      "nonEmptyLines": 49,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 91,
+      "nonEmptyLines": 78,
+      "functions": [
+        {
+          "name": "TimelineNodeConfig",
+          "startLine": 14,
+          "endLine": 89,
+          "params": [
+            "{ value, onChange }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "useState",
+          "lineNumber": 17
+        },
+        {
+          "caller": "changeDataSource",
+          "callee": "setDataSource",
+          "lineNumber": 20
+        },
+        {
+          "caller": "onAddNode",
+          "callee": "setDataSource",
+          "lineNumber": 30
+        },
+        {
+          "caller": "onDeleteNode",
+          "callee": "setDataSource",
+          "lineNumber": 40
+        },
+        {
+          "caller": "onDeleteNode",
+          "callee": "[...prev]?.filter",
+          "lineNumber": 41
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "useEffect",
+          "lineNumber": 45
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "onChange",
+          "lineNumber": 46
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "dataSource.map",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "numberToChinese",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "onDeleteNode",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "dayjs",
+          "lineNumber": 67
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "changeDataSource",
+          "lineNumber": 68
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "e.format",
+          "lineNumber": 68
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "changeDataSource",
+          "lineNumber": 75
+        },
+        {
+          "caller": "TimelineNodeConfig",
+          "callee": "changeDataSource",
+          "lineNumber": 82
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "functions": [
+        {
+          "name": "TimelineSetting",
+          "startLine": 5,
+          "endLine": 12,
+          "params": [
+            "{ name, form }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TimelineSetting",
+          "line": 5,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TimelineSetting",
+          "callee": "form.getFieldValue",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Card/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    }
+  ]
+}

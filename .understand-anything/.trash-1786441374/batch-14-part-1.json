@@ -1,0 +1,1817 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "type": "file",
+      "name": "SearchForm.tsx",
+      "filePath": "materials/Scene/SearchForm/SearchForm.tsx",
+      "summary": "实现独立 materials 运行时的搜索表单场景组件，根据配置生成查询项并触发查询、重置和事件流。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Scene/SearchForm/SearchForm.tsx:SearchForm",
+      "type": "function",
+      "name": "SearchForm",
+      "filePath": "materials/Scene/SearchForm/SearchForm.tsx",
+      "lineRange": [
+        40,
+        246
+      ],
+      "summary": "渲染 SearchForm 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "materials/index.tsx",
+      "summary": "作为独立 materials 运行时的动态组件加载入口，下载自定义元素源码、执行 TSX/JS/Less 转换并缓存可懒加载组件。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex",
+      "languageNotes": "在浏览器侧下载源码并动态编译 TSX/JavaScript/Less，以缓存和 React.lazy 方式装载自定义元素。"
+    },
+    {
+      "id": "function:materials/index.tsx:onPreviewTsx",
+      "type": "function",
+      "name": "onPreviewTsx",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        30,
+        55
+      ],
+      "summary": "把下载的 TSX 源码编译为浏览器可执行模块。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:onPreviewJs",
+      "type": "function",
+      "name": "onPreviewJs",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        57,
+        77
+      ],
+      "summary": "处理自定义元素 JavaScript 源码并生成可执行模块。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:onPreviewLess",
+      "type": "function",
+      "name": "onPreviewLess",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        80,
+        94
+      ],
+      "summary": "编译并注入自定义元素 Less 样式。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:extensionToMimeType",
+      "type": "function",
+      "name": "extensionToMimeType",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        97,
+        114
+      ],
+      "summary": "把文件扩展名映射为下载响应的 MIME 类型。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:downloadFile",
+      "type": "function",
+      "name": "downloadFile",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        117,
+        132
+      ],
+      "summary": "下载自定义元素单个源码或资源文件。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:getLanguageByExtension",
+      "type": "function",
+      "name": "getLanguageByExtension",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        135,
+        148
+      ],
+      "summary": "根据扩展名识别编辑或编译使用的语言类型。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:fetchFileStream",
+      "type": "function",
+      "name": "fetchFileStream",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        151,
+        172
+      ],
+      "summary": "获取单个自定义元素文件流。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:fetchAllFileStream",
+      "type": "function",
+      "name": "fetchAllFileStream",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        174,
+        219
+      ],
+      "summary": "并行获取自定义元素包内全部文件内容。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:elementInfoFun",
+      "type": "function",
+      "name": "elementInfoFun",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        223,
+        255
+      ],
+      "summary": "加载元素元数据和源码并创建运行时组件。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:queryElementFun",
+      "type": "function",
+      "name": "queryElementFun",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        257,
+        267
+      ],
+      "summary": "查询自定义元素信息并更新动态组件缓存。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:getComponent",
+      "type": "function",
+      "name": "getComponent",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        270,
+        284
+      ],
+      "summary": "按元素类型返回内置或动态加载的组件。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:createLazyFactory",
+      "type": "function",
+      "name": "createLazyFactory",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        289,
+        293
+      ],
+      "summary": "创建可按需加载组件的 React lazy 工厂。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:clearElementComponents",
+      "type": "function",
+      "name": "clearElementComponents",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        296,
+        301
+      ],
+      "summary": "清空动态元素组件缓存。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/index.tsx:clearBabelCache",
+      "type": "function",
+      "name": "clearBabelCache",
+      "filePath": "materials/index.tsx",
+      "lineRange": [
+        304,
+        311
+      ],
+      "summary": "清空源码编译缓存。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/stores/pageStore.ts",
+      "type": "file",
+      "name": "pageStore.ts",
+      "filePath": "materials/stores/pageStore.ts",
+      "summary": "使用 Zustand 管理独立页面运行时的元素树、变量、表单、接口输出和组件引用，是 materials 渲染与动作执行的共享状态中心。",
+      "tags": [
+        "store",
+        "state-management",
+        "runtime-data"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 Zustand 集中维护可变页面运行时状态，并暴露大量细粒度更新方法。"
+    },
+    {
+      "id": "file:materials/types/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "materials/types/index.ts",
+      "summary": "定义独立 materials 运行时的页面、元素、事件、接口、变量和组件配置等核心 TypeScript 类型。",
+      "tags": [
+        "type-definition",
+        "runtime-contract",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/utils/AntdGlobal.tsx",
+      "type": "file",
+      "name": "AntdGlobal.tsx",
+      "filePath": "materials/utils/AntdGlobal.tsx",
+      "summary": "从 Ant Design App 上下文导出全局 message、notification 和 Modal 实例，供非组件代码触发反馈。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/action.ts",
+      "type": "file",
+      "name": "action.ts",
+      "filePath": "materials/utils/action.ts",
+      "summary": "实现独立 materials 运行时的事件动作解释器，按动作链执行接口、弹窗、跳转、变量、样式、脚本和组件状态变更。",
+      "tags": [
+        "service",
+        "action-engine",
+        "workflow",
+        "event-handler"
+      ],
+      "complexity": "complex",
+      "languageNotes": "通过动作类型分派器解释配置化动作链，并以 next/branch 关系控制后续执行。"
+    },
+    {
+      "id": "function:materials/utils/action.ts:clearTimerList",
+      "type": "function",
+      "name": "clearTimerList",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        31,
+        39
+      ],
+      "summary": "取消动作引擎登记的全部延时任务。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:clearProcessedMessageIds",
+      "type": "function",
+      "name": "clearProcessedMessageIds",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        41,
+        43
+      ],
+      "summary": "清空已处理消息标识，允许新的消息周期重新执行。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:convertArrayToLinkedList",
+      "type": "function",
+      "name": "convertArrayToLinkedList",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        47,
+        94
+      ],
+      "summary": "把线性动作配置转换为带分支和 next 指针的执行链。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "function",
+      "name": "handleActionFlow",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        100,
+        108
+      ],
+      "summary": "构建动作链并从入口开始顺序执行。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:execAction",
+      "type": "function",
+      "name": "execAction",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        115,
+        192
+      ],
+      "summary": "识别当前动作类型、执行处理器并推进动作链或分支。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/action.ts:messAgeParams",
+      "type": "function",
+      "name": "messAgeParams",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        194,
+        226
+      ],
+      "summary": "从页面上下文中解析消息动作参数。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:mergeParams",
+      "type": "function",
+      "name": "mergeParams",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        232,
+        250
+      ],
+      "summary": "把静态配置、变量、表单和接口数据合并为调用参数。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleMethods",
+      "type": "function",
+      "name": "handleMethods",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        255,
+        298
+      ],
+      "summary": "调用目标组件暴露的方法并处理返回结果。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleShowConfirm",
+      "type": "function",
+      "name": "handleShowConfirm",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        313,
+        326
+      ],
+      "summary": "执行确认对话框动作并根据选择进入不同分支。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleMessage",
+      "type": "function",
+      "name": "handleMessage",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        331,
+        341
+      ],
+      "summary": "执行全局消息提示动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleNotification",
+      "type": "function",
+      "name": "handleNotification",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        346,
+        355
+      ],
+      "summary": "执行通知提示动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleCrossAPIfn",
+      "type": "function",
+      "name": "handleCrossAPIfn",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        371,
+        383
+      ],
+      "summary": "执行 CrossAPI 宿主能力动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleGoldBankCheckfn",
+      "type": "function",
+      "name": "handleGoldBankCheckfn",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        388,
+        400
+      ],
+      "summary": "执行 GoldBank 安全校验动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleJumpLink",
+      "type": "function",
+      "name": "handleJumpLink",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        405,
+        489
+      ],
+      "summary": "解析并执行页面内、外部链接或路由跳转动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleVariable",
+      "type": "function",
+      "name": "handleVariable",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        505,
+        526
+      ],
+      "summary": "计算表达式并写入页面变量。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleCopy",
+      "type": "function",
+      "name": "handleCopy",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        531,
+        543
+      ],
+      "summary": "把指定内容复制到剪贴板。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleSetTimeout",
+      "type": "function",
+      "name": "handleSetTimeout",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        548,
+        580
+      ],
+      "summary": "延迟执行后续动作并登记可清理定时器。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleVisible",
+      "type": "function",
+      "name": "handleVisible",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        585,
+        607
+      ],
+      "summary": "变更目标组件的显示状态。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleDisable",
+      "type": "function",
+      "name": "handleDisable",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        612,
+        634
+      ],
+      "summary": "变更目标组件的禁用状态。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleRunScripts",
+      "type": "function",
+      "name": "handleRunScripts",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        649,
+        660
+      ],
+      "summary": "在受控上下文中执行配置脚本。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleOpenPopover",
+      "type": "function",
+      "name": "handleOpenPopover",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        665,
+        688
+      ],
+      "summary": "调用目标组件打开气泡层。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleClosePopover",
+      "type": "function",
+      "name": "handleClosePopover",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        693,
+        711
+      ],
+      "summary": "调用目标组件关闭气泡层。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:scrollToElementByDataId",
+      "type": "function",
+      "name": "scrollToElementByDataId",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        718,
+        768
+      ],
+      "summary": "按元素标识滚动到目标组件。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/action.ts:triggerComponentEventByDataId",
+      "type": "function",
+      "name": "triggerComponentEventByDataId",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        776,
+        782
+      ],
+      "summary": "按元素标识触发组件事件。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleExternalScroll",
+      "type": "function",
+      "name": "handleExternalScroll",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        791,
+        881
+      ],
+      "summary": "处理外部容器发来的定位滚动请求。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/action.ts:handleExternalScrollAndTrigger",
+      "type": "function",
+      "name": "handleExternalScrollAndTrigger",
+      "filePath": "materials/utils/action.ts",
+      "lineRange": [
+        882,
+        900
+      ],
+      "summary": "滚动到目标元素后继续触发其配置事件。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/apiUtilForInterface.ts",
+      "type": "file",
+      "name": "apiUtilForInterface.ts",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "summary": "解析接口编排中的入参、出参和 CrossAPI 字段，执行接口并把结果映射回页面运行时数据。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:countNodes",
+      "type": "function",
+      "name": "countNodes",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        20,
+        29
+      ],
+      "summary": "实现 countNodes 对应的运行时处理逻辑。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getParams",
+      "type": "function",
+      "name": "getParams",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        51,
+        103
+      ],
+      "summary": "解析接口入参定义并从运行时上下文取值。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getFieldFromCrossAPI",
+      "type": "function",
+      "name": "getFieldFromCrossAPI",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        105,
+        178
+      ],
+      "summary": "从 CrossAPI 返回结构中递归提取配置字段。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getCrossAPIValue",
+      "type": "function",
+      "name": "getCrossAPIValue",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        187,
+        208
+      ],
+      "summary": "调用 CrossAPI 并取得指定路径的值。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getOutParams",
+      "type": "function",
+      "name": "getOutParams",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        210,
+        253
+      ],
+      "summary": "按接口出参映射提取响应字段。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "function",
+      "name": "getFieldFromAPI",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        262,
+        362
+      ],
+      "summary": "从接口响应中递归解析字段路径和数组结构。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:getFormatFlag",
+      "type": "function",
+      "name": "getFormatFlag",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        363,
+        378
+      ],
+      "summary": "判断接口字段是否需要格式化处理。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/apiUtilForInterface.ts:execInterface",
+      "type": "function",
+      "name": "execInterface",
+      "filePath": "materials/utils/apiUtilForInterface.ts",
+      "lineRange": [
+        386,
+        430
+      ],
+      "summary": "解析接口配置、发起请求并处理成功或失败回调。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/columns.tsx",
+      "type": "file",
+      "name": "columns.tsx",
+      "filePath": "materials/utils/columns.tsx",
+      "summary": "提供表格列值格式化和标签设置图标渲染，支撑动态表格列的展示配置。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/utils/columns.tsx:formatCellValue",
+      "type": "function",
+      "name": "formatCellValue",
+      "filePath": "materials/utils/columns.tsx",
+      "lineRange": [
+        7,
+        14
+      ],
+      "summary": "按列配置格式化表格单元格值。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/columns.tsx:TagSettingIcons",
+      "type": "function",
+      "name": "TagSettingIcons",
+      "filePath": "materials/utils/columns.tsx",
+      "lineRange": [
+        26,
+        99
+      ],
+      "summary": "渲染标签设置中使用的状态或样式图标。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/utils/context.ts",
+      "type": "file",
+      "name": "context.ts",
+      "filePath": "materials/utils/context.ts",
+      "summary": "定义表单上下文及其访问 Hook，使 materials 子组件共享表单实例和配置。",
+      "tags": [
+        "utility",
+        "runtime",
+        "data-processing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/context.ts:useFormContext",
+      "type": "function",
+      "name": "useFormContext",
+      "filePath": "materials/utils/context.ts",
+      "lineRange": [
+        16,
+        28
+      ],
+      "summary": "读取当前表单上下文并在缺失 Provider 时给出明确约束。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/utils/crossAPI.js",
+      "type": "file",
+      "name": "crossAPI.js",
+      "filePath": "materials/utils/crossAPI.js",
+      "summary": "承载压缩后的 CrossAPI 浏览器桥接实现，封装宿主环境消息调用、回调登记和客户端能力访问。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件为压缩后的 JavaScript 桥接代码，函数名高度缩写，语义主要由其宿主集成角色确定。"
+    },
+    {
+      "id": "function:materials/utils/crossAPI.js:t",
+      "type": "function",
+      "name": "t",
+      "filePath": "materials/utils/crossAPI.js",
+      "lineRange": [
+        2,
+        28
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 t 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPI.js:n",
+      "type": "function",
+      "name": "n",
+      "filePath": "materials/utils/crossAPI.js",
+      "lineRange": [
+        29,
+        41
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 n 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPI.js:i",
+      "type": "function",
+      "name": "i",
+      "filePath": "materials/utils/crossAPI.js",
+      "lineRange": [
+        50,
+        64
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 i 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPI.js:s",
+      "type": "function",
+      "name": "s",
+      "filePath": "materials/utils/crossAPI.js",
+      "lineRange": [
+        65,
+        87
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 s 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/utils/crossAPI.js:o",
+      "type": "function",
+      "name": "o",
+      "filePath": "materials/utils/crossAPI.js",
+      "lineRange": [
+        88,
+        100
+      ],
+      "summary": "实现压缩 CrossAPI 桥接脚本中的 o 内部调用步骤。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/Scene/SearchForm/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Scene/SearchForm/SearchForm.tsx",
+      "target": "function:materials/Scene/SearchForm/SearchForm.tsx:SearchForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:onPreviewTsx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:onPreviewJs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:onPreviewLess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:extensionToMimeType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:downloadFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:getLanguageByExtension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:fetchFileStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:fetchAllFileStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:elementInfoFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:queryElementFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:queryElementFun",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:getComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:getComponent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:createLazyFactory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:createLazyFactory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:clearElementComponents",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:clearElementComponents",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:clearBabelCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/index.tsx",
+      "target": "function:materials/index.tsx:clearBabelCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/stores/pageStore.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/crossAPIAction.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/goldBankCheckfn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/useComponentRefs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:clearTimerList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:clearTimerList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:clearProcessedMessageIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:clearProcessedMessageIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:convertArrayToLinkedList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:execAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:messAgeParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:mergeParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleMethods",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleShowConfirm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleNotification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleCrossAPIfn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleGoldBankCheckfn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleJumpLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleCopy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleSetTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleVisible",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleDisable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleRunScripts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleOpenPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleClosePopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:scrollToElementByDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:scrollToElementByDataId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:triggerComponentEventByDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:triggerComponentEventByDataId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleExternalScroll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleExternalScroll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleExternalScrollAndTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/action.ts",
+      "target": "function:materials/utils/action.ts:handleExternalScrollAndTrigger",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "file:materials/utils/crossAPIUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:countNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getFieldFromCrossAPI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getCrossAPIValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getOutParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getFieldFromAPI",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:getFormatFlag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:execInterface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/apiUtilForInterface.ts",
+      "target": "function:materials/utils/apiUtilForInterface.ts:execInterface",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "file:materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "function:materials/utils/columns.tsx:formatCellValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "function:materials/utils/columns.tsx:formatCellValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "function:materials/utils/columns.tsx:TagSettingIcons",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/columns.tsx",
+      "target": "function:materials/utils/columns.tsx:TagSettingIcons",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/context.ts",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/utils/context.ts",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/context.ts",
+      "target": "function:materials/utils/context.ts:useFormContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/utils/crossAPI.js",
+      "target": "function:materials/utils/crossAPI.js:t",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPI.js",
+      "target": "function:materials/utils/crossAPI.js:n",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPI.js",
+      "target": "function:materials/utils/crossAPI.js:i",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPI.js",
+      "target": "function:materials/utils/crossAPI.js:s",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/utils/crossAPI.js",
+      "target": "function:materials/utils/crossAPI.js:o",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

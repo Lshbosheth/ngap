@@ -1,0 +1,298 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/Container/Card/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 189,
+      "nonEmptyLines": 185,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Collapse/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 24,
+      "nonEmptyLines": 23,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Container/CollapseItem/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 39,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Cycle/BasicConfig.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 10,
+      "functions": [
+        {
+          "name": "BasicConfig",
+          "startLine": 4,
+          "endLine": 10,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Cycle/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 109,
+      "nonEmptyLines": 108,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Div/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Flex/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 89,
+      "nonEmptyLines": 88,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/Form/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 16,
+      "nonEmptyLines": 14,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Container/Form/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 178,
+      "nonEmptyLines": 177,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Container/GridForm/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 22,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Container/GridForm/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 199,
+      "nonEmptyLines": 197,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 26913,
+      "nonEmptyLines": 26913,
+      "sections": [
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "features",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "src/packages/FeedBack/Empty/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 60,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FeedBack/Popover/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 163,
+      "nonEmptyLines": 145,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FeedBack/Popover/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 74,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FeedBack/Spin/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 21,
+      "nonEmptyLines": 16,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/CheckBox/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 12,
+      "nonEmptyLines": 10,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/CollapseItem/Schema.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 38,
+      "nonEmptyLines": 37,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/ColorPicker/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 231,
+      "nonEmptyLines": 229,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Counter/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 290,
+      "nonEmptyLines": 243,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/FormItem/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 97,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/InputNumber/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/Radio/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 22,
+      "nonEmptyLines": 20,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/Select/index.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 25,
+      "nonEmptyLines": 22,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/FormItems/Slider/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 51,
+      "nonEmptyLines": 51,
+      "metrics": {}
+    }
+  ]
+}

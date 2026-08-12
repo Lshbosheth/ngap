@@ -1,0 +1,387 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 23,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/FormItems/Cascader/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 276,
+      "nonEmptyLines": 276,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/CheckBox/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 191,
+      "nonEmptyLines": 191,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Counter/CounterDouble.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 54,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "CounterDouble",
+          "startLine": 9,
+          "endLine": 54,
+          "params": [
+            "{ labelSpan }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CounterDouble",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CounterDouble",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "change",
+          "callee": "setShow",
+          "lineNumber": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Counter/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 224,
+      "nonEmptyLines": 223,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/DatePicker/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 223,
+      "nonEmptyLines": 223,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/DatePickerRange/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 257,
+      "nonEmptyLines": 257,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Input/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 233,
+      "nonEmptyLines": 233,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/InputNumber/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 194,
+      "nonEmptyLines": 194,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/InputPassword/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 186,
+      "nonEmptyLines": 186,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Json/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 247,
+      "nonEmptyLines": 247,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Radio/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 233,
+      "nonEmptyLines": 233,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Rate/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 155,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Select/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 229,
+      "nonEmptyLines": 229,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Slider/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 178,
+      "nonEmptyLines": 178,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/TextArea/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 173,
+      "nonEmptyLines": 173,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/TimePicker/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 239,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/TimePickerRange/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 271,
+      "nonEmptyLines": 271,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/TreeSelect/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 275,
+      "nonEmptyLines": 275,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Upload/DataSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "DataSetting",
+          "startLine": 7,
+          "endLine": 35,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DataSetting",
+          "callee": "dataFields.map",
+          "lineNumber": 14
+        },
+        {
+          "caller": "DataSetting",
+          "callee": "addParams",
+          "lineNumber": 22
+        },
+        {
+          "caller": "DataSetting",
+          "callee": "removeParams",
+          "lineNumber": 23
+        },
+        {
+          "caller": "DataSetting",
+          "callee": "addParams",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/FormItems/Upload/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 272,
+      "nonEmptyLines": 269,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/DynamicItemSetting/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 84,
+      "nonEmptyLines": 82,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/IConSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 16,
+      "functions": [
+        {
+          "name": "IConSetting",
+          "startLine": 10,
+          "endLine": 17,
+          "params": [
+            "{ name = 'icon', initalValue }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "iconsList",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "IConSetting",
+          "line": 10,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/components/RulesSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 187,
+      "nonEmptyLines": 187,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

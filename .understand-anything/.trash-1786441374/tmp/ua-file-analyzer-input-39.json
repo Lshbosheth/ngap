@@ -1,0 +1,182 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/ruby/ruby.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/rust/rust.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/sb/sb.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/scala/scala.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/scheme/scheme.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/scss/scss.js",
+      "language": "javascript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/shell/shell.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/solidity/solidity.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/sophia/sophia.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/sparql/sparql.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/sql/sql.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/st/st.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/swift/swift.js",
+      "language": "javascript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/tcl/tcl.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/twig/twig.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/typescript/typescript.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/vb/vb.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/xml/xml.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/basic-languages/yaml/yaml.js",
+      "language": "javascript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.css",
+      "language": "css",
+      "sizeLines": 6,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.js",
+      "language": "javascript",
+      "sizeLines": 805,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.de.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.es.js",
+      "language": "javascript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "public/static/monaco-editor/vs/editor/editor.main.nls.fr.js",
+      "language": "javascript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "public/static/monaco-editor/vs/basic-languages/ruby/ruby.js": [],
+    "public/static/monaco-editor/vs/basic-languages/rust/rust.js": [],
+    "public/static/monaco-editor/vs/basic-languages/sb/sb.js": [],
+    "public/static/monaco-editor/vs/basic-languages/scala/scala.js": [],
+    "public/static/monaco-editor/vs/basic-languages/scheme/scheme.js": [],
+    "public/static/monaco-editor/vs/basic-languages/scss/scss.js": [],
+    "public/static/monaco-editor/vs/basic-languages/shell/shell.js": [],
+    "public/static/monaco-editor/vs/basic-languages/solidity/solidity.js": [],
+    "public/static/monaco-editor/vs/basic-languages/sophia/sophia.js": [],
+    "public/static/monaco-editor/vs/basic-languages/sparql/sparql.js": [],
+    "public/static/monaco-editor/vs/basic-languages/sql/sql.js": [],
+    "public/static/monaco-editor/vs/basic-languages/st/st.js": [],
+    "public/static/monaco-editor/vs/basic-languages/swift/swift.js": [],
+    "public/static/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js": [],
+    "public/static/monaco-editor/vs/basic-languages/tcl/tcl.js": [],
+    "public/static/monaco-editor/vs/basic-languages/twig/twig.js": [],
+    "public/static/monaco-editor/vs/basic-languages/typescript/typescript.js": [],
+    "public/static/monaco-editor/vs/basic-languages/vb/vb.js": [],
+    "public/static/monaco-editor/vs/basic-languages/xml/xml.js": [],
+    "public/static/monaco-editor/vs/basic-languages/yaml/yaml.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.css": [],
+    "public/static/monaco-editor/vs/editor/editor.main.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.de.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.es.js": [],
+    "public/static/monaco-editor/vs/editor/editor.main.nls.fr.js": []
+  }
+}

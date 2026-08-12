@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/coffee/coffee.js",
+      "type": "file",
+      "name": "coffee.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/coffee/coffee.js",
+      "summary": "预构建的 Monaco Editor CoffeeScript 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/cpp/cpp.js",
+      "type": "file",
+      "name": "cpp.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/cpp/cpp.js",
+      "summary": "预构建的 Monaco Editor C++ 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/csharp/csharp.js",
+      "type": "file",
+      "name": "csharp.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/csharp/csharp.js",
+      "summary": "预构建的 Monaco Editor C# 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/csp/csp.js",
+      "type": "file",
+      "name": "csp.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/csp/csp.js",
+      "summary": "预构建的 Monaco Editor CSP 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/css/css.js",
+      "type": "file",
+      "name": "css.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/css/css.js",
+      "summary": "预构建的 Monaco Editor CSS 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/dart/dart.js",
+      "type": "file",
+      "name": "dart.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/dart/dart.js",
+      "summary": "预构建的 Monaco Editor Dart 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/dockerfile/dockerfile.js",
+      "type": "file",
+      "name": "dockerfile.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/dockerfile/dockerfile.js",
+      "summary": "预构建的 Monaco Editor Dockerfile 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/ecl/ecl.js",
+      "type": "file",
+      "name": "ecl.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/ecl/ecl.js",
+      "summary": "预构建的 Monaco Editor ECL 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/elixir/elixir.js",
+      "type": "file",
+      "name": "elixir.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/elixir/elixir.js",
+      "summary": "预构建的 Monaco Editor Elixir 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/flow9/flow9.js",
+      "type": "file",
+      "name": "flow9.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/flow9/flow9.js",
+      "summary": "预构建的 Monaco Editor Flow9 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/freemarker2/freemarker2.js",
+      "type": "file",
+      "name": "freemarker2.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/freemarker2/freemarker2.js",
+      "summary": "预构建的 Monaco Editor FreeMarker 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/fsharp/fsharp.js",
+      "type": "file",
+      "name": "fsharp.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/fsharp/fsharp.js",
+      "summary": "预构建的 Monaco Editor F# 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/go/go.js",
+      "type": "file",
+      "name": "go.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/go/go.js",
+      "summary": "预构建的 Monaco Editor Go 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/graphql/graphql.js",
+      "type": "file",
+      "name": "graphql.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/graphql/graphql.js",
+      "summary": "预构建的 Monaco Editor GraphQL 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/handlebars/handlebars.js",
+      "type": "file",
+      "name": "handlebars.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/handlebars/handlebars.js",
+      "summary": "预构建的 Monaco Editor Handlebars 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/hcl/hcl.js",
+      "type": "file",
+      "name": "hcl.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/hcl/hcl.js",
+      "summary": "预构建的 Monaco Editor HCL 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/html/html.js",
+      "type": "file",
+      "name": "html.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/html/html.js",
+      "summary": "预构建的 Monaco Editor HTML 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/ini/ini.js",
+      "type": "file",
+      "name": "ini.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/ini/ini.js",
+      "summary": "预构建的 Monaco Editor INI 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/java/java.js",
+      "type": "file",
+      "name": "java.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/java/java.js",
+      "summary": "预构建的 Monaco Editor Java 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/javascript/javascript.js",
+      "type": "file",
+      "name": "javascript.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/javascript/javascript.js",
+      "summary": "预构建的 Monaco Editor JavaScript 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/julia/julia.js",
+      "type": "file",
+      "name": "julia.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/julia/julia.js",
+      "summary": "预构建的 Monaco Editor Julia 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/kotlin/kotlin.js",
+      "type": "file",
+      "name": "kotlin.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/kotlin/kotlin.js",
+      "summary": "预构建的 Monaco Editor Kotlin 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/less/less.js",
+      "type": "file",
+      "name": "less.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/less/less.js",
+      "summary": "预构建的 Monaco Editor Less 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/lexon/lexon.js",
+      "type": "file",
+      "name": "lexon.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/lexon/lexon.js",
+      "summary": "预构建的 Monaco Editor Lexon 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/liquid/liquid.js",
+      "type": "file",
+      "name": "liquid.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/liquid/liquid.js",
+      "summary": "预构建的 Monaco Editor Liquid 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    }
+  ],
+  "edges": []
+}

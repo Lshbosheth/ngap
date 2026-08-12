@@ -1,0 +1,880 @@
+{
+  "nodes": [
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/css/cssMode.js",
+      "type": "file",
+      "name": "cssMode.js",
+      "filePath": "public/static/monaco-editor/vs1/language/css/cssMode.js",
+      "summary": "Monaco 编辑器 css 语言模式的预构建入口，负责加载对应语言服务与 Worker。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "editor-runtime",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/css/cssWorker.js",
+      "type": "file",
+      "name": "cssWorker.js",
+      "filePath": "public/static/monaco-editor/vs1/language/css/cssWorker.js",
+      "summary": "Monaco 编辑器 css 语言服务 Worker 的预构建运行时，提供解析、校验、补全和语言特性。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "language-worker",
+        "generated"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/html/htmlMode.js",
+      "type": "file",
+      "name": "htmlMode.js",
+      "filePath": "public/static/monaco-editor/vs1/language/html/htmlMode.js",
+      "summary": "Monaco 编辑器 html 语言模式的预构建入口，负责加载对应语言服务与 Worker。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "editor-runtime",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/html/htmlWorker.js",
+      "type": "file",
+      "name": "htmlWorker.js",
+      "filePath": "public/static/monaco-editor/vs1/language/html/htmlWorker.js",
+      "summary": "Monaco 编辑器 html 语言服务 Worker 的预构建运行时，提供解析、校验、补全和语言特性。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "language-worker",
+        "generated"
+      ],
+      "complexity": "complex",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/json/jsonMode.js",
+      "type": "file",
+      "name": "jsonMode.js",
+      "filePath": "public/static/monaco-editor/vs1/language/json/jsonMode.js",
+      "summary": "Monaco 编辑器 json 语言模式的预构建入口，负责加载对应语言服务与 Worker。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "editor-runtime",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/json/jsonWorker.js",
+      "type": "file",
+      "name": "jsonWorker.js",
+      "filePath": "public/static/monaco-editor/vs1/language/json/jsonWorker.js",
+      "summary": "Monaco 编辑器 json 语言服务 Worker 的预构建运行时，提供解析、校验、补全和语言特性。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "language-worker",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/typescript/tsMode.js",
+      "type": "file",
+      "name": "tsMode.js",
+      "filePath": "public/static/monaco-editor/vs1/language/typescript/tsMode.js",
+      "summary": "Monaco 编辑器 typescript 语言模式的预构建入口，负责加载对应语言服务与 Worker。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "editor-runtime",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/language/typescript/tsWorker.js",
+      "type": "file",
+      "name": "tsWorker.js",
+      "filePath": "public/static/monaco-editor/vs1/language/typescript/tsWorker.js",
+      "summary": "Monaco 编辑器 typescript 语言服务 Worker 的预构建运行时，提供解析、校验、补全和语言特性。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "language-worker",
+        "generated"
+      ],
+      "complexity": "complex",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/loader.js",
+      "type": "file",
+      "name": "loader.js",
+      "filePath": "public/static/monaco-editor/vs1/loader.js",
+      "summary": "Monaco 编辑器预构建资源使用的 AMD 模块加载器。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "editor-runtime",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.de.js",
+      "type": "file",
+      "name": "nls.messages.de.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.de.js",
+      "summary": "Monaco 编辑器 de 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.es.js",
+      "type": "file",
+      "name": "nls.messages.es.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.es.js",
+      "summary": "Monaco 编辑器 es 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.fr.js",
+      "type": "file",
+      "name": "nls.messages.fr.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.fr.js",
+      "summary": "Monaco 编辑器 fr 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.it.js",
+      "type": "file",
+      "name": "nls.messages.it.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.it.js",
+      "summary": "Monaco 编辑器 it 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.ja.js",
+      "type": "file",
+      "name": "nls.messages.ja.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.ja.js",
+      "summary": "Monaco 编辑器 ja 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.ko.js",
+      "type": "file",
+      "name": "nls.messages.ko.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.ko.js",
+      "summary": "Monaco 编辑器 ko 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.ru.js",
+      "type": "file",
+      "name": "nls.messages.ru.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.ru.js",
+      "summary": "Monaco 编辑器 ru 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.zh-cn.js",
+      "type": "file",
+      "name": "nls.messages.zh-cn.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.zh-cn.js",
+      "summary": "Monaco 编辑器 zh-cn 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs1/nls.messages.zh-tw.js",
+      "type": "file",
+      "name": "nls.messages.zh-tw.js",
+      "filePath": "public/static/monaco-editor/vs1/nls.messages.zh-tw.js",
+      "summary": "Monaco 编辑器 zh-tw 语言的本地化消息资源。",
+      "tags": [
+        "third-party",
+        "monaco-editor",
+        "localization",
+        "generated"
+      ],
+      "complexity": "simple",
+      "languageNotes": "这是 Monaco Editor 的预构建或生成资源，应作为第三方静态资产整体更新，不宜在业务代码中手工修改。"
+    },
+    {
+      "id": "file:public/templates/组件开发规范.html",
+      "type": "file",
+      "name": "组件开发规范.html",
+      "filePath": "public/templates/组件开发规范.html",
+      "summary": "面向自定义组件开发者的静态规范页面，说明组件结构、属性、事件、接口和平台接入要求。",
+      "tags": [
+        "component-template",
+        "documentation",
+        "custom-element"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:public/templates/MyComponent.less",
+      "type": "file",
+      "name": "MyComponent.less",
+      "filePath": "public/templates/MyComponent.less",
+      "summary": "自定义组件模板的示例 Less 样式文件。",
+      "tags": [
+        "component-template",
+        "documentation",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/templates/MyComponent.tsx",
+      "type": "file",
+      "name": "MyComponent.tsx",
+      "filePath": "public/templates/MyComponent.tsx",
+      "summary": "自定义组件开发模板，演示 React 组件属性、ref 和平台交互能力的基础结构。",
+      "tags": [
+        "component-template",
+        "custom-element",
+        "type-definition"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:public/templates/MyComponent.tsx:MyComponent",
+      "type": "function",
+      "name": "MyComponent",
+      "filePath": "public/templates/MyComponent.tsx",
+      "lineRange": [
+        11,
+        30
+      ],
+      "summary": "MyComponent 演示自定义组件如何接收平台属性并暴露组件能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/templates/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "public/templates/types.ts",
+      "summary": "自定义组件模板的 TypeScript 类型定义，描述平台传入属性、事件和公共 API。",
+      "tags": [
+        "component-template",
+        "custom-element",
+        "type-definition"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/get-git-branch.js",
+      "type": "file",
+      "name": "get-git-branch.js",
+      "filePath": "scripts/get-git-branch.js",
+      "summary": "跨本地与 CI 环境解析当前 Git 分支；在 detached HEAD 或命令失败时提供稳定回退值。",
+      "tags": [
+        "build-system",
+        "utility",
+        "cross-platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/get-git-branch.js:getGitBranch",
+      "type": "function",
+      "name": "getGitBranch",
+      "filePath": "scripts/get-git-branch.js",
+      "lineRange": [
+        4,
+        24
+      ],
+      "summary": "getGitBranch 从 CI 环境变量或 Git 命令解析当前分支并处理 detached HEAD。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/preinstall.js",
+      "type": "file",
+      "name": "preinstall.js",
+      "filePath": "scripts/preinstall.js",
+      "summary": "安装前平台适配脚本，在 Linux 删除可能残留的 Windows 锁文件，并关闭平台可选依赖。",
+      "tags": [
+        "build-system",
+        "utility",
+        "cross-platform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/api/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/api/index.ts",
+      "summary": "提供菜单、项目用户和角色管理的本地模拟 API，作为前端开发或演示环境的数据接口。",
+      "tags": [
+        "api-handler",
+        "mock",
+        "data-access"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/api/index.ts:getMenuList",
+      "type": "function",
+      "name": "getMenuList",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        2,
+        34
+      ],
+      "summary": "getMenuList 返回示例菜单列表。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:addMenu",
+      "type": "function",
+      "name": "addMenu",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        37,
+        39
+      ],
+      "summary": "addMenu 模拟新增菜单操作。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:delMenu",
+      "type": "function",
+      "name": "delMenu",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        42,
+        44
+      ],
+      "summary": "delMenu 模拟删除菜单操作。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:updateMenu",
+      "type": "function",
+      "name": "updateMenu",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "updateMenu 模拟更新菜单操作。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:copyMenu",
+      "type": "function",
+      "name": "copyMenu",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        52,
+        54
+      ],
+      "summary": "copyMenu 模拟复制菜单操作。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:getUserList",
+      "type": "function",
+      "name": "getUserList",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        57,
+        62
+      ],
+      "summary": "getUserList 返回项目用户列表和总数。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:addUser",
+      "type": "function",
+      "name": "addUser",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        65,
+        67
+      ],
+      "summary": "addUser 模拟新增项目用户。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:delUser",
+      "type": "function",
+      "name": "delUser",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        70,
+        72
+      ],
+      "summary": "delUser 模拟删除项目用户。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:updateUser",
+      "type": "function",
+      "name": "updateUser",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "updateUser 模拟更新项目用户。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:getRoleList",
+      "type": "function",
+      "name": "getRoleList",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        80,
+        85
+      ],
+      "summary": "getRoleList 返回分页角色列表。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:getRoleListAll",
+      "type": "function",
+      "name": "getRoleListAll",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        88,
+        90
+      ],
+      "summary": "getRoleListAll 返回全部角色选项。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:createRole",
+      "type": "function",
+      "name": "createRole",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        93,
+        95
+      ],
+      "summary": "createRole 模拟创建角色。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:delRoleById",
+      "type": "function",
+      "name": "delRoleById",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        98,
+        100
+      ],
+      "summary": "delRoleById 模拟按 ID 删除角色。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:updateRoleLimits",
+      "type": "function",
+      "name": "updateRoleLimits",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        103,
+        105
+      ],
+      "summary": "updateRoleLimits 模拟更新角色权限范围。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api/index.ts:updateRole",
+      "type": "function",
+      "name": "updateRole",
+      "filePath": "src/api/index.ts",
+      "lineRange": [
+        108,
+        110
+      ],
+      "summary": "updateRole 模拟更新角色信息。",
+      "tags": [
+        "utility",
+        "api-handler",
+        "data-transform"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:public/templates/MyComponent.tsx",
+      "target": "function:public/templates/MyComponent.tsx:MyComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/get-git-branch.js",
+      "target": "function:scripts/get-git-branch.js:getGitBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getMenuList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getMenuList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:addMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:addMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:copyMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:copyMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getUserList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getUserList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:addUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:addUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getRoleList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getRoleList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getRoleListAll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:getRoleListAll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:createRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:createRole",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delRoleById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:delRoleById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateRoleLimits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateRoleLimits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api/index.ts",
+      "target": "function:src/api/index.ts:updateRole",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

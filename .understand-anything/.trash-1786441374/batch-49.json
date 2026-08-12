@@ -1,0 +1,388 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Container/Card/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/Card/Schema.ts",
+      "summary": "声明卡片容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/Collapse/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/Container/Collapse/index.less",
+      "summary": "定义折叠容器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/CollapseItem/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/CollapseItem/Schema.ts",
+      "summary": "声明折叠项物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/Cycle/BasicConfig.tsx",
+      "type": "file",
+      "name": "BasicConfig.tsx",
+      "filePath": "src/packages/Container/Cycle/BasicConfig.tsx",
+      "summary": "提供循环容器的唯一性字段基础配置项。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/Cycle/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/Cycle/Schema.ts",
+      "summary": "声明循环容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/Div/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/Div/Schema.ts",
+      "summary": "声明块容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/Flex/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/Flex/Schema.ts",
+      "summary": "声明弹性容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/Form/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/Container/Form/index.less",
+      "summary": "定义表单容器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/Form/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Container/Form/Schema.ts",
+      "summary": "声明表单容器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Container/GridForm/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/Container/GridForm/index.less",
+      "summary": "定义栅格表单相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Container/GridForm/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Container/GridForm/Schema.tsx",
+      "summary": "声明栅格表单物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "config:src/packages/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "type": "config",
+      "name": "chinaGeoJSON.json",
+      "filePath": "src/packages/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "summary": "保存主物料运行时使用的中国行政区域 GeoJSON 边界数据，供 MapChart 注册和绘制地图。",
+      "tags": [
+        "configuration",
+        "geojson",
+        "map-data",
+        "static-data"
+      ],
+      "complexity": "complex",
+      "languageNotes": "采用 GeoJSON FeatureCollection 保存大规模 Polygon/MultiPolygon 坐标，不包含执行逻辑。"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Empty/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/FeedBack/Empty/Schema.ts",
+      "summary": "声明空状态物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Popover/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FeedBack/Popover/index.module.less",
+      "summary": "定义气泡卡片相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Popover/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FeedBack/Popover/Schema.tsx",
+      "summary": "声明气泡卡片物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FeedBack/Spin/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FeedBack/Spin/index.module.less",
+      "summary": "定义加载反馈相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/CheckBox/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/FormItems/CheckBox/index.less",
+      "summary": "定义复选框相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/CollapseItem/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/FormItems/CollapseItem/Schema.ts",
+      "summary": "声明折叠项物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FormItems/ColorPicker/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/ColorPicker/Schema.tsx",
+      "summary": "声明颜色选择物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FormItems/Counter/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FormItems/Counter/index.module.less",
+      "summary": "定义计数器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/FormItems/FormItem/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/FormItem/Schema.tsx",
+      "summary": "声明表单项物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/FormItems/InputNumber/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FormItems/InputNumber/index.module.less",
+      "summary": "定义数字输入相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Radio/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/FormItems/Radio/index.less",
+      "summary": "定义单选框相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Select/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/packages/FormItems/Select/index.less",
+      "summary": "定义下拉选择相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Slider/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/FormItems/Slider/index.module.less",
+      "summary": "定义滑块相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "function",
+      "name": "BasicConfig",
+      "filePath": "src/packages/Container/Cycle/BasicConfig.tsx",
+      "lineRange": [
+        4,
+        10
+      ],
+      "summary": "渲染循环容器的唯一性字段配置。",
+      "tags": [
+        "component",
+        "setter",
+        "form-control"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Container/Cycle/BasicConfig.tsx",
+      "target": "function:src/packages/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Container/Cycle/BasicConfig.tsx",
+      "target": "function:src/packages/Container/Cycle/BasicConfig.tsx:BasicConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

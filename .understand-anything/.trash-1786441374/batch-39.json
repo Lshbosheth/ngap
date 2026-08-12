@@ -1,0 +1,350 @@
+{
+  "nodes": [
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/ruby/ruby.js",
+      "type": "file",
+      "name": "ruby.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/ruby/ruby.js",
+      "summary": "预构建的 Monaco Editor Ruby 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/rust/rust.js",
+      "type": "file",
+      "name": "rust.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/rust/rust.js",
+      "summary": "预构建的 Monaco Editor Rust 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/sb/sb.js",
+      "type": "file",
+      "name": "sb.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/sb/sb.js",
+      "summary": "预构建的 Monaco Editor Small Basic 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/scala/scala.js",
+      "type": "file",
+      "name": "scala.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/scala/scala.js",
+      "summary": "预构建的 Monaco Editor Scala 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/scheme/scheme.js",
+      "type": "file",
+      "name": "scheme.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/scheme/scheme.js",
+      "summary": "预构建的 Monaco Editor Scheme 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/scss/scss.js",
+      "type": "file",
+      "name": "scss.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/scss/scss.js",
+      "summary": "预构建的 Monaco Editor SCSS 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/shell/shell.js",
+      "type": "file",
+      "name": "shell.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/shell/shell.js",
+      "summary": "预构建的 Monaco Editor Shell 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/solidity/solidity.js",
+      "type": "file",
+      "name": "solidity.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/solidity/solidity.js",
+      "summary": "预构建的 Monaco Editor Solidity 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/sophia/sophia.js",
+      "type": "file",
+      "name": "sophia.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/sophia/sophia.js",
+      "summary": "预构建的 Monaco Editor Sophia 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/sparql/sparql.js",
+      "type": "file",
+      "name": "sparql.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/sparql/sparql.js",
+      "summary": "预构建的 Monaco Editor SPARQL 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/sql/sql.js",
+      "type": "file",
+      "name": "sql.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/sql/sql.js",
+      "summary": "预构建的 Monaco Editor SQL 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/st/st.js",
+      "type": "file",
+      "name": "st.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/st/st.js",
+      "summary": "预构建的 Monaco Editor Structured Text 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/swift/swift.js",
+      "type": "file",
+      "name": "swift.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/swift/swift.js",
+      "summary": "预构建的 Monaco Editor Swift 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js",
+      "type": "file",
+      "name": "systemverilog.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/systemverilog/systemverilog.js",
+      "summary": "预构建的 Monaco Editor SystemVerilog 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/tcl/tcl.js",
+      "type": "file",
+      "name": "tcl.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/tcl/tcl.js",
+      "summary": "预构建的 Monaco Editor Tcl 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/twig/twig.js",
+      "type": "file",
+      "name": "twig.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/twig/twig.js",
+      "summary": "预构建的 Monaco Editor Twig 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/typescript/typescript.js",
+      "type": "file",
+      "name": "typescript.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/typescript/typescript.js",
+      "summary": "预构建的 Monaco Editor TypeScript 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/vb/vb.js",
+      "type": "file",
+      "name": "vb.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/vb/vb.js",
+      "summary": "预构建的 Monaco Editor Visual Basic 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/xml/xml.js",
+      "type": "file",
+      "name": "xml.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/xml/xml.js",
+      "summary": "预构建的 Monaco Editor XML 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/basic-languages/yaml/yaml.js",
+      "type": "file",
+      "name": "yaml.js",
+      "filePath": "public/static/monaco-editor/vs/basic-languages/yaml/yaml.js",
+      "summary": "预构建的 Monaco Editor YAML 语言定义，注册注释、括号、自动闭合、关键字和 Monarch 语法着色规则。",
+      "tags": [
+        "monaco-editor",
+        "language-definition",
+        "static-asset"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "这是 Monaco 预构建的 AMD/Monarch 静态资源；源码经过压缩，行数较少但包含完整语法词法规则。"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.css",
+      "type": "file",
+      "name": "editor.main.css",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.css",
+      "summary": "包含 Monaco Editor 核心界面、光标、选择区、提示面板和小部件的预构建样式。",
+      "tags": [
+        "monaco-editor",
+        "editor-runtime",
+        "static-asset"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.js",
+      "type": "file",
+      "name": "editor.main.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.js",
+      "summary": "提供 Monaco Editor 0.33.0 的核心浏览器运行时，包含编辑模型、命令、视图、语言接口和工作线程集成。",
+      "tags": [
+        "monaco-editor",
+        "editor-runtime",
+        "static-asset"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.de.js",
+      "type": "file",
+      "name": "editor.main.nls.de.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.de.js",
+      "summary": "提供 Monaco Editor 核心界面的德语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.es.js",
+      "type": "file",
+      "name": "editor.main.nls.es.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.es.js",
+      "summary": "提供 Monaco Editor 核心界面的西班牙语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:public/static/monaco-editor/vs/editor/editor.main.nls.fr.js",
+      "type": "file",
+      "name": "editor.main.nls.fr.js",
+      "filePath": "public/static/monaco-editor/vs/editor/editor.main.nls.fr.js",
+      "summary": "提供 Monaco Editor 核心界面的法语本地化文本，覆盖编辑器命令、提示、辅助功能和配置说明。",
+      "tags": [
+        "monaco-editor",
+        "localization",
+        "static-asset"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

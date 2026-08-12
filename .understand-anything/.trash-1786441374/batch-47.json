@@ -1,0 +1,528 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "type": "file",
+      "name": "Breadcrumb.tsx",
+      "filePath": "src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "summary": "实现面包屑物料，渲染配置项、响应点击事件并向动作引擎传递节点信息。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Breadcrumb/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/Breadcrumb/index.module.less",
+      "summary": "定义面包屑相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Breadcrumb/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Breadcrumb/Schema.tsx",
+      "summary": "声明面包屑物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/BusinessTable/index.module.less",
+      "summary": "定义业务表格相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "type": "file",
+      "name": "TagSetting.module.less",
+      "filePath": "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "summary": "定义TagSetting相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/FloatingWindow/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/FloatingWindow/index.module.less",
+      "summary": "定义悬浮窗口相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/FloatingWindow/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/FloatingWindow/Schema.tsx",
+      "summary": "声明悬浮窗口物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Advanced/Menu/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/Menu/index.module.less",
+      "summary": "定义菜单相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Menu/Menu.tsx",
+      "type": "file",
+      "name": "Menu.tsx",
+      "filePath": "src/packages/Advanced/Menu/Menu.tsx",
+      "summary": "实现菜单物料，规范化节点键、维护选中状态并触发菜单项事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Menu/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Menu/Schema.tsx",
+      "summary": "声明菜单物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Advanced/NgapTable/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/NgapTable/index.module.less",
+      "summary": "定义通用表格相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "type": "file",
+      "name": "NgapTable.tsx",
+      "filePath": "src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "summary": "实现高级通用表格物料，集成接口数据、列配置、筛选排序、分页、选择、编辑、汇总和动作事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/Pagination/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/Pagination/index.module.less",
+      "summary": "定义分页相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/SearchForm/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/SearchForm/index.module.less",
+      "summary": "定义搜索表单相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/Steps/index.module.less",
+      "summary": "定义步骤条相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/Timeline/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Timeline/Schema.tsx",
+      "summary": "声明时间线物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Advanced/Timeline/Timeline.tsx",
+      "type": "file",
+      "name": "Timeline.tsx",
+      "filePath": "src/packages/Advanced/Timeline/Timeline.tsx",
+      "summary": "实现时间线物料，根据节点配置渲染状态、内容和自定义图标并处理交互事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Tree/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Advanced/Tree/index.module.less",
+      "summary": "定义树相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/AudioPlayer/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/AudioPlayer/index.module.less",
+      "summary": "定义音频播放器相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/AudioPlayer/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/AudioPlayer/Schema.ts",
+      "summary": "声明音频播放器物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Badge/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/packages/Basic/Badge/index.module.less",
+      "summary": "定义徽标相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Badge/Schema.ts",
+      "type": "file",
+      "name": "Schema.ts",
+      "filePath": "src/packages/Basic/Badge/Schema.ts",
+      "summary": "声明徽标物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "file:src/packages/Basic/Carousel/carousel.less",
+      "type": "file",
+      "name": "carousel.less",
+      "filePath": "src/packages/Basic/Carousel/carousel.less",
+      "summary": "定义轮播相关组件的布局、状态和交互视觉样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Carousel/Carousel.tsx",
+      "type": "file",
+      "name": "Carousel.tsx",
+      "filePath": "src/packages/Basic/Carousel/Carousel.tsx",
+      "summary": "实现轮播物料，渲染配置图片或内容、控制切换行为并发布轮播事件。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Carousel/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Carousel/Schema.tsx",
+      "summary": "声明轮播物料的属性、事件、接口和默认配置 Schema，驱动可视化属性面板。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "setter",
+        "low-code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript 对象字面量声明属性设置器和默认配置，由编辑器动态生成属性面板。"
+    },
+    {
+      "id": "function:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "type": "function",
+      "name": "WBreadcrumb",
+      "filePath": "src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "lineRange": [
+        25,
+        184
+      ],
+      "summary": "渲染面包屑物料并发布节点点击事件。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Menu/Menu.tsx:MMenu",
+      "type": "function",
+      "name": "MMenu",
+      "filePath": "src/packages/Advanced/Menu/Menu.tsx",
+      "lineRange": [
+        35,
+        189
+      ],
+      "summary": "渲染菜单物料并同步选中项与动作事件。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/NgapTable/NgapTable.tsx:NgapTable",
+      "type": "function",
+      "name": "NgapTable",
+      "filePath": "src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "lineRange": [
+        85,
+        871
+      ],
+      "summary": "渲染高级表格并协调数据、列、筛选、选择和动作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "type": "function",
+      "name": "TimelineCus",
+      "filePath": "src/packages/Advanced/Timeline/Timeline.tsx",
+      "lineRange": [
+        21,
+        107
+      ],
+      "summary": "渲染配置化时间线节点及其状态。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Carousel/Carousel.tsx:MCarousel",
+      "type": "function",
+      "name": "MCarousel",
+      "filePath": "src/packages/Basic/Carousel/Carousel.tsx",
+      "lineRange": [
+        23,
+        115
+      ],
+      "summary": "渲染轮播内容并处理切换事件。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "file:src/packages/Advanced/Breadcrumb/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "function:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx",
+      "target": "function:src/packages/Advanced/Breadcrumb/Breadcrumb.tsx:WBreadcrumb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Menu/Menu.tsx",
+      "target": "file:src/packages/Advanced/Menu/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Menu/Menu.tsx",
+      "target": "function:src/packages/Advanced/Menu/Menu.tsx:MMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Menu/Menu.tsx",
+      "target": "function:src/packages/Advanced/Menu/Menu.tsx:MMenu",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "target": "file:src/packages/Advanced/NgapTable/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/NgapTable.tsx:NgapTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/NgapTable/NgapTable.tsx",
+      "target": "function:src/packages/Advanced/NgapTable/NgapTable.tsx:NgapTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Timeline/Timeline.tsx",
+      "target": "function:src/packages/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Timeline/Timeline.tsx",
+      "target": "function:src/packages/Advanced/Timeline/Timeline.tsx:TimelineCus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Basic/Carousel/Carousel.tsx",
+      "target": "file:src/packages/Basic/Carousel/carousel.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Carousel/Carousel.tsx",
+      "target": "function:src/packages/Basic/Carousel/Carousel.tsx:MCarousel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Carousel/Carousel.tsx",
+      "target": "function:src/packages/Basic/Carousel/Carousel.tsx:MCarousel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

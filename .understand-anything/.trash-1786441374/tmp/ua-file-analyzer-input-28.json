@@ -1,0 +1,133 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CODEX_CONTEXT.md",
+      "language": "markdown",
+      "sizeLines": 530,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "language": "markdown",
+      "sizeLines": 525,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "language": "markdown",
+      "sizeLines": 906,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "language": "markdown",
+      "sizeLines": 4705,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "language": "markdown",
+      "sizeLines": 759,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "GUIDED_PROCESS_REDESIGN.md",
+      "language": "markdown",
+      "sizeLines": 1238,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "NGAP_REQUIREMENTS_ONBOARDING.md",
+      "language": "markdown",
+      "sizeLines": 1177,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "NGAP核心能力升级技术方案(给领导看).md",
+      "language": "markdown",
+      "sizeLines": 677,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README_ONBOARDING.md",
+      "language": "markdown",
+      "sizeLines": 472,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "REFACTOR_NOTES.md",
+      "language": "markdown",
+      "sizeLines": 125,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "find-missing-repomix-assets.ps1",
+      "language": "powershell",
+      "sizeLines": 64,
+      "fileCategory": "script"
+    },
+    {
+      "path": "index.html",
+      "language": "html",
+      "sizeLines": 182,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "missing-binary-assets.txt",
+      "language": "txt",
+      "sizeLines": 315,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "sizeLines": 151,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.json",
+      "language": "json",
+      "sizeLines": 34,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "AGENTS.md": [],
+    "CODEX_CONTEXT.md": [],
+    "CUSTOM_ELEMENT_ISSUES(问题清单).md": [],
+    "CUSTOM_ELEMENT_PRACTICAL(务实落地版).md": [],
+    "CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md": [],
+    "CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md": [],
+    "GUIDED_PROCESS_REDESIGN.md": [],
+    "NGAP_REQUIREMENTS_ONBOARDING.md": [],
+    "NGAP核心能力升级技术方案(给领导看).md": [],
+    "README.md": [],
+    "README_ONBOARDING.md": [],
+    "REFACTOR_NOTES.md": [],
+    "find-missing-repomix-assets.ps1": [],
+    "index.html": [],
+    "missing-binary-assets.txt": [],
+    "package.json": [],
+    "tsconfig.json": [],
+    "tsconfig.node.json": []
+  }
+}

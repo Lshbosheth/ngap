@@ -1,0 +1,1374 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Container/Flex/Flex.tsx",
+      "type": "file",
+      "name": "Flex.tsx",
+      "filePath": "materials/Container/Flex/Flex.tsx",
+      "summary": "实现 Flex 布局容器，将方向、对齐、间距和换行配置应用到嵌套低代码元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Container/Flex/Flex.tsx:MFlex",
+      "type": "function",
+      "name": "MFlex",
+      "filePath": "materials/Container/Flex/Flex.tsx",
+      "lineRange": [
+        17,
+        76
+      ],
+      "summary": "实现Flex 容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Container/Form/Form.tsx",
+      "type": "file",
+      "name": "Form.tsx",
+      "filePath": "materials/Container/Form/Form.tsx",
+      "summary": "实现表单容器，连接页面表单数据、校验与提交上下文，并通过 NgapRender 组织表单子元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Container/Form/Form.tsx:MForm",
+      "type": "function",
+      "name": "MForm",
+      "filePath": "materials/Container/Form/Form.tsx",
+      "lineRange": [
+        48,
+        267
+      ],
+      "summary": "实现表单容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Container/GridForm/GridForm.tsx",
+      "type": "file",
+      "name": "GridForm.tsx",
+      "filePath": "materials/Container/GridForm/GridForm.tsx",
+      "summary": "实现网格化表单容器，负责响应式字段布局、表单上下文、数据格式化与字段动作流。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "type": "function",
+      "name": "GridForm",
+      "filePath": "materials/Container/GridForm/GridForm.tsx",
+      "lineRange": [
+        23,
+        339
+      ],
+      "summary": "实现网格表单的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "type": "file",
+      "name": "BarAndLine.tsx",
+      "filePath": "materials/EChart/BarAndLine/BarAndLine.tsx",
+      "summary": "实现柱线组合图物料，从接口或变量装配系列数据、坐标轴和图例，并同步图表交互状态。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "type": "function",
+      "name": "BarAndLine",
+      "filePath": "materials/EChart/BarAndLine/BarAndLine.tsx",
+      "lineRange": [
+        27,
+        251
+      ],
+      "summary": "实现柱线组合图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/EChart/BarChart/BarChart.tsx",
+      "type": "file",
+      "name": "BarChart.tsx",
+      "filePath": "materials/EChart/BarChart/BarChart.tsx",
+      "summary": "实现条形图物料，将数据源与字典配置转换为 ECharts 选项并支持动态刷新。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "type": "function",
+      "name": "EChart",
+      "filePath": "materials/EChart/BarChart/BarChart.tsx",
+      "lineRange": [
+        28,
+        151
+      ],
+      "summary": "实现条形图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "type": "file",
+      "name": "ColumnChart.tsx",
+      "filePath": "materials/EChart/ColumnChart/ColumnChart.tsx",
+      "summary": "实现柱状图物料，处理多系列数据、单位换算、差异展示、配色和交互事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "type": "function",
+      "name": "ColumnChart",
+      "filePath": "materials/EChart/ColumnChart/ColumnChart.tsx",
+      "lineRange": [
+        36,
+        699
+      ],
+      "summary": "实现柱状图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/EChart/LineChart/LineChart.tsx",
+      "type": "file",
+      "name": "LineChart.tsx",
+      "filePath": "materials/EChart/LineChart/LineChart.tsx",
+      "summary": "实现折线图物料，处理多系列数据、单位格式化、趋势差异、坐标轴和交互事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "type": "function",
+      "name": "LineChart",
+      "filePath": "materials/EChart/LineChart/LineChart.tsx",
+      "lineRange": [
+        36,
+        626
+      ],
+      "summary": "实现折线图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/EChart/MapChart/MapChart.tsx",
+      "type": "file",
+      "name": "MapChart.tsx",
+      "filePath": "materials/EChart/MapChart/MapChart.tsx",
+      "summary": "实现地图图表物料，根据接口或变量数据生成区域指标与 ECharts 地图展示。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/EChart/MapChart/MapChart.tsx:MapChart",
+      "type": "function",
+      "name": "MapChart",
+      "filePath": "materials/EChart/MapChart/MapChart.tsx",
+      "lineRange": [
+        25,
+        189
+      ],
+      "summary": "实现地图图表的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/EChart/PieChart/PieChart.tsx",
+      "type": "file",
+      "name": "PieChart.tsx",
+      "filePath": "materials/EChart/PieChart/PieChart.tsx",
+      "summary": "实现饼图物料，将动态数据与字典信息转换为扇区、图例、提示和交互配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "data-visualization",
+        "echarts"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "type": "function",
+      "name": "PieChart",
+      "filePath": "materials/EChart/PieChart/PieChart.tsx",
+      "lineRange": [
+        27,
+        151
+      ],
+      "summary": "实现饼图的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/EChart/chartCalculationUtil.ts",
+      "type": "file",
+      "name": "chartCalculationUtil.ts",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "summary": "提供图表数值单位检测、换算、格式化、差值展示和颜色派生工具，供柱状图与折线图复用。",
+      "tags": [
+        "utility",
+        "data-visualization",
+        "formatting",
+        "unit-conversion"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用无副作用的 TypeScript 工具函数统一图表单位与格式化规则。"
+    },
+    {
+      "id": "function:materials/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "function",
+      "name": "detectUnitType",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        10,
+        26
+      ],
+      "summary": "根据数值规模识别适合图表展示的单位类型。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "function",
+      "name": "convertValueToNumber",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        29,
+        53
+      ],
+      "summary": "把带单位或格式的输入值转换为可计算的数值。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "function",
+      "name": "formatValueWithUnit",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        56,
+        74
+      ],
+      "summary": "按选定单位和精度格式化图表数值。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "function",
+      "name": "formatDifferenceWithUnit",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        77,
+        92
+      ],
+      "summary": "按单位格式化两个指标之间的差值展示。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "function",
+      "name": "getLighterColor",
+      "filePath": "materials/EChart/chartCalculationUtil.ts",
+      "lineRange": [
+        95,
+        110
+      ],
+      "summary": "根据基础颜色计算更浅的派生色，用于图表层次化配色。",
+      "tags": [
+        "utility",
+        "data-conversion",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FeedBack/Drawer/Drawer.tsx",
+      "type": "file",
+      "name": "Drawer.tsx",
+      "filePath": "materials/FeedBack/Drawer/Drawer.tsx",
+      "summary": "实现抽屉反馈容器，管理打开状态、位置和关闭动作，并渲染嵌套低代码内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/FeedBack/Empty/Empty.tsx",
+      "type": "file",
+      "name": "Empty.tsx",
+      "filePath": "materials/FeedBack/Empty/Empty.tsx",
+      "summary": "封装空状态物料，支持图像、描述文字与展示样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/FeedBack/Empty/Empty.tsx:MEmpty",
+      "type": "function",
+      "name": "MEmpty",
+      "filePath": "materials/FeedBack/Empty/Empty.tsx",
+      "lineRange": [
+        15,
+        42
+      ],
+      "summary": "实现空状态的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/FeedBack/Modal/Modal.tsx",
+      "type": "file",
+      "name": "Modal.tsx",
+      "filePath": "materials/FeedBack/Modal/Modal.tsx",
+      "summary": "实现模态框容器，管理显隐、确认取消动作和内部低代码内容渲染。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FeedBack/Popover/Popover.tsx",
+      "type": "file",
+      "name": "Popover.tsx",
+      "filePath": "materials/FeedBack/Popover/Popover.tsx",
+      "summary": "实现气泡卡片容器，按触发方式和位置展示由 NgapRender 生成的嵌套内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/FeedBack/Popover/Popover.tsx:MPopover",
+      "type": "function",
+      "name": "MPopover",
+      "filePath": "materials/FeedBack/Popover/Popover.tsx",
+      "lineRange": [
+        34,
+        288
+      ],
+      "summary": "实现气泡卡片的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/FeedBack/Result/Result.tsx",
+      "type": "file",
+      "name": "Result.tsx",
+      "filePath": "materials/FeedBack/Result/Result.tsx",
+      "summary": "封装结果反馈物料，展示状态、标题、说明和操作区，并连接平台动作流。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "feedback",
+        "interaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/FeedBack/Result/Result.tsx:MResult",
+      "type": "function",
+      "name": "MResult",
+      "filePath": "materials/FeedBack/Result/Result.tsx",
+      "lineRange": [
+        29,
+        109
+      ],
+      "summary": "实现结果反馈的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Container/Flex/Flex.tsx",
+      "target": "function:materials/Container/Flex/Flex.tsx:MFlex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "function:materials/Container/Form/Form.tsx:MForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/MapChart/MapChart.tsx",
+      "target": "function:materials/EChart/MapChart/MapChart.tsx:MapChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:formatValueWithUnit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:formatDifferenceWithUnit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/EChart/chartCalculationUtil.ts",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:getLighterColor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:materials/FeedBack/Empty/Empty.tsx",
+      "target": "function:materials/FeedBack/Empty/Empty.tsx:MEmpty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FeedBack/Popover/Popover.tsx",
+      "target": "function:materials/FeedBack/Popover/Popover.tsx:MPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/FeedBack/Result/Result.tsx",
+      "target": "function:materials/FeedBack/Result/Result.tsx:MResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Flex/Flex.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Flex/Flex.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Form/Form.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/Container/GridForm/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/GridForm/GridForm.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarAndLine/BarAndLine.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/BarChart/BarChart.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/EChart/chartCalculationUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/ColumnChart/ColumnChart.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/EChart/chartCalculationUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/LineChart/LineChart.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/MapChart/MapChart.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/MapChart/MapChart.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/MapChart/MapChart.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/MapChart/MapChart.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/utils/dictionary.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/utils/useWatchVariable.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/EChart/PieChart/PieChart.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Drawer/Drawer.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Empty/Empty.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Modal/Modal.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Modal/Modal.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Modal/Modal.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Popover/Popover.tsx",
+      "target": "file:materials/FeedBack/Popover/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Popover/Popover.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Popover/Popover.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Result/Result.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/FeedBack/Result/Result.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/utils/util.ts:dateFormat",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/utils/util.ts:dateStrToDayjs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/utils/util.ts:getDateByType",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Form/Form.tsx:MForm",
+      "target": "function:materials/utils/util.ts:getDateRangeByType",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "target": "function:materials/utils/util.ts:dateFormat",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "target": "function:materials/utils/util.ts:dateStrToDayjs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "target": "function:materials/utils/util.ts:getDateByType",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/GridForm/GridForm.tsx:GridForm",
+      "target": "function:materials/utils/util.ts:getDateRangeByType",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarAndLine/BarAndLine.tsx:BarAndLine",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/BarChart/BarChart.tsx:EChart",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/ColumnChart/ColumnChart.tsx:ColumnChart",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/LineChart/LineChart.tsx:LineChart",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/MapChart/MapChart.tsx:MapChart",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/MapChart/MapChart.tsx:MapChart",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/MapChart/MapChart.tsx:MapChart",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "target": "function:materials/utils/dictionary.ts:getDictionary",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "target": "function:materials/utils/handleApi.ts:handleApi",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "target": "function:materials/utils/util.ts:isNotEmpty",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/PieChart/PieChart.tsx:PieChart",
+      "target": "function:materials/utils/useWatchVariable.ts:useWatchVariable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/EChart/chartCalculationUtil.ts:convertValueToNumber",
+      "target": "function:materials/EChart/chartCalculationUtil.ts:detectUnitType",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

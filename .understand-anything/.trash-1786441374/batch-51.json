@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/appEffectBoard/china-map/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/appEffectBoard/china-map/index.less",
+      "summary": "为 pages/appEffectBoard/china-map 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/appEffectBoard/index.less",
+      "type": "file",
+      "name": "index.less",
+      "filePath": "src/pages/appEffectBoard/index.less",
+      "summary": "为 pages/appEffectBoard 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationDashboard/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationDashboard/index.module.less",
+      "summary": "为 pages/applicationDashboard 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationDashboard/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationDashboard/index.tsx",
+      "summary": "实现应用数据驾驶舱，组织指标卡片、趋势图、区域地图和统计筛选。",
+      "tags": [
+        "react-component",
+        "management-page",
+        "platform"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationDashboard/index.tsx:ElementManagePage",
+      "type": "function",
+      "name": "ElementManagePage",
+      "filePath": "src/pages/applicationDashboard/index.tsx",
+      "lineRange": [
+        24,
+        478
+      ],
+      "summary": "ElementManagePage 渲染应用数据驾驶舱并协调各类统计数据。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "type": "config",
+      "name": "chinaGeoJSON.json",
+      "filePath": "src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "summary": "保存中国行政区域的 GeoJSON 边界和属性数据，供应用驾驶舱地图可视化使用。",
+      "tags": [
+        "configuration",
+        "geojson",
+        "visualization-data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationList/AppEvaluationModal/index.module.less",
+      "summary": "为 pages/applicationList/AppEvaluationModal 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationMap/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationMap/index.module.less",
+      "summary": "为 pages/applicationMap 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "summary": "为 pages/applicationOrchestration/appBaseInfoDialog 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appCategory/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/appCategory/index.module.less",
+      "summary": "为 pages/applicationOrchestration/appCategory 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "summary": "为 pages/applicationOrchestration/appTypeManageDialog 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/CascadeSelect/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelect/index.module.less",
+      "summary": "为 pages/applicationOrchestration/CascadeSelect 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/CascadeSelects/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelects/index.module.less",
+      "summary": "为 pages/applicationOrchestration/CascadeSelects 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/index.module.less",
+      "summary": "为 pages/applicationOrchestration 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less",
+      "summary": "为 pages/applicationOrchestration/MultilevelIntentionSelect 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/baseCanvasPage 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "type": "file",
+      "name": "componentDataTips.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components/addComponentNode 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components/addComponentNode 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less",
+      "type": "file",
+      "name": "ConsoleLogModal.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components/bottomTools 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "type": "file",
+      "name": "ConsoleLogModal.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "summary": "在弹窗中展示、筛选和搜索画布调试日志，并支持日志级别与详情查看。",
+      "tags": [
+        "react-component",
+        "canvas",
+        "application-orchestration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx:ConsoleLogModal",
+      "type": "function",
+      "name": "ConsoleLogModal",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "lineRange": [
+        23,
+        315
+      ],
+      "summary": "ConsoleLogModal 展示并筛选画布控制台日志。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components/bottomTools 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/BusinessComponent.tsx",
+      "type": "file",
+      "name": "BusinessComponent.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/BusinessComponent.tsx",
+      "summary": "业务组件画布包装器的占位文件，当前未包含实际实现。",
+      "tags": [
+        "react-component",
+        "canvas",
+        "application-orchestration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components/canvasRobot 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less",
+      "type": "file",
+      "name": "HistoryModal.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "summary": "为 pages/applicationOrchestration/pageCanvas/components 模块定义布局、交互状态和视觉反馈样式。",
+      "tags": [
+        "stylesheet",
+        "user-interface",
+        "responsive-layout"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "type": "file",
+      "name": "lineUtil.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "summary": "提供旧版画布连线的 SVG 与 DOM 创建、定位和更新工具。",
+      "tags": [
+        "react-component",
+        "canvas",
+        "application-orchestration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:initSVG",
+      "type": "function",
+      "name": "initSVG",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        19,
+        39
+      ],
+      "summary": "initSVG 初始化画布 SVG 连线容器。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLine",
+      "type": "function",
+      "name": "createLine",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        41,
+        47
+      ],
+      "summary": "createLine 创建元素间连线。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLine",
+      "type": "function",
+      "name": "updateLine",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        49,
+        55
+      ],
+      "summary": "updateLine 更新已有连线位置。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLineBySvg",
+      "type": "function",
+      "name": "createLineBySvg",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        58,
+        68
+      ],
+      "summary": "createLineBySvg 使用 SVG 路径创建连线。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLineBySvg",
+      "type": "function",
+      "name": "updateLineBySvg",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        70,
+        109
+      ],
+      "summary": "updateLineBySvg 更新 SVG 连线几何信息。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLineByDiv",
+      "type": "function",
+      "name": "createLineByDiv",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        112,
+        126
+      ],
+      "summary": "createLineByDiv 使用 DOM 元素创建连线。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLineByDiv",
+      "type": "function",
+      "name": "updateLineByDiv",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "lineRange": [
+        128,
+        212
+      ],
+      "summary": "updateLineByDiv 根据节点位置更新 DOM 连线样式。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/applicationDashboard/index.tsx",
+      "target": "function:src/pages/applicationDashboard/index.tsx:ElementManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx:ConsoleLogModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:initSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:initSVG",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLineBySvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLineBySvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:createLineByDiv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/lineUtil.tsx:updateLineByDiv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationDashboard/index.tsx",
+      "target": "file:src/pages/applicationDashboard/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationDashboard/index.tsx",
+      "target": "file:src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/ConsoleLogModal.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:src/pages/applicationDashboard/map/chinaGeoJSON.json",
+      "target": "file:src/pages/applicationDashboard/index.tsx",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

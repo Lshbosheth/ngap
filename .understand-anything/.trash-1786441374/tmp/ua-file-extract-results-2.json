@@ -1,0 +1,893 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 33,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/config/components.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 799,
+      "nonEmptyLines": 785,
+      "functions": [
+        {
+          "name": "queryElementTypeFun",
+          "startLine": 719,
+          "endLine": 733,
+          "params": [
+            "elementId"
+          ]
+        },
+        {
+          "name": "queryElementFun",
+          "startLine": 736,
+          "endLine": 784,
+          "params": [
+            "elementId",
+            "appElementType"
+          ]
+        },
+        {
+          "name": "updateCustomElementMenu",
+          "startLine": 792,
+          "endLine": 794,
+          "params": [
+            "elementId"
+          ]
+        },
+        {
+          "name": "getComponentMenu",
+          "startLine": 797,
+          "endLine": 799,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "updateCustomElementMenu",
+          "line": 792,
+          "isDefault": false
+        },
+        {
+          "name": "getComponentMenu",
+          "line": 797,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post('/element/queryElementTypeList', {\r\n                params: {},\r\n            })\r\n            .then((res) => {\r\n                queryElementFun(elementId, res.beans);\r\n            })\r\n            .catch",
+          "lineNumber": 721
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post('/element/queryElementTypeList', {\r\n                params: {},\r\n            })\r\n            .then",
+          "lineNumber": 721
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "request\r\n            .post",
+          "lineNumber": 721
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "queryElementFun",
+          "lineNumber": 726
+        },
+        {
+          "caller": "queryElementTypeFun",
+          "callee": "message.error",
+          "lineNumber": 730
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n            .post('/element/queryElementList', {\r\n                params: {\r\n                    elementId: elementId,\r\n                    provId: userInfo.provinceId,\r\n                },\r\n            })\r\n            .then((res) => {\r\n                const elementInfo = res.beans.filter((item: any) => item.elementStatus === '2'); // 已发布自定义元素\r\n                if (elementInfo.length > 0) {\r\n                    // 审核通过或者初始化加载，添加自定义元素\r\n                    elementInfo.forEach((item: any) => {\r\n                        // 要添加的新数据\r\n                        const newItem = {\r\n                            icon: item.elementIcon,\r\n                            name: item.elementName,\r\n                            type: item.elementId,\r\n                            provId: item.provId,\r\n                            description: item.elementDesc\r\n                        };\r\n                        const index = components.findIndex((items) => items.type === item.elementTypeId);\r\n                        if (index !== -1) {\r\n                            // 如果存在，直接添加到 data 数组\r\n                            components[index].data.push(newItem);\r\n                        } else {\r\n                            // 如果不存在，新增一项\r\n                            components.push({\r\n                                type: item.elementTypeId,\r\n                                title: appElementType.find((items: any) => items.elementTypeId === item.elementTypeId)?.elementTypeName,\r\n                                data: [newItem],\r\n                            });\r\n                        }\r\n                    });\r\n                } else {\r\n                    // 提交审核，移除自定义元素\r\n                    components = components.map((item) => ({\r\n                        ...item,\r\n                        data: item.data.filter((subItem) => subItem.type !== elementId),\r\n                    }));\r\n                }\r\n            })\r\n            .catch",
+          "lineNumber": 738
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n            .post('/element/queryElementList', {\r\n                params: {\r\n                    elementId: elementId,\r\n                    provId: userInfo.provinceId,\r\n                },\r\n            })\r\n            .then",
+          "lineNumber": 738
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "request\r\n            .post",
+          "lineNumber": 738
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "res.beans.filter",
+          "lineNumber": 746
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "elementInfo.forEach",
+          "lineNumber": 749
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "components.findIndex",
+          "lineNumber": 758
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "components[index].data.push",
+          "lineNumber": 761
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "components.push",
+          "lineNumber": 764
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "appElementType.find",
+          "lineNumber": 766
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "components.map",
+          "lineNumber": 773
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "item.data.filter",
+          "lineNumber": 775
+        },
+        {
+          "caller": "queryElementFun",
+          "callee": "message.error",
+          "lineNumber": 781
+        },
+        {
+          "caller": "updateCustomElementMenu",
+          "callee": "queryElementTypeFun",
+          "lineNumber": 793
+        }
+      ],
+      "metrics": {
+        "importCount": 90,
+        "exportCount": 2,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconAIChat.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconAIChat",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconAudioPlayer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconAudioPlayer",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBadge.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBadge",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBarAndLine.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBarAndLine",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBarChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBarChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBaseTable.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBaseTable",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBasicAvatar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBasicAvatar",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBasicIcon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBasicIcon",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBasicStatistic.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBasicStatistic",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBottomBanner.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBottomBanner",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBownloadButton.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBownloadButton",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconBreadcrumb.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconBreadcrumb",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconButton.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconButton",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCard.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCard",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCarousel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCarousel",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCheckableTagGroup.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCheckableTagGroup",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCollapse.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCollapse",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCollapseBtn.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCollapseBtn",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconColorPicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "IconColorPicker",
+          "startLine": 1,
+          "endLine": 27,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconColumn.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconColumn",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconColumnChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconColumnChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCountDown.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "IconCountDown",
+          "startLine": 1,
+          "endLine": 24,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconCounter.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconCounter",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconDescriptions.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconDescriptions",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconDiv.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconDiv",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconDivider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconDivider",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconDropdown.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "IconDropdwon",
+          "startLine": 1,
+          "endLine": 12,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFeedBackDrawer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFeedBackDrawer",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFeedBackEmpty.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFeedBackEmpty",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFeedBackModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFeedBackModal",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFeedBackResult.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFeedBackResult",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFile.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFile",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

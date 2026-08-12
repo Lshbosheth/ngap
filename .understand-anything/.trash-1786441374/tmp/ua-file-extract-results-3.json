@@ -1,0 +1,766 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 33,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/config/icons/IconFileUpload.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFileUpload",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFlex.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFlex",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFloatingWindow.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFloatingWindow",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconForm.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormCascader.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormCascader",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormCheckbox.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormCheckbox",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormDate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormDate",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormDatepicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormDatepicker",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormInput.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormInput",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormInputPassword.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormInputPassword",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormItem",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "IconFormList",
+          "startLine": 1,
+          "endLine": 28,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormRadio.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormRadio",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormSelect.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormSelect",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormSlider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormSlider",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormStatic.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormStatic",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormSwitch.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormSwitch",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormTextArea.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormTextArea",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormTime.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconTime",
+          "startLine": 1,
+          "endLine": 9,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFormTimePicker.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormTimepicker",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFromInputNumber.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFormInputNumber",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFunctionalTabs.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFunctionalTabs",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconFunnelChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconFunnelChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconGridForm.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconGridForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconIFrame.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconIframe",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconImage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconImage",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconJson.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "IconJson",
+          "startLine": 1,
+          "endLine": 12,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconLineChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconLineChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconLink.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconLink",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconList",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconMapChart.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconMapChart",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconMenu.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconMenu",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconPagination.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconPagination",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

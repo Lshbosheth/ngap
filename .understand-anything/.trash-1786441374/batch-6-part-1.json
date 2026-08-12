@@ -1,0 +1,1180 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/applicationList/backrelation.tsx",
+      "type": "file",
+      "name": "backrelation.tsx",
+      "filePath": "src/pages/applicationList/backrelation.tsx",
+      "summary": "该文件维护应用后端关联关系及相关服务配置。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationList/backrelation.tsx:BackCall",
+      "type": "function",
+      "name": "BackCall",
+      "filePath": "src/pages/applicationList/backrelation.tsx",
+      "lineRange": [
+        19,
+        504
+      ],
+      "summary": "BackCall 是该文件的核心 React 组件，负责维护应用后端关联关系及相关服务配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationList/index.tsx",
+      "summary": "该文件实现应用列表的查询、筛选、分页、上下架、提审和详情等完整管理流程。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationList/index.tsx:AppList",
+      "type": "function",
+      "name": "AppList",
+      "filePath": "src/pages/applicationList/index.tsx",
+      "lineRange": [
+        125,
+        2289
+      ],
+      "summary": "AppList 是该文件的核心 React 组件，负责实现应用列表的查询、筛选、分页、上下架、提审和详情等完整管理流程。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/upcheckty.tsx",
+      "type": "file",
+      "name": "upcheckty.tsx",
+      "filePath": "src/pages/applicationList/upcheckty.tsx",
+      "summary": "该文件处理应用上架检查项、校验结果与整改信息。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationList/upcheckty.tsx:UpdeRef",
+      "type": "function",
+      "name": "UpdeRef",
+      "filePath": "src/pages/applicationList/upcheckty.tsx",
+      "lineRange": [
+        20,
+        989
+      ],
+      "summary": "UpdeRef 是该文件的核心 React 组件，负责处理应用上架检查项、校验结果与整改信息。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-management",
+        "review-workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/versionHost.tsx",
+      "type": "file",
+      "name": "versionHost.tsx",
+      "filePath": "src/pages/applicationList/versionHost.tsx",
+      "summary": "该文件展示和选择应用版本及其承载环境信息。",
+      "tags": [
+        "react-component",
+        "application-management",
+        "review-workflow",
+        "management-page"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationList/versionHost.tsx:versionHosts",
+      "type": "function",
+      "name": "versionHosts",
+      "filePath": "src/pages/applicationList/versionHost.tsx",
+      "lineRange": [
+        14,
+        172
+      ],
+      "summary": "versionHosts 封装展示和选择应用版本及其承载环境信息过程中可复用的数据转换或交互逻辑。",
+      "tags": [
+        "utility",
+        "event-handler",
+        "application-management"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationMap/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationMap/index.tsx",
+      "summary": "该文件构建应用地图视图，组织应用关系、分类筛选和可视化交互。",
+      "tags": [
+        "react-component",
+        "application-map",
+        "visualization",
+        "management-page"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationMap/index.tsx:ElementManagePage",
+      "type": "function",
+      "name": "ElementManagePage",
+      "filePath": "src/pages/applicationMap/index.tsx",
+      "lineRange": [
+        36,
+        1256
+      ],
+      "summary": "ElementManagePage 是该文件的核心 React 组件，负责构建应用地图视图，组织应用关系、分类筛选和可视化交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-map",
+        "visualization"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "summary": "该文件提供应用编排中的单路径级联选择和树数据过滤。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/CascadeSelect/index.tsx:CascadeSelectDialog",
+      "type": "function",
+      "name": "CascadeSelectDialog",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "lineRange": [
+        34,
+        428
+      ],
+      "summary": "CascadeSelectDialog 是该文件的核心 React 组件，负责提供应用编排中的单路径级联选择和树数据过滤。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/CascadeSelect/index.tsx:filterTreeData",
+      "type": "function",
+      "name": "filterTreeData",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "lineRange": [
+        441,
+        513
+      ],
+      "summary": "filterTreeData 按搜索条件递归过滤树节点，同时保留匹配节点的祖先路径。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "summary": "该文件提供应用编排中的多路径级联选择、回显和树数据过滤。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/CascadeSelects/index.tsx:CascadeSelectDialog",
+      "type": "function",
+      "name": "CascadeSelectDialog",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "lineRange": [
+        37,
+        696
+      ],
+      "summary": "CascadeSelectDialog 是该文件的核心 React 组件，负责提供应用编排中的多路径级联选择、回显和树数据过滤。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/CascadeSelects/index.tsx:filterTreeData",
+      "type": "function",
+      "name": "filterTreeData",
+      "filePath": "src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "lineRange": [
+        709,
+        781
+      ],
+      "summary": "filterTreeData 按搜索条件递归过滤树节点，同时保留匹配节点的祖先路径。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "summary": "该文件提供多级意图树的构建、筛选、展开与选择交互。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:buildTree",
+      "type": "function",
+      "name": "buildTree",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "lineRange": [
+        24,
+        70
+      ],
+      "summary": "buildTree 把扁平意图数据转换为多级树结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:getAllKeys",
+      "type": "function",
+      "name": "getAllKeys",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "lineRange": [
+        72,
+        83
+      ],
+      "summary": "getAllKeys 递归收集意图树的全部节点键，用于统一展开或筛选。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:filterNodes",
+      "type": "function",
+      "name": "filterNodes",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "lineRange": [
+        85,
+        101
+      ],
+      "summary": "filterNodes 递归筛选意图树节点并保留可达分支。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:MultilevelIntentionSelectDialog",
+      "type": "function",
+      "name": "MultilevelIntentionSelectDialog",
+      "filePath": "src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "lineRange": [
+        103,
+        252
+      ],
+      "summary": "MultilevelIntentionSelectDialog 是该文件的核心 React 组件，负责提供多级意图树的构建、筛选、展开与选择交互。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "summary": "该文件实现应用基础信息配置弹窗，联动应用分类、类型和意图选择。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx:AppBaseInfoDialog",
+      "type": "function",
+      "name": "AppBaseInfoDialog",
+      "filePath": "src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "lineRange": [
+        62,
+        753
+      ],
+      "summary": "AppBaseInfoDialog 是该文件的核心 React 组件，负责实现应用基础信息配置弹窗，联动应用分类、类型和意图选择。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/appCategory/index.tsx",
+      "summary": "该文件管理应用分类树及分类的新增、编辑和删除。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/appCategory/index.tsx:AppCategory",
+      "type": "function",
+      "name": "AppCategory",
+      "filePath": "src/pages/applicationOrchestration/appCategory/index.tsx",
+      "lineRange": [
+        30,
+        479
+      ],
+      "summary": "AppCategory 是该文件的核心 React 组件，负责管理应用分类树及分类的新增、编辑和删除。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "file",
+      "name": "appOrchestrationTypes.ts",
+      "filePath": "src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "summary": "声明应用编排、画布和配置表单所需的核心 TypeScript 类型，为相关模块提供统一的静态约束。",
+      "tags": [
+        "type-definition",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "type": "file",
+      "name": "appTempCont.tsx",
+      "filePath": "src/pages/applicationOrchestration/appTempCont.tsx",
+      "summary": "该文件展示应用模板内容并触发模板选择和基础信息配置。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/appTempCont.tsx:AppTempCont",
+      "type": "function",
+      "name": "AppTempCont",
+      "filePath": "src/pages/applicationOrchestration/appTempCont.tsx",
+      "lineRange": [
+        16,
+        102
+      ],
+      "summary": "AppTempCont 是该文件的核心 React 组件，负责展示应用模板内容并触发模板选择和基础信息配置。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "summary": "该文件实现应用类型管理弹窗及类型维护操作。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx:AppTypeManageDialog",
+      "type": "function",
+      "name": "AppTypeManageDialog",
+      "filePath": "src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "lineRange": [
+        18,
+        173
+      ],
+      "summary": "AppTypeManageDialog 是该文件的核心 React 组件，负责实现应用类型管理弹窗及类型维护操作。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/index.tsx",
+      "summary": "该文件组织应用编排入口、表单、模板选择、保存及提交流程。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/index.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/pages/applicationOrchestration/index.tsx",
+      "lineRange": [
+        40,
+        343
+      ],
+      "summary": "Page 是该文件的核心 React 组件，负责组织应用编排入口、表单、模板选择、保存及提交流程。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "type": "file",
+      "name": "orchestrationFrom.tsx",
+      "filePath": "src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "summary": "该文件实现应用编排基础表单和配置项联动。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/orchestrationFrom.tsx:OrchestrationFrom",
+      "type": "function",
+      "name": "OrchestrationFrom",
+      "filePath": "src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "lineRange": [
+        17,
+        207
+      ],
+      "summary": "OrchestrationFrom 是该文件的核心 React 组件，负责实现应用编排基础表单和配置项联动。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "type": "file",
+      "name": "CanvasTop.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "summary": "该文件实现应用编排画布顶部工具栏，协调保存、预览、发布和流程画布操作。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "configuration",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂页面状态；体量较大，包含较多异步请求、表单联动和条件渲染。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "function:src/pages/applicationList/backrelation.tsx:BackCall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "function:src/pages/applicationList/index.tsx:AppList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/upcheckty.tsx",
+      "target": "function:src/pages/applicationList/upcheckty.tsx:UpdeRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/versionHost.tsx",
+      "target": "function:src/pages/applicationList/versionHost.tsx:versionHosts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationMap/index.tsx",
+      "target": "function:src/pages/applicationMap/index.tsx:ElementManagePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelect/index.tsx:CascadeSelectDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelect/index.tsx:filterTreeData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelect/index.tsx:filterTreeData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelects/index.tsx:CascadeSelectDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelects/index.tsx:filterTreeData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/CascadeSelects/index.tsx:filterTreeData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:buildTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:getAllKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:filterNodes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx:MultilevelIntentionSelectDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx:AppBaseInfoDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/appCategory/index.tsx:AppCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "target": "function:src/pages/applicationOrchestration/appTempCont.tsx:AppTempCont",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx:AppTypeManageDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/index.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "target": "function:src/pages/applicationOrchestration/orchestrationFrom.tsx:OrchestrationFrom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "file:src/pages/applicationList/backrelation.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "file:src/pages/applicationList/versionHost.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/backrelation.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/config/permissionConfig.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/AppDetail.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/AppEvaluationModal/AppEvaluationModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/appList.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/backrelation.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/OffshelfModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/pages/applicationList/upcheckty.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/index.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/upcheckty.tsx",
+      "target": "file:src/pages/applicationList/upcheckty.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/upcheckty.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/versionHost.tsx",
+      "target": "file:src/pages/applicationList/upcheckty.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationList/versionHost.tsx",
+      "target": "file:src/pages/applicationList/versionHost.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationMap/index.tsx",
+      "target": "file:src/pages/applicationMap/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationMap/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationMap/index.tsx",
+      "target": "file:src/stores/menuStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelect/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelects/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelect/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/CascadeSelects/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/MultilevelIntentionSelect/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appCategory/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appCategory/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "target": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "target": "file:src/pages/applicationOrchestration/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/appTypeManageDialog/index.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/pages/applicationList/SubmitReviewDrawer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appTempCont.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "target": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "target": "file:src/pages/applicationOrchestration/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/orchestrationFrom.tsx",
+      "target": "file:src/utils/appMenuData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/layout/Preview/Preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/applicationOrchestration/appBaseInfoDialog/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/pages/templateManagement/applicationTemp/addApplyponentTemp.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "target": "file:src/utils/operLog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "src/api/page.ts",
+      "language": "typescript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/api/project.ts",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/CreatePage.tsx",
+      "language": "typescript",
+      "sizeLines": 154,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/CreateProject.tsx",
+      "language": "typescript",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/api/page.ts": [
+      "src/utils/request.ts"
+    ],
+    "src/api/project.ts": [],
+    "src/components/CreatePage.tsx": [
+      "src/api/page.ts",
+      "src/api/project.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/CreateProject.tsx": [
+      "src/api/project.ts"
+    ]
+  }
+}

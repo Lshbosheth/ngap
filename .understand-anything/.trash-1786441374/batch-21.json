@@ -1,0 +1,1129 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "summary": "该文件承载普通业务组件的基础画布配置并同步页面数据。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx:BusinessComponentConfig",
+      "type": "function",
+      "name": "BusinessComponentConfig",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "lineRange": [
+        17,
+        71
+      ],
+      "summary": "BusinessComponentConfig 是该文件的核心 React 组件，负责承载普通业务组件的基础画布配置并同步页面数据。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx",
+      "summary": "该文件为卡片类型页面预留独立画布入口。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "type": "file",
+      "name": "HistoryModal.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "summary": "该文件展示应用编排历史版本并支持查看或恢复指定版本。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx:HistoryModal",
+      "type": "function",
+      "name": "HistoryModal",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "lineRange": [
+        21,
+        140
+      ],
+      "summary": "HistoryModal 是该文件的核心 React 组件，负责展示应用编排历史版本并支持查看或恢复指定版本。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "type": "file",
+      "name": "collapsibleList.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "summary": "该文件以可折叠分组展示可加入流程的业务组件列表。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx:CollapsibleList",
+      "type": "function",
+      "name": "CollapsibleList",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "lineRange": [
+        15,
+        69
+      ],
+      "summary": "CollapsibleList 是该文件的核心 React 组件，负责以可折叠分组展示可加入流程的业务组件列表。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "summary": "该文件实现新增流程组件节点弹窗，加载分类、筛选组件并创建节点实例。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx:AddComponentNode",
+      "type": "function",
+      "name": "AddComponentNode",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "lineRange": [
+        39,
+        410
+      ],
+      "summary": "AddComponentNode 是该文件的核心 React 组件，负责实现新增流程组件节点弹窗，加载分类、筛选组件并创建节点实例。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "summary": "该文件声明新增流程组件节点所需的分类、组件和弹窗参数类型。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "type": "file",
+      "name": "TextHighlighter.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "summary": "该文件在日志文本中高亮搜索关键词并保持原始内容结构。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx:TextHighlighter",
+      "type": "function",
+      "name": "TextHighlighter",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "lineRange": [
+        11,
+        46
+      ],
+      "summary": "TextHighlighter 是该文件的核心 React 组件，负责在日志文本中高亮搜索关键词并保持原始内容结构。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "summary": "该文件实现画布底部工具区，集中展示调试日志、运行结果、接口信息和折叠状态。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂状态和异步交互；包含较多画布、流程或数据可视化分支，属于核心高复杂度模块。"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:CollapseContent",
+      "type": "function",
+      "name": "CollapseContent",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "lineRange": [
+        31,
+        67
+      ],
+      "summary": "CollapseContent 是该文件的核心 React 组件，负责实现画布底部工具区，集中展示调试日志、运行结果、接口信息和折叠状态。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:LogTabContent",
+      "type": "function",
+      "name": "LogTabContent",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "lineRange": [
+        81,
+        305
+      ],
+      "summary": "LogTabContent 是该文件的核心 React 组件，负责实现画布底部工具区，集中展示调试日志、运行结果、接口信息和折叠状态。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:BottomTools",
+      "type": "function",
+      "name": "BottomTools",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "lineRange": [
+        307,
+        1121
+      ],
+      "summary": "BottomTools 是该文件的核心 React 组件，负责实现画布底部工具区，集中展示调试日志、运行结果、接口信息和折叠状态。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "summary": "该文件提供画布智能助手入口和对话交互面板。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx:CanvasRobot",
+      "type": "function",
+      "name": "CanvasRobot",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "lineRange": [
+        21,
+        170
+      ],
+      "summary": "CanvasRobot 是该文件的核心 React 组件，负责提供画布智能助手入口和对话交互面板。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "application-orchestration",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "summary": "该文件作为应用编排画布总入口，加载应用与业务组件数据并在不同画布模式间切换。",
+      "tags": [
+        "react-component",
+        "application-orchestration",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/index.tsx:getBusinessTypeData",
+      "type": "function",
+      "name": "getBusinessTypeData",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "lineRange": [
+        75,
+        93
+      ],
+      "summary": "getBusinessTypeData 加载业务组件分类并转换为画布可用选项。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/index.tsx:getSceneComponentList",
+      "type": "function",
+      "name": "getSceneComponentList",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "lineRange": [
+        100,
+        122
+      ],
+      "summary": "getSceneComponentList 按应用场景查询可编排的业务组件列表。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "summary": "该文件实现引导式流程设计画布，管理节点、连线、分支、组件节点配置以及流程保存转换。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "workflow",
+        "canvas"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂状态和异步交互；包含较多画布、流程或数据可视化分支，属于核心高复杂度模块。"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "type": "file",
+      "name": "ProcessPage.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "summary": "该文件实现引导式流程运行页，按节点推进业务组件、执行人工或自动分支并维护运行轨迹。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "workflow",
+        "canvas"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该文件采用 React 与 TypeScript 组织复杂状态和异步交互；包含较多画布、流程或数据可视化分支，属于核心高复杂度模块。"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx:ProcessPage",
+      "type": "function",
+      "name": "ProcessPage",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "lineRange": [
+        34,
+        658
+      ],
+      "summary": "ProcessPage 是该文件的核心 React 组件，负责实现引导式流程运行页，按节点推进业务组件、执行人工或自动分支并维护运行轨迹。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "guided-process",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "type": "file",
+      "name": "TemplateNav.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "summary": "该文件渲染引导式流程的环节导航和当前环节状态。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "workflow",
+        "canvas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "type": "file",
+      "name": "processPresentation.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "summary": "该文件定义引导式流程默认展示配置，并归一化节点区域和流程展示参数。",
+      "tags": [
+        "configuration",
+        "guided-process",
+        "presentation",
+        "normalization"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeNodePresentation",
+      "type": "function",
+      "name": "normalizeNodePresentation",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "lineRange": [
+        17,
+        27
+      ],
+      "summary": "normalizeNodePresentation 补齐并校验流程节点的展示区域配置。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeProcessConfig",
+      "type": "function",
+      "name": "normalizeProcessConfig",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "lineRange": [
+        29,
+        35
+      ],
+      "summary": "normalizeProcessConfig 补齐引导式流程级展示和交互配置。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "type": "file",
+      "name": "useCanvas.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "summary": "该文件封装流程画布节点与连线状态、选择、更新和 React Flow 事件处理。",
+      "tags": [
+        "hook",
+        "guided-process",
+        "react-flow",
+        "state-management"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts:useCanvas",
+      "type": "function",
+      "name": "useCanvas",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "lineRange": [
+        11,
+        215
+      ],
+      "summary": "useCanvas 是该文件的核心 React Hook，负责封装流程画布节点与连线状态、选择、更新和 React Flow 事件处理。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "summary": "该文件组织引导式流程编辑页，协调流程数据加载、画布状态、预览和保存。",
+      "tags": [
+        "react-component",
+        "guided-process",
+        "workflow",
+        "canvas"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "type": "file",
+      "name": "processCanvasPageType.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "summary": "该文件声明引导式流程节点、连线、分支、展示区域和运行配置的数据结构。",
+      "tags": [
+        "type-definition",
+        "guided-process",
+        "canvas",
+        "workflow"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "type": "file",
+      "name": "processDataToCanvas.ts",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "summary": "该文件在后端流程数据与引导式画布节点数据之间进行 ID 和结构转换。",
+      "tags": [
+        "utility",
+        "guided-process",
+        "canvas-data",
+        "data-transform"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts:processDealPageData",
+      "type": "function",
+      "name": "processDealPageData",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "lineRange": [
+        10,
+        79
+      ],
+      "summary": "processDealPageData 把后端流程页面数据递归转换为画布可编辑结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts:processDealDataId",
+      "type": "function",
+      "name": "processDealDataId",
+      "filePath": "src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "lineRange": [
+        82,
+        97
+      ],
+      "summary": "processDealDataId 为流程画布数据重新建立元素标识关系。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/utils/dataToCanvas.ts",
+      "type": "file",
+      "name": "dataToCanvas.ts",
+      "filePath": "src/utils/dataToCanvas.ts",
+      "summary": "该文件在普通页面后端数据与画布元素树之间转换结构和元素 ID。",
+      "tags": [
+        "utility",
+        "canvas-data",
+        "data-transform",
+        "platform-runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/dataToCanvas.ts:dealDataId",
+      "type": "function",
+      "name": "dealDataId",
+      "filePath": "src/utils/dataToCanvas.ts",
+      "lineRange": [
+        2,
+        22
+      ],
+      "summary": "dealDataId 递归重建普通画布元素及子元素的标识。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/utils/dataToCanvas.ts:dealPageData",
+      "type": "function",
+      "name": "dealPageData",
+      "filePath": "src/utils/dataToCanvas.ts",
+      "lineRange": [
+        23,
+        108
+      ],
+      "summary": "dealPageData 把后端页面数据转换为画布编辑结构。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "function",
+      "name": "dealPageDataId",
+      "filePath": "src/utils/dataToCanvas.ts",
+      "lineRange": [
+        111,
+        140
+      ],
+      "summary": "dealPageDataId 统一转换页面及元素树的标识字段。",
+      "tags": [
+        "utility",
+        "data-transform",
+        "helper"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx:BusinessComponentConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx:HistoryModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx:CollapsibleList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx:AddComponentNode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx:TextHighlighter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:CollapseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:LogTabContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx:BottomTools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx:CanvasRobot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/index.tsx:getBusinessTypeData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/index.tsx:getSceneComponentList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx:ProcessPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeNodePresentation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeNodePresentation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeProcessConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts:normalizeProcessConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts:useCanvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts:useCanvas",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts:processDealPageData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts:processDealDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "target": "function:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts:processDealDataId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/utils/dataToCanvas.ts",
+      "target": "function:src/utils/dataToCanvas.ts:dealDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dataToCanvas.ts",
+      "target": "function:src/utils/dataToCanvas.ts:dealPageData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dataToCanvas.ts",
+      "target": "function:src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/utils/dataToCanvas.ts",
+      "target": "function:src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/componentDataTips.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/collapsibleList.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/utils/processDataToCanvas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/addComponentNode/index.tsx",
+      "target": "file:src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/TextHighlighter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/HistoryModal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/appOrchestrationTypes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/baseCanvasPage/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/cardCanvasPage/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/bottomTools/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/canvasRobot/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/CanvasTop.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/TemplateNav.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/config/processPresentation.ts",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/hooks/useCanvas.ts",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ConditionalBranchConfig/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/processCanvasPageType.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/index.tsx",
+      "target": "file:src/utils/dataToCanvas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/utils/dataToCanvas.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

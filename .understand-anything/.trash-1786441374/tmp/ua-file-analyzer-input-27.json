@@ -1,0 +1,33 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "language": "typescript",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationAchievements/index.tsx",
+      "language": "typescript",
+      "sizeLines": 434,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationAchievements/types.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx": [
+      "src/pages/applicationAchievements/types.ts"
+    ],
+    "src/pages/applicationAchievements/index.tsx": [
+      "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "src/pages/applicationAchievements/types.ts"
+    ],
+    "src/pages/applicationAchievements/types.ts": []
+  }
+}

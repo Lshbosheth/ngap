@@ -1,6 +1,6 @@
 # 自定义元素 v2 设计文档问题清单
 
-> 针对 CUSTOM_ELEMENT_REDESIGN.md 的合理性和逻辑审查
+> 针对自定义元素完整设计·理想方案（CUSTOM_ELEMENT_REDESIGN）的合理性和逻辑审查
 
 ## 一、必须修复的问题（阻塞实施）
 

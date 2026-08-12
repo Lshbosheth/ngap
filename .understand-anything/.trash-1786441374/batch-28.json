@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    {
+      "id": "document:AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "AGENTS.md",
+      "summary": "项目级代理协作约定，要求优先读取上下文和引导式流程设计文档，并保持主运行时与独立 page 运行时兼容。",
+      "tags": [
+        "documentation",
+        "development",
+        "project-overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:CODEX_CONTEXT.md",
+      "type": "document",
+      "name": "CODEX_CONTEXT.md",
+      "filePath": "CODEX_CONTEXT.md",
+      "summary": "NGAP 项目的长期开发记忆，系统梳理平台定位、双运行时架构、关键数据流、既有改造结论和后续工作约束。",
+      "tags": [
+        "documentation",
+        "project-memory",
+        "architecture",
+        "development-context"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "type": "document",
+      "name": "CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "filePath": "CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "summary": "自定义元素现状问题清单，从上传格式、运行隔离、依赖、API、安全、版本和治理等维度记录待解决事项。",
+      "tags": [
+        "documentation",
+        "custom-element",
+        "architecture",
+        "migration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "type": "document",
+      "name": "CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "filePath": "CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "summary": "自定义元素改造的务实实施方案，聚焦可逐步落地的 ZIP 包、manifest、构建、运行时 SDK 和兼容迁移。",
+      "tags": [
+        "documentation",
+        "custom-element",
+        "architecture",
+        "migration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "type": "document",
+      "name": "CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "filePath": "CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "summary": "自定义元素完整理想方案，详细定义组件包协议、平台 API、构建发布链路、沙箱运行、安全治理、版本迁移和验收标准。",
+      "tags": [
+        "documentation",
+        "custom-element",
+        "architecture",
+        "migration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "type": "document",
+      "name": "CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "filePath": "CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "summary": "面向管理者的自定义元素技术方案，概括改造目标、核心架构、投入收益、风险和分阶段建设路线。",
+      "tags": [
+        "documentation",
+        "custom-element",
+        "architecture",
+        "migration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:GUIDED_PROCESS_REDESIGN.md",
+      "type": "document",
+      "name": "GUIDED_PROCESS_REDESIGN.md",
+      "filePath": "GUIDED_PROCESS_REDESIGN.md",
+      "summary": "引导式流程详细重构设计，覆盖流程编辑、人工与自动分支、节点展示区域、运行导航、数据转换、兼容迁移和验收方案。",
+      "tags": [
+        "documentation",
+        "guided-process",
+        "architecture",
+        "workflow"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:NGAP_REQUIREMENTS_ONBOARDING.md",
+      "type": "document",
+      "name": "NGAP_REQUIREMENTS_ONBOARDING.md",
+      "filePath": "NGAP_REQUIREMENTS_ONBOARDING.md",
+      "summary": "面向新进需求人员的 NGAP 平台说明，介绍当前核心能力，并重点解释引导式流程和自定义元素两项优化及其实施顺序。",
+      "tags": [
+        "documentation",
+        "onboarding",
+        "architecture",
+        "platform-overview"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:NGAP核心能力升级技术方案(给领导看).md",
+      "type": "document",
+      "name": "NGAP核心能力升级技术方案(给领导看).md",
+      "filePath": "NGAP核心能力升级技术方案(给领导看).md",
+      "summary": "面向管理者的 NGAP 核心能力升级方案，归纳平台现状、两项核心优化、预期价值、协作边界和实施计划。",
+      "tags": [
+        "documentation",
+        "development",
+        "project-overview"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "项目根目录的开发说明，介绍 NGAP 的 Vite、React、TypeScript 技术栈以及安装、启动、构建和目录约定。",
+      "tags": [
+        "documentation",
+        "development",
+        "project-overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README_ONBOARDING.md",
+      "type": "document",
+      "name": "README_ONBOARDING.md",
+      "filePath": "README_ONBOARDING.md",
+      "summary": "面向开发人员的代码库入门文档，说明平台业务、工程结构、设计态与运行态链路、关键模块和常见开发任务。",
+      "tags": [
+        "documentation",
+        "onboarding",
+        "architecture",
+        "platform-overview"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:REFACTOR_NOTES.md",
+      "type": "document",
+      "name": "REFACTOR_NOTES.md",
+      "filePath": "REFACTOR_NOTES.md",
+      "summary": "重构调研记录，保存已获取的接口样例、数据结构确认结果、兼容约束和仍待补齐的数据缺口。",
+      "tags": [
+        "documentation",
+        "refactoring",
+        "api-samples",
+        "data-gap"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:find-missing-repomix-assets.ps1",
+      "type": "file",
+      "name": "find-missing-repomix-assets.ps1",
+      "filePath": "find-missing-repomix-assets.ps1",
+      "summary": "扫描 Repomix 目录结构中的二进制资源路径，并输出项目目录中实际缺失的图片、字体、音视频、压缩包等文件。",
+      "tags": [
+        "utility",
+        "powershell",
+        "asset-audit",
+        "repository-recovery"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "该 PowerShell 脚本采用顶层顺序执行：解析 Repomix 的目录树缩进，筛选二进制扩展名并检查本地文件存在性；未声明独立函数。"
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "主应用 HTML 启动页，声明基础元信息、兼容处理和前端根挂载节点，并加载 NGAP 主运行时入口。",
+      "tags": [
+        "entry-point",
+        "html",
+        "application-shell"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:missing-binary-assets.txt",
+      "type": "document",
+      "name": "missing-binary-assets.txt",
+      "filePath": "missing-binary-assets.txt",
+      "summary": "记录 Repomix 输入中出现但当前工作区缺失的二进制资源路径，供代码库还原和视觉资源补齐时核对。",
+      "tags": [
+        "documentation",
+        "asset-inventory",
+        "repository-recovery"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "NGAP 主应用清单，定义双运行时构建脚本、React/Vite/Ant Design/React Flow 等依赖、Node 版本和浏览器兼容范围。",
+      "tags": [
+        "configuration",
+        "package-manifest",
+        "build-system",
+        "dependencies"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "JSON 清单集中声明脚本、依赖、开发依赖和工具链约束。"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "主应用 TypeScript 编译配置，控制 JSX、模块解析、类型检查、路径别名和源码纳入范围。",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "tsconfig.node.json",
+      "summary": "Vite 与 Node 构建配置文件使用的 TypeScript 编译选项。",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:CODEX_CONTEXT.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_ISSUES(问题清单).md",
+      "target": "file:src/pages/elementManagement/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_PRACTICAL(务实落地版).md",
+      "target": "file:src/pages/elementManagement/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md",
+      "target": "file:src/pages/elementManagement/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "target": "file:src/pages/elementManagement/AddElementModal.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CUSTOM_ELEMENT_SOLUTION(技术方案-给领导看).md",
+      "target": "file:src/pages/elementManagement/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:GUIDED_PROCESS_REDESIGN.md",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessCanvas/index.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:GUIDED_PROCESS_REDESIGN.md",
+      "target": "file:src/pages/applicationOrchestration/pageCanvas/processCanvasPage/components/ProcessPage/ProcessPage.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:NGAP_REQUIREMENTS_ONBOARDING.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README_ONBOARDING.md",
+      "target": "file:src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:tsconfig.json",
+      "target": "file:src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

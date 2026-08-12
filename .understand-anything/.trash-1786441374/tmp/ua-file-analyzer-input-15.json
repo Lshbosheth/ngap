@@ -1,0 +1,304 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Layout/Span/Span.tsx",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/NgapRender/NgapRender.tsx",
+      "language": "typescript",
+      "sizeLines": 314,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Other/IFrame/IFrame.tsx",
+      "language": "typescript",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Page/Page.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/index.tsx",
+      "language": "typescript",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/types/index.ts",
+      "language": "typescript",
+      "sizeLines": 465,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/action.ts",
+      "language": "typescript",
+      "sizeLines": 670,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/context.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/crossAPIAction.ts",
+      "language": "typescript",
+      "sizeLines": 579,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/goldBankCheckfn.ts",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/handleApi.ts",
+      "language": "typescript",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/useComponentRefs.ts",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/useHandleApi.ts",
+      "language": "typescript",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/useMaterialTools.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/utils/util.ts",
+      "language": "typescript",
+      "sizeLines": 780,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx",
+      "language": "typescript",
+      "sizeLines": 621,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/pages/editor/editor.tsx",
+      "language": "typescript",
+      "sizeLines": 808,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/apiListStore.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/canvasPageStore.ts",
+      "language": "typescript",
+      "sizeLines": 2009,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/crossAPIStaticDataStore.ts",
+      "language": "typescript",
+      "sizeLines": 226,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/stores/crossapiStore.ts",
+      "language": "typescript",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/AntdGlobal.tsx",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/AppProvider.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/apiUtilForInterface.ts",
+      "language": "typescript",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/crossAPI.js",
+      "language": "javascript",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/crossAPIUtil.ts",
+      "language": "typescript",
+      "sizeLines": 328,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/utils/dealApiGlobal.ts",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Layout/Span/Span.tsx": [
+      "src/packages/Layout/Span/Col.tsx",
+      "src/packages/Layout/Span/index.module.less",
+      "src/packages/types/index.ts"
+    ],
+    "src/packages/NgapRender/NgapRender.tsx": [
+      "src/packages/index.tsx",
+      "src/packages/NgapRender/index.less",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/packages/utils/useComponentRefs.ts",
+      "src/packages/utils/useMaterialTools.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Other/IFrame/IFrame.tsx": [
+      "page/src/utils/util.ts",
+      "src/packages/types/index.ts",
+      "src/packages/utils/action.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/useMessageListener.tsx"
+    ],
+    "src/packages/Page/Page.tsx": [
+      "src/packages/NgapRender/NgapRender.tsx",
+      "src/packages/Page/index.module.less",
+      "src/packages/utils/action.ts"
+    ],
+    "src/packages/index.tsx": [
+      "src/packages/index.less",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/objectToFormData.ts",
+      "src/utils/request.ts"
+    ],
+    "src/packages/types/index.ts": [],
+    "src/packages/utils/action.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/crossAPIAction.ts",
+      "src/packages/utils/goldBankCheckfn.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/packages/utils/useComponentRefs.ts",
+      "src/packages/utils/util.ts",
+      "src/stores/menuStore.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/crossAPI.js",
+      "src/utils/util.ts"
+    ],
+    "src/packages/utils/context.ts": [],
+    "src/packages/utils/crossAPIAction.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/stores/crossAPIStaticDataStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/crossAPI.js",
+      "src/utils/crossAPIUtil.ts",
+      "src/utils/ProvinceIdCon.ts",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ],
+    "src/packages/utils/goldBankCheckfn.ts": [
+      "src/packages/types/index.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/goldbank.ts",
+      "src/utils/util.ts"
+    ],
+    "src/packages/utils/handleApi.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/apiUtilForInterface.ts",
+      "src/utils/request.ts"
+    ],
+    "src/packages/utils/useComponentRefs.ts": [],
+    "src/packages/utils/useHandleApi.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/useMaterialTools.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/apiUtilForInterface.ts"
+    ],
+    "src/packages/utils/useMaterialTools.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/util.ts",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/utils/util.ts": [
+      "src/packages/types/index.ts"
+    ],
+    "src/pages/applicationOrchestration/pageCanvas/components/ComponentPanelAO.tsx": [
+      "src/layout/components/ApiList/ApiList.tsx",
+      "src/layout/components/CrossApiList/CrossApiList.tsx",
+      "src/layout/components/OutlinePanel.tsx",
+      "src/pages/applicationOrchestration/pageCanvas/components/index.module.less"
+    ],
+    "src/pages/editor/editor.tsx": [
+      "src/pages/editor/index.module.less",
+      "src/pages/editor/topbar/TopBar.tsx",
+      "src/stores/apiListStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/dealApiGlobal.ts"
+    ],
+    "src/stores/apiListStore.ts": [],
+    "src/stores/canvasPageStore.ts": [
+      "src/packages/types/index.ts",
+      "src/packages/utils/handleApi.ts",
+      "src/utils/AntdGlobal.tsx",
+      "src/utils/dealApiGlobal.ts",
+      "src/utils/request.ts",
+      "src/utils/util.ts"
+    ],
+    "src/stores/crossAPIStaticDataStore.ts": [],
+    "src/stores/crossapiStore.ts": [
+      "src/utils/appMenuData.ts"
+    ],
+    "src/utils/AntdGlobal.tsx": [],
+    "src/utils/AppProvider.tsx": [
+      "src/stores/canvasPageStore.ts"
+    ],
+    "src/utils/apiUtilForInterface.ts": [
+      "src/stores/crossapiStore.ts",
+      "src/utils/crossAPIUtil.ts",
+      "src/utils/request.ts"
+    ],
+    "src/utils/crossAPI.js": [],
+    "src/utils/crossAPIUtil.ts": [
+      "src/stores/crossAPIStaticDataStore.ts",
+      "src/stores/crossapiStore.ts",
+      "src/utils/crossAPI.js"
+    ],
+    "src/utils/dealApiGlobal.ts": [
+      "src/packages/utils/handleApi.ts",
+      "src/utils/request.ts"
+    ]
+  }
+}

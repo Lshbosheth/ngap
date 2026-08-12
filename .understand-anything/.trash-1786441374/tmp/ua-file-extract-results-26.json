@@ -1,0 +1,75 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/Advanced/Steps/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 167,
+      "nonEmptyLines": 166,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 44,
+      "callGraph": [
+        {
+          "caller": "handleCreate",
+          "callee": "add",
+          "lineNumber": 13
+        },
+        {
+          "caller": "toggleMore",
+          "callee": "setShowMoreNum",
+          "lineNumber": 21
+        },
+        {
+          "caller": "toggleMore",
+          "callee": "setShowMoreNum",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Steps/stepSettingRow.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 81,
+      "nonEmptyLines": 80,
+      "callGraph": [
+        {
+          "caller": "handleDelete",
+          "callee": "remove",
+          "lineNumber": 32
+        },
+        {
+          "caller": "toggleMore",
+          "callee": "onChange",
+          "lineNumber": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

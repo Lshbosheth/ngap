@@ -1,0 +1,960 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/config/icons/IconGridFormB.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconGridForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconModal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 59,
+      "functions": [
+        {
+          "name": "IconModal",
+          "startLine": 1,
+          "endLine": 58,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconRibon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "IconRibon",
+          "startLine": 1,
+          "endLine": 12,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconSearchFormB.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "IconSearchForm",
+          "startLine": 1,
+          "endLine": 8,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTableEdit.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 75,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "IconTableEdit",
+          "startLine": 1,
+          "endLine": 75,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "IconTableEdit",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/config/icons/IconTagGroup.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "IconTagGroup",
+          "startLine": 1,
+          "endLine": 12,
+          "params": [
+            "props"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/ApiList/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 70,
+      "nonEmptyLines": 66,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/components/ConfigPanel/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 180,
+      "nonEmptyLines": 176,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/components/CrossApiList/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 19,
+      "nonEmptyLines": 19,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/components/Header/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 118,
+      "nonEmptyLines": 116,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/components/Header/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 229,
+      "nonEmptyLines": 216,
+      "callGraph": [
+        {
+          "caller": "goHome",
+          "callee": "setMode",
+          "lineNumber": 34
+        },
+        {
+          "caller": "goHome",
+          "callee": "/projects\\/\\d+\\/\\w+/.test",
+          "lineNumber": 36
+        },
+        {
+          "caller": "goHome",
+          "callee": "/editor\\/\\d+\\/(edit|publishHistory)/.test",
+          "lineNumber": 37
+        },
+        {
+          "caller": "goHome",
+          "callee": "navigate",
+          "lineNumber": 38
+        },
+        {
+          "caller": "goHome",
+          "callee": "navigate",
+          "lineNumber": 39
+        },
+        {
+          "caller": "goHome",
+          "callee": "navigate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handleTab",
+          "callee": "navigate",
+          "lineNumber": 83
+        },
+        {
+          "caller": "handleExitPreview",
+          "callee": "setMode",
+          "lineNumber": 88
+        },
+        {
+          "caller": "goToPath",
+          "callee": "navigate",
+          "lineNumber": 93
+        },
+        {
+          "caller": "goToPath",
+          "callee": "navigate",
+          "lineNumber": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/Header/PublishPopover.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "Publish",
+          "startLine": 9,
+          "endLine": 76,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Publish",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Publish",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "Publish",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "Publish",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "Publish",
+          "callee": "useAppContext",
+          "lineNumber": 13
+        },
+        {
+          "caller": "Publish",
+          "callee": "pageStore",
+          "lineNumber": 18
+        },
+        {
+          "caller": "Publish",
+          "callee": "useShallow",
+          "lineNumber": 19
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "message.warning",
+          "lineNumber": 29
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading1",
+          "lineNumber": 30
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "message.warning",
+          "lineNumber": 33
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading2",
+          "lineNumber": 34
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "message.warning",
+          "lineNumber": 37
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading3",
+          "lineNumber": 38
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "api.publishPage",
+          "lineNumber": 41
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "updatePageState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "message.success",
+          "lineNumber": 50
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "console.log",
+          "lineNumber": 52
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading1",
+          "lineNumber": 54
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading2",
+          "lineNumber": 55
+        },
+        {
+          "caller": "publishToEnv",
+          "callee": "setLoading3",
+          "lineNumber": 56
+        },
+        {
+          "caller": "Publish",
+          "callee": "publishToEnv",
+          "lineNumber": 61
+        },
+        {
+          "caller": "Publish",
+          "callee": "publishToEnv",
+          "lineNumber": 65
+        },
+        {
+          "caller": "Publish",
+          "callee": "publishToEnv",
+          "lineNumber": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/Menu/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 592,
+      "nonEmptyLines": 559,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/components/Menu/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 145,
+      "nonEmptyLines": 144,
+      "functions": [
+        {
+          "name": "Menu",
+          "startLine": 83,
+          "endLine": 143,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Menu",
+          "callee": "menu",
+          "lineNumber": 84
+        },
+        {
+          "caller": "Menu",
+          "callee": "menu",
+          "lineNumber": 85
+        },
+        {
+          "caller": "Menu",
+          "callee": "useShallow",
+          "lineNumber": 86
+        },
+        {
+          "caller": "Menu",
+          "callee": "menu",
+          "lineNumber": 91
+        },
+        {
+          "caller": "Menu",
+          "callee": "menu",
+          "lineNumber": 92
+        },
+        {
+          "caller": "MenuChange",
+          "callee": "changeSelectedMenu",
+          "lineNumber": 94
+        },
+        {
+          "caller": "openChange",
+          "callee": "changeOpenKeys",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getMenuKeys",
+          "callee": "defaultOpenKeys.push",
+          "lineNumber": 102
+        },
+        {
+          "caller": "getMenuKeys",
+          "callee": "getMenuKeys",
+          "lineNumber": 103
+        },
+        {
+          "caller": "getMenuKeys",
+          "callee": "defaultSelectedKeys.push",
+          "lineNumber": 106
+        },
+        {
+          "caller": "getMenuKeys",
+          "callee": "changeSelectedMenu",
+          "lineNumber": 107
+        },
+        {
+          "caller": "Menu",
+          "callee": "useEffect",
+          "lineNumber": 112
+        },
+        {
+          "caller": "Menu",
+          "callee": "getMenuKeys",
+          "lineNumber": 114
+        },
+        {
+          "caller": "Menu",
+          "callee": "changeOpenKeys",
+          "lineNumber": 115
+        },
+        {
+          "caller": "Menu",
+          "callee": "changeMenuState",
+          "lineNumber": 130
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/Notice.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 39,
+      "nonEmptyLines": 39,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/Variable/VariableList.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 58,
+      "callGraph": [
+        {
+          "caller": "handleAdd",
+          "callee": "variableRef.current?.open",
+          "lineNumber": 22
+        },
+        {
+          "caller": "handleEdit",
+          "callee": "event.preventDefault",
+          "lineNumber": 27
+        },
+        {
+          "caller": "handleEdit",
+          "callee": "variableRef.current?.open",
+          "lineNumber": 28
+        },
+        {
+          "caller": "handleRemove",
+          "callee": "event.preventDefault",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleRemove",
+          "callee": "removeVariable",
+          "lineNumber": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/components/Variable/VariableSetting.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 139,
+      "nonEmptyLines": 130,
+      "functions": [
+        {
+          "name": "VariableSetting",
+          "startLine": 12,
+          "endLine": 137,
+          "params": [
+            "_",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "VariableSetting",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useState",
+          "lineNumber": 14
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useState",
+          "lineNumber": 15
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useRef",
+          "lineNumber": 16
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "Form.useForm",
+          "lineNumber": 17
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useAppContext",
+          "lineNumber": 18
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "pageStore",
+          "lineNumber": 19
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useShallow",
+          "lineNumber": 20
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "loader.config",
+          "lineNumber": 29
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "useImperativeHandle",
+          "lineNumber": 36
+        },
+        {
+          "caller": "open",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 40
+        },
+        {
+          "caller": "open",
+          "callee": "JSON.stringify",
+          "lineNumber": 40
+        },
+        {
+          "caller": "open",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 42
+        },
+        {
+          "caller": "open",
+          "callee": "setDataType",
+          "lineNumber": 44
+        },
+        {
+          "caller": "open",
+          "callee": "setType",
+          "lineNumber": 46
+        },
+        {
+          "caller": "open",
+          "callee": "setVisible",
+          "lineNumber": 47
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setDataType",
+          "lineNumber": 52
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.validateFields().then",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.validateFields",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handleOk",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 58
+        },
+        {
+          "caller": "handleOk",
+          "callee": "editorRef.current?.getValue",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleOk",
+          "callee": "JSON.parse",
+          "lineNumber": 63
+        },
+        {
+          "caller": "handleOk",
+          "callee": "message.error",
+          "lineNumber": 65
+        },
+        {
+          "caller": "handleOk",
+          "callee": "addVariable",
+          "lineNumber": 71
+        },
+        {
+          "caller": "handleOk",
+          "callee": "editVariable",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleOk",
+          "callee": "handleCancel",
+          "lineNumber": 75
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "form.resetFields",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setVisible",
+          "lineNumber": 82
+        },
+        {
+          "caller": "handleCancel",
+          "callee": "setDataType",
+          "lineNumber": 83
+        },
+        {
+          "caller": "VariableSetting",
+          "callee": "handleChange",
+          "lineNumber": 102
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/layout/layout.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 46,
+      "nonEmptyLines": 46,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/Preview/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 134,
+      "nonEmptyLines": 126,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/Preview/ProcessComponentPreview/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 46,
+      "nonEmptyLines": 38,
+      "metrics": {}
+    },
+    {
+      "path": "src/layout/Preview/ProcessComponentPreview/ProcessComponentPreview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 94,
+      "callGraph": [
+        {
+          "caller": "_setMode",
+          "callee": "setMode",
+          "lineNumber": 27
+        },
+        {
+          "caller": "getApiList",
+          "callee": "request.post",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getApiList",
+          "callee": "setApiList",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/mock/guidedProcessMock.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 156,
+      "nonEmptyLines": 142,
+      "functions": [
+        {
+          "name": "elementConfig",
+          "startLine": 3,
+          "endLine": 8,
+          "params": [
+            "props",
+            "style"
+          ]
+        },
+        {
+          "name": "title",
+          "startLine": 10,
+          "endLine": 23,
+          "params": [
+            "id",
+            "text",
+            "style"
+          ]
+        },
+        {
+          "name": "button",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "id",
+            "text",
+            "type"
+          ]
+        },
+        {
+          "name": "bottomBanner",
+          "startLine": 33,
+          "endLine": 46,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "component",
+          "startLine": 48,
+          "endLine": 77,
+          "params": [
+            "id",
+            "componentName",
+            "elements",
+            "presentation",
+            "branchName"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GUIDED_MOCK_PROCESS_CONFIG",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_COMPONENTS",
+          "line": 92,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_NODES",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_BASE_CONFIG",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_BUSINESS_TYPES",
+          "line": 138,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_APP_TYPES",
+          "line": 142,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_TAG_TYPES",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "GUIDED_MOCK_PROJECTS",
+          "line": 154,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "title",
+          "callee": "elementConfig",
+          "lineNumber": 15
+        },
+        {
+          "caller": "button",
+          "callee": "elementConfig",
+          "lineNumber": 30
+        },
+        {
+          "caller": "bottomBanner",
+          "callee": "button",
+          "lineNumber": 34
+        },
+        {
+          "caller": "bottomBanner",
+          "callee": "button",
+          "lineNumber": 34
+        },
+        {
+          "caller": "bottomBanner",
+          "callee": "children.map",
+          "lineNumber": 39
+        },
+        {
+          "caller": "bottomBanner",
+          "callee": "elementConfig",
+          "lineNumber": 40
+        },
+        {
+          "caller": "collect",
+          "callee": "items.forEach",
+          "lineNumber": 56
+        },
+        {
+          "caller": "collect",
+          "callee": "collect",
+          "lineNumber": 58
+        },
+        {
+          "caller": "component",
+          "callee": "collect",
+          "lineNumber": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/AIChat/index.module.less",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 402,
+      "nonEmptyLines": 348,
+      "metrics": {}
+    },
+    {
+      "path": "src/packages/Advanced/AIChat/Schema.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 396,
+      "nonEmptyLines": 394,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

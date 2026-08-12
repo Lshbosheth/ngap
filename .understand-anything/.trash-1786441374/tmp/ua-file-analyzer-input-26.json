@@ -1,0 +1,32 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Advanced/Steps/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/Steps/stepSettingRow.tsx",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Advanced/Steps/Schema.tsx": [
+      "src/packages/Advanced/Steps/StepSetting.tsx"
+    ],
+    "src/packages/Advanced/Steps/StepSetting.tsx": [
+      "src/packages/Advanced/Steps/stepSettingRow.tsx"
+    ],
+    "src/packages/Advanced/Steps/stepSettingRow.tsx": []
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "src/components/EventConfig/ActionModal/RunScriptAction.tsx",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/SendParams.tsx",
+      "language": "typescript",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/SetTimeoutAction.tsx",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/ShowConfirmAction.tsx",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/VariableAssignment.tsx",
+      "language": "typescript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/VisibleAction.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/EventConfig/ActionModal/openOneScreenAction.tsx",
+      "language": "typescript",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/VariableBind/VariableBind.tsx",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/components/VsEditor.tsx",
+      "language": "typescript",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/BusinessTable.tsx",
+      "language": "typescript",
+      "sizeLines": 2425,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 783,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "language": "typescript",
+      "sizeLines": 108,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "language": "typescript",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TableSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 396,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "language": "typescript",
+      "sizeLines": 227,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "language": "typescript",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "language": "typescript",
+      "sizeLines": 415,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx",
+      "language": "typescript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/utils/textfilter.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/BusinessTable/utils/windowSort.tsx",
+      "language": "typescript",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/components/EventConfig/ActionModal/RunScriptAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VsEditor.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/SendParams.tsx": [
+      "src/components/VariableBind/VariableBind.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/SetTimeoutAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/ShowConfirmAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less"
+    ],
+    "src/components/EventConfig/ActionModal/VariableAssignment.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/VisibleAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/EventConfig/ActionModal/openOneScreenAction.tsx": [
+      "src/components/EventConfig/ActionModal/index.module.less",
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/components/VariableBind/VariableBind.tsx": [
+      "src/components/VariableBind/VariableSelect.tsx"
+    ],
+    "src/components/VsEditor.tsx": [
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/Advanced/BusinessTable/BusinessTable.tsx": [
+      "src/packages/Advanced/BusinessTable/index.module.less",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "src/packages/Advanced/BusinessTable/utils/columns.tsx",
+      "src/packages/Advanced/BusinessTable/utils/filter.tsx",
+      "src/packages/Advanced/BusinessTable/utils/sort.tsx",
+      "src/packages/Advanced/BusinessTable/utils/textfilter.ts"
+    ],
+    "src/packages/Advanced/BusinessTable/ColumnSetting.tsx": [
+      "src/components/ColorPicker.tsx",
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/components/VsEditor.tsx",
+      "src/packages/Advanced/BusinessTable/index.module.less",
+      "src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "src/packages/types/index.ts",
+      "src/packages/utils/useMaterialTools.ts",
+      "src/utils/AppProvider.tsx",
+      "src/utils/util.ts"
+    ],
+    "src/packages/Advanced/BusinessTable/DragColumn.tsx": [
+      "src/components/VariableBind/VariableBind.tsx",
+      "src/packages/utils/util.ts"
+    ],
+    "src/packages/Advanced/BusinessTable/Schema.tsx": [
+      "src/components/BulkAction/ActionSetting.tsx",
+      "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx",
+      "src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx",
+      "src/packages/Advanced/BusinessTable/TableSetting.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx": [
+      "src/utils/AppProvider.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/StatisticsConfigWrapper.tsx": [
+      "src/packages/Advanced/BusinessTable/StatisticsConfig.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/TableSetting.tsx": [
+      "src/packages/Advanced/BusinessTable/ColumnSetting.tsx",
+      "src/packages/Advanced/BusinessTable/DragColumn.tsx",
+      "src/utils/AppProvider.tsx",
+      "src/utils/request.ts"
+    ],
+    "src/packages/Advanced/BusinessTable/TagSetting.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx",
+      "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/TagSetting/CaseList.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting.tsx",
+      "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less"
+    ],
+    "src/packages/Advanced/BusinessTable/TagSetting/TriggerConditions.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less"
+    ],
+    "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less"
+    ],
+    "src/packages/Advanced/BusinessTable/TagSetting/TriggerEvents.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting/TagSetting.module.less",
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/utils/columns.tsx": [
+      "src/packages/Advanced/BusinessTable/TagSetting/TriggerEventItem.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/utils/filter.tsx": [],
+    "src/packages/Advanced/BusinessTable/utils/sort.tsx": [
+      "src/packages/Advanced/BusinessTable/utils/windowSort.tsx"
+    ],
+    "src/packages/Advanced/BusinessTable/utils/textfilter.ts": [],
+    "src/packages/Advanced/BusinessTable/utils/windowSort.tsx": []
+  }
+}

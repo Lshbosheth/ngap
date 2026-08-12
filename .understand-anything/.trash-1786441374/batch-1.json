@@ -1,0 +1,1229 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/components/ColorPicker.tsx",
+      "type": "file",
+      "name": "ColorPicker.tsx",
+      "filePath": "src/components/ColorPicker.tsx",
+      "summary": "封装 Ant Design 颜色选择器，统一颜色值转换、预设面板、清空能力及表单回调，是属性编辑器复用的颜色输入控件。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/ColorPicker.tsx:MColorPicker",
+      "type": "function",
+      "name": "MColorPicker",
+      "filePath": "src/components/ColorPicker.tsx",
+      "lineRange": [
+        14,
+        82
+      ],
+      "summary": "渲染平台统一颜色选择器，将 Ant Design Color 对象转换为表单可持久化的颜色字符串。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/InputSelect/InputSelect.tsx",
+      "type": "file",
+      "name": "InputSelect.tsx",
+      "filePath": "src/components/InputSelect/InputSelect.tsx",
+      "summary": "提供输入框与下拉选项组合的受控编辑控件，用于属性面板中同时录入数值并选择单位或候选值。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/InputSelect/InputSelect.tsx:InputSelect",
+      "type": "function",
+      "name": "InputSelect",
+      "filePath": "src/components/InputSelect/InputSelect.tsx",
+      "lineRange": [
+        9,
+        51
+      ],
+      "summary": "渲染输入框与下拉选择的组合控件，并把用户输入以受控值形式回传。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/components/SetterRender/SetterRender.tsx",
+      "type": "file",
+      "name": "SetterRender.tsx",
+      "filePath": "src/components/SetterRender/SetterRender.tsx",
+      "summary": "按组件 Schema 中的设置器类型分派并渲染对应表单控件，覆盖上传、变量绑定、尺寸和通用输入等低代码属性配置场景。",
+      "tags": [
+        "component",
+        "setter",
+        "factory",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/SetterRender/SetterRender.tsx:UploadItem",
+      "type": "function",
+      "name": "UploadItem",
+      "filePath": "src/components/SetterRender/SetterRender.tsx",
+      "lineRange": [
+        33,
+        103
+      ],
+      "summary": "渲染属性设置器中的上传项，处理文件状态、地址回填和预览交互。",
+      "tags": [
+        "component",
+        "setter",
+        "file-upload"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/BackgroundImage.tsx",
+      "type": "file",
+      "name": "BackgroundImage.tsx",
+      "filePath": "src/components/StyleConfig/BackgroundImage.tsx",
+      "summary": "编辑元素背景图地址及相关展示值，并把变更写回样式配置，是通用样式面板的背景图子控件。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/BackgroundImage.tsx:BackgroundImage",
+      "type": "function",
+      "name": "BackgroundImage",
+      "filePath": "src/components/StyleConfig/BackgroundImage.tsx",
+      "lineRange": [
+        8,
+        115
+      ],
+      "summary": "渲染背景图设置项并同步受控值变化。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/BackgroundSize.tsx",
+      "type": "file",
+      "name": "BackgroundSize.tsx",
+      "filePath": "src/components/StyleConfig/BackgroundSize.tsx",
+      "summary": "编辑 CSS background-size，支持预设模式与自定义尺寸输入并回传标准化样式值。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/BackgroundSize.tsx:BackgroundSize",
+      "type": "function",
+      "name": "BackgroundSize",
+      "filePath": "src/components/StyleConfig/BackgroundSize.tsx",
+      "lineRange": [
+        5,
+        58
+      ],
+      "summary": "渲染背景尺寸预设和自定义尺寸输入，并输出 CSS background-size。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/DirectionInput.tsx",
+      "type": "file",
+      "name": "DirectionInput.tsx",
+      "filePath": "src/components/StyleConfig/DirectionInput.tsx",
+      "summary": "提供四方向联动或独立输入模式，用于边距、圆角等方向性 CSS 属性的可视化编辑。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/DirectionInput.tsx:DirectionInput",
+      "type": "function",
+      "name": "DirectionInput",
+      "filePath": "src/components/StyleConfig/DirectionInput.tsx",
+      "lineRange": [
+        15,
+        65
+      ],
+      "summary": "渲染四方向样式输入，协调联动和独立编辑状态。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/FlexStyle.tsx",
+      "type": "file",
+      "name": "FlexStyle.tsx",
+      "filePath": "src/components/StyleConfig/FlexStyle.tsx",
+      "summary": "提供 Flex 布局方向、对齐、换行和间距等属性的成组编辑，并将选择结果映射为 CSS 样式。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/FlexStyle.tsx:FlexStyle",
+      "type": "function",
+      "name": "FlexStyle",
+      "filePath": "src/components/StyleConfig/FlexStyle.tsx",
+      "lineRange": [
+        4,
+        135
+      ],
+      "summary": "渲染 Flex 布局属性表单并组合输出布局样式。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "file",
+      "name": "InputPx.tsx",
+      "filePath": "src/components/StyleConfig/InputPx.tsx",
+      "summary": "提供带 px 等单位处理的数值输入控件，兼容空值、字符串和受控回调，是样式面板的基础输入单元。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/InputPx.tsx:InputPx",
+      "type": "function",
+      "name": "InputPx",
+      "filePath": "src/components/StyleConfig/InputPx.tsx",
+      "lineRange": [
+        15,
+        97
+      ],
+      "summary": "渲染带单位的数值输入并规范化样式值。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/MarginInput.tsx",
+      "type": "file",
+      "name": "MarginInput.tsx",
+      "filePath": "src/components/StyleConfig/MarginInput.tsx",
+      "summary": "组合四个尺寸输入框编辑 margin 四方向值，并在联动与独立模式间同步配置。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/MarginInput.tsx:MarginInput",
+      "type": "function",
+      "name": "MarginInput",
+      "filePath": "src/components/StyleConfig/MarginInput.tsx",
+      "lineRange": [
+        6,
+        67
+      ],
+      "summary": "渲染 margin 四方向输入并输出合并后的边距配置。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/PaddingInput.tsx",
+      "type": "file",
+      "name": "PaddingInput.tsx",
+      "filePath": "src/components/StyleConfig/PaddingInput.tsx",
+      "summary": "组合四个尺寸输入框编辑 padding 四方向值，并在联动与独立模式间同步配置。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/PaddingInput.tsx:PaddingInput",
+      "type": "function",
+      "name": "PaddingInput",
+      "filePath": "src/components/StyleConfig/PaddingInput.tsx",
+      "lineRange": [
+        6,
+        68
+      ],
+      "summary": "渲染 padding 四方向输入并输出合并后的内边距配置。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/Shadow.tsx",
+      "type": "file",
+      "name": "Shadow.tsx",
+      "filePath": "src/components/StyleConfig/Shadow.tsx",
+      "summary": "编辑阴影偏移、模糊、扩散与颜色参数，将表单输入组装为可直接应用的 CSS box-shadow。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/components/StyleConfig/Shadow.tsx:Shadow",
+      "type": "function",
+      "name": "Shadow",
+      "filePath": "src/components/StyleConfig/Shadow.tsx",
+      "lineRange": [
+        5,
+        95
+      ],
+      "summary": "渲染阴影参数编辑器并生成 CSS box-shadow 字符串。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "type": "file",
+      "name": "StyleConfig.tsx",
+      "filePath": "src/components/StyleConfig/StyleConfig.tsx",
+      "summary": "低代码元素的综合样式编辑面板，集中编排尺寸、布局、背景、边框、阴影及自定义 CSS，并向画布同步样式变更。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/components/StyleConfig/StyleConfig.tsx:StyleConfig",
+      "type": "function",
+      "name": "StyleConfig",
+      "filePath": "src/components/StyleConfig/StyleConfig.tsx",
+      "lineRange": [
+        38,
+        493
+      ],
+      "summary": "渲染完整样式属性面板，协调各子设置器并向上游提交样式变化。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/components/StyleConfig/TitleStyle.tsx",
+      "type": "file",
+      "name": "TitleStyle.tsx",
+      "filePath": "src/components/StyleConfig/TitleStyle.tsx",
+      "summary": "为样式配置面板的小节标题提供统一的标题结构和模块化样式。",
+      "tags": [
+        "component",
+        "style-editor",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/components/StyleConfig/TitleStyle.tsx:TitleStyle",
+      "type": "function",
+      "name": "TitleStyle",
+      "filePath": "src/components/StyleConfig/TitleStyle.tsx",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "渲染样式面板统一的小节标题。",
+      "tags": [
+        "component",
+        "style-editor",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Pagination/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Pagination/Schema.tsx",
+      "summary": "声明分页组件的属性 Schema，配置页码、总数、尺寸、展示数量及文本等可视化设置器。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/Advanced/Pagination/ShowNumberSetting.tsx",
+      "type": "file",
+      "name": "ShowNumberSetting.tsx",
+      "filePath": "src/packages/Advanced/Pagination/ShowNumberSetting.tsx",
+      "summary": "提供分页展示数量相关的表单设置控件，供分页 Schema 嵌入属性面板。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Progress/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Progress/Schema.tsx",
+      "summary": "声明进度条组件的属性 Schema，覆盖进度值、形态、颜色、描边、文本和状态等配置。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "type": "file",
+      "name": "StrokeColorSetting.tsx",
+      "filePath": "src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "summary": "提供进度条描边颜色设置器，复用平台颜色选择控件写入指定表单字段。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Statistic/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Statistic/Schema.tsx",
+      "summary": "声明统计数值组件的属性 Schema，包括标题、数值、精度、前后缀与文本表现。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/Basic/Text/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Text/Schema.tsx",
+      "summary": "声明文本组件的内容、排版、样式和事件 Schema，是文本元素属性面板与交互配置的元数据入口。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/Basic/Text/TextEventsSetting.tsx",
+      "type": "file",
+      "name": "TextEventsSetting.tsx",
+      "filePath": "src/packages/Basic/Text/TextEventsSetting.tsx",
+      "summary": "提供文本组件事件动作的可视化编辑器，维护事件列表、动作类型及其参数并同步到表单。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Title/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Basic/Title/Schema.tsx",
+      "summary": "声明标题组件的文本内容、标题级别与通用文本样式 Schema。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/BarAndLine/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/BarAndLine/Schema.tsx",
+      "summary": "声明柱线混合图的 ECharts 属性 Schema，覆盖数据、坐标轴、图例、系列颜色、半径和通用图表选项。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/BarChart/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/BarChart/Schema.tsx",
+      "summary": "声明条形图的 ECharts 属性 Schema，定义数据映射、坐标轴、图例、颜色和系列表现配置。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/ColumnChart/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/ColumnChart/Schema.tsx",
+      "summary": "声明柱状图的 ECharts 属性 Schema，覆盖数据源、坐标系、系列、图例、标签和视觉样式。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/LineChart/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/LineChart/Schema.tsx",
+      "summary": "声明折线图的 ECharts 属性 Schema，覆盖数据映射、坐标轴、图例、平滑曲线、区域与颜色配置。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/MapChart/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/MapChart/Schema.tsx",
+      "summary": "声明地图图表的 ECharts 属性 Schema，配置地图数据、区域映射、视觉分段、标签和颜色。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/PieChart/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/EChart/PieChart/Schema.tsx",
+      "summary": "声明饼图的 ECharts 属性 Schema，配置数据映射、图例、标签、内外半径和系列配色。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "chart",
+        "setter"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "file",
+      "name": "ColorSet.tsx",
+      "filePath": "src/packages/EChart/components/ColorSet.tsx",
+      "summary": "提供图表系列颜色数组的属性设置器，通过颜色选择器维护可增删的配色集合。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/EChart/components/RadiusSet.tsx",
+      "type": "file",
+      "name": "RadiusSet.tsx",
+      "filePath": "src/packages/EChart/components/RadiusSet.tsx",
+      "summary": "提供图表内外半径等成组数值的属性设置器，供饼图和混合图 Schema 复用。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/KeySetting.tsx",
+      "type": "file",
+      "name": "KeySetting.tsx",
+      "filePath": "src/packages/FormItems/Transfer/KeySetting.tsx",
+      "summary": "提供穿梭框数据键字段的表单设置器，用于指定 label、value 等字段映射。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/OperationStyleSetting.tsx",
+      "type": "file",
+      "name": "OperationStyleSetting.tsx",
+      "filePath": "src/packages/FormItems/Transfer/OperationStyleSetting.tsx",
+      "summary": "提供穿梭框操作区样式的表单设置器，维护按钮与布局相关配置。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/OperationsSetting.tsx",
+      "type": "file",
+      "name": "OperationsSetting.tsx",
+      "filePath": "src/packages/FormItems/Transfer/OperationsSetting.tsx",
+      "summary": "提供穿梭框左右操作文案的表单设置器。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/FormItems/Transfer/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/FormItems/Transfer/Schema.tsx",
+      "summary": "声明穿梭框表单组件的属性 Schema，覆盖数据源、字段映射、操作文案、样式与交互行为。",
+      "tags": [
+        "configuration",
+        "component-schema",
+        "low-code",
+        "setter"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "以 TypeScript/TSX 对象字面量声明组件属性 Schema，并嵌入 React 设置器作为可视化配置元数据。"
+    },
+    {
+      "id": "file:src/packages/components/TextSetting.tsx",
+      "type": "file",
+      "name": "TextSetting.tsx",
+      "filePath": "src/packages/components/TextSetting.tsx",
+      "summary": "通用文本表达式设置器，使用代码编辑器为指定表单字段录入静态文本或可执行表达式。",
+      "tags": [
+        "component",
+        "setter",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/components/TextSetting.tsx:TextSetting",
+      "type": "function",
+      "name": "TextSetting",
+      "filePath": "src/packages/components/TextSetting.tsx",
+      "lineRange": [
+        7,
+        16
+      ],
+      "summary": "渲染文本或表达式代码编辑器并绑定指定表单字段。",
+      "tags": [
+        "component",
+        "react",
+        "form-control"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/components/ColorPicker.tsx",
+      "target": "function:src/components/ColorPicker.tsx:MColorPicker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ColorPicker.tsx",
+      "target": "function:src/components/ColorPicker.tsx:MColorPicker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/InputSelect/InputSelect.tsx",
+      "target": "function:src/components/InputSelect/InputSelect.tsx:InputSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/InputSelect/InputSelect.tsx",
+      "target": "function:src/components/InputSelect/InputSelect.tsx:InputSelect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/components/InputSelect/InputSelect.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/components/SetterRender/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/components/VariableBind/VariableBind.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/SetterRender/SetterRender.tsx",
+      "target": "function:src/components/SetterRender/SetterRender.tsx:UploadItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/BackgroundImage.tsx",
+      "target": "function:src/components/StyleConfig/BackgroundImage.tsx:BackgroundImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/BackgroundImage.tsx",
+      "target": "function:src/components/StyleConfig/BackgroundImage.tsx:BackgroundImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/BackgroundSize.tsx",
+      "target": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/BackgroundSize.tsx",
+      "target": "function:src/components/StyleConfig/BackgroundSize.tsx:BackgroundSize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/DirectionInput.tsx",
+      "target": "file:src/components/StyleConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/DirectionInput.tsx",
+      "target": "function:src/components/StyleConfig/DirectionInput.tsx:DirectionInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/DirectionInput.tsx",
+      "target": "function:src/components/StyleConfig/DirectionInput.tsx:DirectionInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/FlexStyle.tsx",
+      "target": "function:src/components/StyleConfig/FlexStyle.tsx:FlexStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/FlexStyle.tsx",
+      "target": "function:src/components/StyleConfig/FlexStyle.tsx:FlexStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/InputPx.tsx",
+      "target": "function:src/components/StyleConfig/InputPx.tsx:InputPx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/InputPx.tsx",
+      "target": "function:src/components/StyleConfig/InputPx.tsx:InputPx",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/MarginInput.tsx",
+      "target": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/MarginInput.tsx",
+      "target": "function:src/components/StyleConfig/MarginInput.tsx:MarginInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/MarginInput.tsx",
+      "target": "function:src/components/StyleConfig/MarginInput.tsx:MarginInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/PaddingInput.tsx",
+      "target": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/PaddingInput.tsx",
+      "target": "function:src/components/StyleConfig/PaddingInput.tsx:PaddingInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/PaddingInput.tsx",
+      "target": "function:src/components/StyleConfig/PaddingInput.tsx:PaddingInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/Shadow.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/Shadow.tsx",
+      "target": "function:src/components/StyleConfig/Shadow.tsx:Shadow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/Shadow.tsx",
+      "target": "function:src/components/StyleConfig/Shadow.tsx:Shadow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/BackgroundImage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/BackgroundSize.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/DirectionInput.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/FlexStyle.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/InputPx.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/Shadow.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/StyleConfig/TitleStyle.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/StyleConfig.tsx",
+      "target": "function:src/components/StyleConfig/StyleConfig.tsx:StyleConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/TitleStyle.tsx",
+      "target": "file:src/components/StyleConfig/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/components/StyleConfig/TitleStyle.tsx",
+      "target": "function:src/components/StyleConfig/TitleStyle.tsx:TitleStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/StyleConfig/TitleStyle.tsx",
+      "target": "function:src/components/StyleConfig/TitleStyle.tsx:TitleStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Schema.tsx",
+      "target": "file:src/packages/Advanced/Pagination/ShowNumberSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Pagination/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Progress/Schema.tsx",
+      "target": "file:src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Progress/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Progress/StrokeColorSetting.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Statistic/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Schema.tsx",
+      "target": "file:src/packages/Basic/Text/TextEventsSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/TextEventsSetting.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Title/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarAndLine/Schema.tsx",
+      "target": "file:src/packages/EChart/components/RadiusSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/BarChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/RadiusSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/ColumnChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/RadiusSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/LineChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/MapChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/PieChart/Schema.tsx",
+      "target": "file:src/packages/EChart/components/ColorSet.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/EChart/components/ColorSet.tsx",
+      "target": "file:src/components/ColorPicker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Schema.tsx",
+      "target": "file:src/packages/components/TextSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Schema.tsx",
+      "target": "file:src/packages/FormItems/Transfer/KeySetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Schema.tsx",
+      "target": "file:src/packages/FormItems/Transfer/OperationsSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/FormItems/Transfer/Schema.tsx",
+      "target": "file:src/packages/FormItems/Transfer/OperationStyleSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/TextSetting.tsx",
+      "target": "file:src/components/VsEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/components/TextSetting.tsx",
+      "target": "function:src/packages/components/TextSetting.tsx:TextSetting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/components/TextSetting.tsx",
+      "target": "function:src/packages/components/TextSetting.tsx:TextSetting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

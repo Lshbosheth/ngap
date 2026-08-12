@@ -1,0 +1,884 @@
+{
+  "nodes": [
+    {
+      "id": "file:materials/Basic/Icon/Icon.tsx",
+      "type": "file",
+      "name": "Icon.tsx",
+      "filePath": "materials/Basic/Icon/Icon.tsx",
+      "summary": "封装图标物料，将图标、颜色和尺寸配置与平台动作流事件连接。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Icon/Icon.tsx:MIcon",
+      "type": "function",
+      "name": "MIcon",
+      "filePath": "materials/Basic/Icon/Icon.tsx",
+      "lineRange": [
+        12,
+        84
+      ],
+      "summary": "实现图标的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/Image/Image.tsx",
+      "type": "file",
+      "name": "Image.tsx",
+      "filePath": "materials/Basic/Image/Image.tsx",
+      "summary": "封装图片展示物料，提供图片地址、适配方式、预览和样式等低代码属性。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Basic/Image/Image.tsx:MImage",
+      "type": "function",
+      "name": "MImage",
+      "filePath": "materials/Basic/Image/Image.tsx",
+      "lineRange": [
+        11,
+        33
+      ],
+      "summary": "实现图片的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Link/Link.tsx",
+      "type": "file",
+      "name": "Link.tsx",
+      "filePath": "materials/Basic/Link/Link.tsx",
+      "summary": "封装链接物料，提供文本、目标地址、打开方式和展示样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Basic/Link/Link.tsx:MLink",
+      "type": "function",
+      "name": "MLink",
+      "filePath": "materials/Basic/Link/Link.tsx",
+      "lineRange": [
+        10,
+        48
+      ],
+      "summary": "实现链接的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Statistic/Statistic.tsx",
+      "type": "file",
+      "name": "Statistic.tsx",
+      "filePath": "materials/Basic/Statistic/Statistic.tsx",
+      "summary": "封装统计数值物料，支持标题、数值、前后缀、精度和格式化展示。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Statistic/Statistic.tsx:MStatistic",
+      "type": "function",
+      "name": "MStatistic",
+      "filePath": "materials/Basic/Statistic/Statistic.tsx",
+      "lineRange": [
+        12,
+        64
+      ],
+      "summary": "实现统计数值的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/Tag/Tag.tsx",
+      "type": "file",
+      "name": "Tag.tsx",
+      "filePath": "materials/Basic/Tag/Tag.tsx",
+      "summary": "封装标签物料，提供文本、颜色、边框与交互状态等低代码配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Tag/Tag.tsx:MTag",
+      "type": "function",
+      "name": "MTag",
+      "filePath": "materials/Basic/Tag/Tag.tsx",
+      "lineRange": [
+        13,
+        61
+      ],
+      "summary": "实现标签的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Basic/Text/Text.tsx",
+      "type": "file",
+      "name": "Text.tsx",
+      "filePath": "materials/Basic/Text/Text.tsx",
+      "summary": "实现文本物料，支持模板化内容、HTML/纯文本处理、样式配置以及点击等动作流事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Basic/Text/Text.tsx:MText",
+      "type": "function",
+      "name": "MText",
+      "filePath": "materials/Basic/Text/Text.tsx",
+      "lineRange": [
+        24,
+        240
+      ],
+      "summary": "实现文本的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/Timer/Timer.tsx",
+      "type": "file",
+      "name": "Timer.tsx",
+      "filePath": "materials/Basic/Timer/Timer.tsx",
+      "summary": "实现计时器物料，解析初始时间并维护倒计时或正计时状态、格式化显示和完成事件。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Basic/Timer/Timer.tsx:parseInitialTime",
+      "type": "function",
+      "name": "parseInitialTime",
+      "filePath": "materials/Basic/Timer/Timer.tsx",
+      "lineRange": [
+        10,
+        25
+      ],
+      "summary": "把可配置的初始时间值解析为计时器内部使用的时分秒结构。",
+      "tags": [
+        "utility",
+        "time-parsing",
+        "timer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Basic/Timer/Timer.tsx:MTimer",
+      "type": "function",
+      "name": "MTimer",
+      "filePath": "materials/Basic/Timer/Timer.tsx",
+      "lineRange": [
+        36,
+        242
+      ],
+      "summary": "实现计时器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Basic/Title/Title.tsx",
+      "type": "file",
+      "name": "Title.tsx",
+      "filePath": "materials/Basic/Title/Title.tsx",
+      "summary": "实现标题物料，支持动态内容解析、标题层级与文本样式配置。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Title/Title.tsx:MTitle",
+      "type": "function",
+      "name": "MTitle",
+      "filePath": "materials/Basic/Title/Title.tsx",
+      "lineRange": [
+        13,
+        90
+      ],
+      "summary": "实现标题的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/Video/Video.tsx",
+      "type": "file",
+      "name": "Video.tsx",
+      "filePath": "materials/Basic/Video/Video.tsx",
+      "summary": "封装视频播放物料，提供媒体地址、封面、控制栏、自动播放和循环等属性。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Video/Video.tsx:MVideo",
+      "type": "function",
+      "name": "MVideo",
+      "filePath": "materials/Basic/Video/Video.tsx",
+      "lineRange": [
+        18,
+        92
+      ],
+      "summary": "实现视频的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Basic/Watermark/Watermark.tsx",
+      "type": "file",
+      "name": "Watermark.tsx",
+      "filePath": "materials/Basic/Watermark/Watermark.tsx",
+      "summary": "实现水印容器物料，在水印覆盖层内调用 NgapRender 渲染嵌套内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "display-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Basic/Watermark/Watermark.tsx:MRow",
+      "type": "function",
+      "name": "MRow",
+      "filePath": "materials/Basic/Watermark/Watermark.tsx",
+      "lineRange": [
+        15,
+        93
+      ],
+      "summary": "实现布局容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Container/Card/Card.tsx",
+      "type": "file",
+      "name": "Card.tsx",
+      "filePath": "materials/Container/Card/Card.tsx",
+      "summary": "实现卡片容器物料，承载标题、边框和布局配置，并通过 NgapRender 渲染子元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Container/Card/Card.tsx:MCard",
+      "type": "function",
+      "name": "MCard",
+      "filePath": "materials/Container/Card/Card.tsx",
+      "lineRange": [
+        15,
+        66
+      ],
+      "summary": "实现卡片的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Container/Collapse/Collapse.tsx",
+      "type": "file",
+      "name": "Collapse.tsx",
+      "filePath": "materials/Container/Collapse/Collapse.tsx",
+      "summary": "实现折叠面板容器，管理活动面板、动态标题和面板状态，并渲染嵌套低代码内容。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Container/Collapse/Collapse.tsx:MCollapse",
+      "type": "function",
+      "name": "MCollapse",
+      "filePath": "materials/Container/Collapse/Collapse.tsx",
+      "lineRange": [
+        16,
+        192
+      ],
+      "summary": "实现折叠面板的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:materials/Container/CollapseItem/CollapseItem.tsx",
+      "type": "file",
+      "name": "CollapseItem.tsx",
+      "filePath": "materials/Container/CollapseItem/CollapseItem.tsx",
+      "summary": "实现单个折叠项容器，作为折叠结构的内容节点调用 NgapRender 渲染子元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:materials/Container/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "function",
+      "name": "MTabs",
+      "filePath": "materials/Container/CollapseItem/CollapseItem.tsx",
+      "lineRange": [
+        11,
+        43
+      ],
+      "summary": "实现页签/容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:materials/Container/Cycle/Cycle.tsx",
+      "type": "file",
+      "name": "Cycle.tsx",
+      "filePath": "materials/Container/Cycle/Cycle.tsx",
+      "summary": "实现循环容器物料，依据接口或运行时列表重复渲染子元素并维护循环项上下文。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:materials/Container/Cycle/Cycle.tsx:Cycle",
+      "type": "function",
+      "name": "Cycle",
+      "filePath": "materials/Container/Cycle/Cycle.tsx",
+      "lineRange": [
+        12,
+        218
+      ],
+      "summary": "实现循环容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:materials/Container/Div/Div.tsx",
+      "type": "file",
+      "name": "Div.tsx",
+      "filePath": "materials/Container/Div/Div.tsx",
+      "summary": "实现通用块级容器，将布局和样式属性应用到容器并渲染其低代码子元素。",
+      "tags": [
+        "react-component",
+        "low-code-material",
+        "container",
+        "nested-rendering"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:materials/Container/Div/Div.tsx:Div",
+      "type": "function",
+      "name": "Div",
+      "filePath": "materials/Container/Div/Div.tsx",
+      "lineRange": [
+        15,
+        51
+      ],
+      "summary": "实现通用容器的核心渲染与交互逻辑，衔接低代码属性、运行时数据和组件事件。",
+      "tags": [
+        "react-component",
+        "rendering",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:materials/Basic/Icon/Icon.tsx",
+      "target": "function:materials/Basic/Icon/Icon.tsx:MIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Image/Image.tsx",
+      "target": "function:materials/Basic/Image/Image.tsx:MImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Link/Link.tsx",
+      "target": "function:materials/Basic/Link/Link.tsx:MLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Statistic/Statistic.tsx",
+      "target": "function:materials/Basic/Statistic/Statistic.tsx:MStatistic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Tag/Tag.tsx",
+      "target": "function:materials/Basic/Tag/Tag.tsx:MTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Text/Text.tsx",
+      "target": "function:materials/Basic/Text/Text.tsx:MText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Timer/Timer.tsx",
+      "target": "function:materials/Basic/Timer/Timer.tsx:parseInitialTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Timer/Timer.tsx",
+      "target": "function:materials/Basic/Timer/Timer.tsx:MTimer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Title/Title.tsx",
+      "target": "function:materials/Basic/Title/Title.tsx:MTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Video/Video.tsx",
+      "target": "function:materials/Basic/Video/Video.tsx:MVideo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Watermark/Watermark.tsx",
+      "target": "function:materials/Basic/Watermark/Watermark.tsx:MRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Card/Card.tsx",
+      "target": "function:materials/Container/Card/Card.tsx:MCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "function:materials/Container/Collapse/Collapse.tsx:MCollapse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/CollapseItem/CollapseItem.tsx",
+      "target": "function:materials/Container/CollapseItem/CollapseItem.tsx:MTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "function:materials/Container/Cycle/Cycle.tsx:Cycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Container/Div/Div.tsx",
+      "target": "function:materials/Container/Div/Div.tsx:Div",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:materials/Basic/Icon/Icon.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Icon/Icon.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Image/Image.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Link/Link.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Statistic/Statistic.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Tag/Tag.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Text/Text.tsx",
+      "target": "file:materials/Basic/Text/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Text/Text.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Text/Text.tsx",
+      "target": "file:materials/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Text/Text.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Timer/Timer.tsx",
+      "target": "file:materials/Basic/Timer/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Timer/Timer.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Title/Title.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Title/Title.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Video/Video.tsx",
+      "target": "file:materials/Basic/Video/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Video/Video.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Watermark/Watermark.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Basic/Watermark/Watermark.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Card/Card.tsx",
+      "target": "file:materials/Container/Card/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Card/Card.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Card/Card.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "file:materials/Container/Collapse/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Collapse/Collapse.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/CollapseItem/CollapseItem.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/stores/pageStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Cycle/Cycle.tsx",
+      "target": "file:materials/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Div/Div.tsx",
+      "target": "file:materials/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:materials/Container/Div/Div.tsx",
+      "target": "file:materials/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:materials/Basic/Text/Text.tsx:MText",
+      "target": "function:materials/utils/util.ts:formatNumber",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Text/Text.tsx:MText",
+      "target": "function:materials/utils/action.ts:handleActionFlow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Timer/Timer.tsx:MTimer",
+      "target": "function:materials/Basic/Timer/Timer.tsx:parseInitialTime",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Basic/Title/Title.tsx:MTitle",
+      "target": "function:materials/utils/util.ts:formatNumber",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Collapse/Collapse.tsx:MCollapse",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:materials/Container/Cycle/Cycle.tsx:Cycle",
+      "target": "function:materials/stores/pageStore.ts:usePageStore",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

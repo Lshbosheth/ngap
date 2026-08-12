@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "summary": "实现应用成效评估详情弹窗，展示评价指标、得分、反馈和明细数据，支持查看单次评估结果。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx:EvalutionDetialModal",
+      "type": "function",
+      "name": "EvalutionDetialModal",
+      "filePath": "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "lineRange": [
+        21,
+        301
+      ],
+      "summary": "渲染成效评估详情弹窗并组织指标与反馈数据展示。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationAchievements/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/pages/applicationAchievements/index.tsx",
+      "summary": "实现应用成效管理页面，提供应用评价数据查询、筛选、分页、汇总展示和详情查看。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/pages/applicationAchievements/index.tsx:ApplicationAchievements",
+      "type": "function",
+      "name": "ApplicationAchievements",
+      "filePath": "src/pages/applicationAchievements/index.tsx",
+      "lineRange": [
+        33,
+        433
+      ],
+      "summary": "渲染应用成效管理页面并协调查询、分页和详情交互。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationAchievements/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/pages/applicationAchievements/types.ts",
+      "summary": "定义应用成效页面的查询条件、列表记录、评估指标和详情数据等 TypeScript 类型。",
+      "tags": [
+        "component",
+        "page",
+        "management-ui"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "target": "file:src/pages/applicationAchievements/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "target": "function:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx:EvalutionDetialModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "target": "function:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx:EvalutionDetialModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/index.tsx",
+      "target": "file:src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/index.tsx",
+      "target": "file:src/pages/applicationAchievements/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/index.tsx",
+      "target": "function:src/pages/applicationAchievements/index.tsx:ApplicationAchievements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/pages/applicationAchievements/index.tsx",
+      "target": "function:src/pages/applicationAchievements/index.tsx:ApplicationAchievements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

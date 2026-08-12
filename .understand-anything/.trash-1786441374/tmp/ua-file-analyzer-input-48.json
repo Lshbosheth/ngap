@@ -1,0 +1,188 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx",
+      "language": "typescript",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/CheckableTagGroup/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/CollapseBtn/index.module.less",
+      "language": "css",
+      "sizeLines": 11,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/CollapseBtn/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Icon/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Image/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Link/CascadeSelect/index.module.less",
+      "language": "css",
+      "sizeLines": 248,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Link/Linkcss.css",
+      "language": "css",
+      "sizeLines": 87,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Tag/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Text/index.module.less",
+      "language": "css",
+      "sizeLines": 14,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Timer/index.module.less",
+      "language": "css",
+      "sizeLines": 23,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Timer/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Video/index.module.less",
+      "language": "css",
+      "sizeLines": 7,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Basic/Video/Schema.ts",
+      "language": "typescript",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Basic/Watermark/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/ColorPicker/ColorPicker.tsx",
+      "language": "typescript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/ColorPicker/ColorPickerSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/ColorPicker/index.less",
+      "language": "css",
+      "sizeLines": 55,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/components/DynamicItemSetting/index.module.less",
+      "language": "css",
+      "sizeLines": 41,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/components/icon-select/IconSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/icon-select/index.less",
+      "language": "css",
+      "sizeLines": 36,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/index.less",
+      "language": "css",
+      "sizeLines": 59,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/TimelineConfig.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/components/timeline-node-config/TimelineSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Container/Card/index.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    }
+  ],
+  "batchImportData": {
+    "src/packages/Basic/CheckableTagGroup/CheckableTagGroup.tsx": [],
+    "src/packages/Basic/CheckableTagGroup/Schema.tsx": [],
+    "src/packages/Basic/CollapseBtn/index.module.less": [],
+    "src/packages/Basic/CollapseBtn/Schema.ts": [],
+    "src/packages/Basic/Icon/Schema.tsx": [],
+    "src/packages/Basic/Image/Schema.ts": [],
+    "src/packages/Basic/Link/CascadeSelect/index.module.less": [],
+    "src/packages/Basic/Link/Linkcss.css": [],
+    "src/packages/Basic/Tag/Schema.tsx": [],
+    "src/packages/Basic/Text/index.module.less": [],
+    "src/packages/Basic/Timer/index.module.less": [],
+    "src/packages/Basic/Timer/Schema.ts": [],
+    "src/packages/Basic/Video/index.module.less": [],
+    "src/packages/Basic/Video/Schema.ts": [],
+    "src/packages/Basic/Watermark/Schema.tsx": [],
+    "src/packages/components/ColorPicker/ColorPicker.tsx": [
+      "src/packages/components/ColorPicker/index.less"
+    ],
+    "src/packages/components/ColorPicker/ColorPickerSetting.tsx": [],
+    "src/packages/components/ColorPicker/index.less": [],
+    "src/packages/components/DynamicItemSetting/index.module.less": [],
+    "src/packages/components/icon-select/IconSelect.tsx": [
+      "src/packages/components/icon-select/index.less"
+    ],
+    "src/packages/components/icon-select/index.less": [],
+    "src/packages/components/timeline-node-config/index.less": [],
+    "src/packages/components/timeline-node-config/TimelineConfig.tsx": [
+      "src/packages/components/timeline-node-config/index.less"
+    ],
+    "src/packages/components/timeline-node-config/TimelineSetting.tsx": [],
+    "src/packages/Container/Card/index.less": []
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "materials/FormItems/Select/Select.tsx",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Slider/Slider.tsx",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/StaticItem/StaticItem.tsx",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Switch/Switch.tsx",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/TextArea/TextArea.tsx",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/TimePicker/TimePicker.tsx",
+      "language": "typescript",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/TimePickerRange/TimePickerRange.tsx",
+      "language": "typescript",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Transfer/Transfer.tsx",
+      "language": "typescript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/TreeSelect/TreeSelect.tsx",
+      "language": "typescript",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Upload/Upload.tsx",
+      "language": "typescript",
+      "sizeLines": 504,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/Button/AuthButton.tsx",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/Button/Button.tsx",
+      "language": "typescript",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/Descriptions/Descriptions.tsx",
+      "language": "typescript",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/List/List.tsx",
+      "language": "typescript",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/List/useRenderItem.tsx",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/Tab/Tab.tsx",
+      "language": "typescript",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Functional/Tabs/Tabs.tsx",
+      "language": "typescript",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/BottomBanner/BottomBanner.tsx",
+      "language": "typescript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Col/Col.tsx",
+      "language": "typescript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Divider/Divider.tsx",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Row/Row.tsx",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Space/Space.tsx",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Span/Col.tsx",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Layout/Span/Span.tsx",
+      "language": "typescript",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/NgapRender/NgapRender.tsx",
+      "language": "typescript",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Other/IFrame/IFrame.tsx",
+      "language": "typescript",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Page/Page.tsx",
+      "language": "typescript",
+      "sizeLines": 91,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Scene/BusinessTable/BusinessTable.tsx",
+      "language": "typescript",
+      "sizeLines": 2397,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "language": "typescript",
+      "sizeLines": 17,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Scene/NgapTable/NgapTable.tsx",
+      "language": "typescript",
+      "sizeLines": 841,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/FormItems/Select/Select.tsx": [
+      "materials/FormItems/CustomCalendarIcon.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Slider/Slider.tsx": [
+      "materials/FormItems/Slider/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/StaticItem/StaticItem.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Switch/Switch.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/TextArea/TextArea.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/TimePicker/TimePicker.tsx": [
+      "materials/FormItems/CustomCalendarIcon.tsx",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/TimePickerRange/TimePickerRange.tsx": [
+      "materials/FormItems/CustomCalendarIcon.tsx",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Transfer/Transfer.tsx": [
+      "materials/Advanced/Pagination/index.module.less",
+      "materials/FormItems/Transfer/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/TreeSelect/TreeSelect.tsx": [
+      "materials/FormItems/TreeSelect/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Upload/Upload.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/apiUtilForInterface.ts",
+      "materials/utils/context.ts",
+      "materials/utils/request.ts",
+      "materials/utils/util.ts",
+      "src/utils/util.ts"
+    ],
+    "materials/Functional/Button/AuthButton.tsx": [
+      "materials/utils/storage.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Functional/Button/Button.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Functional/Descriptions/Descriptions.tsx": [
+      "materials/Functional/Descriptions/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Functional/List/List.tsx": [
+      "materials/Functional/List/index.module.less",
+      "materials/Functional/List/useRenderItem.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Functional/List/useRenderItem.tsx": [
+      "materials/Functional/List/List.tsx",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Functional/Tab/Tab.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Functional/Tabs/Tabs.tsx": [
+      "materials/Functional/Tabs/index.module.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Layout/BottomBanner/BottomBanner.tsx": [
+      "materials/Layout/BottomBanner/index.module.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Layout/Col/Col.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Layout/Divider/Divider.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/Layout/Row/Row.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Layout/Space/Space.tsx": [
+      "materials/index.tsx",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts"
+    ],
+    "materials/Layout/Span/Col.tsx": [
+      "materials/NgapRender/NgapRender.tsx"
+    ],
+    "materials/Layout/Span/Span.tsx": [
+      "materials/Layout/Span/Col.tsx",
+      "materials/Layout/Span/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/NgapRender/NgapRender.tsx": [
+      "materials/index.tsx",
+      "materials/NgapRender/index.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/crossAPI.js",
+      "materials/utils/useComponentRefs.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Other/IFrame/IFrame.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/util.ts",
+      "src/utils/useMessageListener.tsx"
+    ],
+    "materials/Page/Page.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts",
+      "materials/utils/action.ts"
+    ],
+    "materials/Scene/BusinessTable/BusinessTable.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/Scene/BusinessTable/index.module.less",
+      "materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/columns.tsx",
+      "materials/utils/dealApiData.ts",
+      "materials/utils/filter.tsx",
+      "materials/utils/handleApi.ts",
+      "materials/utils/sort.tsx",
+      "materials/utils/textfilter.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts",
+      "src/packages/utils/dictionary.ts"
+    ],
+    "materials/Scene/BusinessTable/TagSetting/TriggerEventItem.tsx": [],
+    "materials/Scene/NgapTable/NgapTable.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/Scene/NgapTable/index.module.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/dealApiData.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ]
+  }
+}

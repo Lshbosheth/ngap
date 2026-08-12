@@ -1,0 +1,192 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "src/config/icons/IconGridFormB.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconModal.tsx",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconRibon.tsx",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconSearchFormB.tsx",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTableEdit.tsx",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/config/icons/IconTagGroup.tsx",
+      "language": "typescript",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/ApiList/index.module.less",
+      "language": "css",
+      "sizeLines": 70,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/components/ConfigPanel/index.module.less",
+      "language": "css",
+      "sizeLines": 180,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/components/CrossApiList/index.module.less",
+      "language": "css",
+      "sizeLines": 19,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/components/Header/index.module.less",
+      "language": "css",
+      "sizeLines": 118,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/components/Header/index.tsx",
+      "language": "typescript",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Header/PublishPopover.tsx",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Menu/index.module.less",
+      "language": "css",
+      "sizeLines": 592,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/components/Menu/index.tsx",
+      "language": "typescript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Notice.tsx",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Variable/VariableList.tsx",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/components/Variable/VariableSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/layout/layout.less",
+      "language": "css",
+      "sizeLines": 46,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/Preview/BaseCanvasPreview/index.module.less",
+      "language": "css",
+      "sizeLines": 1,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/Preview/index.module.less",
+      "language": "css",
+      "sizeLines": 134,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/Preview/ProcessComponentPreview/index.module.less",
+      "language": "css",
+      "sizeLines": 46,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/layout/Preview/ProcessComponentPreview/ProcessComponentPreview.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/mock/guidedProcessMock.ts",
+      "language": "typescript",
+      "sizeLines": 156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/packages/Advanced/AIChat/index.module.less",
+      "language": "css",
+      "sizeLines": 402,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "src/packages/Advanced/AIChat/Schema.tsx",
+      "language": "typescript",
+      "sizeLines": 396,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/config/icons/IconGridFormB.tsx": [],
+    "src/config/icons/IconModal.tsx": [],
+    "src/config/icons/IconRibon.tsx": [],
+    "src/config/icons/IconSearchFormB.tsx": [],
+    "src/config/icons/IconTableEdit.tsx": [],
+    "src/config/icons/IconTagGroup.tsx": [],
+    "src/layout/components/ApiList/index.module.less": [],
+    "src/layout/components/ConfigPanel/index.module.less": [],
+    "src/layout/components/CrossApiList/index.module.less": [],
+    "src/layout/components/Header/index.module.less": [],
+    "src/layout/components/Header/index.tsx": [
+      "src/layout/components/Header/index.module.less",
+      "src/layout/components/Header/PublishPopover.tsx"
+    ],
+    "src/layout/components/Header/PublishPopover.tsx": [
+      "src/layout/components/Header/index.module.less"
+    ],
+    "src/layout/components/Menu/index.module.less": [],
+    "src/layout/components/Menu/index.tsx": [
+      "src/layout/components/Menu/index.module.less"
+    ],
+    "src/layout/components/Notice.tsx": [],
+    "src/layout/components/Variable/VariableList.tsx": [
+      "src/layout/components/Menu/index.module.less",
+      "src/layout/components/Variable/VariableSetting.tsx"
+    ],
+    "src/layout/components/Variable/VariableSetting.tsx": [],
+    "src/layout/layout.less": [],
+    "src/layout/Preview/BaseCanvasPreview/index.module.less": [],
+    "src/layout/Preview/index.module.less": [],
+    "src/layout/Preview/ProcessComponentPreview/index.module.less": [],
+    "src/layout/Preview/ProcessComponentPreview/ProcessComponentPreview.tsx": [],
+    "src/mock/guidedProcessMock.ts": [],
+    "src/packages/Advanced/AIChat/index.module.less": [],
+    "src/packages/Advanced/AIChat/Schema.tsx": []
+  }
+}

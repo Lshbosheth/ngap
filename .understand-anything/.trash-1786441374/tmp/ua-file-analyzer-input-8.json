@@ -1,0 +1,362 @@
+{
+  "projectRoot": "C:\\Users\\EDY\\Desktop\\ngap",
+  "batchFiles": [
+    {
+      "path": "materials/Container/Flex/Flex.tsx",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/Form/Form.tsx",
+      "language": "typescript",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/Container/GridForm/GridForm.tsx",
+      "language": "typescript",
+      "sizeLines": 340,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/BarAndLine/BarAndLine.tsx",
+      "language": "typescript",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/BarChart/BarChart.tsx",
+      "language": "typescript",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/ColumnChart/ColumnChart.tsx",
+      "language": "typescript",
+      "sizeLines": 700,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/LineChart/LineChart.tsx",
+      "language": "typescript",
+      "sizeLines": 627,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/MapChart/MapChart.tsx",
+      "language": "typescript",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/PieChart/PieChart.tsx",
+      "language": "typescript",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/EChart/chartCalculationUtil.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Drawer/Drawer.tsx",
+      "language": "typescript",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Empty/Empty.tsx",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Modal/Modal.tsx",
+      "language": "typescript",
+      "sizeLines": 210,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Popover/Popover.tsx",
+      "language": "typescript",
+      "sizeLines": 290,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Result/Result.tsx",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FeedBack/Spin/Spin.tsx",
+      "language": "typescript",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Cascader/Cascader.tsx",
+      "language": "typescript",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/CheckBox/CheckBox.tsx",
+      "language": "typescript",
+      "sizeLines": 270,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/ColorPicker/ColorPicker.tsx",
+      "language": "typescript",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Counter/Counter.tsx",
+      "language": "typescript",
+      "sizeLines": 447,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/CustomCalendarIcon.tsx",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/DatePicker/DatePicker.tsx",
+      "language": "typescript",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/DatePickerRange/DatePickerRange.tsx",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/FormItem/FormItem.tsx",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Input/Input.tsx",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/InputNumber/InputNumber.tsx",
+      "language": "typescript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/InputPassword/InputPassword.tsx",
+      "language": "typescript",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Json/Json.tsx",
+      "language": "typescript",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Radio/Radio.tsx",
+      "language": "typescript",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Rate/Rate.tsx",
+      "language": "typescript",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/Container/Flex/Flex.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/Container/Form/Form.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/Container/GridForm/GridForm.tsx": [
+      "materials/Container/GridForm/index.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/action.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/BarAndLine/BarAndLine.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/BarChart/BarChart.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/ColumnChart/ColumnChart.tsx": [
+      "materials/EChart/chartCalculationUtil.ts",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/LineChart/LineChart.tsx": [
+      "materials/EChart/chartCalculationUtil.ts",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/MapChart/MapChart.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts"
+    ],
+    "materials/EChart/PieChart/PieChart.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/EChart/chartCalculationUtil.ts": [],
+    "materials/FeedBack/Drawer/Drawer.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts",
+      "materials/utils/action.ts"
+    ],
+    "materials/FeedBack/Empty/Empty.tsx": [
+      "materials/types/index.ts"
+    ],
+    "materials/FeedBack/Modal/Modal.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts",
+      "materials/utils/action.ts"
+    ],
+    "materials/FeedBack/Popover/Popover.tsx": [
+      "materials/FeedBack/Popover/index.module.less",
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/FeedBack/Result/Result.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/action.ts"
+    ],
+    "materials/FeedBack/Spin/Spin.tsx": [
+      "materials/FeedBack/Spin/index.module.less",
+      "materials/types/index.ts"
+    ],
+    "materials/FormItems/Cascader/Cascader.tsx": [
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/CheckBox/CheckBox.tsx": [
+      "materials/FormItems/CheckBox/index.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/ColorPicker/ColorPicker.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts"
+    ],
+    "materials/FormItems/Counter/Counter.tsx": [
+      "materials/FormItems/Counter/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/AntdGlobal.tsx",
+      "materials/utils/context.ts"
+    ],
+    "materials/FormItems/CustomCalendarIcon.tsx": [],
+    "materials/FormItems/DatePicker/DatePicker.tsx": [
+      "materials/FormItems/CustomCalendarIcon.tsx",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/DatePickerRange/DatePickerRange.tsx": [
+      "materials/FormItems/CustomCalendarIcon.tsx",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/FormItem/FormItem.tsx": [
+      "materials/NgapRender/NgapRender.tsx",
+      "materials/types/index.ts"
+    ],
+    "materials/FormItems/Input/Input.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/InputNumber/InputNumber.tsx": [
+      "materials/FormItems/InputNumber/index.module.less",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/InputPassword/InputPassword.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Json/Json.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Radio/Radio.tsx": [
+      "materials/FormItems/Radio/index.less",
+      "materials/stores/pageStore.ts",
+      "materials/types/index.ts",
+      "materials/utils/context.ts",
+      "materials/utils/dictionary.ts",
+      "materials/utils/handleApi.ts",
+      "materials/utils/useWatchVariable.ts",
+      "materials/utils/util.ts"
+    ],
+    "materials/FormItems/Rate/Rate.tsx": [
+      "materials/types/index.ts",
+      "materials/utils/context.ts"
+    ]
+  }
+}

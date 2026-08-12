@@ -1,0 +1,28 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "materials/package.json",
+      "language": "json",
+      "sizeLines": 37,
+      "fileCategory": "config"
+    },
+    {
+      "path": "materials/readme.md",
+      "language": "markdown",
+      "sizeLines": 37,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "materials/tsconfig.json",
+      "language": "json",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "materials/package.json": [],
+    "materials/readme.md": [],
+    "materials/tsconfig.json": []
+  }
+}

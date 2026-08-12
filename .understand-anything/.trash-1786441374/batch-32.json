@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "type": "file",
+      "name": "SubmitReviewDrawer.module.less",
+      "filePath": "src/pages/applicationList/SubmitReviewDrawer.module.less",
+      "summary": "定义应用提交审核抽屉的完整布局、表单、流程节点和审核状态样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/appDetail.less",
+      "type": "file",
+      "name": "appDetail.less",
+      "filePath": "src/pages/applicationList/appDetail.less",
+      "summary": "定义应用详情区域的基础信息、版本信息和内容分区样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationList/appList.less",
+      "type": "file",
+      "name": "appList.less",
+      "filePath": "src/pages/applicationList/appList.less",
+      "summary": "定义应用列表页的筛选区、列表项、操作区和分页样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationList/backrelation.less",
+      "type": "file",
+      "name": "backrelation.less",
+      "filePath": "src/pages/applicationList/backrelation.less",
+      "summary": "定义应用关联关系回显区域的节点、连线和说明样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/pages/applicationList/index.module.less",
+      "type": "file",
+      "name": "index.module.less",
+      "filePath": "src/pages/applicationList/index.module.less",
+      "summary": "定义应用管理主页面的模块化布局，覆盖工具栏、卡片、状态标识、弹窗和响应式细节。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/pages/applicationList/upcheckty.less",
+      "type": "file",
+      "name": "upcheckty.less",
+      "filePath": "src/pages/applicationList/upcheckty.less",
+      "summary": "定义应用升级检查与类型选择区域的表单和状态提示样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/pages/applicationList/versionHost.less",
+      "type": "file",
+      "name": "versionHost.less",
+      "filePath": "src/pages/applicationList/versionHost.less",
+      "summary": "定义应用版本宿主信息展示区的紧凑布局和文本样式。",
+      "tags": [
+        "style",
+        "less",
+        "component-theme"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

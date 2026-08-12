@@ -1,0 +1,343 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/packages/Advanced/Steps/StepCircleIcon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "StepCircleIcon",
+          "startLine": 10,
+          "endLine": 40,
+          "params": [
+            "{ size = 'default', color = '#0085d0', filled = false, glowMultiplier = 1 }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StepCircleIcon",
+          "callee": "Math.max",
+          "lineNumber": 15
+        },
+        {
+          "caller": "StepCircleIcon",
+          "callee": "Math.floor",
+          "lineNumber": 15
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 18
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 18
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 19
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 19
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 20
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 20
+        },
+        {
+          "caller": "StepCircleIcon",
+          "callee": "hexToRgba",
+          "lineNumber": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepFinishIcon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 65,
+      "nonEmptyLines": 59,
+      "functions": [
+        {
+          "name": "StepFinishIcon",
+          "startLine": 14,
+          "endLine": 63,
+          "params": [
+            "{ size = 'default' }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StepFinishIcon",
+          "callee": "Math.max",
+          "lineNumber": 19
+        },
+        {
+          "caller": "StepFinishIcon",
+          "callee": "Math.floor",
+          "lineNumber": 19
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 22
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 22
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 23
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 23
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "parseInt",
+          "lineNumber": 24
+        },
+        {
+          "caller": "hexToRgba",
+          "callee": "hex.slice",
+          "lineNumber": 24
+        },
+        {
+          "caller": "StepFinishIcon",
+          "callee": "hexToRgba",
+          "lineNumber": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Steps/StepLoadingIcon.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 84,
+      "functions": [
+        {
+          "name": "StepLoadingIcon",
+          "startLine": 19,
+          "endLine": 90,
+          "params": [
+            "{ size = 'default' }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StepLoadingIcon",
+          "callee": "Math.max",
+          "lineNumber": 26
+        },
+        {
+          "caller": "StepLoadingIcon",
+          "callee": "Math.floor",
+          "lineNumber": 26
+        },
+        {
+          "caller": "StepLoadingIcon",
+          "callee": "Math.max",
+          "lineNumber": 28
+        },
+        {
+          "caller": "StepLoadingIcon",
+          "callee": "Math.min",
+          "lineNumber": 28
+        },
+        {
+          "caller": "StepLoadingIcon",
+          "callee": "Math.max",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/packages/Advanced/Steps/Steps.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 194,
+      "nonEmptyLines": 182,
+      "functions": [
+        {
+          "name": "MSteps",
+          "startLine": 18,
+          "endLine": 193,
+          "params": [
+            "{ id, type, config, onChange }",
+            "ref"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MSteps",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useAppContext",
+          "lineNumber": 20
+        },
+        {
+          "caller": "MSteps",
+          "callee": "pageStore",
+          "lineNumber": 22
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useEffect",
+          "lineNumber": 25
+        },
+        {
+          "caller": "MSteps",
+          "callee": "setElementAlias",
+          "lineNumber": 26
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useImperativeHandle",
+          "lineNumber": 28
+        },
+        {
+          "caller": "show",
+          "callee": "setVisible",
+          "lineNumber": 31
+        },
+        {
+          "caller": "hide",
+          "callee": "setVisible",
+          "lineNumber": 34
+        },
+        {
+          "caller": "MSteps",
+          "callee": "setMStyle",
+          "lineNumber": 37
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useCallback",
+          "lineNumber": 42
+        },
+        {
+          "caller": "MSteps",
+          "callee": "onChange",
+          "lineNumber": 44
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 48
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useCallback",
+          "lineNumber": 52
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 69
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 77
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 94
+        },
+        {
+          "caller": "MSteps",
+          "callee": "getFontSize",
+          "lineNumber": 99
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 102
+        },
+        {
+          "caller": "MSteps",
+          "callee": "Number",
+          "lineNumber": 106
+        },
+        {
+          "caller": "MSteps",
+          "callee": "items.map",
+          "lineNumber": 108
+        },
+        {
+          "caller": "MSteps",
+          "callee": "React.createElement",
+          "lineNumber": 177
+        },
+        {
+          "caller": "MSteps",
+          "callee": "useMemo",
+          "lineNumber": 182
+        },
+        {
+          "caller": "MSteps",
+          "callee": "omit",
+          "lineNumber": 183
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

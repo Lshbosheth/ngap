@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Advanced/Steps/Schema.tsx",
+      "type": "file",
+      "name": "Schema.tsx",
+      "filePath": "src/packages/Advanced/Steps/Schema.tsx",
+      "summary": "声明步骤条物料的属性 Schema，覆盖步骤数据、当前项、方向、尺寸、状态、样式和动作配置。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/StepSetting.tsx",
+      "type": "file",
+      "name": "StepSetting.tsx",
+      "filePath": "src/packages/Advanced/Steps/StepSetting.tsx",
+      "summary": "提供步骤条节点集合设置器，组织可编辑列表并把步骤配置同步到属性表单。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Advanced/Steps/stepSettingRow.tsx",
+      "type": "file",
+      "name": "stepSettingRow.tsx",
+      "filePath": "src/packages/Advanced/Steps/stepSettingRow.tsx",
+      "summary": "渲染步骤配置中的单行编辑项，维护标题、描述、状态和删除等字段交互。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Advanced/Steps/Schema.tsx",
+      "target": "file:src/packages/Advanced/Steps/StepSetting.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Steps/StepSetting.tsx",
+      "target": "file:src/packages/Advanced/Steps/stepSettingRow.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

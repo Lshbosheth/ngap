@@ -1,0 +1,860 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/pages/applicationAchievements/evaluationDetailsModal/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 302,
+      "nonEmptyLines": 291,
+      "functions": [
+        {
+          "name": "EvalutionDetialModal",
+          "startLine": 21,
+          "endLine": 301,
+          "params": [
+            "{ modalVisible, setModalVisible, relationId, searchParams }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Form.useForm",
+          "lineNumber": 22
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useState",
+          "lineNumber": 23
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useState",
+          "lineNumber": 24
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useState",
+          "lineNumber": 27
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "useEffect",
+          "lineNumber": 29
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 38
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setCurrentPage",
+          "lineNumber": 39
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "getEvaluationDetailData",
+          "lineNumber": 40
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "form.resetFields",
+          "lineNumber": 42
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setTableData",
+          "lineNumber": 43
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setTotal",
+          "lineNumber": 44
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setCurrentPage",
+          "lineNumber": 45
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setPageSize",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setTableData",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setTotal",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setLoading",
+          "lineNumber": 53
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "formValues.evaluateTime[0].format",
+          "lineNumber": 61
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "formValues.evaluateTime[1].format",
+          "lineNumber": 62
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "Object.assign",
+          "lineNumber": 65
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "request.post('/appDashboard/queryEmunDetiai', {params: queryParams})\r\n            .then((res) => {\r\n                setTableData(res.beans);\r\n                setTotal(res.bean?.total || 0);\r\n            })\r\n            .finally",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "request.post('/appDashboard/queryEmunDetiai', {params: queryParams})\r\n            .then",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "request.post",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setTableData",
+          "lineNumber": 69
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setTotal",
+          "lineNumber": 70
+        },
+        {
+          "caller": "getEvaluationDetailData",
+          "callee": "setLoading",
+          "lineNumber": 73
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 78
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "setCurrentPage",
+          "lineNumber": 79
+        },
+        {
+          "caller": "handleSearch",
+          "callee": "getEvaluationDetailData",
+          "lineNumber": 80
+        },
+        {
+          "caller": "handleReset",
+          "callee": "form.resetFields",
+          "lineNumber": 84
+        },
+        {
+          "caller": "handleReset",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 85
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setCurrentPage",
+          "lineNumber": 93
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setPageSize",
+          "lineNumber": 94
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 95
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "getEvaluationDetailData",
+          "lineNumber": 96
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "setModalVisible",
+          "lineNumber": 167
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().endOf",
+          "lineNumber": 186
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 186
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isSame",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from({ length: dayjs().hour() }, (_, i) => i).slice",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 190
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isSame",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.hour",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().minute",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 191
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isSame",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.hour",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.minute",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().minute",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().second",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 192
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isAfter",
+          "lineNumber": 196
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 196
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 196
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 196
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 196
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isSame",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from({ length: dayjs().minute() + 1 }, (_, i) => i).slice",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().minute",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 197
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.isSame",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "current.hour",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().hour",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "Array.from",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs().second",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "dayjs",
+          "lineNumber": 198
+        },
+        {
+          "caller": "EvalutionDetialModal",
+          "callee": "provinceSelectValue.map",
+          "lineNumber": 235
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationAchievements/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 434,
+      "nonEmptyLines": 415,
+      "functions": [
+        {
+          "name": "ApplicationAchievements",
+          "startLine": 33,
+          "endLine": 433,
+          "params": [
+            "{ initialParams }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "Form.useForm",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useRef",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 45
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 47
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useRef",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handleClick",
+          "callee": "setCurrentPage",
+          "lineNumber": 53
+        },
+        {
+          "caller": "handleClick",
+          "callee": "getAccessDetailData",
+          "lineNumber": 54
+        },
+        {
+          "caller": "handleClick",
+          "callee": "trackClk",
+          "lineNumber": 56
+        },
+        {
+          "caller": "handleResetClick",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "trackClk",
+          "lineNumber": 68
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setCurrentPage",
+          "lineNumber": 69
+        },
+        {
+          "caller": "handleTableChange",
+          "callee": "setPageSize",
+          "lineNumber": 70
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setFilteredData",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setTotal",
+          "lineNumber": 78
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setLoading",
+          "lineNumber": 79
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 80
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "request.post('appDashboard/queryEmunList', {params: queryParams})\r\n            .then((res) => {\r\n                setFilteredData(res.beans);\r\n                setTotal(res.bean?.total || 0);\r\n            }\r\n            ).finally",
+          "lineNumber": 91
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "request.post('appDashboard/queryEmunList', {params: queryParams})\r\n            .then",
+          "lineNumber": 91
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "request.post",
+          "lineNumber": 91
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setFilteredData",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setTotal",
+          "lineNumber": 94
+        },
+        {
+          "caller": "getAccessDetailData",
+          "callee": "setLoading",
+          "lineNumber": 97
+        },
+        {
+          "caller": "fetchTenantItems",
+          "callee": "request.post('/appTenant/queryAppTenantList', {\r\n            start: 0,\r\n            page: 1,\r\n            limit: 50\r\n        })\r\n            .then",
+          "lineNumber": 102
+        },
+        {
+          "caller": "fetchTenantItems",
+          "callee": "request.post",
+          "lineNumber": 102
+        },
+        {
+          "caller": "fetchTenantItems",
+          "callee": "(res?.beans || []).map",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fetchTenantItems",
+          "callee": "setTenantNameItems",
+          "lineNumber": 114
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "form.getFieldValue",
+          "lineNumber": 119
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "request.post('appDashboard/queryProjectList', {\r\n            params: {\r\n                tenantId: currentTenantId && currentTenantId !== '0000' ? currentTenantId : \"\"\r\n            }\r\n        })\r\n            .then",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "request.post",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "(res?.beans || []).map",
+          "lineNumber": 127
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "setProjectIdItems",
+          "lineNumber": 128
+        },
+        {
+          "caller": "fetchProjectItems",
+          "callee": "setProjectIdItems",
+          "lineNumber": 130
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "form.getFieldValue",
+          "lineNumber": 138
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "form.getFieldValue",
+          "lineNumber": 140
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "request.post('appDashboard/queryAppEffectModuleList', {\r\n            params: {\r\n                provId: tenantCode && serviceTypeId2ProvId[tenantCode] || \"\", // 省份\r\n                projectId: currentProjectId && currentProjectId !== '0000' ? currentProjectId : \"\",\r\n                appStatus: \"6,10,11\",\r\n            }\r\n        }).then",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "request.post",
+          "lineNumber": 141
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "(res?.beans || []).map",
+          "lineNumber": 148
+        },
+        {
+          "caller": "fetchAppNameItems",
+          "callee": "setAppNameItems",
+          "lineNumber": 149
+        },
+        {
+          "caller": "handleTenantChange",
+          "callee": "setProjectIdItems",
+          "lineNumber": 154
+        },
+        {
+          "caller": "handleTenantChange",
+          "callee": "setAppNameItems",
+          "lineNumber": 155
+        },
+        {
+          "caller": "handleTenantChange",
+          "callee": "form.setFieldValue",
+          "lineNumber": 156
+        },
+        {
+          "caller": "handleTenantChange",
+          "callee": "form.setFieldValue",
+          "lineNumber": 157
+        },
+        {
+          "caller": "handleTenantChange",
+          "callee": "fetchProjectItems",
+          "lineNumber": 158
+        },
+        {
+          "caller": "handleProjectChange",
+          "callee": "form.setFieldValue",
+          "lineNumber": 162
+        },
+        {
+          "caller": "handleProjectChange",
+          "callee": "setAppNameItems",
+          "lineNumber": 163
+        },
+        {
+          "caller": "handleProjectChange",
+          "callee": "fetchAppNameItems",
+          "lineNumber": 164
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useEffect",
+          "lineNumber": 167
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "fetchTenantItems",
+          "lineNumber": 168
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useEffect",
+          "lineNumber": 171
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 173
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "fetchProjectItems",
+          "lineNumber": 176
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useEffect",
+          "lineNumber": 180
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "form.setFieldsValue",
+          "lineNumber": 182
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "fetchAppNameItems",
+          "lineNumber": 186
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useEffect",
+          "lineNumber": 190
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "getAccessDetailData",
+          "lineNumber": 193
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "useEffect",
+          "lineNumber": 197
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "getAccessDetailData",
+          "lineNumber": 199
+        },
+        {
+          "caller": "handleDetailModeClick",
+          "callee": "setDetailInfo",
+          "lineNumber": 204
+        },
+        {
+          "caller": "handleDetailModeClick",
+          "callee": "setDetailVisible",
+          "lineNumber": 205
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "((value / record.totalCount) * 100).toFixed",
+          "lineNumber": 261
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "((value / record.totalCount) * 100).toFixed",
+          "lineNumber": 275
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "handleDetailModeClick",
+          "lineNumber": 285
+        },
+        {
+          "caller": "ApplicationAchievements",
+          "callee": "form.getFieldsValue",
+          "lineNumber": 429
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/pages/applicationAchievements/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 33,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

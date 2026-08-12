@@ -1,0 +1,184 @@
+{
+  "projectRoot": "C:/Users/EDY/Desktop/ngap",
+  "batchFiles": [
+    {
+      "path": "materials/EChart/MapChart/mapJson/chinaGeoJSON.json",
+      "language": "json",
+      "sizeLines": 26913,
+      "fileCategory": "config"
+    },
+    {
+      "path": "materials/EChart/MapChart/README.md",
+      "language": "markdown",
+      "sizeLines": 79,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "materials/FeedBack/Popover/index.module.less",
+      "language": "css",
+      "sizeLines": 154,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FeedBack/Spin/index.module.less",
+      "language": "css",
+      "sizeLines": 19,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/CheckBox/index.less",
+      "language": "css",
+      "sizeLines": 12,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/Counter/CounterDouble.tsx",
+      "language": "typescript",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Counter/index.module.less",
+      "language": "css",
+      "sizeLines": 290,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/InputNumber/index.module.less",
+      "language": "css",
+      "sizeLines": 5,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/Radio/index.less",
+      "language": "css",
+      "sizeLines": 22,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/Slider/index.module.less",
+      "language": "css",
+      "sizeLines": 51,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/Transfer/index.module.less",
+      "language": "css",
+      "sizeLines": 154,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/FormItems/Transfer/OperationsSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/Transfer/ShowNumberSetting.tsx",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/FormItems/TreeSelect/index.module.less",
+      "language": "css",
+      "sizeLines": 253,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Functional/Descriptions/index.module.less",
+      "language": "css",
+      "sizeLines": 5,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Functional/List/index.module.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Functional/Tabs/index.module.less",
+      "language": "css",
+      "sizeLines": 61,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Layout/BottomBanner/index.module.less",
+      "language": "css",
+      "sizeLines": 22,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Layout/Span/index.module.less",
+      "language": "css",
+      "sizeLines": 44,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/NgapRender/index.less",
+      "language": "css",
+      "sizeLines": 19,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Scene/BusinessTable/index.module.less",
+      "language": "css",
+      "sizeLines": 168,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Scene/NgapTable/index.module.less",
+      "language": "css",
+      "sizeLines": 126,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/Scene/SearchForm/index.module.less",
+      "language": "css",
+      "sizeLines": 16,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "materials/typings.d.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "materials/utils/crossAPI.d.ts",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "materials/EChart/MapChart/mapJson/chinaGeoJSON.json": [],
+    "materials/EChart/MapChart/README.md": [],
+    "materials/FeedBack/Popover/index.module.less": [],
+    "materials/FeedBack/Spin/index.module.less": [],
+    "materials/FormItems/CheckBox/index.less": [],
+    "materials/FormItems/Counter/CounterDouble.tsx": [
+      "materials/FormItems/Counter/index.module.less"
+    ],
+    "materials/FormItems/Counter/index.module.less": [],
+    "materials/FormItems/InputNumber/index.module.less": [],
+    "materials/FormItems/Radio/index.less": [],
+    "materials/FormItems/Slider/index.module.less": [],
+    "materials/FormItems/Transfer/index.module.less": [],
+    "materials/FormItems/Transfer/OperationsSetting.tsx": [],
+    "materials/FormItems/Transfer/ShowNumberSetting.tsx": [],
+    "materials/FormItems/TreeSelect/index.module.less": [],
+    "materials/Functional/Descriptions/index.module.less": [],
+    "materials/Functional/List/index.module.less": [],
+    "materials/Functional/Tabs/index.module.less": [],
+    "materials/Layout/BottomBanner/index.module.less": [],
+    "materials/Layout/Span/index.module.less": [],
+    "materials/NgapRender/index.less": [],
+    "materials/Scene/BusinessTable/index.module.less": [],
+    "materials/Scene/NgapTable/index.module.less": [],
+    "materials/Scene/SearchForm/index.module.less": [],
+    "materials/typings.d.ts": [],
+    "materials/utils/crossAPI.d.ts": []
+  }
+}

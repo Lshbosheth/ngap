@@ -1,0 +1,987 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Advanced/Progress/Progress.tsx",
+      "type": "file",
+      "name": "Progress.tsx",
+      "filePath": "src/packages/Advanced/Progress/Progress.tsx",
+      "summary": "该文件封装低代码运行时的 Progress 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Advanced/Progress/Progress.tsx:MProgress",
+      "type": "function",
+      "name": "MProgress",
+      "filePath": "src/packages/Advanced/Progress/Progress.tsx",
+      "lineRange": [
+        26,
+        107
+      ],
+      "summary": "MProgress 是该文件的核心 React 组件，负责封装低代码运行时的 Progress 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "type": "file",
+      "name": "SearchForm.tsx",
+      "filePath": "src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "summary": "该文件封装低代码运行时的 SearchForm 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Advanced/SearchForm/SearchForm.tsx:SearchForm",
+      "type": "function",
+      "name": "SearchForm",
+      "filePath": "src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "lineRange": [
+        45,
+        290
+      ],
+      "summary": "SearchForm 是该文件的核心 React 组件，负责封装低代码运行时的 SearchForm 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "type": "file",
+      "name": "Tree.tsx",
+      "filePath": "src/packages/Advanced/Tree/Tree.tsx",
+      "summary": "该文件封装低代码运行时的 Tree 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "advanced-widget",
+        "data-binding"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/Advanced/Tree/Tree.tsx:MTree",
+      "type": "function",
+      "name": "MTree",
+      "filePath": "src/packages/Advanced/Tree/Tree.tsx",
+      "lineRange": [
+        44,
+        543
+      ],
+      "summary": "MTree 是该文件的核心 React 组件，负责封装低代码运行时的 Tree 高级组件，协调数据绑定、事件触发和 ref 能力。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "advanced-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "type": "file",
+      "name": "AudioPlayer.tsx",
+      "filePath": "src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "summary": "该文件封装低代码运行时的 AudioPlayer 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex",
+      "languageNotes": "该组件采用 React 与 TypeScript 组织较复杂的状态、数据绑定和事件逻辑，并通过平台约定向设计态与运行态暴露能力。"
+    },
+    {
+      "id": "function:src/packages/Basic/AudioPlayer/AudioPlayer.tsx:AudioPlayer",
+      "type": "function",
+      "name": "AudioPlayer",
+      "filePath": "src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "lineRange": [
+        13,
+        653
+      ],
+      "summary": "AudioPlayer 是该文件的核心 React 组件，负责封装低代码运行时的 AudioPlayer 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/Avatar/Avatar.tsx",
+      "type": "file",
+      "name": "Avatar.tsx",
+      "filePath": "src/packages/Basic/Avatar/Avatar.tsx",
+      "summary": "该文件封装低代码运行时的 Avatar 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Avatar/Avatar.tsx:MAvatar",
+      "type": "function",
+      "name": "MAvatar",
+      "filePath": "src/packages/Basic/Avatar/Avatar.tsx",
+      "lineRange": [
+        33,
+        90
+      ],
+      "summary": "MAvatar 是该文件的核心 React 组件，负责封装低代码运行时的 Avatar 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Badge/Badge.tsx",
+      "type": "file",
+      "name": "Badge.tsx",
+      "filePath": "src/packages/Basic/Badge/Badge.tsx",
+      "summary": "该文件封装低代码运行时的 Badge 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Badge/Badge.tsx:MBadge",
+      "type": "function",
+      "name": "MBadge",
+      "filePath": "src/packages/Basic/Badge/Badge.tsx",
+      "lineRange": [
+        21,
+        128
+      ],
+      "summary": "MBadge 是该文件的核心 React 组件，负责封装低代码运行时的 Badge 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "type": "file",
+      "name": "BownloadButton.tsx",
+      "filePath": "src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "summary": "该文件封装低代码运行时的 BownloadButton 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Basic/BownloadButton/BownloadButton.tsx:BownloadButton",
+      "type": "function",
+      "name": "BownloadButton",
+      "filePath": "src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "lineRange": [
+        29,
+        274
+      ],
+      "summary": "BownloadButton 是该文件的核心 React 组件，负责封装低代码运行时的 BownloadButton 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "type": "file",
+      "name": "CollapseBtn.tsx",
+      "filePath": "src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "summary": "该文件封装低代码运行时的 CollapseBtn 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/CollapseBtn/CollapseBtn.tsx:CollapseBtn",
+      "type": "function",
+      "name": "CollapseBtn",
+      "filePath": "src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "lineRange": [
+        22,
+        132
+      ],
+      "summary": "CollapseBtn 是该文件的核心 React 组件，负责封装低代码运行时的 CollapseBtn 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/File/File.tsx",
+      "type": "file",
+      "name": "File.tsx",
+      "filePath": "src/packages/Basic/File/File.tsx",
+      "summary": "该文件封装低代码运行时的 File 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/File/File.tsx:MFile",
+      "type": "function",
+      "name": "MFile",
+      "filePath": "src/packages/Basic/File/File.tsx",
+      "lineRange": [
+        23,
+        76
+      ],
+      "summary": "MFile 是该文件的核心 React 组件，负责封装低代码运行时的 File 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Icon/Icon.tsx",
+      "type": "file",
+      "name": "Icon.tsx",
+      "filePath": "src/packages/Basic/Icon/Icon.tsx",
+      "summary": "该文件封装低代码运行时的 Icon 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Icon/Icon.tsx:MImage",
+      "type": "function",
+      "name": "MImage",
+      "filePath": "src/packages/Basic/Icon/Icon.tsx",
+      "lineRange": [
+        13,
+        105
+      ],
+      "summary": "MImage 是该文件的核心 React 组件，负责封装低代码运行时的 Icon 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Image/Image.tsx",
+      "type": "file",
+      "name": "Image.tsx",
+      "filePath": "src/packages/Basic/Image/Image.tsx",
+      "summary": "该文件封装低代码运行时的 Image 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/Basic/Image/Image.tsx:MImage",
+      "type": "function",
+      "name": "MImage",
+      "filePath": "src/packages/Basic/Image/Image.tsx",
+      "lineRange": [
+        12,
+        40
+      ],
+      "summary": "MImage 是该文件的核心 React 组件，负责封装低代码运行时的 Image 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Link/Link.tsx",
+      "type": "file",
+      "name": "Link.tsx",
+      "filePath": "src/packages/Basic/Link/Link.tsx",
+      "summary": "该文件封装低代码运行时的 Link 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Link/Link.tsx:MLink",
+      "type": "function",
+      "name": "MLink",
+      "filePath": "src/packages/Basic/Link/Link.tsx",
+      "lineRange": [
+        12,
+        58
+      ],
+      "summary": "MLink 是该文件的核心 React 组件，负责封装低代码运行时的 Link 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/Basic/Statistic/Statistic.tsx",
+      "type": "file",
+      "name": "Statistic.tsx",
+      "filePath": "src/packages/Basic/Statistic/Statistic.tsx",
+      "summary": "该文件封装低代码运行时的 Statistic 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Statistic/Statistic.tsx:MStatistic",
+      "type": "function",
+      "name": "MStatistic",
+      "filePath": "src/packages/Basic/Statistic/Statistic.tsx",
+      "lineRange": [
+        15,
+        64
+      ],
+      "summary": "MStatistic 是该文件的核心 React 组件，负责封装低代码运行时的 Statistic 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Tag/Tag.tsx",
+      "type": "file",
+      "name": "Tag.tsx",
+      "filePath": "src/packages/Basic/Tag/Tag.tsx",
+      "summary": "该文件封装低代码运行时的 Tag 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Basic/Tag/Tag.tsx:MTag",
+      "type": "function",
+      "name": "MTag",
+      "filePath": "src/packages/Basic/Tag/Tag.tsx",
+      "lineRange": [
+        14,
+        69
+      ],
+      "summary": "MTag 是该文件的核心 React 组件，负责封装低代码运行时的 Tag 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Basic/Text/Text.tsx",
+      "type": "file",
+      "name": "Text.tsx",
+      "filePath": "src/packages/Basic/Text/Text.tsx",
+      "summary": "该文件封装低代码运行时的 Text 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/Basic/Text/Text.tsx:MText",
+      "type": "function",
+      "name": "MText",
+      "filePath": "src/packages/Basic/Text/Text.tsx",
+      "lineRange": [
+        16,
+        248
+      ],
+      "summary": "MText 是该文件的核心 React 组件，负责封装低代码运行时的 Text 基础展示组件，并适配设计态属性和事件模型。",
+      "tags": [
+        "react-component",
+        "event-handler",
+        "low-code-component",
+        "basic-widget"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Advanced/Progress/Progress.tsx",
+      "target": "function:src/packages/Advanced/Progress/Progress.tsx:MProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "function:src/packages/Advanced/SearchForm/SearchForm.tsx:SearchForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "target": "function:src/packages/Advanced/Tree/Tree.tsx:MTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "function:src/packages/Basic/AudioPlayer/AudioPlayer.tsx:AudioPlayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Avatar/Avatar.tsx",
+      "target": "function:src/packages/Basic/Avatar/Avatar.tsx:MAvatar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "function:src/packages/Basic/Badge/Badge.tsx:MBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "function:src/packages/Basic/BownloadButton/BownloadButton.tsx:BownloadButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "function:src/packages/Basic/CollapseBtn/CollapseBtn.tsx:CollapseBtn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/File/File.tsx",
+      "target": "function:src/packages/Basic/File/File.tsx:MFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Icon/Icon.tsx",
+      "target": "function:src/packages/Basic/Icon/Icon.tsx:MImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Image/Image.tsx",
+      "target": "function:src/packages/Basic/Image/Image.tsx:MImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Link/Link.tsx",
+      "target": "function:src/packages/Basic/Link/Link.tsx:MLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Statistic/Statistic.tsx",
+      "target": "function:src/packages/Basic/Statistic/Statistic.tsx:MStatistic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Tag/Tag.tsx",
+      "target": "function:src/packages/Basic/Tag/Tag.tsx:MTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "function:src/packages/Basic/Text/Text.tsx:MText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Advanced/Progress/Progress.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Progress/Progress.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/Advanced/SearchForm/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/component.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/utils/context.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/SearchForm/SearchForm.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "target": "file:src/packages/Advanced/Tree/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Advanced/Tree/Tree.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "file:src/packages/Basic/AudioPlayer/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/AudioPlayer/AudioPlayer.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Avatar/Avatar.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Avatar/Avatar.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/packages/Basic/Badge/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Badge/Badge.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:src/utils/apiUtilForInterface.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/BownloadButton/BownloadButton.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/packages/Basic/CollapseBtn/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/stores/apiListStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/CollapseBtn/CollapseBtn.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/File/File.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Icon/Icon.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Icon/Icon.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Icon/Icon.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Image/Image.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Image/Image.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/Link.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/Link.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Link/Link.tsx",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Statistic/Statistic.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Statistic/Statistic.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Statistic/Statistic.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Tag/Tag.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Tag/Tag.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "file:src/packages/Basic/Text/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Basic/Text/Text.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

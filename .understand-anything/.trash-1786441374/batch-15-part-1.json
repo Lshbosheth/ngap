@@ -1,0 +1,1537 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/packages/Layout/Span/Span.tsx",
+      "type": "file",
+      "name": "Span.tsx",
+      "filePath": "src/packages/Layout/Span/Span.tsx",
+      "summary": "实现行内 Span 布局物料，应用配置样式、事件和子元素并暴露组件引用。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Layout/Span/Span.tsx:MSpan",
+      "type": "function",
+      "name": "MSpan",
+      "filePath": "src/packages/Layout/Span/Span.tsx",
+      "lineRange": [
+        17,
+        59
+      ],
+      "summary": "渲染 Span 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "file",
+      "name": "NgapRender.tsx",
+      "filePath": "src/packages/NgapRender/NgapRender.tsx",
+      "summary": "实现主运行时的通用物料渲染器，根据元素类型解析组件、属性、变量和事件并递归渲染子元素。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "type": "file",
+      "name": "IFrame.tsx",
+      "filePath": "src/packages/Other/IFrame/IFrame.tsx",
+      "summary": "实现 IFrame 物料，按配置拼接 URL 参数、控制加载状态并处理与内嵌页面的消息交互。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "type": "function",
+      "name": "buildUrlWithParams",
+      "filePath": "src/packages/Other/IFrame/IFrame.tsx",
+      "lineRange": [
+        17,
+        67
+      ],
+      "summary": "把配置参数编码并追加到 IFrame URL。",
+      "tags": [
+        "utility",
+        "api",
+        "data-mapping"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Other/IFrame/IFrame.tsx:IFrame",
+      "type": "function",
+      "name": "IFrame",
+      "filePath": "src/packages/Other/IFrame/IFrame.tsx",
+      "lineRange": [
+        75,
+        198
+      ],
+      "summary": "渲染 IFrame 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/Page/Page.tsx",
+      "type": "file",
+      "name": "Page.tsx",
+      "filePath": "src/packages/Page/Page.tsx",
+      "summary": "实现页面根容器物料，负责页面样式、事件初始化、表单上下文和子元素承载。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/Page/Page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "src/packages/Page/Page.tsx",
+      "lineRange": [
+        19,
+        96
+      ],
+      "summary": "渲染 Page 对应界面并协调其状态、数据请求和用户操作。",
+      "tags": [
+        "component",
+        "react",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/packages/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "src/packages/index.tsx",
+      "summary": "作为主 src 运行时的动态物料注册入口，下载并编译自定义元素源码、缓存组件并提供查询和更新 API。",
+      "tags": [
+        "entry-point",
+        "component-registry",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "complex",
+      "languageNotes": "在浏览器侧下载源码并动态编译 TSX/JavaScript/Less，以缓存和 React.lazy 方式装载自定义元素。"
+    },
+    {
+      "id": "function:src/packages/index.tsx:onPreviewTsx",
+      "type": "function",
+      "name": "onPreviewTsx",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        52,
+        84
+      ],
+      "summary": "把下载的 TSX 源码编译为浏览器可执行模块。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:onPreviewJs",
+      "type": "function",
+      "name": "onPreviewJs",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        87,
+        109
+      ],
+      "summary": "处理自定义元素 JavaScript 源码并生成可执行模块。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:onPreviewLess",
+      "type": "function",
+      "name": "onPreviewLess",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        112,
+        133
+      ],
+      "summary": "编译并注入自定义元素 Less 样式。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:extensionToMimeType",
+      "type": "function",
+      "name": "extensionToMimeType",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        136,
+        153
+      ],
+      "summary": "把文件扩展名映射为下载响应的 MIME 类型。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:downloadFile",
+      "type": "function",
+      "name": "downloadFile",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        156,
+        168
+      ],
+      "summary": "下载自定义元素单个源码或资源文件。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:getLanguageByExtension",
+      "type": "function",
+      "name": "getLanguageByExtension",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        171,
+        184
+      ],
+      "summary": "根据扩展名识别编辑或编译使用的语言类型。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:fetchFileStream",
+      "type": "function",
+      "name": "fetchFileStream",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        187,
+        208
+      ],
+      "summary": "获取单个自定义元素文件流。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:fetchAllFileStream",
+      "type": "function",
+      "name": "fetchAllFileStream",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        210,
+        266
+      ],
+      "summary": "并行获取自定义元素包内全部文件内容。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/index.tsx:elementInfoFun",
+      "type": "function",
+      "name": "elementInfoFun",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        270,
+        384
+      ],
+      "summary": "加载元素元数据和源码并创建运行时组件。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/index.tsx:queryElementFun",
+      "type": "function",
+      "name": "queryElementFun",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        387,
+        412
+      ],
+      "summary": "查询自定义元素信息并更新动态组件缓存。",
+      "tags": [
+        "utility",
+        "data-processing",
+        "runtime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:clearComponentCache",
+      "type": "function",
+      "name": "clearComponentCache",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        421,
+        423
+      ],
+      "summary": "按标识移除单个动态组件缓存。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:clearAllComponentCache",
+      "type": "function",
+      "name": "clearAllComponentCache",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        426,
+        428
+      ],
+      "summary": "清空主运行时全部动态组件缓存。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:getComponent",
+      "type": "function",
+      "name": "getComponent",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        431,
+        443
+      ],
+      "summary": "按元素类型返回内置或动态加载的组件。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:getComponentType",
+      "type": "function",
+      "name": "getComponentType",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        446,
+        448
+      ],
+      "summary": "返回指定动态组件的注册类型信息。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/index.tsx:updateComponent",
+      "type": "function",
+      "name": "updateComponent",
+      "filePath": "src/packages/index.tsx",
+      "lineRange": [
+        451,
+        453
+      ],
+      "summary": "重新加载并替换指定自定义组件。",
+      "tags": [
+        "utility",
+        "dynamic-loader",
+        "custom-element"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/types/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/packages/types/index.ts",
+      "summary": "定义主物料运行时的元素、页面、事件、接口、变量、Schema 和组件属性等公共类型契约。",
+      "tags": [
+        "type-definition",
+        "runtime-contract",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/packages/utils/action.ts",
+      "type": "file",
+      "name": "action.ts",
+      "filePath": "src/packages/utils/action.ts",
+      "summary": "实现主物料运行时的动作链解释器，执行接口、弹窗、跳转、变量赋值、样式和组件状态等动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "workflow",
+        "event-handler"
+      ],
+      "complexity": "complex",
+      "languageNotes": "通过动作类型分派器解释配置化动作链，并以 next/branch 关系控制后续执行。"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:convertArrayToLinkedList",
+      "type": "function",
+      "name": "convertArrayToLinkedList",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        27,
+        74
+      ],
+      "summary": "把线性动作配置转换为带分支和 next 指针的执行链。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleActionFlow",
+      "type": "function",
+      "name": "handleActionFlow",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        80,
+        88
+      ],
+      "summary": "构建动作链并从入口开始顺序执行。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:execAction",
+      "type": "function",
+      "name": "execAction",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        95,
+        168
+      ],
+      "summary": "识别当前动作类型、执行处理器并推进动作链或分支。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:mergeParams",
+      "type": "function",
+      "name": "mergeParams",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        181,
+        199
+      ],
+      "summary": "把静态配置、变量、表单和接口数据合并为调用参数。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleMethods",
+      "type": "function",
+      "name": "handleMethods",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        204,
+        242
+      ],
+      "summary": "调用目标组件暴露的方法并处理返回结果。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleShowConfirm",
+      "type": "function",
+      "name": "handleShowConfirm",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        257,
+        270
+      ],
+      "summary": "执行确认对话框动作并根据选择进入不同分支。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleMessage",
+      "type": "function",
+      "name": "handleMessage",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        275,
+        285
+      ],
+      "summary": "执行全局消息提示动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleNotification",
+      "type": "function",
+      "name": "handleNotification",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        290,
+        299
+      ],
+      "summary": "执行通知提示动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleCrossAPIfn",
+      "type": "function",
+      "name": "handleCrossAPIfn",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        316,
+        329
+      ],
+      "summary": "执行 CrossAPI 宿主能力动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleGoldBankCheckfn",
+      "type": "function",
+      "name": "handleGoldBankCheckfn",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        334,
+        346
+      ],
+      "summary": "执行 GoldBank 安全校验动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleJumpLink",
+      "type": "function",
+      "name": "handleJumpLink",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        350,
+        433
+      ],
+      "summary": "解析并执行页面内、外部链接或路由跳转动作。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleDestroyPage",
+      "type": "function",
+      "name": "handleDestroyPage",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        437,
+        449
+      ],
+      "summary": "销毁指定页面或宿主容器。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleVariable",
+      "type": "function",
+      "name": "handleVariable",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        454,
+        477
+      ],
+      "summary": "计算表达式并写入页面变量。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleSetTimeout",
+      "type": "function",
+      "name": "handleSetTimeout",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        495,
+        535
+      ],
+      "summary": "延迟执行后续动作并登记可清理定时器。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleVisible",
+      "type": "function",
+      "name": "handleVisible",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        540,
+        563
+      ],
+      "summary": "变更目标组件的显示状态。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleDisable",
+      "type": "function",
+      "name": "handleDisable",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        568,
+        591
+      ],
+      "summary": "变更目标组件的禁用状态。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleRunScripts",
+      "type": "function",
+      "name": "handleRunScripts",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        607,
+        619
+      ],
+      "summary": "在受控上下文中执行配置脚本。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleOpenPopover",
+      "type": "function",
+      "name": "handleOpenPopover",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        624,
+        647
+      ],
+      "summary": "调用目标组件打开气泡层。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/action.ts:handleClosePopover",
+      "type": "function",
+      "name": "handleClosePopover",
+      "filePath": "src/packages/utils/action.ts",
+      "lineRange": [
+        652,
+        670
+      ],
+      "summary": "调用目标组件关闭气泡层。",
+      "tags": [
+        "service",
+        "action-engine",
+        "event-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/context.ts",
+      "type": "file",
+      "name": "context.ts",
+      "filePath": "src/packages/utils/context.ts",
+      "summary": "定义主物料运行时表单上下文及访问 Hook。",
+      "tags": [
+        "component",
+        "react",
+        "runtime-renderer"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/context.ts:useFormContext",
+      "type": "function",
+      "name": "useFormContext",
+      "filePath": "src/packages/utils/context.ts",
+      "lineRange": [
+        17,
+        29
+      ],
+      "summary": "读取当前表单上下文并在缺失 Provider 时给出明确约束。",
+      "tags": [
+        "hook",
+        "react",
+        "runtime-data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/packages/utils/crossAPIAction.ts",
+      "type": "file",
+      "name": "crossAPIAction.ts",
+      "filePath": "src/packages/utils/crossAPIAction.ts",
+      "summary": "将主运行时动作配置转换为 CrossAPI 客户端调用，覆盖坐席、通话、鉴权和消息等宿主能力。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:src/packages/utils/crossAPIAction.ts:getFormatTime",
+      "type": "function",
+      "name": "getFormatTime",
+      "filePath": "src/packages/utils/crossAPIAction.ts",
+      "lineRange": [
+        27,
+        37
+      ],
+      "summary": "实现 getFormatTime 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/crossAPIAction.ts:openScreenCardParams",
+      "type": "function",
+      "name": "openScreenCardParams",
+      "filePath": "src/packages/utils/crossAPIAction.ts",
+      "lineRange": [
+        44,
+        69
+      ],
+      "summary": "实现 openScreenCardParams 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/crossAPIAction.ts:getOneKeyHandleDialog",
+      "type": "function",
+      "name": "getOneKeyHandleDialog",
+      "filePath": "src/packages/utils/crossAPIAction.ts",
+      "lineRange": [
+        72,
+        98
+      ],
+      "summary": "实现 getOneKeyHandleDialog 对应的运行时处理逻辑。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/packages/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "function",
+      "name": "crossAPIAction",
+      "filePath": "src/packages/utils/crossAPIAction.ts",
+      "lineRange": [
+        125,
+        579
+      ],
+      "summary": "按动作名称和参数分派 CrossAPI 客户端能力调用。",
+      "tags": [
+        "service",
+        "cross-api",
+        "host-integration"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/packages/Layout/Span/Span.tsx",
+      "target": "file:src/packages/Layout/Span/Col.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Span.tsx",
+      "target": "file:src/packages/Layout/Span/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Span.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Layout/Span/Span.tsx",
+      "target": "function:src/packages/Layout/Span/Span.tsx:MSpan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/NgapRender/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/utils/useComponentRefs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/utils/useMaterialTools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/NgapRender/NgapRender.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:page/src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "file:src/utils/useMessageListener.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "function:src/packages/Other/IFrame/IFrame.tsx:buildUrlWithParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Other/IFrame/IFrame.tsx",
+      "target": "function:src/packages/Other/IFrame/IFrame.tsx:IFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Page/Page.tsx",
+      "target": "file:src/packages/NgapRender/NgapRender.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Page/Page.tsx",
+      "target": "file:src/packages/Page/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Page/Page.tsx",
+      "target": "file:src/packages/utils/action.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/Page/Page.tsx",
+      "target": "function:src/packages/Page/Page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/Page/Page.tsx",
+      "target": "function:src/packages/Page/Page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "file:src/packages/index.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "file:src/utils/AppProvider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "file:src/utils/objectToFormData.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:onPreviewTsx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:onPreviewJs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:onPreviewLess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:extensionToMimeType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:downloadFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:getLanguageByExtension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:fetchFileStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:fetchAllFileStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:elementInfoFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:queryElementFun",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:clearComponentCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:clearComponentCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:clearAllComponentCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:clearAllComponentCache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:getComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:getComponent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:getComponentType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:getComponentType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:updateComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/index.tsx",
+      "target": "function:src/packages/index.tsx:updateComponent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/utils/crossAPIAction.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/utils/goldBankCheckfn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/utils/handleApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/utils/useComponentRefs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/stores/menuStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:convertArrayToLinkedList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleActionFlow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleActionFlow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:execAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:mergeParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleMethods",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleShowConfirm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleNotification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleCrossAPIfn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleGoldBankCheckfn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleJumpLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleDestroyPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleVariable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleSetTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleVisible",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleDisable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleRunScripts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleOpenPopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/action.ts",
+      "target": "function:src/packages/utils/action.ts:handleClosePopover",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/context.ts",
+      "target": "function:src/packages/utils/context.ts:useFormContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/context.ts",
+      "target": "function:src/packages/utils/context.ts:useFormContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/packages/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/packages/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/stores/crossAPIStaticDataStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/stores/crossapiStore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/AntdGlobal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/crossAPI.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/crossAPIUtil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/ProvinceIdCon.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "file:src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "function:src/packages/utils/crossAPIAction.ts:getFormatTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "function:src/packages/utils/crossAPIAction.ts:openScreenCardParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "function:src/packages/utils/crossAPIAction.ts:getOneKeyHandleDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "function:src/packages/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/packages/utils/crossAPIAction.ts",
+      "target": "function:src/packages/utils/crossAPIAction.ts:crossAPIAction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

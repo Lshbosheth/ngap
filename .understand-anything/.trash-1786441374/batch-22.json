@@ -1,0 +1,654 @@
+{
+  "nodes": [
+    {
+      "id": "file:page/src/api/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "page/src/api/index.ts",
+      "summary": "提供独立 page 运行时的页面详情查询接口，组装页面标识并通过统一请求层获取发布态页面数据。",
+      "tags": [
+        "api-client",
+        "page-runtime",
+        "data-fetching"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/api/index.ts:getPageDetail",
+      "type": "function",
+      "name": "getPageDetail",
+      "filePath": "page/src/api/index.ts",
+      "lineRange": [
+        5,
+        19
+      ],
+      "summary": "根据当前运行环境和页面标识请求发布态页面详情。",
+      "tags": [
+        "api-client",
+        "page-runtime",
+        "data-fetching"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/src/page/TemplateNav.tsx",
+      "type": "file",
+      "name": "TemplateNav.tsx",
+      "filePath": "page/src/page/TemplateNav.tsx",
+      "summary": "实现独立 page 运行时的模板导航视图，展示页面模板入口并复用页面级样式。",
+      "tags": [
+        "react-component",
+        "page-runtime",
+        "navigation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:page/src/page/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "page/src/page/index.tsx",
+      "summary": "作为独立 page 运行时核心入口，加载页面详情、注册变量与接口、转换画布数据、渲染物料并协调模板导航和全局状态。",
+      "tags": [
+        "entry-point",
+        "page-runtime",
+        "runtime-renderer",
+        "state-management"
+      ],
+      "complexity": "complex",
+      "languageNotes": "以 React Hooks 串联页面加载、全局变量合并和物料树渲染，同时兼容独立发布运行环境。"
+    },
+    {
+      "id": "function:page/src/page/index.tsx:Pages",
+      "type": "function",
+      "name": "Pages",
+      "filePath": "page/src/page/index.tsx",
+      "lineRange": [
+        32,
+        889
+      ],
+      "summary": "引导独立 page 运行时完成页面初始化、变量和接口注册、数据转换以及物料树渲染。",
+      "tags": [
+        "entry-point",
+        "page-runtime",
+        "runtime-renderer"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:page/src/types/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "page/src/types/index.ts",
+      "summary": "定义独立 page 运行时使用的页面、变量和基础数据类型，为接口与工具层提供 TypeScript 约束。",
+      "tags": [
+        "type-definition",
+        "page-runtime",
+        "data-model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/src/utils/ChromeVersionLow.tsx",
+      "type": "file",
+      "name": "ChromeVersionLow.tsx",
+      "filePath": "page/src/utils/ChromeVersionLow.tsx",
+      "summary": "提供浏览器版本过低提示组件，根据 Chrome 版本检测结果阻止不兼容页面继续运行。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/ChromeVersionLow.tsx:ChromeVersionLow",
+      "type": "function",
+      "name": "ChromeVersionLow",
+      "filePath": "page/src/utils/ChromeVersionLow.tsx",
+      "lineRange": [
+        4,
+        17
+      ],
+      "summary": "检测浏览器版本并在不满足要求时渲染兼容性提示。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/src/utils/dataToCanvas.ts",
+      "type": "file",
+      "name": "dataToCanvas.ts",
+      "filePath": "page/src/utils/dataToCanvas.ts",
+      "summary": "把发布态页面数据转换为物料渲染需要的画布结构，补齐元素标识并递归处理嵌套页面数据。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:page/src/utils/dataToCanvas.ts:dealDataId",
+      "type": "function",
+      "name": "dealDataId",
+      "filePath": "page/src/utils/dataToCanvas.ts",
+      "lineRange": [
+        2,
+        22
+      ],
+      "summary": "递归补齐页面元素的数据标识，保证运行时可按标识定位组件。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/dataToCanvas.ts:dealPageData",
+      "type": "function",
+      "name": "dealPageData",
+      "filePath": "page/src/utils/dataToCanvas.ts",
+      "lineRange": [
+        23,
+        105
+      ],
+      "summary": "递归转换页面及嵌套元素结构，规范化运行时渲染所需的数据。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:page/src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "function",
+      "name": "dealPageDataId",
+      "filePath": "page/src/utils/dataToCanvas.ts",
+      "lineRange": [
+        108,
+        137
+      ],
+      "summary": "从页面根数据开始执行标识补齐和画布结构转换。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/src/utils/dealApiGlobal.ts",
+      "type": "file",
+      "name": "dealApiGlobal.ts",
+      "filePath": "page/src/utils/dealApiGlobal.ts",
+      "summary": "更新页面接口配置中的环境与全局参数，把运行时公共配置合并到各接口定义。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "function",
+      "name": "updateApiConfig",
+      "filePath": "page/src/utils/dealApiGlobal.ts",
+      "lineRange": [
+        2,
+        41
+      ],
+      "summary": "把环境级公共参数合并进页面接口定义并返回更新后的接口配置。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:page/src/utils/request.ts",
+      "type": "file",
+      "name": "request.ts",
+      "filePath": "page/src/utils/request.ts",
+      "summary": "封装独立 page 运行时的 HTTP 请求层，处理请求配置、缓存、错误提示、响应转换和并发复用。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "complex",
+      "languageNotes": "请求缓存同时保存已完成响应与进行中的 Promise，用于合并并发的相同请求。"
+    },
+    {
+      "id": "function:page/src/utils/request.ts:loadCache",
+      "type": "function",
+      "name": "loadCache",
+      "filePath": "page/src/utils/request.ts",
+      "lineRange": [
+        142,
+        200
+      ],
+      "summary": "读取请求缓存并处理有效期、复用中的 Promise 与缓存结果。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:page/src/utils/util.ts",
+      "type": "file",
+      "name": "util.ts",
+      "filePath": "page/src/utils/util.ts",
+      "summary": "提供独立 page 运行时的环境判断、页面标识、树转换、接口兼容、签名和浏览器版本工具。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:isEnv",
+      "type": "function",
+      "name": "isEnv",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        7,
+        9
+      ],
+      "summary": "判断当前地址是否属于指定的运行环境。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:getPageId",
+      "type": "function",
+      "name": "getPageId",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        16,
+        24
+      ],
+      "summary": "从路由或运行环境中解析当前页面标识。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:arrayToTree",
+      "type": "function",
+      "name": "arrayToTree",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        33,
+        75
+      ],
+      "summary": "根据父子标识把扁平数组转换为树形结构。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:baseApiConvert",
+      "type": "function",
+      "name": "baseApiConvert",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        81,
+        112
+      ],
+      "summary": "把基础接口定义转换为独立 page 请求层可执行的配置。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:createId",
+      "type": "function",
+      "name": "createId",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        119,
+        127
+      ],
+      "summary": "生成页面运行时使用的随机标识。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:generateSign",
+      "type": "function",
+      "name": "generateSign",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        134,
+        147
+      ],
+      "summary": "依据请求参数生成接口签名字符串。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:page/src/utils/util.ts:getChromeVersion",
+      "type": "function",
+      "name": "getChromeVersion",
+      "filePath": "page/src/utils/util.ts",
+      "lineRange": [
+        149,
+        189
+      ],
+      "summary": "解析浏览器 User-Agent 并返回可用于兼容性判断的 Chrome 版本。",
+      "tags": [
+        "utility",
+        "page-runtime",
+        "data-transformation"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:page/src/api/index.ts",
+      "target": "function:page/src/api/index.ts:getPageDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/api/index.ts",
+      "target": "function:page/src/api/index.ts:getPageDetail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "function:page/src/page/index.tsx:Pages",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/ChromeVersionLow.tsx",
+      "target": "function:page/src/utils/ChromeVersionLow.tsx:ChromeVersionLow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/dataToCanvas.ts",
+      "target": "function:page/src/utils/dataToCanvas.ts:dealDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/dataToCanvas.ts",
+      "target": "function:page/src/utils/dataToCanvas.ts:dealPageData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/dataToCanvas.ts",
+      "target": "function:page/src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/dataToCanvas.ts",
+      "target": "function:page/src/utils/dataToCanvas.ts:dealPageDataId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/dealApiGlobal.ts",
+      "target": "function:page/src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/dealApiGlobal.ts",
+      "target": "function:page/src/utils/dealApiGlobal.ts:updateApiConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/request.ts",
+      "target": "function:page/src/utils/request.ts:loadCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:isEnv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:isEnv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:getPageId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:getPageId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:arrayToTree",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:arrayToTree",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:baseApiConvert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:baseApiConvert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:createId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:createId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:generateSign",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:generateSign",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:getChromeVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "function:page/src/utils/util.ts:getChromeVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:page/src/api/index.ts",
+      "target": "file:page/src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/api/index.ts",
+      "target": "file:page/src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/TemplateNav.tsx",
+      "target": "file:page/src/page/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:materials/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:page/src/page/index.module.less",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:page/src/page/TemplateNav.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:page/src/utils/dataToCanvas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:page/src/utils/dealApiGlobal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/page/index.tsx",
+      "target": "file:page/src/utils/request.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/utils/ChromeVersionLow.tsx",
+      "target": "file:page/src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/utils/dataToCanvas.ts",
+      "target": "file:page/src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/utils/request.ts",
+      "target": "file:page/src/utils/util.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:page/src/utils/util.ts",
+      "target": "file:page/src/types/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:page/src/utils/dataToCanvas.ts:dealPageData",
+      "target": "function:page/src/utils/dataToCanvas.ts:dealDataId",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}
