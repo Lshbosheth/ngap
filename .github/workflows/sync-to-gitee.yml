@@ -20,6 +20,6 @@ jobs:
 
       - name: Push to Gitee
         run: |
-          git remote add gitee git@gitee.com:你的用户名/你的仓库.git || true
+          git remote add gitee https://gitee.com/lshbosheth/ngap.git || true
           git push gitee --all --force
           git push gitee --tags --force
