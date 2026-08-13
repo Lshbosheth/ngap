@@ -1,4 +1,5 @@
-name: Sync to Gitee
+name: Sync to Gitee (HTTPS)
+
 on:
   push:
     branches: [master]
@@ -6,22 +7,36 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup SSH
+      - name: Push to Gitee via HTTPS
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.GITEE_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -t ed25519 gitee.com >> ~/.ssh/known_hosts
-
-      - name: Push to Gitee
-        env:
-          GIT_SSH_COMMAND: "ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes"
-        run: |
-          git remote add gitee git@gitee.com:lshbosheth/ngap.git || true
-          git push gitee --all --force
-          git push gitee --tags --force
+          echo "=== Adding Gitee remote with token ==="
+          # 格式：https://用户名:令牌@域名/用户名/仓库名.git
+          git remote add gitee https://lshbosheth:${{ secrets.GITEE_TOKEN }}@gitee.com/lshbosheth/ngap.git || true
+          
+          echo "=== Remotes (token masked by GitHub automatically) ==="
+          git remote -v | sed 's/:[^@]*@/:***@/g'  # 手动遮蔽令牌，双重保险
+          
+          echo "=== Pushing master branch (with 180s timeout) ==="
+          timeout 180 git push gitee master --force
+          PUSH_EXIT=$?
+          
+          if [ $PUSH_EXIT -eq 124 ]; then
+            echo "❌ Push timed out after 180 seconds."
+            exit 1
+          elif [ $PUSH_EXIT -ne 0 ]; then
+            echo "❌ Push failed with exit code $PUSH_EXIT"
+            exit $PUSH_EXIT
+          fi
+          
+          echo "=== Pushing tags (with 60s timeout) ==="
+          timeout 60 git push gitee --tags --force || echo "⚠️ Tag push issue, continuing..."
+          
+          echo "✅ Sync to Gitee completed successfully"
