@@ -1,4 +1,4 @@
-# NGAP 平台与重点优化需求入门指南（NGAP_REQUIREMENTS_ONBOARDING.md）
+# NGAP 平台与重点优化需求入门指南（NGAP_REQUIREMENTS_ONBOARDING）
 
 > 面向对象：刚加入 NGAP 相关项目的需求人员、产品人员、项目经理及跨项目组协作人员  
 > 文档目标：先理解当前 NGAP 平台的作用和能力，再理解本项目组负责的两个重点优化项目  
@@ -1467,9 +1467,9 @@ NGAP 页面还包含数据、事件、接口、变量、流程和生命周期。
 
 用于了解项目位置、已完成工作、真实接口样例、关键源码和当前验证状态。
 
-### 引导式流程展示编排升级详细设计（GUIDED_PROCESS_REDESIGN.md）
+### 引导式流程展示编排升级详细设计（GUIDED_PROCESS_REDESIGN）
 
-[GUIDED_PROCESS_REDESIGN.md](./GUIDED_PROCESS_REDESIGN.md)
+[GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md](<./GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md>)
 
 这是当前第一优先级项目的详细研发方案，包含数据模型、编辑器、运行时、兼容、文件改造和测试计划。
 
@@ -1485,9 +1485,9 @@ NGAP 页面还包含数据、事件、接口、变量、流程和生命周期。
 
 这是第二优先级项目的详细研发方案，包含 ZIP、`ngap.json`、SDK、服务端构建、registry、双运行时、安全和迁移。
 
-### NGAP 核心改造记录（REFACTOR_NOTES.md）
+### NGAP 核心改造记录（REFACTOR_NOTES）
 
-[REFACTOR_NOTES.md](./REFACTOR_NOTES.md)
+[REFACTOR_NOTES(NGAP核心改造记录).md](<./REFACTOR_NOTES(NGAP核心改造记录).md>)
 
 用于记录已经取得的接口样例、当前数据缺口和改造状态。
 

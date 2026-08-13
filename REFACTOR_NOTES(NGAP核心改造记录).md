@@ -1,4 +1,4 @@
-# NGAP 核心改造记录（REFACTOR_NOTES.md）
+# NGAP 核心改造记录（REFACTOR_NOTES）
 
 ## 改造目标
 
@@ -32,7 +32,7 @@
 
 ## 需求人员入门文档（2026-08-11）
 
-- 已新增 `NGAP_REQUIREMENTS_ONBOARDING.md`，面向刚进入项目的需求/产品人员介绍当前 NGAP 平台能力和业务闭环。
+- 已新增 `NGAP_REQUIREMENTS_ONBOARDING(NGAP需求人员入门指南).md`，面向刚进入项目的需求/产品人员介绍当前 NGAP 平台能力和业务闭环。
 - 文档重点说明元素、业务组件、模板、应用、接口、变量、事件、流程、审核发布和运行治理之间的关系。
 - 文档详细介绍两个重点优化项目，并明确当前顺序为：先完成步骤引导式流程改造及双运行时回归，再启动自定义元素 ZIP + SDK 正式改造。
 - 文档包含跨项目组协作清单、需求产出、验收门槛、常见误区和建议学习路径。
@@ -47,7 +47,7 @@
 - 节点执行类型确定为 `manual/automatic/service`，与 `presentation.region` 正交；服务节点默认 `control` 且不渲染。
 - 用户只维护显示名称和业务输出名，平台用不可变 `nodeId` 隔离；可读 alias 仅用于跨节点展示，不能作为主键。
 - 兼容期以 scoped runtime 为主数据，旧 `context.variable/context.api` 只由 legacy projection 生成。
-- 详细数据结构、平台 Runtime API、编辑器选择器、迁移阶段、测试矩阵和验收标准已追加到 `GUIDED_PROCESS_REDESIGN.md` 第 15 章；需求侧说明已追加到 `NGAP_REQUIREMENTS_ONBOARDING.md` 第 8.11 节。
+- 详细数据结构、平台 Runtime API、编辑器选择器、迁移阶段、测试矩阵和验收标准已追加到 `GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md` 第 15 章；需求侧说明已追加到 `NGAP_REQUIREMENTS_ONBOARDING(NGAP需求人员入门指南).md` 第 8.11 节。
 
 ## 引导式环节输出和待完善事项（2026-08-11）
 
@@ -58,7 +58,7 @@
 - 多选组合需要补充集合操作符，包括 `containsAny/containsAll/equalsSet/notContains/size...`。
 - 组件可以输出业务 `decisionCode`，但不能直接输出 `nextNodeId`；画布连线仍然是流程推进关系。
 - 已冻结单活动路径范围：支持 `A-B-D / A-C-D` 互斥分支后进入同一 D，不实现 B、C 同时执行并等待汇聚。
-- 上述完整方案已追加到引导式流程展示编排升级详细设计（`GUIDED_PROCESS_REDESIGN.md`）第 16 章。
+- 上述完整方案已追加到引导式流程展示编排升级详细设计（`GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md`）第 16 章。
 - 已新增引导式流程待完善事项（`GUIDED_PROCESS_PENDING_ITEMS(引导式待完善事项).md`），按 P0/P1/P2 记录完成边界、状态机、输出协议、条件语言、分支唯一命中、图校验、回滚、刷新恢复、失败策略、双运行时和版本治理等事项。
 - 当前用户要求先讨论和评审待完善事项，尚未要求开始本轮引导式主干编码。
 

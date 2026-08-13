@@ -154,7 +154,7 @@ ngap/
 - 智能导航
 - 顶部信息区、内容区、底部操作区
 
-详见：[GUIDED_PROCESS_REDESIGN.md](./GUIDED_PROCESS_REDESIGN.md)
+详见：[GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md](<./GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md>)
 
 ## 关键模块说明
 
@@ -261,7 +261,7 @@ ngap/
 
 ### 改造 A：引导式流程四区升级
 
-**文档：** [GUIDED_PROCESS_REDESIGN.md](./GUIDED_PROCESS_REDESIGN.md)
+**文档：** [GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md](<./GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md>)
 
 **目标：**
 - 节点支持四种展示区域：header、content、footer、control
@@ -434,9 +434,9 @@ cd page && npm run build
 
 ## 相关文档
 
-- [引导式流程重构设计](./GUIDED_PROCESS_REDESIGN.md)
+- [引导式流程重构设计](<./GUIDED_PROCESS_REDESIGN(引导式流程展示编排升级设计).md>)
 - [自定义元素 ZIP 包重写设计](<./CUSTOM_ELEMENT_REDESIGN(完整设计-理想方案).md>)
-- [改造记录](./REFACTOR_NOTES.md)
+- [改造记录](<./REFACTOR_NOTES(NGAP核心改造记录).md>)
 - [项目交接上下文](./CODEX_CONTEXT.md)
 
 ## 获取帮助
